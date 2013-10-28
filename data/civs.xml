@@ -74,9 +74,23 @@
 			<idletimeout>3.5</idletimeout>
 		</unitregen>
 		<unitregen>
+			<unittype>Minuteman</unittype>
+			<rate>-2.0</rate>
+		</unitregen>
+		<unitregen>
 			<unittype>SPCBolivar</unittype>
 			<rate>0.25</rate>
 			<idletimeout>3.5</idletimeout>
+		</unitregen>
+		<unitregen>
+			<unittype>AbstractWall</unittype>
+			<rate>0.03</rate>
+			<idletimeout>5.0</idletimeout>
+		</unitregen>
+		<unitregen>
+			<unittype>TownCenter</unittype>
+			<rate>0.03</rate>
+			<idletimeout>5.0</idletimeout>
 		</unitregen>
 		<unitregen>
 			<unittype>AbstractVillager</unittype>
