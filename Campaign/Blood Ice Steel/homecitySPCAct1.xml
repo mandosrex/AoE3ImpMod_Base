@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<HomeCity>
+	<Civ>SPCAct1</Civ>
+	<Name>$$33751$$</Name>
+	
+   <Civ>SPCAct1</Civ>
+	<Name>$$33751$$Malta</Name>
+	
+   <heroname>Knights of St. John</heroname>
+   <GatherPointUnit>HomeCityGatherFlag</GatherPointUnit>
+   <Visual>malta\malta_homecity.xml</Visual>
+   <WaterVisual>malta\malta_homecity_water.xml</WaterVisual>
+   <BackgroundVisual>malta\malta_background.xml</BackgroundVisual>
+   <PathData>malta\pathable_area_object.gr2</PathData>
+   <Camera>malta\malta_homecity_camera.cam</Camera>
+   <WidescreenCamera>malta\malta_homecity_widescreencamera.cam</WidescreenCamera>
+   <TransportRoundtripTime>1</TransportRoundtripTime>
+   <TransportActivationTime>0</TransportActivationTime>
+   <Level>10</Level>
+   <skillpoints>9</skillpoints>
+   <LightSet>Malta</LightSet>
+   <WaterType>Paris</WaterType>
+   <LevelModifier>0.8</LevelModifier>
+   <MaxCardsPerDeck>44</MaxCardsPerDeck>
+   <NumPropUnlocksEarned>0</NumPropUnlocksEarned>
+   <AmbientSounds>homecity\spcact1ambientsounds.xml</AmbientSounds>
+
+    <XSAI>generic_city</XSAI>
+
+   <Coffers>
+      <Current>
+         <Food>0</Food>
+         <Wood>0</Wood>
+         <Gold>0</Gold>
+         <Fame>0</Fame>
+         <Ships>0</Ships>
+         <SkillPoints>0</SkillPoints>
+         <XP>0</XP>
+      </Current>
+      <Maximum>
+         <Food>0</Food>
+         <Wood>0</Wood>
+         <Gold>0</Gold> 
+         <Fame>0</Fame>
+         <Ships>0</Ships>
+         <SkillPoints>-1</SkillPoints>
+         <XP>-1</XP>
+      </Maximum>
+   </Coffers>
+
+   <Cards>
+      <!-- NEW WORLD TRADING CO -->
+		<card>
+			<name>HCMercsHighlanders</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCXPMercsElmeti</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCMercsHighlanders</prereqtech>
+			<age>2</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCAdvancedMarket</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
+			<name>HCShipCrossbow1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCCrossbowCombat</name>
+			<maxcount>1</maxcount>
+			<level>15</level>
+			<prereqtech>HCShipCrossbowmen1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCXPSpanishAllies1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>11</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCXPSpanishAllies2</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCXPSpanishAllies1</prereqtech>
+			<age>2</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+      <Card>
+			<Name>HCShipSettlers1</Name>	<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>0</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>2</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCShipSettlers2</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipSettlers1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>4</DisplayUnitCount>
+		</Card>
+        <Card>
+			<Name>HCShipFoodCrates1</Name>	<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>0</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>300</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCShipFoodCrates2</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipFoodCrates1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>600</DisplayUnitCount>
+		</Card>
+        <Card>
+			<Name>HCShipWoodCrates1</Name>	<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>0</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>300</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCShipWoodCrates2</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipWoodCrates1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>600</DisplayUnitCount>
+		</Card>
+        <Card>
+			<Name>HCShipCoinCrates1</Name>	<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>0</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>300</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCShipCoinCrates2</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipCoinCrates1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>600</DisplayUnitCount>
+		</Card>
+        <Card>
+			<Name>HCShipCoveredWagons</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>1</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>HCAdmirality</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>0</Age>                  <!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCShipGalleons</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCAdmirality</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>1</DisplayUnitCount>
+		</Card>
+        <Card>
+			<Name>HCPrivateers</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipGalleons</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>2</DisplayUnitCount>
+		</Card>
+		 <Card>
+			<Name>HCShipFireships</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCAdmirality</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>2</DisplayUnitCount>
+		</Card>
+       
+      <!-- ACADEMY -->
+
+       <Card>
+			<Name>HCShipCrossbowmen1</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>8</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCHandInfantryHitpointsSpanish</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+		</Card>
+        <Card>
+			<Name>HCShipRodeleros1</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>6</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCShipRodeleros2</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipRodeleros1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>8</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCHandCavalryHitpointsSpanish</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipLancers2</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+		</Card>
+	  <Card>
+			<Name>HCHandCavalryDamageSpanish</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCHandCavalryHitpointsSpanish</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+		</Card>
+        <Card>
+			<Name>HCShipLancers1</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>4</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCShipLancers2</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipLancers1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>6</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCShipLancers3</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipLancers2</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>6</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>HCShipHoopThrowers1</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>4</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCShipHoopThrowers2</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipHoopThrowers1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>8</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCShipFalconets1</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>1</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCShipFalconets2</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipFalconets1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>2</DisplayUnitCount>
+		</Card>
+        <Card>
+			<Name>HCShipMortars1</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>2</DisplayUnitCount>
+		</Card>
+      <Card>
+			<Name>HCShipMortars2</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipMortars1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+			<DisplayUnitCount>3</DisplayUnitCount>
+		</Card>
+
+      <!-- CATHEDRAL -->
+
+      <Card>
+			<Name>HCNativeLore</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+		</Card>
+      <Card>
+			<Name>HCNativeTreaties</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCNativeLore</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+		</Card>
+      <Card>
+			<Name>HCNativeWarriors</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCNativeTreaties</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+		</Card>
+       <Card>
+			<Name>HCPioneers</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>0</Age>                  <!-- When you can play the tech -->
+		</Card>
+      <Card>
+			<Name>HCImprovedBuildings</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCPioneers</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>0</Age>                  <!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCUnlockFort</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+		</Card>
+      <Card>
+			<Name>HCHeavyFortifications</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCUnlockFort</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>2</Age>                  <!-- When you can play the tech -->
+		</Card>
+       <Card>
+			<Name>HCRoyalDecreeSPC</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>1</Age>                  <!-- When you can play the tech -->
+		</Card>
+      <Card>
+			<Name>HCAdvancedMill</Name>	<!-- Tech Name -->
+			<MaxCount>1</MaxCount>			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>					<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>     <!-- Prereq to unlock the tech -->
+			<Age>0</Age>                  <!-- When you can play the tech -->
+		</Card>     
+   </Cards>
+      
+   <Decks>	
+		<Deck>									<!-- Customized subset of my active cards -->
+			<Name>Default</Name>
+			<Cards>
+            <Card>HCShipSettlers1</Card>
+            <Card>HCShipFoodCrates1</Card>
+            <Card>HCShipCoveredWagons</Card>
+            <Card>HCShipRodeleros1</Card>
+            <Card>HCShipCrossbowmen1</Card>
+            <Card>HCShipFalconets1</Card>
+            <Card>HCNativeLore</Card>
+			</Cards>
+		</Deck>
+	</Decks>
+
+   <Building>
+		<Name>Estate</Name>
+		<Visual>
+			<File>malta\malta estate.xml</File>
+			<Bone>bone_estate</Bone>
+		</Visual>
+		<UIX>150</UIX>
+		<UIY>200</UIY>
+		<Camera>malta\malta_homecity_estate_camera.cam</Camera>
+		<WidescreenCamera>malta\malta_homecity_estate_camera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\estate_icon</Portrait>
+		<DisplayNameStringID>24968</DisplayNameStringID>
+		<RolloverStringID>25537</RolloverStringID>
+		<ObtainableTechs></ObtainableTechs>
+		<ActiveTechs></ActiveTechs>
+		<ValidUnits>
+		</ValidUnits>
+		<Units>
+		</Units>
+		<TrainBuilding>1</TrainBuilding>
+		<MercBuilding>1</MercBuilding>
+	</Building>
+
+	<Building>
+		<Name>Market</Name>
+		<Visual>
+			<File>malta\malta_tradecenter.xml</File>
+			<Bone>bone_market</Bone>
+		</Visual>
+		<UIX>250</UIX>
+		<UIY>375</UIY>
+		<Camera>malta\malta_homecity_market_camera.cam</Camera>
+		<WidescreenCamera>malta\malta_homecity_market_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\market_icon</Portrait>
+		<DisplayNameStringID>24970</DisplayNameStringID>
+		<RolloverStringID>25536</RolloverStringID>
+		<ObtainableTechs>
+
+			<Tech x="1.0" y="1.0">HCShipSettlers1</Tech>
+			<Tech x="1.0" y="2.0">HCShipSettlers2</Tech>
+		
+			<Tech x="2.3" y="1.0">HCShipFoodCrates1</Tech>
+			<Tech x="3.0" y="1.0">HCShipWoodCrates1</Tech>
+			<Tech x="3.7" y="1.0">HCShipCoinCrates1</Tech>
+			<Tech x="2.3" y="2.0">HCShipFoodCrates2</Tech>
+			<Tech x="3.0" y="2.0">HCShipWoodCrates2</Tech>
+			<Tech x="3.7" y="2.0">HCShipCoinCrates2</Tech>
+			
+			<Tech x="5.0" y="1.0">HCShipCoveredWagons</Tech>
+			<tech x="5.0" y="3.0">HCMercsHighlanders</tech>
+			<tech x="5.0" y="4.0">HCXPMercsElmeti</tech>
+			
+			<Tech x="6.5" y="1.0">HCAdmirality</Tech>
+			<Tech x="7.0" y="2.0">HCShipGalleons</Tech>
+			<Tech x="7.0" y="3.0">HCPrivateers</Tech>
+			<Tech x="6.0" y="3.0">HCShipFireships</Tech>
+ 						
+		</ObtainableTechs>
+		<ActiveTechs>
+         <Tech>HCShipSettlers1</Tech>
+         <Tech>HCShipFoodCrates1</Tech>
+         <Tech>HCShipCoveredWagons</Tech>
+      </ActiveTechs>
+		<ValidUnits></ValidUnits>
+		<Units></Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	
+	<Building>
+		<Name>Academy</Name>
+		<Visual>
+			<File>malta\malta_academy.xml</File>
+			<Bone>bone_academy</Bone>
+		</Visual>
+		<UIX>460</UIX>
+		<UIY>125</UIY>
+		<Camera>malta\malta_homecity_academy_camera.cam</Camera>
+		<WidescreenCamera>malta\malta_homecity_academy_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\academy_icon</Portrait>
+		<DisplayNameStringID>36923</DisplayNameStringID>
+		<RolloverStringID>29002</RolloverStringID>
+		<ObtainableTechs>
+
+			<Tech x="1.0" y="1.0">HCShipCrossbowmen1</Tech>
+			
+			<Tech x="2.0" y="1.0">HCShipRodeleros1</Tech>
+			<Tech x="2.0" y="2.0">HCShipRodeleros2</Tech>
+			<Tech x="2.0" y="3.0">HCHandInfantryHitpointsSpanish</Tech>
+
+			<Tech x="4.0" y="1.0">HCShipLancers1</Tech>
+			<Tech x="4.0" y="2.0">HCShipLancers2</Tech>
+		   <Tech x="3.0" y="3.0">HCHandCavalryHitpointsSpanish</Tech>
+		   <Tech x="3.0" y="4.0">HCHandCavalryDamageSpanish</Tech>
+			<Tech x="4.0" y="3.0">HCShipLancers3</Tech>
+			
+			<Tech x="5.0" y="1.0">HCShipHoopThrowers1</Tech>
+			<Tech x="5.0" y="2.0">HCShipHoopThrowers2</Tech>
+			<tech x="1.0" y="2.0">HCCrossbowCombat</tech>
+			<tech x="3.0" y="1.0">HCShipCrossbow1</tech>
+
+			<Tech x="6.0" y="1.0">HCShipFalconets1</Tech>
+			<Tech x="6.0" y="2.0">HCShipFalconets2</Tech>
+			<Tech x="7.0" y="1.0">HCShipMortars1</Tech>
+			<Tech x="7.0" y="3.0">HCShipMortars2</Tech>
+
+		</ObtainableTechs>
+		<ActiveTechs>
+         <Tech>HCShipCrossbowmen1</Tech>
+         <Tech>HCShipRodeleros1</Tech>
+         <Tech>HCShipFalconets1</Tech>
+      </ActiveTechs>
+		<ValidUnits>
+		</ValidUnits>
+		<Units></Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	
+	<Building>
+		<Name>Cathedral</Name>
+		<Visual>
+			<File>malta\malta_cathedral.xml</File>
+			<Bone>bone_cathedral</Bone>
+		</Visual>
+		<UIX>80</UIX>
+		<UIY>475</UIY>
+		<Camera>malta\malta_homecity_cathedral_camera.cam</Camera>
+		<WidescreenCamera>malta\malta_homecity_cathedral_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\cathedral_icon</Portrait>
+		<DisplayNameStringID>36922</DisplayNameStringID>
+		<RolloverStringID>25538</RolloverStringID>
+		<ObtainableTechs>
+
+         <Tech x="2.0" y="1.0">HCNativeLore</Tech>
+         <Tech x="2.0" y="2.0">HCNativeTreaties</Tech>
+         <Tech x="2.0" y="3.0">HCNativeWarriors</Tech>
+
+         <Tech x="3.0" y="1.0">HCPioneers</Tech>
+   		 <Tech x="3.0" y="3.0">HCImprovedBuildings</Tech>
+
+         <Tech x="4.0" y="3.0">HCUnlockFort</Tech>
+         <Tech x="4.0" y="4.0">HCHeavyFortifications</Tech>
+
+		 <Tech x="5.0" y="1.0">HCRoyalDecreeSPC</Tech>
+         <Tech x="6.0" y="1.0">HCAdvancedMill</Tech>
+			<tech x="6.0" y="2.0">HCAdvancedMarket</tech>
+
+      </ObtainableTechs>
+		<ActiveTechs>
+		  <Tech>HCNativeLore</Tech>
+		</ActiveTechs>			
+		<ValidUnits></ValidUnits>
+		<Units></Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+
+   <Waypoints>
+      <Waypoint>
+         <Bone>bone_pathnode_01</Bone> <PerformanceArea>1</PerformanceArea> 
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_02</Bone> <Exit>1</Exit> <InteriorArea>1</InteriorArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_03</Bone> <PerformanceArea>1</PerformanceArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_04</Bone> <PerformanceArea>1</PerformanceArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_05</Bone> <PerformanceArea>1</PerformanceArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_06</Bone> 
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_07</Bone> <Dock>1</Dock> <Exit>1</Exit> <VendorEntry>1</VendorEntry>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_08</Bone> <PerformanceArea>1</PerformanceArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_09</Bone> <PerformanceArea>1</PerformanceArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_10</Bone> <InteriorArea>1</InteriorArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_11</Bone>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_12</Bone> 
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_13</Bone> <Exit>1</Exit> <VendorEntry>1</VendorEntry>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_14</Bone> <Exit>1</Exit> <VendorEntry>1</VendorEntry>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_15</Bone> <PerformanceArea>1</PerformanceArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_16</Bone> <Exit>1</Exit> <VendorEntry>1</VendorEntry>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_17</Bone> <Exit>1</Exit> <VendorEntry>1</VendorEntry>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_18</Bone>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_19</Bone> <Exit>1</Exit> <VendorEntry>1</VendorEntry>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_20</Bone>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_21</Bone> 
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_22</Bone> <PerformanceArea>1</PerformanceArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_23</Bone> <Exit>1</Exit> <VendorEntry>1</VendorEntry>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_24</Bone> <PerformanceArea>1</PerformanceArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_25</Bone>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_26</Bone> <PerformanceArea>1</PerformanceArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_27</Bone> <PerformanceArea>1</PerformanceArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_28</Bone> 
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_29</Bone>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_pathnode_30</Bone> <IllReputeArea>1</IllReputeArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_academy_doorway</Bone> <Door>1</Door>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_small_church_doorway</Bone> <Door>1</Door>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_cathedral_doorway</Bone> <Door>1</Door>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_cathedral_side_doorway</Bone> <Door>1</Door>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_dock_doorway</Bone> <Door>1</Door>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_market_doorway</Bone> <Door>1</Door> <Exit>1</Exit> 
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_fishing01</Bone> <FishingArea>1</FishingArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_fishing02</Bone> <FishingArea>1</FishingArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_fishing03</Bone> <FishingArea>1</FishingArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_fishing04</Bone> <FishingArea>1</FishingArea>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_shipment_start</Bone> <ShipmentStart>1</ShipmentStart>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_shipment_end</Bone> <ShipmentEnd>1</ShipmentEnd>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_dregs01</Bone> <ShipmentEnd>1</ShipmentEnd>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_dregs02</Bone> <ShipmentEnd>1</ShipmentEnd>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_dregs03</Bone> <ShipmentEnd>1</ShipmentEnd>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_dregs04</Bone> <ShipmentEnd>1</ShipmentEnd>
+      </Waypoint>
+         <Waypoint>
+         <Bone>bone_vendor01</Bone> <VendorArea>1</VendorArea>>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_vendor02</Bone> <VendorArea>1</VendorArea>>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_vendor03</Bone> <VendorArea>1</VendorArea>>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_vendor04</Bone> <VendorArea>1</VendorArea>>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_vendor05</Bone> <VendorArea>1</VendorArea>>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_vendor06</Bone> <VendorArea>1</VendorArea>>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_vendor07</Bone> <VendorArea>1</VendorArea>>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_vendor08</Bone> <VendorArea>1</VendorArea>>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_firework01</Bone> <Fireworks>1</Fireworks>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_firework02</Bone> <Fireworks>1</Fireworks>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_firework03</Bone> <Fireworks>1</Fireworks>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_firework04</Bone> <Fireworks>1</Fireworks>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_firework05</Bone> <Fireworks>1</Fireworks>
+      </Waypoint>
+      <Waypoint>
+         <Bone>bone_firework06</Bone> <Fireworks>1</Fireworks>
+      </Waypoint>
+   </Waypoints>
+	
+   <ObtainableProps>
+      <Prop>StageCoachRoyal</Prop>
+      <Prop>Torchy</Prop>
+      <Prop>Juggler</Prop>
+      <Prop>PeasantVendor</Prop>
+      <Prop>MiddleClassMusician</Prop>
+      <Prop>MiddleClassPreacher</Prop>
+      <Prop>PeasantPainter</Prop>
+      <Prop>Drunk</Prop>
+      <Prop>NiceLady</Prop>
+      <Prop>PeasantFisherman</Prop>
+      <Prop>Thug</Prop>
+      <Prop>UnitChats</Prop>
+      <Prop>SPCAct1_CathProp01</Prop>
+      <Prop>SPCAct1_NWCTProp01</Prop>
+      <Prop>SPCAct1_AcadProp01</Prop>
+      <Prop Active="1">SPCAct1_NWTCTexture0</Prop>
+      <Prop>SPCAct1_NWTCTexture1</Prop>
+      <Prop>SPCAct1_NWTCTexture2</Prop>
+      <Prop>SPCAct1_NWTCTexture3</Prop>
+      <Prop>SPCAct1_NWTCTexture4</Prop>
+      <Prop>SPCAct1_NWTCTexture5</Prop>
+      <Prop>SPCAct1_NWTCTexture6</Prop>
+      <Prop>SPCAct1_NWTCTexture7</Prop>
+      <Prop Active="1">SPCAct1_AcademyTexture0</Prop>
+      <Prop>SPCAct1_AcademyTexture1</Prop>
+      <Prop>SPCAct1_AcademyTexture2</Prop>
+      <Prop>SPCAct1_AcademyTexture3</Prop>
+      <Prop>SPCAct1_AcademyTexture4</Prop>
+      <Prop>SPCAct1_AcademyTexture5</Prop>
+      <Prop>SPCAct1_AcademyTexture6</Prop>
+      <Prop>SPCAct1_AcademyTexture7</Prop>
+      <Prop Active="1">SPCAct1_CathedralTexture0</Prop>
+      <Prop>SPCAct1_CathedralTexture1</Prop>
+      <Prop>SPCAct1_CathedralTexture2</Prop>
+      <Prop>SPCAct1_CathedralTexture3</Prop>
+   </ObtainableProps>
+   
+</HomeCity>

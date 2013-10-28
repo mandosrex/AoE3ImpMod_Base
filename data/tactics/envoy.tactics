@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="42178">Gather</name>
+		<type>Gather</type>
+		<anim>Gather</anim>
+		<maxrange>0.5</maxrange>
+		<rate type="TownCenter">1.0</rate>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Raze_attack</anim>
+		<idleanim>Raze_idle</idleanim>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>TorchProjectile</projectile>
+	</action>
+	<action>
+		<name stringid="38134">HandAttack</name>
+		<type>HandAttack</type>
+		<maxrange>1.0</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="24102">Build</name>
+		<type>Build</type>
+		<anim>Build</anim>
+		<maxrange>0.2</maxrange>
+		<rate type="Building">1.0</rate>
+	</action>
+	<tactic>
+		Normal
+		<action priority="100">BuildingAttack</action>
+		<action priority="75">HandAttack</action>
+		<action>Gather</action>
+		<action>Build</action>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

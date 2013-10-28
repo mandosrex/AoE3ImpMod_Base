@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "26983" imagepath = "ui\random_map\amazon" displayNameID = "26982" cannotReplace = ""
+	loadDetails="35936" loadBackground="ui\random_map\amazon\amazon_map">
+	<loadss>ui\random_map\amazon\amazon_ss_01</loadss>
+    <loadss>ui\random_map\amazon\amazon_ss_02</loadss>
+    <loadss>ui\random_map\amazon\amazon_ss_03</loadss>
+</mapinfo>

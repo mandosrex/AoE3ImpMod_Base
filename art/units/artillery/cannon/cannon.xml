@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>Bone_launchpoint</definebone>
+	<definebone>bone_fuse</definebone>
+	<definebone>bone_cart</definebone>
+	<definebone>bone_wheelcannonR</definebone>
+	<definebone>bone_wheelcannonL</definebone>
+	<definebone>bone_hat</definebone>
+	<definebone>Bip01 Head</definebone>
+	<definebone>Bip02 Head</definebone>
+	<attachment>
+		hats
+		<include>units\artillery\cannon\factory_hats.xml</include>
+	</attachment>
+	<attachment>
+		Horse_Dust
+		<component>
+			Horse_Dust
+			<assetreference type="ParticleSystem">
+				<file>effects\animal particles\horse_dust.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Horse_Dust</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_cannon_small_smoke_puff_ring
+		<component>
+			cannon_small_smoke_puff_ring
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\HCcannon_small_smoke_puff_ring.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>cannon_small_smoke_puff_ring</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_cannon_small_barrel_explosion
+		<component>
+			cannon_small_barrel_explosion
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\HCcannon_small_barrel_explosion.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>cannon_small_barrel_explosion</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_cannon_small_fuse_fire
+		<component>
+			cannon_small_fuse_fire
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\cannon_small_fuse_fire.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>cannon_small_fuse_fire</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_cannon_small_smoking_barrel
+		<component>
+			cannon_small_smoking_barrel
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\cannon_small_smoking_barrel.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>cannon_small_smoking_barrel</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_cannon_small_blast
+		<component>
+			cannon_small_blast
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\cannon_small_blast.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>cannon_small_blast</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_battlefield_smoke
+		<component>
+			battlefield_smoke
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\HCbattlefield_smoke.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>battlefield_smoke</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_cannon_small_flash
+		<component>
+			cannon_small_flash
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\cannon_small_flash.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>cannon_small_flash</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_cannon_small_sparks
+		<component>
+			cannon_small_sparks
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\HCcannon_small_sparks.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>cannon_small_sparks</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_cannon_small_smoke_puff_a
+		<component>
+			cannon_small_smoke_puff_a
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\HCcannon_small_smoke_puffa.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>cannon_small_smoke_puff_a</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_cannon_coneblast
+		<component>
+			cannon_coneblast
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\cannon_coneblast.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>cannon_coneblast</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_cannon_small_smoke_puff_b
+		<component>
+			cannon_small_smoke_puff_b
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\HCcannon_small_smoke_puff_b.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>cannon_small_smoke_puff_b</component>
+		</anim>
+	</attachment>
+	<component>
+		cannon
+		<linksection>
+			<linkoffset>0</linkoffset>
+			<linkcomponent>cannon</linkcomponent>
+			<linkcomponent>wheel_cannon</linkcomponent>
+			<linkconstraint>1</linkconstraint>
+		</linksection>
+		<logic type="Tech">
+			<none>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\cannon\cannon</file>
+						</assetreference>
+			</none>
+			<imperialcannon>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\cannon\cannon</file>
+							<replacetexture>
+								<from>units\artillery\cannon\cannon</from>
+								<to>units\artillery\cannon\imperialcannon</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
+			</imperialcannon>
+			<imperialcannonus>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\cannon\cannon</file>
+							<replacetexture>
+								<from>units\artillery\cannon\cannon</from>
+								<to>units\artillery\cannon\impuscannon</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
+			</imperialcannonus>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>2.00</width>
+			<height>4.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\artillery\cannon\wheel_B</texture>
+			<width>1.75</width>
+			<height>2.00</height>
+		</watersplash>
+	</component>
+	<component>
+		cannon stripped
+		<logic type="Tech">
+			<none>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\cannon\cannon_stripped model</file>
+						</assetreference>
+			</none>
+			<imperialcannon>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\cannon\cannon_stripped model</file>
+							<replacetexture>
+								<from>units\artillery\cannon\cannon</from>
+								<to>units\artillery\cannon\imperialcannon</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
+			</imperialcannon>
+			<imperialcannonus>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\cannon\cannon_stripped model</file>
+							<replacetexture>
+								<from>units\artillery\cannon\cannon</from>
+								<to>units\artillery\cannon\impuscannon</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
+			</imperialcannonus>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>2.00</width>
+			<height>4.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\artillery\cannon\wheel_B</texture>
+			<width>1.75</width>
+			<height>2.00</height>
+		</watersplash>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_walka</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.14</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.26</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.38</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.51</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.64</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.77</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.90</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.03</tag>
+		</assetreference>
+		<component>cannon</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_walka</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.14</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.26</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.38</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.51</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.64</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.77</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.90</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.03</tag>
+		</assetreference>
+		<component>cannon</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_walka</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.14</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.26</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.38</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.51</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.64</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.77</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.90</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.03</tag>
+		</assetreference>
+		<component>cannon</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		idle
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_idleA</file>
+		</assetreference>
+		<component>cannon</component>
+	</anim>
+	<anim>
+		bored
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_boreda</file>
+		</assetreference>
+		<component>cannon</component>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_deatha</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.42</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.04</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.60</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.14</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="AmbienceHorse">0.09</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.41</tag>
+		</assetreference>
+		<component>cannon</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_deatha</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.48</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.03</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.60</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.41</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="AmbienceHorse">0.10</tag>
+		</assetreference>
+		<component>cannon</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_combat_cheer</file>
+		</assetreference>
+		<component>cannon</component>
+	</anim>
+	<anim>
+		Limber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_limbera</file>
+		</assetreference>
+		<component>cannon</component>
+	</anim>
+	<anim>
+		Unlimber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_unlimberA</file>
+		</assetreference>
+		<component>cannon</component>
+	</anim>
+	<anim>
+		Bombard_ranged_idle
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_combat_idlea</file>
+		</assetreference>
+		<component>cannon stripped</component>
+	</anim>
+	<anim>
+		Bombard_ranged_attack
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_attacka</file>
+			<tag type="Attack">0.10</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CannonShoot">0.10</tag>
+			<tag type="CameraShake" force="0.07" duration="0.2">0.10</tag>
+		</assetreference>
+		<component>cannon stripped</component>
+		<attach a="attachment_cannon_small_barrel_explosion" frombone="ATTACHPOINT" tobone="Bone_launchpoint" syncanims="0"/>
+		<attach a="attachment_cannon_small_sparks" frombone="ATTACHPOINT" tobone="Bone_launchpoint" syncanims="0"/>
+		<attach a="attachment_cannon_small_smoke_puff_ring" frombone="ATTACHPOINT" tobone="Bone_launchpoint" syncanims="0"/>
+		<attach a="attachment_battlefield_smoke" frombone="ATTACHPOINT" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="attachment_cannon_small_smoke_puff_a" frombone="ATTACHPOINT" tobone="Bone_launchpoint" syncanims="0"/>
+		<attach a="attachment_cannon_small_smoking_barrel" frombone="ATTACHPOINT" tobone="Bone_launchpoint" syncanims="0"/>
+		<attach a="attachment_cannon_small_smoke_puff_b" frombone="ATTACHPOINT" tobone="Bone_launchpoint" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_aim
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_combat_idlea</file>
+		</assetreference>
+		<component>cannon stripped</component>
+	</anim>
+	<anim>
+		Bombard_reload
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_reloada</file>
+		</assetreference>
+		<component>cannon stripped</component>
+	</anim>
+	<anim>
+		Bombard_ranged_bored
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_combat_idlea</file>
+		</assetreference>
+		<component>cannon stripped</component>
+	</anim>
+	<anim>
+		Bombard_melee_idle
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_combat_idlea</file>
+		</assetreference>
+		<component>cannon stripped</component>
+	</anim>
+	<anim>
+		Bombard_melee_attack
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_attacka</file>
+			<tag type="Attack">0.10</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CannonShoot">0.10</tag>
+		</assetreference>
+		<component>cannon stripped</component>
+	</anim>
+	<anim>
+		Bombard_walk
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_bombard_walk</file>
+		</assetreference>
+		<component>cannon stripped</component>
+	</anim>
+	<anim>
+		Bombard_jog
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_bombard_walk</file>
+		</assetreference>
+		<component>cannon stripped</component>
+	</anim>
+	<anim>
+		Bombard_run
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_bombard_walk</file>
+		</assetreference>
+		<component>cannon stripped</component>
+	</anim>
+	<anim>
+		Bombard_limber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_limbera</file>
+		</assetreference>
+		<component>cannon</component>
+	</anim>
+	<anim>
+		Bombard_unlimber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_unlimberA</file>
+		</assetreference>
+		<component>cannon</component>
+	</anim>
+	<anim>
+		Bombard_death
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\cannon\cannon_combat_deatha</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.03</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.42</tag>
+		</assetreference>
+		<component>cannon stripped</component>
+	</anim>
+</animfile>

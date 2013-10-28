@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_launchpoint</definebone>
+	<definebone>bone_fuse</definebone>
+	<definebone>bone_cart</definebone>
+	<definebone>bone_wheelcannonR</definebone>
+	<definebone>bone_wheelcannonL</definebone>
+	<definebone>bone_hat</definebone>
+	<definebone>Bip01 Head</definebone>
+	<definebone>Bip02 Head</definebone>
+	<attachment>
+		Horse_Dust
+		<component>
+			Horse_Dust
+			<assetreference type="ParticleSystem">
+				<file>effects\animal particles\horse_dust.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Horse_Dust</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_battlefield_smoke
+		<component>
+			battlefield_smoke
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\battlefield_smoke.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>battlefield_smoke</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hats
+		<include>units\artillery\falconet\gunner_hats.xml</include>
+	</attachment>
+	<component>
+		culverin
+		<linksection>
+			<linkoffset>.1</linkoffset>
+			<linkcomponent>horse</linkcomponent>
+			<linkconstraint>0</linkconstraint>
+		</linksection>
+		<linksection>
+			<linkoffset>-1.6</linkoffset>
+			<linkcomponent>culverin</linkcomponent>
+			<linkcomponent>gunner_a</linkcomponent>
+			<linkconstraint>1</linkconstraint>
+		</linksection>
+		<logic type="Tech">
+			<none>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\culverin\culverin</file>
+						</assetreference>
+			</none>
+			<grapeshot>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\culverin\culverin</file>
+							<replacetexture>
+								<from>units\artillery\culverin\culverin</from>
+								<to>units\artillery\culverin\culverin_grape</to>
+							</replacetexture>
+						</assetreference>
+			</grapeshot>
+			<imperialculverin>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\culverin\culverin</file>
+							<replacetexture>
+								<from>units\artillery\culverin\culverin</from>
+								<to>units\artillery\culverin\imperialculverin</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
+			</imperialculverin>
+			<grapeshotus>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\culverin\culverin</file>
+							<replacetexture>
+								<from>units\artillery\culverin\culverin</from>
+								<to>units\artillery\culverin\culverin_grape</to>
+							</replacetexture>
+						</assetreference>
+			</grapeshotus>
+			<imperialculverinus>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\culverin\culverin</file>
+							<replacetexture>
+								<from>units\artillery\culverin\culverin</from>
+								<to>units\artillery\culverin\imperialculverin</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
+			</imperialculverinus>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>2.00</width>
+			<height>4.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\artillery\cannon\wheel_B</texture>
+			<width>1.75</width>
+			<height>2.00</height>
+		</watersplash>
+	</component>
+	<component>
+		culverin_stripped
+		<linksection>
+			<linkoffset>0</linkoffset>
+			<linkcomponent>culverin</linkcomponent>
+			<linkcomponent>gunner_a</linkcomponent>
+			<linkconstraint>1</linkconstraint>
+		</linksection>
+		<logic type="Tech">
+			<none>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\culverin\culverin_stripped</file>
+						</assetreference>
+			</none>
+			<grapeshot>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\culverin\culverin_stripped</file>
+							<replacetexture>
+								<from>units\artillery\culverin\culverin</from>
+								<to>units\artillery\culverin\culverin_grape</to>
+							</replacetexture>
+						</assetreference>
+			</grapeshot>
+			<imperialculverin>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\culverin\culverin_stripped</file>
+							<replacetexture>
+								<from>units\artillery\culverin\culverin</from>
+								<to>units\artillery\culverin\imperialculverin</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
+			</imperialculverin>
+			<grapeshotus>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\culverin\culverin_stripped</file>
+							<replacetexture>
+								<from>units\artillery\culverin\culverin</from>
+								<to>units\artillery\culverin\culverin_grape</to>
+							</replacetexture>
+						</assetreference>
+			</grapeshotus>
+			<imperialculverinus>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\culverin\culverin_stripped</file>
+							<replacetexture>
+								<from>units\artillery\culverin\culverin</from>
+								<to>units\artillery\culverin\imperialculverin</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
+			</imperialculverinus>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>2.00</width>
+			<height>4.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\artillery\cannon\wheel_B</texture>
+			<width>1.75</width>
+			<height>2.00</height>
+		</watersplash>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_walk_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.28</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.77</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.94</tag>
+		</assetreference>
+		<component>culverin</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_walk_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.28</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.77</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.94</tag>
+		</assetreference>
+		<component>culverin</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_walk_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.28</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.77</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.94</tag>
+		</assetreference>
+		<component>culverin</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		idle
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_idle_a</file>
+		</assetreference>
+		<component>culverin</component>
+	</anim>
+	<anim>
+		bored
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_idle_a</file>
+		</assetreference>
+		<component>culverin</component>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_combatdeath_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.64</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.54</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="AmbienceHorse">0.02</tag>
+		</assetreference>
+		<component>culverin</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_combatdeath_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.64</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.55</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="AmbienceHorse">0.03</tag>
+		</assetreference>
+		<component>culverin</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_cheer_a</file>
+		</assetreference>
+		<component>culverin</component>
+	</anim>
+	<anim>
+		Limber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_limber_a</file>
+		</assetreference>
+		<component>culverin</component>
+	</anim>
+	<anim>
+		Unlimber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_unlimber_a</file>
+		</assetreference>
+		<component>culverin</component>
+	</anim>
+	<anim>
+		Bombard_ranged_idle
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_combatidle_a</file>
+		</assetreference>
+		<component>culverin_stripped</component>
+	</anim>
+	<anim>
+		Bombard_ranged_attack
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_attack_a</file>
+			<tag type="Attack">0.03</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CulverinShoot">0.03</tag>
+			<tag type="Particles" particlename="smallcannonmuzzle">0.02</tag>
+		</assetreference>
+		<component>culverin_stripped</component>
+		<attach a="attachment_battlefield_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_aim
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_combatidle_a</file>
+		</assetreference>
+		<component>culverin_stripped</component>
+	</anim>
+	<anim>
+		Bombard_reload
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_reload_a</file>
+		</assetreference>
+		<component>culverin_stripped</component>
+	</anim>
+	<anim>
+		Bombard_bored
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_combatidle_a</file>
+		</assetreference>
+		<component>culverin_stripped</component>
+	</anim>
+	<anim>
+		Bombard_walk
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_bombard_walk</file>
+		</assetreference>
+		<component>culverin_stripped</component>
+	</anim>
+	<anim>
+		Bombard_jog
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_walk_a</file>
+		</assetreference>
+		<component>culverin_stripped</component>
+	</anim>
+	<anim>
+		Bombard_run
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_walk_a</file>
+		</assetreference>
+		<component>culverin_stripped</component>
+	</anim>
+	<anim>
+		Bombard_limber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_limber_a</file>
+		</assetreference>
+		<component>culverin</component>
+	</anim>
+	<anim>
+		Bombard_unlimber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_unlimber_a</file>
+		</assetreference>
+		<component>culverin</component>
+	</anim>
+	<anim>
+		Bombard_death
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\culverin\culverin_death_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.51</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.54</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+		</assetreference>
+		<component>culverin_stripped</component>
+	</anim>
+</animfile>

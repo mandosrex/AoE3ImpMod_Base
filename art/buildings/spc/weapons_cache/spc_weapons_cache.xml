@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_Object02</definebone>
+	<definebone>bone_Object05</definebone>
+	<definebone>bone_Object09</definebone>
+	<definebone>bone_Object04</definebone>
+	<definebone>bone_Object10</definebone>
+	<definebone>bone_FX01</definebone>
+	<definebone>bone_FX02</definebone>
+	<definebone>bone_FX03</definebone>
+	<definebone>bone_FX04</definebone>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\construction\asi_3x3_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_02
+		<attachment>
+			frame
+			<component>
+				aztec_frame
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_3x3_frame</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>aztec_frame</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\construction\asi_3x3_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="frame" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_03
+		<attachment>
+			scalf
+			<component>
+				scalf
+				<assetreference type="GrannyModel">
+					<file>buildings\spc\weapons_cache\spc_weapons_cache</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scalf</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\construction\asi_3x3_stage2</file>
+			</assetreference>
+			<attach a="scalf" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		cache
+	<attachment>
+		DebrisSmoke1
+		<component>
+			DebrisSmokeEmitter1
+			<assetreference type="ParticleSystem">
+				<file>effects\smoke\smokestreamer.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>DebrisSmokeEmitter1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DebrisSmoke2
+		<component>
+			DebrisSmokeEmitter2
+			<assetreference type="ParticleSystem">
+				<file>effects\smoke\smokestreamer.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>DebrisSmokeEmitter2</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DebrisSmoke3
+		<component>
+			DebrisSmokeEmitter3
+			<assetreference type="ParticleSystem">
+				<file>effects\smoke\smokestreamer.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>DebrisSmokeEmitter3</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DebrisSmoke4
+		<component>
+			DebrisSmokeEmitter4
+			<assetreference type="ParticleSystem">
+				<file>effects\smoke\smokestreamer.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>DebrisSmokeEmitter4</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DebrisSmoke5
+		<component>
+			DebrisSmokeEmitter5
+			<assetreference type="ParticleSystem">
+				<file>effects\smoke\smokestreamer.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>DebrisSmokeEmitter5</component>
+		</anim>
+	</attachment>
+	<attachment>
+		SpotOne
+		<include>buildings\spc\weapons_cache\blackpowderFX.xml</include>
+	</attachment>
+	<attachment>
+		SpotTwo
+		<include>buildings\spc\weapons_cache\blackpowderFX.xml</include>
+	</attachment>
+	<attachment>
+		SpotThree
+		<include>buildings\spc\weapons_cache\blackpowderFX.xml</include>
+	</attachment>
+	<attachment>
+		SpotFour
+		<include>buildings\spc\weapons_cache\blackpowderFX.xml</include>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Destruction">
+			<p1>
+				<assetreference type="GrannyModel" shape="spc_WeaponsCache">
+					<file>buildings\spc\weapons_cache\spc_weapons_cache_damaged</file>
+				</assetreference>
+				<attach a="SpotThree" frombone="ATTACHPOINT" tobone="bone_FX03" syncanims="0"/>
+				<attach a="SpotFour" frombone="ATTACHPOINT" tobone="bone_FX04" syncanims="0"/>
+				<attach a="SpotTwo" frombone="ATTACHPOINT" tobone="bone_FX02" syncanims="0"/>
+				<attach a="SpotOne" frombone="ATTACHPOINT" tobone="bone_FX01" syncanims="0"/>
+			</p1>
+			<p15>
+				<assetreference type="GrannyModel" shape="spc_WeaponsCache">
+					<file>buildings\spc\weapons_cache\spc_weapons_cache_damaged</file>
+				</assetreference>
+				<attach a="SpotTwo" frombone="ATTACHPOINT" tobone="bone_FX02" syncanims="0"/>
+				<attach a="SpotFour" frombone="ATTACHPOINT" tobone="bone_FX04" syncanims="0"/>
+				<attach a="SpotTwo" frombone="ATTACHPOINT" tobone="bone_FX02" syncanims="0"/>
+				<attach a="SpotThree" frombone="ATTACHPOINT" tobone="bone_FX03" syncanims="0"/>
+			</p15>
+			<p30>
+				<assetreference type="GrannyModel" shape="spc_WeaponsCache">
+					<file>buildings\spc\weapons_cache\spc_weapons_cache_damaged</file>
+				</assetreference>
+				<attach a="SpotThree" frombone="ATTACHPOINT" tobone="bone_FX03" syncanims="0"/>
+				<attach a="SpotFour" frombone="ATTACHPOINT" tobone="bone_FX04" syncanims="0"/>
+				<attach a="SpotTwo" frombone="ATTACHPOINT" tobone="bone_FX02" syncanims="0"/>
+			</p30>
+			<p50>
+				<assetreference type="GrannyModel" shape="spc_WeaponsCache">
+					<file>buildings\spc\weapons_cache\spc_weapons_cache_damaged</file>
+				</assetreference>
+				<attach a="SpotOne" frombone="ATTACHPOINT" tobone="bone_FX01" syncanims="0"/>
+				<attach a="SpotTwo" frombone="ATTACHPOINT" tobone="bone_FX02" syncanims="0"/>
+			</p50>
+			<p75>
+				<assetreference type="GrannyModel" shape="spc_WeaponsCache">
+					<file>buildings\spc\weapons_cache\spc_weapons_cache_damaged</file>
+				</assetreference>
+				<attach a="SpotOne" frombone="ATTACHPOINT" tobone="bone_FX01" syncanims="0"/>
+			</p75>
+			<p99>
+				<assetreference type="GrannyModel" shape="spc_WeaponsCache">
+					<file>buildings\spc\weapons_cache\spc_weapons_cache</file>
+				</assetreference>
+			</p99>
+		</logic>
+		<decal>
+			<effecttype>bump</effecttype>
+			<texture>buildings\spc\weapons_cache\spc_weapons_cache_decal</texture>
+			<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+			<bumptexture>buildings\spc\weapons_cache\spc_weapons_cache_decal_bumpmap</bumptexture>
+			<width>7.00</width>
+			<height>7.00</height>
+		</decal>
+	</component>
+	<component>
+		Death
+		<assetreference type="GrannyModel">
+			<file>buildings\spc\weapons_cache\spc_weapons_cacheDeathModel</file>
+		</assetreference>
+		<decal>
+			<effecttype>bump</effecttype>
+			<texture>buildings\spc\weapons_cache\spc_weapons_cache_decal</texture>
+			<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+			<bumptexture>buildings\spc\weapons_cache\spc_weapons_cache_decal_bumpmap</bumptexture>
+			<width>7.00</width>
+			<height>7.00</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>buildings\spc\weapons_cache\spc_weapons_cache_damaged</model>
+			<damagetemplate>buildings\spc\weapons_cache\spc_weapons_cache.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>buildings\spc\weapons_cache\spc_weapons_cacheDeathAnim</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Explosion">0.12</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.02</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.03</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.06</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.09</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.12</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.54</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.38</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.31</tag>
+			<tag type="Particles" particlename="wcsmallexp_01">0.02</tag>
+			<tag type="Particles" particlename="wcsmallexp_02">0.03</tag>
+			<tag type="Particles" particlename="wcsmallexp_03">0.06</tag>
+			<tag type="Particles" particlename="wcsmallexp_04">0.09</tag>
+			<tag type="Particles" particlename="wclargeexp">0.12</tag>
+		</assetreference>
+		<component>Death</component>
+		<attach a="DebrisSmoke1" frombone="ATTACHPOINT" tobone="bone_Object02" syncanims="0"/>
+		<attach a="DebrisSmoke2" frombone="ATTACHPOINT" tobone="bone_Object04" syncanims="0"/>
+		<attach a="DebrisSmoke3" frombone="ATTACHPOINT" tobone="bone_Object05" syncanims="0"/>
+		<attach a="DebrisSmoke4" frombone="ATTACHPOINT" tobone="bone_Object09" syncanims="0"/>
+		<attach a="DebrisSmoke5" frombone="ATTACHPOINT" tobone="bone_Object10" syncanims="0"/>
+	</anim>
+	</submodel>
+	<component>
+		waponscache
+		<logic type="Tech">
+			<none>
+				<logic type="BuildingCompletion">
+					<p0>
+						<submodelref ref="sub_construction_stage_01"/>
+					</p0>
+					<p33>
+						<submodelref ref="sub_construction_stage_02"/>
+					</p33>
+					<p66>
+						<submodelref ref="sub_construction_stage_03"/>
+					</p66>
+					<p100>
+						<submodelref ref="cache"/>
+					</p100>
+				</logic>
+			</none>
+		</logic>
+	</component>
+</animfile>

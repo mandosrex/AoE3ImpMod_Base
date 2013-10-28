@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38134">HandAttack</name>
+		<type>Attack</type>
+		<maxrange>4</maxrange>
+		<rate type="All">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>HandAttack</anim>
+		<idleanim>Idle</idleanim>
+		<selfdestruct>1</selfdestruct>
+	</action>
+	<action>
+		<dbaction>BoatManager</dbaction>
+		<name stringid="69156">BoatManager</name>
+		<type>BoatManager</type>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action priority="100">HandAttack</action>
+		<action>BoatManager</action>
+		<idleanim>Idle</idleanim>
+		<moveanim>Walk</moveanim>
+		<deathanim>Death</deathanim>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeNavalMilitary</autoattacktype>
+		<attackresponsetype>LogicalTypeNavalMilitary</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

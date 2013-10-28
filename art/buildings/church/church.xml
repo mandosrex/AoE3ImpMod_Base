@@ -1,0 +1,3432 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_1d</definebone>
+	<definebone>bone_debris_1e</definebone>
+	<definebone>bone_debris_1f</definebone>
+	<definebone>bone_debris_1g</definebone>
+	<definebone>bone_debris_1h</definebone>
+	<definebone>bone_debris_1i</definebone>
+	<definebone>bone_debris_1j</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_2d</definebone>
+	<definebone>bone_debris_2e</definebone>
+	<definebone>bone_debris_2f</definebone>
+	<definebone>bone_debris_2g</definebone>
+	<definebone>bone_debris_2h</definebone>
+	<definebone>bone_debris_2i</definebone>
+	<definebone>bone_debris_2j</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>bone_debris_3d</definebone>
+	<definebone>bone_debris_3e</definebone>
+	<definebone>bone_debris_3f</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_4c</definebone>
+	<definebone>bone_debris_4d</definebone>
+	<definebone>bone_debris_4e</definebone>
+	<definebone>bone_debris_4f</definebone>
+	<definebone>bone_debris_4g</definebone>
+	<definebone>bone_debris_4h</definebone>
+	<definebone>bone_debris_4i</definebone>
+	<definebone>bone_debris_4j</definebone>
+	<definebone>bone_debris_4k</definebone>
+	<definebone>bone_debris_5a</definebone>
+	<definebone>bone_debris_5b</definebone>
+	<definebone>bone_debris_5c</definebone>
+	<definebone>bone_debris_5d</definebone>
+	<definebone>bone_debris_5e</definebone>
+	<definebone>bone_debris_6a</definebone>
+	<definebone>bone_debris_6b</definebone>
+	<definebone>bone_debris_6c</definebone>
+	<definebone>bone_debris_7a</definebone>
+	<definebone>bone_debris_7b</definebone>
+	<definebone>bone_debris_7c</definebone>
+	<definebone>bone_debris_7d</definebone>
+	<definebone>bone_debris_7e</definebone>
+	<definebone>bone_debris_8a</definebone>
+	<definebone>bone_debris_8b</definebone>
+	<definebone>bone_debris_8c</definebone>
+	<definebone>bone_debris_8d</definebone>
+	<definebone>bone_debris_8e</definebone>
+	<definebone>bone_debris_8f</definebone>
+	<definebone>bone_debris_9a</definebone>
+	<definebone>bone_debris_9b</definebone>
+	<definebone>bone_debris_9c</definebone>
+	<definebone>bone_debris_01a</definebone>
+	<definebone>bone_debris_01b</definebone>
+	<definebone>bone_debris_01c</definebone>
+	<definebone>bone_debris_01d</definebone>
+	<definebone>bone_debris_01e</definebone>
+	<definebone>bone_debris_01f</definebone>
+	<definebone>bone_debris_01g</definebone>
+	<definebone>bone_debris_02a</definebone>
+	<definebone>bone_debris_02b</definebone>
+	<definebone>bone_debris_02c</definebone>
+	<definebone>bone_debris_03a</definebone>
+	<definebone>bone_debris_03b</definebone>
+	<definebone>bone_debris_03c</definebone>
+	<definebone>bone_debris_03d</definebone>
+	<definebone>bone_debris_04a</definebone>
+	<definebone>bone_debris_04b</definebone>
+	<definebone>bone_debris_04c</definebone>
+	<definebone>bone_debris_04d</definebone>
+	<definebone>bone_debris_04e</definebone>
+	<definebone>bone_debris_04f</definebone>
+	<definebone>bone_debris_04g</definebone>
+	<definebone>bone_debris_05a</definebone>
+	<definebone>bone_debris_05b</definebone>
+	<definebone>bone_debris_05c</definebone>
+	<definebone>bone_debris_06a</definebone>
+	<definebone>bone_debris_06b</definebone>
+	<definebone>bone_debris_06c</definebone>
+	<definebone>bone_debris_07a</definebone>
+	<definebone>bone_debris_07b</definebone>
+	<definebone>bone_debris_07c</definebone>
+	<definebone>bone_debris_07d</definebone>
+	<definebone>bone_debris_07e</definebone>
+	<definebone>bone_debris_08a</definebone>
+	<definebone>bone_debris_08b</definebone>
+	<definebone>bone_debris_08c</definebone>
+	<definebone>bone_debris_08d</definebone>
+	<definebone>bone_debris_08e</definebone>
+	<definebone>bone_debris_08f</definebone>
+	<definebone>bone_debris_09a</definebone>
+	<definebone>bone_debris_09b</definebone>
+	<definebone>bone_debris_09c</definebone>
+	<definebone>bone_debris_7f</definebone>
+	<definebone>bone_debris_7g</definebone>
+	<definebone>bone_debris_7h</definebone>
+	<definebone>bone_debris_3e</definebone>
+	<definebone>bone_debris_5e</definebone>
+	<definebone>bone_debris_3g</definebone>
+	<definebone>bone_debris_3h</definebone>
+	<definebone>bone_debris_3i</definebone>
+	<definebone>bone_debris_3j</definebone>
+	<definebone>bone_debris_3k</definebone>
+	<definebone>bone_debris_3l</definebone>
+	<definebone>bone_debris_3m</definebone>
+	<definebone>bone_debris_2k</definebone>
+	<definebone>bone_debris_1k</definebone>
+	<definebone>bone_debris_3g</definebone>
+	<definebone>bone_debris_3h</definebone>
+	<definebone>bone_debris_3i</definebone>
+	<definebone>bone_debris_3j</definebone>
+	<definebone>bone_debris_3k</definebone>
+	<definebone>bone_debris_1l</definebone>
+	<definebone>bone_debris_1m</definebone>
+	<definebone>bone_debris_1n</definebone>
+	<definebone>bone_debris_1o</definebone>
+	<definebone>bone_debris_2l</definebone>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_02
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		british_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\british_church_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		british_age2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke2
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\destructionsmoke_large.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			british_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="british_church_age2">
+								<file>buildings\church\british_church_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="british_church_age2">
+								<file>buildings\church\british_church_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="british_church_age2">
+						<file>buildings\church\lp_british_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\british_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>-0.10</xoffset>
+				<zoffset>-0.10</zoffset>
+			</decal>
+		</component>
+		<component>
+			british_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\british_church_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_british_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\british_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>-0.10</xoffset>
+				<zoffset>-0.10</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>british_age2</component>
+			<simskeleton>
+				<model>buildings\church\british_church_age2_damaged</model>
+				<damagetemplate>buildings\church\british_church_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\british_church_age2_deathAnim</file>
+			</assetreference>
+			<component>british_age2_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		british_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\british_church_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		british_age3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke2
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\destructionsmoke_large.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			british_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="british_church_age3">
+								<file>buildings\church\british_church_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="british_church_age3">
+								<file>buildings\church\british_church_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="british_church_age3">
+						<file>buildings\church\lp_british_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\british_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>-0.10</xoffset>
+				<zoffset>-0.10</zoffset>
+			</decal>
+		</component>
+		<component>
+			british_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\british_church_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_british_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>british_age3</component>
+			<simskeleton>
+				<model>buildings\church\british_church_age3_damaged</model>
+				<damagetemplate>buildings\church\british_church_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\british_church_age3_deathAnim</file>
+			</assetreference>
+			<component>british_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		dutch_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\dutch_church_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		dutch_age2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke2
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\destructionsmoke_large.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			dutch_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="dutch_church_age2">
+								<file>buildings\church\dutch_church_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="dutch_church_age2">
+								<file>buildings\church\dutch_church_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="dutch_church_age2">
+						<file>buildings\church\lp_dutch_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\dutch_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>-0.10</xoffset>
+				<zoffset>-0.10</zoffset>
+			</decal>
+		</component>
+		<component>
+			Dutch_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\dutch_church_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_dutch_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\dutch_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>-0.10</xoffset>
+				<zoffset>-0.10</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>dutch_age2</component>
+			<simskeleton>
+				<model>buildings\church\dutch_church_age2_damaged</model>
+				<damagetemplate>buildings\church\dutch_church_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\dutch_church_age2_deathAnim</file>
+			</assetreference>
+			<component>Dutch_age2_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		dutch_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\dutch_church_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		dutch_age3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke2
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\destructionsmoke_large.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			dutch_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="dutch_church_age3">
+								<file>buildings\church\dutch_church_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="dutch_church_age3">
+								<file>buildings\church\dutch_church_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="dutch_church_age3">
+						<file>buildings\church\lp_dutch_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\dutch_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>-0.10</xoffset>
+				<zoffset>-0.10</zoffset>
+			</decal>
+		</component>
+		<component>
+			dutch_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\dutch_church_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_dutch_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\dutch_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>-0.10</xoffset>
+				<zoffset>-0.10</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>dutch_age3</component>
+			<simskeleton>
+				<model>buildings\church\dutch_church_age3_damaged</model>
+				<damagetemplate>buildings\church\dutch_church_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\dutch_church_age3_deathAnim</file>
+			</assetreference>
+			<component>dutch_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		french_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\french_church_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		french_age2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke2
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\destructionsmoke_large.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			french_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="french_church_age2">
+								<file>buildings\church\french_church_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="french_church_age2">
+								<file>buildings\church\french_church_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="french_church_age2">
+						<file>buildings\church\lp_french_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\french_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>-0.10</xoffset>
+				<zoffset>-0.10</zoffset>
+			</decal>
+		</component>
+		<component>
+			french_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\french_church_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_french_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\church\french_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_circle_128x128</selectedtexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>french_age2</component>
+			<simskeleton>
+				<model>buildings\church\french_church_age2_damaged</model>
+				<damagetemplate>buildings\church\french_church_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\french_church_age2_deathAnim</file>
+			</assetreference>
+			<component>french_age2_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		french_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\french_church_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		french_age3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke2
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\destructionsmoke_large.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			french_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="french_church_age3">
+								<file>buildings\church\french_church_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="french_church_age3">
+								<file>buildings\church\french_church_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="french_church_age3">
+						<file>buildings\church\lp_french_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\french_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>-0.10</xoffset>
+				<zoffset>-0.10</zoffset>
+			</decal>
+		</component>
+		<component>
+			french_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\french_church_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_french_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\church\french_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_circle_128x128</selectedtexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>french_age3</component>
+			<simskeleton>
+				<model>buildings\church\french_church_age3_damaged</model>
+				<damagetemplate>buildings\church\french_church_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\french_church_age3_deathAnim</file>
+			</assetreference>
+			<component>french_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		german_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\german_church_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		german_age2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<component>
+			german_church_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="german_church_age2">
+								<file>buildings\church\german_church_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="german_church_age2">
+								<file>buildings\church\german_church_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="german_church_age2">
+						<file>buildings\church\lp_german_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\church\german_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			german_church_death_age2
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\german_church_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_german_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\church\german_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>german_church_age2</component>
+			<simskeleton>
+				<model>buildings\church\german_church_age2_damaged</model>
+				<damagetemplate>buildings\church\german_church_age2_.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\german_church_age2_deathAnim</file>
+			</assetreference>
+			<component>german_church_death_age2</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		german_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\german_church_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		german_age3
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			german_church
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="german_church_age3">
+								<file>buildings\church\german_church_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="german_church_age3">
+								<file>buildings\church\german_church_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="german_church_age3">
+						<file>buildings\church\lp_german_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\german_church_age3_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>11.00</width>
+				<height>11.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.25</zoffset>
+			</decal>
+		</component>
+		<component>
+			german_church_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\german_church_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_german_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\church\german_churchdecal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>15.00</height>
+				<xoffset>0.30</xoffset>
+				<zoffset>-1.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>german_church</component>
+			<simskeleton>
+				<model>buildings\church\german_church_age3_damaged</model>
+				<damagetemplate>buildings\church\german_church_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\german_church_age3_deathAnim</file>
+			</assetreference>
+			<component>german_church_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		porteguesse_age2_con2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\porteguese_church_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			portuguese_church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>portuguese_church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		porteguesse_age2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke2
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\destructionsmoke_large.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			portuguese_church_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="portuguese_church_age2">
+								<file>buildings\church\portuguese_church_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="portuguese_church_age2">
+								<file>buildings\church\portuguese_church_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="portuguese_church_age2">
+						<file>buildings\church\lp_porteguese_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\portuguese_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\church\portuguese_church_age2_ground_bumpmap</bumptexture>
+				<width>8.50</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			portuguese_church_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\portuguese_church_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_porteguese_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>portuguese_church_age2</component>
+			<simskeleton>
+				<model>buildings\church\portuguese_church_age2_damaged</model>
+				<damagetemplate>buildings\church\portuguese_church_age2_.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\portuguese_church_age2_deathAnim</file>
+			</assetreference>
+			<component>portuguese_church_age2_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		portuguese_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\portuguese_church_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		porteguesse_age3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke2
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\destructionsmoke_large.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			portuguese_church_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="portuguese_church_age3">
+								<file>buildings\church\portuguese_church_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="portuguese_church_age3">
+								<file>buildings\church\portuguese_church_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="portuguese_church_age3">
+						<file>buildings\church\lp_portuguese_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\portuguese_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\church\portuguese_church_age2_ground_bumpmap</bumptexture>
+				<width>8.50</width>
+				<height>12.50</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>-0.50</zoffset>
+			</decal>
+		</component>
+		<component>
+			portuguese_church_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\portuguese_church_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_portuguese_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\portuguese_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\church\portuguese_church_age2_ground_bumpmap</bumptexture>
+				<width>8.50</width>
+				<height>12.50</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>-0.50</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>portuguese_church_age3</component>
+			<simskeleton>
+				<model>buildings\church\portuguese_church_age3_damaged</model>
+				<damagetemplate>buildings\church\portuguese_church_age3_.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\portuguese_church_age3_deathAnim</file>
+			</assetreference>
+			<component>portuguese_church_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		russian_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\russain_church_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		russian_age2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<component>
+			russian_church_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="russian_church_age2">
+								<file>buildings\church\russain_church_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="russian_church_age2">
+								<file>buildings\church\russain_church_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="russian_church_age2">
+						<file>buildings\church\lp_russian_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\church\russian_church_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			russian_church_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\russain_church_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_russian_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>russian_church_age2</component>
+			<simskeleton>
+				<model>buildings\church\russain_church_age2_damaged</model>
+				<damagetemplate>buildings\church\russian_church_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\russain_church_age2_deathAnim</file>
+			</assetreference>
+			<component>russian_church_age2_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		russian_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\russian_church_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		russian_age3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke2
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\destructionsmoke_large.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			russian_church_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="russian_church_age3">
+								<file>buildings\church\russain_church_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="russian_church_age3">
+								<file>buildings\church\russain_church_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="russian_church_age3">
+						<file>buildings\church\lp_russain_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\russian_church_age3_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>-0.10</xoffset>
+				<zoffset>-0.10</zoffset>
+			</decal>
+		</component>
+		<component>
+			russian_church_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\russain_church_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_russain_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>russian_church_age3</component>
+			<simskeleton>
+				<model>buildings\church\russain_church_age3_damaged</model>
+				<damagetemplate>buildings\church\russian_church_age3_.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\russain_church_age3_deathAnim</file>
+			</assetreference>
+			<component>russian_church_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		spanish_age2_con2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\spanish_church_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			spanish_church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>spanish_church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		spanish_age2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke2
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\destructionsmoke_large.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			spanish_church_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="spanish_church_age2">
+								<file>buildings\church\spanish_church_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="spanish_church_age2">
+								<file>buildings\church\spanish_church_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="spanish_church_age2">
+						<file>buildings\church\lp_spanish_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\spanish_church_age3_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\church\spanish_church_age3_ground_bumpmap</bumptexture>
+				<width>8.50</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			spanish_church_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\spanish_church_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_spanish_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\spanish_church_age3_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\church\spanish_church_age3_ground_bumpmap</bumptexture>
+				<width>8.50</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>spanish_church_age2</component>
+			<simskeleton>
+				<model>buildings\church\spanish_church_age2_damaged</model>
+				<damagetemplate>buildings\church\spanish_church_age2_.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\spanish_church_age2_deathAnim</file>
+			</assetreference>
+			<component>spanish_church_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		spanish_age3_con2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\spanish_church_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			spanish_church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>spanish_church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		spanish_age3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke2
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\destructionsmoke_large.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			spanish_church_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="spanish_church_age3">
+								<file>buildings\church\spanish_church_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="spanish_church_age3">
+								<file>buildings\church\spanish_church_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="spanish_church_age3">
+						<file>buildings\church\lp_spanish_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\spanish_church_age3_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\church\spanish_church_age3_ground_bumpmap</bumptexture>
+				<width>9.00</width>
+				<height>11.50</height>
+				<xoffset>-0.10</xoffset>
+				<zoffset>-0.10</zoffset>
+			</decal>
+		</component>
+		<component>
+			spanish_church_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\spanish_church_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_spanish_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>spanish_church_age3</component>
+			<simskeleton>
+				<model>buildings\church\spanish_church_age3_damaged</model>
+				<damagetemplate>buildings\church\spanish_church_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\spanish_church_age3_deathAnim</file>
+			</assetreference>
+			<component>spanish_church_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		ottoman_age2_con2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\ottoman_church_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			ottoman_church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\church\ottoman_churchdecal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>ottoman_church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		ottoman_age2
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			ottoman_church
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="ottoman_church_age2">
+								<file>buildings\church\ottoman_church_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="ottoman_church_age2">
+								<file>buildings\church\ottoman_church_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="ottoman_church_age2">
+						<file>buildings\church\lp_ottoman_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\church\ottoman_churchdecal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			ottoman_church_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\ottoman_church_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_ottoman_church_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\church\ottoman_churchdecal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>ottoman_church</component>
+			<simskeleton>
+				<model>buildings\church\ottoman_church_age2_damaged</model>
+				<damagetemplate>buildings\church\ottoman_church_age_2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\ottoman_church_age2_deathAnim</file>
+			</assetreference>
+			<component>ottoman_church_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		ottoman_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\church\ottoman_church_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			church
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>church</component>
+		</anim>
+	</submodel>
+	<submodel>
+		ottoman_age3
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			ottoman_church_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="ottoman_church_age3">
+								<file>buildings\church\ottoman_church_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="ottoman_church_age3">
+								<file>buildings\church\ottoman_church_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="ottoman_church_age3">
+						<file>buildings\church\lp_ottoman_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\church\ottoman_church_age3_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			ottoman_church_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\ottoman_church_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\church\lp_ottoman_church_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\church\ottoman_churchdecal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>10.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>ottoman_church_age3</component>
+			<simskeleton>
+				<model>buildings\church\ottoman_church_age3_damaged</model>
+				<damagetemplate>buildings\church\ottoman_church_age_3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\church\ottoman_church_age3_deathAnim</file>
+			</assetreference>
+			<component>ottoman_church_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<component>
+		churchmodel
+		<logic type="Civ">
+			<british>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="british_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="british_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="british_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="british_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</british>
+			<dutch>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="dutch_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="dutch_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="dutch_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="dutch_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</dutch>
+			<french>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="french_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="french_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="french_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="french_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</french>
+			<germans>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="german_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="german_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="german_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="german_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</germans>
+			<portuguese>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="porteguesse_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="porteguesse_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="portuguese_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="porteguesse_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</portuguese>
+			<russians>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="russian_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="russian_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="russian_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="russian_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</russians>
+			<spanish>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="spanish_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="spanish_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="spanish_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="spanish_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</spanish>
+			<ottomans>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="ottoman_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="ottoman_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="ottoman_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="ottoman_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</ottomans>
+			<spcact1>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="spanish_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="spanish_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="spanish_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="spanish_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</spcact1>
+			<japanese>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="dutch_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="dutch_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="dutch_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="dutch_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</japanese>
+			<thecircle>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="german_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="german_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="german_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="german_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</thecircle>
+		</logic>
+	</component>
+</animfile>

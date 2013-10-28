@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>Bip01 Prop1</definebone>
+	<submodel>
+		musket
+	<attachment>
+		musket
+		<component>
+			musket
+			<assetreference type="GrannyModel">
+				<file>units\spc\john_black\musket_igc</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>musket</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel">
+					<file>units\spc\musketeer\igc_musketeer</file>
+				</assetreference>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel">
+					<file>units\spc\musketeer\igc_musketeer_low</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+		<attach a="musket" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_idleA</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_walkA</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		KneelIdle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_kneel_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		KneelTalk2Sec
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_kneel_talk4sec</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Talk2Sec
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_talk2sec</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Talk1Sec
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_talk1sec</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		KneelTalk4Sec
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_kneel_talk2sec</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		pointRightForward
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_point_righthand_ahead</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		pointLeftForward
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_point_lefthand_ahead</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		pointRightSide
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_point_righthand_side</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		pointLeftSide
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_point_lefthand_side</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanRight">0.75</tag>
+			<tag type="FootstepRight" footprinttype="HumanLeft">0.20</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.13</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.67</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanRight">0.75</tag>
+			<tag type="FootstepRight" footprinttype="HumanLeft">0.20</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.13</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.67</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkShrug
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_talk_shrug</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkShake
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_talk_shake</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkNod
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_talk_nod</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkComewith
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_talk_comewith</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkQuestion
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_talk_question</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkAngry
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_talk_angry</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		WalkTalkA
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_walkA</file>
+			<file>animation_library\IGC\shared\IGC_walktalkA</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		WalkTalkB
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_walkA</file>
+			<file>animation_library\IGC\shared\IGC_walktalkB</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		WalkTalkC
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_walkA</file>
+			<file>animation_library\IGC\shared\IGC_walktalkC</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		WalkTalkD
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_walkA</file>
+			<file>animation_library\IGC\shared\IGC_walktalkD</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkAngryPointing
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_angrypointing</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkGreetingHow
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_greeting</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkLaughA
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_laugh_A</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkLaughB
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_laugh_B</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkShakingFist
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_shakingfist</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkStartled
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_startled</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkWoe
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_woe</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TurnLeft
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_turn_left</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TurnRight
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_turn_right</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_Idle
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_Walk
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.70</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_Talk
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_Aim
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_aim</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_fire
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_fire</file>
+			<tag type="Particles" particlename="musketshot">0.00</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_Aim_to_Idle
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_aim_idle_trans</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		IGC_10b_dying_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\wounded\IGC_10b_dying</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		IGC_10b_dying_talking
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\wounded\IGC_10b_dying_talking</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		IGC_10b_dying_death
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\wounded\IGC_10b_dying_death</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		IGC_10b_dying_dead
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\wounded\IGC_10b_dying_dead</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	</submodel>
+	<submodel>
+		crossbow
+	<attachment>
+		musket
+		<component>
+			musket
+			<assetreference type="GrannyModel">
+				<file>units\spc\crossbowmen\crossbow_igc</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>musket</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel">
+					<file>units\spc\crossbowmen\crossbow_igc</file>
+				</assetreference>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel">
+					<file>units\spc\crossbowmen\crossbow_igc</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		KneelIdle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_kneel_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		KneelTalk2Sec
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_kneel_talk4sec</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Talk2Sec
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Talk1Sec
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		KneelTalk4Sec
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_kneel_talk2sec</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		pointRightForward
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		pointLeftForward
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		pointRightSide
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		pointLeftSide
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanRight">0.75</tag>
+			<tag type="FootstepRight" footprinttype="HumanLeft">0.20</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.13</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.67</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanRight">0.75</tag>
+			<tag type="FootstepRight" footprinttype="HumanLeft">0.20</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.13</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.67</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkShrug
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkShake
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkNod
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkComewith
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkQuestion
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkAngry
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		WalkTalkA
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_walkA</file>
+			<file>animation_library\IGC\shared\IGC_walktalkA</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		WalkTalkB
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_walkA</file>
+			<file>animation_library\IGC\shared\IGC_walktalkB</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		WalkTalkC
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_walkA</file>
+			<file>animation_library\IGC\shared\IGC_walktalkC</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		WalkTalkD
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_walkA</file>
+			<file>animation_library\IGC\shared\IGC_walktalkD</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkAngryPointing
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_angrypointing</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkGreetingHow
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_greeting</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkLaughA
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_laugh_A</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkLaughB
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_laugh_B</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkShakingFist
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_shakingfist</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkStartled
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_startled</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TalkWoe
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_woe</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TurnLeft
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_turn_left</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		TurnRight
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_turn_right</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_Idle
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_Walk
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.70</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_Talk
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_talk</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_Aim
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_aim</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_fire
+		<assetreference type="GrannyAnim">
+			<file>units\spc\john_black\IGC_musket_aim</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CrossbowShoot">0.01</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Weapon_Aim_to_Idle
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		IGC_10b_dying_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\wounded\IGC_10b_dying</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		IGC_10b_dying_talking
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\wounded\IGC_10b_dying_talking</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		IGC_10b_dying_death
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\wounded\IGC_10b_dying_death</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		IGC_10b_dying_dead
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\wounded\IGC_10b_dying_dead</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	</submodel>
+	<component>
+		igc_soldier
+		<logic type="Civ">
+			<british>
+				<submodelref ref="musket"/>
+			</british>
+			<spcact1>
+				<submodelref ref="crossbow"/>
+			</spcact1>
+		</logic>
+	</component>
+</animfile>

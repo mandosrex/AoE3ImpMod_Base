@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="MercDove">
+		<soundtype name="Select">
+			<soundset name="ElizabetRamseySelect"/>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="ElizabetRamseyGrunt"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="ElizabetRamseyDeath"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MilitaryBirth"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="ElizabetRamseyAcknowledge"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="ElizabetRamseyAttack"/>
+				</choice>
+				<choice name="build"/>
+				<choice name="Huntable"/>
+				<choice name="Tree"/>
+				<choice name="AbstractMine"/>
+				<choice name="AbstractFarm"/>
+				<choice name="AbstractResourceCrate"/>
+				<choice name="AbstractFruit"/>
+			</targetlogic>
+		</soundtype>
+		<soundtype name="KnockOutRevived">
+			<soundset name="ElizabetRamseyRevive"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

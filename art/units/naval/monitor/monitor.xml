@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_1d</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_2d</definebone>
+	<definebone>bone_debris_2e</definebone>
+	<definebone>bone_debris_2f</definebone>
+	<definebone>bone_debris_2g</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>bone_debris_3d</definebone>
+	<definebone>bone_debris_3e</definebone>
+	<definebone>bone_debris_3f</definebone>
+	<definebone>bone_debris_3g</definebone>
+	<definebone>bone_debris_3h</definebone>
+	<definebone>bone_debris_3i</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_4c</definebone>
+	<definebone>bone_debris_4d</definebone>
+	<definebone>bone_debris_4e</definebone>
+	<definebone>bone_debris_5a</definebone>
+	<definebone>bone_debris_5b</definebone>
+	<definebone>bone_debris_5c</definebone>
+	<definebone>bone_debris_5d</definebone>
+	<definebone>bone_debris_5e</definebone>
+	<definebone>bone_debris_5f</definebone>
+	<definebone>bone_debris_5g</definebone>
+	<definebone>bone_debris_5h</definebone>
+	<definebone>bone_debris_6a</definebone>
+	<definebone>bone_debris_6b</definebone>
+	<definebone>bone_debris_6c</definebone>
+	<definebone>Bone_front_wake</definebone>
+	<definebone>Bone_sidewake</definebone>
+	<definebone>bone_main</definebone>
+	<definebone>Bone_front_wake_right</definebone>
+	<definebone>Bone_front_wake_left</definebone>
+	<definebone>Bone_sidewake</definebone>
+	<definebone>bone_launchpoint</definebone>
+	<definebone>bone_fuse</definebone>
+	<definebone>bone_cart</definebone>
+	<definebone>Bone_front_bombard</definebone>
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_bigship.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamRing.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSpray2
+		<component>
+			spray2
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>spray2</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSteam
+		<component>
+			steam
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSteam.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>steam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFade
+		<component>
+			fade
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamFade.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>fade</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterRipple
+		<component>
+			ripple
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_shockwave.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>ripple</component>
+		</anim>
+	</attachment>
+	<attachment>
+		deckhands
+		<include>units\naval\galleon\galleonguys.xml</include>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+						<logic type="Civ">
+							<none>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor_damaged</file>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor</file>
+										</assetreference>
+									</p99>
+								</logic>
+							</none>
+							<ottomans>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor_damaged</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_ottoman</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_ottoman</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_ottoman</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_ottoman</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</ottomans>
+						</logic>
+			</none>
+			<imperialmonitors>
+						<logic type="Civ">
+							<none>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor_damaged</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</none>
+							<ottomans>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor_damaged</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_ottoman_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_ottoman_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_ottoman_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_ottoman_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</ottomans>
+						</logic>
+			</imperialmonitors>
+			<imperialmonitorsus>
+						<logic type="Civ">
+							<none>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor_damaged</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</none>
+							<ottomans>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor_damaged</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_ottoman_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_ottoman_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_ottoman_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_ottoman_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</ottomans>
+						</logic>
+			</imperialmonitorsus>
+			<ypimperialmonitors>
+						<logic type="Civ">
+							<none>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor_damaged</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</none>
+							<ottomans>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor_damaged</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_ottoman_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_ottoman_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\monitor\monitor</file>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_ship</from>
+												<to>units\naval\monitor\monitor_ship_ottoman_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\monitor\monitor_sails</from>
+												<to>units\naval\monitor\monitor_sails_ottoman_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</ottomans>
+						</logic>
+			</ypimperialmonitors>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>12.00</width>
+			<height>20.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\colony_ship\colony_ship_hullmask</texture>
+			<width>10.0</width>
+			<height>10.0</height>
+		</watersplash>
+	</component>
+	<component>
+		death
+		<logic type="Tech">
+			<none>
+				<logic type="Civ">
+					<none>
+						<assetreference type="GrannyModel">
+							<file>units\naval\monitor\monitor_deathModel</file>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_ship</from>
+								<to>units\naval\monitor\monitor_ship</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_sails</from>
+								<to>units\naval\monitor\monitor_sails</to>
+							</replacetexture>
+						</assetreference>
+					</none>
+					<ottomans>
+						<assetreference type="GrannyModel">
+							<file>units\naval\monitor\monitor_deathModel</file>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_ship</from>
+								<to>units\naval\monitor\monitor_ship_ottoman</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_sails</from>
+								<to>units\naval\monitor\monitor_sails_ottoman</to>
+							</replacetexture>
+						</assetreference>
+					</ottomans>
+				</logic>
+			</none>
+			<imperialmonitors>
+				<logic type="Civ">
+					<none>
+						<assetreference type="GrannyModel">
+							<file>units\naval\monitor\monitor_deathModel</file>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_ship</from>
+								<to>units\naval\monitor\monitor_ship_imperial</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_sails</from>
+								<to>units\naval\monitor\monitor_sails_imperial</to>
+							</replacetexture>
+						</assetreference>
+					</none>
+					<ottomans>
+						<assetreference type="GrannyModel">
+							<file>units\naval\monitor\monitor_deathModel</file>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_ship</from>
+								<to>units\naval\monitor\monitor_ship_ottoman_imperial</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_sails</from>
+								<to>units\naval\monitor\monitor_sails_ottoman_imperial</to>
+							</replacetexture>
+						</assetreference>
+					</ottomans>
+				</logic>
+			</imperialmonitors>
+			<imperialmonitorsus>
+				<logic type="Civ">
+					<none>
+						<assetreference type="GrannyModel">
+							<file>units\naval\monitor\monitor_deathModel</file>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_ship</from>
+								<to>units\naval\monitor\monitor_ship_imperial</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_sails</from>
+								<to>units\naval\monitor\monitor_sails_imperial</to>
+							</replacetexture>
+						</assetreference>
+					</none>
+					<ottomans>
+						<assetreference type="GrannyModel">
+							<file>units\naval\monitor\monitor_deathModel</file>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_ship</from>
+								<to>units\naval\monitor\monitor_ship_ottoman_imperial</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_sails</from>
+								<to>units\naval\monitor\monitor_sails_ottoman_imperial</to>
+							</replacetexture>
+						</assetreference>
+					</ottomans>
+				</logic>
+			</imperialmonitorsus>
+			<ypimperialmonitors>
+				<logic type="Civ">
+					<none>
+						<assetreference type="GrannyModel">
+							<file>units\naval\monitor\monitor_deathModel</file>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_ship</from>
+								<to>units\naval\monitor\monitor_ship_imperial</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_sails</from>
+								<to>units\naval\monitor\monitor_sails_imperial</to>
+							</replacetexture>
+						</assetreference>
+					</none>
+					<ottomans>
+						<assetreference type="GrannyModel">
+							<file>units\naval\monitor\monitor_deathModel</file>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_ship</from>
+								<to>units\naval\monitor\monitor_ship_ottoman_imperial</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\monitor\monitor_sails</from>
+								<to>units\naval\monitor\monitor_sails_ottoman_imperial</to>
+							</replacetexture>
+						</assetreference>
+					</ottomans>
+				</logic>
+			</ypimperialmonitors>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>12.00</width>
+			<height>20.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\colony_ship\colony_ship_hullmask</texture>
+			<width>10.0</width>
+			<height>10.0</height>
+		</watersplash>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\monitor\monitor_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\monitor\monitor_damaged</model>
+			<damagetemplate>units\naval\monitor\monitor.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\monitor\monitor_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\monitor\monitor_damaged</model>
+			<damagetemplate>units\naval\monitor\monitor.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		RangedAttack
+		<assetreference type="GrannyAnim">
+			<file>units\naval\monitor\monitor_idle</file>
+			<tag type="Attack">0.02</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="MortarShot">0.02</tag>
+			<tag type="Particles" particlename="monitormuzzlefx">0.02</tag>
+			<tag type="CameraShake" force="0.07" duration="0.2">0.01</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\monitor\monitor_damaged</model>
+			<damagetemplate>units\naval\monitor\monitor.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\monitor\monitor_deathAnim</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFade" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterRipple" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterSpray2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterSteam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		BombardAttack
+		<assetreference type="GrannyAnim">
+			<file>units\naval\monitor\monitor_bombardAnim</file>
+			<tag type="Attack">0.02</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="MortarShot">0.02</tag>
+			<tag type="Particles" particlename="monitorbombardmuzzlefx">0.03</tag>
+			<tag type="CameraShake" force="0.07" duration="0.2">0.02</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\monitor\monitor_damaged</model>
+			<damagetemplate>units\naval\monitor\monitor.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+</animfile>

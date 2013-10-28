@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_flag_civ</definebone>
+	<definebone>bone_smoke</definebone>
+	<definebone>bone_smoke1</definebone>
+	<definebone>bone_smoke2</definebone>
+	<definebone>bone_fire</definebone>
+	<definebone>bone_fire01</definebone>
+	<definebone>bone_launchpoint01</definebone>
+	<definebone>bone_launchpoint02</definebone>
+	<definebone>bone_launchpoint04</definebone>
+	<definebone>bone_launchpoint03</definebone>
+	<definebone>bone_launchpoint05</definebone>
+	<definebone>bone_launchpoint06</definebone>
+	<definebone>bone_debris_1A</definebone>
+	<definebone>bone_debris_1B</definebone>
+	<definebone>bone_debris_1C</definebone>
+	<definebone>bone_debris_1D</definebone>
+	<definebone>bone_debris_1E</definebone>
+	<definebone>bone_debris_1F</definebone>
+	<definebone>bone_debris_2A</definebone>
+	<definebone>bone_debris_2B</definebone>
+	<definebone>bone_debris_2C</definebone>
+	<definebone>bone_debris_2D</definebone>
+	<definebone>bone_debris_2E</definebone>
+	<definebone>bone_debris_2F</definebone>
+	<definebone>bone_debris_3A</definebone>
+	<definebone>bone_debris_3B</definebone>
+	<definebone>bone_debris_3C</definebone>
+	<definebone>bone_debris_3D</definebone>
+	<definebone>bone_debris_3E</definebone>
+	<definebone>bone_debris_3F</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_4c</definebone>
+	<definebone>bone_debris_4d</definebone>
+	<definebone>bone_debris_4e</definebone>
+	<definebone>bone_debris_4f</definebone>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nat_4x5_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\nobles_hut\decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>15.00</width>
+				<height>9.50</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_02
+		<attachment>
+			4x4_middle_scalf
+			<component>
+				4x4_mid_scalf
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\4x5_aztec_frame</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>4x4_mid_scalf</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nat_4x5_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\nobles_hut\decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>15.00</width>
+				<height>9.50</height>
+			</decal>
+			<attach a="4x4_middle_scalf" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_age2_stage_03
+		<attachment>
+			scalf
+			<component>
+				scalf
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_4x5_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scalf</component>
+			</anim>
+		</attachment>
+		<component>
+			sub_construction_age2_stage3
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nobles_hut_age2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\nobles_hut\decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>15.00</width>
+				<height>9.50</height>
+			</decal>
+			<attach a="scalf" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>sub_construction_age2_stage3</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_age3_stage_03
+		<attachment>
+			scalf
+			<component>
+				scalf
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_4x5_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scalf</component>
+			</anim>
+		</attachment>
+		<component>
+			sub_construction_age3_stage3
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nobles_hut_age3_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\nobles_hut\decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>15.00</width>
+				<height>9.50</height>
+			</decal>
+			<attach a="scalf" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>sub_construction_age3_stage3</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_age4_stage_03
+		<attachment>
+			scalf
+			<component>
+				scalf
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_4x5_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scalf</component>
+			</anim>
+		</attachment>
+		<component>
+			sub_construction_age4_stage3
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nobles_hut_age4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\nobles_hut\decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>15.00</width>
+				<height>9.50</height>
+			</decal>
+			<attach a="scalf" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>sub_construction_age4_stage3</component>
+		</anim>
+	</submodel>
+	<submodel>
+		nobles_hut_age2
+		<attachment>
+			az_warhut_smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\smolder_small_v1.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			noble_fire
+			<component>
+				emiter
+				<assetreference type="ParticleSystem">
+					<file>effects\fire\fire_torch_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				idle
+				<component>emiter</component>
+			</anim>
+		</attachment>
+		<attachment>
+			smoke
+			<component>
+				smoke_part
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke_part</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="nobles_hut_age2">
+								<file>buildings\native_civs\nobles_hut\nobles_hut_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="nobles_hut_age2">
+								<file>buildings\native_civs\nobles_hut\nobles_hut_2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\nobles_hut\lp_nobles_hut_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\nobles_hut\nobles_hut_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\nobles_hut\nobles_hut_decal_bump</bumptexture>
+				<width>12.50</width>
+				<height>10.00</height>
+			</decal>
+			<attach a="noble_fire" frombone="ATTACHPOINT" tobone="bone_fire" syncanims="0"/>
+			<attach a="noble_fire" frombone="ATTACHPOINT" tobone="bone_fire01" syncanims="0"/>
+			<attach a="smoke" frombone="ATTACHPOINT" tobone="bone_smoke" syncanims="0"/>
+			<attach a="az_warhut_smoke" frombone="ATTACHPOINT" tobone="bone_fire" syncanims="0"/>
+			<attach a="az_warhut_smoke" frombone="ATTACHPOINT" tobone="bone_fire01" syncanims="0"/>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\nobles_hut\nobles_hut_age2_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\nobles_hut\lp_nobles_hut_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\nobles_hut\nobles_hut_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\nobles_hut\nobles_hut_decal_bump</bumptexture>
+				<width>12.50</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\nobles_hut\nobles_hut_age2_damaged</model>
+				<damagetemplate>buildings\native_civs\nobles_hut\nobles_hut_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.98</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\nobles_hut\nobles_hut_age2_damaged</model>
+				<damagetemplate>buildings\native_civs\nobles_hut\nobles_hut_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttackShip
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.98</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\nobles_hut\nobles_hut_age2_damaged</model>
+				<damagetemplate>buildings\native_civs\nobles_hut\nobles_hut_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\nobles_hut\nobles_hut_age2_deathanim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		nobles_hut_age3
+		<attachment>
+			az_warhut_smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\smolder_small_v1.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			noble_fire
+			<component>
+				emiter
+				<assetreference type="ParticleSystem">
+					<file>effects\fire\fire_torch_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				idle
+				<component>emiter</component>
+			</anim>
+		</attachment>
+		<attachment>
+			smoke
+			<component>
+				smoke_part
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke_part</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="nobles_hut_age3">
+								<file>buildings\native_civs\nobles_hut\nobles_hut_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="nobles_hut_age3">
+								<file>buildings\native_civs\nobles_hut\nobles_hut_3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\nobles_hut\lp_nobles_hut_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\nobles_hut\nobles_hut_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\nobles_hut\nobles_hut_decal_bump</bumptexture>
+				<width>12.50</width>
+				<height>10.00</height>
+			</decal>
+			<attach a="noble_fire" frombone="ATTACHPOINT" tobone="bone_fire" syncanims="0"/>
+			<attach a="noble_fire" frombone="ATTACHPOINT" tobone="bone_fire01" syncanims="0"/>
+			<attach a="smoke" frombone="ATTACHPOINT" tobone="bone_smoke" syncanims="0"/>
+			<attach a="az_warhut_smoke" frombone="ATTACHPOINT" tobone="bone_fire" syncanims="0"/>
+			<attach a="az_warhut_smoke" frombone="ATTACHPOINT" tobone="bone_fire01" syncanims="0"/>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\nobles_hut\nobles_hut_age3_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\nobles_hut\lp_nobles_hut_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\nobles_hut\nobles_hut_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\nobles_hut\nobles_hut_decal_bump</bumptexture>
+				<width>12.50</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\nobles_hut\nobles_hut_age3_damaged</model>
+				<damagetemplate>buildings\native_civs\nobles_hut\nobles_hut_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.98</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\nobles_hut\nobles_hut_age3_damaged</model>
+				<damagetemplate>buildings\native_civs\nobles_hut\nobles_hut_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttackShip
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.98</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\nobles_hut\nobles_hut_age3_damaged</model>
+				<damagetemplate>buildings\native_civs\nobles_hut\nobles_hut_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\nobles_hut\nobles_hut_age3_deathanim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		nobles_hut_age4
+		<attachment>
+			az_warhut_smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\smolder_small_v1.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			noble_fire
+			<component>
+				emiter
+				<assetreference type="ParticleSystem">
+					<file>effects\fire\fire_torch_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				idle
+				<component>emiter</component>
+			</anim>
+		</attachment>
+		<attachment>
+			smoke
+			<component>
+				smoke_part
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke_part</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="nobles_hut_age4">
+								<file>buildings\native_civs\nobles_hut\nobles_hut_age4_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="nobles_hut_age4">
+								<file>buildings\native_civs\nobles_hut\nobles_hut_4</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\nobles_hut\lp_nobles_hut_age4</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\nobles_hut\nobles_hut_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\nobles_hut\nobles_hut_decal_bump</bumptexture>
+				<width>12.50</width>
+				<height>10.00</height>
+			</decal>
+			<attach a="noble_fire" frombone="ATTACHPOINT" tobone="bone_fire" syncanims="0"/>
+			<attach a="noble_fire" frombone="ATTACHPOINT" tobone="bone_fire01" syncanims="0"/>
+			<attach a="smoke" frombone="ATTACHPOINT" tobone="bone_smoke" syncanims="0"/>
+			<attach a="az_warhut_smoke" frombone="ATTACHPOINT" tobone="bone_fire" syncanims="0"/>
+			<attach a="az_warhut_smoke" frombone="ATTACHPOINT" tobone="bone_fire01" syncanims="0"/>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\nobles_hut\nobles_hut_age4_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\nobles_hut\lp_nobles_hut_age4</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\nobles_hut\nobles_hut_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\nobles_hut\nobles_hut_decal_bump</bumptexture>
+				<width>12.50</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\nobles_hut\nobles_hut_age4_damaged</model>
+				<damagetemplate>buildings\native_civs\nobles_hut\nobles_hut_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.98</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\nobles_hut\nobles_hut_age4_damaged</model>
+				<damagetemplate>buildings\native_civs\nobles_hut\nobles_hut_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttackShip
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.98</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\nobles_hut\nobles_hut_age4_damaged</model>
+				<damagetemplate>buildings\native_civs\nobles_hut\nobles_hut_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\nobles_hut\nobles_hut_age4_deathanim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<component>
+		nobles_hut
+		<logic type="Culture">
+			<aztec>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_age2_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="nobles_hut_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<strongnobleshut>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_age3_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="nobles_hut_age3"/>
+							</p100>
+						</logic>
+					</strongnobleshut>
+					<mightynobleshut>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_age4_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="nobles_hut_age4"/>
+							</p100>
+						</logic>
+					</mightynobleshut>
+				</logic>
+			</aztec>
+		</logic>
+	</component>
+</animfile>

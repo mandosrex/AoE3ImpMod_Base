@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bip01 Prop1</definebone>
+	<definebone>bone_club</definebone>
+	<attachment>
+		club
+		<component>
+			club
+			<assetreference type="GrannyModel">
+				<file>units\natives\ally\mapuche\mapuche_club</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>club</component>
+		</anim>
+	</attachment>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch.xml</include>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel">
+					<file>units\natives\ally\mapuche\mapuche_clubman</file>
+				</assetreference>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel">
+					<file>units\natives\ally\mapuche\lp_mapuche_clubman</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_warchief_128x128</selectedtexture>
+			<width>1.10</width>
+			<height>1.10</height>
+		</decal>
+	</component>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_sword_death_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.87</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_death_shot_front_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.59</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_death_shot_back_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.82</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_death</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathC</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathD</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_havoc_flail
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_flail</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_havoc_spin
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_spin</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_C</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Recoil
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_C</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_E</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_G</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		HC_openDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorOpen</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		HC_closeDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorClose</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throw_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwA</file>
+			<tag type="Attack">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.48</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwB</file>
+			<tag type="Attack">0.56</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.49</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\idle2</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\idle3</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\idle</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\idle4</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.12</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.19</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.16</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.17</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.64</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\defend_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\defend_idle2</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\defend_idle3</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\idle</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\idle4</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\idle2</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\idle3</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\attack</file>
+			<tag type="Attack">0.42</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.41</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\attack2</file>
+			<tag type="Attack">0.40</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.12</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.19</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.16</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\mapuche\run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.17</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.64</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+</animfile>

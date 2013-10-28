@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="LumberWagon">
+		<soundtype name="Select">
+			<civlogic>
+				<choice name="Ottomans">
+					<soundset name="OttomanSettlerMaleSelect"/>
+				</choice>
+				<choice name="Japanese">
+					<soundset name="OttomanSettlerMaleSelect"/>
+				</choice>
+				<choice name="Indians">
+					<soundset name="OttomanSettlerMaleSelect"/>
+				</choice>
+				<choice name="Chinese">
+					<soundset name="OttomanSettlerMaleSelect"/>
+				</choice>
+				<choice name="SPCJapanese">
+					<soundset name="OttomanSettlerMaleSelect"/>
+				</choice>
+				<choice name="SPCChinese">
+					<soundset name="OttomanSettlerMaleSelect"/>
+				</choice>
+				<choice name="SPCIndians">
+					<soundset name="OttomanSettlerMaleSelect"/>
+				</choice>
+			</civlogic>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="CavalryGrunt"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="GenericMaleDeath"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MilitaryBirth"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<civlogic>
+				<choice name="Ottomans">
+					<soundset name="OttomanSettlerMaleAcknowledge"/>
+				</choice>
+				<choice name="Chinese">
+					<soundset name="OttomanSettlerMaleAcknowledge"/>
+				</choice>
+				<choice name="Japanese">
+					<soundset name="OttomanSettlerMaleAcknowledge"/>
+				</choice>
+				<choice name="Indians">
+					<soundset name="OttomanSettlerMaleAcknowledge"/>
+				</choice>
+				<choice name="SPCJapanese">
+					<soundset name="OttomanSettlerMaleAcknowledge"/>
+				</choice>
+				<choice name="SPCChinese">
+					<soundset name="OttomanSettlerMaleAcknowledge"/>
+				</choice>
+				<choice name="SPCIndians">
+					<soundset name="OttomanSettlerMaleAcknowledge"/>
+				</choice>
+			</civlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

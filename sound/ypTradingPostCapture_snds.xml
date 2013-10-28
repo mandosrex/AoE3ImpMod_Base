@@ -1,0 +1,15 @@
+<!-- converted from XMB to XML -->
+
+<protounitsounddef>
+	<protounit name="ypTradingPostCapture">
+		<soundtype name="Select">
+			<soundset name="UI_Building_Economic"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="BuildingDestruction"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="UI_Building_Economic"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

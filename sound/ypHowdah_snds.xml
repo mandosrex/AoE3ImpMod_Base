@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="ypHowdah">
+		<soundtype name="Grunt">
+			<soundset name="ElephantGrunt"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="ElephantDeath"/>
+		</soundtype>
+		<soundtype name="Select">
+			<soundset name="IndianHowdahSelect"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="IndianHowdahAcknowledge"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="IndianHowdahAttack"/>
+				</choice>
+				<choice name="build"/>
+				<choice name="Huntable"/>
+				<choice name="Tree"/>
+				<choice name="AbstractMine"/>
+				<choice name="AbstractFarm"/>
+				<choice name="AbstractResourceCrate"/>
+				<choice name="AbstractFruit"/>
+			</targetlogic>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MilitaryBirth"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

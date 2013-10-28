@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38119">CannonAttack</name>
+		<reloadanim>Bombard_reload</reloadanim>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Bombard_ranged_attack</anim>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<projectile>MortarShell</projectile>
+		<impacteffect>effects\impacts\mortar</impacteffect>
+		<rate type="All">1.0</rate>
+		<throw>1</throw>
+		<impactforcemin>450.0</impactforcemin>
+		<impactforcemax>600.0</impactforcemax>
+		<impactlaunchangle>50.0</impactlaunchangle>
+		<areasortmode>Radial</areasortmode>
+		<perfectaccuracy>0</perfectaccuracy>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<tactic>
+		Limber
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<transition>
+			<tactic>Bombard</tactic>
+			<action>Limber</action>
+			<length>1</length>
+			<exit>1</exit>
+			<commandautomatic>1</commandautomatic>
+			<automatic>1</automatic>
+		</transition>
+		<idleanim>idle</idleanim>
+		<boredanim>bored</boredanim>
+		<walkanim>walk</walkanim>
+		<joganim>jog</joganim>
+		<runanim>run</runanim>
+		<deathanim>Death_by_melee</deathanim>
+	</tactic>
+	<tactic>
+		Bombard
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<exclusive>1</exclusive>
+		<action>CannonAttack</action>
+		<transition>
+			<tactic>Limber</tactic>
+			<action>Limber</action>
+			<length>1</length>
+			<exit>1</exit>
+		</transition>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
+		<walkanim>Bombard_Walk</walkanim>
+		<joganim>Bombard_Jog</joganim>
+		<runanim>Bombard_Run</runanim>
+		<throw>1</throw>
+		<deathanim>Death_by_melee</deathanim>
+	</tactic>
+</tactics>

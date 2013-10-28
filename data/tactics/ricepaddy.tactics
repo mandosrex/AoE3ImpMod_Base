@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="43294">ModifyGatherCoin</name>
+		<type>ModifyGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="43295">ModifyGatherFood</name>
+		<type>ModifyGather</type>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		PaddyFood
+		<action>ModifyGatherFood</action>
+		<transition>
+			<tactic>PaddyCoin</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+	</tactic>
+	<tactic>
+		PaddyCoin
+		<action>ModifyGatherCoin</action>
+		<transition>
+			<tactic>PaddyFood</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+	</tactic>
+</tactics>

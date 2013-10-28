@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		gunner_hats
+		<logic type="Tech">
+			<imperialfieldgun>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</imperialfieldgun>
+			<imperialculverin>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</imperialculverin>
+			<imperialculverinus>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</imperialculverinus>
+			<imperialhowitzer>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</imperialhowitzer>
+			<imperialhowitzerus>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</imperialhowitzerus>
+			<imperialrabaulds>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</imperialrabaulds>
+			<ImperialAbusGun>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</ImperialAbusGun>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>gunner_hats</component>
+	</anim>
+</animfile>

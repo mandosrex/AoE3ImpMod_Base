@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_debris_1A</definebone>
+	<definebone>bone_debris_1B</definebone>
+	<definebone>bone_debris_1C</definebone>
+	<definebone>bone_debris_1D</definebone>
+	<definebone>bone_debris_1E</definebone>
+	<definebone>bone_debris_2A</definebone>
+	<definebone>bone_debris_2B</definebone>
+	<definebone>bone_debris_2C</definebone>
+	<definebone>bone_debris_2D</definebone>
+	<definebone>bone_debris_2E</definebone>
+	<definebone>bone_debris_2F</definebone>
+	<definebone>bone_debris_2G</definebone>
+	<definebone>bone_debris_3A</definebone>
+	<definebone>bone_debris_3B</definebone>
+	<definebone>bone_debris_3C</definebone>
+	<definebone>bone_debris_3D</definebone>
+	<definebone>bone_debris_3E</definebone>
+	<definebone>bone_debris_3F</definebone>
+	<definebone>bone_flag_civ</definebone>
+	<definebone>bone_debris_3g</definebone>
+	<definebone>bone_debris_3h</definebone>
+	<definebone>bone_debris_3i</definebone>
+	<submodel>
+		sub_construction_stage_01
+		<attachment>
+			scaffolding_stage1
+			<component>
+				scaffold01
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_farm_stage1</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffold01</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\native_farm_con_stage_01</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\farm\farm_ground_con</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\farm\farm_ground_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="scaffolding_stage1" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_02
+		<attachment>
+			scaffolding_stage2
+			<component>
+				scaffold02
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_farm_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffold02</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\native_farm_con_stage_02</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\farm\farm_ground_con</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\farm\farm_ground_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="scaffolding_stage2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_03
+		<attachment>
+			scaffolding_stage2
+			<component>
+				scaffold02
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_farm_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffold02</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\native_farm_con_stage_03</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\farm\farm_ground_con</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\farm\farm_ground_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="scaffolding_stage2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		farm
+	<attachment>
+		skulls
+		<include>objects\skulls\skulls.xml</include>
+	</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="farm">
+								<file>buildings\native_civs\farm\farm_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="farm">
+								<file>buildings\native_civs\farm\farm</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\farm\lp_farm</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\farm\farm_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\farm\farm_ground_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		<attach a="skulls" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\farm\farm_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\farm\lp_farm</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\farm\farm_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\farm\farm_ground_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		<attach a="skulls" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\farm\farm_damaged</model>
+				<damagetemplate>buildings\native_civs\farm\farm.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\farm\farm_deathanim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<component>
+		farm
+		<logic type="Culture">
+			<aztec>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="farm"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="farm"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="farm"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</aztec>
+			<iroquois>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="farm"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="farm"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="farm"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</iroquois>
+			<sioux>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="farm"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="farm"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="farm"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</sioux>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>farm</component>
+	</anim>
+</animfile>

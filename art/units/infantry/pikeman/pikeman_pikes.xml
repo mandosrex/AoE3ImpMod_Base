@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		pikes
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\infantry\pikeman\pikeman_1age_pike</file>
+				</assetreference>
+			</none>
+			<veteranpikemen>
+				<assetreference type="GrannyModel">
+					<file>units\infantry\pikeman\pikeman_2age_pike</file>
+				</assetreference>
+			</veteranpikemen>
+			<guardpikemen>
+				<assetreference type="GrannyModel">
+					<file>units\infantry\pikeman\pikeman_3age_pike</file>
+				</assetreference>
+			</guardpikemen>
+			<rgtercio>
+				<assetreference type="GrannyModel">
+					<file>units\infantry\pikeman\pikeman_3age_pike</file>
+				</assetreference>
+			</rgtercio>
+			<imperialtercio>
+				<assetreference type="GrannyModel">
+					<file>units\infantry\pikeman\pikeman_4age_pike</file>
+				</assetreference>
+			</imperialtercio>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>pikes</component>
+	</anim>
+</animfile>

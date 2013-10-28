@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="ypSPCNanib">
+		<soundtype name="Select">
+			<civlogic>
+				<choice name="Indians">
+					<soundset name="IndianNanibSelect"/>
+				</choice>
+				<choice name="SPCIndians">
+					<soundset name="IndianNanibSelect"/>
+				</choice>
+				<choice name="USA">
+					<soundset name="CooperSelect"/>
+				</choice>
+			</civlogic>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="CooperGrunt"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="CooperDeath"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MilitaryBirth"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<civlogic>
+				<choice name="Indians">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="IndianNanibAcknowledge"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="IndianNanibAttack"/>
+				</choice>
+				<choice name="build">
+					<soundset name="IndianNanibAcknowledge"/>
+				</choice>
+				<choice name="Huntable"/>
+				<choice name="Tree"/>
+				<choice name="AbstractMine"/>
+				<choice name="AbstractFarm"/>
+				<choice name="AbstractResourceCrate"/>
+				<choice name="AbstractFruit"/>
+			</targetlogic>
+				</choice>
+				<choice name="SPCIndians">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="IndianNanibAcknowledge"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="IndianNanibAttack"/>
+				</choice>
+				<choice name="build">
+					<soundset name="IndianNanibAcknowledge"/>
+				</choice>
+				<choice name="Huntable"/>
+				<choice name="Tree"/>
+				<choice name="AbstractMine"/>
+				<choice name="AbstractFarm"/>
+				<choice name="AbstractResourceCrate"/>
+				<choice name="AbstractFruit"/>
+			</targetlogic>
+				</choice>
+				<choice name="USA">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="CooperAcknowledge"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="CooperAttack"/>
+				</choice>
+				<choice name="build">
+					<soundset name="CooperAcknowledge"/>
+				</choice>
+				<choice name="Huntable"/>
+				<choice name="Tree"/>
+				<choice name="AbstractMine"/>
+				<choice name="AbstractFarm"/>
+				<choice name="AbstractResourceCrate"/>
+				<choice name="AbstractFruit"/>
+			</targetlogic>
+				</choice>
+			</civlogic>
+		</soundtype>
+		<soundtype name="KnockOut">
+			<soundset name="CooperDisabled"/>
+		</soundtype>
+		<soundtype name="KnockOutRevived">
+			<soundset name="CooperRevive"/>
+		</soundtype>
+		<soundtype name="Ransomed">
+			<soundset name="CooperRansom"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

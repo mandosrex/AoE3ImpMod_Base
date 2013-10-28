@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="WarTent">
+		<soundtype name="Select">
+			<soundset name="UI_Building_Military"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="BuildingDestruction"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="UI_Building_Military"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

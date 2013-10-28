@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>Bip01 Prop1</definebone>
+	<attachment>
+		pipe
+		<component>
+			pipe
+			<assetreference type="GrannyModel">
+				<file>units\natives\native_oldman_pipe</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>pipe</component>
+		</anim>
+	</attachment>
+	<attachment>
+		HealRays
+		<component>
+			HealFXEmitter
+			<assetreference type="ParticleSystem">
+				<file>units\explorers\heal_rays.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>HealFXEmitter</component>
+		</anim>
+	</attachment>
+	<component>
+		oldman
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel">
+					<file>units\natives\native_oldman</file>
+				</assetreference>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lp_native_oldman</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_warchief_128x128</selectedtexture>
+			<width>1.10</width>
+			<height>1.10</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_idle_generic_A</file>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_bored_generic_A</file>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\walk_generic</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.14</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\jog_generic</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.60</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.10</tag>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\run_generic</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.08</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.60</tag>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		Heal
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\priest\heal2</file>
+		</assetreference>
+		<component>oldman</component>
+		<attach a="HealRays" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		Attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_attack_generic_A</file>
+			<tag type="Attack">0.58</tag>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_death_generic_A</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.81</tag>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_death</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathC</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathD</file>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		Death_havoc_flail
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_flail</file>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		Death_havoc_spin
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_spin</file>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		SmokingA
+		<assetreference type="GrannyAnim">
+			<file>buildings\native_settlement\native_oldmen_smoking_guyA</file>
+		</assetreference>
+		<component>oldman</component>
+		<attach a="pipe" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		SmokingB
+		<assetreference type="GrannyAnim">
+			<file>buildings\native_settlement\native_oldmen_smoking_guyB</file>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		Nugget_rock_idle
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_rock\rock_captive_idleA</file>
+			<weight>70</weight>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		Nugget_rock_exit
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_rock\rock_captive_exit</file>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		nugget_hostageA_idle
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleD</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleB</file>
+			<weight>20</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleC</file>
+			<weight>20</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleA</file>
+			<weight>20</weight>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+	<anim>
+		nugget_hostageA_exit
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_exit</file>
+		</assetreference>
+		<component>oldman</component>
+	</anim>
+</animfile>

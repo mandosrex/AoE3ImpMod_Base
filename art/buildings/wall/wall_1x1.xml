@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_decor00</definebone>
+	<definebone>bone_decor01</definebone>
+	<definebone>bone_decor02</definebone>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_1d</definebone>
+	<definebone>bone_debris_1e</definebone>
+	<definebone>bone_debris_1f</definebone>
+	<definebone>bone_debris_1g</definebone>
+	<submodel>
+		wood
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			woodWall
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wall_wood_1X1">
+								<file>buildings\wall\wall_wooden_1X1_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wall_wood_1X1">
+								<file>buildings\wall\wall_wooden_1X1</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wall_wood_1X1">
+						<file>buildings\wall\lp_wall_wooden_1X1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>3.00</width>
+				<height>2.00</height>
+			</decal>
+		</component>
+		<component>
+			woodWall_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\wall_wooden_1X1_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\lp_wall_wooden_1X1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>woodWall</component>
+			<simskeleton>
+				<model>buildings\wall\wall_wooden_1X1_damaged</model>
+				<damagetemplate>buildings\wall\wall_wooden_1X1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_wooden_1X1_deathAnim</file>
+			</assetreference>
+			<component>woodWall_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		stone
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			stoneWall
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wall_stone_1X1">
+								<file>buildings\wall\wall_stone_1X1_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wall_stone_1X1">
+								<file>buildings\wall\wall_stone_1X1</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wall_stone_1X1">
+						<file>buildings\wall\lp_wall_stone_1x1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			stoneWall_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\wall_stone_1X1_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\lp_wall_stone_1x1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>stoneWall</component>
+			<simskeleton>
+				<model>buildings\wall\wall_stone_1X1_damaged</model>
+				<damagetemplate>buildings\wall\wall_stone_1X1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_1X1_deathAnim</file>
+			</assetreference>
+			<component>stoneWall_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		wall_east
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			stoneWall
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wall_stone_1X1">
+								<file>buildings\wall\wall_stone_1X1_damaged</file>
+								<replacetexture>
+									<from>buildings\wall\wall_stone_block</from>
+									<to>buildings\wall\wall_stone_block_east</to>
+								</replacetexture>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wall_stone_1X1">
+								<file>buildings\wall\wall_stone_1X1</file>
+								<replacetexture>
+									<from>buildings\wall\wall_stone_block</from>
+									<to>buildings\wall\wall_stone_block_east</to>
+								</replacetexture>
+							</assetreference>
+						</p99>
+					</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			stoneWall_death
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\wall_stone_1X1_deathModel</file>
+								<replacetexture>
+									<from>buildings\wall\wall_stone_block</from>
+									<to>buildings\wall\wall_stone_block_east</to>
+								</replacetexture>
+					</assetreference>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>stoneWall</component>
+			<simskeleton>
+				<model>buildings\wall\wall_stone_1X1_damaged</model>
+				<damagetemplate>buildings\wall\wall_stone_1X1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_1X1_deathAnim</file>
+			</assetreference>
+			<component>stoneWall_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		wall_med
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			stoneWall
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wall_stone_1X1">
+								<file>buildings\wall\wall_stone_1X1_damaged</file>
+								<replacetexture>
+									<from>buildings\wall\wall_stone_block</from>
+									<to>buildings\wall\wall_stone_block_med</to>
+								</replacetexture>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wall_stone_1X1">
+								<file>buildings\wall\wall_stone_1X1</file>
+								<replacetexture>
+									<from>buildings\wall\wall_stone_block</from>
+									<to>buildings\wall\wall_stone_block_med</to>
+								</replacetexture>
+							</assetreference>
+						</p99>
+					</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			stoneWall_death
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\wall_stone_1X1_deathModel</file>
+								<replacetexture>
+									<from>buildings\wall\wall_stone_block</from>
+									<to>buildings\wall\wall_stone_block_med</to>
+								</replacetexture>
+					</assetreference>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>stoneWall</component>
+			<simskeleton>
+				<model>buildings\wall\wall_stone_1X1_damaged</model>
+				<damagetemplate>buildings\wall\wall_stone_1X1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_1X1_deathAnim</file>
+			</assetreference>
+			<component>stoneWall_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		SPC_Fort_Wall_Large
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			SPC_Fort_Wall_Small
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="spc_fort_wall_small">
+								<file>buildings\spc\fort\spc_fort_wall_small_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="spc_fort_wall_small">
+								<file>buildings\spc\fort\spc_fort_wall_small</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="spc_fort_wall_small">
+						<file>buildings\spc\fort\lp_SPC_Fort_Wall_Small</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_wall_small_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_wall_small_ground_bumpmap</bumptexture>
+				<width>5.50</width>
+				<height>5.50</height>
+			</decal>
+		</component>
+		<component>
+			SPC_Fort_Wall_Small_Death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\spc\fort\spc_fort_wall_small_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\spc\fort\lp_SPC_Fort_Wall_Small</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_wall_small_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_wall_small_ground_bumpmap</bumptexture>
+				<width>10.00</width>
+				<height>8.50</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>SPC_Fort_Wall_Small</component>
+			<simskeleton>
+				<model>buildings\spc\fort\spc_fort_wall_small_damaged</model>
+				<damagetemplate>buildings\spc\fort\SPC_Fort_Wall_small.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\spc\fort\SPC_Fort_Wall_Small_deathAnim</file>
+			</assetreference>
+			<component>SPC_Fort_Wall_Small_Death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		SPC_Fort_Wall_Large_Asian
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			SPC_Fort_Wall_Small
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="spc_fort_wall_small">
+								<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_wall_small\japanese_fort_wall_small_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="spc_fort_wall_small">
+								<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_wall_small\japanese_fort_wall_small</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="spc_fort_wall_small">
+						<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_wall_small\japanese_fort_wall_small</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_wall_small_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_wall_small_ground_bumpmap</bumptexture>
+				<width>5.50</width>
+				<height>5.50</height>
+			</decal>
+		</component>
+		<component>
+			SPC_Fort_Wall_Small_Death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_wall_small\japanese_fort_wall_small_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_wall_small\japanese_fort_wall_small</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_wall_small_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_wall_small_ground_bumpmap</bumptexture>
+				<width>10.00</width>
+				<height>8.50</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>SPC_Fort_Wall_Small</component>
+			<simskeleton>
+				<model>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_wall_small\japanese_fort_wall_small_damaged</model>
+				<damagetemplate>buildings\spc\fort\SPC_Fort_Wall_small.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_wall_small\japanese_fort_wall_small_deathanime</file>
+			</assetreference>
+			<component>SPC_Fort_Wall_Small_Death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		SPC_Fort_Wall_Large_Indian
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			SPC_Fort_Wall_Small
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="spc_fort_wall_small">
+								<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_small_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="spc_fort_wall_small">
+								<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_small</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="spc_fort_wall_small">
+						<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_small</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_wall_small_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_wall_small_ground_bumpmap</bumptexture>
+				<width>12.00</width>
+				<height>5.50</height>
+			</decal>
+		</component>
+		<component>
+			SPC_Fort_Wall_Large_Death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_small_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_small</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_wall_small_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_wall_small_ground_bumpmap</bumptexture>
+				<width>12.00</width>
+				<height>5.50</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>SPC_Fort_Wall_Small</component>
+			<simskeleton>
+				<model>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_small_damaged</model>
+				<damagetemplate>buildings\spc\fort\SPC_Fort_Wall_small.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_small_deathanime</file>
+			</assetreference>
+			<component>SPC_Fort_Wall_Small_Death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		wicker
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			wickerWall
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wall_wood_1X1">
+								<file>buildings\native_civs\wall\wall_wicker_1X1</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wall_wood_1X1">
+								<file>buildings\native_civs\wall\wall_wicker_1X1</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wall_wood_1X1">
+						<file>buildings\native_civs\wall\wall_wicker_1X1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>3.00</width>
+				<height>2.00</height>
+			</decal>
+		</component>
+		<component>
+			wickerWall_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\wall\wall_wicker_1X1</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\wall\wall_wicker_1X1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>wickerWall</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_wicker_1X1</model>
+				<damagetemplate>buildings\wall\wall_wooden_1X1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_wooden_1X1_deathAnim</file>
+			</assetreference>
+			<component>wickerWall_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		palisade
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			iroPalisadeWall
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wall_stone_1X1">
+								<file>buildings\native_civs\wall\wall_iro_palisade_1X1</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wall_stone_1X1">
+								<file>buildings\native_civs\wall\wall_iro_palisade_1X1</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wall_stone_1X1">
+						<file>buildings\native_civs\wall\wall_iro_palisade_1X1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			iroPalisadeWall_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\wall_stone_1X1_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\wall\wall_iro_palisade_1X1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>iroPalisadeWall</component>
+			<simskeleton>
+				<model>buildings\wall\wall_stone_1X1_damaged</model>
+				<damagetemplate>buildings\wall\wall_stone_1X1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_1X1_deathAnim</file>
+			</assetreference>
+			<component>iroPalisadeWall_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		aztecstone
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wall_aztec_1x1">
+								<file>buildings\native_civs\wall\wall_aztec_1x1_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wall_aztec_1x1">
+								<file>buildings\native_civs\wall\wall_az_stone_1X1</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wall_aztec_1x1">
+						<file>buildings\native_civs\wall\lp_wall_az_stone_1X1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\wall\wall_aztec_1x1_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\wall\lp_wall_az_stone_1X1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_aztec_1x1_damaged</model>
+				<damagetemplate>buildings\native_civs\wall\wall_aztec_1x1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\wall\wall_aztec_1x1_deathanim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		asianwall
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wall_stone_1X1">
+								<file>buildings\wall\Asian_walls_destructions\1x1\asian_wall_damaged_1x1</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wall_aztec_1x1">
+								<file>buildings\wall\wall_1x1</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wall_aztec_1x1">
+						<file>buildings\wall\wall_1x1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\Asian_walls_destructions\1x1\asian_wall_deathmodel_1x1</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\Asian_walls_destructions\1x1\asian_wall_deathmodel_1x1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\wall\Indian_wall\indian_wall_1x1_stone</model>
+				<damagetemplate>buildings\wall\wall_stone_1X1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\Asian_walls_destructions\1x1\asian_wall_deathanime_1x1</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		indianstone
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wall_stone_1X1">
+								<file>buildings\wall\Indian_wall\indian_wall_1x1_stone</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wall_aztec_1x1">
+								<file>buildings\wall\Indian_wall\indian_wall_1x1_stone</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wall_aztec_1x1">
+						<file>buildings\wall\Indian_wall\indian_wall_1x1_stone_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\Asian_walls_destructions\1x1\asian_wall_deathmodel_1x1</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\Indian_wall\indian_wall_1x1_stone_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_small</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>buildings\wall\wall_wood_stone_ground_small_bumpmap</bumptexture>
+				<width>3.50</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\wall\Indian_wall\indian_wall_1x1_stone</model>
+				<damagetemplate>buildings\wall\wall_stone_1X1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\Asian_walls_destructions\1x1\asian_wall_deathanime_1x1</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<component>
+		wall
+		<logic type="Culture">
+			<easterneurope>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="wood"/>
+					</none>
+					<bastion>
+						<submodelref ref="wall_east"/>
+					</bastion>
+					<stonefortifiedwalls>
+						<submodelref ref="SPC_Fort_Wall_Large"/>
+					</stonefortifiedwalls>
+				</logic>
+			</easterneurope>
+			<mediterranean>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="wood"/>
+					</none>
+					<bastion>
+						<submodelref ref="wall_med"/>
+					</bastion>
+					<asianfortifiedwalls>
+						<submodelref ref="SPC_Fort_Wall_Large_Indian"/>
+					</asianfortifiedwalls>
+				</logic>
+			</mediterranean>
+			<westerneurope>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="wood"/>
+					</none>
+					<bastion>
+						<submodelref ref="stone"/>
+					</bastion>
+					<stonefortifiedwalls>
+						<submodelref ref="SPC_Fort_Wall_Large"/>
+					</stonefortifiedwalls>
+				</logic>
+			</westerneurope>
+			<iroquois>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="wicker"/>
+					</none>
+					<bastion>
+						<submodelref ref="palisade"/>
+					</bastion>
+				</logic>
+			</iroquois>
+			<sioux>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="wicker"/>
+					</none>
+				</logic>
+			</sioux>
+			<aztec>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="wicker"/>
+					</none>
+					<bastion>
+						<submodelref ref="aztecstone"/>
+					</bastion>
+				</logic>
+			</aztec>
+			<chinese>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="wood"/>
+					</none>
+					<bastion>
+						<submodelref ref="asianwall"/>
+					</bastion>
+					<asianfortifiedwalls>
+						<submodelref ref="SPC_Fort_Wall_Large_Asian"/>
+					</asianfortifiedwalls>
+				</logic>
+			</chinese>
+			<indian>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="wood"/>
+					</none>
+					<bastion>
+						<submodelref ref="indianstone"/>
+					</bastion>
+					<asianfortifiedwalls>
+						<submodelref ref="SPC_Fort_Wall_Large_Indian"/>
+					</asianfortifiedwalls>
+				</logic>
+			</indian>
+			<japanese>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="wood"/>
+					</none>
+					<bastion>
+						<submodelref ref="asianwall"/>
+					</bastion>
+					<asianfortifiedwalls>
+						<submodelref ref="SPC_Fort_Wall_Large_Asian"/>
+					</asianfortifiedwalls>
+				</logic>
+			</japanese>
+		</logic>
+	</component>
+</animfile>

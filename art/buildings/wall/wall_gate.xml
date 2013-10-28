@@ -1,0 +1,1771 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_decor00</definebone>
+	<definebone>bone_decor01</definebone>
+	<definebone>bone_decor02</definebone>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_1d</definebone>
+	<definebone>bone_debris_1e</definebone>
+	<definebone>bone_debris_1f</definebone>
+	<definebone>bone_debris_1g</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_4c</definebone>
+	<definebone>bone_debris_4d</definebone>
+	<definebone>bone_debris_4e</definebone>
+	<definebone>bone_debris_4f</definebone>
+	<definebone>bone_debris_4g</definebone>
+	<submodel>
+		Wood Gate
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			WoodGate
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel" shape="wall_wood_gate">
+						<file>buildings\wall\wall_wooden_gate</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\lp_wall_wooden_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			WoodGate_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\wall_wooden_gate_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\lp_wall_wooden_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>WoodGate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_wooden_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opened
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_wooden_gate_open</file>
+			</assetreference>
+			<component>WoodGate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_wooden_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opening
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_wooden_gate_opening</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.01</tag>
+			</assetreference>
+			<component>WoodGate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_wooden_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Closing
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_wooden_gate_closing</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.01</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.88</tag>
+			</assetreference>
+			<component>WoodGate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_wooden_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_wooden_gate_deathAnim</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.62</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.87</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.37</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.44</tag>
+			</assetreference>
+			<component>WoodGate_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		gate_east
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+	<attachment>
+		wallCollapse
+		<component>
+			smoke base
+			<assetreference type="ParticleSystem">
+				<file>effects\smoke\collapse_smoke_wall.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>smoke base</component>
+		</anim>
+	</attachment>
+	<component>
+		WoodGate
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel" shape="spc_fort_gate">
+					<file>buildings\spc_woodfort_wall\spc_woodfrt_wall_gate</file>
+								<replacetexture>
+									<from>buildings\spc_woodfort_wall\spc_woodft_wall_diffuse</from>
+									<to>buildings\wall\gate_east</to>
+								</replacetexture>
+				</assetreference>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel" shape="spc_fort_gate">
+					<file>buildings\spc_woodfort_wall\spc_woodfrt_wall_gate</file>
+								<replacetexture>
+									<from>buildings\spc_woodfort_wall\spc_woodft_wall_diffuse</from>
+									<to>buildings\wall\gate_east</to>
+								</replacetexture>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>bump</effecttype>
+			<texture>buildings\spc\fort\spc_ft_gate_ground</texture>
+			<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+			<bumptexture>buildings\spc\fort\spc_ft_gate_ground_bumpmap</bumptexture>
+			<width>12.00</width>
+			<height>11.00</height>
+		</decal>
+	</component>
+	<component>
+		WoodGate_death
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel">
+					<file>buildings\spc_woodfort_wall\spc_woodfort_wall_gate_deathmodel</file>
+								<replacetexture>
+									<from>buildings\spc_woodfort_wall\spc_woodft_wall_diffuse</from>
+									<to>buildings\wall\gate_east</to>
+								</replacetexture>
+				</assetreference>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel">
+					<file>buildings\spc_woodfort_wall\spc_woodfrt_wall_gate</file>
+								<replacetexture>
+									<from>buildings\spc_woodfort_wall\spc_woodft_wall_diffuse</from>
+									<to>buildings\wall\gate_east</to>
+								</replacetexture>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>bump</effecttype>
+			<texture>buildings\spc\fort\spc_ft_gate_ground</texture>
+			<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+			<bumptexture>buildings\spc\fort\spc_ft_gate_ground_bumpmap</bumptexture>
+			<width>12.00</width>
+			<height>11.00</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>buildings\spc_woodfort_wall\spc_woodfrt_wall_gate_idle</file>
+		</assetreference>
+		<component>WoodGate</component>
+		<simskeleton>
+			<model>buildings\spc_woodfort_wall\spc_woodfrt_wall_gate</model>
+			<damagetemplate>buildings\spc_woodfort_wall\spc_woodFort_gate.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		Opening
+		<assetreference type="GrannyAnim">
+			<file>buildings\spc_woodfort_wall\spc_woodfrt_wall_gate_opening</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.02</tag>
+		</assetreference>
+		<component>WoodGate</component>
+		<simskeleton>
+			<model>buildings\spc_woodfort_wall\spc_woodfrt_wall_gate</model>
+			<damagetemplate>buildings\spc_woodfort_wall\spc_woodFort_gate.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		Closing
+		<assetreference type="GrannyAnim">
+			<file>buildings\spc_woodfort_wall\spc_woodfrt_wall_gate_closing</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.02</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.93</tag>
+		</assetreference>
+		<component>WoodGate</component>
+		<simskeleton>
+			<model>buildings\spc_woodfort_wall\spc_woodfrt_wall_gate</model>
+			<damagetemplate>buildings\spc_woodfort_wall\spc_woodFort_gate.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		Opened
+		<assetreference type="GrannyAnim">
+			<file>buildings\spc_woodfort_wall\spc_woodfrt_wall_gate_open</file>
+		</assetreference>
+		<component>WoodGate</component>
+		<simskeleton>
+			<model>buildings\spc_woodfort_wall\spc_woodfrt_wall_gate</model>
+			<damagetemplate>buildings\spc_woodfort_wall\spc_woodFort_gate.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>buildings\spc_woodfort_wall\spc_woodfort_wall_gate_deathanim</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.62</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.87</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.37</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.44</tag>
+		</assetreference>
+		<component>WoodGate_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	</submodel>
+	<submodel>
+		Stone Gate
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			Stone Gate
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel" shape="wall_wood_gate">
+						<file>buildings\wall\wall_stone_gate</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\lp_wall_stone_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			stoneGate_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\wall_stone_gate_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\lp_wall_stone_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_stone_gate</model>
+				<damagetemplate>buildings\wall\wall_stone_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opening
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_gate_opening</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.01</tag>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_stone_gate</model>
+				<damagetemplate>buildings\wall\wall_stone_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opened
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_gate_opened</file>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_stone_gate</model>
+				<damagetemplate>buildings\wall\wall_stone_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Closing
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_gate_closing</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.01</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.88</tag>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_stone_gate</model>
+				<damagetemplate>buildings\wall\wall_stone_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_gate_deathAnim</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.62</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.87</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.37</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.44</tag>
+			</assetreference>
+			<component>stoneGate_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		Fort_Wood_Gate
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			WoodGate
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel" shape="wall_wood_gate">
+						<file>buildings\wall\wall_wooden_gate</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\lp_wall_wooden_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			WoodGate_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\wall_wooden_gate_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\lp_wall_wooden_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>WoodGate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_wooden_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opened
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_wooden_gate_open</file>
+			</assetreference>
+			<component>WoodGate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_wooden_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opening
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_wooden_gate_opening</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.01</tag>
+			</assetreference>
+			<component>WoodGate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_wooden_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Closing
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_wooden_gate_closing</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.01</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.88</tag>
+			</assetreference>
+			<component>WoodGate</component>
+			<simskeleton>
+				<model>buildings\wall\wall_wooden_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_wooden_gate_deathAnim</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.62</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.87</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.37</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.44</tag>
+			</assetreference>
+			<component>WoodGate_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		Fort_Stone_Gate
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			wallCollapse
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<component>
+			spc_ft_gate
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="spc_fort_gate">
+								<file>buildings\spc\fort\spc_fort_gate_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="spc_fort_gate">
+								<file>buildings\spc\fort\SPC_Fort_Gate</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="spc_fort_gate">
+						<file>buildings\spc\fort\lp_SPC_Fort_Gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_gate_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_gate_ground_bumpmap</bumptexture>
+				<width>12.00</width>
+				<height>11.00</height>
+			</decal>
+		</component>
+		<component>
+			spc_ft_gate_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\spc\fort\SPC_Fort_Gate_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\spc\fort\lp_SPC_Fort_Gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_gate_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_gate_ground_bumpmap</bumptexture>
+				<width>12.00</width>
+				<height>11.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>buildings\spc\fort\SPC_Fort_Gate_idle</file>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\spc\fort\spc_fort_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opening
+			<assetreference type="GrannyAnim">
+				<file>buildings\spc\fort\SPC_Fort_Gate_opening</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.02</tag>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\spc\fort\spc_fort_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Closing
+			<assetreference type="GrannyAnim">
+				<file>buildings\spc\fort\SPC_Fort_Gate_closing</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.02</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.93</tag>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\spc\fort\spc_fort_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opened
+			<assetreference type="GrannyAnim">
+				<file>buildings\spc\fort\SPC_Fort_Gate_opened</file>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\spc\fort\spc_fort_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\spc\fort\SPC_Fort_Gate_deathAnim</file>
+			</assetreference>
+			<component>spc_ft_gate_death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="wallCollapse" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		Fort_Stone_Gate_Asian
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			wallCollapse
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<component>
+			spc_ft_gate
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="spc_fort_gate">
+								<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_gate_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="spc_fort_gate">
+								<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_gate</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="spc_fort_gate">
+						<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_gate_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_gate_ground_bumpmap</bumptexture>
+				<width>12.00</width>
+				<height>11.00</height>
+			</decal>
+		</component>
+		<component>
+			spc_ft_gate_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_gate_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_gate_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_gate_ground_bumpmap</bumptexture>
+				<width>12.00</width>
+				<height>11.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_gate_idle</file>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opening
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fortgate_opening</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.02</tag>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Closing
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fortgate_closing</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.02</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.93</tag>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opened
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fortgate_opened</file>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\japanese_fort\Japanese_fort\japanese_fort_gate_deathanime</file>
+			</assetreference>
+			<component>spc_ft_gate_death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="wallCollapse" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		Fort_Stone_Gate_Indian
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			wallCollapse
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<component>
+			spc_ft_gate
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="spc_fort_gate">
+								<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="spc_fort_gate">
+								<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="spc_fort_gate">
+						<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_gate_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_gate_ground_bumpmap</bumptexture>
+				<width>12.00</width>
+				<height>11.00</height>
+			</decal>
+		</component>
+		<component>
+			spc_ft_gate_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\spc\fort\spc_ft_gate_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\spc\fort\spc_ft_gate_ground_bumpmap</bumptexture>
+				<width>12.00</width>
+				<height>11.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate_idle</file>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opening
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate_opening</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.02</tag>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Closing
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate_closing</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.02</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.93</tag>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opened
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate_opened</file>
+			</assetreference>
+			<component>spc_ft_gate</component>
+			<simskeleton>
+				<model>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate_damaged</model>
+				<damagetemplate>buildings\spc\fort\spc_fort_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\spc\indian_fort\Indian_fort walls\indian_ft_gate_deathanime</file>
+			</assetreference>
+			<component>spc_ft_gate_death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="wallCollapse" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		Wicker Gate
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel" shape="wall_wood_gate">
+						<file>buildings\native_civs\wall\wall_wicker_gate</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wall_wood_gate">
+						<file>buildings\native_civs\wall\wall_wicker_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\wall\wall_wicker_gate_death</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\wall\wall_wicker_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_wicker_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opened
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\wall\wall_wicker_gate_open</file>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_wicker_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opening
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\wall\wall_wicker_gate_opening</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.01</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_wicker_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Closing
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\wall\wall_wicker_gate_closing</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.01</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.88</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_wicker_gate</model>
+				<damagetemplate>buildings\wall\wall_wooden_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\wall\wall_wicker_gate_death_Anim</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.62</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.87</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.37</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.44</tag>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		Palisade_Gate
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel" shape="wall_iro_palisade_1x5">
+						<file>buildings\native_civs\wall\wall_palisade_gate</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wall_iro_palisade_1x5">
+						<file>buildings\native_civs\wall\wall_palisade_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\wall\wall_iro_palisade_gate_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\wall\wall_palisade_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_palisade_gate</model>
+				<damagetemplate>buildings\native_civs\wall\wall_iro_palisade_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opening
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_gate_opening</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.01</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_palisade_gate</model>
+				<damagetemplate>buildings\native_civs\wall\wall_iro_palisade_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opened
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_gate_opened</file>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_palisade_gate</model>
+				<damagetemplate>buildings\native_civs\wall\wall_iro_palisade_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Closing
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_gate_closing</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.01</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.88</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_palisade_gate</model>
+				<damagetemplate>buildings\native_civs\wall\wall_iro_palisade_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\wall\wall_iro_palisade_gate_deathanim</file>
+				<weight>10</weight>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.62</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.87</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.37</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.44</tag>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		Aztec Gate
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			Stone Gate
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel" shape="wall_aztec_gate">
+						<file>buildings\native_civs\wall\wall_az_stone_gate</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wall_aztec_gate">
+						<file>buildings\native_civs\wall\lp_wall_aztec_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			stoneGate_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\wall\wall_az_stone_gate_death</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\wall\lp_wall_aztec_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_az_stone_gate_damaged</model>
+				<damagetemplate>buildings\native_civs\wall\wall_aztec_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opening
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_gate_opening</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.01</tag>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_az_stone_gate_damaged</model>
+				<damagetemplate>buildings\native_civs\wall\wall_aztec_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opened
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_gate_opened</file>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_az_stone_gate_damaged</model>
+				<damagetemplate>buildings\native_civs\wall\wall_aztec_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Closing
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\wall_stone_gate_closing</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.01</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.88</tag>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\native_civs\wall\wall_az_stone_gate_damaged</model>
+				<damagetemplate>buildings\native_civs\wall\wall_aztec_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\wall\wall_az_stone_gate_deathanim1</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.62</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.87</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.37</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.44</tag>
+			</assetreference>
+			<component>stoneGate_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		Asian Gate
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			Stone Gate
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\Asian_gate\asian_gate</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\Asian_gate\asian_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			stoneGate_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\Asian_gate\asian_gate_destructions\asian_gate_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\Asian_gate\asian_gate</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\Asian_gate\asian_gate</model>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opening
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\Asian_gate\asian_gate_opening</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.01</tag>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\Asian_gate\asian_gate</model>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opened
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\Asian_gate\asian_gate_opened</file>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\Asian_gate\asian_gate</model>
+			</simskeleton>
+		</anim>
+		<anim>
+			Closing
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\Asian_gate\asian_gate_closing</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.01</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.88</tag>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\Asian_gate\asian_gate</model>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\Asian_gate\asian_gate_destructions\asian_gate_deathanime</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.62</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.87</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.37</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.44</tag>
+			</assetreference>
+			<component>stoneGate_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		Indian Gate
+		<attachment>
+			collapseSmoke
+			<component>
+				emitter
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wall.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				None
+				<component>emitter</component>
+			</anim>
+		</attachment>
+		<component>
+			Stone Gate
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel" shape="wall_aztec_gate">
+						<file>buildings\wall\Indian_wall\indian_wall_gate_stone</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wall_aztec_gate">
+						<file>buildings\wall\Indian_wall\indian_wall_gate_stone</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<component>
+			stoneGate_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\Indian_wall\indian_wall_gate_stone_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wall\Indian_wall\indian_wall_gate_stone</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wall\wall_wood_stone_ground_large</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>14.00</width>
+				<height>5.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\Indian_wall\indian_wall_gate_stone</model>
+				<damagetemplate>buildings\native_civs\wall\wall_aztec_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opening
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\Indian_wall\indian_wall_gate_stone_open</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateOpen">0.01</tag>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\Indian_wall\indian_wall_gate_stone</model>
+				<damagetemplate>buildings\native_civs\wall\wall_aztec_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Opened
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\Indian_wall\indian_wall_gate_stone_opened</file>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\Indian_wall\indian_wall_gate_stone</model>
+				<damagetemplate>buildings\native_civs\wall\wall_aztec_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Closing
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\Indian_wall\indian_wall_gate_stone_closing</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="GateClose">0.01</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.88</tag>
+			</assetreference>
+			<component>Stone Gate</component>
+			<simskeleton>
+				<model>buildings\wall\Indian_wall\indian_wall_gate_stone</model>
+				<damagetemplate>buildings\native_civs\wall\wall_aztec_gate.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wall\Indian_wall\indian_wall_gate_stone_deathanime</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.62</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.87</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.37</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="BuildingPartImpact">0.44</tag>
+			</assetreference>
+			<component>stoneGate_death</component>
+			<attach a="collapseSmoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<component>
+		gate
+		<logic type="Culture">
+			<easterneurope>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="Wood Gate"/>
+					</none>
+					<bastion>
+						<submodelref ref="gate_east"/>
+					</bastion>
+					<stonefortifiedwalls>
+						<submodelref ref="Fort_Stone_Gate"/>
+					</stonefortifiedwalls>
+				</logic>
+			</easterneurope>
+			<mediterranean>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="Wood Gate"/>
+					</none>
+					<bastion>
+						<submodelref ref="Indian Gate"/>
+					</bastion>
+					<asianfortifiedwalls>
+						<submodelref ref="Fort_Stone_Gate_Indian"/>
+					</asianfortifiedwalls>
+				</logic>
+			</mediterranean>
+			<westerneurope>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="Wood Gate"/>
+					</none>
+					<bastion>
+						<submodelref ref="Stone Gate"/>
+					</bastion>
+					<stonefortifiedwalls>
+						<submodelref ref="Fort_Stone_Gate"/>
+					</stonefortifiedwalls>
+				</logic>
+			</westerneurope>
+			<iroquois>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="Wicker Gate"/>
+					</none>
+					<bastion>
+						<submodelref ref="Palisade_Gate"/>
+					</bastion>
+				</logic>
+			</iroquois>
+			<sioux>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="Wicker Gate"/>
+					</none>
+				</logic>
+			</sioux>
+			<aztec>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="Wicker Gate"/>
+					</none>
+					<bastion>
+						<submodelref ref="Aztec Gate"/>
+					</bastion>
+				</logic>
+			</aztec>
+			<chinese>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="Wood Gate"/>
+					</none>
+					<bastion>
+						<submodelref ref="Asian Gate"/>
+					</bastion>
+					<asianfortifiedwalls>
+						<submodelref ref="Fort_Stone_Gate_Asian"/>
+					</asianfortifiedwalls>
+				</logic>
+			</chinese>
+			<indian>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="Wood Gate"/>
+					</none>
+					<bastion>
+						<submodelref ref="Indian Gate"/>
+					</bastion>
+					<asianfortifiedwalls>
+						<submodelref ref="Fort_Stone_Gate_Indian"/>
+					</asianfortifiedwalls>
+				</logic>
+			</indian>
+			<japanese>
+				<logic type="Tech">
+					<none>
+						<submodelref ref="Wood Gate"/>
+					</none>
+					<bastion>
+						<submodelref ref="Asian Gate"/>
+					</bastion>
+					<asianfortifiedwalls>
+						<submodelref ref="Fort_Stone_Gate_Asian"/>
+					</asianfortifiedwalls>
+				</logic>
+			</japanese>
+		</logic>
+	</component>
+</animfile>

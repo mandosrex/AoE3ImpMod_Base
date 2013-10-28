@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_flag_civ</definebone>
+	<definebone>bone_debris_1A</definebone>
+	<definebone>bone_debris_1B</definebone>
+	<definebone>bone_debris_1C</definebone>
+	<definebone>bone_debris_1D</definebone>
+	<definebone>bone_debris_1E</definebone>
+	<definebone>bone_debris_1F</definebone>
+	<definebone>bone_debris_1G</definebone>
+	<definebone>bone_debris_1H</definebone>
+	<definebone>bone_debris_1I</definebone>
+	<definebone>bone_debris_1J</definebone>
+	<definebone>bone_debris_1K</definebone>
+	<definebone>bone_debris_1L</definebone>
+	<definebone>bone_debris_1M</definebone>
+	<definebone>bone_debris_2A</definebone>
+	<definebone>bone_debris_2B</definebone>
+	<definebone>bone_debris_2C</definebone>
+	<definebone>bone_debris_2D</definebone>
+	<definebone>bone_debris_2E</definebone>
+	<definebone>bone_debris_2F</definebone>
+	<definebone>bone_debris_2G</definebone>
+	<definebone>bone_debris_2H</definebone>
+	<definebone>bone_debris_3A</definebone>
+	<definebone>bone_debris_3B</definebone>
+	<definebone>bone_debris_3C</definebone>
+	<definebone>bone_debris_3D</definebone>
+	<definebone>bone_debris_3E</definebone>
+	<definebone>bone_debris_3F</definebone>
+	<definebone>bone_debris_3G</definebone>
+	<definebone>bone_debris_3h</definebone>
+	<definebone>bone_debris_3i</definebone>
+	<definebone>bone_debris_3j</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_4c</definebone>
+	<definebone>bone_debris_4d</definebone>
+	<definebone>bone_debris_4e</definebone>
+	<definebone>bone_debris_4f</definebone>
+	<definebone>bone_debris_4g</definebone>
+	<definebone>bone_debris_4h</definebone>
+	<definebone>bone_debris_4i</definebone>
+	<definebone>bone_debris_4j</definebone>
+	<definebone>bone_debris_4k</definebone>
+	<definebone>bone_debris_5a</definebone>
+	<definebone>bone_debris_5b</definebone>
+	<definebone>bone_debris_5c</definebone>
+	<definebone>bone_debris_5d</definebone>
+	<definebone>bone_debris_5e</definebone>
+	<definebone>bone_debris_6a</definebone>
+	<definebone>bone_debris_6b</definebone>
+	<definebone>bone_debris_6c</definebone>
+	<definebone>bone_debris_6d</definebone>
+	<definebone>bone_debris_6e</definebone>
+	<definebone>bone_debris_6f</definebone>
+	<definebone>bone_debris_7A</definebone>
+	<definebone>bone_debris_7B</definebone>
+	<definebone>bone_debris_7C</definebone>
+	<definebone>bone_debris_8A</definebone>
+	<definebone>bone_debris_8B</definebone>
+	<definebone>bone_debris_8C</definebone>
+	<definebone>bone_debris_8D</definebone>
+	<definebone>bone_debris_8E</definebone>
+	<definebone>bone_debris_8F</definebone>
+	<definebone>bone_debris_9A</definebone>
+	<definebone>bone_debris_2I</definebone>
+	<definebone>bone_chimney</definebone>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_02
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		generic_A
+		<attachment>
+			chimney smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_house
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="house_generic_a">
+								<file>buildings\house\house_generic_a_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="house_generic_a">
+								<file>buildings\house\house_generic_a</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="house_generic_a">
+						<file>buildings\house\lp_house_generic_a</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\house\west\age_1\house_ground_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>6.00</width>
+				<height>6.00</height>
+			</decal>
+			<attach a="chimney smoke" frombone="bone_chimney" tobone="bone_chimney" syncanims="0"/>
+		</component>
+		<component>
+			generic_house_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\house_generic_a_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\lp_house_generic_a</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>generic_house</component>
+			<simskeleton>
+				<model>buildings\house\house_generic_a_damaged</model>
+				<damagetemplate>buildings\house\house_generic_a.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Heal
+			<assetreference type="GrannyAnim">
+				<file>animation_library\shared\human_pickup_a</file>
+			</assetreference>
+			<component>generic_house</component>
+			<simskeleton>
+				<model>buildings\house\house_generic_a_damaged</model>
+				<damagetemplate>buildings\house\house_generic_a.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\house\house_generic_a_deathAnim</file>
+			</assetreference>
+			<component>generic_house_death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		generic_B
+		<attachment>
+			chimney smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_house_b
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="house_generic_b">
+								<file>buildings\house\house_generic_b_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="house_generic_b">
+								<file>buildings\house\house_generic_b</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="house_generic_b">
+						<file>buildings\house\lp_house_generic_b</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\house\west\age_1\house_ground_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>6.00</width>
+				<height>6.00</height>
+			</decal>
+			<attach a="chimney smoke" frombone="bone_chimney" tobone="bone_chimney" syncanims="0"/>
+		</component>
+		<component>
+			generic_house_b_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\house_generic_b_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\lp_house_generic_b</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>generic_house_b</component>
+			<simskeleton>
+				<model>buildings\house\house_generic_b_damaged</model>
+				<damagetemplate>buildings\house\house_generic_b.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Heal
+			<assetreference type="GrannyAnim">
+				<file>animation_library\shared\human_pickup_a</file>
+			</assetreference>
+			<component>generic_house_b</component>
+			<simskeleton>
+				<model>buildings\house\house_generic_b_damaged</model>
+				<damagetemplate>buildings\house\house_generic_b.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\house\house_generic_b_deathAnim</file>
+			</assetreference>
+			<component>generic_house_b_death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		generic_C
+		<attachment>
+			chimney smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_house_c
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="house_generic_c">
+								<file>buildings\house\house_generic_c_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="house_generic_c">
+								<file>buildings\house\house_generic_c</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="house_generic_c">
+						<file>buildings\house\lp_house_generic_c</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\house\west\age_1\house_ground_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>6.00</width>
+				<height>6.00</height>
+			</decal>
+			<attach a="chimney smoke" frombone="bone_chimney" tobone="bone_chimney" syncanims="0"/>
+		</component>
+		<component>
+			generic_house_c_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\house_generic_c_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\lp_house_generic_c</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>generic_house_c</component>
+			<simskeleton>
+				<model>buildings\house\house_generic_c_damaged</model>
+				<damagetemplate>buildings\house\house_generic_c.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Heal
+			<assetreference type="GrannyAnim">
+				<file>animation_library\shared\human_pickup_a</file>
+			</assetreference>
+			<component>generic_house_c</component>
+			<simskeleton>
+				<model>buildings\house\house_generic_c_damaged</model>
+				<damagetemplate>buildings\house\house_generic_c.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\house\house_generic_c_deathAnim</file>
+			</assetreference>
+			<component>generic_house_c_death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age2_A
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_houseA_age2">
+								<file>buildings\house\west\age_2\west_house_age2a_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_houseA_age2">
+								<file>buildings\house\west\age_2\west_house_age2a</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_houseA_age2">
+						<file>buildings\house\west\age_2\lp_west_house_age2a</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\west\age_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+		</component>
+		<component>
+			west_age2a_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_2\west_house_age2a_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_2\lp_west_house_age2a</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>west_age2</component>
+			<simskeleton>
+				<model>buildings\house\west\age_2\west_house_age2a_damaged</model>
+				<damagetemplate>buildings\house\west\age_2\west_house_age2a.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Heal
+			<assetreference type="GrannyAnim">
+				<file>animation_library\shared\human_pickup_a</file>
+			</assetreference>
+			<component>west_age2</component>
+			<simskeleton>
+				<model>buildings\house\west\age_2\west_house_age2a_damaged</model>
+				<damagetemplate>buildings\house\west\age_2\west_house_age2a.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\house\west\age_2\west_house_age2a_deathAnim</file>
+			</assetreference>
+			<component>west_age2a_death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age2_B
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_houseB_age2">
+								<file>buildings\house\west\age_2\west_house_age2b_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_houseB_age2">
+								<file>buildings\house\west\age_2\west_house_age2b</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_houseB_age2">
+						<file>buildings\house\west\age_2\lp_west_house_age2b</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\west\age_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+		</component>
+		<component>
+			west_age2b_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_2\west_house_age2b_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_2\lp_west_house_age2b</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\west\age_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>west_age2</component>
+			<simskeleton>
+				<model>buildings\house\west\age_2\west_house_age2b_damaged</model>
+				<damagetemplate>buildings\house\west\age_2\west_house_age2b.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Heal
+			<assetreference type="GrannyAnim">
+				<file>animation_library\shared\human_pickup_a</file>
+			</assetreference>
+			<component>west_age2</component>
+			<simskeleton>
+				<model>buildings\house\west\age_2\west_house_age2b_damaged</model>
+				<damagetemplate>buildings\house\west\age_2\west_house_age2b.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\house\west\age_2\west_house_age2b_deathAnim</file>
+			</assetreference>
+			<component>west_age2b_death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age2_C
+		<attachment>
+			chimney smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_houseC_age2">
+								<file>buildings\house\west\age_2\west_house_age2c_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_houseC_age2">
+								<file>buildings\house\west\age_2\west_house_age2c</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_houseC_age2">
+						<file>buildings\house\west\age_2\lp_west_house_age2c</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\west\age_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="chimney smoke" frombone="bone_chimney" tobone="bone_chimney" syncanims="0"/>
+		</component>
+		<component>
+			west_age2c_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_2\west_house_age2c_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_2\lp_west_house_age2c</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\west\age_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>west_age2</component>
+			<simskeleton>
+				<model>buildings\house\west\age_2\west_house_age2c_damaged</model>
+				<damagetemplate>buildings\house\west\age_2\west_house_age2c.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Heal
+			<assetreference type="GrannyAnim">
+				<file>animation_library\shared\human_pickup_a</file>
+			</assetreference>
+			<component>west_age2</component>
+			<simskeleton>
+				<model>buildings\house\west\age_2\west_house_age2c_damaged</model>
+				<damagetemplate>buildings\house\west\age_2\west_house_age2c.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\house\west\age_2\west_house_age2c_deathAnim</file>
+			</assetreference>
+			<component>west_age2c_death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age3_A
+		<attachment>
+			chimney smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_houseA_age3">
+								<file>buildings\house\west\age_3\west_house_age3a_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_houseA_age3">
+								<file>buildings\house\west\age_3\west_house_age3a</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_houseA_age3">
+						<file>buildings\house\west\age_3\lp_west_house_age3a</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\WEST\AGE_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="chimney smoke" frombone="bone_chimney" tobone="bone_chimney" syncanims="0"/>
+		</component>
+		<component>
+			west_age3A_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_3\west_house_age3a_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_3\lp_west_house_age3a</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>west_age3</component>
+			<simskeleton>
+				<model>buildings\house\west\age_3\west_house_age3a_damaged</model>
+				<damagetemplate>buildings\house\west\age_3\west_house_age3a.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Heal
+			<assetreference type="GrannyAnim">
+				<file>animation_library\shared\human_pickup_a</file>
+			</assetreference>
+			<component>west_age3</component>
+			<simskeleton>
+				<model>buildings\house\west\age_3\west_house_age3a_damaged</model>
+				<damagetemplate>buildings\house\west\age_3\west_house_age3a.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\house\west\age_3\west_house_age3a_deathAnim</file>
+			</assetreference>
+			<component>west_age3A_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age3_B
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_houseB_age3">
+								<file>buildings\house\west\age_3\west_house_age3b_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_houseB_age3">
+								<file>buildings\house\west\age_3\west_house_age3b</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_houseB_age3">
+						<file>buildings\house\west\age_3\lp_west_house_age3b</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\WEST\AGE_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+		</component>
+		<component>
+			west_age3B_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_3\west_house_age3b_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_3\lp_west_house_age3b</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>west_age3</component>
+			<simskeleton>
+				<model>buildings\house\west\age_3\west_house_age3b_damaged</model>
+				<damagetemplate>buildings\house\west\age_3\west_house_age3b.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Heal
+			<assetreference type="GrannyAnim">
+				<file>animation_library\shared\human_pickup_a</file>
+			</assetreference>
+			<component>west_age3</component>
+			<simskeleton>
+				<model>buildings\house\west\age_3\west_house_age3b_damaged</model>
+				<damagetemplate>buildings\house\west\age_3\west_house_age3b.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\house\west\age_3\west_house_age3b_deathAnim</file>
+			</assetreference>
+			<component>west_age3B_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age3_C
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_houseC_age3">
+								<file>buildings\house\west\age_3\west_house_age3c_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_houseC_age3">
+								<file>buildings\house\west\age_3\west_house_age3c</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_houseC_age3">
+						<file>buildings\house\west\age_3\lp_west_house_age3c</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\WEST\AGE_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+		</component>
+		<component>
+			west_age3c_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_3\west_house_age3c_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\house\west\age_3\lp_west_house_age3c</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>west_age3</component>
+			<simskeleton>
+				<model>buildings\house\west\age_3\west_house_age3c_damaged</model>
+				<damagetemplate>buildings\house\west\age_3\west_house_age3c.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Heal
+			<assetreference type="GrannyAnim">
+				<file>animation_library\shared\human_pickup_a</file>
+			</assetreference>
+			<component>west_age3</component>
+			<simskeleton>
+				<model>buildings\house\west\age_3\west_house_age3c_damaged</model>
+				<damagetemplate>buildings\house\west\age_3\west_house_age3c.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\house\west\age_3\west_house_age3c_deathAnim</file>
+			</assetreference>
+			<component>west_age3c_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age2_con2_A
+		<attachment>
+			CON
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\house\west\age_2\west_house_age2a_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age2
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\west\age_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="CON" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>west_age2</component>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age2_con2_B
+		<attachment>
+			CON
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\house\west\age_2\west_house_age2b_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age2
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\west\age_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="CON" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>west_age2</component>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age2_con2_C
+		<attachment>
+			CON
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\house\west\age_2\west_house_age2c_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age2
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\west\age_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="CON" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>west_age2</component>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age3_con2_A
+		<attachment>
+			CON
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\house\west\age_3\west_house_age3a_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age2
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\west\age_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="CON" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>west_age2</component>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age3_con2_B
+		<attachment>
+			CON
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\house\west\age_3\west_house_age3b_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age2
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\west\age_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="CON" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>west_age2</component>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age3_con2_C
+		<attachment>
+			CON
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\house\west\age_3\west_house_age3c_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age2
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\house\west\age_1\House_Ground</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="CON" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>west_age2</component>
+		</anim>
+	</submodel>
+	<submodel>
+		generic_A_con2
+		<attachment>
+			CON
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\house\house_generic_a_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="CON" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		generic_B_con2
+		<attachment>
+			CON
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\house\house_generic_b_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="CON" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		generic_C_con2
+		<attachment>
+			CON
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\house\house_generic_c_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="CON" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_03</component>
+		</anim>
+	</submodel>
+	<component>
+		housemodel
+		<logic type="Tech">
+			<none>
+				<logic type="BuildingCompletion">
+					<p0>
+						<submodelref ref="sub_construction_stage_01"/>
+					</p0>
+					<p33>
+						<submodelref ref="sub_construction_stage_02"/>
+					</p33>
+					<p66>
+						<logic type="Variation">
+							<data>
+								<submodelref ref="generic_A_con2"/>
+							</data>
+							<data>
+								<submodelref ref="generic_B_con2"/>
+							</data>
+							<data>
+								<submodelref ref="generic_C_con2"/>
+							</data>
+						</logic>
+					</p66>
+					<p100>
+						<logic type="Variation">
+							<data>
+								<submodelref ref="generic_A"/>
+							</data>
+							<data>
+								<submodelref ref="generic_B"/>
+							</data>
+							<data>
+								<submodelref ref="generic_C"/>
+							</data>
+						</logic>
+					</p100>
+				</logic>
+			</none>
+			<colonialize>
+				<logic type="BuildingCompletion">
+					<p0>
+						<submodelref ref="sub_construction_stage_01"/>
+					</p0>
+					<p33>
+						<submodelref ref="sub_construction_stage_02"/>
+					</p33>
+					<p66>
+						<logic type="Variation">
+							<data>
+								<submodelref ref="west_age2_con2_A"/>
+							</data>
+							<data>
+								<submodelref ref="west_age2_con2_B"/>
+							</data>
+							<data>
+								<submodelref ref="west_age2_con2_C"/>
+							</data>
+						</logic>
+					</p66>
+					<p100>
+						<logic type="Variation">
+							<data>
+								<submodelref ref="west_age2_A"/>
+							</data>
+							<data>
+								<submodelref ref="west_age2_B"/>
+							</data>
+							<data>
+								<submodelref ref="west_age2_C"/>
+							</data>
+						</logic>
+					</p100>
+				</logic>
+			</colonialize>
+			<industrialize>
+				<logic type="BuildingCompletion">
+					<p0>
+						<submodelref ref="sub_construction_stage_01"/>
+					</p0>
+					<p33>
+						<submodelref ref="sub_construction_stage_02"/>
+					</p33>
+					<p66>
+						<logic type="Variation">
+							<data>
+								<submodelref ref="west_age3_con2_A"/>
+							</data>
+							<data>
+								<submodelref ref="west_age3_con2_B"/>
+							</data>
+							<data>
+								<submodelref ref="west_age3_con2_C"/>
+							</data>
+						</logic>
+					</p66>
+					<p100>
+						<logic type="Variation">
+							<data>
+								<submodelref ref="west_age3_A"/>
+							</data>
+							<data>
+								<submodelref ref="west_age3_B"/>
+							</data>
+							<data>
+								<submodelref ref="west_age3_C"/>
+							</data>
+						</logic>
+					</p100>
+				</logic>
+			</industrialize>
+		</logic>
+	</component>
+</animfile>

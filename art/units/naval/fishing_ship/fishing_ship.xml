@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_2d</definebone>
+	<definebone>bone_debris_2e</definebone>
+	<definebone>bone_debris_2f</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>Bip01 Prop1</definebone>
+	<definebone>Bip01 Prop2</definebone>
+	<definebone>bone_man1</definebone>
+	<submodel>
+		we_Fishing_Boat
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_boat.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam1
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray_sm.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		fishing_net
+		<component>
+			fishing_net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_fishingboat</file>
+			</assetreference>
+			<component>fishing_net</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man
+		<component>
+			Man
+			<assetreference type="GrannyModel">
+				<file>units\villagers\we_villager_male</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\villager\IGC_villager_extinguish_fire</file>
+			</assetreference>
+			<component>Man</component>
+	</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man3
+		<component>
+			Man3
+			<assetreference type="GrannyModel">
+				<file>units\villagers\we_villager_male_2</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_walk</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+	</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<logic type="Destruction">
+					<p1>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship_damaged</file>
+						</assetreference>
+					</p1>
+					<p99>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship</file>
+						</assetreference>
+					</p99>
+				</logic>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel" shape="ship_fishing_ship">
+					<file>units\naval\fishing_ship\fishing_ship_low</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>5.00</width>
+			<height>7.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\fishing_ship\fishing_ship_hullmask</texture>
+			<width>6.5</width>
+			<height>6.5</height>
+		</watersplash>
+	</component>
+	<component>
+		death
+		<assetreference type="GrannyModel">
+			<file>units\naval\fishing_ship\fishing_ship_deathModel</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\fishing_ship\fishing_ship_damaged</model>
+			<damagetemplate>units\naval\fishing_ship\fishing_ship.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="fishing_net" frombone="" tobone="" syncanims="0"/>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_deathAnim</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	</submodel>
+	<submodel>
+		ger_Fishing_Boat
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_boat.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam1
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray_sm.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		fishing_net
+		<component>
+			fishing_net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_fishingboat</file>
+			</assetreference>
+			<component>fishing_net</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man
+		<component>
+			Man
+			<assetreference type="GrannyModel">
+				<file>units\villagers\settler_wagon\settler_wagon_guy</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\villager\IGC_villager_extinguish_fire</file>
+			</assetreference>
+			<component>Man</component>
+	</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man3
+		<component>
+			Man3
+			<assetreference type="GrannyModel">
+				<file>units\villagers\settler_wagon\settler_wagon_guy</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_walk</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+	</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<logic type="Destruction">
+					<p1>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship_damaged</file>
+						</assetreference>
+					</p1>
+					<p99>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship</file>
+						</assetreference>
+					</p99>
+				</logic>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel" shape="ship_fishing_ship">
+					<file>units\naval\fishing_ship\fishing_ship_low</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>5.00</width>
+			<height>7.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\fishing_ship\fishing_ship_hullmask</texture>
+			<width>6.5</width>
+			<height>6.5</height>
+		</watersplash>
+	</component>
+	<component>
+		death
+		<assetreference type="GrannyModel">
+			<file>units\naval\fishing_ship\fishing_ship_deathModel</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\fishing_ship\fishing_ship_damaged</model>
+			<damagetemplate>units\naval\fishing_ship\fishing_ship.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="fishing_net" frombone="" tobone="" syncanims="0"/>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_deathAnim</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	</submodel>
+	<submodel>
+		us_Fishing_Boat
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_boat.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam1
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray_sm.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		fishing_net
+		<component>
+			fishing_net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_fishingboat</file>
+			</assetreference>
+			<component>fishing_net</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man
+		<component>
+			Man
+			<assetreference type="GrannyModel">
+				<file>units\villagers\we_villager_male_2</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\villager\IGC_villager_extinguish_fire</file>
+			</assetreference>
+			<component>Man</component>
+	</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man3
+		<component>
+			Man3
+			<assetreference type="GrannyModel">
+				<file>units\villagers\we_villager_male_2</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_walk</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+	</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<logic type="Destruction">
+					<p1>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship_damaged</file>
+						</assetreference>
+					</p1>
+					<p99>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship</file>
+						</assetreference>
+					</p99>
+				</logic>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel" shape="ship_fishing_ship">
+					<file>units\naval\fishing_ship\fishing_ship_low</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>5.00</width>
+			<height>7.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\fishing_ship\fishing_ship_hullmask</texture>
+			<width>6.5</width>
+			<height>6.5</height>
+		</watersplash>
+	</component>
+	<component>
+		death
+		<assetreference type="GrannyModel">
+			<file>units\naval\fishing_ship\fishing_ship_deathModel</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\fishing_ship\fishing_ship_damaged</model>
+			<damagetemplate>units\naval\fishing_ship\fishing_ship.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="fishing_net" frombone="" tobone="" syncanims="0"/>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_deathAnim</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	</submodel>
+	<submodel>
+		fr_Fishing_Boat
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_boat.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam1
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray_sm.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		fishing_net
+		<component>
+			fishing_net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_fishingboat</file>
+			</assetreference>
+			<component>fishing_net</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man
+		<component>
+			Man
+			<assetreference type="GrannyModel">
+				<file>units\villagers\we_villager_female</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\villager\IGC_villager_extinguish_fire</file>
+			</assetreference>
+			<component>Man</component>
+	</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man3
+		<component>
+			Man3
+			<assetreference type="GrannyModel">
+				<file>units\villagers\we_villager_female_2</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_walk</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+	</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<logic type="Destruction">
+					<p1>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship_damaged</file>
+						</assetreference>
+					</p1>
+					<p99>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship</file>
+						</assetreference>
+					</p99>
+				</logic>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel" shape="ship_fishing_ship">
+					<file>units\naval\fishing_ship\fishing_ship_low</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>5.00</width>
+			<height>7.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\fishing_ship\fishing_ship_hullmask</texture>
+			<width>6.5</width>
+			<height>6.5</height>
+		</watersplash>
+	</component>
+	<component>
+		death
+		<assetreference type="GrannyModel">
+			<file>units\naval\fishing_ship\fishing_ship_deathModel</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\fishing_ship\fishing_ship_damaged</model>
+			<damagetemplate>units\naval\fishing_ship\fishing_ship.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="fishing_net" frombone="" tobone="" syncanims="0"/>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_deathAnim</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	</submodel>
+	<submodel>
+		ee_Fishing_Boat
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_boat.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam1
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray_sm.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		fishing_net
+		<component>
+			fishing_net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_fishingboat</file>
+			</assetreference>
+			<component>fishing_net</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man
+		<component>
+			Man
+			<assetreference type="GrannyModel">
+				<file>units\villagers\ee_villager_male_2</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\villager\IGC_villager_extinguish_fire</file>
+			</assetreference>
+			<component>Man</component>
+	</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man3
+		<component>
+			Man3
+			<assetreference type="GrannyModel">
+				<file>units\villagers\ee_villager_male</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_walk</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+	</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<logic type="Destruction">
+					<p1>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship_damaged</file>
+						</assetreference>
+					</p1>
+					<p99>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship</file>
+						</assetreference>
+					</p99>
+				</logic>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel" shape="ship_fishing_ship">
+					<file>units\naval\fishing_ship\fishing_ship_low</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>5.00</width>
+			<height>7.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\fishing_ship\fishing_ship_hullmask</texture>
+			<width>6.5</width>
+			<height>6.5</height>
+		</watersplash>
+	</component>
+	<component>
+		death
+		<assetreference type="GrannyModel">
+			<file>units\naval\fishing_ship\fishing_ship_deathModel</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\fishing_ship\fishing_ship_damaged</model>
+			<damagetemplate>units\naval\fishing_ship\fishing_ship.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="fishing_net" frombone="" tobone="" syncanims="0"/>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_deathAnim</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	</submodel>
+	<submodel>
+		med_Fishing_Boat
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_boat.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam1
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray_sm.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		fishing_net
+		<component>
+			fishing_net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_fishingboat</file>
+			</assetreference>
+			<component>fishing_net</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man
+		<component>
+			Man
+			<assetreference type="GrannyModel">
+				<file>units\villagers\med_villager_male</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\villager\IGC_villager_extinguish_fire</file>
+			</assetreference>
+			<component>Man</component>
+	</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man3
+		<component>
+			Man3
+			<assetreference type="GrannyModel">
+				<file>units\villagers\med_villager_male_2</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_walk</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+	</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<logic type="Destruction">
+					<p1>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship_damaged</file>
+						</assetreference>
+					</p1>
+					<p99>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship</file>
+						</assetreference>
+					</p99>
+				</logic>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel" shape="ship_fishing_ship">
+					<file>units\naval\fishing_ship\fishing_ship_low</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>5.00</width>
+			<height>7.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\fishing_ship\fishing_ship_hullmask</texture>
+			<width>6.5</width>
+			<height>6.5</height>
+		</watersplash>
+	</component>
+	<component>
+		death
+		<assetreference type="GrannyModel">
+			<file>units\naval\fishing_ship\fishing_ship_deathModel</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\fishing_ship\fishing_ship_damaged</model>
+			<damagetemplate>units\naval\fishing_ship\fishing_ship.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="fishing_net" frombone="" tobone="" syncanims="0"/>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_deathAnim</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	</submodel>
+	<submodel>
+		ot_Fishing_Boat
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_boat.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam1
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray_sm.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		fishing_net
+		<component>
+			fishing_net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_fishingboat</file>
+			</assetreference>
+			<component>fishing_net</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man
+		<component>
+			Man
+			<assetreference type="GrannyModel">
+				<file>units\villagers\med_villager_female_2</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\villager\IGC_villager_extinguish_fire</file>
+			</assetreference>
+			<component>Man</component>
+	</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man3
+		<component>
+			Man3
+			<assetreference type="GrannyModel">
+				<file>units\villagers\med_villager_female</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_walk</file>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man3</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man3</component>
+	</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<logic type="Destruction">
+					<p1>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship_damaged</file>
+						</assetreference>
+					</p1>
+					<p99>
+						<assetreference type="GrannyModel" shape="ship_fishing_ship">
+							<file>units\naval\fishing_ship\fishing_ship</file>
+						</assetreference>
+					</p99>
+				</logic>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel" shape="ship_fishing_ship">
+					<file>units\naval\fishing_ship\fishing_ship_low</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>5.00</width>
+			<height>7.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\fishing_ship\fishing_ship_hullmask</texture>
+			<width>6.5</width>
+			<height>6.5</height>
+		</watersplash>
+	</component>
+	<component>
+		death
+		<assetreference type="GrannyModel">
+			<file>units\naval\fishing_ship\fishing_ship_deathModel</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\fishing_ship\fishing_ship_damaged</model>
+			<damagetemplate>units\naval\fishing_ship\fishing_ship.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="fishing_net" frombone="" tobone="" syncanims="0"/>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_deathAnim</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	</submodel>
+	<submodel>
+		aztec_Fishing_Boat
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_boat.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam1
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray_sm.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		fishing_net
+		<component>
+			fishing_net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_fishingboat</file>
+			</assetreference>
+			<component>fishing_net</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man
+		<component>
+			Man
+			<assetreference type="GrannyModel">
+				<file>units\villagers\az_villager_f</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\sitting_fishing_boat</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\sitting_fishing_boat</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\villager\IGC_villager_extinguish_fire</file>
+			</assetreference>
+			<component>Man</component>
+	</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="ship_fishing_ship">
+								<file>units\naval\native_fishing_boat\native_fishing_boat</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="ship_fishing_ship">
+								<file>units\naval\native_fishing_boat\native_fishing_boat</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="ship_fishing_ship">
+						<file>units\naval\native_fishing_boat\native_fishing_boat</file>
+					</assetreference>
+				</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>5.00</width>
+			<height>7.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\fishing_ship\fishing_ship_hullmask</texture>
+			<width>6.5</width>
+			<height>6.5</height>
+		</watersplash>
+	</component>
+	<component>
+		death
+			<assetreference type="GrannyModel" shape="ship_fishing_ship">
+				<file>units\naval\native_fishing_boat\native_fishing_boat_death</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>shadows_selections\shadow_circle_128x128</texture>
+				<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+				<width>1.0</width>
+				<height>1.0</height>
+				<zoffset>1.00</zoffset>
+			</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\native_fishing_boat\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\native_fishing_boat\walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>units\naval\native_fishing_boat\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="fishing_net" frombone="" tobone="" syncanims="0"/>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\native_fishing_boat\death</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
+	</anim>
+	</submodel>
+	<submodel>
+		native_Fishing_Boat
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_boat.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam1
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray_sm.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		fishing_net
+		<component>
+			fishing_net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_fishingboat</file>
+			</assetreference>
+			<component>fishing_net</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Man
+		<component>
+			Man
+			<assetreference type="GrannyModel">
+				<file>units\villagers\native_villager_m</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\sitting_fishing_boat</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
+			Walk
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\sitting_fishing_boat</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\deathc</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+	<anim>
+		GatherFish
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\villager\IGC_villager_extinguish_fire</file>
+			</assetreference>
+			<component>Man</component>
+	</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="ship_fishing_ship">
+								<file>units\naval\native_fishing_boat\native_fishing_boat</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="ship_fishing_ship">
+								<file>units\naval\native_fishing_boat\native_fishing_boat</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="ship_fishing_ship">
+						<file>units\naval\native_fishing_boat\native_fishing_boat</file>
+					</assetreference>
+				</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>5.00</width>
+			<height>7.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\fishing_ship\fishing_ship_hullmask</texture>
+			<width>6.5</width>
+			<height>6.5</height>
+		</watersplash>
+	</component>
+	<component>
+		death
+			<assetreference type="GrannyModel" shape="ship_fishing_ship">
+				<file>units\naval\native_fishing_boat\native_fishing_boat_death</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>shadows_selections\shadow_circle_128x128</texture>
+				<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+				<width>1.0</width>
+				<height>1.0</height>
+				<zoffset>1.00</zoffset>
+			</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\native_fishing_boat\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\native_fishing_boat\walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>units\naval\native_fishing_boat\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="fishing_net" frombone="" tobone="" syncanims="0"/>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\native_fishing_boat\death</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
+	</anim>
+	</submodel>
+	<component>
+		Fishing_Boat
+		<logic type="Civ">
+			<british>
+				<submodelref ref="we_Fishing_Boat"/>
+			</british>
+			<french>
+				<submodelref ref="fr_Fishing_Boat"/>
+			</french>
+			<dutch>
+				<submodelref ref="we_Fishing_Boat"/>
+			</dutch>
+			<usa>
+				<submodelref ref="us_Fishing_Boat"/>
+			</usa>
+			<russians>
+				<submodelref ref="ee_Fishing_Boat"/>
+			</russians>
+			<germans>
+				<submodelref ref="ger_Fishing_Boat"/>
+			</germans>
+			<spanish>
+				<submodelref ref="med_Fishing_Boat"/>
+			</spanish>
+			<portuguese>
+				<submodelref ref="med_Fishing_Boat"/>
+			</portuguese>
+			<ottomans>
+				<submodelref ref="ot_Fishing_Boat"/>
+			</ottomans>
+			<xpaztec>
+				<submodelref ref="aztec_Fishing_Boat"/>
+			</xpaztec>
+			<xpiroquois>
+				<submodelref ref="native_Fishing_Boat"/>
+			</xpiroquois>
+			<xpsioux>
+				<submodelref ref="native_Fishing_Boat"/>
+			</xpsioux>
+			<spcact1>
+				<submodelref ref="med_Fishing_Boat"/>
+			</spcact1>
+			<spcact3>
+				<submodelref ref="us_Fishing_Boat"/>
+			</spcact3>
+			<japanese>
+				<submodelref ref="med_Fishing_Boat"/>
+			</japanese>
+			<spcjapanese>
+				<submodelref ref="med_Fishing_Boat"/>
+			</spcjapanese>
+			<indians>
+				<submodelref ref="med_Fishing_Boat"/>
+			</indians>
+			<spcindians>
+				<submodelref ref="med_Fishing_Boat"/>
+			</spcindians>
+			<thecircle>
+				<submodelref ref="ee_Fishing_Boat"/>
+			</thecircle>
+		</logic>
+		<watersplash>
+			<texture>units\naval\fishing_ship\fishing_ship_hullmask</texture>
+			<width>6.5</width>
+			<height>6.5</height>
+		</watersplash>
+	</component>
+</animfile>

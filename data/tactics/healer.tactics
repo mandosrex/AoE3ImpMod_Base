@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38134">HandAttack</name>
+		<type>HandAttack</type>
+		<maxrange>1.0</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="69155">Heal</name>
+		<type>Heal</type>
+		<maxrange>12</maxrange>
+		<rate type="LogicalTypeHealed">5.0 </rate>
+		<anim>Heal</anim>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamage</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.4</modifymultiplier>
+		<modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<tactic>
+		Normal
+		<action>HandAttack</action>
+		<action>Heal</action>
+		<action>ExtraDamage</action>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

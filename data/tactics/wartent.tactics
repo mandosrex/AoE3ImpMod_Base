@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="48954">GreatHeart</name>
+		<type>AutoRangedModify</type>
+		<active>1</active>
+		<maxrange>12</maxrange>
+		<persistent>1</persistent>
+		<modifytype>MaxHP</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="48958">ExtraDamage</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>24</maxrange>
+		<persistent>1</persistent>
+		<modifytype>Damage</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="69161">AutoConvert</name>
+		<type>AutoConvert</type>
+		<maxrange>5.0</maxrange>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>GreatHeart</action>
+		<action>ExtraDamage</action>
+		<action>AutoConvert</action>
+	</tactic>
+</tactics>

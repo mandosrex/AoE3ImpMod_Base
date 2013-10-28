@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_campfire</definebone>
+	<definebone>bone_smoke01</definebone>
+	<definebone>bone_debris1a</definebone>
+	<definebone>bone_debris1b</definebone>
+	<definebone>bone_debris1c</definebone>
+	<definebone>bone_debris2a</definebone>
+	<definebone>bone_debris2b</definebone>
+	<definebone>bone_debris2c</definebone>
+	<definebone>bone_debris2d</definebone>
+	<definebone>bone_debris2e</definebone>
+	<definebone>bone_debris3a</definebone>
+	<definebone>bone_debris3b</definebone>
+	<definebone>bone_debris3c</definebone>
+	<definebone>bone_debris3d</definebone>
+	<submodel>
+		siege_workshop_age1
+		<component>
+			age1
+			<assetreference type="GrannyModel">
+				<file>buildings\native_civs\siege_workshop\siege_workshop_1</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\temp_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>age1</component>
+		</anim>
+	</submodel>
+	<submodel>
+		siege_workshop_age2
+		<component>
+			age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="seige_workshop_2">
+								<file>buildings\native_civs\siegeworkshop\siege_workshop_2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="seige_workshop_2">
+								<file>buildings\native_civs\siegeworkshop\siege_workshop_2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="seige_workshop_2">
+						<file>buildings\native_civs\siegeworkshop\lp_siege_workshop_2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\temp_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>age2</component>
+		</anim>
+	</submodel>
+	<submodel>
+		siege_workshop_age3
+		<component>
+			age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="seige_workshop_4">
+								<file>buildings\native_civs\siegeworkshop\siege_workshop_4_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="seige_workshop_4">
+								<file>buildings\native_civs\siegeworkshop\siege_workshop_4_death</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="seige_workshop_4">
+						<file>buildings\native_civs\siege_workshop\siege_workshop_3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\temp_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+			</decal>
+		</component>
+		<component>
+			age3 death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\siegeworkshop\siege_workshop_4_death</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\siege_workshop\siege_workshop_3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\temp_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>age3</component>
+			<simskeleton>
+				<model>buildings\native_civs\siegeworkshop\siege_workshop_4_damaged</model>
+				<damagetemplate>buildings\native_civs\siegeworkshop\siege_workshop_4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\siegeworkshop\siege_workshop_4_deathAnim</file>
+			</assetreference>
+			<component>age3 death</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nat_4x4_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\temp_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_02
+		<attachment>
+			siege_frame
+			<component>
+				frame
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\4x4_aztec_frame</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>frame</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nat_4x4_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\temp_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+			</decal>
+			<attach a="siege_frame" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_age2_stage_03
+		<attachment>
+			scaffolding02
+			<component>
+				scaffold
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_4x4_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffold</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_03_age2
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\siege_workshop_2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\temp_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+			</decal>
+			<attach a="scaffolding02" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_03_age2</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_age4_stage_03
+		<attachment>
+			scaffolding02
+			<component>
+				scaffold
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_4x4_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffold</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_03_age4
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\siege_workshop_4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\native_civs\temp_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+			</decal>
+			<attach a="scaffolding02" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_03_age4</component>
+		</anim>
+	</submodel>
+	<component>
+		siege_workshop
+		<logic type="Culture">
+			<iroquois>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_age2_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="siege_workshop_age1"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_age4_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="siege_workshop_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</iroquois>
+		</logic>
+	</component>
+</animfile>

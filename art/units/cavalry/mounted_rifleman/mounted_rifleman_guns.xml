@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		gun
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lakota\rifle_rider\rifle_rider_1_gun</file>
+				</assetreference>
+			</none>
+			<imperialmountedriflemen>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lakota\rifle_rider\rifle_rider_2_gun</file>
+				</assetreference>
+			</imperialmountedriflemen>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>gun</component>
+	</anim>
+</animfile>

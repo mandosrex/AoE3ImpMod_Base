@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="43296">AutoGatherWood</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="38119">CannonAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>attack_ranged</anim>
+		<reloadanim>reload</reloadanim>
+		<idleanim>Combat_Idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="All">1.0 </rate>
+		<throw>1</throw>
+		<impactforcemin>500.0f</impactforcemin>
+		<impactforcemax>800.0f</impactforcemax>
+		<outerdamageareadistance>.25</outerdamageareadistance>
+		<outerdamageareafactor>.20</outerdamageareafactor>
+		<impactlaunchangle>10.0</impactlaunchangle>
+		<areasortmode>Directional</areasortmode>
+		<targetground>1</targetground>
+		<numberbounces>1</numberbounces>
+		<basedamagecap>1</basedamagecap>
+		<perfectaccuracy>0</perfectaccuracy>
+	</action>
+	<tactic>
+		Bombard
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<exclusive>1</exclusive>
+		<action>AutoGatherWood</action>
+		<action>CannonAttack</action>
+		<throw>1</throw>
+		<transition>
+			<tactic>Limber</tactic>
+			<action>Limber</action>
+			<exit>1</exit>
+		</transition>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Jog</joganim>
+		<runanim>Run</runanim>
+	</tactic>
+	<tactic>
+		Limber
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<action>AutoGatherWood</action>
+		<transition>
+			<tactic>Bombard</tactic>
+			<action>Limber</action>
+			<exit>1</exit>
+			<commandautomatic>1</commandautomatic>
+			<automatic>1</automatic>
+		</transition>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Jog</joganim>
+		<runanim>Run</runanim>
+	</tactic>
+</tactics>

@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_muzzleL01</definebone>
+	<definebone>bone_muzzleL02</definebone>
+	<definebone>bone_muzzleR01</definebone>
+	<definebone>bone_muzzleR02</definebone>
+	<definebone>Bone_front_wake</definebone>
+	<definebone>bone_main</definebone>
+	<definebone>Bone_front_foam</definebone>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_f1</definebone>
+	<definebone>bone_muzzleL03</definebone>
+	<definebone>bone_muzzleR03</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>bone_FX01</definebone>
+	<definebone>bone_FX02</definebone>
+	<definebone>bone_FX03</definebone>
+	<definebone>bone_FX04</definebone>
+	<definebone>bone_FX05</definebone>
+	<definebone>bone_FX06</definebone>
+	<definebone>bone_FX07</definebone>
+	<definebone>bone_FX08</definebone>
+	<definebone>bone_FX09</definebone>
+	<definebone>bone_FX10</definebone>
+	<definebone>bone_barrel_1</definebone>
+	<definebone>bone_barrel_2</definebone>
+	<definebone>bone_barrel_3</definebone>
+	<definebone>bone_mast_8</definebone>
+	<definebone>bone_f_top_02</definebone>
+	<definebone>bone_f_top_03</definebone>
+	<definebone>bone_f_mid_01</definebone>
+	<definebone>bone_f_mid_02</definebone>
+	<definebone>bone_f_mid_03</definebone>
+	<definebone>bone_f_mid_04</definebone>
+	<definebone>bone_f_rear_left</definebone>
+	<definebone>bone_f_rear_right</definebone>
+	<definebone>bone_FX11</definebone>
+	<definebone>bone_FX12</definebone>
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_ship.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		FireFX01
+		<component>
+			FireFX01
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\small_Fire1.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>FireFX01</component>
+		</anim>
+	</attachment>
+	<attachment>
+		FireFX02
+		<component>
+			FireFX02
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\small_Fire1.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>FireFX02</component>
+		</anim>
+	</attachment>
+	<attachment>
+		FireFX03
+		<component>
+			FireFX03
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\small_Fire1.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>FireFX03</component>
+		</anim>
+	</attachment>
+	<attachment>
+		FireFX04
+		<component>
+			FireFX04
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\small_Fire2.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>FireFX04</component>
+		</anim>
+	</attachment>
+	<attachment>
+		FireFX05
+		<component>
+			FireFX05
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\small_Fire2.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>FireFX05</component>
+		</anim>
+	</attachment>
+	<attachment>
+		FireFX06
+		<component>
+			FireFX06
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\net_Fire1.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>FireFX06</component>
+		</anim>
+	</attachment>
+	<attachment>
+		FireFX07
+		<component>
+			FireFX07
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\net_Fire1.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>FireFX07</component>
+		</anim>
+	</attachment>
+	<attachment>
+		FireFX19a
+		<component>
+			FireFX19a
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\mainsail_fire1.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>FireFX19a</component>
+		</anim>
+	</attachment>
+	<attachment>
+		FireFX19b
+		<component>
+			FireFX19b
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\mainsail_fire2.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>FireFX19b</component>
+		</anim>
+	</attachment>
+	<attachment>
+		FireFX19c
+		<component>
+			FireFX19c
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\front_Fire1.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>FireFX19c</component>
+		</anim>
+	</attachment>
+	<attachment>
+		FireFX01a
+		<component>
+			FireFX01
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\blacksmoke_a.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>FireFX01</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Exp_fireball_1a
+		<component>
+			Exp_Fireball1a
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\fire_column_tumble1.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Exp_Fireball1a</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Exp_Fireball1b
+		<component>
+			Exp_Fireball1b
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\fire_column_tumble1b.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Exp_Fireball1b</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Exp_Fireball1c
+		<component>
+			Exp_Fireball1c
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\fire_column_tumble2.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Exp_Fireball1c</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Exp_Fireball1d
+		<component>
+			Exp_Fireball1d
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\fire_column_tumble2b.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Exp_Fireball1d</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Exp_Fireball
+		<component>
+			Exp_Fireball
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\flameFlare.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Exp_Fireball</component>
+		</anim>
+	</attachment>
+	<attachment>
+		barrel_fire1
+		<component>
+			barrel_fire1
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\flame_Barrel.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>barrel_fire1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		barrel_fire2
+		<component>
+			barrel_fire2
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\flame_Barrel.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>barrel_fire2</component>
+		</anim>
+	</attachment>
+	<attachment>
+		barrel_fire3
+		<component>
+			barrel_fire3
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\flame_Barrel.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>barrel_fire3</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Exp_Flash
+		<component>
+			Exp_Flash
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\exp_flash.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Exp_Flash</component>
+		</anim>
+	</attachment>
+	<attachment>
+		barrel_smoke1
+		<component>
+			barrel_smoke1
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\smoke_Barrel.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>barrel_smoke1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		barrel_smoke2
+		<component>
+			barrel_smoke2
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\smoke_Barrel.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>barrel_smoke2</component>
+		</anim>
+	</attachment>
+	<attachment>
+		barrel_smoke3
+		<component>
+			barrel_smoke3
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\smoke_Barrel.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>barrel_smoke3</component>
+		</anim>
+	</attachment>
+	<attachment>
+		foam ring
+		<component>
+			foam
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\foam_ring.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>foam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		foam
+		<component>
+			foam
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\water_spray2.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>foam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		lowsmoke
+		<component>
+			smoke
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\water_smoke.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>smoke</component>
+		</anim>
+	</attachment>
+	<attachment>
+		smokeColumn
+		<component>
+			smoke
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\smoke_column1.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>smoke</component>
+		</anim>
+	</attachment>
+	<attachment>
+		wooddebris
+		<component>
+			debris
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\wood_debris.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>debris</component>
+		</anim>
+	</attachment>
+	<attachment>
+		shockwave
+		<component>
+			shockwave
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\shockwave.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>shockwave</component>
+		</anim>
+	</attachment>
+	<attachment>
+		shockripple
+		<component>
+			shockwave
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\shockripple.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>shockwave</component>
+		</anim>
+	</attachment>
+	<attachment>
+		fireStreamers
+		<component>
+			streamers
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\streamer_parent.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>streamers</component>
+		</anim>
+	</attachment>
+	<attachment>
+		sparks
+		<component>
+			sparks
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\sparkles.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>sparks</component>
+		</anim>
+	</attachment>
+	<attachment>
+		foamFade
+		<component>
+			foam
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\explosion\foamfade.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>foam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		fuseSparks
+		<component>
+			sparks
+			<assetreference type="ParticleSystem">
+				<file>units\spc\fire_ship\fuseSparks.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>sparks</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_boat_wake_front
+		<component>
+			boat_wake_front
+			<assetreference type="ParticleSystem">
+				<file>units\naval\caravel_ship\boat_wake_front.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>boat_wake_front</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterRipple
+		<component>
+			ripple
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_shockwave.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>ripple</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFade
+		<component>
+			fade
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamFade.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>fade</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSteam
+		<component>
+			steam
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSteam.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>steam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSpray2
+		<component>
+			spray2
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>spray2</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam1
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamRing.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_boat_foam
+		<component>
+			boat_foam
+			<assetreference type="ParticleSystem">
+				<file>effects\water_wakes\boat_foam_medium.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>boat_foam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_boat_ripple
+		<component>
+			boat_ripple
+			<assetreference type="ParticleSystem">
+				<file>units\naval\caravel_ship\caravel_boat_ripple.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>boat_ripple</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Pirate_flag_top
+		<component>
+			flag
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_nocolor</blending>
+					<texture>units\asians\naval\war_junk\war_junk_flag_top</texture>
+					<width>4.00</width>
+					<height>1.00</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			<component>flag</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Pirata_flag_mid
+		<component>
+			flag
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_color</blending>
+					<texture>units\asians\naval\war_junk\war_junk_flag_mid</texture>
+					<width>0.60</width>
+					<height>0.30</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			<component>flag</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Pirate_flag_back
+		<component>
+			flag
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_color</blending>
+					<texture>units\asians\naval\war_junk\war_junk_flag_mid</texture>
+					<width>0.50</width>
+					<height>1.00</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			<component>flag</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Destruction">
+			<p1>
+				<assetreference type="GrannyModel">
+					<file>units\asians\naval\fire_ship\fire_ship</file>
+				</assetreference>
+			</p1>
+			<p2>
+				<assetreference type="GrannyModel">
+					<file>units\asians\naval\fire_ship\fire_ship</file>
+				</assetreference>
+			</p2>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>7.0</width>
+			<height>11.0</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\colony_ship\colony_ship_hullmask</texture>
+			<width>10.0</width>
+			<height>10.0</height>
+		</watersplash>
+	</component>
+	<component>
+		DeathModel
+		<assetreference type="GrannyModel">
+			<file>units\asians\naval\war_junk\war_junk_death_model</file>
+		</assetreference>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\naval\war_junk\war_junk_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="FireFX01" frombone="ATTACHPOINT" tobone="bone_FX01" syncanims="0"/>
+		<attach a="FireFX02" frombone="ATTACHPOINT" tobone="bone_FX02" syncanims="0"/>
+		<attach a="FireFX03" frombone="ATTACHPOINT" tobone="bone_FX03" syncanims="0"/>
+		<attach a="FireFX04" frombone="ATTACHPOINT" tobone="bone_FX04" syncanims="0"/>
+		<attach a="FireFX05" frombone="ATTACHPOINT" tobone="bone_FX05" syncanims="0"/>
+		<attach a="FireFX06" frombone="ATTACHPOINT" tobone="bone_FX06" syncanims="0"/>
+		<attach a="FireFX07" frombone="ATTACHPOINT" tobone="bone_FX07" syncanims="0"/>
+		<attach a="FireFX19a" frombone="ATTACHPOINT" tobone="bone_FX08" syncanims="0"/>
+		<attach a="FireFX19b" frombone="ATTACHPOINT" tobone="bone_FX09" syncanims="0"/>
+		<attach a="FireFX19c" frombone="ATTACHPOINT" tobone="bone_FX10" syncanims="0"/>
+		<attach a="FireFX01a" frombone="ATTACHPOINT" tobone="bone_FX11" syncanims="0"/>
+		<attach a="fuseSparks" frombone="ATTACHPOINT" tobone="bone_FX12" syncanims="0"/>
+		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_02" syncanims="0"/>
+		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_03" syncanims="0"/>
+		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_01" syncanims="0"/>
+		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_02" syncanims="0"/>
+		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_03" syncanims="0"/>
+		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_04" syncanims="0"/>
+		<attach a="Pirate_flag_back" frombone="ATTACHPOINT" tobone="bone_f_rear_left" syncanims="0"/>
+		<attach a="Pirate_flag_back" frombone="ATTACHPOINT" tobone="bone_f_rear_right" syncanims="0"/>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\asians\naval\war_junk\war_junk_death</file>
+			<tag type="CameraShake" force="0.10" duration="0.3">0.00</tag>
+		</assetreference>
+		<component>DeathModel</component>
+		<attach a="barrel_fire1" frombone="ATTACHPOINT" tobone="bone_FX01" syncanims="0"/>
+		<attach a="barrel_fire2" frombone="ATTACHPOINT" tobone="bone_FX02" syncanims="0"/>
+		<attach a="barrel_fire3" frombone="ATTACHPOINT" tobone="bone_FX03" syncanims="0"/>
+		<attach a="Exp_Fireball" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Exp_Fireball1d" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Exp_Fireball1c" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Exp_Fireball1b" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Exp_fireball_1a" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="barrel_smoke1" frombone="ATTACHPOINT" tobone="bone_FX04" syncanims="0"/>
+		<attach a="barrel_smoke2" frombone="ATTACHPOINT" tobone="bone_FX05" syncanims="0"/>
+		<attach a="barrel_smoke3" frombone="ATTACHPOINT" tobone="bone_FX06" syncanims="0"/>
+		<attach a="foam ring" frombone="ATTACHPOINT" tobone="bone_main" syncanims="0"/>
+		<attach a="foam" frombone="ATTACHPOINT" tobone="bone_main" syncanims="0"/>
+		<attach a="lowsmoke" frombone="ATTACHPOINT" tobone="bone_main" syncanims="0"/>
+		<attach a="smokeColumn" frombone="ATTACHPOINT" tobone="bone_main" syncanims="0"/>
+		<attach a="wooddebris" frombone="ATTACHPOINT" tobone="bone_main" syncanims="0"/>
+		<attach a="shockwave" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="shockripple" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="fireStreamers" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Exp_Flash" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="sparks" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="foamFade" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\naval\war_junk\war_junk_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="FireFX01" frombone="ATTACHPOINT" tobone="bone_FX01" syncanims="0"/>
+		<attach a="FireFX02" frombone="ATTACHPOINT" tobone="bone_FX02" syncanims="0"/>
+		<attach a="FireFX03" frombone="ATTACHPOINT" tobone="bone_FX03" syncanims="0"/>
+		<attach a="FireFX04" frombone="ATTACHPOINT" tobone="bone_FX04" syncanims="0"/>
+		<attach a="FireFX05" frombone="ATTACHPOINT" tobone="bone_FX05" syncanims="0"/>
+		<attach a="FireFX06" frombone="ATTACHPOINT" tobone="bone_FX06" syncanims="0"/>
+		<attach a="FireFX07" frombone="ATTACHPOINT" tobone="bone_FX07" syncanims="0"/>
+		<attach a="FireFX19a" frombone="ATTACHPOINT" tobone="bone_FX08" syncanims="0"/>
+		<attach a="FireFX19b" frombone="ATTACHPOINT" tobone="bone_FX09" syncanims="0"/>
+		<attach a="FireFX19c" frombone="ATTACHPOINT" tobone="bone_FX10" syncanims="0"/>
+		<attach a="FireFX01a" frombone="ATTACHPOINT" tobone="bone_FX11" syncanims="0"/>
+		<attach a="fuseSparks" frombone="ATTACHPOINT" tobone="bone_FX12" syncanims="0"/>
+		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_02" syncanims="0"/>
+		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_03" syncanims="0"/>
+		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_01" syncanims="0"/>
+		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_02" syncanims="0"/>
+		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_03" syncanims="0"/>
+		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_04" syncanims="0"/>
+		<attach a="Pirate_flag_back" frombone="ATTACHPOINT" tobone="bone_f_rear_left" syncanims="0"/>
+		<attach a="Pirate_flag_back" frombone="ATTACHPOINT" tobone="bone_f_rear_right" syncanims="0"/>
+	</anim>
+	<anim>
+		HandAttack
+		<assetreference type="GrannyAnim">
+			<file>units\spc\fire_ship\fire_ship_idle</file>
+			<tag type="Attack">0.00</tag>
+			<tag type="CameraShake" force="0.10" duration="0.3">0.00</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

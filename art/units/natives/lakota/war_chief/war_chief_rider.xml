@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>Bip01 Prop1</definebone>
+	<definebone>bone_spear</definebone>
+	<definebone>Bip01 Head</definebone>
+	<definebone>bone sash</definebone>
+	<attachment>
+		spear
+		<component>
+			spear
+			<assetreference type="GrannyModel">
+				<file>units\natives\lakota\war_chief\war_chief_spear</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>spear</component>
+		</anim>
+	</attachment>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch_cavalry.xml</include>
+	</attachment>
+	<attachment>
+		hammer
+		<component>
+			hammer
+			<assetreference type="GrannyModel">
+				<file>units\attachments\hammer_villager</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hammer</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Chief_home_Lakota
+		<anim>
+			None
+			<component>chief_home_lakota</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lakota\war_chief\war_chief</file>
+				</assetreference>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lakota\war_chief\lp_war_chief</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<attach a="Chief_home_Lakota" frombone="ATTACHPOINT" tobone="Bip01 Head" syncanims="0"/>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_canter</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_jog</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_gallop</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Highstep
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_highstep</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_A</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_B</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_C</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_D</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_F</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_G</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_H</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_I</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_bored_A</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_E</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_A</file>
+			<weight>50</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_I</file>
+			<weight>50</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Attack_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\lance_attack_A</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\lance_attack_B</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\lance_attack_C</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\lance_attack_D</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\lance_trample_attack</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Attack_trample
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\lance_trample_attack</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\lance_trample_attack</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathC</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathC</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\rider_death_havoc_a</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\rider_death_havoc_b</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\rider_death_havoc_a</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\rider_death_havoc_b</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_cheer_F</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_cheer_H</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_bored_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_cheer_E</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_A</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_B</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_C</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_D</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_F</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_G</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_H</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_I</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="R HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_attack_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_attack_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_attack_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_attack_A</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="R HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Pickup
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\pickup_treasure</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\build1</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.66</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\build2</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\build3</file>
+			<weight>10</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="hammer" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Heal
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\heal</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		AblBeastMaster
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\convert</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
+</animfile>

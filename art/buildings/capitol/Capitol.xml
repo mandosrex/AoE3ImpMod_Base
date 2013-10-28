@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_flag_civ</definebone>
+	<definebone>bone_deb-A00</definebone>
+	<definebone>bone_deb-A01</definebone>
+	<definebone>bone_deb-A02</definebone>
+	<definebone>bone_deb-A03</definebone>
+	<definebone>bone_deb-A04</definebone>
+	<definebone>bone_deb-A05</definebone>
+	<definebone>bone_deb-A06</definebone>
+	<definebone>bone_deb-A07</definebone>
+	<definebone>bone_deb-A08</definebone>
+	<definebone>bone_deb-B00</definebone>
+	<definebone>bone_deb-B01</definebone>
+	<definebone>bone_deb-B02</definebone>
+	<definebone>bone_deb-B03</definebone>
+	<definebone>bone_deb-B04</definebone>
+	<definebone>bone_deb-B05</definebone>
+	<definebone>bone_deb-B06</definebone>
+	<definebone>bone_deb-B07</definebone>
+	<definebone>bone_deb-B08</definebone>
+	<definebone>bone_deb-B09</definebone>
+	<definebone>bone_deb-B10</definebone>
+	<definebone>bone_deb-C00</definebone>
+	<definebone>bone_deb-C01</definebone>
+	<definebone>bone_deb-C02</definebone>
+	<definebone>bone_deb-C03</definebone>
+	<definebone>bone_deb-C04</definebone>
+	<definebone>bone_deb-D00</definebone>
+	<definebone>bone_deb-D01</definebone>
+	<definebone>bone_deb-D02</definebone>
+	<definebone>bone_deb-D03</definebone>
+	<definebone>bone_deb-D04</definebone>
+	<definebone>bone_deb-D05</definebone>
+	<definebone>bone_deb-D06</definebone>
+	<definebone>bone_deb-D07</definebone>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_2d</definebone>
+	<definebone>bone_debris_2e</definebone>
+	<definebone>bone_debris_2f</definebone>
+	<definebone>bone_debris_2g</definebone>
+	<definebone>bone_debris_2h</definebone>
+	<definebone>bone_debris_2i</definebone>
+	<definebone>bone_debris_2j</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>bone_debris_3d</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_4c</definebone>
+	<definebone>bone_debris_4d</definebone>
+	<definebone>bone_deb-A09</definebone>
+	<submodel>
+		east_age3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			Base Smoke
+			<component>
+				Base Smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				<component>Base Smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			Base Smoke 2
+			<component>
+				Base Smoke 2
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				<component>Base Smoke 2</component>
+			</anim>
+		</attachment>
+		<attachment>
+			Base Smoke 3
+			<component>
+				Base Smoke 3
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				<component>Base Smoke 3</component>
+			</anim>
+		</attachment>
+		<component>
+			east_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="east_capitol_age3">
+								<file>buildings\capitol\EAST\AGE_3\east_capitol_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="east_capitol_age3">
+								<file>buildings\capitol\EAST\AGE_3\east_capitol_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="east_capitol_age3">
+						<file>buildings\capitol\east\age_3\lp_east_capitol_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>18.00</width>
+				<height>16.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.50</zoffset>
+			</decal>
+		</component>
+		<component>
+			east_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\capitol\EAST\AGE_3\east_capitol_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\capitol\EAST\AGE_3\lp_east_capitol_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>18.00</width>
+				<height>16.00</height>
+				<zoffset>0.50</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>east_age3</component>
+			<simskeleton>
+				<model>buildings\capitol\EAST\AGE_3\east_capitol_age3_damaged</model>
+				<damagetemplate>buildings\capitol\EAST\AGE_3\east_capitol_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\capitol\EAST\AGE_3\east_capitol_age3_deathAnim</file>
+			</assetreference>
+			<component>east_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="Base Smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="Base Smoke 2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="Base Smoke 3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_02
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x7_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>17.50</width>
+				<height>9.50</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x7_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>17.50</width>
+				<height>9.50</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		med_age3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			Base Smoke
+			<component>
+				Base Smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				<component>Base Smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			Base Smoke 2
+			<component>
+				Base Smoke 2
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				<component>Base Smoke 2</component>
+			</anim>
+		</attachment>
+		<attachment>
+			Base Smoke 3
+			<component>
+				Base Smoke 3
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				<component>Base Smoke 3</component>
+			</anim>
+		</attachment>
+		<component>
+			med_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="med_capitol_age3">
+								<file>buildings\capitol\MED\AGE_3\med_capitol_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="med_capitol_age3">
+								<file>buildings\capitol\MED\AGE_3\med_capitol_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="med_capitol_age3">
+						<file>buildings\capitol\med\age_3\lp_med_capitol_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>18.00</width>
+				<height>17.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			med_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\capitol\MED\AGE_3\med_capitol_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\capitol\med\age_3\lp_med_capitol_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>18.00</width>
+				<height>17.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>med_age3</component>
+			<simskeleton>
+				<model>buildings\capitol\MED\AGE_3\med_capitol_age3_damaged</model>
+				<damagetemplate>buildings\capitol\MED\AGE_3\med_capitol_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\capitol\MED\AGE_3\med_capitol_age3_deathAnim</file>
+			</assetreference>
+			<component>med_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="Base Smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="Base Smoke 2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="Base Smoke 3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			Base Smoke
+			<component>
+				Base Smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				<component>Base Smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			Base Smoke 2
+			<component>
+				Base Smoke 2
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				<component>Base Smoke 2</component>
+			</anim>
+		</attachment>
+		<attachment>
+			Base Smoke 3
+			<component>
+				Base Smoke 3
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				<component>Base Smoke 3</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_capital_age3">
+								<file>buildings\capitol\west\age_3\West_Capital_Age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_capital_age3">
+								<file>buildings\capitol\west\age_3\West_Capital_Age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_capital_age3">
+						<file>buildings\capitol\west\age_3\lp_West_Capital_Age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>18.00</width>
+				<height>16.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			west_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel" shape="west_capital_age3">
+						<file>buildings\capitol\west\age_3\West_Capital_Age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\capitol\west\age_3\lp_West_Capital_Age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>18.00</width>
+				<height>16.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>west_age3</component>
+			<simskeleton>
+				<model>buildings\capitol\west\age_3\West_Capital_Age3_damaged</model>
+				<damagetemplate>buildings\capitol\west\age_3\West_Capital_Age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\capitol\west\age_3\West_Capital_Age3_deathAnim</file>
+			</assetreference>
+			<component>west_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="Base Smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="Base Smoke 2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="Base Smoke 3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		med_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\capitol\MED\AGE_3\med_capitol_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			med_age3
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x7_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>17.50</width>
+				<height>9.50</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>med_age3</component>
+		</anim>
+	</submodel>
+	<submodel>
+		east_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\capitol\EAST\AGE_3\east_capitol_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			east_age3
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x7_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>17.50</width>
+				<height>9.50</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>east_age3</component>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\capitol\west\age_3\West_Capital_Age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age3
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x7_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>17.50</width>
+				<height>9.50</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>west_age3</component>
+		</anim>
+	</submodel>
+	<component>
+		Capitallmodel
+		<logic type="Culture">
+			<westerneurope>
+				<logic type="BuildingCompletion">
+					<p0>
+						<submodelref ref="sub_construction_stage_01"/>
+					</p0>
+					<p33>
+						<submodelref ref="sub_construction_stage_02"/>
+					</p33>
+					<p66>
+						<submodelref ref="west_age3_con2"/>
+					</p66>
+					<p100>
+						<submodelref ref="west_age3"/>
+					</p100>
+				</logic>
+			</westerneurope>
+			<easterneurope>
+				<logic type="BuildingCompletion">
+					<p0>
+						<submodelref ref="sub_construction_stage_01"/>
+					</p0>
+					<p33>
+						<submodelref ref="sub_construction_stage_02"/>
+					</p33>
+					<p66>
+						<submodelref ref="east_age3_con2"/>
+					</p66>
+					<p100>
+						<submodelref ref="east_age3"/>
+					</p100>
+				</logic>
+			</easterneurope>
+			<mediterranean>
+				<logic type="BuildingCompletion">
+					<p0>
+						<submodelref ref="sub_construction_stage_01"/>
+					</p0>
+					<p33>
+						<submodelref ref="sub_construction_stage_02"/>
+					</p33>
+					<p66>
+						<submodelref ref="med_age3_con2"/>
+					</p66>
+					<p100>
+						<submodelref ref="med_age3"/>
+					</p100>
+				</logic>
+			</mediterranean>
+		</logic>
+	</component>
+</animfile>

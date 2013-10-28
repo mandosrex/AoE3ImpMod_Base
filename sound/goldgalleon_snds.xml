@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="GoldGalleon">
+		<soundtype name="Select">
+			<soundset name="SpanishGalleonSelect"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="ShipDeath"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="ShipBirth"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="SpanishGalleonAcknowledge"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="SpanishGalleonAcknowledge"/>
+				</choice>
+				<choice name="Tree"/>
+				<choice name="build"/>
+			</targetlogic>
+		</soundtype>
+		<soundtype name="Exists">
+			<soundset name="AmbienceShip"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

@@ -1,0 +1,380 @@
+<!-- converted from XMB to XML -->
+
+<animfile>
+	<definebone>bone_sword</definebone>
+	<definebone>Bip01 Prop1</definebone>
+	<definebone>bone_hat</definebone>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch_cavalry.xml</include>
+	</attachment>
+	<attachment>
+		sword
+		<include>units\cavalry\saber\saber_swords.xml</include>
+	</attachment>
+	<attachment>
+		hat2
+		<component>
+			sword
+			<assetreference type="GrannyModel">
+				<file>units\spc\miner\miner_hat</file>
+							<replacetexture>
+								<from>units\spc\miner\miner</from>
+								<to>units\cavalry\saber\hat</to>
+							</replacetexture>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>sword</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hat1
+		<component>
+			hat
+			<assetreference type="GrannyModel">
+				<file>units\infantry_ranged\colonial_militia\colonial_militia_hat</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hat</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hat3
+		<component>
+			hat
+			<assetreference type="GrannyModel">
+				<file>units\infantry_ranged\musketeer\musketeer_4age_hat</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hat</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hat4
+		<component>
+			hat
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_4age_hat</file>
+					<replacetexture>
+						<from>units\infantry_ranged\musketeer\musketeer_4age</from>
+						<to>units\infantry_ranged\musketeer\musketeer_imperial</to>
+					</replacetexture>
+				</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hat</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\uhlan\uhlan_age01_rider</file>
+							<replacetexture>
+								<from>units\cavalry\uhlan\uhlan_age01</from>
+								<to>units\cavalry\saber\rider1</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\cavalry\uhlan\uhlan_age01_b</from>
+								<to>units\cavalry\saber\rider1_b</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hat1" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+			</none>
+			<veteransabers>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\uhlan\uhlan_age01_rider</file>
+								<replacetexture>
+									<from>units\cavalry\uhlan\uhlan_age01</from>
+									<to>units\cavalry\saber\rider</to>
+								</replacetexture>
+								<replacetexture>
+									<from>units\cavalry\uhlan\uhlan_age01_b</from>
+									<to>units\cavalry\saber\rider_b</to>
+								</replacetexture>
+						</assetreference>
+						<attach a="hat2" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+			</veteransabers>
+			<guardsabers>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\uhlan\uhlan_age01_rider</file>
+							<replacetexture>
+								<from>units\cavalry\uhlan\uhlan_age01</from>
+								<to>units\cavalry\saber\rider2</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\cavalry\uhlan\uhlan_age01_b</from>
+								<to>units\cavalry\saber\rider2_b</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hat3" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+			</guardsabers>
+			<imperialsabers>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\uhlan\uhlan_age01_rider</file>
+							<replacetexture>
+								<from>units\cavalry\uhlan\uhlan_age01</from>
+								<to>units\cavalry\saber\rider3</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\cavalry\uhlan\uhlan_age01</from>
+								<to>units\cavalry\saber\rider3_b</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hat4" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+			</imperialsabers>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_canter</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_jog</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_gallop</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Highstep
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_highstep</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_A</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_B</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_C</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_D</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_F</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_G</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_H</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_I</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_bored_A</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_E</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_A</file>
+			<weight>50</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_I</file>
+			<weight>50</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Attack_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_attack_A</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_attack_B</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_attack_C</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_attack_D</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_trample attackA</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Attack_trample
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_trample attackA</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_trample attackB</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathC</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_deathC</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\rider_death_havoc_a</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\rider_death_havoc_b</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_cheer_F</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_cheer_H</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_bored_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_cheer_E</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_A</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_B</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_C</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_D</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_F</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_G</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_H</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_idle_I</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="R HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_attack_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_attack_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_attack_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\raze_attack_A</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="R HAND" syncanims="0"/>
+	</anim>
+</animfile>

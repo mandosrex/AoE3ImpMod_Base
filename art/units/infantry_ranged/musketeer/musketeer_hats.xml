@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		hats
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_2age_hat</file>
+				</assetreference>
+			</none>
+			<veteranmusketeers>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_2age_hat</file>
+				</assetreference>
+			</veteranmusketeers>
+			<veteranmusketeersus>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_2age_hat</file>
+				</assetreference>
+			</veteranmusketeersus>
+			<guardmusketeers>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_3age_hat</file>
+				</assetreference>
+			</guardmusketeers>
+			<guardmusketeersus>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_3age_hat</file>
+				</assetreference>
+			</guardmusketeersus>
+			<imperialmusketeers>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_4age_hat</file>
+				</assetreference>
+			</imperialmusketeers>
+			<imperialmusketeersus>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_4age_hat</file>
+				</assetreference>
+			</imperialmusketeersus>
+			<imperialredcoat>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_4age_hat</file>
+					<replacetexture>
+						<from>units\infantry_ranged\musketeer\musketeer_4age</from>
+						<to>units\infantry_ranged\musketeer\musketeer_imperial</to>
+					</replacetexture>
+				</assetreference>
+			</imperialredcoat>
+			<imperialguerreiros>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_4age_hat</file>
+					<replacetexture>
+						<from>units\infantry_ranged\musketeer\musketeer_4age</from>
+						<to>units\infantry_ranged\musketeer\musketeer_imperial</to>
+					</replacetexture>
+				</assetreference>
+			</imperialguerreiros>
+			<imperialmusketeersdutch>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_4age_hat</file>
+					<replacetexture>
+						<from>units\infantry_ranged\musketeer\musketeer_4age</from>
+						<to>units\infantry_ranged\musketeer\musketeer_imperial</to>
+					</replacetexture>
+				</assetreference>
+			</imperialmusketeersdutch>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>hats</component>
+	</anim>
+</animfile>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_gun</definebone>
+	<definebone>Bip01 Prop1</definebone>
+	<attachment>
+		pistol
+		<component>
+			pistol
+			<assetreference type="GrannyModel">
+				<file>units\SPC\elizabeth_ramsey\spc_elizabeth_ramsey_gun</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>pistol</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hammer
+		<component>
+			hammer
+			<assetreference type="GrannyModel">
+				<file>units\attachments\hammer_villager</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hammer</component>
+		</anim>
+	</attachment>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch.xml</include>
+	</attachment>
+	<attachment>
+		knife
+		<component>
+			knife
+			<assetreference type="GrannyModel">
+				<file>units\attachments\knife_villager</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>knife</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<assetreference type="GrannyModel">
+			<file>units\spc\elizabeth_ramsey\spc_elizabeth_ramsey</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_merc_32x32</selectedtexture>
+			<width>1.00</width>
+			<height>1.00</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\bored</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\bored2</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.70</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.73</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.19</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.73</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.19</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throw_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_Attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwA</file>
+			<tag type="Attack">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.46</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwB</file>
+			<tag type="Attack">0.56</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_B</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_C</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_D</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_E</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Look
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\look_down</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\look_left</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\look_right</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\look_up</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Salute
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\salute_rifleman_A</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>animation_library\villager\villager_male_build1</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.66</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\villager\villager_male_build2</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.76</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="hammer" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Pickup
+		<assetreference type="GrannyAnim">
+			<file>animation_library\explorer\pickup_explorer_A</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GatherFruit">0.35</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Recoil
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\recoil_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\recoil_B</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\recoil_C</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\recoil_D</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		CombatIdle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\combat_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="R HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		HandAttack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\hand_attackA</file>
+			<tag type="Attack">0.43</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.26</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\hand_attackB</file>
+			<tag type="Attack">0.50</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\hand_attackC</file>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="R HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		RangedAttack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\volley_fireLeft</file>
+			<weight>50</weight>
+			<tag type="Attack">0.40</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.40</tag>
+			<tag type="Particles" particlename="pistolshot_left">0.40</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\volley_fireRight</file>
+			<weight>50</weight>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.50</tag>
+			<tag type="Particles" particlename="pistolshot_right">0.50</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Reload
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\lizzie\reload</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_A</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.51</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_B</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.19</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_C</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.73</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Sniper
+		<assetreference type="GrannyAnim">
+			<file>animation_library\SPC\Nate_Black\sharpshooter_fire</file>
+			<tag type="Attack">0.59</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.57</tag>
+			<tag type="Particles" particlename="pistolshot_right">0.57</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="pistol" frombone="MASTER" tobone="BIP01 PROP1" syncanims="1"/>
+	</anim>
+</animfile>

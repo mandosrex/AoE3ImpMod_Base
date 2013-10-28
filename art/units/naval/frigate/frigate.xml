@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_CannonR2</definebone>
+	<definebone>bone_CannonR4</definebone>
+	<definebone>bone_front_wake</definebone>
+	<definebone>bone_front_foam</definebone>
+	<definebone>bone_muzzlel01</definebone>
+	<definebone>bone_muzzlel02</definebone>
+	<definebone>bone_muzzlel03</definebone>
+	<definebone>bone_muzzlel04</definebone>
+	<definebone>bone_muzzlel05</definebone>
+	<definebone>bone_muzzler01</definebone>
+	<definebone>bone_muzzler02</definebone>
+	<definebone>bone_muzzler03</definebone>
+	<definebone>bone_muzzler04</definebone>
+	<definebone>bone_muzzler05</definebone>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_1d</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_2d</definebone>
+	<definebone>bone_debris_2e</definebone>
+	<definebone>bone_debris_2f</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>bone_debris_3d</definebone>
+	<definebone>bone_debris_3e</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_4c</definebone>
+	<definebone>bone_debris_4d</definebone>
+	<definebone>bone_debris_4e</definebone>
+	<definebone>bone_debris_4f</definebone>
+	<definebone>bone_debris_5a</definebone>
+	<definebone>bone_debris_5b</definebone>
+	<definebone>bone_debris_5c</definebone>
+	<definebone>bone_debris_5d</definebone>
+	<definebone>bone_debris_5e</definebone>
+	<definebone>bone_debris_5f</definebone>
+	<definebone>bone_debris_5g</definebone>
+	<definebone>bone_debris_5h</definebone>
+	<definebone>bone_debris_6a</definebone>
+	<definebone>bone_debris_6b</definebone>
+	<definebone>bone_debris_6c</definebone>
+	<definebone>bone_debris_6d</definebone>
+	<definebone>bone_debris_6e</definebone>
+	<definebone>bone_debris_6f</definebone>
+	<definebone>bone_debris_6g</definebone>
+	<definebone>bone_debris_6h</definebone>
+	<definebone>bone_f1</definebone>
+	<definebone>bone_debris_4g</definebone>
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_bigship.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamRing.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSpray2
+		<component>
+			spray2
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>spray2</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSteam
+		<component>
+			steam
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSteam.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>steam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFade
+		<component>
+			fade
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamFade.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>fade</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterRipple
+		<component>
+			ripple
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_shockwave.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>ripple</component>
+		</anim>
+	</attachment>
+	<component>
+		Frigate
+		<logic type="Tech">
+			<none>
+						<logic type="Civ">
+							<none>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate_damaged</file>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate</file>
+										</assetreference>
+									</p99>
+								</logic>
+							</none>
+							<ottomans>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate_damaged</file>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_ship</from>
+												<to>units\naval\frigate\frigate_ship_ottoman</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_sails</from>
+												<to>units\naval\frigate\frigate_sails_ottoman</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate</file>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_ship</from>
+												<to>units\naval\frigate\frigate_ship_ottoman</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_sails</from>
+												<to>units\naval\frigate\frigate_sails_ottoman</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</ottomans>
+						</logic>
+			</none>
+			<imperialmanowar>
+						<logic type="Civ">
+							<none>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate_damaged</file>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_ship</from>
+												<to>units\naval\frigate\frigate_ship_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_sails</from>
+												<to>units\naval\frigate\frigate_sails_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate</file>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_ship</from>
+												<to>units\naval\frigate\frigate_ship_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_sails</from>
+												<to>units\naval\frigate\frigate_sails_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</none>
+							<ottomans>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate_damaged</file>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_ship</from>
+												<to>units\naval\frigate\frigate_ship_ottoman_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_sails</from>
+												<to>units\naval\frigate\frigate_sails_ottoman_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate</file>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_ship</from>
+												<to>units\naval\frigate\frigate_ship_ottoman_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_sails</from>
+												<to>units\naval\frigate\frigate_sails_ottoman_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</ottomans>
+						</logic>
+			</imperialmanowar>
+			<imperialmanowarus>
+						<logic type="Civ">
+							<none>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate_damaged</file>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_ship</from>
+												<to>units\naval\frigate\frigate_ship_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_sails</from>
+												<to>units\naval\frigate\frigate_sails_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate</file>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_ship</from>
+												<to>units\naval\frigate\frigate_ship_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_sails</from>
+												<to>units\naval\frigate\frigate_sails_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</none>
+							<ottomans>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate_damaged</file>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_ship</from>
+												<to>units\naval\frigate\frigate_ship_ottoman_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_sails</from>
+												<to>units\naval\frigate\frigate_sails_ottoman_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_frigate">
+											<file>units\naval\frigate\frigate</file>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_ship</from>
+												<to>units\naval\frigate\frigate_ship_ottoman_imperial</to>
+											</replacetexture>
+											<replacetexture>
+												<from>units\naval\frigate\frigate_sails</from>
+												<to>units\naval\frigate\frigate_sails_ottoman_imperial</to>
+											</replacetexture>
+										</assetreference>
+									</p99>
+								</logic>
+							</ottomans>
+						</logic>
+			</imperialmanowarus>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>12.00</width>
+			<height>20.00</height>
+			<xoffset>0.00</xoffset>
+			<zoffset>-1.50</zoffset>
+		</decal>
+		<watersplash>
+			<texture>units\naval\colony_ship\colony_ship_hullmask</texture>
+			<width>11.00</width>
+			<height>11.00</height>
+		</watersplash>
+	</component>
+	<component>
+		death
+		<logic type="Tech">
+			<none>
+				<logic type="Civ">
+					<none>
+						<assetreference type="GrannyModel">
+							<file>units\naval\frigate\frigate_deathModel</file>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_ship</from>
+								<to>units\naval\frigate\frigate_ship</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_sails</from>
+								<to>units\naval\frigate\frigate_sails</to>
+							</replacetexture>
+						</assetreference>
+					</none>
+					<ottomans>
+						<assetreference type="GrannyModel">
+							<file>units\naval\frigate\frigate_deathModel</file>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_ship</from>
+								<to>units\naval\frigate\frigate_ship_ottoman</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_sails</from>
+								<to>units\naval\frigate\frigate_sails_ottoman</to>
+							</replacetexture>
+						</assetreference>
+					</ottomans>
+				</logic>
+			</none>
+			<imperialmanowar>
+				<logic type="Civ">
+					<none>
+						<assetreference type="GrannyModel">
+							<file>units\naval\frigate\frigate_deathModel</file>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_ship</from>
+								<to>units\naval\frigate\frigate_ship_imperial</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_sails</from>
+								<to>units\naval\frigate\frigate_sails_imperial</to>
+							</replacetexture>
+						</assetreference>
+					</none>
+					<ottomans>
+						<assetreference type="GrannyModel">
+							<file>units\naval\frigate\frigate_deathModel</file>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_ship</from>
+								<to>units\naval\frigate\frigate_ship_ottoman_imperial</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_sails</from>
+								<to>units\naval\frigate\frigate_sails_ottoman_imperial</to>
+							</replacetexture>
+						</assetreference>
+					</ottomans>
+				</logic>
+			</imperialmanowar>
+			<imperialmanowarus>
+				<logic type="Civ">
+					<none>
+						<assetreference type="GrannyModel">
+							<file>units\naval\frigate\frigate_deathModel</file>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_ship</from>
+								<to>units\naval\frigate\frigate_ship_imperial</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_sails</from>
+								<to>units\naval\frigate\frigate_sails_imperial</to>
+							</replacetexture>
+						</assetreference>
+					</none>
+					<ottomans>
+						<assetreference type="GrannyModel">
+							<file>units\naval\frigate\frigate_deathModel</file>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_ship</from>
+								<to>units\naval\frigate\frigate_ship_ottoman_imperial</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\naval\frigate\frigate_sails</from>
+								<to>units\naval\frigate\frigate_sails_ottoman_imperial</to>
+							</replacetexture>
+						</assetreference>
+					</ottomans>
+				</logic>
+			</imperialmanowarus>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>12.00</width>
+			<height>20.00</height>
+			<xoffset>0.00</xoffset>
+			<zoffset>-1.50</zoffset>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\frigate\frigate_idle</file>
+		</assetreference>
+		<component>Frigate</component>
+		<simskeleton>
+			<model>units\naval\frigate\frigate_damaged</model>
+			<damagetemplate>units\naval\frigate\frigate.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\frigate\frigate_deathAnim</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterSpray2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterSteam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterRipple" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterFade" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\frigate\frigate_walk</file>
+		</assetreference>
+		<component>Frigate</component>
+		<simskeleton>
+			<model>units\naval\frigate\frigate_damaged</model>
+			<damagetemplate>units\naval\frigate\frigate.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+</animfile>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69158">Spawn</name>
+		<type>Spawn</type>
+		<rate type="Minuteman">2.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69158">SpawnN</name>
+		<type>Spawn</type>
+		<rate type="xpWarrior">2.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69158">SpawnA</name>
+		<type>Spawn</type>
+		<rate type="ypIrregular">2.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>Spawn</action>
+		<action>SpawnN</action>
+		<action>SpawnA</action>
+	</tactic>
+</tactics>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>Bip01 Prop1</definebone>
+	<definebone>bone_blowgun</definebone>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch.xml</include>
+	</attachment>
+	<attachment>
+		blowgun
+		<component>
+			blowgun
+			<assetreference type="GrannyModel">
+				<file>units\natives\attachment_blowgun</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>blowgun</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel">
+					<file>units\natives\blowgun</file>
+				</assetreference>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lp_blowgun</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_warchief_128x128</selectedtexture>
+			<width>1.10</width>
+			<height>1.10</height>
+		</decal>
+		<attach a="blowgun" frombone="bone_blowgun" tobone="Bip01 Prop1" syncanims="0"/>
+	</component>
+	<anim>
+		Charge_Attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_attackA</file>
+			<tag type="Attack">0.44</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.29</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_attackB</file>
+			<tag type="Attack">0.57</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.37</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Volley_standing_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\volley_ranged_attack</file>
+			<tag type="Attack">0.43</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.28</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Volley_standing_reload
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\volley_reload</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_A</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.51</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_B</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.17</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_C</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.73</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_A</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.52</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_B</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.19</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_C</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.72</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_death</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathC</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathD</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_havoc_flail
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_flail</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_B</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_C</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_D</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_E</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Recoil
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_C</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_E</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_G</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		HC_openDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorOpen</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		HC_closeDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorClose</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throw_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_Attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwA</file>
+			<tag type="Attack">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.47</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwB</file>
+			<tag type="Attack">0.56</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.37</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\cover_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\charge_bored</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\charge_boredB</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\cover_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.20</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.70</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.73</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_run</file>
+			<tag type="FootstepLeft">0.70</tag>
+			<tag type="FootstepRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Volley_standing_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\volley_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Volley_standing_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\volley_bored</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\volley_boredB</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Volley_Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\walk_generic_lower</file>
+			<file>animation_library\explorer\walk_explorer_upper</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.14</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Volley_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\jog_generic</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.60</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.10</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Volley_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\run_generic</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.08</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Defend_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_blowgun_combat_idle_a</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Defend_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\defend\defend_combat_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\charge_idle</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\charge_idleB</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\charge_bored</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\blowgun\charge_boredB</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.61</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.07</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.73</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_run</file>
+			<tag type="FootstepLeft">0.70</tag>
+			<tag type="FootstepRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

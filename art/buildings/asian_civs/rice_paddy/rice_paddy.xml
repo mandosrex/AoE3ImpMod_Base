@@ -1,0 +1,1907 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_flag_civ</definebone>
+	<definebone>bone_debris_1A</definebone>
+	<definebone>bone_debris_1B</definebone>
+	<definebone>bone_debris_1C</definebone>
+	<definebone>bone_debris_1D</definebone>
+	<definebone>bone_debris_1e</definebone>
+	<definebone>bone_debris_1f</definebone>
+	<definebone>bone_debris_1g</definebone>
+	<definebone>bone_debris_1h</definebone>
+	<definebone>bone_debris_1i</definebone>
+	<definebone>bone_debris_1j</definebone>
+	<definebone>bone_debris_1k</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_2d</definebone>
+	<definebone>bone_debris_2e</definebone>
+	<definebone>bone_debris_2f</definebone>
+	<definebone>bone_debris_2g</definebone>
+	<definebone>bone_debris_2h</definebone>
+	<definebone>bone_debris_2i</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>bone_debris_3d</definebone>
+	<definebone>bone_debris_3e</definebone>
+	<definebone>bone_debris_3f</definebone>
+	<definebone>bone_debris_3g</definebone>
+	<definebone>bone_debris_3h</definebone>
+	<definebone>bone_debris_4A</definebone>
+	<definebone>bone_debris_4B</definebone>
+	<definebone>bone_debris_4C</definebone>
+	<definebone>bone_debris_4D</definebone>
+	<definebone>bone_debris_4e</definebone>
+	<definebone>bone_debris_4f</definebone>
+	<definebone>bone_debris_4g</definebone>
+	<definebone>bone_debris_4h</definebone>
+	<definebone>bone_debris_4i</definebone>
+	<definebone>bone_debris_4j</definebone>
+	<definebone>bone_debris_4k</definebone>
+	<definebone>bone_debris_4l</definebone>
+	<definebone>bone_debris_4m</definebone>
+	<definebone>bone_debris_5A</definebone>
+	<definebone>bone_debris_5B</definebone>
+	<definebone>bone_debris_5C</definebone>
+	<definebone>bone_debris_5D</definebone>
+	<definebone>bone_debris_5e</definebone>
+	<definebone>bone_debris_5f</definebone>
+	<definebone>bone_debris_5g</definebone>
+	<definebone>bone_debris_5h</definebone>
+	<definebone>bone_debris_5i</definebone>
+	<definebone>bone_debris_3i</definebone>
+	<definebone>bone_debris_3j</definebone>
+	<submodel>
+		japanese_sub_construction_stage_01
+		<component>
+			iro_tc_construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\construction\asi_2x2_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_construction</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>iro_tc_construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		japanese_sub_construction_Stage_02
+		<attachment>
+			frame
+			<component>
+				as_2x2_center_con
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_2x2_frame</file>
+				</assetreference>
+			</component>
+			<anim>
+				<component>as_2x2_center_con</component>
+			</anim>
+		</attachment>
+		<component>
+			iro_tc_construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\construction\asi_2x2_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_construction</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="frame" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>iro_tc_construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_03
+		<component>
+			construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\con_small_3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\mill\tilled_earth</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\mill\farmland_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		generic
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_mill
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="generic_mill">
+								<file>buildings\mill\generic_mill_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="generic_mill">
+								<file>buildings\mill\generic_mill</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="generic_mill">
+						<file>buildings\mill\lp_generic_mill</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\mill\farmland</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\mill\farmland_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<component>
+			death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\mill\generic_mill_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\mill\lp_generic_mill</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\mill\farmland</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\mill\farmland_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>buildings\mill\generic_mill_idle</file>
+			</assetreference>
+			<component>generic_mill</component>
+			<simskeleton>
+				<model>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1</model>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\mill\generic_mill_deathAnim</file>
+			</assetreference>
+			<component>death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		generic_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\mill\generic_mill_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			mill
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\2x2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\mill\tilled_earth</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\mill\farmland_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>mill</component>
+		</anim>
+	</submodel>
+	<submodel>
+		japanese_ricepaddy_age1
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_mill
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+								<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+								<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+						<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<component>
+			death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>generic_mill</component>
+			<simskeleton>
+				<model>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_damaged</model>
+				<damagetemplate>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_deathanime</file>
+			</assetreference>
+			<component>death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		japanese_ricepaddy_age2
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_mill
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+								<file>buildings\asian_civs\rice_paddy\japan\age_2\japan_ricepaddy_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+								<file>buildings\asian_civs\rice_paddy\japan\age_2\japan_ricepaddy_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+						<file>buildings\asian_civs\rice_paddy\japan\age_2\japan_ricepaddy_age2_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<component>
+			death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\japan\age_2\japan_ricepaddy_age2_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\japan\age_2\japan_ricepaddy_age2_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>generic_mill</component>
+			<simskeleton>
+				<model>buildings\asian_civs\rice_paddy\japan\age_2\japan_ricepaddy_age2_damaged</model>
+				<damagetemplate>buildings\asian_civs\rice_paddy\japan\age_2\japan_ricepaddy_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\rice_paddy\japan\age_2\japan_ricepaddy_age2_deathanime</file>
+			</assetreference>
+			<component>death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		japanese_ricepaddy_age4
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_mill
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+								<file>buildings\asian_civs\rice_paddy\japan\age_4\japan_ricepaddy_age4_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+								<file>buildings\asian_civs\rice_paddy\japan\age_4\japan_ricepaddy_age4</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+						<file>buildings\asian_civs\rice_paddy\japan\age_4\japan_ricepaddy_age4_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<component>
+			death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\japan\age_4\japan_ricepaddy_age4_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\japan\age_4\japan_ricepaddy_age4_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>generic_mill</component>
+			<simskeleton>
+				<model>buildings\asian_civs\rice_paddy\japan\age_4\japan_ricepaddy_age4_damaged</model>
+				<damagetemplate>buildings\asian_civs\rice_paddy\japan\age_4\japan_ricepaddy_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\rice_paddy\japan\age_4\japan_ricepaddy_age4_deathanime</file>
+			</assetreference>
+			<component>death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		chinese_ricepaddy_age1
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_mill
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+								<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+								<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+						<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<component>
+			death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>generic_mill</component>
+			<simskeleton>
+				<model>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_damaged</model>
+				<damagetemplate>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_deathanime</file>
+			</assetreference>
+			<component>death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		chinese_ricepaddy_age2
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_mill
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+								<file>buildings\asian_civs\rice_paddy\china\age_2\china_ricepaddy_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+								<file>buildings\asian_civs\rice_paddy\china\age_2\china_ricepaddy_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="chinese_ricepaddy_age2">
+						<file>buildings\asian_civs\rice_paddy\china\age_2\china_ricepaddy_age2_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<component>
+			death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\china\age_2\china_ricepaddy_age2_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\china\age_2\china_ricepaddy_age2_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>generic_mill</component>
+			<simskeleton>
+				<model>buildings\asian_civs\rice_paddy\china\age_2\china_ricepaddy_age2_damaged</model>
+				<damagetemplate>buildings\asian_civs\rice_paddy\china\age_2\china_ricepaddy_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\rice_paddy\china\age_2\china_ricepaddy_age2_deathanime</file>
+			</assetreference>
+			<component>death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		chinese_ricepaddy_age4
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_mill
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="chinese_ricepaddy_age4">
+								<file>buildings\asian_civs\rice_paddy\china\age_4\china_ricepaddy_age4_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="chinese_castle_age4">
+								<file>buildings\asian_civs\rice_paddy\china\age_4\china_ricepaddy_age4</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="chinese_ricepaddy_age4">
+						<file>buildings\asian_civs\rice_paddy\china\age_4\china_ricepaddy_age4_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<component>
+			death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\china\age_4\china_ricepaddy_age4_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\china\age_4\china_ricepaddy_age4_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>generic_mill</component>
+			<simskeleton>
+				<model>buildings\asian_civs\rice_paddy\china\age_4\china_ricepaddy_age4_damaged</model>
+				<damagetemplate>buildings\asian_civs\rice_paddy\china\age_4\china_ricepaddy_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\rice_paddy\china\age_4\china_ricepaddy_age4_deathanime</file>
+			</assetreference>
+			<component>death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		japanese_ricepaddy_age1_construction_stage_03
+		<attachment>
+			lak_scaff_age1
+			<component>
+				lak_scaff_age1
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_2x2_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>lak_scaff_age1</component>
+			</anim>
+		</attachment>
+		<component>
+			lak_tc_age1_construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\rice_paddy\japan\age_1\japan_ricepaddy_age1_con_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="lak_scaff_age1" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>lak_tc_age1_construction_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		japanese_ricepaddy_age2_construction_stage_03
+		<attachment>
+			lak_scaff_age1
+			<component>
+				lak_scaff_age1
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_2x2_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>lak_scaff_age1</component>
+			</anim>
+		</attachment>
+		<component>
+			lak_tc_age1_construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\rice_paddy\japan\age_2\japan_ricepaddy_age2_con_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="lak_scaff_age1" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>lak_tc_age1_construction_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		japanese_ricepaddy_age4_construction_stage_03
+		<attachment>
+			lak_scaff_age1
+			<component>
+				lak_scaff_age1
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_2x2_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>lak_scaff_age1</component>
+			</anim>
+		</attachment>
+		<component>
+			lak_tc_age1_construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\rice_paddy\japan\age_4\japan_ricepaddy_age4_con_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="lak_scaff_age1" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>lak_tc_age1_construction_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		chinese_ricepaddy_age2_construction_stage_03
+		<attachment>
+			lak_scaff_age1
+			<component>
+				lak_scaff_age1
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_2x2_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>lak_scaff_age1</component>
+			</anim>
+		</attachment>
+		<component>
+			lak_tc_age1_construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\rice_paddy\china\age_2\china_ricepaddy_age2_con_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="lak_scaff_age1" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>lak_tc_age1_construction_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		chinese_ricepaddy_age4_construction_stage_03
+		<attachment>
+			lak_scaff_age1
+			<component>
+				lak_scaff_age1
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_2x2_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>lak_scaff_age1</component>
+			</anim>
+		</attachment>
+		<component>
+			lak_tc_age1_construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\rice_paddy\china\age_4\china_ricepaddy_age4_con_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="lak_scaff_age1" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>lak_tc_age1_construction_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		indian_ricepaddy_age1
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_mill
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="india_ricepaddy">
+								<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="india_ricepaddy">
+								<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="india_ricepaddy">
+						<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<component>
+			death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>generic_mill</component>
+			<simskeleton>
+				<model>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_damaged</model>
+				<damagetemplate>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_deathanime</file>
+			</assetreference>
+			<component>death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		indian_ricepaddy_age2
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_mill
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="india_ricepaddy">
+								<file>buildings\asian_civs\rice_paddy\india\age_2\india_ricepaddy_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="india_ricepaddy">
+								<file>buildings\asian_civs\rice_paddy\india\age_2\india_ricepaddy_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\india\age_2\india_ricepaddy_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<component>
+			death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\india\age_2\india_ricepaddy_age2_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\india\age_2\india_ricepaddy_age2_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>generic_mill</component>
+			<simskeleton>
+				<model>buildings\asian_civs\rice_paddy\india\age_2\india_ricepaddy_age2_damaged</model>
+				<damagetemplate>buildings\asian_civs\rice_paddy\india\age_2\india_ricepaddy_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\rice_paddy\india\age_2\india_ricepaddy_age2_deathanime</file>
+			</assetreference>
+			<component>death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		indian_ricepaddy_age4
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_mill
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="india_ricepaddy">
+								<file>buildings\asian_civs\rice_paddy\india\age_4\india_ricepaddy_age4_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="india_ricepaddy">
+								<file>buildings\asian_civs\rice_paddy\india\age_4\india_ricepaddy_age4</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\india\age_4\india_ricepaddy_age4</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<component>
+			death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\india\age_4\india_ricepaddy_age4_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\rice_paddy\india\age_4\india_ricepaddy_age4_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>generic_mill</component>
+			<simskeleton>
+				<model>buildings\asian_civs\rice_paddy\india\age_4\india_ricepaddy_age4_damaged</model>
+				<damagetemplate>buildings\asian_civs\rice_paddy\india\age_4\india_ricepaddy_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\asian_civs\rice_paddy\india\age_4\india_ricepaddy_age4_deathanime</file>
+			</assetreference>
+			<component>death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		indian_ricepaddy_age1_construction_stage_03
+		<attachment>
+			lak_scaff_age1
+			<component>
+				lak_scaff_age1
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_2x2_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>lak_scaff_age1</component>
+			</anim>
+		</attachment>
+		<component>
+			lak_tc_age1_construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_con_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="lak_scaff_age1" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>lak_tc_age1_construction_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		indian_ricepaddy_age2_construction_stage_03
+		<attachment>
+			lak_scaff_age1
+			<component>
+				lak_scaff_age1
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_2x2_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>lak_scaff_age1</component>
+			</anim>
+		</attachment>
+		<component>
+			lak_tc_age1_construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\rice_paddy\india\age_2\india_ricepaddy_age2_con_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="lak_scaff_age1" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>lak_tc_age1_construction_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		indian_ricepaddy_age4_construction_stage_03
+		<attachment>
+			lak_scaff_age1
+			<component>
+				lak_scaff_age1
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_2x2_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>lak_scaff_age1</component>
+			</anim>
+		</attachment>
+		<component>
+			lak_tc_age1_construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\rice_paddy\india\age_4\india_ricepaddy_age4_con_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\rice_paddy\ricepaddy_footprint</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\asian_civs\rice_paddy\ricepaddy_footprint_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="lak_scaff_age1" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>lak_tc_age1_construction_stage_03</component>
+		</anim>
+	</submodel>
+	<component>
+		ypricepaddy
+		<logic type="Culture">
+			<japanese>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="japanese_sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="japanese_sub_construction_Stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="japanese_ricepaddy_age1_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="japanese_ricepaddy_age1"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="japanese_sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="japanese_sub_construction_Stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="japanese_ricepaddy_age1_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="japanese_ricepaddy_age2"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="japanese_sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="japanese_sub_construction_Stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="japanese_ricepaddy_age1_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="japanese_ricepaddy_age4"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</japanese>
+			<chinese>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="japanese_sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="japanese_sub_construction_Stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="japanese_ricepaddy_age1_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="japanese_ricepaddy_age1"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="japanese_sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="japanese_sub_construction_Stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="japanese_ricepaddy_age1_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="chinese_ricepaddy_age2"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="japanese_sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="japanese_sub_construction_Stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="japanese_ricepaddy_age1_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="chinese_ricepaddy_age4"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</chinese>
+			<indian>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="japanese_sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="japanese_sub_construction_Stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="indian_ricepaddy_age1_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="indian_ricepaddy_age1"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="japanese_sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="japanese_sub_construction_Stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="indian_ricepaddy_age2_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="indian_ricepaddy_age2"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="japanese_sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="japanese_sub_construction_Stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="indian_ricepaddy_age4_construction_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="indian_ricepaddy_age4"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</indian>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>ypricepaddy</component>
+	</anim>
+</animfile>

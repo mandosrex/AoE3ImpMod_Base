@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		quivers
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\crossbow\crossbow_2age_quiver</file>
+				</assetreference>
+			</none>
+			<veterancrossbowmen>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\crossbow\crossbow_3age_quiver</file>
+				</assetreference>
+			</veterancrossbowmen>
+			<guardcrossbowmen>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\crossbow\crossbow_4age_quiver</file>
+				</assetreference>
+			</guardcrossbowmen>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>quivers</component>
+	</anim>
+</animfile>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69147">Build</name>
+		<type>Build</type>
+		<anim>Build</anim>
+		<maxrange>0.4</maxrange>
+		<rate type="Building">1.0</rate>
+	</action>
+	<action>
+		<name stringid="42178">Gather</name>
+		<type>Gather</type>
+		<maxrange>1.0</maxrange>
+		<rate type="AbstractFish">0.4</rate>
+		<rate type="AbstractWhale">0.4</rate>
+	</action>
+	<action>
+		<name stringid="69148">Discover</name>
+		<type>Discover</type>
+		<anim>GatherFish</anim>
+		<maxrange>0.2</maxrange>
+		<rate type="AbstractNuggetWater">1.0</rate>
+	</action>
+	<action>
+		<dbaction>BoatManager</dbaction>
+		<name stringid="69156">BoatManager</name>
+		<type>BoatManager</type>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action>BoatManager</action>
+		<action>Discover</action>
+		<action>Gather</action>
+		<action>Build</action>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

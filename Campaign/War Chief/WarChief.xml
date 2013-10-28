@@ -1,0 +1,717 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Campaign>
+   <!-- DisplayName.  The non-localized name the user will see for this campaign.  -->
+   <DisplayName>Blood, Ice and Steel</DisplayName>
+   <!-- DisplayNameStringID.  The localized string ID for the name the user will see for this campaign.  Overrides DisplayName.  -->
+   <DisplayNameStringID>36936</DisplayNameStringID>
+   <!-- Rollover.  The non-localized rollover the user will see for this campaign.  -->
+   <Rollover>Follow the adventures of three generations of the Black family.</Rollover>
+   <!-- RolloverStringID.  The localized string ID for the rollover the user will see for this campaign.  Overrides Rollover.  -->
+   <RolloverStringID>36937</RolloverStringID>
+   <!-- The string ID for the title to display in the HC Note Dlg the first time the user visits her homecity. -->
+   <HCNoteTitle>43313</HCNoteTitle>
+   <!-- The string ID for the text to display in the HC Note Dlg the first time the user visits her homecity -->
+   <HCNoteText>43314</HCNoteText>
+   <!-- The string ID for the title to display in the HC Note Dlg the first time the visits her homecity AND HAS HOMECITY ACCESS -->
+   <HCNote2Title>37028</HCNote2Title>
+   <!-- The string ID for the text to display in the HC Note Dlg the first time the user visits her homecity AND HAS HOMECITY ACESS -->
+   <HCNote2Text>37029</HCNote2Text>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age301a</Filename>
+      <DisplayName>The Falcon Lands on Malta</DisplayName>
+      <DisplayNameStringID>33940</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>SPC_Load_screen_01</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>36969</LoadTextID>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age301</Filename>
+      <DisplayName>Breakout</DisplayName>
+      <DisplayNameStringID>27546</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Act>1</Act>
+      <NoHCAccess>1</NoHCAccess>
+      <ForceLoadHC>1</ForceLoadHC>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age302a</Filename>
+      <DisplayName>CINE: Answers</DisplayName>
+      <DisplayNameStringID>27575</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPC_Load_screen_02</LoadImage>
+      <LoadTextID>36970</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age302</Filename>
+      <DisplayName>Into the Caves</DisplayName>
+      <DisplayNameStringID>27547</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <NoHCAccess>1</NoHCAccess>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age302b</Filename>
+      <DisplayName>CINE: Library of Stone</DisplayName>
+      <DisplayNameStringID>27576</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age303a</Filename>
+      <DisplayName>CINE: Lizzie the Pirate</DisplayName>
+      <DisplayNameStringID>27577</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <ForceLoadHC>1</ForceLoadHC>
+      <LoadImage>SPC_Load_screen_03</LoadImage>
+      <LoadTextID>36971</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age303</Filename>
+      <DisplayName>PIRATES!</DisplayName>
+      <DisplayNameStringID>27548</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <NoHCAccess>1</NoHCAccess>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age304a</Filename>
+      <DisplayName>CINE: The New World</DisplayName>
+      <DisplayNameStringID>27578</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPC_Load_screen_04</LoadImage>
+      <LoadTextID>36972</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age304</Filename>
+      <DisplayName>The Ottoman Fort</DisplayName>
+      <DisplayNameStringID>27549</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age305a</Filename>
+      <DisplayName>CINE: The Cult of Bone</DisplayName>
+      <DisplayNameStringID>27579</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPC_Load_screen_05</LoadImage>
+      <LoadTextID>36973</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age305</Filename>
+      <DisplayName>Secrets of the New World</DisplayName>
+      <DisplayNameStringID>27550</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age305b</Filename>
+      <DisplayName>CINE: Right Where We Stand</DisplayName>
+      <DisplayNameStringID>27580</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age306a</Filename>
+      <DisplayName>CINE: The Hurricane</DisplayName>
+      <DisplayNameStringID>27581</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPC_Load_screen_06</LoadImage>
+      <LoadTextID>36974</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age306</Filename>
+      <DisplayName>A Pirate's Help?</DisplayName>
+      <DisplayNameStringID>27551</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age307a</Filename>
+      <DisplayName>CINE: The Florida Coast</DisplayName>
+      <DisplayNameStringID>27582</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPC_Load_screen_07</LoadImage>
+      <LoadTextID>36975</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age307</Filename>
+      <DisplayName>The Treasure Fleet</DisplayName>
+      <DisplayNameStringID>27552</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age307b</Filename>
+      <DisplayName>CINE: The True Enemy</DisplayName>
+      <DisplayNameStringID>27583</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age308a</Filename>
+      <DisplayName>CINE: Lake of the Moon</DisplayName>
+      <DisplayNameStringID>27584</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPC_Load_screen_08</LoadImage>
+      <LoadTextID>36976</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age308</Filename>
+      <DisplayName>The Fountain of Youth</DisplayName>
+      <DisplayNameStringID>27553</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\Act1FinalCine</Filename>
+      <DisplayName>CINE: A Possible Future</DisplayName>
+      <DisplayNameStringID>27585</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age309a</Filename>
+      <DisplayName>Summoned</DisplayName>
+      <DisplayNameStringID>33996</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPC_Load_screen_09</LoadImage>
+      <LoadTextID>36977</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age309</Filename>
+      <DisplayName>Hold the Fort</DisplayName>
+      <DisplayNameStringID>27554</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+      <ForceLoadHC>1</ForceLoadHC>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age310a</Filename>
+      <DisplayName>CINE: The Chase</DisplayName>
+      <DisplayNameStringID>27587</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPC_Load_screen_10</LoadImage>
+      <LoadTextID>36978</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age310</Filename>
+      <DisplayName>Strange Alliances</DisplayName>
+      <DisplayNameStringID>27555</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age310b</Filename>
+      <DisplayName>CINE: Colony in Ruins</DisplayName>
+      <DisplayNameStringID>27588</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age311a</Filename>
+      <DisplayName>CINE: Iroquois Under Attack</DisplayName>
+      <DisplayNameStringID>27589</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPC_Load_screen_11</LoadImage>
+      <LoadTextID>36979</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age311</Filename>
+      <DisplayName>The Rescue</DisplayName>
+      <DisplayNameStringID>27556</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age311b</Filename>
+      <DisplayName>CINE: Reunited</DisplayName>
+      <DisplayNameStringID>27590</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age312a</Filename>
+      <DisplayName>CINE: Kanyenke's Sister</DisplayName>
+      <DisplayNameStringID>27591</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPC_Load_screen_12</LoadImage>
+      <LoadTextID>36980</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age312</Filename>
+      <DisplayName>Border War</DisplayName>
+      <DisplayNameStringID>27557</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age312b</Filename>
+      <DisplayName>CINE: Colonel Washington</DisplayName>
+      <DisplayNameStringID>27592</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age313a</Filename>
+      <DisplayName>CINE: Enemy of the Family</DisplayName>
+      <DisplayNameStringID>27593</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPC_Load_screen_13</LoadImage>
+      <LoadTextID>36981</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age313</Filename>
+      <DisplayName>The Great Lakes</DisplayName>
+      <DisplayNameStringID>27558</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age313b</Filename>
+      <DisplayName>CINE: Stuart is Found</DisplayName>
+      <DisplayNameStringID>27594</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age314a</Filename>
+      <DisplayName>CINE: The Great Plains</DisplayName>
+      <DisplayNameStringID>27595</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPC_Load_screen_14</LoadImage>
+      <LoadTextID>36982</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age314</Filename>
+      <DisplayName>Respect</DisplayName>
+      <DisplayNameStringID>27559</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age315a</Filename>
+      <DisplayName>CINE: Trail to Warwick</DisplayName>
+      <DisplayNameStringID>27596</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPC_Load_screen_15</LoadImage>
+      <LoadTextID>36983</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age315</Filename>
+      <DisplayName>Warwick's Stronghold</DisplayName>
+      <DisplayNameStringID>27560</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age316a</Filename>
+      <DisplayName>CINE: The Russians are Coming</DisplayName>
+      <DisplayNameStringID>27597</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPC_Load_screen_16</LoadImage>
+      <LoadTextID>36984</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age316</Filename>
+      <DisplayName>Bring Down the Mountian</DisplayName>
+      <DisplayNameStringID>27561</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\Act2FinalCine</Filename>
+      <DisplayName>CINE: A Father's Sacrifice</DisplayName>
+      <DisplayNameStringID>27598</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age317a</Filename>
+      <DisplayName>The Old Coot</DisplayName>
+      <DisplayNameStringID>33998</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>3</Act>
+      <LoadImage>SPC_Load_screen_17</LoadImage>
+      <LoadTextID>36985</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age317</Filename>
+      <DisplayName>Race for the Rails</DisplayName>
+      <DisplayNameStringID>27562</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>3</Act>
+      <ForceLoadHC>1</ForceLoadHC>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age318a</Filename>
+      <DisplayName>CINE: Beaumont the Prospector</DisplayName>
+      <DisplayNameStringID>27600</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>3</Act>
+      <LoadImage>SPC_Load_screen_18</LoadImage>
+      <LoadTextID>36986</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age318</Filename>
+      <DisplayName>Remember the Oloma</DisplayName>
+      <DisplayNameStringID>27563</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>3</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age318b</Filename>
+      <DisplayName>CINE: A Risky Decision</DisplayName>
+      <DisplayNameStringID>27601</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>3</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age319a</Filename>
+      <DisplayName>CINE: Never Trust a French Prospector</DisplayName>
+      <DisplayNameStringID>27602</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>3</Act>
+      <LoadImage>SPC_Load_screen_19</LoadImage>
+      <LoadTextID>36987</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age319</Filename>
+      <DisplayName>The Bone Guard's Lair</DisplayName>
+      <DisplayNameStringID>27564</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>3</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age319b</Filename>
+      <DisplayName>CINE: Slippery as a Fish</DisplayName>
+      <DisplayNameStringID>27603</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>3</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age320a</Filename>
+      <DisplayName>CINE: Back to Florida</DisplayName>
+      <DisplayNameStringID>27604</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>3</Act>
+      <LoadImage>SPC_Load_screen_20</LoadImage>
+      <LoadTextID>36988</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age320</Filename>
+      <DisplayName>The Lost Spanish Gold</DisplayName>
+      <DisplayNameStringID>27565</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>3</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age320b</Filename>
+      <DisplayName>CINE: Loss of a Friend</DisplayName>
+      <DisplayNameStringID>27605</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>3</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age321a</Filename>
+      <DisplayName>CINE: In the Middle of War</DisplayName>
+      <DisplayNameStringID>27606</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>3</Act>
+      <LoadImage>SPC_Load_screen_21</LoadImage>
+      <LoadTextID>36989</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age321</Filename>
+      <DisplayName>Bolivar's Revolt</DisplayName>
+      <DisplayNameStringID>27566</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>3</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age321b</Filename>
+      <DisplayName>CINE: The Rebel Leader</DisplayName>
+      <DisplayNameStringID>27607</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>3</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age322</Filename>
+      <DisplayName>Journey through the Andes</DisplayName>
+      <DisplayNameStringID>27567</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>3</Act>
+      <LoadImage>SPC_Load_screen_22</LoadImage>
+      <LoadTextID>36990</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age323a</Filename>
+      <DisplayName>CINE: Chilche and Inca Pacamayo</DisplayName>
+      <DisplayNameStringID>27608</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>3</Act>
+      <LoadImage>SPC_Load_screen_23</LoadImage>
+      <LoadTextID>36991</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age323</Filename>
+      <DisplayName>Last City of the Inca</DisplayName>
+      <DisplayNameStringID>27568</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>3</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age323b</Filename>
+      <DisplayName>CINE: Water from the Fountain</DisplayName>
+      <DisplayNameStringID>27609</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>3</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>blood ice steel\age324a</Filename>
+      <DisplayName>CINE: The Ossuary</DisplayName>
+      <DisplayNameStringID>27610</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>3</Act>
+      <LoadImage>SPC_Load_screen_24</LoadImage>
+      <LoadTextID>36992</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\age324</Filename>
+      <DisplayName>Last Stand of the Boneguard</DisplayName>
+      <DisplayNameStringID>27569</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>3</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>blood ice steel\Act3FinalCine</Filename>
+      <DisplayName>CINE: Payback</DisplayName>
+      <DisplayNameStringID>27611</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>3</Act>
+      <ContinueToCredits></ContinueToCredits>
+   </CampaignNode>
+   
+</Campaign>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38135">ChargeAttack</name>
+		<type>Attack</type>
+		<maxrange>1.75</maxrange>
+		<rate type="Unit">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>HandAttack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<damage>6.5</damage>
+		<rof>1.0</rof>
+	</action>
+	<tactic>
+		Normal
+		<action>ChargeAttack</action>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<runaway>1</runaway>
+		<autoretarget>0</autoretarget>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Run</joganim>
+		<runanim>Run</runanim>
+	</tactic>
+</tactics>

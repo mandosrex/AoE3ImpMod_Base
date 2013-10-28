@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_petard01</definebone>
+	<definebone>bone_petard02</definebone>
+	<attachment>
+		petard01
+		<include>units\artillery\petard\petard01.xml</include>
+	</attachment>
+	<attachment>
+		petard02
+		<include>units\artillery\petard\petard02.xml</include>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\petard\petard</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\petard\lp_petard</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</none>
+			<eliteram>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\petard\petard</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\petard\lp_petard</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</eliteram>
+			<championram>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\petard\petard</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\petard\lp_petard</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</championram>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+		<attach a="petard01" frombone="hotspot" tobone="bone_petard01" syncanims="1"/>
+		<attach a="petard02" frombone="hotspot" tobone="bone_petard02" syncanims="1"/>
+	</component>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\death</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.17</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.57</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\death</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.17</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.57</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\havoc_death</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\havoc_death</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\havoc_death</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\havoc_death</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_havoc_flail
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\havoc_flail</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_havoc_spin
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\havoc_spin</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Recoil
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\idle</file>
+		</assetreference>
+		<component/>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\bomb</file>
+			<tag type="Attack">1.00</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PetardExplosion">1.00</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GrenadeLight">0.90</tag>
+			<tag type="Particles" particlename="wclargeexp">1.00</tag>
+			<tag type="CameraShake" force="0.10" duration="0.3">1.00</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="BIP01 L FOOT">0.60</tag>
+			<tag type="FootstepLeft" footprinttype="HumanRight" footprintbone="BIP01 R FOOT">0.16</tag>
+			<tag type="FootstepRight" footprinttype="HumanLeft">0.12</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.64</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="BIP01 L FOOT">0.61</tag>
+			<tag type="FootstepLeft" footprinttype="HumanRight" footprintbone="BIP01 R FOOT">0.09</tag>
+			<tag type="FootstepRight" footprinttype="HumanLeft">0.19</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cover_run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="BIP01 L FOOT">0.61</tag>
+			<tag type="FootstepLeft" footprinttype="HumanRight" footprintbone="BIP01 R FOOT">0.09</tag>
+			<tag type="FootstepRight" footprinttype="HumanLeft">0.19</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Defend_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Defend_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\attack</file>
+			<tag type="Attack">0.37</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="BIP01 L FOOT">0.60</tag>
+			<tag type="FootstepLeft" footprinttype="HumanRight" footprintbone="BIP01 R FOOT">0.16</tag>
+			<tag type="FootstepRight" footprinttype="HumanLeft">0.12</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.64</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="BIP01 L FOOT">0.61</tag>
+			<tag type="FootstepLeft" footprinttype="HumanRight" footprintbone="BIP01 R FOOT">0.09</tag>
+			<tag type="FootstepRight" footprinttype="HumanLeft">0.19</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Charge_run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\artillery\petard\jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="BIP01 L FOOT">0.61</tag>
+			<tag type="FootstepLeft" footprinttype="HumanRight" footprintbone="BIP01 R FOOT">0.09</tag>
+			<tag type="FootstepRight" footprinttype="HumanLeft">0.19</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

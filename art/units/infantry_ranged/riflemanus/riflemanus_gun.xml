@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		gun
+		<assetreference type="GrannyModel">
+			<file>units\explorers\b_musket</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>gun</component>
+	</anim>
+</animfile>

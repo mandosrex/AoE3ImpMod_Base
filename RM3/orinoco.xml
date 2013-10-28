@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "47121" imagepath = "ui\random_map\orinoco" displayNameID = "47120" cannotReplace = ""
+	loadDetails="47122" loadBackground="ui\random_map\orinoco\orinoco_map">
+	<loadss>ui\random_map\orinoco\orinoco_ss_01</loadss>
+    <loadss>ui\random_map\orinoco\orinoco_ss_02</loadss>
+    <loadss>ui\random_map\orinoco\orinoco_ss_03</loadss>
+</mapinfo>

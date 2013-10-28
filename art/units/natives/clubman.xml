@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>Bip01 Prop1</definebone>
+	<definebone>bone_club</definebone>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch.xml</include>
+	</attachment>
+	<attachment>
+		club
+		<component>
+			club
+			<assetreference type="GrannyModel">
+				<file>units\natives\attachment_nootka_club</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>club</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel">
+					<file>units\natives\clubman</file>
+				</assetreference>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lp_clubman</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_warchief_128x128</selectedtexture>
+			<width>1.10</width>
+			<height>1.10</height>
+		</decal>
+	</component>
+	<anim>
+		Charge_Attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_attackA</file>
+			<tag type="Attack">0.41</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.30</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_attackB</file>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.36</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_sword_death_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.85</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\war_club\range_death1</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.58</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\war_club\range_death2</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.80</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_death</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathC</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathD</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_havoc_flail
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_flail</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_havoc_spin
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_spin</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_C</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Recoil
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_C</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_E</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_G</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		HC_openDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorOpen</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		HC_closeDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorClose</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throw_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_Attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwB</file>
+			<tag type="Attack">0.56</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.43</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwA</file>
+			<tag type="Attack">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.48</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_boredA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_boredB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_boredC</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\cover_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.60</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.06</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.73</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_run</file>
+			<tag type="FootstepLeft">0.70</tag>
+			<tag type="FootstepRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\defend_idle</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\defend_idleB</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\defend_bored</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_idle</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_idleB</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_boredA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_boredB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_boredC</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.61</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.07</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.73</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\clubman\charge_run</file>
+			<tag type="FootstepLeft">0.70</tag>
+			<tag type="FootstepRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="bone_club" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Nugget_rock_idle
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_rock\rock_captive_idleA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_rock\rock_captive_boredA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_rock\rock_captive_boredB</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Nugget_rock_exit
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_rock\rock_captive_exit</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Wolf_Treebent_Captive_Idle
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_treebent\wolf_treebent_captive_idle1</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_treebent\wolf_treebent_captive_idle2</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_treebent\wolf_treebent_captive_idle3</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Wolf_Treebent_Captive_Exit
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_treebent\wolf_treebent_captive_exit</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Bear_Tree_Captive_Idle
+		<assetreference type="GrannyAnim">
+			<file>nuggets\bear_tree\bear_tree_captive_idle1</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\bear_tree\bear_tree_captive_idle2</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Bear_Tree_Captive_Exit
+		<assetreference type="GrannyAnim">
+			<file>nuggets\bear_tree\bear_tree_captive_exit</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		kidnap_hostageA_idle
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleD</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleB</file>
+			<weight>20</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleC</file>
+			<weight>20</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleA</file>
+			<weight>20</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		kidnap_hostageA_exit
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_exit</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

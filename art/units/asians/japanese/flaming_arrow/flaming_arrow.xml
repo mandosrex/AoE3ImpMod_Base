@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_launchpoint</definebone>
+	<definebone>bone_fuse</definebone>
+	<definebone>bone_cart</definebone>
+	<definebone>bone_wheelcannonR</definebone>
+	<definebone>bone_wheelcannonL</definebone>
+	<definebone>bone_leader</definebone>
+	<definebone>bone_arrow</definebone>
+	<attachment>
+		attachment_battlefield_smoke
+		<component>
+			battlefield_smoke
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\battlefield_smoke.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>battlefield_smoke</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hat_0
+		<component>
+			hat_0
+			<assetreference type="GrannyModel">
+				<file>units\asians\japanese\ashigaru\ashigaru_0age_hat</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hat_0</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hat_1
+		<component>
+			hat1
+			<assetreference type="GrannyModel">
+				<file>units\asians\japanese\ashigaru\ashigaru_1age_hat</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hat1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		flaming_stick
+		<include>units\attachments\flaming_stick.xml</include>
+	</attachment>
+	<attachment>
+		arrow
+		<include>units\attachments\flaming_arrow.xml</include>
+	</attachment>
+	<component>
+		falconet
+		<logic type="Tech">
+			<none>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\japanese\flaming_arrow\flamingArrow_0</file>
+						</assetreference>
+						<attach a="hat_0" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\japanese\flaming_arrow\flamingArrow_0</file>
+						</assetreference>
+						<attach a="hat_0" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+					</lowpoly>
+				</logic>
+			</none>
+			<yphonoredflamingarrow>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\japanese\flaming_arrow\flamingArrow_2</file>
+						</assetreference>
+						<attach a="hat_1" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\japanese\flaming_arrow\flamingArrow_2</file>
+						</assetreference>
+						<attach a="hat_1" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+					</lowpoly>
+				</logic>
+			</yphonoredflamingarrow>
+			<ypexaltedflamingarrow>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\japanese\flaming_arrow\flamingArrow_2</file>
+						</assetreference>
+						<attach a="hat_1" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\japanese\flaming_arrow\flamingArrow_2</file>
+						</assetreference>
+						<attach a="hat_1" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+					</lowpoly>
+				</logic>
+			</ypexaltedflamingarrow>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>2.00</width>
+			<height>4.00</height>
+			<zoffset>-1.00</zoffset>
+		</decal>
+		<watersplash>
+			<texture>units\artillery\cannon\wheel_B</texture>
+			<width>1.75</width>
+			<height>2.00</height>
+		</watersplash>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_walk</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_walk</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_walk</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_idle</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		bored
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_bored</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_death</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.10</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.55</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.23</tag>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_death</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.64</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.55</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.26</tag>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_cheer</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_ranged_idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_idle</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_ranged_attack
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_attack</file>
+			<tag type="Attack">0.26</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="FlamingArrow">0.28</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GrenadeLight">0.05</tag>
+			<tag type="Particles" particlename="smallcannonmuzzle">0.28</tag>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="attachment_battlefield_smoke" frombone="ATTACHPOINT" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_aim
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_aim</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_reload
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_reload</file>
+			<weight>50</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_reload_02</file>
+			<weight>50</weight>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_bored
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_bored</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_walk</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_jog
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_walk</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_run
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_walk</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_cheer
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_cheer</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_Recoil
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_recoil</file>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="arrow" frombone="bone_arrow" tobone="bone_launchpoint" syncanims="0"/>
+		<attach a="flaming_stick" frombone="bone_flaming_stick" tobone="PROP1" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_death
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\flaming_arrow\flamingArrow_death</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.55</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.23</tag>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+</animfile>

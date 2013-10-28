@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_master</definebone>
+	<definebone>bone_bowman</definebone>
+	<definebone>bone_rower1</definebone>
+	<definebone>bone_rower2</definebone>
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_canoe.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Fishing_Net
+		<component>
+			Fishing_Net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_fishingboat</file>
+			</assetreference>
+			<component>Fishing_Net</component>
+		</anim>
+	</attachment>
+	<attachment>
+		bowman
+		<include>units\naval\war_canoe\bowman.xml</include>
+	</attachment>
+	<attachment>
+		rower1
+		<include>units\naval\war_canoe\rower1.xml</include>
+	</attachment>
+	<attachment>
+		rower2
+		<include>units\naval\war_canoe\rower2.xml</include>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel">
+					<file>units\naval\war_Canoe\war_canoe</file>
+				</assetreference>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel">
+					<file>units\naval\war_canoe\lp_war_canoe</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>5.00</width>
+			<height>8.00</height>
+		</decal>
+		<attach a="bowman" frombone="hotspot" tobone="bone_bowman" syncanims="1"/>
+		<attach a="rower1" frombone="hotspot" tobone="bone_rower1" syncanims="1"/>
+		<attach a="rower2" frombone="hotspot" tobone="bone_rower2" syncanims="1"/>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\naval\war_canoe\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\naval\war_canoe\walk</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="SplashSmall">0.43</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>animation_library\naval\war_canoe\fish</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="SplashSmall">0.18</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Fishing_Net" frombone="" tobone="" syncanims="0"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>animation_library\naval\war_canoe\death</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.43</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		RangedAttack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\naval\war_canoe\rangeattack1</file>
+			<tag type="Attack">0.98</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\naval\war_canoe\rangeattack1</file>
+			<tag type="Attack">0.98</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_Attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\naval\war_canoe\rangeattack1</file>
+			<tag type="Attack">0.98</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\naval\war_canoe\rangeattack1</file>
+			<tag type="Attack">0.98</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\naval\war_canoe\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

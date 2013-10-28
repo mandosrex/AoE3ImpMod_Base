@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		gun
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\janissary\jannisary_gun_standard</file>
+				</assetreference>
+			</none>
+			<guardschutzens>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\janissary\jannisary_gun_veteran</file>
+				</assetreference>
+			</guardschutzens>
+			<imperialschutzens>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\janissary\jannisary_gun_guard</file>
+				</assetreference>
+			</imperialschutzens>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>gun</component>
+	</anim>
+</animfile>

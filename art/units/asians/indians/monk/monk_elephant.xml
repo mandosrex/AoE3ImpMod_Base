@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>BipElephant01 L Hand</definebone>
+	<definebone>BipElephant01 R Hand</definebone>
+	<definebone>BipElephant01 L Foot</definebone>
+	<definebone>BipElephant01 R Foot</definebone>
+	<definebone>bone hitpointbar</definebone>
+	<definebone>bone_monk_aura</definebone>
+	<definebone>bone_driver</definebone>
+	<attachment>
+		Horse_Dust
+		<component>
+			Horse_Dust
+			<assetreference type="ParticleSystem">
+				<file>effects\animal particles\horse_dust.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Horse_Dust</component>
+		</anim>
+	</attachment>
+	<attachment>
+		HealRays
+		<component>
+			HealFXEmitter
+			<assetreference type="ParticleSystem">
+				<file>units\explorers\heal_rays.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>HealFXEmitter</component>
+		</anim>
+	</attachment>
+	<attachment>
+		aura
+		<component>
+			aura
+			<notshadowcaster/>
+			<assetreference type="GrannyModel">
+				<file>effects\ypack_auras\aura_daimyo_cav</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>aura</component>
+		</anim>
+	</attachment>
+	<attachment>
+		stick
+		<component>
+			stick
+			<assetreference type="GrannyModel">
+				<file>units\asians\indians\monk\monk_stick</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>stick</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hammer
+		<component>
+			hammer
+			<assetreference type="GrannyModel">
+				<file>units\attachments\hammer_villager</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hammer</component>
+		</anim>
+	</attachment>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch_cavalry.xml</include>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\monk\monk_elephant</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\monk\monk_elephant</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</none>
+			<ypmonasteryindianspeed>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\monk\monk_elephant</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\monk\monk_elephant</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+				<attach a="aura" frombone="bone_monk_aura" tobone="bone_master" syncanims="0"/>
+			</ypmonasteryindianspeed>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture>
+			<noncinematictexture>shadows_selections\shadow_hero_64x64</noncinematictexture>
+			<width>2.50</width>
+			<height>2.50</height>
+		</decal>
+		<attach a="RiderAttachment" frombone="hotspot" tobone="ATTACHPOINT" syncanims="1"/>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_walk</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BIPELEPHANT01 L HAND">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BIPELEPHANT01 L FOOT">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BIPELEPHANT01 R HAND">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BIPELEPHANT01 R FOOT">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_run</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BIPELEPHANT01 L HAND">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BIPELEPHANT01 L FOOT">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BIPELEPHANT01 R HAND">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BIPELEPHANT01 R FOOT">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_run</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BIPELEPHANT01 L HAND">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BIPELEPHANT01 L FOOT">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BIPELEPHANT01 R HAND">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BIPELEPHANT01 R FOOT">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Highstep
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_walk</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BIPELEPHANT01 L HAND">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BIPELEPHANT01 L FOOT">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BIPELEPHANT01 R HAND">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BIPELEPHANT01 R FOOT">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_idle01</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_idle02</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_idle03</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Bored
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_bored01</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_bored02</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		stun_attack
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_attackStun00</file>
+			<weight>40</weight>
+			<tag type="Attack">0.44</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.36</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Attack_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_attackMelee00</file>
+			<weight>40</weight>
+			<tag type="Attack">0.33</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.28</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_attackMelee01</file>
+			<weight>40</weight>
+			<tag type="Attack">0.55</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.51</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_knockout00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.98</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_knockout00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.98</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_knockout00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.98</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_cheer01</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_idle01</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_idle02</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_idle03</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>units\asians\natives\war_elephant\war_elephant_razeAttack03</file>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.50</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\natives\war_elephant\war_elephant_razeAttack04</file>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.50</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Pickup
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_pickUp00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GatherFruit">0.37</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_build00</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.66</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="hammer" frombone="MASTER" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Heal
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_heal00</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="HealRays" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		BuildLifting
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_build00</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.66</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="hammer" frombone="MASTER" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		BuildSaw
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_build00</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.66</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="hammer" frombone="MASTER" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		BuildStaking
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_build00</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.66</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="hammer" frombone="MASTER" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Knockout
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_knockout00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.98</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		KnockoutIdle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_knockoutIdle00</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_knockoutIdle01</file>
+			<weight>10</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+	<anim>
+		Recover
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\monk\monk_elephant_recover00</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="stick" frombone="bone_sword" tobone="Bip01 R Hand" syncanims="0"/>
+	</anim>
+</animfile>

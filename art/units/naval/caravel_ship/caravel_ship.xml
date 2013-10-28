@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_muzzlel01</definebone>
+	<definebone>bone_muzzlel02</definebone>
+	<definebone>bone_muzzler01</definebone>
+	<definebone>bone_muzzler02</definebone>
+	<definebone>Bone_front_wake</definebone>
+	<definebone>bone_main</definebone>
+	<definebone>Bone_front_foam</definebone>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_1d</definebone>
+	<definebone>bone_debris_1e</definebone>
+	<definebone>bone_debris_1f</definebone>
+	<definebone>bone_debris_1g</definebone>
+	<definebone>bone_debris_1h</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_2d</definebone>
+	<definebone>bone_debris_2e</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_5a</definebone>
+	<definebone>bone_debris_5b</definebone>
+	<definebone>bone_f1</definebone>
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_ship.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_boat_wake_front
+		<component>
+			boat_wake_front
+			<assetreference type="ParticleSystem">
+				<file>units\naval\caravel_ship\boat_wake_front.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>boat_wake_front</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_boat_ripple
+		<component>
+			boat_ripple
+			<assetreference type="ParticleSystem">
+				<file>units\naval\caravel_ship\caravel_boat_ripple.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>boat_ripple</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_boat_foam
+		<component>
+			boat_foam
+			<assetreference type="ParticleSystem">
+				<file>effects\water_wakes\boat_foam_medium.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>boat_foam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam1
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamRing.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam1</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSpray2
+		<component>
+			spray2
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>spray2</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSteam
+		<component>
+			steam
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSteam.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>steam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFade
+		<component>
+			fade
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamFade.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>fade</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterRipple
+		<component>
+			ripple
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_shockwave.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>ripple</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Fishing_net
+		<component>
+			fishing_net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_caravel</file>
+			</assetreference>
+			<component>fishing_net</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="LowPoly">
+			<normal>
+				<logic type="Destruction">
+					<p1>
+						<assetreference type="GrannyModel" shape="ship_caravel">
+							<file>units\naval\caravel_ship\caravel_ship_damaged</file>
+						</assetreference>
+					</p1>
+					<p99>
+						<assetreference type="GrannyModel" shape="ship_caravel">
+							<file>units\naval\caravel_ship\caravel_ship</file>
+						</assetreference>
+					</p99>
+				</logic>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel" shape="ship_caravel">
+					<file>units\naval\caravel_ship\caravel_ship_low</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>7.00</width>
+			<height>11.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\colony_ship\colony_ship_hullmask</texture>
+			<width>10.0</width>
+			<height>10.0</height>
+		</watersplash>
+	</component>
+	<component>
+		DeathModel
+		<assetreference type="GrannyModel">
+			<file>units\naval\caravel_ship\caravel_ship_deathModel</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>7.00</width>
+			<height>11.00</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\caravel_ship\caravel_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\caravel_ship\caravel_ship_damaged</model>
+			<damagetemplate>units\naval\caravel_ship\caravel.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\caravel_ship\caravel_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\caravel_ship\caravel_ship_damaged</model>
+			<damagetemplate>units\naval\caravel_ship\caravel.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>units\naval\caravel_ship\caravel_idle</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="SplashSmall">0.89</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\caravel_ship\caravel_ship_damaged</model>
+			<damagetemplate>units\naval\caravel_ship\caravel.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="Fishing_net" frombone="MASTER" tobone="MASTER" syncanims="0"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\caravel_ship\caravel_ship_deathAnim</file>
+			<tag type="Attack">0.45</tag>
+		</assetreference>
+		<component>DeathModel</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterSpray2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterSteam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterRipple" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterFade" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+</animfile>

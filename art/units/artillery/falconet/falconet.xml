@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_launchpoint</definebone>
+	<definebone>bone_fuse</definebone>
+	<definebone>bone_cart</definebone>
+	<definebone>bone_wheelcannonR</definebone>
+	<definebone>bone_wheelcannonL</definebone>
+	<definebone>bone_hat</definebone>
+	<definebone>Bip01 Head</definebone>
+	<definebone>Bip02 Head</definebone>
+	<attachment>
+		Horse_Dust
+		<component>
+			Horse_Dust
+			<assetreference type="ParticleSystem">
+				<file>effects\animal particles\horse_dust.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Horse_Dust</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_battlefield_smoke
+		<component>
+			battlefield_smoke
+			<assetreference type="ParticleSystem">
+				<file>units\artillery\cannon\battlefield_smoke.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>battlefield_smoke</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hats
+		<include>units\artillery\falconet\gunner_hats.xml</include>
+	</attachment>
+	<component>
+		falconet
+		<linksection>
+			<linkoffset>.1</linkoffset>
+			<linkcomponent>horse</linkcomponent>
+			<linkconstraint>0</linkconstraint>
+		</linksection>
+		<linksection>
+			<linkoffset>-0.8</linkoffset>
+			<linkcomponent>gunner_a</linkcomponent>
+			<linkcomponent>gunner_hats</linkcomponent>
+			<linkconstraint>1</linkconstraint>
+		</linksection>
+		<linksection>
+			<linkoffset>-0.8</linkoffset>
+			<linkcomponent>screw_pole</linkcomponent>
+			<linkconstraint>1</linkconstraint>
+		</linksection>
+		<linksection>
+			<linkoffset>-1.6</linkoffset>
+			<linkcomponent>falconet</linkcomponent>
+			<linkconstraint>1</linkconstraint>
+		</linksection>
+				<logic type="Tech">
+					<none>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\falconet\falconet</file>
+						</assetreference>
+					</none>
+					<fieldgun>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\falconet\falconet</file>
+							<replacetexture>
+								<from>units\artillery\falconet\falconet</from>
+								<to>units\artillery\falconet\fieldgun</to>
+							</replacetexture>
+						</assetreference>
+					</fieldgun>
+					<imperialfieldgun>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\falconet\falconet</file>
+							<replacetexture>
+								<from>units\artillery\falconet\fieldgun</from>
+								<to>units\artillery\falconet\imperialfieldgun</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
+					</imperialfieldgun>
+				</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>2.00</width>
+			<height>4.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\artillery\cannon\wheel_B</texture>
+			<width>1.75</width>
+			<height>2.00</height>
+		</watersplash>
+	</component>
+	<component>
+		falconet Stripped
+		<linksection>
+			<linkoffset>.1</linkoffset>
+			<linkcomponent>horse</linkcomponent>
+			<linkconstraint>0</linkconstraint>
+		</linksection>
+		<linksection>
+			<linkoffset>-0.8</linkoffset>
+			<linkcomponent>gunner</linkcomponent>
+			<linkconstraint>1</linkconstraint>
+		</linksection>
+		<linksection>
+			<linkoffset>-0.8</linkoffset>
+			<linkcomponent>screw_pole</linkcomponent>
+			<linkconstraint>1</linkconstraint>
+		</linksection>
+		<linksection>
+			<linkoffset>-1.6</linkoffset>
+			<linkcomponent>falconet</linkcomponent>
+			<linkconstraint>1</linkconstraint>
+		</linksection>
+				<logic type="Tech">
+					<none>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\falconet\falconet_stripped model</file>
+						</assetreference>
+					</none>
+					<fieldgun>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\falconet\falconet_stripped model</file>
+							<replacetexture>
+								<from>units\artillery\falconet\falconet</from>
+								<to>units\artillery\falconet\fieldgun</to>
+							</replacetexture>
+						</assetreference>
+					</fieldgun>
+					<imperialfieldgun>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\falconet\falconet_stripped model</file>
+							<replacetexture>
+								<from>units\artillery\falconet\fieldgun</from>
+								<to>units\artillery\falconet\imperialfieldgun</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
+					</imperialfieldgun>
+				</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>2.00</width>
+			<height>4.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\artillery\cannon\wheel_B</texture>
+			<width>1.75</width>
+			<height>2.00</height>
+		</watersplash>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_walk</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.28</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.77</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.94</tag>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_walk</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.28</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.77</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.94</tag>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_walk</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.28</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.77</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.94</tag>
+		</assetreference>
+		<component>falconet</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		idle
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_idle</file>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+	<anim>
+		bored
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_idle</file>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_combatdeath</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.48</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="AmbienceHorse">0.03</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.60</tag>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_combatdeath</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.64</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.60</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="AmbienceHorse">0.02</tag>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_cheer</file>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+	<anim>
+		Limber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_limber</file>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+	<anim>
+		Unlimber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_unlimber</file>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+	<anim>
+		Bombard_ranged_idle
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_combatidle</file>
+		</assetreference>
+		<component>falconet Stripped</component>
+	</anim>
+	<anim>
+		Bombard_ranged_attack
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_attack</file>
+			<tag type="Attack">0.08</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.08</tag>
+			<tag type="Particles" particlename="smallcannonmuzzle">0.08</tag>
+			<tag type="CameraShake" force="0.05" duration="0.1">0.08</tag>
+		</assetreference>
+		<component>falconet Stripped</component>
+		<attach a="attachment_battlefield_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_aim
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_combatidle</file>
+		</assetreference>
+		<component>falconet Stripped</component>
+	</anim>
+	<anim>
+		Bombard_reload
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_reload</file>
+		</assetreference>
+		<component>falconet Stripped</component>
+	</anim>
+	<anim>
+		Bombard_bored
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_bombard_bored</file>
+		</assetreference>
+		<component>falconet Stripped</component>
+	</anim>
+	<anim>
+		Bombard_walk
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_bombard_walk</file>
+		</assetreference>
+		<component>falconet Stripped</component>
+	</anim>
+	<anim>
+		Bombard_jog
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_bombard_walk</file>
+		</assetreference>
+		<component>falconet Stripped</component>
+	</anim>
+	<anim>
+		Bombard_run
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_bombard_walk</file>
+		</assetreference>
+		<component>falconet Stripped</component>
+	</anim>
+	<anim>
+		Bombard_limber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_limber</file>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+	<anim>
+		Bombard_unlimber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_unlimber</file>
+		</assetreference>
+		<component>falconet</component>
+	</anim>
+	<anim>
+		Bombard_cheer
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_cheer</file>
+		</assetreference>
+		<component>falconet Stripped</component>
+	</anim>
+	<anim>
+		Bombard_Recoil
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_recoil1</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_recoil2</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_recoil3</file>
+		</assetreference>
+		<component>falconet Stripped</component>
+	</anim>
+	<anim>
+		Bombard_death
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\falconet\falconet_combatdeath</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.60</tag>
+		</assetreference>
+		<component>falconet Stripped</component>
+	</anim>
+</animfile>

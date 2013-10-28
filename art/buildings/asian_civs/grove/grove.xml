@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_tree01</definebone>
+	<definebone>bone_tree04</definebone>
+	<definebone>bone_tree05</definebone>
+	<definebone>bone_tree06</definebone>
+	<definebone>bone_tree09</definebone>
+	<definebone>bone_tree10</definebone>
+	<definebone>bone_flag_civ</definebone>
+	<definebone>bone_hitpointbar</definebone>
+	<submodel>
+		generic
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			generic
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="generic_livestock">
+								<file>buildings\asian_civs\grove\asian_grove</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="generic_livestock">
+								<file>buildings\asian_civs\grove\asian_grove</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="generic_livestock">
+						<file>buildings\asian_civs\grove\asian_grove_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\orchard\orchard_grove_base</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>13.00</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<component>
+			generic_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\grove\asian_grove</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\asian_civs\grove\asian_grove</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\orchard\orchard_grove_base</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>8.00</width>
+				<height>6.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>generic</component>
+			<simskeleton>
+				<model>buildings\asian_civs\grove\asian_grove</model>
+				<damagetemplate>buildings\livestock pen\generic_livestock.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\livestock pen\generic_livestock_deathAnim</file>
+			</assetreference>
+			<component>generic_death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\construction\asi_4x4_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\orchard\orchard_grove_base</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>13.00</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_02
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\construction\asi_4x4_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\asian_civs\orchard\orchard_grove_base</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>13.00</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		generic_con2
+		<attachment>
+			lak_scaff_age1
+			<component>
+				lak_scaff_age1
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_4x4_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>lak_scaff_age1</component>
+			</anim>
+		</attachment>
+		<component>
+			lak_tc_age1_construction_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\grove\asian_grove_con_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\asian_civs\orchard\orchard_grove_base</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+			<attach a="lak_scaff_age1" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>lak_tc_age1_construction_stage_03</component>
+		</anim>
+	</submodel>
+	<component>
+		livestock pen
+		<logic type="Culture">
+			<chinese>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</chinese>
+			<japanese>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</japanese>
+			<indian>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</indian>
+		</logic>
+	</component>
+</animfile>

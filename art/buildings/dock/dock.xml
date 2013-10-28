@@ -1,0 +1,2462 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_debris_1A</definebone>
+	<definebone>bone_debris_1B</definebone>
+	<definebone>bone_debris_1C</definebone>
+	<definebone>bone_debris_1D</definebone>
+	<definebone>bone_debris_1E</definebone>
+	<definebone>bone_debris_1F</definebone>
+	<definebone>bone_debris_1G</definebone>
+	<definebone>bone_debris_1H</definebone>
+	<definebone>bone_debris_1I</definebone>
+	<definebone>bone_debris_1J</definebone>
+	<definebone>bone_debris_1K</definebone>
+	<definebone>bone_debris_1L</definebone>
+	<definebone>bone_debris_1M</definebone>
+	<definebone>bone_debris_1N</definebone>
+	<definebone>bone_debris_1O</definebone>
+	<definebone>bone_debris_2A</definebone>
+	<definebone>bone_debris_2B</definebone>
+	<definebone>bone_debris_2C</definebone>
+	<definebone>bone_debris_2D</definebone>
+	<definebone>bone_debris_2E</definebone>
+	<definebone>bone_debris_2F</definebone>
+	<definebone>bone_debris_2G</definebone>
+	<definebone>bone_debris_2H</definebone>
+	<definebone>bone_debris_2I</definebone>
+	<definebone>bone_debris_2J</definebone>
+	<definebone>bone_debris_2K</definebone>
+	<definebone>bone_debris_2L</definebone>
+	<definebone>bone_debris_2M</definebone>
+	<definebone>bone_debris_2N</definebone>
+	<definebone>bone_debris_2O</definebone>
+	<definebone>bone_debris_2P</definebone>
+	<definebone>bone_debris_3A</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>bone_debris_3d</definebone>
+	<definebone>bone_debris_3e</definebone>
+	<definebone>bone_debris_3f</definebone>
+	<definebone>bone_debris_3g</definebone>
+	<definebone>bone_debris_3h</definebone>
+	<definebone>bone_debris_3i</definebone>
+	<definebone>bone_debris_3j</definebone>
+	<definebone>bone_debris_3k</definebone>
+	<definebone>bone_debris_3l</definebone>
+	<definebone>bone_debris_3m</definebone>
+	<definebone>bone_debris_3n</definebone>
+	<definebone>bone_debris_3o</definebone>
+	<definebone>bone_debris_3p</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_4c</definebone>
+	<definebone>bone_debris_4d</definebone>
+	<definebone>bone_debris_4e</definebone>
+	<definebone>bone_debris_4f</definebone>
+	<definebone>bone_debris_4g</definebone>
+	<definebone>bone_debris_4h</definebone>
+	<definebone>bone_debris_4i</definebone>
+	<definebone>bone_debris_4j</definebone>
+	<definebone>bone_debris_4k</definebone>
+	<definebone>bone_debris_4l</definebone>
+	<definebone>bone_campfire</definebone>
+	<definebone>bone_smoke1</definebone>
+	<definebone>bone_launchpoint_age1n2</definebone>
+	<definebone>bone_launchpoint_age4az</definebone>
+	<definebone>bone_launchpoint_age4iro</definebone>
+	<definebone>bone_launchpoint_age4sx</definebone>
+	<submodel>
+		east_age2
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<component>
+			east_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="east_fishingdock_age2">
+								<file>buildings\dock\east\age_2\e_dock_2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="east_fishingdock_age2">
+								<file>buildings\dock\east\age_2\e_dock_2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="east_fishingdock_age2">
+						<file>buildings\dock\east\age_2\lp_e_dock_2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<component>
+			east_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\east\age_2\e_dock_2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\east\age_2\lp_e_dock_2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>east_age2</component>
+			<simskeleton>
+				<model>buildings\dock\east\age_2\e_dock_2_damaged</model>
+				<damagetemplate>buildings\dock\east\age_2\east_dock_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\dock\east\age_2\e_dock_2_deathAnim</file>
+			</assetreference>
+			<component>east_age2_death</component>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>east_age2</component>
+			<simskeleton>
+				<model>buildings\dock\east\age_2\e_dock_2_damaged</model>
+				<damagetemplate>buildings\dock\east\age_2\east_dock_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+	</submodel>
+	<submodel>
+		east_age3
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			east_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="east_fishingdock_age3">
+								<file>buildings\dock\east\AGE_3\e_dock_3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="east_fishingdock_age3">
+								<file>buildings\dock\east\AGE_3\e_dock_3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="east_fishingdock_age3">
+						<file>buildings\dock\east\age_3\lp_e_dock_3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<component>
+			east_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\east\AGE_3\e_dock_3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\east\age_3\lp_e_dock_3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>east_age3</component>
+			<simskeleton>
+				<model>buildings\dock\east\AGE_3\e_dock_3_damaged</model>
+				<damagetemplate>buildings\dock\east\AGE_3\east_dock_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\dock\east\AGE_3\e_dock_3_deathAnim</file>
+			</assetreference>
+			<component>east_age3_death</component>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>east_age3</component>
+			<simskeleton>
+				<model>buildings\dock\east\AGE_3\e_dock_3_damaged</model>
+				<damagetemplate>buildings\dock\east\AGE_3\east_dock_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age2
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_dock_age2">
+								<file>buildings\dock\west\age_2\west_dock_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_dock_age2">
+								<file>buildings\dock\west\age_2\west_dock_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_dock_age2">
+						<file>buildings\dock\west\age_2\lp_west_dock_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<component>
+			west_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\west\age_2\west_dock_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\west\age_2\lp_west_dock_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>west_age2</component>
+			<simskeleton>
+				<model>buildings\dock\west\age_2\west_dock_age2_damaged</model>
+				<damagetemplate>buildings\dock\west\age_2\west_dock_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>west_age2</component>
+			<simskeleton>
+				<model>buildings\dock\west\age_2\west_dock_age2_damaged</model>
+				<damagetemplate>buildings\dock\west\age_2\west_dock_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\dock\west\age_2\west_dock_age2_deathAnim</file>
+			</assetreference>
+			<component>west_age2_death</component>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age3
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_dock_age3">
+								<file>buildings\dock\west\AGE_3\west_dock_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_dock_age3">
+								<file>buildings\dock\west\AGE_3\west_dock_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_dock_age3">
+						<file>buildings\dock\west\age_3\lp_west_dock_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<component>
+			west_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\west\AGE_3\west_dock_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\west\age_3\lp_west_dock_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>west_age3</component>
+			<simskeleton>
+				<model>buildings\dock\west\AGE_3\west_dock_age3_damaged</model>
+				<damagetemplate>buildings\dock\west\AGE_3\west_dock_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>west_age3</component>
+			<simskeleton>
+				<model>buildings\dock\west\AGE_3\west_dock_age3_damaged</model>
+				<damagetemplate>buildings\dock\west\AGE_3\west_dock_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\dock\west\AGE_3\west_dock_age3_deathAnim</file>
+			</assetreference>
+			<component>west_age3_death</component>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		med_age2
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<component>
+			med_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="med_dock_age2">
+								<file>buildings\dock\MED\AGE_2\m_dock_2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="med_dock_age2">
+								<file>buildings\dock\med\age_2\m_dock_2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="med_dock_age2">
+						<file>buildings\dock\med\age_2\lp_m_dock_2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<component>
+			med_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\MED\AGE_2\m_dock_2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\med\age_2\lp_m_dock_2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>med_age2</component>
+			<simskeleton>
+				<model>buildings\dock\MED\AGE_2\m_dock_2_damaged</model>
+				<damagetemplate>buildings\dock\MED\AGE_2\med_dock_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>med_age2</component>
+			<simskeleton>
+				<model>buildings\dock\MED\AGE_2\m_dock_2_damaged</model>
+				<damagetemplate>buildings\dock\MED\AGE_2\med_dock_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\dock\MED\AGE_2\m_dock_2_deathAnim</file>
+			</assetreference>
+			<component>med_age2_death</component>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		med_age3
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<component>
+			med_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="med_dock_age3">
+								<file>buildings\dock\MED\AGE_3\m_dock_3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="med_dock_age3">
+								<file>buildings\dock\med\age_3\m_dock_3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="med_dock_age3">
+						<file>buildings\dock\med\age_3\lp_m_dock_3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<component>
+			med_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\MED\AGE_3\m_dock_3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\med\age_3\lp_m_dock_3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>med_age3</component>
+			<simskeleton>
+				<model>buildings\dock\MED\AGE_3\m_dock_3_damaged</model>
+				<damagetemplate>buildings\dock\MED\AGE_3\med_dock_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>med_age3</component>
+			<simskeleton>
+				<model>buildings\dock\MED\AGE_3\m_dock_3_damaged</model>
+				<damagetemplate>buildings\dock\MED\AGE_3\med_dock_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\dock\MED\AGE_3\m_dock_3_deathAnim</file>
+			</assetreference>
+			<component>med_Age3_Death</component>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_02
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>1.00</width>
+				<height>1.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>1.00</width>
+				<height>1.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		generic
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<component>
+			generic
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="generic_dock">
+								<file>buildings\dock\dock_generic_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="generic_dock">
+								<file>buildings\dock\dock_generic</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="generic_dock">
+						<file>buildings\dock\lp_dock_generic</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<component>
+			generic_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\dock_generic_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\dock\lp_dock_generic</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>generic</component>
+			<simskeleton>
+				<model>buildings\dock\dock_generic_damaged</model>
+				<damagetemplate>buildings\dock\dock_generic.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>generic</component>
+			<simskeleton>
+				<model>buildings\dock\dock_generic_damaged</model>
+				<damagetemplate>buildings\dock\dock_generic.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\dock\dock_generic_deathAnim</file>
+			</assetreference>
+			<component>generic_death</component>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		east_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\dock\east\age_2\east_dock_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			dock
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>dock</component>
+		</anim>
+	</submodel>
+	<submodel>
+		east_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\dock\east\age_2\east_dock_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			dock
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>dock</component>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\dock\west\age_2\west_dock_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			dock
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>dock</component>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\dock\west\age_3\west_dock_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			dock
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>dock</component>
+		</anim>
+	</submodel>
+	<submodel>
+		med_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\dock\med\age_2\med_dock_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			dock
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>dock</component>
+		</anim>
+	</submodel>
+	<submodel>
+		med_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\dock\med\age_3\med_dock_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			dock
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>dock</component>
+		</anim>
+	</submodel>
+	<submodel>
+		generic_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\dock\dock_generic_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			dock
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>11.00</width>
+				<height>8.00</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>dock</component>
+		</anim>
+	</submodel>
+	<submodel>
+		native_gen_dock_con_stage_01
+		<component>
+			gen_dock_con_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_generic_stage_1</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>gen_dock_con_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		native_gen_dock_con_stage_02
+		<component>
+			gen_dock_con_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_generic_stage_2</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>gen_dock_con_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		native_gen_dock_con_stage_03
+		<component>
+			gen_dock_con_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_generic_stage_3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>gen_dock_con_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		az_dock_con_stage_03
+		<component>
+			az_dock_con_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_az_age4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>az_dock_con_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		iro_dock_con_stage_03
+		<component>
+			iro_dock_con_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\iro_dock_age4</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>iro_dock_con_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		lak_dock_con_stage_03
+		<component>
+			lak_dock_con_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\dock_lak_age4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>lak_dock_con_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		native_generic_dock_age_01
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			nat_dock_campfire_01
+			<component>nat_dock_campfire_01</component>
+			<anim>
+				Idle
+				<component>nat_dock_campfire_01</component>
+			</anim>
+			<include>buildings\dock\dock_campfire.xml</include>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="nat_dock_generic_age1">
+								<file>buildings\native_civs\dock\nat_dock_generic_age1_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="nat_dock_generic_age1">
+								<file>buildings\native_civs\dock\dock_age1</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="nat_dock_generic_age1">
+						<file>buildings\native_civs\dock\dock_age1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="nat_dock_campfire_01" frombone="ATTACHPOINT" tobone="bone_campfire" syncanims="0"/>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\nat_dock_generic_age1_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\dock_age1</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\dock\nat_dock_generic_age1_damaged</model>
+				<damagetemplate>buildings\native_civs\dock\nat_dock_generic_age1_damaged.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\dock\nat_dock_generic_age1_damaged</model>
+				<damagetemplate>buildings\native_civs\dock\nat_dock_generic_age1_damaged.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\dock\nat_dock_generic_age1_deathanim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		native_generic_dock_age_02
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			nat_dock_campfire_02
+			<anim>
+				Idle
+				<component>nat_dock_campfire_01</component>
+			</anim>
+			<include>buildings\dock\dock_campfire.xml</include>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="nat_dock_generic_age2">
+								<file>buildings\native_civs\dock\nat_dock_generic_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="nat_dock_generic_age2">
+								<file>buildings\native_civs\dock\dock_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="nat_dock_generic_age2">
+						<file>buildings\native_civs\dock\dock_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="nat_dock_campfire_02" frombone="ATTACHPOINT" tobone="bone_campfire" syncanims="0"/>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\nat_dock_generic_age2_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\dock_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\dock\nat_dock_generic_age2_damaged</model>
+				<damagetemplate>buildings\native_civs\dock\nat_dock_generic_age2_damaged.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\dock\nat_dock_generic_age2_damaged</model>
+				<damagetemplate>buildings\native_civs\dock\nat_dock_generic_age2_damaged.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\dock\nat_dock_generic_age2_deathanim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		az_dock_age04
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			az_dock_smoke
+			<component>
+				az_dock_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>az_dock_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="az_dock_age4">
+								<file>buildings\native_civs\dock\az_dock_age4_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="az_dock_age4">
+								<file>buildings\native_civs\dock\dock_az_age4</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\lp_az_dock_age4</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\az_dock_age4_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\lp_az_dock_age4</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\dock\az_dock_age4_damaged</model>
+				<damagetemplate>buildings\native_civs\dock\dock_az_age_4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\dock\az_dock_age4_damaged</model>
+				<damagetemplate>buildings\native_civs\dock\dock_az_age_4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\dock\az_dock_age4_deathanim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		iro_dock_age04
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			iro_smoke
+			<component>
+				iro_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>iro_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="iro_dock_age4">
+								<file>buildings\native_civs\dock\iro_dock_age4_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="iro_dock_age4">
+								<file>buildings\native_civs\dock\iro_dock_age4</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\lp_iro_dock_age4</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="iro_smoke" frombone="ATTACHPOINT" tobone="bone_smoke1" syncanims="0"/>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\iro_dock_age4_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\lp_iro_dock_age4</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\dock\iro_dock_age4_damaged</model>
+				<damagetemplate>buildings\native_civs\dock\iro_dock_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\dock\iro_dock_age4_damaged</model>
+				<damagetemplate>buildings\native_civs\dock\iro_dock_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\dock\iro_dock_age4_deathanim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		lak_dock_age04
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			foam ring
+			<component>
+				large foam ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_foam_ring.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large foam ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			splash ring
+			<component>
+				large splash ring
+				<assetreference type="ParticleSystem">
+					<file>effects\water_effects\large_splash_ring2.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>large splash ring</component>
+			</anim>
+		</attachment>
+		<attachment>
+			lak_campfire
+			<component>lak_campfire</component>
+			<anim>
+				Idle
+				<component>lak_campfire</component>
+			</anim>
+			<include>buildings\dock\dock_campfire.xml</include>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="lak_dock_age4">
+								<file>buildings\native_civs\dock\lak_dock_age4_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="lak_dock_age4">
+								<file>buildings\native_civs\dock\lak_dock_age4</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\lp_lak_dock_age4</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.00</width>
+				<height>9.00</height>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="lak_campfire" frombone="ATTACHPOINT" tobone="bone_campfire" syncanims="0"/>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\lak_dock_age4_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\dock\lp_lak_dock_age4</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\dock\lak_dock_age4_damaged</model>
+				<damagetemplate>buildings\native_civs\dock\lak_dock_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>animation_library\building\ranged_attack</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\dock\lak_dock_age4_damaged</model>
+				<damagetemplate>buildings\native_civs\dock\lak_dock_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\dock\lak_dock_age4_deathanim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="splash ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="foam ring" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<component>
+		dock
+		<logic type="Culture">
+			<easterneurope>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="east_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="east_age2"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="east_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="east_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</easterneurope>
+			<westerneurope>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="west_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="west_age2"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="west_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="west_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</westerneurope>
+			<mediterranean>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="generic_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="generic"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="med_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="med_age2"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="med_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="med_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</mediterranean>
+			<iroquois>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_gen_dock_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_gen_dock_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="native_gen_dock_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="native_generic_dock_age_01"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_gen_dock_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_gen_dock_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="native_gen_dock_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="native_generic_dock_age_02"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_gen_dock_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_gen_dock_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="iro_dock_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="iro_dock_age04"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</iroquois>
+			<sioux>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_gen_dock_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_gen_dock_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="native_gen_dock_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="native_generic_dock_age_01"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_gen_dock_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_gen_dock_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="native_gen_dock_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="native_generic_dock_age_02"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_gen_dock_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_gen_dock_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="lak_dock_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="lak_dock_age04"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</sioux>
+			<aztec>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_gen_dock_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_gen_dock_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="native_gen_dock_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="native_generic_dock_age_01"/>
+							</p100>
+						</logic>
+					</none>
+					<colonialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_gen_dock_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_gen_dock_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="native_gen_dock_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="native_generic_dock_age_02"/>
+							</p100>
+						</logic>
+					</colonialize>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_gen_dock_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_gen_dock_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="az_dock_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="az_dock_age04"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</aztec>
+		</logic>
+	</component>
+</animfile>

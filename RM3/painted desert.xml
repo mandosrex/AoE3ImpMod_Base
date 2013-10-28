@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "45739" imagepath = "ui\random_map\painted_desert" displayNameID = "45738" cannotReplace = ""
+         loadDetails="45740" loadBackground="ui\random_map\painteddesert\painteddesert_map">
+   <loadss>ui\random_map\painteddesert\painteddesert_ss_01</loadss>
+   <loadss>ui\random_map\painteddesert\painteddesert_ss_02</loadss>
+   <loadss>ui\random_map\painteddesert\painteddesert_ss_03</loadss>
+</mapinfo>

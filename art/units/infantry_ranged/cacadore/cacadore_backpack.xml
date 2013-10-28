@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		backpack
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\cacadore\cacadore_2age_pack</file>
+				</assetreference>
+			</none>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>backpack</component>
+	</anim>
+</animfile>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_hat</definebone>
+	<definebone>bone_sword</definebone>
+	<definebone>Bip01 Prop1</definebone>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch.xml</include>
+	</attachment>
+	<attachment>
+		hammer
+		<component>
+			hammer
+			<assetreference type="GrannyModel">
+				<file>units\attachments\hammer_villager</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hammer</component>
+		</anim>
+	</attachment>
+	<attachment>
+		knife
+		<component>
+			knife
+			<assetreference type="GrannyModel">
+				<file>units\attachments\knife_villager</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>knife</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\SPC\Beaumont\beaumont_low</file>
+				</assetreference>
+			</none>
+			<guardcoutelier>
+				<assetreference type="GrannyModel">
+					<file>units\spc\john_black\john_black_low</file>
+				</assetreference>
+			</guardcoutelier>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\urumi\urumi_rangeDeath00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.59</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\urumi\urumi_rangeDeath01</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.82</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\urumi\urumi_rangeDeath00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.59</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\urumi\urumi_rangeDeath01</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.82</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_death</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathC</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathD</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_havoc_flail
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_flail</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\urumi\urumi_cheer</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Recoil
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_C</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_E</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_G</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		HC_openDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorOpen</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		HC_closeDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorClose</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\urumi\urumi_razeIdle00</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\urumi\urumi_razeAttack01</file>
+			<tag type="Attack">0.44</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.43</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_ranged_idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\natives\rattan_shield\rattan_shield_cover_idle01</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_bored
+		<assetreference type="GrannyAnim">
+			<file>units\asians\natives\rattan_shield\rattan_shield_cover_idle01</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\natives\rattan_shield\rattan_shield_cover_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.20</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.70</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_jog
+		<assetreference type="GrannyAnim">
+			<file>units\asians\natives\rattan_shield\rattan_shield_cover_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.71</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.14</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_run
+		<assetreference type="GrannyAnim">
+			<file>units\asians\natives\rattan_shield\rattan_shield_cover_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.70</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\native_atlatl_idle_a</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\volley_ranged_attack</file>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.37</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_reload
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\volley_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\volley_boredA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\volley_boredB</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\urumi\urumi_walk00</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_jogB</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_jogC</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_runB</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_runC</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\natives\rattan_shield\rattan_shield_defend_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_bored
+		<assetreference type="GrannyAnim">
+			<file>units\asians\natives\rattan_shield\rattan_shield_defend_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\urumi\urumi_idle02</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_bored
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\urumi\urumi_bored01</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\volley_ranged_attack</file>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.37</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\urumi\urumi_walk00</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_jogB</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_jogC</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_runB</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\infantry\Charge\swordmen_charge_runC</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="knife" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+</animfile>

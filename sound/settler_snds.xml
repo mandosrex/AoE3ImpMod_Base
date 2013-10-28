@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="Settler">
+		<soundtype name="Select">
+			<variationlogic>
+				<choice name="0">
+					<civlogic>
+						<choice name="Nature"/>
+						<choice name="French">
+							<soundset name="FrenchSettlerMaleSelect"/>
+						</choice>
+						<choice name="British">
+							<soundset name="BritishSettlerMaleSelect"/>
+						</choice>
+						<choice name="Russians">
+							<soundset name="RussianSettlerMaleSelect"/>
+						</choice>
+						<choice name="Ottomans">
+							<soundset name="OttomanSettlerMaleSelect"/>
+						</choice>
+						<choice name="Dutch">
+							<soundset name="DutchSettlerMaleSelect"/>
+						</choice>
+						<choice name="Spanish">
+							<soundset name="SpanishSettlerMaleSelect"/>
+						</choice>
+						<choice name="Maltese">
+							<soundset name="SpanishSettlerMaleSelect"/>
+						</choice>
+						<choice name="Portuguese">
+							<soundset name="PortugueseSettlerMaleSelect"/>
+						</choice>
+						<choice name="Germans">
+							<soundset name="GermanSettlerMaleSelect"/>
+						</choice>
+						<choice name="Aztecs"/>
+						<choice name="Incas"/>
+						<choice name="Maya"/>
+						<choice name="Seminoles"/>
+						<choice name="Caribs"/>
+						<choice name="Cherokee"/>
+						<choice name="Iroquois"/>
+						<choice name="Cree"/>
+						<choice name="Lakota"/>
+						<choice name="Comanche"/>
+						<choice name="Nootka"/>
+						<choice name="Tupi"/>
+						<choice name="SPCAct1">
+							<soundset name="SpanishSettlerMaleSelect"/>
+						</choice>
+						<choice name="SPCAct3">
+							<soundset name="NathanielBlackEnglishSelect"/>
+						</choice>
+						<choice name="SPCAct2">
+							<soundset name="BritishSettlerMaleSelect"/>
+						</choice>
+						<choice name="XPIroquois">
+							<soundset name="IroquoisVillagerMaleSelect"/>
+						</choice>
+						<choice name="XPSioux">
+							<soundset name="SiouxVillagerMaleSelect"/>
+						</choice>
+						<choice name="XPAztec">
+							<soundset name="AztecVillagerMaleSelect"/>
+						</choice>
+						<choice name="USA">
+							<soundset name="NathanielBlackEnglishSelect"/>
+						</choice>
+						<choice name="XPSPC">
+							<soundset name="NathanielBlackEnglishSelect"/>
+						</choice>
+						<choice name="Americans">
+							<soundset name="SPCAmericanSelect"/>
+						</choice>
+						<choice name="Japanese">
+							<soundset name="JapaneseVillagerM_Select"/>
+						</choice>
+						<choice name="Chinese">
+							<soundset name="ChineseVillagerM_Select"/>
+						</choice>
+						<choice name="Indians">
+							<soundset name="IndianVillagerM_Select"/>
+						</choice>
+						<choice name="SPCJapanese">
+							<soundset name="JapaneseVillagerM_Select"/>
+						</choice>
+						<choice name="SPCChinese">
+							<soundset name="ChineseVillagerM_Select"/>
+						</choice>
+						<choice name="SPCIndians">
+							<soundset name="IndianVillagerM_Select"/>
+						</choice>
+					</civlogic>
+				</choice>
+				<choice name="1">
+					<civlogic>
+						<choice name="Nature"/>
+						<choice name="French">
+							<soundset name="FrenchSettlerFemaleSelect"/>
+						</choice>
+						<choice name="British">
+							<soundset name="BritishSettlerFemaleSelect"/>
+						</choice>
+						<choice name="Russians">
+							<soundset name="RussianSettlerFemaleSelect"/>
+						</choice>
+						<choice name="Ottomans">
+							<soundset name="OttomanSettlerFemaleSelect"/>
+						</choice>
+						<choice name="Dutch">
+							<soundset name="DutchSettlerFemaleSelect"/>
+						</choice>
+						<choice name="Spanish">
+							<soundset name="SpanishSettlerFemaleSelect"/>
+						</choice>
+						<choice name="Maltese">
+							<soundset name="SpanishSettlerFemaleSelect"/>
+						</choice>
+						<choice name="Portuguese">
+							<soundset name="PortugueseSettlerFemaleSelect"/>
+						</choice>
+						<choice name="Germans">
+							<soundset name="GermanSettlerFemaleSelect"/>
+						</choice>
+						<choice name="Aztecs"/>
+						<choice name="Incas"/>
+						<choice name="Maya"/>
+						<choice name="Seminoles"/>
+						<choice name="Caribs"/>
+						<choice name="Cherokee"/>
+						<choice name="Iroquois"/>
+						<choice name="Cree"/>
+						<choice name="Lakota"/>
+						<choice name="Comanche"/>
+						<choice name="Nootka"/>
+						<choice name="Tupi"/>
+						<choice name="SPCAct1">
+							<soundset name="SpanishSettlerFemaleSelect"/>
+						</choice>
+						<choice name="SPCAct3">
+							<soundset name="SPCSFSelect"/>
+						</choice>
+						<choice name="SPCAct2">
+							<soundset name="BritishSettlerFemaleSelect"/>
+						</choice>
+						<choice name="XPIroquois">
+							<soundset name="IroquoisVillagerFemaleSelect"/>
+						</choice>
+						<choice name="XPSioux">
+							<soundset name="SiouxVillagerFemaleSelect"/>
+						</choice>
+						<choice name="XPAztec">
+							<soundset name="AztecVillagerFemaleSelect"/>
+						</choice>
+						<choice name="USA">
+							<soundset name="SPCSFSelect"/>
+						</choice>
+						<choice name="XPSPC">
+							<soundset name="SPCSFSelect"/>
+						</choice>
+						<choice name="Americans">
+							<soundset name="SPCSFSelect"/>
+						</choice>
+						<choice name="Japanese">
+							<soundset name="JapaneseVillagerF_Select"/>
+						</choice>
+						<choice name="Chinese">
+							<soundset name="ChineseVillagerF_Select"/>
+						</choice>
+						<choice name="Indians">
+							<soundset name="IndianVillagerF_Select"/>
+						</choice>
+						<choice name="SPCJapanese">
+							<soundset name="JapaneseVillagerF_Select"/>
+						</choice>
+						<choice name="SPCChinese">
+							<soundset name="ChineseVillagerF_Select"/>
+						</choice>
+						<choice name="SPCIndians">
+							<soundset name="IndianVillagerF_Select"/>
+						</choice>
+					</civlogic>
+				</choice>
+			</variationlogic>
+		</soundtype>
+		<soundtype name="Grunt">
+			<variationlogic>
+				<choice name="0">
+					<soundset name="GenericMaleGrunt"/>
+				</choice>
+				<choice name="1">
+					<soundset name="GenericFemaleGrunt"/>
+				</choice>
+			</variationlogic>
+		</soundtype>
+		<soundtype name="Death">
+			<variationlogic>
+				<choice name="0">
+					<soundset name="GenericMaleDeath"/>
+				</choice>
+				<choice name="1">
+					<soundset name="GenericFemaleDeath"/>
+				</choice>
+			</variationlogic>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="SettlerBirth"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<variationlogic>
+				<choice name="0">
+					<civlogic>
+						<choice name="Nature">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="French">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="FrenchSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="FrenchSettlerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="FrenchSettlerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="FrenchSettlerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="FrenchSettlerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="FrenchSettlerMaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="FrenchSettlerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="FrenchSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="FrenchSettlerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="British">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="BritishSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="BritishSettlerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="BritishSettlerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="BritishSettlerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="BritishSettlerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="BritishSettlerMaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="BritishSettlerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="BritishSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="BritishSettlerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Russians">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="RussianSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="RussianSettlerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="RussianSettlerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="RussianSettlerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="RussianSettlerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="RussianSettlerMaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="RussianSettlerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="RussianSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="RussianSettlerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Ottomans">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="OttomanSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="OttomanSettlerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="OttomanSettlerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="OttomanSettlerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="OttomanSettlerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="OttomanSettlerMaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="OttomanSettlerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="OttomanSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="OttomanSettlerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Dutch">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="DutchSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="DutchSettlerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="DutchSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="DutchSettlerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="DutchSettlerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="DutchSettlerMaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="DutchSettlerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="DutchSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="DutchSettlerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Spanish">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SpanishSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SpanishSettlerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SpanishSettlerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SpanishSettlerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SpanishSettlerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SpanishSettlerMaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SpanishSettlerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SpanishSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SpanishSettlerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Maltese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SpanishSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SpanishSettlerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SpanishSettlerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SpanishSettlerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SpanishSettlerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SpanishSettlerMaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SpanishSettlerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SpanishSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SpanishSettlerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Portuguese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="PortugueseSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="PortugueseSettlerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="PortugueseSettlerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="PortugueseSettlerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="PortugueseSettlerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="PortugueseSettlerMaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="PortugueseSettlerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="PortugueseSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="PortugueseSettlerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Germans">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="GermanSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="GermanSettlerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="GermanSettlerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="GermanSettlerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="GermanSettlerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="GermanSettlerMaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="GermanSettlerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="GermanSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="GermanSettlerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Aztecs">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Incas">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Maya">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Seminoles">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Caribs">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Cherokee">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Iroquois">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Cree">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Lakota">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Comanche">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Nootka">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Tupi">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="SPCAct1">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SpanishSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SpanishSettlerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SpanishSettlerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SpanishSettlerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SpanishSettlerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SpanishSettlerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SpanishSettlerMaleFarm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SpanishSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SpanishSettlerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="SPCAct3">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="NathanielBlackEnglishAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="SPCAct2">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="BritishSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="BritishSettlerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="BritishSettlerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="BritishSettlerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="BritishSettlerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="BritishSettlerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="BritishSettlerMaleFarm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="BritishSettlerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="BritishSettlerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="XPIroquois">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="IroquoisVillagerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="IroquoisVillagerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="IroquoisVillagerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="IroquoisVillagerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="IroquoisVillagerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="IroquoisVillagerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="IroquoisVillagerMaleFarm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="IroquoisVillagerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="IroquoisVillagerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="XPSioux">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SiouxVillagerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SiouxVillagerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SiouxVillagerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SiouxVillagerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SiouxVillagerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SiouxVillagerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SiouxVillagerMaleFarm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SiouxVillagerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SiouxVillagerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="XPAztec">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="AztecVillagerMaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="AztecVillagerMaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="AztecVillagerMaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="AztecVillagerMaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="AztecVillagerMaleGatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="AztecVillagerMaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="AztecVillagerMaleFarm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="AztecVillagerMaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="AztecVillagerMaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="USA">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="NathanielBlackEnglishAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="XPSPC">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="NathanielBlackEnglishAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="NathanielBlackEnglishAcknowledge"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Americans">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SPCAmericanAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SPCAmericanAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SPCAmericanAcknowledge"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SPCAmericanAcknowledge"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SPCAmericanAcknowledge"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SPCAmericanAcknowledge"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SPCAmericanAcknowledge"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SPCAmericanAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SPCAmericanAcknowledge"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Japanese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="JapaneseVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="JapaneseVillagerM_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="JapaneseVillagerM_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="JapaneseVillagerM_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="JapaneseVillagerM_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="JapaneseVillagerM_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="JapaneseVillagerM_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="JapaneseVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="JapaneseVillagerM_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Chinese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="ChineseVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="ChineseVillagerM_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="ChineseVillagerM_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="ChineseVillagerM_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="ChineseVillagerM_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="ChineseVillagerM_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="ChineseVillagerM_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="ChineseVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="ChineseVillagerM_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Indians">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="IndianVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="IndianVillagerM_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="IndianVillagerM_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="IndianVillagerM_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="IndianVillagerM_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="IndianVillagerM_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="IndianVillagerM_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="IndianVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="IndianVillagerM_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="SPCJapanese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="JapaneseVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="JapaneseVillagerM_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="JapaneseVillagerM_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="JapaneseVillagerM_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="JapaneseVillagerM_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="JapaneseVillagerM_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="JapaneseVillagerM_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="JapaneseVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="JapaneseVillagerM_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="SPCChinese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="ChineseVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="ChineseVillagerM_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="ChineseVillagerM_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="ChineseVillagerM_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="ChineseVillagerM_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="ChineseVillagerM_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="ChineseVillagerM_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="ChineseVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="ChineseVillagerM_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="SPCIndians">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="IndianVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="IndianVillagerM_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="IndianVillagerM_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="IndianVillagerM_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="IndianVillagerM_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="IndianVillagerM_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="IndianVillagerM_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="IndianVillagerM_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="IndianVillagerM_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+					</civlogic>
+				</choice>
+				<choice name="1">
+					<civlogic>
+						<choice name="Nature">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="French">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="FrenchSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="FrenchSettlerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="FrenchSettlerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="FrenchSettlerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="FrenchSettlerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="FrenchSettlerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="FrenchSettlerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="FrenchSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="FrenchSettlerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="British">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="BritishSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="BritishSettlerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="BritishSettlerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="BritishSettlerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="BritishSettlerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="BritishSettlerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="BritishSettlerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="BritishSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="BritishSettlerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Russians">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="RussianSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="RussianSettlerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="RussianSettlerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="RussianSettlerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="RussianSettlerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="RussianSettlerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="RussianSettlerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="RussianSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="RussianSettlerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Ottomans">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="OttomanSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="OttomanSettlerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="OttomanSettlerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="OttomanSettlerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="OttomanSettlerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="OttomanSettlerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="OttomanSettlerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="OttomanSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="OttomanSettlerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Dutch">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="DutchSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="DutchSettlerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="DutchSettlerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="DutchSettlerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="DutchSettlerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="DutchSettlerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="DutchSettlerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="DutchSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="DutchSettlerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Spanish">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SpanishSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SpanishSettlerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SpanishSettlerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SpanishSettlerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SpanishSettlerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SpanishSettlerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SpanishSettlerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SpanishSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SpanishSettlerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Maltese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SpanishSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SpanishSettlerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SpanishSettlerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SpanishSettlerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SpanishSettlerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SpanishSettlerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SpanishSettlerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SpanishSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SpanishSettlerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Portuguese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="PortugueseSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="PortugueseSettlerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="PortugueseSettlerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="PortugueseSettlerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="PortugueseSettlerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="PortugueseSettlerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="PortugueseSettlerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="PortugueseSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="PortugueseSettlerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Germans">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="GermanSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="GermanSettlerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="GermanSettlerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="GermanSettlerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="GermanSettlerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="GermanSettlerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="GermanSettlerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="GermanSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="GermanSettlerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Aztecs">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Incas">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Maya">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Seminoles">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Caribs">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Cherokee">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Iroquois">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Cree">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Lakota">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Comanche">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Nootka">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="Tupi">
+							<targetlogic>
+								<choice name="default"/>
+								<choice name="enemy"/>
+							</targetlogic>
+						</choice>
+						<choice name="SPCAct1">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SpanishSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SpanishSettlerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SpanishSettlerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SpanishSettlerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SpanishSettlerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SpanishSettlerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SpanishSettlerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SpanishSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SpanishSettlerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="SPCAct3">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SPCSFAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="SPCAct2">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="BritishSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="BritishSettlerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="BritishSettlerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="BritishSettlerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="BritishSettlerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="BritishSettlerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="BritishSettlerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="BritishSettlerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="BritishSettlerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="XPIroquois">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="IroquoisVillagerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="IroquoisVillagerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="IroquoisVillagerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="IroquoisVillagerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="IroquoisVillagerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="IroquoisVillagerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="IroquoisVillagerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="IroquoisVillagerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="IroquoisVillagerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="XPSioux">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SiouxVillagerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SiouxVillagerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SiouxVillagerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SiouxVillagerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SiouxVillagerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SiouxVillagerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SiouxVillagerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SiouxVillagerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SiouxVillagerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="XPAztec">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="AztecVillagerFemaleAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="AztecVillagerFemaleAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="AztecVillagerFemaleBuild"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="AztecVillagerFemaleGatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="AztecVillagerFemaleGatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="AztecVillagerFemaleGatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="AztecVillagerFemaleFarm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="AztecVillagerFemaleAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="AztecVillagerFemaleGatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="USA">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SPCSFAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="XPSPC">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SPCSFAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Americans">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="SPCSFAttack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="SPCSFAcknowledge"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Japanese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="JapaneseVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="JapaneseVillagerF_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="JapaneseVillagerF_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="JapaneseVillagerF_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="JapaneseVillagerF_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="JapaneseVillagerF_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="JapaneseVillagerF_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="JapaneseVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="JapaneseVillagerF_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Chinese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="ChineseVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="ChineseVillagerF_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="ChineseVillagerF_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="ChineseVillagerF_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="ChineseVillagerF_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="ChineseVillagerF_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="ChineseVillagerF_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="ChineseVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="ChineseVillagerF_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="Indians">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="IndianVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="IndianVillagerF_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="IndianVillagerF_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="IndianVillagerF_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="IndianVillagerF_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="IndianVillagerF_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="IndianVillagerF_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="IndianVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="IndianVillagerF_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="SPCJapanese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="JapaneseVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="JapaneseVillagerF_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="JapaneseVillagerF_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="JapaneseVillagerF_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="JapaneseVillagerF_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="JapaneseVillagerF_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="JapaneseVillagerF_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="JapaneseVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="JapaneseVillagerF_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="SPCChinese">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="ChineseVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="ChineseVillagerF_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="ChineseVillagerF_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="ChineseVillagerF_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="ChineseVillagerF_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="ChineseVillagerF_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="ChineseVillagerF_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="ChineseVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="ChineseVillagerF_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+						<choice name="SPCIndians">
+							<targetlogic>
+								<choice name="default">
+									<soundset name="IndianVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="enemy">
+									<soundset name="IndianVillagerF_Attack"/>
+								</choice>
+								<choice name="build">
+									<soundset name="IndianVillagerF_Build"/>
+								</choice>
+								<choice name="Huntable">
+									<soundset name="IndianVillagerF_GatherMeat"/>
+								</choice>
+								<choice name="Tree">
+									<soundset name="IndianVillagerF_GatherWood"/>
+								</choice>
+								<choice name="AbstractMine">
+									<soundset name="IndianVillagerF_GatherCoin"/>
+								</choice>
+								<choice name="AbstractFarm">
+									<soundset name="IndianVillagerF_Farm"/>
+								</choice>
+								<choice name="AbstractResourceCrate">
+									<soundset name="IndianVillagerF_Acknowledge"/>
+								</choice>
+								<choice name="AbstractFruit">
+									<soundset name="IndianVillagerF_GatherFruit"/>
+								</choice>
+							</targetlogic>
+						</choice>
+					</civlogic>
+				</choice>
+			</variationlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

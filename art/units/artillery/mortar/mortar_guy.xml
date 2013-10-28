@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_hat</definebone>
+	<definebone>Bip06 Head</definebone>
+	<attachment>
+		hat
+		<include>units\artillery\falconet\gunner_hats.xml</include>
+	</attachment>
+	<component>
+		mortar_guy
+		<logic type="LowPoly">
+			<normal>
+				<logic type="Tech">
+					<none>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\mortar\mortar_guy</file>
+						</assetreference>
+					</none>
+					<howitzer>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\mortar\mortar_guy</file>
+						</assetreference>
+						<attach a="hat" frombone="bone_hat" tobone="Bip06 Head" syncanims="0"/>
+					</howitzer>
+				</logic>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\mortar\lp_mortar_guy</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_walk_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_walk_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_walk_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		idle
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_idle_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		bored
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_idle_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_death_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_death_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_death_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Death_havoc_flail
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_death_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_A</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Limber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_limber_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Unlimber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_unlimber_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_idle_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_rangedattack_a</file>
+			<tag type="Attack">0.45</tag>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Bombard_ranged_idle
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_unlimber_idle_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Bombard_ranged_attack
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_rangedattack_a</file>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="CulverinShoot">0.40</tag>
+		</assetreference>
+		<component>mortar_guy</component>
+		<attach a="attachment_smoke_puff" frombone="ATTACHPOINT" tobone="MASTER" syncanims="0"/>
+	</anim>
+	<anim>
+		Bombard_aim
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_unlimber_idle_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Bombard_reload
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_reload_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Bombard_bored
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_unlimber_idle_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Bombard_melee_idle
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_unlimber_idle_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Bombard_melee_attack
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_rangedattack_a</file>
+			<tag type="Attack">0.45</tag>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Bombard_walk
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_unlimber_walk_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Bombard_jog
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_unlimber_walk_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Bombard_run
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_unlimber_walk_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Bombard_limber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_limber_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Bombard_unlimber
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_unlimber_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_death_a</file>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+	<anim>
+		Hand
+		<assetreference type="GrannyAnim">
+			<file>units\artillery\mortar\mortar_guy_handattack_a</file>
+			<tag type="Attack">0.40</tag>
+		</assetreference>
+		<component>mortar_guy</component>
+	</anim>
+</animfile>

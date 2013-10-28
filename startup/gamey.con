@@ -1,0 +1,382 @@
+// game.con
+//
+// This file defines the console commands run by everyone when the game starts up.
+
+
+/////////////////////
+//  Root mappings  //
+/////////////////////
+
+// basic interface mappings
+map ("mousex", "root", "movePointerX")
+map ("mousey", "root", "movePointerY")
+map ("alt-enter", "root", "renderWindow")
+map ("pause", "world", "pause2")
+
+////////////////////////////////////
+// Mappings for resource addition
+////////////////////////////////////
+map ("shift-f1", "world", "resourceAdjust(-1, \"Food\", 100000)")
+map ("shift-f2", "world", "resourceAdjust(-1, \"Wood\", 100000)")
+map ("shift-f3", "world", "resourceAdjust(-1, \"Gold\", 100000)")
+map ("shift-f4", "world", "resourceAdjust(-1, \"Trade\", 100000)")
+map ("shift-f5", "world", "resourceAdjust(-1, \"SkillPoints\", 1)")
+map ("shift-f6", "world", "resourceAdjust(-1, \"XP\", 10000)")
+map ("shift-f7", "world", "resourceAdjust(-1, \"Ships\", 10)")
+
+////////////////////////////////////
+// Mappings for player switching
+////////////////////////////////////
+map ("control-f1", "world", "player(1)")
+map ("control-f2", "world", "player(2)")
+map ("control-f3", "world", "player(3)")
+map ("control-f4", "world", "player(4)")
+map ("control-f5", "world", "player(5)")
+map ("control-f6", "world", "player(6)")
+map ("control-f7", "world", "player(7)")
+map ("control-f8", "world", "player(8)")
+map ("control-f9", "world", "player(9)")
+map ("control-f10", "world", "player(0)")
+
+
+////////////////////////////////////
+// World screen shots
+////////////////////////////////////
+map ("+printscreen", "world", "hackscreenshot")
+map("control-alt-f12", "world", "supascreenshot(10000)")
+map ("alt-x", "world", "gadgetReal(\"exitdialog\")")
+map ("esc", "world", "uiClearSelection uiClearChat(true) uiExpireCurrentObjectiveNotification(true)")
+
+////////////////////////////////////
+// Camera mappings
+////////////////////////////////////
+map("alt-c", "world", "cameraRotate")
+map ("shift-control-c", "world", "uiFindType(\"Camera Start\")")
+map("+control-numpad8", "world", "cameraPitchForward")
+map("+control-numpad2", "world", "cameraPitchBackward")
+map("+control-arrowup", "world", "cameraPitchForward")
+map("+control-arrowdown", "world", "cameraPitchBackward")
+map("mousez", "world", "uiWheelRotate")
+map("shift-mousez", "world", "uiWheelRotateCamera")
+
+
+// jce 10/8/99 -- camera control hack until fallback on modifiers implemented.
+map("+alt-control-arrowup", "world", "cameraPitchForward")
+map("+alt-control-arrowdown", "world", "cameraPitchBackward")
+map("+alt-a", "world", "cameraPitchForward")
+map("+alt-z", "world", "cameraPitchBackward")
+map("+shift-control-arrowup", "world", "cameraPitchForward")
+map("+shift-control-arrowdown", "world", "cameraPitchBackward")
+map("+shift-a", "world", "cameraPitchForward")
+map("+shift-z", "world", "cameraPitchBackward")
+
+
+/////////////////////////////
+//  UI related mappings
+/////////////////////////////
+map ("`", "root", "console")
+map ("`", "console", "console")
+map ("esc", "console", "console")
+
+map ("alt-f", "postgame", "renderFriendOrFoe")
+
+// World minimap
+//map ("control-alt-m", "world", "gadgetRefresh(\"AGameMinimap\")")
+map ("control-alt-tab", "world", "gadgetToggle(\"AGameMinimap\")")
+
+map ("tab", "world", "incrementUSP2SelectedUnitStack")
+map ("shift-tab", "world", "decrementUSP2SelectedUnitStack")
+
+// World Quick save and quick load
+map ("control-alt-s", "world", "saveScenario(\"QuickSave\")")
+map ("control-alt-l", "world", "loadScenario(\"QuickSave\")")
+map ("control-shift-s", "world", "saveGame(\"QuickSavegame\")")
+map ("control-shift-l", "world", "loadGame(\"QuickSavegame\")")
+
+// World selection
+map ("mouse1down", "world", "uiSelectionButtonDown")
+map ("mouse1up", "world", "uiSelectionButtonUp")
+map ("control-mouse1down", "world", "uiAddSelectionButtonDown")
+map ("control-mouse1up", "world", "uiSelectionButtonUp")
+map ("shift-mouse1down", "world", "uiAddSelectionButtonDown")
+map ("shift-mouse1up", "world", "uiSelectionButtonUp")
+map ("alt-shift-mouse1down", "world", "uiAddSelectionButtonDown")
+map ("alt-shift-mouse1up", "world", "uiSelectionButtonUp")
+map ("alt-control-mouse1down", "world", "uiAddSelectionButtonDown")
+map ("alt-control-mouse1up", "world", "uiSelectionButtonUp")
+
+map ("mouse2down", "world", "uiWorkAtPointer")
+map ("mouse2doubledown", "world", "uiWorkAtPointer")
+map ("mouse1doubledown", "world", "uiDoubleClickSelect(0)")
+map ("mouse1doubleup", "world", "")
+map ("shift-mouse1doubledown", "world", "uiDoubleClickSelect(1)")
+map ("shift-mouse1doubleup", "world", "")
+map ("control-mouse1doubledown", "world", "uiDoubleClickSelect(0, true)")
+map ("control-mouse1doubleup", "world", "")
+map ("control-shift-mouse1doubledown", "world", "uiDoubleClickSelect(1, true)")
+map ("control-shift-mouse1doubleup", "world", "")
+
+map ("backspace", "world", "uistopselectedunits")
+
+map ("esc", "objectives", "gadgetUnreal(\"objectivesdialog-screen\")")
+map ("F3", "objectives", "gadgetUnreal(\"objectivesdialog-screen\")")
+
+map ("esc", "tributedialog", "uiHidePlayerSummaryDialog")
+map ("F6", "tributedialog", "uiHidePlayerSummaryDialog")
+map ("F10", "mainGameMenu", "hideGameMenu")
+
+// XS Debugger.
+map("F10", "xsdebugger", "")
+map("F11", "xsdebugger", "")
+
+// editing UI
+map ("alt-x", "world", "gadgetReal(\"exitdialog\")")
+
+// cinematic mode
+map("esc", "cinematic", "abortCinematic")
+map("space", "cinematic", "abortCinematic")
+map ("pause", "cinematic", "pause")
+
+map("esc", "nousercontrols", "pause")
+map("pause", "nousercontrols", "pause")
+
+//map ("control-n", "cinematic", "jumpToNextCampaignNode")
+//map ("control-p", "cinematic", "jumpToPreviousCampaignNode")
+//map ("control-r", "cinematic", "restartCurrentGame")
+
+// player comms
+map("0", "playerComms", "")
+map("1", "playerComms", "")
+map("2", "playerComms", "")
+map("3", "playerComms", "")
+map("4", "playerComms", "")
+map("5", "playerComms", "")
+map("6", "playerComms", "")
+map("7", "playerComms", "")
+map("8", "playerComms", "")
+map("9", "playerComms", "")
+map("s", "playerComms", "")
+map("esc", "playerComms", "gadgetUnreal(\"BGadgetPlayerCommsPanel\")")
+
+map("mouse1down", "playerCommsFlare", "uiCommsFlareAtPointer")
+map("mouse1up", "playerCommsFlare", "")
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////
+//  Other Game Modes      
+/////////////////////////////
+
+// attack move
+map ("mouse2down", "attackMove", "uiWorkAtPointer editMode(\"none\")")
+map ("mouse1down", "attackMove", "uiWorkAtPointer editMode(\"none\")")
+map ("esc", "attackMove", "editMode(\"none\")")
+
+// flare
+map ("mouse1down", "flare", "uiFlareAtPointer editMode(\"none\")")
+map ("mouse1up", "flare", "")
+map ("mouse2down", "flare", "editMode(\"none\")")
+map ("mouse2up", "flare", "")
+map ("esc", "flare", "editMode(\"none\")")
+
+// repair
+map ("mouse1down", "repair", "uiRepairAtPointer editMode(\"none\")")
+map ("mouse1up", "repair", "")
+map ("mouse2down", "repair", "editMode(\"none\")")
+map ("mouse2up", "repair", "")
+map ("esc", "repair", "editMode(\"none\")")
+
+// empower
+map ("mouse1down", "empower", "uiEmpowerAtPointer editMode(\"none\")")
+map ("mouse1up", "empower", "")
+map ("mouse2down", "empower", "editMode(\"none\")")
+map ("mouse2up", "empower", "")
+map ("esc", "empower", "editMode(\"none\")")
+
+// eject at
+map ("mouse1down", "ejectat", "uiEjectAtPointer editMode(\"none\")")
+map ("mouse1up", "ejectat", "")
+map ("mouse2down", "ejectat", "editMode(\"none\")")
+map ("mouse2up", "ejectat", "")
+map ("esc", "ejectat", "editMode(\"none\")")
+
+// guard
+map ("mouse1down", "guard", "uiGuardAtPointer editMode(\"none\")")
+map ("mouse1up", "guard", "")
+map ("mouse2down", "guard", "editMode(\"none\")")
+map ("mouse2up", "guard", "")
+map ("esc", "guard", "editMode(\"none\")")
+
+// patrol
+map ("mouse1down", "patrol", "uiPatrolAtPointer editMode(\"none\")")
+map ("mouse1up", "patrol", "")
+map ("shift-mouse1down", "patrol", "uiPatrolAtPointer uiLeaveModeOnUnshift")
+map ("shift-mouse1up", "patrol", "")
+map ("mouse2down", "patrol", "editMode(\"none\")")
+map ("mouse2up", "patrol", "")
+map ("esc", "patrol", "editMode(\"none\")")
+
+////////////////////////////////////
+// AI Chat area selection mode
+////////////////////////////////////
+map ("mouse1up",     "AILocSelect", "")
+map ("mouse2up",     "AILocSelect", "editMode(\"none\")")
+map ("mouse2down",   "AILocSelect", "")
+map ("esc",          "AILocSelect", "editMode(\"none\")")
+
+////////////////////////////////
+//  CoveredWagon Placement Mode   //
+////////////////////////////////
+map ("mouse1down", "coveredwagon", "uiCWAtPointer")
+map ("mouse1up", "coveredwagon", "")
+map ("shift-mouse1down", "coveredwagon", "uiCWAtPointer uiLeaveModeOnUnshift")
+map ("shift-mouse1up", "coveredwagon", "")
+map ("mouse2down", "coveredwagon", "editMode(\"none\")")
+map ("mouse2up", "coveredwagon", "")
+map ("esc", "coveredwagon", "editMode(\"none\")")
+map ("mouse1doubledown", "coveredwagon", "uiCWAtPointer")
+
+////////////////////////////////
+//  Formation Orientation Mode
+////////////////////////////////
+//map ("mouse1down", "formationorientation", "")
+//map ("mouse1up", "formationorientation", "")
+//map ("shift-mouse1down", "formationorientation", "")
+//map ("shift-mouse1up", "formationorientation", "")
+//map ("mouse1doubleup", "formationorientation", "")
+//map ("mouse2down", "formationorientation", "")
+//map ("mouse2up", "formationorientation", "uiFormationOrientation")")
+//map ("esc", "formationorientation", "editMode(\"none\")")
+
+////////////////////////////////
+//  Building placement Mode   //
+////////////////////////////////
+map ("mouse1down", "building", "uiBuildAtPointer")
+map ("mouse1up", "building", "")
+map ("shift-mouse1down", "building", "uiBuildAtPointer uiLeaveModeOnUnshift")
+map ("shift-mouse1up", "building", "")
+map ("mouse2down", "building", "editMode(\"none\")")
+map ("mouse2up", "building", "")
+map ("esc", "building", "editMode(\"none\")")
+map ("mouse1doubledown", "building", "uiBuildAtPointer")
+
+
+/////////////////////////////
+//  Wall Building Mode     //
+/////////////////////////////
+map ("mouse1down", "buildWall", "uiBuildWallAtPointer(false)")
+map ("shift-mouse1down", "buildWall", "uiBuildWallAtPointer(true)")
+map ("mouse1up", "buildWall", "")
+map ("shift-mouse1up", "buildWall", "")
+map ("mouse2down", "buildWall", "editMode(\"none\")")
+map ("mouse2up", "buildWall", "")
+map ("esc", "buildWall", "editMode(\"none\")")
+map ("mouse1doubledown", "buildWall", "uiBuildWallAtPointer(false)")
+map ("shift-mouse1doubledown", "buildWall", "")
+map ("mouse1doubleup", "buildWall", "uiBuildWallAtPointer(true)")
+map ("shift-mouse1doubleup", "buildWall", "")
+
+
+////////////////////////////////
+//  Gather point mode        //
+////////////////////////////////
+//map ("mouse1down", "setGatherPoint", "uiSetGatherPointAtPointer(false) editMode(\"none\")")
+//map ("mouse1up", "setGatherPoint", "")
+//map ("mouse2down", "setGatherPoint", "uiSetGatherPointAtPointer(false) editMode(\"none\")")
+//map ("mouse2up", "setGatherPoint", "")
+//map ("esc", "setGatherPoint", "editMode(\"none\")")
+
+
+////////////////////////////////
+//  Military only Gather point mode        //
+////////////////////////////////
+map ("mouse1down", "setGatherPointMilitary", "uiSetGatherPointAtPointer(false) editMode(\"none\")")
+map ("mouse1up", "setGatherPointMilitary", "")
+map ("mouse2down", "setGatherPointMilitary", "uiSetGatherPointAtPointer(false) editMode(\"none\")")
+map ("mouse2up", "setGatherPointMilitary", "")
+map ("esc", "setGatherPointMilitary", "editMode(\"none\")")
+
+////////////////////////////////
+//  Econ only Gather point mode        //
+////////////////////////////////
+map ("mouse1down", "setGatherPointEconomy", "uiSetGatherPointAtPointer(false) editMode(\"none\")")
+map ("mouse1up", "setGatherPointEconomy", "")
+map ("mouse2down", "setGatherPointEconomy", "uiSetGatherPointAtPointer(false) editMode(\"none\")")
+map ("mouse2up", "setGatherPointEconomy", "")
+map ("esc", "setGatherPointEconomy", "editMode(\"none\")")
+
+
+////////////////////////////////
+// Home City Gather point mode//
+////////////////////////////////
+map ("mouse1down", "setHomeCityGatherPoint", "uiSetGatherPointAtPointer(true)")
+map ("mouse1up", "setHomeCityGatherPoint", "")
+map ("mouse2down", "setHomeCityGatherPoint", "uiSetGatherPointAtPointer(true) editMode(\"none\")")
+map ("mouse2up", "setHomeCityGatherPoint", "")
+map ("esc", "setHomeCityGatherPoint", "editMode(\"none\")")
+
+map ("mouse1down", "setHomeCityWaterSpawnPoint", "uiSetHomeCityWaterSpawnPointAtPointer editMode(\"none\")")
+map ("mouse1up", "setHomeCityWaterSpawnPoint", "")
+map ("esc", "setHomeCityWaterSpawnPoint", "editMode(\"none\")")
+
+
+////////////////////////////////
+//  special power invocation  //
+////////////////////////////////
+map ("mouse1down", "specialpower", "uiSpecialPowerAtPointer")
+map ("shift-mouse1down", "specialpower", "uiSpecialPowerAtPointer")
+map ("mouse1up", "specialpower", "")
+map ("mouse2down", "specialpower", "editMode(\"none\")")
+map ("mouse2up", "specialpower", "")
+map ("mousez", "specialpower", "uiWheelRotatePlacedUnit")
+map ("esc", "specialpower", "editMode(\"none\")")
+
+
+/////////////////////////
+//  garrison mappings  //
+/////////////////////////
+map ("mouse1down", "garrison", "uiGarrisonToPointer editMode(\"none\")")
+map ("mouse1up", "garrison", "")
+map ("mouse2down", "garrison", "editMode(\"none\")")
+map ("mouse2up", "garrison", "")
+map ("esc", "garrison", "editMode(\"none\")")
+
+
+////////////////////////////////
+//  Move all military mode    //
+////////////////////////////////
+map ("mouse1down", "moveAllMilitary", "editMode(\"none\") uiMoveAllMilitaryAtPointer()")
+map ("mouse1up", "moveAllMilitary", "")
+map ("mouse2down", "moveAllMilitary", "editMode(\"none\") uiMoveAllMilitaryAtPointer()")
+map ("mouse2up", "moveAllMilitary", "")
+map ("esc", "moveAllMilitary", "editMode(\"none\")")
+
+
+/////////////////////////////////////////////////////
+// Grand Conquest Strategic Map mappings (debug only)
+/////////////////////////////////////////////////////
+map("+arrowup", "gcstrategicmap", "cameraWorldForward")
+map("+arrowdown", "gcstrategicmap", "cameraWorldBackward")
+map("+arrowright", "gcstrategicmap", "cameraRight")
+map("+arrowleft", "gcstrategicmap", "cameraLeft")
+map("+control-arrowup", "gcstrategicmap", "cameraPitchForward")
+map("+control-arrowdown", "gcstrategicmap", "cameraPitchBackward")
+map("+control-arrowright", "gcstrategicmap", "cameraYawRight")
+map("+control-arrowleft", "gcstrategicmap", "cameraYawLeft")
+map("mousez", "gcstrategicmap", "uiWheelRotate")
+map("+numpadplus", "gcstrategicmap", "cameraForward")
+map("+numpadminus", "gcstrategicmap", "cameraBackward")
+
+/////////////////////////////////////////////////////
+// Hardcoding the shift arrow keys for camera movement
+/////////////////////////////////////////////////////
+map("+shift-arrowup", "world", "cameraWorldForward")
+map("+shift-arrowdown", "world", "cameraWorldBackward")
+map("+shift-arrowright", "world", "cameraRight")
+map("+shift-arrowleft", "world", "cameraLeft")
+
+///////////////////
+//Rotate Buildings
+//////////////////
+map ("mousez", "building", "uiWheelRotatePlacedUnit")

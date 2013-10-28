@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38119">CannonAttack</name>
+		<reloadanim>Bombard_reload</reloadanim>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Bombard_ranged_attack</anim>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="All">1.0 </rate>
+		<throw>1</throw>
+		<impactforcemin>500.0f</impactforcemin>
+		<impactforcemax>800.0f</impactforcemax>
+		<outerdamageareadistance>.25</outerdamageareadistance>
+		<outerdamageareafactor>.20</outerdamageareafactor>
+		<impactlaunchangle>10.0</impactlaunchangle>
+		<areasortmode>Directional</areasortmode>
+		<targetground>1</targetground>
+		<numberbounces>1</numberbounces>
+		<basedamagecap>1</basedamagecap>
+		<perfectaccuracy>0</perfectaccuracy>
+	</action>
+	<tactic>
+		Limber
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<transition>
+			<tactic>Bombard</tactic>
+			<action>Limber</action>
+			<anim>Bombard_unlimber</anim>
+			<length>2</length>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<deathanim>Death_by_melee</deathanim>
+	</tactic>
+	<tactic>
+		Bombard
+		<speedmodifier>0.4</speedmodifier>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<exclusive>1</exclusive>
+		<action>CannonAttack</action>
+		<transition>
+			<tactic>Limber</tactic>
+			<action>Limber</action>
+			<anim>Bombard_limber</anim>
+			<length>4</length>
+			<exit>1</exit>
+		</transition>
+		<throw>1</throw>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
+		<walkanim>Bombard_Walk</walkanim>
+		<joganim>Bombard_Jog</joganim>
+		<runanim>Bombard_Run</runanim>
+		<deathanim>Bombard_Death</deathanim>
+	</tactic>
+</tactics>

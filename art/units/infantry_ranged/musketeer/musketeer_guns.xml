@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		guns
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_2age_gun</file>
+				</assetreference>
+			</none>
+			<veteranmusketeers>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_2age_gun</file>
+				</assetreference>
+			</veteranmusketeers>
+			<veteranmusketeersus>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_2age_gun</file>
+				</assetreference>
+			</veteranmusketeersus>
+			<guardmusketeers>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_3age_gun</file>
+				</assetreference>
+			</guardmusketeers>
+			<guardmusketeersus>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_3age_gun</file>
+				</assetreference>
+			</guardmusketeersus>
+			<imperialmusketeers>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_4age_gun</file>
+				</assetreference>
+			</imperialmusketeers>
+			<imperialmusketeersus>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_4age_gun</file>
+				</assetreference>
+			</imperialmusketeersus>
+			<imperialredcoat>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_4age_gun</file>
+				</assetreference>
+			</imperialredcoat>
+			<imperialguerreiros>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\musketeer\musketeer_4age_gun</file>
+				</assetreference>
+			</imperialguerreiros>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>guns</component>
+	</anim>
+</animfile>

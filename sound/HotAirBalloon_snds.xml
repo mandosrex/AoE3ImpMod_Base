@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="HotAirBalloon">
+		<soundtype name="Select">
+			<civlogic>
+				<choice name="Nature"/>
+				<choice name="Spanish">
+					<soundset name="SpanishPriestSelect"/>
+				</choice>
+				<choice name="Maltese">
+					<soundset name="SpanishPriestSelect"/>
+				</choice>
+				<choice name="British">
+					<soundset name="BritishSurgeonSelect"/>
+				</choice>
+				<choice name="French">
+					<soundset name="FrenchSurgeonSelect"/>
+				</choice>
+				<choice name="Portuguese">
+					<soundset name="PortuguesePriestSelect"/>
+				</choice>
+				<choice name="Dutch">
+					<soundset name="DutchSurgeonSelect"/>
+				</choice>
+				<choice name="Russians">
+					<soundset name="RussianSurgeonSelect"/>
+				</choice>
+				<choice name="Germans">
+					<soundset name="GermanSurgeonSelect"/>
+				</choice>
+				<choice name="Ottomans">
+					<soundset name="OttomanImamSelect"/>
+				</choice>
+				<choice name="USA">
+					<soundset name="SPCAmericanSelect"/>
+				</choice>
+				<choice name="XPSPC">
+					<soundset name="SPCAmericanSelect"/>
+				</choice>
+				<choice name="SPCAct1">
+					<soundset name="SpanishPriestSelect"/>
+				</choice>
+				<choice name="SPCAct3">
+					<soundset name="SPCAmericanSelect"/>
+				</choice>
+				<choice name="SPCAct2"/>
+				<choice name="Pirate"/>
+				<choice name="TheCircle"/>
+				<choice name="NativeAmerican"/>
+				<choice name="Aztecs"/>
+				<choice name="Caribs"/>
+				<choice name="Cherokee"/>
+				<choice name="Comanche"/>
+				<choice name="Cree"/>
+				<choice name="Incas"/>
+				<choice name="Iroquois"/>
+				<choice name="Lakota"/>
+				<choice name="Maya"/>
+				<choice name="Nootka"/>
+				<choice name="Seminoles"/>
+				<choice name="Tupi"/>
+			</civlogic>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="GenericMaleGrunt"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="GenericMaleDeath"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="SettlerBirth"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<civlogic>
+				<choice name="Nature">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Spanish">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="SpanishPriestAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Maltese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="SpanishPriestAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="British">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishSurgeonAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="French">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="FrenchSurgeonAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Portuguese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="PortuguesePriestAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Dutch">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="DutchSurgeonAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Russians">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="RussianSurgeonAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Germans">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="GermanSurgeonAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Ottomans">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="OttomanImamAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="USA">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="SPCAmericanAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="XPSPC">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="SPCAmericanAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="SPCAct1">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="SpanishPriestAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="SPCAct2">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="SPCAct3">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="SPCAmericanAcknowledge"/>
+						</choice>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Pirate">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="TheCircle">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="NativeAmerican">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Aztecs">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Caribs">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Cherokee">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Comanche">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Cree">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Incas">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Iroquois">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Lakota">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Maya">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Nootka">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Seminoles">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Tupi">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+			</civlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

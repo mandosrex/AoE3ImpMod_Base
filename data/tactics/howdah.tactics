@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38129">StaggerRangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Attack_ranged</anim>
+		<idleanim>Idle</idleanim>
+		<reloadanim>attack_ranged_reload</reloadanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<minrange>1</minrange>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0 </rate>
+		<instantballistics>1</instantballistics>
+	</action>
+	<action>
+		<name stringid="38132">StaggerHandAttack</name>
+		<type>Attack</type>
+		<maxrange>1.75</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Attack_melee</anim>
+		<idleanim>Idle</idleanim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<damage>6.5</damage>
+		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38135">MeleeHandAttack</name>
+		<type>Attack</type>
+		<maxrange>1.75</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Attack_melee</anim>
+		<idleanim>Idle</idleanim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<damage>6.5</damage>
+		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38136">DefendRangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Attack_ranged</anim>
+		<idleanim>Idle</idleanim>
+		<reloadanim>attack_ranged_reload</reloadanim>
+		<idleanim>Idle</idleanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<minrange>1</minrange>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+		<throw>1</throw>
+		<damage>13.000000</damage>
+		<maxrange>12.000000</maxrange>
+		<rof>2.000000</rof>
+	</action>
+	<action>
+		<name stringid="38137">DefendHandAttack</name>
+		<type>Attack</type>
+		<maxrange>1.75</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Attack_melee</anim>
+		<idleanim>Idle</idleanim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<damage>6.5</damage>
+		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic/>
+		<maxrange>1.75</maxrange>
+		<rate type="Building">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>raze_attack</anim>
+		<idleanim>raze_idle</idleanim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="43296">AutoGatherWood</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Stagger
+		<action>AutoGatherWood</action>
+		<action priority="75">BuildingAttack</action>
+		<action priority="100">StaggerRangedAttack</action>
+		<action priority="25">MeleeHandAttack</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Jog</joganim>
+		<runanim>Run</runanim>
+	</tactic>
+	<tactic>
+		Defend
+		<action>AutoGatherWood</action>
+		<action priority="75">BuildingAttack</action>
+		<action priority="100">DefendRangedAttack</action>
+		<action priority="25">MeleeHandAttack</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Jog</joganim>
+		<runanim>Run</runanim>
+	</tactic>
+	<tactic>
+		Melee
+		<action>AutoGatherWood</action>
+		<action priority="75">BuildingAttack</action>
+		<action priority="100">MeleeHandAttack</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Jog</joganim>
+		<runanim>Run</runanim>
+	</tactic>
+</tactics>

@@ -1,0 +1,15 @@
+<!-- converted from XMB to XML -->
+
+<protounitsounddef>
+	<protounit name="ypGoatFat">
+		<soundtype name="Select">
+			<soundset name="GoatSelect"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="GoatDeath"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<soundset name="GoatMove"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

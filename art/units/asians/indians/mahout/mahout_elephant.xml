@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>HS Bone Hoof Frnt Lt</definebone>
+	<definebone>HS Bone Hoof Frnt Rt</definebone>
+	<definebone>HS Bone Hoof Back Lt</definebone>
+	<definebone>HS Bone Hoof Back Rt</definebone>
+	<definebone>bone_attachpoint</definebone>
+	<attachment>
+		Horse_Dust
+		<component>
+			Horse_Dust
+			<assetreference type="ParticleSystem">
+				<file>effects\animal particles\horse_dust.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Horse_Dust</component>
+		</anim>
+	</attachment>
+	<attachment>
+		rider
+		<include>units\asians\indians\mahout\mahout_rider.xml</include>
+	</attachment>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch_cavalry.xml</include>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\mahout\mahout_0</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\mahout\mahout_0</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</none>
+			<yphonoredmahout>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\mahout\mahout_1</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\mahout\mahout_1</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</yphonoredmahout>
+			<ypdisciplinedmahout>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\mahout\mahout_2</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\mahout\mahout_2</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</ypdisciplinedmahout>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>2.50</width>
+			<height>5.00</height>
+			<zoffset>0.50</zoffset>
+		</decal>
+		<attach a="rider" frombone="hotspot" tobone="bone_attachpoint" syncanims="1"/>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_walk00</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_run00</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_run00</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Highstep
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_walk00</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_idle00</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_idle01</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_idle02</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Attack_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_attackMelee00</file>
+			<tag type="Attack">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.15</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_attackMelee01</file>
+			<tag type="Attack">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.35</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_attackMelee02</file>
+			<tag type="Attack">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.33</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_attackMelee00</file>
+			<tag type="Attack">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.34</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_attackMelee01</file>
+			<tag type="Attack">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.14</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_attackMelee03</file>
+			<tag type="Attack">0.15</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.16</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Attack_trample
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_attackTrample00</file>
+			<tag type="Attack">0.25</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_death00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_death00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_death00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_cheer00</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_cheer01</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_idle00</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_idle01</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_idle02</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_razeAttack03</file>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.50</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_razeAttack04</file>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.50</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Bored
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_bored00</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_bored01</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Idle_Trample
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_trample_idle00</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Walk_Trample
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\mahout\mahout_trample_walk00</file>
+			<weight>40</weight>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

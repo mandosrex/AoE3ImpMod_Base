@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_f1</definebone>
+	<definebone>bone_f2</definebone>
+	<definebone>bone_f3</definebone>
+	<definebone>bone_f4</definebone>
+	<definebone>bone_f5</definebone>
+	<definebone>bone_s1</definebone>
+	<definebone>bone_s2</definebone>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_1d</definebone>
+	<definebone>bone_debris_1e</definebone>
+	<definebone>bone_debris_1f</definebone>
+	<definebone>bone_debris_1g</definebone>
+	<definebone>bone_debris_1h</definebone>
+	<definebone>bone_debris_1i</definebone>
+	<definebone>bone_debris_1j</definebone>
+	<definebone>bone_debris_1k</definebone>
+	<definebone>bone_debris_1l</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_2d</definebone>
+	<definebone>bone_debris_2e</definebone>
+	<definebone>bone_debris_2f</definebone>
+	<definebone>bone_debris_2g</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>bone_debris_3d</definebone>
+	<definebone>bone_debris_3e</definebone>
+	<definebone>bone_debris_3f</definebone>
+	<definebone>bone_debris_3g</definebone>
+	<definebone>bone_debris_3h</definebone>
+	<definebone>bone_debris_3i</definebone>
+	<definebone>bone_debris_3j</definebone>
+	<definebone>bone_debris_3k</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_4c</definebone>
+	<definebone>bone_debris_4d</definebone>
+	<definebone>bone_debris_4e</definebone>
+	<definebone>bone_debris_4f</definebone>
+	<definebone>bone_debris_5a</definebone>
+	<definebone>bone_debris_5b</definebone>
+	<definebone>bone_debris_5c</definebone>
+	<definebone>bone_debris_5d</definebone>
+	<definebone>bone_debris_5e</definebone>
+	<definebone>bone_debris_6a</definebone>
+	<definebone>bone_debris_6b</definebone>
+	<definebone>bone_debris_6c</definebone>
+	<definebone>bone_debris_6d</definebone>
+	<definebone>bone_debris_6e</definebone>
+	<definebone>bone_debris_6f</definebone>
+	<definebone>bone_debris_7a</definebone>
+	<definebone>bone_debris_7b</definebone>
+	<definebone>bone_debris_7c</definebone>
+	<definebone>bone_debris_7d</definebone>
+	<definebone>bone_debris_7e</definebone>
+	<definebone>bone_debris_7f</definebone>
+	<definebone>bone_debris_7g</definebone>
+	<definebone>bone_debris_7h</definebone>
+	<definebone>bone_debris_8a</definebone>
+	<definebone>bone_object40</definebone>
+	<definebone>bone_object32</definebone>
+	<definebone>bone_debris_9a</definebone>
+	<definebone>bone_debris_9b</definebone>
+	<definebone>bone_debris_9c</definebone>
+	<definebone>bone_debris_9d</definebone>
+	<definebone>bone_debris_9e</definebone>
+	<definebone>bone_debris_10a</definebone>
+	<definebone>bone_debris_10b</definebone>
+	<definebone>bone_debris_11a</definebone>
+	<definebone>bone_debris_11b</definebone>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\construction\asi_7x7_AGRA_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>18.00</width>
+				<height>18.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		agra_fort_2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			civflag
+			<component>
+				flag
+				<assetreference type="ClothFlag">
+					<flag>
+						<blending>alphatest_color</blending>
+						<specialtexture/>
+						<width>2.00</width>
+						<height>1.50</height>
+					</flag>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>flag</component>
+			</anim>
+		</attachment>
+		<component>
+			fort
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wonder_agra_fort">
+								<file>buildings\wonders\agra_fort\Agra_fort_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wonder_agra_fort">
+								<file>buildings\wonders\agra_fort\Agra_fort_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wonder_agra_fort">
+						<file>buildings\wonders\agra_fort\Agra_fort_age2_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wonders\agra_fort\agra_fort_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>17.00</width>
+				<height>17.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			fort_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wonders\agra_fort\Agra_fort_age2_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wonders\agra_fort\Agra_fort_age2_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wonders\agra_fort\agra_fort_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>15.75</width>
+				<height>15.75</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>buildings\wonders\agra_fort\Agra_fort_age2_anim</file>
+			</assetreference>
+			<component>fort</component>
+			<simskeleton>
+				<model>buildings\wonders\agra_fort\Agra_fort_age2_damaged</model>
+				<damagetemplate>buildings\wonders\agra_fort\Agra_fort_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wonders\agra_fort\Agra_fort_age2_deathanim</file>
+			</assetreference>
+			<component>fort_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>buildings\wonders\agra_fort\Agra_fort_age2_anim</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>fort</component>
+			<simskeleton>
+				<model>buildings\wonders\agra_fort\Agra_fort_age2_damaged</model>
+				<damagetemplate>buildings\wonders\agra_fort\Agra_fort_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+	</submodel>
+	<submodel>
+		agra_fort_3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			civflag
+			<component>
+				flag
+				<assetreference type="ClothFlag">
+					<flag>
+						<blending>alphatest_color</blending>
+						<specialtexture/>
+						<width>2.00</width>
+						<height>1.50</height>
+					</flag>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>flag</component>
+			</anim>
+		</attachment>
+		<component>
+			fort
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wonder_agra_fort">
+								<file>buildings\wonders\agra_fort\Agra_fort_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wonder_agra_fort">
+								<file>buildings\wonders\agra_fort\Agra_fort_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wonder_agra_fort">
+						<file>buildings\wonders\agra_fort\Agra_fort_age3_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wonders\agra_fort\agra_fort_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>17.00</width>
+				<height>17.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			fort_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wonders\agra_fort\Agra_fort_age3_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="east_fort">
+						<file>buildings\wonders\agra_fort\Agra_fort_age3_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wonders\agra_fort\agra_fort_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>15.75</width>
+				<height>15.75</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>buildings\wonders\agra_fort\Agra_fort_age3_anim</file>
+			</assetreference>
+			<component>fort</component>
+			<simskeleton>
+				<model>buildings\wonders\agra_fort\Agra_fort_age3_damaged</model>
+				<damagetemplate>buildings\wonders\agra_fort\Agra_fort_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wonders\agra_fort\Agra_fort_age3_deathanim</file>
+			</assetreference>
+			<component>fort_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>buildings\wonders\agra_fort\Agra_fort_age3_anim</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+			</assetreference>
+			<component>fort</component>
+			<simskeleton>
+				<model>buildings\wonders\agra_fort\Agra_fort_age3_damaged</model>
+				<damagetemplate>buildings\wonders\agra_fort\Agra_fort_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+	</submodel>
+	<submodel>
+		agra_fort_4
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			civflag
+			<component>
+				flag
+				<assetreference type="ClothFlag">
+					<flag>
+						<blending>alphatest_color</blending>
+						<specialtexture/>
+						<width>2.00</width>
+						<height>1.50</height>
+					</flag>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>flag</component>
+			</anim>
+		</attachment>
+		<component>
+			fort
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="wonder_agra_fort">
+								<file>buildings\wonders\agra_fort\Agra_fort_age4_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="wonder_agra_fort">
+								<file>buildings\wonders\agra_fort\Agra_fort_age4</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="wonder_agra_fort">
+						<file>buildings\wonders\agra_fort\Agra_fort_age4_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wonders\agra_fort\agra_fort_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>17.00</width>
+				<height>17.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="civflag" frombone="ATTACHPOINT" tobone="bone_f5" syncanims="0"/>
+		</component>
+		<component>
+			fort_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\wonders\agra_fort\Agra_fort_age4_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\wonders\agra_fort\Agra_fort_age4_lp</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wonders\agra_fort\agra_fort_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>15.75</width>
+				<height>15.75</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>buildings\wonders\agra_fort\Agra_fort_age4_anim</file>
+			</assetreference>
+			<component>fort</component>
+			<simskeleton>
+				<model>buildings\wonders\agra_fort\Agra_fort_age4_damaged</model>
+				<damagetemplate>buildings\wonders\agra_fort\Agra_fort_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\wonders\agra_fort\Agra_fort_age4_deathanim</file>
+			</assetreference>
+			<component>fort_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+		<anim>
+			RangedAttack
+			<assetreference type="GrannyAnim">
+				<file>buildings\wonders\agra_fort\Agra_fort_age4_anim</file>
+				<tag type="Attack">0.45</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="FalconetShoot">0.45</tag>
+				<tag type="CameraShake" force="0.05" duration="0.1">0.45</tag>
+			</assetreference>
+			<component>fort</component>
+			<simskeleton>
+				<model>buildings\wonders\agra_fort\Agra_fort_age4_damaged</model>
+				<damagetemplate>buildings\wonders\agra_fort\Agra_fort_age4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+	</submodel>
+	<submodel>
+		agra_fort_con
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\asian_civs\construction\asi_7x7_AGRA_frame</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			east_fort
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\construction\asi_7x7_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wonders\agra_fort\agra_fort_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>15.75</width>
+				<height>15.75</height>
+				<xoffset>-0.15</xoffset>
+				<zoffset>-0.20</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>east_fort</component>
+		</anim>
+	</submodel>
+	<submodel>
+		east_fort_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\wonders\agra_fort\agra_fort_construction</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			east_fort
+			<assetreference type="GrannyModel">
+				<file>buildings\asian_civs\construction\asi_7x7_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\wonders\agra_fort\agra_fort_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>15.75</width>
+				<height>15.75</height>
+				<xoffset>-0.15</xoffset>
+				<zoffset>-0.20</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>east_fort</component>
+		</anim>
+	</submodel>
+	<component>
+		ypagrafort
+		<logic type="Tech">
+			<none>
+				<logic type="BuildingCompletion">
+					<p0>
+						<submodelref ref="sub_construction_stage_01"/>
+					</p0>
+					<p33>
+						<submodelref ref="agra_fort_con"/>
+					</p33>
+					<p66>
+						<submodelref ref="east_fort_con2"/>
+					</p66>
+					<p100>
+						<submodelref ref="agra_fort_2"/>
+					</p100>
+				</logic>
+			</none>
+			<ypfrontieragra>
+				<logic type="BuildingCompletion">
+					<p0>
+						<submodelref ref="sub_construction_stage_01"/>
+					</p0>
+					<p33>
+						<submodelref ref="agra_fort_con"/>
+					</p33>
+					<p66>
+						<submodelref ref="east_fort_con2"/>
+					</p66>
+					<p100>
+						<submodelref ref="agra_fort_3"/>
+					</p100>
+				</logic>
+			</ypfrontieragra>
+			<ypfortifiedagra>
+				<logic type="BuildingCompletion">
+					<p0>
+						<submodelref ref="sub_construction_stage_01"/>
+					</p0>
+					<p33>
+						<submodelref ref="agra_fort_con"/>
+					</p33>
+					<p66>
+						<submodelref ref="east_fort_con2"/>
+					</p66>
+					<p100>
+						<submodelref ref="agra_fort_4"/>
+					</p100>
+				</logic>
+			</ypfortifiedagra>
+		</logic>
+	</component>
+</animfile>

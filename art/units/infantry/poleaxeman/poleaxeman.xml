@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bip01 Prop1</definebone>
+	<definebone>bip01 Prop2</definebone>
+	<definebone>bone_master</definebone>
+	<definebone>bone_shield</definebone>
+	<definebone>bone_sword</definebone>
+	<definebone>Bip01 L ForeArm</definebone>
+	<definebone>bone_hat</definebone>
+	<attachment>
+		axe
+		<include>units\infantry\poleaxeman\poleaxeman_axe.xml</include>
+	</attachment>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch.xml</include>
+	</attachment>
+	<attachment>
+		hat
+		<component>
+			hat
+			<logic type="Tech">
+				<veteranpoleaxemen>
+					<assetreference type="GrannyModel">
+						<file>units\infantry_ranged\longbow\longbow_3age_hat</file>
+						<replacetexture>
+							<from>units\infantry_ranged\longbow\longbow_3age</from>
+							<to>units\infantry\poleaxeman\poleaxeman_3age_hat</to>
+						</replacetexture>
+					</assetreference>
+				</veteranpoleaxemen>
+				<guardpoleaxemen>
+					<assetreference type="GrannyModel">
+						<file>units\infantry_ranged\longbow\longbow_3age_hat</file>
+						<replacetexture>
+							<from>units\infantry_ranged\longbow\longbow_3age</from>
+							<to>units\infantry\poleaxeman\poleaxeman_4age_hat</to>
+						</replacetexture>
+					</assetreference>
+				</guardpoleaxemen>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>hat</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_shield
+		<component>
+			attachment_shield
+			<logic type="Tech">
+				<none>
+					<assetreference type="GrannyModel">
+						<file>units\natives\attachment_eagle_shield</file>
+						<replacetexture>
+							<from>units\natives\eagle_warrior</from>
+							<to>units\infantry\poleaxeman\poleaxeman_2age_shield</to>
+						</replacetexture>
+						<replacetexture>
+							<from>units\natives\eagle_warrior_b</from>
+							<to>units\infantry\poleaxeman\poleaxeman_2age_shield_b</to>
+						</replacetexture>
+					</assetreference>
+				</none>
+				<veteranpoleaxemen>
+					<assetreference type="GrannyModel">
+						<file>units\infantry\redolero\redolero_sheild3</file>
+						<replacetexture>
+							<from>units\infantry\redolero\redolero_4age</from>
+							<to>units\infantry\poleaxeman\poleaxeman_3age_shield</to>
+						</replacetexture>
+					</assetreference>
+				</veteranpoleaxemen>
+				<guardpoleaxemen>
+					<assetreference type="GrannyModel">
+						<file>units\infantry\redolero\redolero_sheild3</file>
+						<replacetexture>
+							<from>units\infantry\redolero\redolero_4age</from>
+							<to>units\infantry\poleaxeman\poleaxeman_4age_shield</to>
+						</replacetexture>
+					</assetreference>
+				</guardpoleaxemen>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>attachment_shield</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+						<assetreference type="GrannyModel">
+							<file>units\infantry\redolero\redolero_2age</file>
+							<replacetexture>
+								<from>units\infantry\redolero\redolero_2age</from>
+								<to>units\infantry\poleaxeman\poleaxeman_2age</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\infantry\redolero\redolero_2age_b</from>
+								<to>units\infantry\poleaxeman\poleaxeman_2age_b</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="attachment_shield" frombone="bone_shield" tobone="Bip01 L ForeArm" syncanims="0"/>
+			</none>
+			<veteranpoleaxemen>
+						<assetreference type="GrannyModel">
+							<file>units\infantry_ranged\grenadier\grenadier_age2</file>
+							<replacetexture>
+								<from>units\infantry_ranged\grenadier\grenadier_age2</from>
+								<to>units\infantry\poleaxeman\poleaxeman_3age</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\infantry_ranged\grenadier\grenadier_age2_b</from>
+								<to>units\infantry\poleaxeman\poleaxeman_3age_b</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="attachment_shield" frombone="bone_shield" tobone="Bip01 L ForeArm" syncanims="0"/>
+						<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+			</veteranpoleaxemen>
+			<guardpoleaxemen>
+						<assetreference type="GrannyModel">
+							<file>units\infantry_ranged\grenadier\grenadier_age2</file>
+							<replacetexture>
+								<from>units\infantry_ranged\grenadier\grenadier_age2</from>
+								<to>units\infantry\poleaxeman\poleaxeman_4age</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\infantry_ranged\grenadier\grenadier_age2_b</from>
+								<to>units\infantry\poleaxeman\poleaxeman_4age_b</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="attachment_shield" frombone="bone_shield" tobone="Bip01 L ForeArm" syncanims="0"/>
+						<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+			</guardpoleaxemen>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		Charge_Attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\melee_strelet_A</file>
+			<tag type="Attack">0.45</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.45</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\melee_strelet_B</file>
+			<tag type="Attack">0.45</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.45</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_sword_death_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.83</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_death_shot_front_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.58</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_death_shot_back_a</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.85</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_death</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathC</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathD</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_havoc_flail
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_flail</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_havoc_spin
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_spin</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_C</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Recoil
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_C</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_E</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_G</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throw_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_Attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwB</file>
+			<tag type="Attack">0.56</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.43</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwA</file>
+			<tag type="Attack">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.52</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_crossbow_idle_a</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_bored_generic_a</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\walk_generic_lower</file>
+			<file>animation_library\range\walk_crossbow_upper</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.14</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\puma_lord\alt\charge_jog</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\puma_lord\alt\charge_run</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\puma_lord\alt\defend_idle</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\puma_lord\alt\defend_idle2</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\puma_lord\alt\defend_bored</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\explorer\idle_explorer_A</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\explorer\bored_explorer_A</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\puma_lord\alt\charge_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\puma_lord\alt\charge_jog</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\puma_lord\alt\charge_run</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+</animfile>

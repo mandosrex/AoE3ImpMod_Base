@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		hats
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\grenadier\grenadier_age2_hat</file>
+					<replacetexture>
+						<from>units\infantry_ranged\grenadier\grenadier_age2</from>
+						<to>units\infantry_ranged\schutze\schutze_age1_hat</to>
+					</replacetexture>
+				</assetreference>
+			</none>
+			<guardschutzens>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\grenadier\grenadier_age2_hat</file>
+					<replacetexture>
+						<from>units\infantry_ranged\grenadier\grenadier_age2</from>
+						<to>units\infantry_ranged\schutze\schutze_age2_hat</to>
+					</replacetexture>
+				</assetreference>
+			</guardschutzens>
+			<imperialschutzens>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\grenadier\grenadier_age3_hat</file>
+					<replacetexture>
+						<from>units\infantry_ranged\grenadier\grenadier_age3</from>
+						<to>units\infantry_ranged\schutze\schutze_age4_hat</to>
+					</replacetexture>
+				</assetreference>
+			</imperialschutzens>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>hats</component>
+	</anim>
+</animfile>

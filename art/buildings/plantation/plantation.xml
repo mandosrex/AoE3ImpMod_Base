@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_debris_1A</definebone>
+	<definebone>bone_debris_1B</definebone>
+	<definebone>bone_debris_1C</definebone>
+	<definebone>bone_debris_1D</definebone>
+	<definebone>bone_debris_1E</definebone>
+	<definebone>bone_debris_1F</definebone>
+	<definebone>bone_debris_1G</definebone>
+	<definebone>bone_debris_2A</definebone>
+	<definebone>bone_debris_2B</definebone>
+	<definebone>bone_debris_2C</definebone>
+	<definebone>bone_debris_2D</definebone>
+	<definebone>bone_debris_2E</definebone>
+	<definebone>bone_debris_2F</definebone>
+	<definebone>bone_debris_2G</definebone>
+	<definebone>bone_debris_2H</definebone>
+	<definebone>bone_debris_3A</definebone>
+	<definebone>bone_debris_3B</definebone>
+	<definebone>bone_debris_3C</definebone>
+	<definebone>bone_debris_3D</definebone>
+	<definebone>bone_debris_3E</definebone>
+	<definebone>bone_debris_3F</definebone>
+	<definebone>bone_debris_3G</definebone>
+	<definebone>bone_debris_3H</definebone>
+	<definebone>bone_debris_3I</definebone>
+	<definebone>bone_debris_4A</definebone>
+	<definebone>bone_debris_4B</definebone>
+	<definebone>bone_debris_4C</definebone>
+	<definebone>bone_debris_4D</definebone>
+	<definebone>bone_debris_4E</definebone>
+	<definebone>bone_debris_5A</definebone>
+	<definebone>bone_debris_5B</definebone>
+	<definebone>bone_debris_4F</definebone>
+	<submodel>
+		sub_construction_stage_02
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x3_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\plantation\EAST\age2\east_plantation_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>16.50</width>
+				<height>16.50</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x3_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\plantation\EAST\age2\east_plantation_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>16.50</width>
+				<height>16.50</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		med_age2
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse smoke
+			<component>
+				collapse smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			plantation
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="med_plantation_age2">
+								<file>buildings\plantation\MED\age2\med_plantation_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="med_plantation_age2">
+								<file>buildings\plantation\MED\age2\med_plantation_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="med_plantation_age2">
+						<file>buildings\plantation\med\age2\lp_med_plantation_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\plantation\EAST\age2\east_plantation_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>16.50</width>
+				<height>16.50</height>
+			</decal>
+		</component>
+		<component>
+			med-death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\plantation\MED\age2\med_plantation_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\plantation\med\age2\lp_med_plantation_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\plantation\EAST\age2\east_plantation_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>16.50</width>
+				<height>16.50</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>plantation</component>
+			<simskeleton>
+				<model>buildings\native_civs\plantation\plantation</model>
+				<damagetemplate>buildings\plantation\MED\age2\med_plantation_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\plantation\MED\age2\med_plantation_age2_deathAnim</file>
+			</assetreference>
+			<component>med-death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		east_age2
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse smoke
+			<component>
+				collapse smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			plantation
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="east_plantation_Age2">
+								<file>buildings\plantation\EAST\age2\east_plantation_age2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="east_plantation_Age2">
+								<file>buildings\plantation\east\age2\east_plantation_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="east_plantation_Age2">
+						<file>buildings\plantation\east\age2\lp_east_plantation_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\plantation\EAST\age2\east_plantation_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>16.50</width>
+				<height>16.50</height>
+			</decal>
+		</component>
+		<component>
+			east_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\plantation\EAST\age2\east_plantation_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\plantation\EAST\age2\lp_east_plantation_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\plantation\EAST\age2\east_plantation_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>16.50</width>
+				<height>16.50</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>plantation</component>
+			<simskeleton>
+				<model>buildings\plantation\EAST\age2\east_plantation_age2_damaged</model>
+				<damagetemplate>buildings\plantation\EAST\age2\east_plantation_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\plantation\EAST\age2\east_plantation_age2_deathAnim</file>
+			</assetreference>
+			<component>east_age2_death</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<component>
+			plantation
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_plantation_age3">
+								<file>buildings\plantation\WEST\west_plantation_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_plantation_age3">
+								<file>buildings\plantation\WEST\west_plantation_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_plantation_age3">
+						<file>buildings\plantation\west\lp_west_plantation_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\plantation\EAST\age2\east_plantation_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>16.50</width>
+				<height>16.50</height>
+			</decal>
+		</component>
+		<component>
+			plantation_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\plantation\WEST\west_plantation_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\plantation\WEST\lp_west_plantation_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\plantation\EAST\age2\east_plantation_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>16.50</width>
+				<height>16.50</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>plantation</component>
+			<simskeleton>
+				<model>buildings\plantation\WEST\west_plantation_age3_damaged</model>
+				<damagetemplate>buildings\plantation\WEST\west_plantation_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\plantation\WEST\west_plantation_age3_deathAnim</file>
+			</assetreference>
+			<component>plantation_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		med_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\plantation\med\age2\med_plantation_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			plantation
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x3_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\plantation\EAST\age2\east_plantation_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>16.50</width>
+				<height>16.50</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>plantation</component>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\plantation\WEST\west_plantation_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			plantation
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x3_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\plantation\EAST\age2\east_plantation_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>16.50</width>
+				<height>16.50</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>plantation</component>
+		</anim>
+	</submodel>
+	<submodel>
+		east_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\plantation\EAST\age2\east_plantation_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			plantation
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x3_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\plantation\east\age2\east_plantation_age2_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>16.50</width>
+				<height>16.50</height>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>plantation</component>
+		</anim>
+	</submodel>
+	<submodel>
+		native_plantation
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse smoke
+			<component>
+				collapse smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="nat_plantation_age1">
+								<file>buildings\native_civs\plantation\nat_plantation_generic_age1_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="nat_plantation_age1">
+								<file>buildings\native_civs\plantation\plantation</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\plantation\lp_plantation</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\plantation\plantation_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\plantation\plantation_ground_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\plantation\nat_plantation_generic_age1_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\plantation\lp_plantation</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\plantation\plantation_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\plantation\plantation_ground_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\plantation\nat_plantation_generic_age1_damaged</model>
+				<damagetemplate>buildings\native_civs\plantation\nat_plantation_age1_damaged.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\plantation\nat_plantation_generic_age1_deathanim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		native_plantation_con_stage_01
+		<component>
+			native_plantation_con_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nat_plantation_5x5_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\plantation\plantation_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\plantation\plantation_ground_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>native_plantation_con_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		native_plantation_con_stage_02
+		<attachment>
+			plantation_stage2_scaffolding
+			<component>
+				plantation_stage2_scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_plantation_5x5_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>plantation_stage2_scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			native_plantation_con_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\plantation_generic_age1_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\plantation\plantation_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\plantation\plantation_ground_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="plantation_stage2_scaffolding" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>native_plantation_con_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		native_plantation_con_stage_03
+		<attachment>
+			native_plantation_staffolding
+			<component>
+				native_plantation_staffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_plantation_5x5_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>native_plantation_staffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			native_plantation_con_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\plantation_generic_age1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\plantation\plantation_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\plantation\plantation_ground_bump</bumptexture>
+				<width>16.00</width>
+				<height>16.00</height>
+			</decal>
+			<attach a="native_plantation_staffolding" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>native_plantation_con_stage_03</component>
+		</anim>
+	</submodel>
+	<component>
+		plantation
+		<logic type="Culture">
+			<easterneurope>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="east_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="east_age2"/>
+							</p100>
+						</logic>
+					</none>
+				</logic>
+			</easterneurope>
+			<westerneurope>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="west_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="west_age2"/>
+							</p100>
+						</logic>
+					</none>
+				</logic>
+			</westerneurope>
+			<mediterranean>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="med_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="med_age2"/>
+							</p100>
+						</logic>
+					</none>
+				</logic>
+			</mediterranean>
+			<aztec>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_plantation_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_plantation_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="native_plantation_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="native_plantation"/>
+							</p100>
+						</logic>
+					</none>
+				</logic>
+			</aztec>
+			<iroquois>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_plantation_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_plantation_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="native_plantation_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="native_plantation"/>
+							</p100>
+						</logic>
+					</none>
+				</logic>
+			</iroquois>
+			<sioux>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="native_plantation_con_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="native_plantation_con_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="native_plantation_con_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="native_plantation"/>
+							</p100>
+						</logic>
+					</none>
+				</logic>
+			</sioux>
+		</logic>
+	</component>
+</animfile>

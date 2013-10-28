@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>HS Bone Hoof Frnt Lt</definebone>
+	<definebone>HS Bone Hoof Frnt Rt</definebone>
+	<definebone>HS Bone Hoof Back Lt</definebone>
+	<definebone>HS Bone Hoof Back Rt</definebone>
+	<definebone>Bip01 Root</definebone>
+	<definebone>bone_plat</definebone>
+	<definebone>bone_launchpoint</definebone>
+	<definebone>bone_cannon</definebone>
+	<definebone>bone_muzzle</definebone>
+	<attachment>
+		Horse_Dust
+		<component>
+			Horse_Dust
+			<assetreference type="ParticleSystem">
+				<file>effects\animal particles\horse_dust.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Horse_Dust</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Rider
+		<include>units\asians\indians\siege_elephant\siege_elephant_rider.xml</include>
+	</attachment>
+	<attachment>
+		aura
+		<component>
+			aura
+			<notshadowcaster/>
+			<assetreference type="GrannyModel">
+				<file>effects\ypack_auras\aura_daimyo_cav</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>aura</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\siege_elephant\siegeelephant_Mansabdar</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\siege_elephant\siegeelephant_Mansabdar</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+				<attach a="aura" frombone="bone_aura" tobone="bone_master" syncanims="0"/>
+			</none>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_consulate_64x64</texture>
+			<selectedtexture>shadows_selections\selection_consulate_64x64</selectedtexture>
+			<width>3.50</width>
+			<height>5.00</height>
+			<zoffset>0.50</zoffset>
+		</decal>
+		<attach a="Rider" frombone="bone_plat" tobone="bone_plat" syncanims="1"/>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_walkA</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_runA</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_runA</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Highstep
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_runA</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_idleA</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Attack_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_attackA</file>
+			<tag type="Attack">0.57</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_attackB</file>
+			<tag type="Attack">0.57</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Attack_trample
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_trampleA</file>
+			<tag type="Attack">0.57</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_deathA</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_deathA</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_deathA</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\howdah\howdah_cheerA</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Attack_ranged
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\siege_elephant\siegeelephant_rangedattackA</file>
+			<tag type="Attack">0.05</tag>
+			<tag type="SpecificSoundSet" set="MortarShot">0.05</tag>
+			<tag type="Particles" particlename="smallCannonMuzzle">0.05</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\siege_elephant\siegeelephant_rangedattackB</file>
+			<tag type="Attack">0.05</tag>
+			<tag type="SpecificSoundSet" set="MortarShot">0.05</tag>
+			<tag type="Particles" particlename="smallCannonMuzzle">0.05</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Reload
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\siege_elephant\siegeelephant_reloadA</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Combat_Idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\siege_elephant\siegeelephant_combatidleA</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

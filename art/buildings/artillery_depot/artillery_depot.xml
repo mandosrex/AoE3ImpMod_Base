@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_flag_civ</definebone>
+	<definebone>bone_chimney_smoke</definebone>
+	<definebone>bone_flag_garrison</definebone>
+	<definebone>bone_debris_1A</definebone>
+	<definebone>bone_debris_1B</definebone>
+	<definebone>bone_debris_1C</definebone>
+	<definebone>bone_debris_1D</definebone>
+	<definebone>bone_debris_1E</definebone>
+	<definebone>bone_debris_1F</definebone>
+	<definebone>bone_debris_1G</definebone>
+	<definebone>bone_debris_1H</definebone>
+	<definebone>bone_debris_2A</definebone>
+	<definebone>bone_debris_2B</definebone>
+	<definebone>bone_debris_2C</definebone>
+	<definebone>bone_debris_2d</definebone>
+	<definebone>bone_debris_2e</definebone>
+	<definebone>bone_debris_2f</definebone>
+	<definebone>bone_debris_2g</definebone>
+	<definebone>bone_debris_2h</definebone>
+	<definebone>bone_debris_2i</definebone>
+	<definebone>bone_debris_2j</definebone>
+	<definebone>bone_debris_2k</definebone>
+	<definebone>bone_debris_2l</definebone>
+	<definebone>bone_debris_2n</definebone>
+	<definebone>bone_debris_2m</definebone>
+	<definebone>bone_debris_3A</definebone>
+	<definebone>bone_debris_3B</definebone>
+	<definebone>bone_debris_3C</definebone>
+	<definebone>bone_debris_3D</definebone>
+	<definebone>bone_debris_3E</definebone>
+	<definebone>bone_debris_3f</definebone>
+	<definebone>bone_debris_3g</definebone>
+	<definebone>bone_debris_3h</definebone>
+	<definebone>bone_debris_3i</definebone>
+	<definebone>bone_debris_4A</definebone>
+	<definebone>bone_debris_4B</definebone>
+	<definebone>bone_debris_4C</definebone>
+	<definebone>bone_debris_4D</definebone>
+	<definebone>bone_debris_4E</definebone>
+	<definebone>bone_debris_4f</definebone>
+	<definebone>bone_debris_4g</definebone>
+	<definebone>bone_debris_4h</definebone>
+	<definebone>bone_debris_4i</definebone>
+	<definebone>bone_debris_4j</definebone>
+	<definebone>bone_chimney_smoke2</definebone>
+	<definebone>boneimpact01</definebone>
+	<definebone>boneimpact02</definebone>
+	<definebone>boneimpact03</definebone>
+	<definebone>bone_debris_1i</definebone>
+	<definebone>bone_debris_5a</definebone>
+	<definebone>bone_debris_5b</definebone>
+	<definebone>bone_debris_5c</definebone>
+	<definebone>bone_debris_5d</definebone>
+	<definebone>bone_debris_5e</definebone>
+	<definebone>bone_debris_5f</definebone>
+	<definebone>bone_debris_5g</definebone>
+	<definebone>bone_debris_5h</definebone>
+	<definebone>bone_debris_5i</definebone>
+	<definebone>bone_debris_5j</definebone>
+	<definebone>bone_debris_6a</definebone>
+	<definebone>bone_debris_6b</definebone>
+	<definebone>bone_debris_6c</definebone>
+	<definebone>bone_debris_6d</definebone>
+	<definebone>bone_campfire</definebone>
+	<definebone>bone_smoke01</definebone>
+	<submodel>
+		west_age2
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimney smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_c.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimneySparks
+			<component>
+				sparks
+				<assetreference type="ParticleSystem">
+					<file>effects\fireworks\spark_streak_parent.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>sparks</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimney smoke2
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_artillery_age2">
+								<file>buildings\artillery_depot\west\age_2\west_artillerydepot_age2_damaged</file>
+							</assetreference>
+							<attach a="chimneySparks" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+							<attach a="chimney smoke" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+							<attach a="chimney smoke2" frombone="ATTACHPOINT" tobone="bone_chimney_smoke2" syncanims="0"/>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_artillery_age2">
+								<file>buildings\artillery_depot\west\age_2\west_artillerydepot_age2</file>
+							</assetreference>
+							<attach a="chimney smoke" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+							<attach a="chimney smoke2" frombone="ATTACHPOINT" tobone="bone_chimney_smoke2" syncanims="0"/>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_artillery_age2">
+						<file>buildings\artillery_depot\west\age_2\lp_west_artillerydepot_age2</file>
+					</assetreference>
+					<attach a="chimney smoke" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+					<attach a="chimney smoke2" frombone="ATTACHPOINT" tobone="bone_chimney_smoke2" syncanims="0"/>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\artillery_depot\WEST\AGE_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.50</width>
+				<height>9.50</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			west_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\west\age_2\west_artillerydepot_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\west\age_2\lp_west_artillerydepot_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\artillery_depot\WEST\AGE_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.50</width>
+				<height>9.50</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>west_age2</component>
+			<simskeleton>
+				<model>buildings\artillery_depot\west\age_2\west_artillerydepot_age2_damaged</model>
+				<damagetemplate>buildings\artillery_depot\west\age_2\west_artillerydepot_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\artillery_depot\west\age_2\west_artillerydepot_age2_deathAnim</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.05</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.10</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.15</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.01</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.05</tag>
+				<tag type="Particles" particlename="wcsmallexp_04">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.10</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.15</tag>
+			</assetreference>
+			<component>west_age2_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_con2_age2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\artillery_depot\west\age_2\west_artillerydepot_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			east_age3
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\west\age_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.25</width>
+				<height>10.25</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>east_age3</component>
+		</anim>
+	</submodel>
+	<submodel>
+		west_age3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimney smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_c.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimney smoke2
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimneySparks
+			<component>
+				sparks
+				<assetreference type="ParticleSystem">
+					<file>effects\fireworks\spark_streak_parent.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>sparks</component>
+			</anim>
+		</attachment>
+		<component>
+			west_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_artillery_age3">
+								<file>buildings\artillery_depot\west\age_3\west_artillerydepot_age3_damaged</file>
+							</assetreference>
+							<attach a="chimneySparks" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_artillery_age3">
+								<file>buildings\artillery_depot\west\age_3\west_artillerydepot_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\west\age_3\lp_west_artillerydepot_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\artillery_depot\WEST\AGE_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.50</width>
+				<height>9.50</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="chimney smoke" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+			<attach a="chimney smoke2" frombone="ATTACHPOINT" tobone="bone_chimney_smoke2" syncanims="0"/>
+		</component>
+		<component>
+			west_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\west\age_3\west_artillerydepot_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\west\age_3\lp_west_artillerydepot_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>default</effecttype>
+				<texture>buildings\artillery_depot\WEST\AGE_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<width>9.50</width>
+				<height>9.50</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>west_age3</component>
+			<simskeleton>
+				<model>buildings\artillery_depot\west\age_3\west_artillerydepot_age3_damaged</model>
+				<damagetemplate>buildings\artillery_depot\west\age_3\west_artillerydepot_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\artillery_depot\west\age_3\west_artillerydepot_age3_deathAnim</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.05</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.10</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.15</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.01</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.05</tag>
+				<tag type="Particles" particlename="wcsmallexp_04">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.10</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.15</tag>
+			</assetreference>
+			<component>west_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		west_con2_age3
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\artillery_depot\west\age_3\west_artillerydepot_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			east_age3
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\west\age_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.25</width>
+				<height>10.25</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>east_age3</component>
+		</anim>
+	</submodel>
+	<submodel>
+		east_age2
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimney smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_c.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimneySparks
+			<component>
+				sparks
+				<assetreference type="ParticleSystem">
+					<file>effects\fireworks\spark_streak_parent.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>sparks</component>
+			</anim>
+		</attachment>
+		<component>
+			east_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="east_artillery_age2">
+								<file>buildings\artillery_depot\EAST\age_2\east_artillery_age2_damaged</file>
+							</assetreference>
+							<attach a="chimneySparks" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="east_artillery_age2">
+								<file>buildings\artillery_depot\EAST\age_2\east_artillery_age2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="east_artillery_age2">
+						<file>buildings\artillery_depot\east\age_2\lp_east_artillery_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\west\age_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.25</width>
+				<height>10.25</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="chimney smoke" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+		</component>
+		<component>
+			east_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\EAST\age_2\east_artillery_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\east\age_2\lp_east_artillery_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\west\age_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.25</width>
+				<height>10.25</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>east_age2</component>
+			<simskeleton>
+				<model>buildings\artillery_depot\EAST\age_2\east_artillery_age2_damaged</model>
+				<damagetemplate>buildings\artillery_depot\EAST\age_2\east_artillery_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\artillery_depot\EAST\age_2\east_artillery_age2_deathAnim</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.05</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.10</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.15</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.01</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.05</tag>
+				<tag type="Particles" particlename="wcsmallexp_04">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.10</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.15</tag>
+			</assetreference>
+			<component>east_age2_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		east_age2_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\artillery_depot\east\age_2\east_artillerydepot_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			artillery depot
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>artillery depot</component>
+		</anim>
+	</submodel>
+	<submodel>
+		east_age3
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimney smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_c.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimneySparks
+			<component>
+				sparks
+				<assetreference type="ParticleSystem">
+					<file>effects\fireworks\spark_streak_parent.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>sparks</component>
+			</anim>
+		</attachment>
+		<component>
+			east_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="east_artillery_age3">
+								<file>buildings\artillery_depot\EAST\AGE_3\east_artillery_age3_damaged</file>
+							</assetreference>
+							<attach a="chimneySparks" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="east_artillery_age3">
+								<file>buildings\artillery_depot\EAST\AGE_3\east_artillery_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="east_artillery_age3">
+						<file>buildings\artillery_depot\east\age_3\lp_east_artillery_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\west\age_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.25</width>
+				<height>10.25</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="chimney smoke" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+		</component>
+		<component>
+			east_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\EAST\AGE_3\east_artillery_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\east\age_3\lp_east_artillery_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\west\age_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.25</width>
+				<height>10.25</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>east_age3</component>
+			<simskeleton>
+				<model>buildings\artillery_depot\EAST\AGE_3\east_artillery_age3_damaged</model>
+				<damagetemplate>buildings\artillery_depot\EAST\AGE_3\east_artillery_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\artillery_depot\EAST\AGE_3\east_artillery_age3_deathAnim</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.05</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.10</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.15</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.01</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.05</tag>
+				<tag type="Particles" particlename="wcsmallexp_04">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.10</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.15</tag>
+			</assetreference>
+			<component>east_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		east_age3_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\artillery_depot\east\age_3\east_artillery_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			east_age3
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\west\age_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.25</width>
+				<height>10.25</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>east_age3</component>
+		</anim>
+	</submodel>
+	<submodel>
+		med_age2
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimney smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_c.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimneySparks
+			<component>
+				sparks
+				<assetreference type="ParticleSystem">
+					<file>effects\fireworks\spark_streak_parent.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>sparks</component>
+			</anim>
+		</attachment>
+		<component>
+			med_age2
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="med_artillery_age2">
+								<file>buildings\artillery_depot\MED\AGE_2\med_artillery_depot_age2_damaged</file>
+							</assetreference>
+							<attach a="chimneySparks" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+							<attach a="chimney smoke" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="med_artillery_age2">
+								<file>buildings\artillery_depot\MED\AGE_2\med_artillery_depot_age2</file>
+							</assetreference>
+							<attach a="chimney smoke" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="med_artillery_age2">
+						<file>buildings\artillery_depot\med\age_2\lp_med_artillery_depot_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\MED\AGE_2\med_artillery_depot_ground_age2</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>12.40</width>
+				<height>12.40</height>
+				<xoffset>0.25</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			med_age2_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\MED\AGE_2\med_artillery_depot_age2_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\med\age_2\lp_med_artillery_depot_age2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\MED\AGE_2\med_artillery_depot_ground_age2</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.25</width>
+				<height>10.25</height>
+				<xoffset>0.25</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>med_age2</component>
+			<simskeleton>
+				<model>buildings\artillery_depot\MED\AGE_2\med_artillery_depot_age2_damaged</model>
+				<damagetemplate>buildings\artillery_depot\MED\AGE_2\med_artillery_depot_age2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\artillery_depot\MED\AGE_2\med_artillery_depot_age2_deathAnim</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.05</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.10</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.15</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.01</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.05</tag>
+				<tag type="Particles" particlename="wcsmallexp_04">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.10</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.15</tag>
+			</assetreference>
+			<component>med_age2_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		med_con2_age2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\artillery_depot\MED\AGE_2\med_artillery_depot_age2_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			med_age2
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\west\age_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.25</width>
+				<height>10.25</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>med_age2</component>
+		</anim>
+	</submodel>
+	<submodel>
+		med_age3
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimney smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_c.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke3
+			<component>
+				smoke wave center
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave center</component>
+			</anim>
+		</attachment>
+		<attachment>
+			chimneySparks
+			<component>
+				sparks
+				<assetreference type="ParticleSystem">
+					<file>effects\fireworks\spark_streak_parent.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>sparks</component>
+			</anim>
+		</attachment>
+		<component>
+			med_age3
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="med_artillery_age3">
+								<file>buildings\artillery_depot\MED\AGE_3\med_artillery_depot_age3_damaged</file>
+							</assetreference>
+							<attach a="chimneySparks" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+							<attach a="chimney smoke" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="med_artillery_age3">
+								<file>buildings\artillery_depot\MED\AGE_3\med_artillery_depot_age3</file>
+							</assetreference>
+							<attach a="chimney smoke" frombone="bone_chimney_smoke" tobone="bone_chimney_smoke" syncanims="0"/>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="med_artillery_age3">
+						<file>buildings\artillery_depot\med\age_3\lp_med_artillery_depot_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\MED\AGE_2\med_artillery_depot_ground_age2</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>11.00</width>
+				<height>11.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<component>
+			med_age3_death
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\MED\AGE_3\med_artillery_depot_age3_deathModel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\artillery_depot\med\age_3\lp_med_artillery_depot_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\MED\AGE_2\med_artillery_depot_ground_age2</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>11.00</width>
+				<height>11.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>med_age3</component>
+			<simskeleton>
+				<model>buildings\artillery_depot\MED\AGE_3\med_artillery_depot_age3_damaged</model>
+				<damagetemplate>buildings\artillery_depot\MED\AGE_3\med_artillery_depot_age3.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\artillery_depot\MED\AGE_3\med_artillery_depot_age3_deathAnim</file>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.05</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.10</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.15</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.01</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.05</tag>
+				<tag type="Particles" particlename="wcsmallexp_04">0.20</tag>
+				<tag type="Particles" particlename="wcsmallexp_03">0.10</tag>
+				<tag type="Particles" particlename="wcsmallexp_01">0.15</tag>
+			</assetreference>
+			<component>med_age3_death</component>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		med_con2_age3
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\artillery_depot\MED\AGE_3\med_artillery_depot_age3_con</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			med_age3
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\artillery_depot\west\age_3\artillery_depot_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.25</width>
+				<height>10.25</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
+			</decal>
+			<attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>med_age3</component>
+		</anim>
+	</submodel>
+	<submodel>
+		iro_age2
+		<attachment>
+			campfire
+			<component>campfire</component>
+			<anim>
+				Idle
+				<component>campfire</component>
+			</anim>
+			<include>buildings\native_civs\corral\nat_corral_campfire.xml</include>
+		</attachment>
+		<attachment>
+			smoke
+			<component>
+				smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_c.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="seige_workshop_2">
+								<file>buildings\native_civs\siegeworkshop\siege_workshop_2_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="seige_workshop_2">
+								<file>buildings\native_civs\siegeworkshop\siege_workshop_2</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="seige_workshop_2">
+						<file>buildings\native_civs\siegeworkshop\siege_workshop_2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\siegeworkshop\siege_workshop_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+			<attach a="campfire" frombone="ATTACHPOINT" tobone="bone_campfire" syncanims="0"/>
+			<attach a="smoke" frombone="ATTACHPOINT" tobone="bone_smoke" syncanims="0"/>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\siegeworkshop\siege_workshop_2_deathmodel</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\siegeworkshop\siege_workshop_2</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\siegeworkshop\siege_workshop_2_damaged</model>
+				<damagetemplate>buildings\native_civs\siegeworkshop\siege_workshop_2.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\siegeworkshop\siege_workshop_2_deathAnim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		iro_age4
+		<attachment>
+			campfire
+			<component>campfire</component>
+			<anim>
+				Idle
+				<component>campfire</component>
+			</anim>
+			<include>buildings\native_civs\corral\nat_corral_campfire.xml</include>
+		</attachment>
+		<attachment>
+			smoke01
+			<component>
+				smoke01
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\white_smoke_c.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke01</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke
+			<component>
+				smoke base
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapsesmoke01.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke base</component>
+			</anim>
+		</attachment>
+		<attachment>
+			base smoke2
+			<component>
+				smoke wave
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>smoke wave</component>
+			</anim>
+		</attachment>
+		<attachment>
+			collapse_smoke
+			<component>
+				collapse_smoke
+				<assetreference type="ParticleSystem">
+					<file>effects\smoke\collapse_smoke_a.particle</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>collapse_smoke</component>
+			</anim>
+		</attachment>
+		<component>
+			LIVE
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="seige_workshop_4">
+								<file>buildings\native_civs\siegeworkshop\siege_workshop_4_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="seige_workshop_4">
+								<file>buildings\native_civs\siegeworkshop\siege_workshop_3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="seige_workshop_4">
+						<file>buildings\native_civs\siegeworkshop\siege_workshop_3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\siegeworkshop\siege_workshop_ground_age4</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>12.00</width>
+				<height>12.00</height>
+			</decal>
+			<attach a="campfire" frombone="ATTACHPOINT" tobone="bone_campfire" syncanims="0"/>
+			<attach a="smoke01" frombone="ATTACHPOINT" tobone="bone_smoke01" syncanims="0"/>
+		</component>
+		<component>
+			DEAD
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\siegeworkshop\siege_workshop_4_death</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>buildings\native_civs\siegeworkshop\siege_workshop_3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>LIVE</component>
+			<simskeleton>
+				<model>buildings\native_civs\siegeworkshop\siege_workshop_4_damaged</model>
+				<damagetemplate>buildings\native_civs\siegeworkshop\siege_workshop_4.dmg</damagetemplate>
+			</simskeleton>
+		</anim>
+		<anim>
+			Death
+			<assetreference type="GrannyAnim">
+				<file>buildings\native_civs\siegeworkshop\siege_workshop_4_deathAnim</file>
+			</assetreference>
+			<component>DEAD</component>
+			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_02
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\4x4_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_age2_stage_03
+		<attachment>
+			scalf
+			<component>
+				scalf
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_4x4_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scalf</component>
+			</anim>
+		</attachment>
+		<component>
+			sub_construction_age2_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\siege_workshop_2_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\siegeworkshop\siege_workshop_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+			<attach a="scalf" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>sub_construction_age2_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_age4_stage_03
+		<attachment>
+			scalf
+			<component>
+				scalf
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_4x4_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scalf</component>
+			</anim>
+		</attachment>
+		<component>
+			sub_construction_age2_stage_03
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\siege_workshop_4_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\siegeworkshop\siege_workshop_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+			<attach a="scalf" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>sub_construction_age2_stage_03</component>
+		</anim>
+	</submodel>
+	<submodel>
+		iro_sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nat_4x4_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\siegeworkshop\siege_workshop_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		iro_sub_construction_stage_02
+		<attachment>
+			scalf
+			<component>
+				scalf
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\4x4_aztec_frame</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scalf</component>
+			</anim>
+		</attachment>
+		<component>
+			sub_construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nat_4x4_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\siegeworkshop\siege_workshop_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>10.00</width>
+				<height>10.00</height>
+			</decal>
+			<attach a="scalf" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>sub_construction_stage_02</component>
+		</anim>
+	</submodel>
+	<component>
+		artillerymodel
+		<logic type="Culture">
+			<easterneurope>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="east_age2_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="east_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="east_age3_con2"/>
+							</p66>
+							<p100>
+								<submodelref ref="east_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</easterneurope>
+			<mediterranean>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="med_con2_age2"/>
+							</p66>
+							<p100>
+								<submodelref ref="med_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="med_con2_age3"/>
+							</p66>
+							<p100>
+								<submodelref ref="med_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</mediterranean>
+			<westerneurope>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="west_con2_age2"/>
+							</p66>
+							<p100>
+								<submodelref ref="west_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="west_con2_age3"/>
+							</p66>
+							<p100>
+								<submodelref ref="west_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</westerneurope>
+			<iroquois>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="iro_sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="iro_sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_age2_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="iro_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="iro_sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="iro_sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="sub_construction_age4_stage_03"/>
+							</p66>
+							<p100>
+								<submodelref ref="iro_age4"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</iroquois>
+			<sioux>
+				<logic type="Tech">
+					<none>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="west_con2_age2"/>
+							</p66>
+							<p100>
+								<submodelref ref="west_age2"/>
+							</p100>
+						</logic>
+					</none>
+					<industrialize>
+						<logic type="BuildingCompletion">
+							<p0>
+								<submodelref ref="sub_construction_stage_01"/>
+							</p0>
+							<p33>
+								<submodelref ref="sub_construction_stage_02"/>
+							</p33>
+							<p66>
+								<submodelref ref="west_con2_age3"/>
+							</p66>
+							<p100>
+								<submodelref ref="west_age3"/>
+							</p100>
+						</logic>
+					</industrialize>
+				</logic>
+			</sioux>
+		</logic>
+	</component>
+</animfile>

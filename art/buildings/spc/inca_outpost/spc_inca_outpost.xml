@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_1d</definebone>
+	<definebone>bone_debris_1e</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>bone_debris_3d</definebone>
+	<definebone>bone_debris_3e</definebone>
+	<submodel>
+		sub_construction_stage_01
+		<component>
+			construction_stage_01
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nat_3x3_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_01</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_stage_02
+		<attachment>
+			frame
+			<component>
+				aztec_frame
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\3x3_aztec_frame</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>aztec_frame</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\nat_3x3_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\constructions\2x2_construction_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+			<attach a="frame" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		sub_construction_age2_stage_03_b
+		<attachment>
+			scalf
+			<component>
+				scalf
+				<assetreference type="GrannyModel">
+					<file>buildings\constructions\nat_3x3_stage2</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scalf</component>
+			</anim>
+		</attachment>
+		<component>
+			construction_stage_02
+			<assetreference type="GrannyModel">
+				<file>buildings\spc\inca_outpost\spc_inca_outpost</file>
+			</assetreference>
+			<attach a="scalf" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>construction_stage_02</component>
+		</anim>
+	</submodel>
+	<submodel>
+		stronghold
+	<attachment>
+		flag
+		<include>buildings\spc\inca_outpost\flag.xml</include>
+	</attachment>
+	<attachment>
+		base smoke
+		<component>
+			smoke base
+			<assetreference type="ParticleSystem">
+				<file>effects\smoke\collapsesmoke01.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>smoke base</component>
+		</anim>
+	</attachment>
+	<attachment>
+		base smoke2
+		<component>
+			smoke wave
+			<assetreference type="ParticleSystem">
+				<file>effects\smoke\collapse_smoke_wave.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>smoke wave</component>
+		</anim>
+	</attachment>
+	<attachment>
+		base smoke3
+		<component>
+			smoke wave center
+			<assetreference type="ParticleSystem">
+				<file>effects\smoke\collapse_smoke_wave02.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>smoke wave center</component>
+		</anim>
+	</attachment>
+	<attachment>
+		collapse_smoke
+		<component>
+			collapse_smoke
+			<assetreference type="ParticleSystem">
+				<file>effects\smoke\collapse_smoke_a.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>collapse_smoke</component>
+		</anim>
+	</attachment>
+	<component>
+		mesh
+		<logic type="Destruction">
+			<p1>
+				<assetreference type="GrannyModel" shape="spc_incanOutpost">
+					<file>buildings\spc\inca_outpost\spc_inca_outpost_damaged</file>
+				</assetreference>
+			</p1>
+			<p99>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel" shape="spc_incanOutpost">
+							<file>buildings\spc\inca_outpost\spc_inca_outpost</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel" shape="spc_incanOutpost">
+							<file>buildings\spc\inca_outpost\lp_spc_inca_outpost</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</p99>
+		</logic>
+		<decal>
+			<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\war_hut\az\az_war_hut_age2_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\war_hut\az\az_war_hut_age2_decal_bump</bumptexture>
+			<width>5.50</width>
+			<height>5.50</height>
+		</decal>
+		<attach a="flag" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</component>
+	<component>
+		death
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel">
+					<file>buildings\spc\inca_outpost\spc_inca_outpost_deathModel</file>
+				</assetreference>
+			</normal>
+			<lowpoly>
+				<assetreference type="GrannyModel">
+					<file>buildings\spc\inca_outpost\lp_spc_inca_outpost</file>
+				</assetreference>
+			</lowpoly>
+		</logic>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\native_civs\war_hut\az\az_war_hut_age2_decal</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>buildings\native_civs\war_hut\az\az_war_hut_age2_decal_bump</bumptexture>
+				<width>7.00</width>
+				<height>7.00</height>
+			</decal>
+	</component>
+	<anim>
+		Idle
+		<component>mesh</component>
+		<simskeleton>
+			<model>buildings\spc\inca_outpost\spc_inca_outpost_damaged</model>
+			<damagetemplate>buildings\spc\inca_outpost\spc_inca_outpost.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		RangedAttack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\building\ranged_attack</file>
+			<tag type="Attack">0.98</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+		</assetreference>
+		<component>mesh</component>
+		<simskeleton>
+			<model>buildings\spc\inca_outpost\spc_inca_outpost_damaged</model>
+			<damagetemplate>buildings\spc\inca_outpost\spc_inca_outpost.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		RangedAttackShip
+		<assetreference type="GrannyAnim">
+			<file>animation_library\building\ranged_attack</file>
+			<tag type="Attack">0.98</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
+		</assetreference>
+		<component>mesh</component>
+		<simskeleton>
+			<model>buildings\spc\inca_outpost\spc_inca_outpost_damaged</model>
+			<damagetemplate>buildings\spc\inca_outpost\spc_inca_outpost.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>buildings\spc\inca_outpost\spc_inca_outpost_deathAnim</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	</submodel>
+	<component>
+		strongholgi
+		<logic type="Tech">
+			<none>
+				<logic type="BuildingCompletion">
+					<p0>
+						<submodelref ref="sub_construction_stage_01"/>
+					</p0>
+					<p33>
+						<submodelref ref="sub_construction_stage_02"/>
+					</p33>
+					<p66>
+						<submodelref ref="sub_construction_age2_stage_03_b"/>
+					</p66>
+					<p100>
+						<submodelref ref="stronghold"/>
+					</p100>
+				</logic>
+			</none>
+		</logic>
+	</component>
+</animfile>

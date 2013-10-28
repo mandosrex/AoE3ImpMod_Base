@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_wheel03</definebone>
+	<definebone>bone_wheel04</definebone>
+	<attachment>
+		yoke
+		<include>units\trade\supply_cart\supply_cart_yoke.xml</include>
+	</attachment>
+	<component>
+		wagon
+		<linksection>
+			<linkoffset>0</linkoffset>
+			<linkcomponent>axel</linkcomponent>
+			<linkconstraint>0</linkconstraint>
+		</linksection>
+		<linksection>
+			<linkoffset>-2.6</linkoffset>
+			<linkcomponent>covered_wagon</linkcomponent>
+			<linkcomponent>driver</linkcomponent>
+			<linkcomponent>dynamite_kegs</linkcomponent>
+			<linkconstraint>1</linkconstraint>
+		</linksection>
+		<assetreference type="GrannyModel">
+			<file>units\trade\supply_cart\supply_cart_dynamite_kegs</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>2.00</width>
+			<height>4.00</height>
+		</decal>
+		<attach a="yoke" frombone="MASTER" tobone="MASTER" syncanims="1"/>
+	</component>
+	<component>
+		death
+		<linksection>
+			<linkoffset>0</linkoffset>
+			<linkcomponent>axel</linkcomponent>
+			<linkconstraint>0</linkconstraint>
+		</linksection>
+		<linksection>
+			<linkoffset>-2.6</linkoffset>
+			<linkcomponent>covered_wagon</linkcomponent>
+			<linkcomponent>driver</linkcomponent>
+			<linkcomponent>dynamite_kegs</linkcomponent>
+			<linkconstraint>1</linkconstraint>
+		</linksection>
+		<assetreference type="GrannyModel">
+			<file>units\trade\supply_cart\supply_cart_dynamite_kegs_deathmodel</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>2.00</width>
+			<height>4.00</height>
+		</decal>
+		<attach a="yoke" frombone="MASTER" tobone="MASTER" syncanims="1"/>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\trade\supply_cart\supply_cart_idle</file>
+		</assetreference>
+		<component>wagon</component>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\trade\supply_cart\supply_cart_walk</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.14</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.26</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.38</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.51</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof1">0.64</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.77</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.90</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.03</tag>
+		</assetreference>
+		<component>wagon</component>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\trade\supply_cart\supply_cart_dynamite_kegs_deathanim</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PetardExplosion">0.01</tag>
+			<tag type="Particles" particlename="wclargeexp">0.01</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.04</tag>
+			<tag type="CameraShake" force="0.10" duration="0.3">0.10</tag>
+		</assetreference>
+		<component>death</component>
+	</anim>
+	<anim>
+		HandAttack
+		<assetreference type="GrannyAnim">
+			<file>units\trade\supply_cart\supply_cart_idle</file>
+			<tag type="Attack">0.00</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

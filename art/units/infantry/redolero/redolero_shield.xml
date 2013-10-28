@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		shield
+		<logic type="Tech">
+			<none>
+						<assetreference type="GrannyModel">
+							<file>units\infantry\redolero\redolero_sheild</file>
+						</assetreference>
+			</none>
+			<veteranrodeleros>
+						<assetreference type="GrannyModel">
+							<file>units\infantry\redolero\redolero_sheild2</file>
+						</assetreference>
+			</veteranrodeleros>
+			<guardrodeleros>
+						<assetreference type="GrannyModel">
+							<file>units\infantry\redolero\redolero_sheild3</file>
+						</assetreference>
+			</guardrodeleros>
+			<imperialespada>
+						<assetreference type="GrannyModel">
+							<file>units\infantry\redolero\redolero_sheild3</file>
+							<replacetexture>
+								<from>units\infantry\redolero\redolero_4age</from>
+								<to>units\infantry\redolero\redolero_imperial</to>
+							</replacetexture>
+						</assetreference>
+			</imperialespada>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>shield</component>
+	</anim>
+</animfile>

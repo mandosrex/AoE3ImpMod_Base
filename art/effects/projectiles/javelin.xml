@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		ModelComp
+		<assetreference type="GrannyModel">
+			<file>effects\projectiles\flamingArrow</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>ModelComp</component>
+	</anim>
+</animfile>

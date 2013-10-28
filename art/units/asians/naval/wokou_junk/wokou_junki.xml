@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_master</definebone>
+	<definebone>bone_muzzleR01</definebone>
+	<definebone>bone_muzzleR02</definebone>
+	<definebone>bone_muzzleL01</definebone>
+	<definebone>bone_muzzleL02</definebone>
+	<definebone>bone_sail</definebone>
+	<definebone>bone_garrisonflag</definebone>
+	<definebone>bone_RF</definebone>
+	<definebone>bone_LF</definebone>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_2d</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_3c</definebone>
+	<definebone>bone_debris_3d</definebone>
+	<definebone>bone_debris_3e</definebone>
+	<definebone>bone_debris_3f</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_4c</definebone>
+	<definebone>bone_debris_4d</definebone>
+	<definebone>bone_debris_4e</definebone>
+	<definebone>boneimpact01</definebone>
+	<definebone>boneimpact02</definebone>
+	<definebone>boneimpact03</definebone>
+	<definebone>boneimpact04</definebone>
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_ship.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam
+			<assetreference type="ParticleSystem">
+				<file>units\asians\naval\war_junk\war_junk_foamRing.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSpray2
+		<component>
+			spray2
+			<assetreference type="ParticleSystem">
+				<file>units\asians\naval\war_junk\war_junk_foamSpray.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>spray2</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSteam
+		<component>
+			steam
+			<assetreference type="ParticleSystem">
+				<file>units\asians\naval\war_junk\war_junk_foamSteam.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>steam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFade
+		<component>
+			fade
+			<assetreference type="ParticleSystem">
+				<file>units\asians\naval\war_junk\war_junk_foamFade.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>fade</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterRipple
+		<component>
+			ripple
+			<assetreference type="ParticleSystem">
+				<file>units\asians\naval\war_junk\war_junk_shockwave.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>ripple</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Pirate_flag
+		<component>
+			flag
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_color</blending>
+					<texture>units\asians\naval\war_junk\war_junk_flag_mid</texture>
+					<width>1.00</width>
+					<height>1.00</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>flag</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Pirate_flag2
+		<component>
+			flag
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_color</blending>
+					<texture>units\asians\naval\war_junk\war_junk_flag_mid</texture>
+					<width>1.00</width>
+					<height>1.00</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			<component>flag</component>
+		</anim>
+	</attachment>
+	<attachment>
+		Fishing_net
+		<component>
+			fishing_net
+			<assetreference type="GrannyModel">
+				<file>units\attachments\fishing_net</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<assetreference type="GrannyAnim">
+				<file>units\attachments\fishing_net_caravel</file>
+			</assetreference>
+			<component>fishing_net</component>
+		</anim>
+	</attachment>
+	<attachment>
+		flag
+		<component>
+			flag
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_color</blending>
+					<specialtexture/>
+					<width>2.50</width>
+					<height>1.65</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>flag</component>
+		</anim>
+	</attachment>
+	<component>
+		privateer
+		<logic type="Destruction">
+			<p1>
+				<assetreference type="GrannyModel">
+					<file>units\asians\naval\wokou_junk\wokou_junk_mesh_destroyed</file>
+				</assetreference>
+			</p1>
+			<p99>
+				<assetreference type="GrannyModel">
+					<file>units\asians\naval\wokou_junk\wokou_junk_mesh</file>
+				</assetreference>
+			</p99>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>8.00</width>
+			<height>12.00</height>
+		</decal>
+	</component>
+	<component>
+		death
+		<assetreference type="GrannyModel">
+			<file>units\asians\naval\wokou_junk\wokou_junk_death_mesh</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>8.00</width>
+			<height>12.00</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\naval\wokou_junk\wokou_junk_idle_anim</file>
+		</assetreference>
+		<component>privateer</component>
+		<simskeleton>
+			<model>units\asians\naval\wokou_junk\wokou_junk_mesh_destroyed</model>
+			<damagetemplate>units\asians\naval\wokou_junk\wokou_junk_damaged.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="Pirate_flag" frombone="ATTACHPOINT" tobone="bone_RF" syncanims="0"/>
+		<attach a="Pirate_flag2" frombone="ATTACHPOINT" tobone="bone_LF" syncanims="0"/>
+		<attach a="flag" frombone="ATTACHPOINT" tobone="GARRISONFLAG" syncanims="0"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\naval\wokou_junk\wokou_junk_walk_anim</file>
+		</assetreference>
+		<component>privateer</component>
+		<simskeleton>
+			<model>units\asians\naval\wokou_junk\wokou_junk_mesh_destroyed</model>
+			<damagetemplate>units\asians\naval\wokou_junk\wokou_junk_damaged.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="Pirate_flag" frombone="ATTACHPOINT" tobone="bone_RF" syncanims="0"/>
+		<attach a="Pirate_flag2" frombone="ATTACHPOINT" tobone="bone_LF" syncanims="0"/>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="flag" frombone="ATTACHPOINT" tobone="GARRISONFLAG" syncanims="0"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\asians\naval\wokou_junk\wokou_junk_death_mesh_anim</file>
+		</assetreference>
+		<component>death</component>
+		<attach a="DeathWaterFade" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterRipple" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterSpray2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterSteam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="flag" frombone="ATTACHPOINT" tobone="GARRISONFLAG" syncanims="0"/>
+	</anim>
+	<anim>
+		GatherFish
+		<assetreference type="GrannyAnim">
+			<file>units\asians\naval\wokou_junk\wokou_junk_idle_anim</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="SplashSmall">0.18</tag>
+		</assetreference>
+		<component>privateer</component>
+		<simskeleton>
+			<model>units\asians\naval\wokou_junk\wokou_junk_mesh_destroyed</model>
+			<damagetemplate>units\asians\naval\wokou_junk\wokou_junk_damaged.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="Fishing_net" frombone="MASTER" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="Pirate_flag" frombone="ATTACHPOINT" tobone="bone_RF" syncanims="0"/>
+		<attach a="Pirate_flag2" frombone="ATTACHPOINT" tobone="bone_LF" syncanims="0"/>
+		<attach a="flag" frombone="ATTACHPOINT" tobone="GARRISONFLAG" syncanims="0"/>
+	</anim>
+</animfile>

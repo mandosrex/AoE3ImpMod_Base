@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>Bone_front_wake</definebone>
+	<definebone>Bone_sidewake</definebone>
+	<definebone>bone_main</definebone>
+	<definebone>Bone_front_bombard</definebone>
+	<definebone>Bone_middle_bombard</definebone>
+	<definebone>Bone_front_wake_right</definebone>
+	<definebone>Bone_front_wake_left</definebone>
+	<definebone>Bone_sidewake</definebone>
+	<definebone>bone_launchpoint</definebone>
+	<definebone>bone_fuse</definebone>
+	<definebone>bone_cart</definebone>
+	<definebone>bone_muzzlel01</definebone>
+	<definebone>bone_muzzlel02</definebone>
+	<definebone>bone_muzzlel03</definebone>
+	<definebone>bone_muzzlel04</definebone>
+	<definebone>bone_muzzlel05</definebone>
+	<definebone>bone_muzzlel06</definebone>
+	<definebone>bone_muzzler01</definebone>
+	<definebone>bone_muzzler02</definebone>
+	<definebone>bone_muzzler03</definebone>
+	<definebone>bone_muzzler04</definebone>
+	<definebone>bone_muzzler05</definebone>
+	<definebone>bone_muzzler06</definebone>
+	<definebone>bone_debris_1a</definebone>
+	<definebone>bone_debris_1b</definebone>
+	<definebone>bone_debris_1c</definebone>
+	<definebone>bone_debris_1d</definebone>
+	<definebone>bone_debris_2a</definebone>
+	<definebone>bone_debris_2b</definebone>
+	<definebone>bone_debris_2c</definebone>
+	<definebone>bone_debris_2d</definebone>
+	<definebone>bone_debris_2e</definebone>
+	<definebone>bone_debris_3a</definebone>
+	<definebone>bone_debris_3b</definebone>
+	<definebone>bone_debris_4a</definebone>
+	<definebone>bone_debris_4b</definebone>
+	<definebone>bone_debris_4c</definebone>
+	<definebone>bone_debris_5a</definebone>
+	<definebone>bone_debris_5b</definebone>
+	<definebone>bone_debris_5c</definebone>
+	<definebone>bone_debris_6a</definebone>
+	<definebone>bone_debris_6b</definebone>
+	<definebone>bone_debris_6c</definebone>
+	<definebone>bone_f1</definebone>
+	<attachment>
+		boat_wake
+		<component>
+			boat_wake
+			<assetreference type="ParticleSystem">
+				<file>effects\wakes\wake_galleon.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>boat_wake</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_boat_ripple
+		<component>
+			boat_ripple
+			<assetreference type="ParticleSystem">
+				<file>units\naval\galleon\galleon_idle_ripple.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>boat_ripple</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_wake_splash
+		<component>
+			wake_splash
+			<assetreference type="ParticleSystem">
+				<file>units\naval\galleon\galleon_wakefoam_large.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>wake_splash</component>
+		</anim>
+	</attachment>
+	<attachment>
+		attachment_wake_front_splash
+		<component>
+			wake_front_splash
+			<assetreference type="ParticleSystem">
+				<file>units\naval\galleon\galleon_wake_front.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>wake_front_splash</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFoam
+		<component>
+			foam
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamRing.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>foam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSpray2
+		<component>
+			spray2
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSpray.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>spray2</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterSteam
+		<component>
+			steam
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamSteam.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>steam</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterFade
+		<component>
+			fade
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_foamFade.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>fade</component>
+		</anim>
+	</attachment>
+	<attachment>
+		DeathWaterRipple
+		<component>
+			ripple
+			<assetreference type="ParticleSystem">
+				<file>effects\water_effects\shp_dest_shockwave.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>ripple</component>
+		</anim>
+	</attachment>
+	<attachment>
+		boat flag
+		<component>
+			l
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_color</blending>
+					<specialtexture/>
+					<width>2.00</width>
+					<height>1.00</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>l</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+						<logic type="Civ">
+							<none>
+								<logic type="Destruction">
+									<p1>
+										<assetreference type="GrannyModel" shape="ship_galleon">
+											<file>units\naval\galleon\TreasureGalleon_damaged</file>
+										</assetreference>
+									</p1>
+									<p99>
+										<assetreference type="GrannyModel" shape="ship_galleon">
+											<file>units\naval\galleon\TreasureGalleon</file>
+										</assetreference>
+									</p99>
+								</logic>
+							</none>
+						</logic>
+			</none>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>12.00</width>
+			<height>20.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\colony_ship\colony_ship_hullmask</texture>
+			<width>10.0</width>
+			<height>10.0</height>
+		</watersplash>
+	</component>
+	<component>
+		Death
+		<logic type="Tech">
+			<none>
+				<logic type="Civ">
+					<none>
+						<assetreference type="GrannyModel">
+							<file>units\naval\galleon\TreasureGalleon_deathModel</file>
+						</assetreference>
+					</none>
+				</logic>
+			</none>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>12.00</width>
+			<height>20.00</height>
+		</decal>
+		<watersplash>
+			<texture>units\naval\colony_ship\colony_ship_hullmask</texture>
+			<width>10.0</width>
+			<height>10.0</height>
+		</watersplash>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\galleon\galleon_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\galleon\TreasureGalleon_damaged</model>
+			<damagetemplate>units\naval\galleon\galleon.dmg</damagetemplate>
+		</simskeleton>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\naval\galleon\galleon_walk</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<simskeleton>
+			<model>units\naval\galleon\TreasureGalleon_damaged</model>
+			<damagetemplate>units\naval\galleon\galleon.dmg</damagetemplate>
+		</simskeleton>
+		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>units\naval\galleon\TreasureGalleon_deathAnim</file>
+		</assetreference>
+		<component>Death</component>
+		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterSpray2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterRipple" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="DeathWaterFade" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+	</anim>
+</animfile>

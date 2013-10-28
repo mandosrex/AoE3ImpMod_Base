@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_place00</definebone>
+	<definebone>bone_place01</definebone>
+	<definebone>bone_place02</definebone>
+	<attachment>
+		tall flag
+		<component>
+			flag
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_color</blending>
+					<specialtexture/>
+					<width>2.50</width>
+					<height>1.65</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>flag</component>
+		</anim>
+	</attachment>
+	<attachment>
+		tall flag color
+		<component>
+			flag
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_color</blending>
+					<texture>buildings\flags\pendent</texture>
+					<width>3.00</width>
+					<height>1.75</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>flag</component>
+		</anim>
+	</attachment>
+	<component>
+		spc_flag
+		<logic type="Culture">
+			<data>
+				<logic type="Variation">
+					<v1>
+					<assetreference type="GrannyModel">
+						<file>objects\spc\graves\cross05</file>
+					</assetreference>
+					</v1>
+					<v2>
+					<assetreference type="GrannyModel">
+						<file>objects\spc\graves\swords02</file>
+					</assetreference>
+					</v2>
+					<v3>
+					<assetreference type="GrannyModel">
+						<file>objects\spc\graves\cross05</file>
+					</assetreference>
+					</v3>
+				</logic>
+			</data>
+			<easterneurope>
+				<assetreference type="GrannyModel">
+					<file>objects\spc\spc_flag\spc_flagpole_tall</file>
+				</assetreference>
+				<attach a="tall flag" frombone="bone_place00" tobone="bone_place00" syncanims="0"/>
+			</easterneurope>
+			<mediterranean>
+				<assetreference type="GrannyModel">
+					<file>objects\spc\spc_flag\spc_flagpole_tall</file>
+				</assetreference>
+				<attach a="tall flag" frombone="bone_place00" tobone="bone_place00" syncanims="0"/>
+			</mediterranean>
+			<westerneurope>
+				<assetreference type="GrannyModel">
+					<file>objects\spc\spc_flag\spc_flagpole_tall</file>
+				</assetreference>
+				<attach a="tall flag" frombone="bone_place00" tobone="bone_place00" syncanims="0"/>
+			</westerneurope>
+			<iroquois>
+				<assetreference type="GrannyModel">
+					<file>objects\spc\spc_flag\spc_flagpole_tall</file>
+				</assetreference>
+				<attach a="tall flag" frombone="bone_place00" tobone="bone_place00" syncanims="0"/>
+			</iroquois>
+			<sioux>
+				<assetreference type="GrannyModel">
+					<file>objects\spc\spc_flag\spc_flagpole_tall</file>
+				</assetreference>
+				<attach a="tall flag" frombone="bone_place00" tobone="bone_place00" syncanims="0"/>
+			</sioux>
+			<aztec>
+				<assetreference type="GrannyModel">
+					<file>objects\spc\spc_flag\spc_flagpole_tall</file>
+				</assetreference>
+				<attach a="tall flag" frombone="bone_place00" tobone="bone_place00" syncanims="0"/>
+			</aztec>
+			<chinese>
+				<assetreference type="GrannyModel">
+					<file>objects\spc\spc_flag\spc_flagpole_tall</file>
+				</assetreference>
+				<attach a="tall flag" frombone="bone_place00" tobone="bone_place00" syncanims="0"/>
+			</chinese>
+			<japanese>
+				<assetreference type="GrannyModel">
+					<file>objects\spc\spc_flag\spc_flagpole_tall</file>
+				</assetreference>
+				<attach a="tall flag" frombone="bone_place00" tobone="bone_place00" syncanims="0"/>
+			</japanese>
+			<indian>
+				<assetreference type="GrannyModel">
+					<file>objects\spc\spc_flag\spc_flagpole_tall</file>
+				</assetreference>
+				<attach a="tall flag" frombone="bone_place00" tobone="bone_place00" syncanims="0"/>
+			</indian>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
+			<width>1.50</width>
+			<height>1.50</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<component>spc_flag</component>
+	</anim>
+</animfile>

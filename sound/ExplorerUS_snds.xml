@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="ExplorerUS">
+		<soundtype name="Select">
+			<soundset name="CooperSelect"/>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="CooperGrunt"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="CooperDeath"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MilitaryBirth"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="CooperAcknowledge"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="CooperAttack"/>
+				</choice>
+				<choice name="build">
+					<soundset name="CooperAcknowledge"/>
+				</choice>
+				<choice name="Huntable"/>
+				<choice name="Tree"/>
+				<choice name="AbstractMine"/>
+				<choice name="AbstractFarm"/>
+				<choice name="AbstractResourceCrate"/>
+				<choice name="AbstractFruit"/>
+			</targetlogic>
+		</soundtype>
+		<soundtype name="KnockOut">
+			<soundset name="CooperDisabled"/>
+		</soundtype>
+		<soundtype name="KnockOutRevived">
+			<soundset name="CooperRevive"/>
+		</soundtype>
+		<soundtype name="Ransomed">
+			<soundset name="CooperRansom"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

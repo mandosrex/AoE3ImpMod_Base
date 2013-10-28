@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>Bip01 Prop1</definebone>
+	<definebone>bone_axe</definebone>
+	<definebone>bone_hat</definebone>
+	<definebone>bone_weapon1_attach</definebone>
+	<definebone>bone_weapon2_attach</definebone>
+	<attachment>
+		axe
+		<include>units\natives\iroquois\tomahawk_warrior\tomahawk_warrior_axe.xml</include>
+	</attachment>
+	<attachment>
+		torch
+		<include>effects\projectiles\torch.xml</include>
+	</attachment>
+	<attachment>
+		hat_2
+		<component>
+			hat_2
+			<assetreference type="GrannyModel">
+				<file>units\natives\iroquois\tomahawk_warrior\tomahawk_warrior_2_hat</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hat_2</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hat_3
+		<component>
+			hat_3
+			<assetreference type="GrannyModel">
+				<file>units\natives\iroquois\tomahawk_warrior\tomahawk_warrior_3_hat</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hat_3</component>
+		</anim>
+	</attachment>
+	<attachment>
+		measure tape
+		<component>
+			measure tape
+			<assetreference type="GrannyModel">
+				<file>units\attachments\measuring_tape</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>measure tape</component>
+		</anim>
+	</attachment>
+	<attachment>
+		saw
+		<component>
+			saw_villager
+			<assetreference type="GrannyModel">
+				<file>units\attachments\saw_villager</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>saw_villager</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hammer
+		<component>
+			hammer
+			<assetreference type="GrannyModel">
+				<file>units\attachments\hammer_villager</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hammer</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\natives\iroquois\tomahawk_warrior\tomahawk_warrior_1</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\natives\iroquois\tomahawk_warrior\lp_tomahawk_warrior_1</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</none>
+			<elitetomahawks>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\natives\iroquois\tomahawk_warrior\tomahawk_warrior_2</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\natives\iroquois\tomahawk_warrior\lp_tomahawk_warrior_2</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+				<attach a="hat_2" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+			</elitetomahawks>
+			<championtomahawk>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\natives\iroquois\tomahawk_warrior\tomahawk_warrior_3</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\natives\iroquois\tomahawk_warrior\lp_tomahawk_warrior_3</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+				<attach a="hat_3" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+			</championtomahawk>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+	</component>
+	<anim>
+		kidnap_hostageA_idle
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleD</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleB</file>
+			<weight>20</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleC</file>
+			<weight>20</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_idleA</file>
+			<weight>20</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		kidnap_hostageA_exit
+		<assetreference type="GrannyAnim">
+			<file>nuggets\outlaw_kidnap\kidnap_hostageA_exit</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\iroquois\attack1</file>
+			<tag type="Attack">0.33</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.29</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_melee_attackB</file>
+			<tag type="Attack">0.47</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.43</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\iroquois\attack2</file>
+			<tag type="Attack">0.32</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.30</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\iroquois\volley_ranged_attack</file>
+			<tag type="Attack">0.42</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.38</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\iroquois\volley_ranged_attack2</file>
+			<tag type="Attack">0.37</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.32</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\iroquois\volley_ranged_attack3</file>
+			<tag type="Attack">0.31</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.27</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_reload
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\iroquois\volley_reload</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_A</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.52</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_B</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.18</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_C</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.73</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_A</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.52</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_B</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.19</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\death_standing_rifleman_C</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.73</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_death</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathB</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathC</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_deathD</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_havoc_flail
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_flail</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_havoc_spin
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_spin</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_B</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_C</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_D</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\cheer_E</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Recoil
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_C</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_E</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\recoil_G</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		HC_openDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorOpen</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		HC_closeDoor
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\doorClose</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throw_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		Raze_Attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwB</file>
+			<tag type="Attack">0.56</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.40</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\torch_throwA</file>
+			<tag type="Attack">0.61</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.47</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_ranged_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\cover_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\cover_bored</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\cover_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.20</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.70</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.69</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.69</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\iroquois\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\volley_boredA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\volley_boredB</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.61</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.11</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.69</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.69</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\defend_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\defend_bored</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\volley_kneeling_ranged_attack</file>
+			<tag type="Attack">0.42</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.38</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\iroquois\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.61</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.11</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.69</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.69</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="PROP1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="PROP2" syncanims="0"/>
+	</anim>
+	<anim>
+		Nugget_rock_idle
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_rock\rock_anim_idleA</file>
+			<weight>70</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_rock\rock_anim_boredA</file>
+			<weight>20</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_rock\rock_anim_boredB</file>
+			<weight>10</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		Nugget_rock_exit
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_rock\rock_anim_exit</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		Wolf_Treebent_Captive_Idle
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_treebent\wolf_treebent_captive_idle1</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_treebent\wolf_treebent_captive_idle2</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_treebent\wolf_treebent_captive_idle3</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		Wolf_Treebent_Captive_Exit
+		<assetreference type="GrannyAnim">
+			<file>nuggets\wolf_treebent\wolf_treebent_captive_exit</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		Bear_Tree_Captive_Idle
+		<assetreference type="GrannyAnim">
+			<file>nuggets\bear_tree\bear_tree_captive_idle1</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>nuggets\bear_tree\bear_tree_captive_idle2</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		Bear_Tree_Captive_Exit
+		<assetreference type="GrannyAnim">
+			<file>nuggets\bear_tree\bear_tree_captive_exit</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		BuildLifting
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\BuildLifting</file>
+			<weight>90</weight>
+			<tag type="Attack">0.66</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.38</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.67</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\human_build_standing_idlea</file>
+			<weight>10</weight>
+			<tag type="Attack">0.66</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="hammer" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		BuildSaw
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\human_saw_standing</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildSaw">0.09</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildSaw">0.32</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="BuildSaw">0.70</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\human_saw_standing_idlea</file>
+			<weight>10</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="saw" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		BuildStaking
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\human_saw_a</file>
+			<weight>90</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\human_saw_idlea</file>
+			<weight>10</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="saw" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>animation_library\villager\villager_male_build1</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.66</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\Build_b</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\Build_c</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\Build_d</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\Build_e</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\Build_f</file>
+			<weight>10</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="measure tape" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"/>
+		<attach a="hammer" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon1_attach" syncanims="0"/>
+		<attach a="axe" frombone="bone_axe" tobone="bone_weapon2_attach" syncanims="0"/>
+	</anim>
+</animfile>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_hat</definebone>
+	<definebone>Bip01_AttachRt</definebone>
+	<definebone>Bip01 Prop1</definebone>
+	<definebone>Bip01_AttachLt</definebone>
+	<definebone>Bip01 Prop2</definebone>
+	<attachment>
+		hat
+		<component>
+			hat
+			<assetreference type="GrannyModel">
+				<file>units\squad\flag_bearer\flag_bearer_hat</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hat</component>
+		</anim>
+	</attachment>
+	<attachment>
+		pistol
+		<component>
+			pistol
+			<assetreference type="GrannyModel">
+				<file>units\attachments\pistol</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>pistol</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<flag>
+			<texture>units\squad\flag_bearer\flag_default</texture>
+		</flag>
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\squad\flag_bearer\flag_bearer_default</file>
+				</assetreference>
+			</none>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
+		</decal>
+		<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\flag_bearer\flag_bearer_idle_a</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\2_leg_task\flagbearer_flagwave_a</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\flag_bearer\flagbearer_bored_a</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\flag_bearer\flag_bearer_walk_a</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.13</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.64</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\flag_bearer\flag_bearer_walk_a</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.13</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.64</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\flag_bearer\flag_bearer_jog_a</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.10</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>animation_library\shared\human_hero_knockout</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		FlagWave
+		<assetreference type="GrannyAnim">
+			<file>animation_library\flag_bearer\flagbearer_flagwave_a</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

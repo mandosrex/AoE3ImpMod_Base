@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		gun
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\asians\spc\nanib\nanib_lp_gun</file>
+				</assetreference>
+			</none>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>gun</component>
+	</anim>
+</animfile>

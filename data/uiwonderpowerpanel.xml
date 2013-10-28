@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+	<gadget name="uiwonderpowerpanel" type="uiwonderpowerpanel" size1024="0 0 1 1" transparent="" background="">
+		<gadget name="WonderPowerPanel-Button0" type="button" size1024="325 500 794 550" z="0" hidden="">
+			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
+		</gadget>
+		<gadget name="WonderPowerPanel-Button1" type="button" size1024="380 500 430 550" z="0" hidden="">
+			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
+		</gadget>
+		<gadget name="WonderPowerPanel-Button2" type="button" size1024="435 500 485 550" z="0" hidden="">
+			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
+		</gadget>
+		<gadget name="WonderPowerPanel-Button3" type="button" size1024="490 500 540 550" z="0" hidden="">
+			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
+		</gadget>
+		<gadget name="WonderPowerPanel-Button4" type="button" size1024="545 500 595 550" z="0" hidden="">
+			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
+		</gadget>
+	</gadget>
+</layout>

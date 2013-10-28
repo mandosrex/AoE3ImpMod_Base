@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		hats
+		<logic type="Tech">
+			<veterancrossbowmen>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\crossbow\crossbow_2age_hat</file>
+				</assetreference>
+			</veterancrossbowmen>
+			<guardcrossbowmen>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\crossbow\crossbow_3age_hat</file>
+				</assetreference>
+			</guardcrossbowmen>
+			<imperialcrossbowmen>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\crossbow\crossbow_4age_hat</file>
+				</assetreference>
+			</imperialcrossbowmen>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>hats</component>
+	</anim>
+</animfile>

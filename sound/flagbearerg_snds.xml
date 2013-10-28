@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="FlagBearerG">
+		<soundtype name="Select">
+			<soundset name="GermanSettlerMaleSelect"/>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="GenericMaleGrunt"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="GenericMaleDeath"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MilitaryBirth"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="GermanSettlerMaleAcknowledge"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="GermanSettlerMaleAcknowledge"/>
+				</choice>
+				<choice name="Tree"/>
+				<choice name="build"/>
+			</targetlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

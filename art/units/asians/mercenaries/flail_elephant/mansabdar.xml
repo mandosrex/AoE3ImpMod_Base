@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>HS Bone Hoof Frnt Lt</definebone>
+	<definebone>HS Bone Hoof Frnt Rt</definebone>
+	<definebone>HS Bone Hoof Back Lt</definebone>
+	<definebone>HS Bone Hoof Back Rt</definebone>
+	<definebone>bone_gun</definebone>
+	<definebone>Bip01 Prop1</definebone>
+	<attachment>
+		Horse_Dust
+		<component>
+			Horse_Dust
+			<assetreference type="ParticleSystem">
+				<file>effects\animal particles\horse_dust.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>Horse_Dust</component>
+		</anim>
+	</attachment>
+	<attachment>
+		spear
+		<include>effects\projectiles\torch_flipped.xml</include>
+	</attachment>
+	<attachment>
+		aura
+		<component>
+			aura
+			<assetreference type="GrannyModel">
+				<file>effects\ypack_auras\aura_daimyo_cav</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>aura</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\mercenaries\flail_elephant\FlaIl_elephant_Mansabdar</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\mercenaries\flail_elephant\FlaIl_elephant_Mansabdar</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+				<attach a="aura" frombone="bone_aura" tobone="bone_master" syncanims="0"/>
+			</none>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_consulate_64x64</texture>
+			<selectedtexture>shadows_selections\selection_consulate_64x64</selectedtexture>
+			<width>3.50</width>
+			<height>5.00</height>
+			<zoffset>0.50</zoffset>
+		</decal>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_walk</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_walk</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_run</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+	</anim>
+	<anim>
+		Bored
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_bored01</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_bored02</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Attack_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_attack01</file>
+			<weight>40</weight>
+			<tag type="Attack">0.57</tag>
+			<tag type="SpecificSoundSet" set="FlailElephant">0.45</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_attack02</file>
+			<weight>40</weight>
+			<tag type="Attack">0.57</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Attack_trample
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_trample01</file>
+			<weight>40</weight>
+			<tag type="Attack">0.57</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_death01</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_death01</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_death01</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.63</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_cheer01</file>
+			<weight>255</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_idle01</file>
+			<weight>100</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_attack01</file>
+			<weight>40</weight>
+			<tag type="Attack">0.57</tag>
+			<tag type="CameraShake" force="0.05" duration="0.1">0.57</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_attack02</file>
+			<weight>40</weight>
+			<tag type="Attack">0.57</tag>
+			<tag type="CameraShake" force="0.05" duration="0.1">0.57</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Idle_Trample
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_trample_idle01</file>
+			<weight>100</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Walk_Trample
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_trample_walk01</file>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Hand">0.08</tag>
+			<tag type="FootstepLeft" footprinttype="Elephant" footprintbone="BipElephant01 L Foot">0.98</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Hand">0.65</tag>
+			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_idle01</file>
+			<weight>100</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_idle02</file>
+			<weight>50</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\mercenaries\flail_elephant\flail_elephant_bored01</file>
+			<weight>25</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

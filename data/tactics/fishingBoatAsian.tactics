@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69147">Build</name>
+		<type>Build</type>
+		<anim>Build</anim>
+		<maxrange>0.4</maxrange>
+		<rate type="Building">1.0</rate>
+	</action>
+	<action>
+		<name stringid="38133">RangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<reloadanim>Reload</reloadanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Arrow</projectile>
+		<impacteffect>effects\impacts\arrow</impacteffect>
+		<rate type="Unit">1.0 </rate>
+		<rof>2.000000</rof>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<maxrange>6</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<speedboost>1</speedboost>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>ArrowFlaming</projectile>
+		<anim>Raze_attack</anim>
+		<idleanim>Raze_idle</idleanim>
+	</action>
+	<action>
+		<name stringid="38133">RangedAttack2</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack2</anim>
+		<reloadanim>Reload</reloadanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="Unit">1.0 </rate>
+		<rof>2.000000</rof>
+		<active>0</active>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack2</name>
+		<type>Attack</type>
+		<maxrange>6</maxrange>
+		<rate type="Building">1.0 </rate>
+		<active>0</active>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<speedboost>1</speedboost>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>TorchProjectile</projectile>
+		<anim>Raze_attack2</anim>
+		<idleanim>Raze_idle2</idleanim>
+	</action>
+	<action>
+		<name stringid="69148">Discover</name>
+		<type>Discover</type>
+		<anim>GatherFish</anim>
+		<maxrange>0.2</maxrange>
+		<rate type="AbstractNuggetWater">1.0</rate>
+	</action>
+	<action>
+		<dbaction>BoatManager</dbaction>
+		<name stringid="69156">BoatManager</name>
+		<type>BoatManager</type>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="42178">Gather</name>
+		<type>Gather</type>
+		<maxrange>1.0</maxrange>
+		<rate type="AbstractFish">0.4</rate>
+		<rate type="AbstractWhale">0.4</rate>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action priority="100">BuildingAttack</action>
+		<action priority="100">BuildingAttack2</action>
+		<action priority="75">RangedAttack</action>
+		<action priority="75">RangedAttack2</action>
+		<action priority="75">FlamingAttack</action>
+		<action>Discover</action>
+		<action>Gather</action>
+		<action>Build</action>
+		<action>BoatManager</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

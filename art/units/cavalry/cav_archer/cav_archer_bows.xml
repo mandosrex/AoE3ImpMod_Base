@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		bows
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\cavalry\cav_archer\cav_archer_1age_bow</file>
+				</assetreference>
+			</none>
+			<guardcavalryarchers>
+				<assetreference type="GrannyModel">
+					<file>units\cavalry\cav_archer\cav_archer_2age_bow</file>
+				</assetreference>
+			</guardcavalryarchers>
+			<imperialcavalryarchers>
+				<assetreference type="GrannyModel">
+					<file>units\cavalry\cav_archer\cav_archer_3age_bow</file>
+				</assetreference>
+			</imperialcavalryarchers>
+			<imperialtartarloyalist>
+				<assetreference type="GrannyModel">
+					<file>units\cavalry\cav_archer\cav_archer_3age_bow</file>
+				</assetreference>
+			</imperialtartarloyalist>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>bows</component>
+	</anim>
+</animfile>

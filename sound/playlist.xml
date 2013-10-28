@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<playlists>
+	<playlist name="Primary">
+		<musicset name="MarchtoWar">
+			<file volume="1.0" mood="normal">Music\Standard\MarchtoWar.mp3</file>
+		</musicset>
+		<musicset name="GetYeSum">
+			<file volume="1.0" mood="normal">Music\Standard\GetYeSum.mp3</file>
+		</musicset>
+		<musicset name="BlackFamily1">
+			<file volume="1.0" mood="normal">Music\Standard\black1.mp3</file>
+		</musicset>
+		<musicset name="BlackFamily2">
+			<file volume="1.0" mood="normal">Music\Standard\black2.mp3</file>
+		</musicset>
+		<musicset name="Muptop">
+			<file volume="1.0" mood="normal">Music\Standard\Muptop.mp3</file>
+		</musicset>
+		<musicset name="BlackFamily3">
+			<file volume="1.0" mood="normal">Music\Standard\black3.mp3</file>
+		</musicset>
+		<musicset name="FeloniousJunk">
+			<file volume="1.0" mood="normal">Music\Standard\FeloniousJunk.mp3</file>
+		</musicset>
+		<musicset name="TADMusic1">
+			<file volume="1.0" mood="normal">Music\Standard\asian1.mp3</file>
+		</musicset>
+		<musicset name="HappyToYou">
+			<file volume="1.0" mood="normal">Music\Standard\HappyToYou.mp3</file>
+		</musicset>
+		<musicset name="GetOffMyBand">
+			<file volume="1.0" mood="normal">Music\Standard\GetOffMyBand.mp3</file>
+		</musicset>
+		<musicset name="AsianFeel">
+			<file volume="1.0" mood="normal">Music\Standard\AsianFeel.mp3</file>
+		</musicset>
+		<musicset name="MajorRewriteGeneralChunks">
+			<file volume="1.0" mood="normal">Music\Standard\MajorRewriteGeneralChunks.mp3</file>
+		</musicset>
+		<musicset name="IMenevero">
+			<file volume="1.0" mood="normal">Music\Standard\IMenevero.mp3</file>
+		</musicset>
+		<musicset name="TADMusic2">
+			<file volume="1.0" mood="normal">Music\Standard\asian2.mp3</file>
+		</musicset>
+		<musicset name="LeisurelyBrows">
+			<file volume="1.0" mood="normal">Music\Standard\LeisurelyBrows.mp3</file>
+		</musicset>
+		<musicset name="OfLicious">
+			<file volume="1.0" mood="normal">Music\Standard\OfLicious.mp3</file>
+		</musicset>
+		<musicset name="TADMusic3">
+			<file volume="1.0" mood="normal">Music\Standard\asian3.mp3</file>
+		</musicset>
+		<musicset name="LastNameCraneIchabod">
+			<file volume="1.0" mood="normal">Music\Standard\LastNameCraneIchabod.mp3</file>
+		</musicset>
+		<musicset name="DidntSeeItComing">
+			<file volume="1.0" mood="normal">Music\Standard\DidntSeeItComing.mp3</file>
+		</musicset>
+		<musicset name="TADMusic4">
+			<file volume="1.0" mood="normal">Music\Standard\asian4.mp3</file>
+		</musicset>
+	</playlist>
+	<playlist name="battle">
+		<file volume="1.0">Music\Battle\BubbleChum.mp3</file>
+		<file volume="1.0">Music\Battle\Ruinion.mp3</file>
+		<file volume="1.0">Music\Battle\CamelsStrawsAndBacks.mp3</file>
+		<file volume="1.0">Music\Battle\Avenger.mp3</file>
+	</playlist>
+	<playlist name="WonGame">
+		<file volume="1.0" mood="normal">Music\Interface\OldTimer.mp3</file>
+	</playlist>
+	<playlist name="WonGameRevOrTrade">
+		<file volume="1.0" mood="normal">Music\Interface\GeluAustrinum.mp3</file>
+	</playlist>
+	<playlist name="LostGame">
+		<file volume="1.0" mood="normal">Music\Interface\AcrossTheOcean.mp3</file>
+	</playlist>
+</playlists>

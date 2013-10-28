@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="Axeman">
+		<soundtype name="Select">
+			<civlogic>
+				<choice name="Nature"/>
+				<choice name="French">
+					<soundset name="FrenchCrossbowmanSelect"/>
+				</choice>
+				<choice name="British"/>
+				<choice name="Russians">
+					<soundset name="RussianPikemanSelect"/>
+				</choice>
+				<choice name="Ottomans"/>
+				<choice name="Dutch">
+					<soundset name="DutchCrossbowmanSelect"/>
+				</choice>
+				<choice name="Spanish">
+					<soundset name="SpanishCrossbowmanSelect"/>
+				</choice>
+				<choice name="Portuguese">
+					<soundset name="PortugueseCrossbowmanSelect"/>
+				</choice>
+				<choice name="Germans">
+					<soundset name="GermanCrossbowmanSelect"/>
+				</choice>
+				<choice name="Aztecs"/>
+				<choice name="Incas"/>
+				<choice name="Maya"/>
+				<choice name="Seminoles"/>
+				<choice name="Caribs"/>
+				<choice name="Cherokee"/>
+				<choice name="Iroquois"/>
+				<choice name="Cree"/>
+				<choice name="Lakota"/>
+				<choice name="Comanche"/>
+				<choice name="Nootka"/>
+				<choice name="Tupi"/>
+				<choice name="SPCAct1">
+					<soundset name="BritishLongbowmanSelect"/>
+				</choice>
+				<choice name="SPCAct2">
+					<soundset name="BritishLongbowmanSelect"/>
+				</choice>
+			</civlogic>
+		</soundtype>
+		<soundtype name="Grunt">
+			<soundset name="GenericMaleGrunt"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="GenericMaleDeath"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="MilitaryBirth"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<civlogic>
+				<choice name="Nature">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="French">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="FrenchCrossbowmanAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="FrenchCrossbowmanAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="British">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Russians">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="RussianPikemanAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="RussianPikemanAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="Ottomans">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Dutch">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="DutchCrossbowmanAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="DutchCrossbowmanAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="Spanish">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="SpanishCrossbowmanAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="SpanishCrossbowmanAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="Portuguese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="PortugueseCrossbowmanAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="PortugueseCrossbowmanAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="Germans">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="GermanCrossbowmanAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="GermanCrossbowmanAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="Aztecs">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Incas">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Maya">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Seminoles">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Caribs">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Cherokee">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Iroquois">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Cree">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Lakota">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Comanche">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Nootka">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="Tupi">
+					<targetlogic>
+						<choice name="default"/>
+						<choice name="enemy"/>
+					</targetlogic>
+				</choice>
+				<choice name="SPCAct1">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishLongbowmanAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishLongbowmanAttack"/>
+						</choice>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="SPCAct2">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishLongbowmanAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishLongbowmanAttack"/>
+						</choice>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+			</civlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="xpIronclad">
+		<soundtype name="Select">
+			<civlogic>
+				<choice name="Nature"/>
+				<choice name="Spanish">
+					<soundset name="SpanishFrigateSelect"/>
+				</choice>
+				<choice name="British">
+					<soundset name="BritishFrigateSelect"/>
+				</choice>
+				<choice name="French">
+					<soundset name="FrenchFrigateSelect"/>
+				</choice>
+				<choice name="Portuguese">
+					<soundset name="PortugueseFrigateSelect"/>
+				</choice>
+				<choice name="Dutch">
+					<soundset name="DutchFrigateSelect"/>
+				</choice>
+				<choice name="Russians">
+					<soundset name="RussianFrigateSelect"/>
+				</choice>
+				<choice name="Germans">
+					<soundset name="GermanFrigateSelect"/>
+				</choice>
+				<choice name="Ottomans">
+					<soundset name="OttomanFrigateSelect"/>
+				</choice>
+				<choice name="USA">
+					<soundset name="SPCMilitiaSelect"/>
+				</choice>
+				<choice name="Japanese">
+					<soundset name="PortugueseFrigateSelect"/>
+				</choice>
+				<choice name="Indians">
+					<soundset name="PortugueseFrigateSelect"/>
+				</choice>
+				<choice name="SPCJapanese">
+					<soundset name="PortugueseFrigateSelect"/>
+				</choice>
+				<choice name="SPCIndians">
+					<soundset name="PortugueseFrigateSelect"/>
+				</choice>
+				<choice name="SPCAct1"/>
+				<choice name="SPCAct2"/>
+				<choice name="SPCAct3">
+					<soundset name="SPCMilitiaSelect"/>
+				</choice>
+				<choice name="Pirate"/>
+				<choice name="TheCircle"/>
+				<choice name="NativeAmerican"/>
+				<choice name="XPIroquois"/>
+				<choice name="XPSioux"/>
+				<choice name="XPAztec"/>
+				<choice name="XPSPC"/>
+				<choice name="Aztecs"/>
+				<choice name="Caribs"/>
+				<choice name="Cherokee"/>
+				<choice name="Comanche"/>
+				<choice name="Cree"/>
+				<choice name="Incas"/>
+				<choice name="Iroquois"/>
+				<choice name="Lakota"/>
+				<choice name="Maya"/>
+				<choice name="Nootka"/>
+				<choice name="Seminoles"/>
+				<choice name="Tupi"/>
+				<choice name="Zapotec"/>
+				<choice name="Huron"/>
+				<choice name="Cheyenne"/>
+				<choice name="Klamath"/>
+				<choice name="Mapuche"/>
+				<choice name="Navajo"/>
+				<choice name="Apache"/>
+				<choice name="Louverture"/>
+				<choice name="Washington"/>
+				<choice name="Hidalgo"/>
+				<choice name="Bonifacio"/>
+				<choice name="Bolivar"/>
+				<choice name="SanMartin"/>
+				<choice name="Santander"/>
+				<choice name="OHiggins"/>
+			</civlogic>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="ShipDeath"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="ShipBirth"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<civlogic>
+				<choice name="Nature"/>
+				<choice name="Spanish">
+					<soundset name="SpanishFrigateAcknowledge"/>
+				</choice>
+				<choice name="British">
+					<soundset name="BritishFrigateAcknowledge"/>
+				</choice>
+				<choice name="French">
+					<soundset name="FrenchFrigateAcknowledge"/>
+				</choice>
+				<choice name="Portuguese">
+					<soundset name="PortugueseFrigateAcknowledge"/>
+				</choice>
+				<choice name="Dutch">
+					<soundset name="DutchFrigateAcknowledge"/>
+				</choice>
+				<choice name="Russians">
+					<soundset name="RussianFrigateAcknowledge"/>
+				</choice>
+				<choice name="Germans">
+					<soundset name="GermanFrigateAcknowledge"/>
+				</choice>
+				<choice name="Ottomans">
+					<soundset name="OttomanFrigateAcknowledge"/>
+				</choice>
+				<choice name="USA">
+					<soundset name="SPCMilitiaAcknowledge"/>
+				</choice>
+				<choice name="Japanese">
+					<soundset name="PortugueseFrigateAcknowledge"/>
+				</choice>
+				<choice name="Indians">
+					<soundset name="PortugueseFrigateAcknowledge"/>
+				</choice>
+				<choice name="SPCJapanese">
+					<soundset name="PortugueseFrigateAcknowledge"/>
+				</choice>
+				<choice name="SPCIndians">
+					<soundset name="PortugueseFrigateAcknowledge"/>
+				</choice>
+				<choice name="SPCAct1"/>
+				<choice name="SPCAct2"/>
+				<choice name="SPCAct3">
+					<soundset name="SPCMilitiaAcknowledge"/>
+				</choice>
+				<choice name="Pirate"/>
+				<choice name="TheCircle"/>
+				<choice name="NativeAmerican"/>
+				<choice name="XPIroquois"/>
+				<choice name="XPSioux"/>
+				<choice name="XPAztec"/>
+				<choice name="XPSPC"/>
+				<choice name="Aztecs"/>
+				<choice name="Caribs"/>
+				<choice name="Cherokee"/>
+				<choice name="Comanche"/>
+				<choice name="Cree"/>
+				<choice name="Incas"/>
+				<choice name="Iroquois"/>
+				<choice name="Lakota"/>
+				<choice name="Maya"/>
+				<choice name="Nootka"/>
+				<choice name="Seminoles"/>
+				<choice name="Tupi"/>
+				<choice name="Zapotec"/>
+				<choice name="Huron"/>
+				<choice name="Cheyenne"/>
+				<choice name="Klamath"/>
+				<choice name="Mapuche"/>
+				<choice name="Navajo"/>
+				<choice name="Apache"/>
+				<choice name="Louverture"/>
+				<choice name="Washington"/>
+				<choice name="Hidalgo"/>
+				<choice name="Bonifacio"/>
+				<choice name="Bolivar"/>
+				<choice name="SanMartin"/>
+				<choice name="Santander"/>
+				<choice name="OHiggins"/>
+			</civlogic>
+		</soundtype>
+		<soundtype name="Exists">
+			<soundset name="AmbienceShip"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

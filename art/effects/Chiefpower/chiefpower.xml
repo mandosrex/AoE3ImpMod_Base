@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_main</definebone>
+	<attachment>
+		chiefpower_a
+		<component>
+			chiefpower_a
+			<notshadowcaster/>
+			<logic type="UnitType">
+				<none>
+					<assetreference type="GrannyModel">
+						<file>effects\chiefpower\icon_small</file>
+					</assetreference>
+					<assetreference type="ParticleSystem">
+						<file>effects\Chiefpower\chiefpower_icon_unit.particle</file>
+					</assetreference>
+				</none>
+				<abstractcavalry>
+					<assetreference type="GrannyModel">
+						<file>effects\Chiefpower\Icon_</file>
+                                        <replacetexture>
+                                        <from>effects\chiefpower\Icon_mesh</from>
+                                        <to>effects\chiefpower\Icon_cavalry</to>
+                                        </replacetexture>
+					</assetreference>
+					<assetreference type="ParticleSystem">
+						<file>effects\Chiefpower\chiefpower_icon_cavalry.particle</file>
+					</assetreference>
+				</abstractcavalry>
+				<abstractartillery>
+					<assetreference type="GrannyModel">
+						<file>effects\Chiefpower\Icon_</file>
+					</assetreference>
+					<assetreference type="ParticleSystem">
+						<file>effects\Chiefpower\chiefpower_icon_artillery.particle</file>
+					</assetreference>
+				</abstractartillery>
+			</logic>
+		</component>
+		<anim>
+			Idle
+			<component>chiefpower_a</component>
+		</anim>
+	</attachment>
+	<component>
+		chiefpower_a
+		<assetreference type="GrannyModel">
+			<file>effects\Chiefpower\chiefpower</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<width>0.00</width>
+			<height>0.00</height>
+			<zoffset>0.00</zoffset>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<component>chiefpower_a</component>
+		<attach a="chiefpower_a" frombone="HITPOINTBAR" tobone="HITPOINTBAR" syncanims="0"/>
+	</anim>
+</animfile>
