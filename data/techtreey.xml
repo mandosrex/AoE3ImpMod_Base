@@ -157,8 +157,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>VeteranDragoonsShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialManOWarUS</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitorsUS</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>AdvancedGatlingGun</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WoodenFortifiedWalls</Effect>
@@ -330,8 +328,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialManOWar</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionLouverture</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSantander</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -528,8 +524,6 @@
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionHidalgo</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSantander</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
@@ -702,8 +696,6 @@
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionLouverture</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionWashington</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
@@ -879,8 +871,6 @@
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBonifacio</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionWashington</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
@@ -1045,8 +1035,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionHidalgo</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -1202,8 +1190,6 @@
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBolivar</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBonifacio</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -1379,8 +1365,6 @@
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionOHiggins</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSantander</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
@@ -1551,8 +1535,6 @@
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionOHiggins</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBolivar</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -5576,6 +5558,8 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
 			<Effect type ='SetName' proto ='Stagecoach' culture ='none' newName ='780736'></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='CopyUnitPortraitAndIcon' unittype ='Stagecoach' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ResourceWagon</Target></Effect>
@@ -5768,8 +5752,6 @@
 				<Target type ='ProtoUnit'>xpHorseArtillery</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Saloon</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
