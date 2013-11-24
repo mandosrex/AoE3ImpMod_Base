@@ -3,7 +3,7 @@
 <homecity>
 	<civ>Pirate</civ>
 	<name>Philadelphia</name>
-	<heroname>Black Family Estate</heroname>
+	<heroname>Wind Feather</heroname>
 	<gatherpointunit>HomeCityGatherFlag</gatherpointunit>
 	<visual>spc\xspc_homecity.xml</visual>
 	<watervisual>spc\xspc_homecity_water.xml</watervisual>
@@ -1333,7 +1333,6 @@
 				<card>HCShipFoodCrates1</card>
 				<card>HCShipFoodCrates2</card>
 				<card>HCShipWoodCrates1</card>
-				<card>HCFrontierDefenses</card>
 				<card>HCShipCoveredWagons</card>
 				<card>HCXPSPCShipColonialMilitia1</card>
 				<card>HCShipMusketeers1</card>
@@ -1342,7 +1341,6 @@
 				<card>HCShipGrenadiers1</card>
 				<card>HCShipFalconets1</card>
 				<card>HCAdvancedArtillery</card>
-				<card>HCUnlockFort</card>
 				<card>HCRoyalDecreeXP</card>
 			</cards>
 		</deck>
@@ -1355,7 +1353,6 @@
 				<card>HCShipFoodCrates1</card>
 				<card>HCShipFoodCrates2</card>
 				<card>HCShipWoodCrates1</card>
-				<card>HCFrontierDefenses</card>
 				<card>HCShipCoveredWagons</card>
 				<card>HCXPSPCShipColonialMilitia1</card>
 				<card>HCShipMusketeers1</card>
@@ -1364,7 +1361,6 @@
 				<card>HCShipGrenadiers1</card>
 				<card>HCShipFalconets1</card>
 				<card>HCAdvancedArtillery</card>
-				<card>HCUnlockFort</card>
 				<card>HCRoyalDecreeXP</card>
 			</cards>
 		</deck>
