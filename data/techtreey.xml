@@ -5021,7 +5021,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChampionRams</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImpLegendaryRams</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>TownGuard</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImprovedWallsNative</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImprovedWallsNativeSx</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Civilization</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SPCCherokeeWarHut</Target></Effect>
@@ -57498,7 +57498,11 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='BlackBeardShip' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Privateer' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Privateer' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Privateer' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Privateer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
@@ -57525,6 +57529,27 @@
 			<Effect type ='TechStatus' status ='active'>MightyNoblesHut</Effect>
 			<Effect type ='TechStatus' status ='active'>TownGuard</Effect>
 			<Effect type ='TextOutput'>41855</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ImprovedWallsNativeSx' type ='Normal'>
+		<DBID>5274</DBID>
+		<DisplayNameID>77794</DisplayNameID>
+		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<ResearchPoints>80.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\stone_walls\stone_walls</Icon>
+		<RolloverTextID>23451</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.70' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractWall</Target></Effect>
+			<Effect type ='Data' amount ='0.03' subtype ='UnitRegenRate' unittype ='AbstractWall' relativity ='Assign'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 </TechTree>
