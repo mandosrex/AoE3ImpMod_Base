@@ -191,17 +191,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHalberdiers</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GuardGrenadiers</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranGrenadiers</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialGrenadiers</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Coutelier</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GuardCoutelier</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialCoutelier</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardPikemen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardCrossbowmen</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -3387,30 +3376,8 @@
 			<Effect type ='TechStatus' status ='active'>RGRedcoats</Effect>
 			<Effect type ='TechStatus' status ='active'>RGLifeGuardHussars</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardGrenadiers</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardNativeTechsPI</Effect>
 			<Effect type ='TechStatus' status ='active'>HeavyHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
@@ -3490,30 +3457,8 @@
 			<Effect type ='TechStatus' status ='active'>GuardMusketeersUS</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardSabers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardGrenadiersUS</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardNativeTechsPI</Effect>
 			<Effect type ='TechStatus' status ='active'>HeavyHorseArtilleryUS</Effect>
 			<Effect type ='TechStatus' status ='active'>HeavyGatlingGun</Effect>
@@ -3594,30 +3539,8 @@
 			<Effect type ='TechStatus' status ='active'>RGVoltigeur</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardMusketeers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardHussarsF</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardNativeTechsPI</Effect>
 			<Effect type ='TechStatus' status ='active'>HeavyHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
@@ -3695,30 +3618,8 @@
 			<Effect type ='TechStatus' status ='active'>GuardSkirmishers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardHussars</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardGrenadiers</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>RGCarabineer</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardNativeTechsPI</Effect>
 			<Effect type ='TechStatus' status ='active'>HeavyHorseArtillery</Effect>
@@ -3798,30 +3699,8 @@
 			<Effect type ='TechStatus' status ='active'>GuardMusketeers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardHussars</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardSkirmishers</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardNativeTechsPI</Effect>
 			<Effect type ='TechStatus' status ='active'>HeavyHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
@@ -3898,30 +3777,8 @@
 			<Effect type ='TechStatus' status ='active'>FactoryMassProduction</Effect>
 			<Effect type ='TechStatus' status ='active'>RGCzapkaUhlans</Effect>
 			<Effect type ='TechStatus' status ='active'>RGPrussianNeedleGun</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardNativeTechsPI</Effect>
 			<Effect type ='TechStatus' status ='active'>HeavyHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
@@ -4004,30 +3861,8 @@
 			<Effect type ='TechStatus' status ='active'>GuardCavalryArchers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardJanissaries</Effect>
 			<Effect type ='TechStatus' status ='active'>RGGardener</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardNativeTechsPI</Effect>
 			<Effect type ='TechStatus' status ='active'>HeavyHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
@@ -4105,29 +3940,8 @@
 			<Effect type ='TechStatus' status ='active'>FactoryMassProduction</Effect>
 			<Effect type ='TechStatus' status ='active'>RGJinetes</Effect>
 			<Effect type ='TechStatus' status ='active'>RGGuerreiros</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardNativeTechsPI</Effect>
 			<Effect type ='TechStatus' status ='active'>HeavyHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
@@ -4208,30 +4022,8 @@
 			<Effect type ='TechStatus' status ='active'>Pillage</Effect>
 			<Effect type ='TechStatus' status ='active'>FactoryMassProduction</Effect>
 			<Effect type ='TechStatus' status ='active'>RGPavlovGrenadiers</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>RGTartarLoyalists</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardNativeTechsPI</Effect>
 			<Effect type ='TechStatus' status ='active'>HeavyHorseArtillery</Effect>
@@ -4995,31 +4787,8 @@
 			<Effect type ='Data' amount ='0.00' subtype ='EnableTradeRouteLOS' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>AANativeStartingTechsPI</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
 			<Effect type ='TechStatus' status ='active'>Bastion</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionAennas</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionHorsemen</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionMantlets</Effect>
@@ -5035,7 +4804,6 @@
 			<Effect type ='TechStatus' status ='active'>EliteHorsemen</Effect>
 			<Effect type ='TechStatus' status ='active'>EliteAennas</Effect>
 			<Effect type ='TechStatus' status ='active'>FieldCannon</Effect>
-			<Effect type ='TechStatus' status ='active'>ImprovedWallsNative</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostImperialXPIroquois' type ='Normal'>
@@ -5413,30 +5181,7 @@
 			<Effect type ='Data' amount ='0.00' subtype ='EnableTradeRouteLOS' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>AANativeStartingTechsPI</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionBowRider</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionAxeRiders</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionDogSoldierShadow</Effect>
@@ -5453,7 +5198,7 @@
 			<Effect type ='TechStatus' status ='active'>EliteBowRider</Effect>
 			<Effect type ='TechStatus' status ='active'>StrongWarHut</Effect>
 			<Effect type ='TechStatus' status ='active'>MightyWarHut</Effect>
-			<Effect type ='TechStatus' status ='active'>ImprovedWallsNative</Effect>
+			<Effect type ='TechStatus' status ='active'>ConSupport</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostIndustrialXPAztec' type ='Normal'>
@@ -5468,30 +5213,7 @@
 			<Effect type ='Data' amount ='0.00' subtype ='EnableTradeRouteLOS' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>AANativeStartingTechsPI</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionAztecs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionArrowKnight</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionCoyotemen</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionEagleKnight</Effect>
@@ -5508,7 +5230,7 @@
 			<Effect type ='TechStatus' status ='active'>EliteMacehualtins</Effect>
 			<Effect type ='TechStatus' status ='active'>ElitePumaMen</Effect>
 			<Effect type ='TechStatus' status ='active'>EliteCoyotemen</Effect>
-			<Effect type ='TechStatus' status ='active'>ImprovedWallsNative</Effect>
+			<Effect type ='TechStatus' status ='active'>ConSupport</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostImperialXPAztec' type ='Normal'>
@@ -9060,6 +8782,8 @@
 			<Effect type ='TechStatus' status ='active'>YPHonoredChuKoNu</Effect>
 			<Effect type ='TechStatus' status ='active'>ypAAAsianStandardTechsPI</Effect>
 			<Effect type ='TechStatus' status ='active'>AsianFortifiedWalls</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypPostIndustrialJapanese' type ='Normal'>
@@ -9091,6 +8815,8 @@
 			<Effect type ='TechStatus' status ='active'>YPHonoredFlamingArrow</Effect>
 			<Effect type ='TechStatus' status ='active'>ypShrineFortressUpgrade</Effect>
 			<Effect type ='TechStatus' status ='active'>AsianFortifiedWalls</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypPostIndustrialIndian' type ='Normal'>
@@ -9129,6 +8855,8 @@
 			<Effect type ='TechStatus' status ='active'>AsianFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='active'>DisciplinedSaker</Effect>
 			<Effect type ='TechStatus' status ='active'>HonoredSaker</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypPostImperialChinese' type ='Normal'>
@@ -12423,11 +12151,6 @@
 			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>NatBolasWarrior</Target></Effect>
 			<Effect type ='SetName' proto ='NatBolasWarrior' culture ='none' newName ='43068'></Effect>
-			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatHuaminca</Target></Effect>
-			<Effect type ='SetName' proto ='NatHuaminca' culture ='none' newName ='27776'></Effect>
-			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatHuaminca</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ChampionMaya' type ='Normal'>
@@ -17400,11 +17123,6 @@
 				<Target type ='ProtoUnit'>NatBolasWarrior</Target></Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>NatBolasWarrior</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatHuaminca</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatHuaminca</Target></Effect>
-			<Effect type ='SetName' proto ='NatHuaminca' culture ='none' newName ='36595'></Effect>
 			<Effect type ='SetName' proto ='NatBolasWarrior' culture ='none' newName ='36594'></Effect>
 			<Effect type ='TextOutput'>780791</Effect>
 		</Effects>
@@ -27769,6 +27487,7 @@
 				<Target type ='ProtoUnit'>xpIroquoisWarChief</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades3</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeXPIroquois' type ='Normal'>
@@ -27782,6 +27501,7 @@
 				<Target type ='ProtoUnit'>xpIroquoisWarChief</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpIroquoisWarChief</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades4</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperializeXPIroquois' type ='Normal'>
@@ -28416,6 +28136,7 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMedicineManAztec</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades3</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeXPSioux' type ='Normal'>
@@ -28435,6 +28156,7 @@
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='PetCoyote' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades3</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeXPAztec' type ='Normal'>
@@ -28450,6 +28172,7 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMedicineManAztec</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades4</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeXPSioux' type ='Normal'>
@@ -28465,6 +28188,7 @@
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='PetCoyote' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>NativeUpgrades4</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperializeXPAztec' type ='Normal'>
@@ -35615,6 +35339,7 @@
 				<Target type ='ProtoUnit'>Sapper</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IndependentG</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>Civilization</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Piracy</Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
@@ -35623,8 +35348,6 @@
 				<Target type ='ProtoUnit'>AsianFireship</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FlagBearer</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>MercHackapell</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>BlackPowderWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35680,6 +35403,7 @@
 				<Target type ='ProtoUnit'>Factory</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IndependentG</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>Civilization</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Piracy</Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
@@ -35688,8 +35412,6 @@
 				<Target type ='ProtoUnit'>AsianFireship</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FlagBearer</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>MercHighlander</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>BlackPowderWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35745,12 +35467,11 @@
 				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IndependentG</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>Civilization</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Piracy</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AsianFireship</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FlagBearer</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>MercFusilier</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>BlackPowderWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35808,12 +35529,11 @@
 				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IndependentG</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>Civilization</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Piracy</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AsianFireship</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FlagBearer</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>MercSwissPikeman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>BlackPowderWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35872,12 +35592,11 @@
 				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IndependentG</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>Civilization</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Piracy</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AsianFireship</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FlagBearer</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>MercJaeger</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>BlackPowderWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35933,12 +35652,11 @@
 				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IndependentG</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>Civilization</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Piracy</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AsianFireship</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FlagBearer</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>MercHoopThrowers</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>BlackPowderWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35996,12 +35714,11 @@
 				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IndependentG</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>Civilization</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Piracy</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AsianFireship</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FlagBearer</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>MercMameluke</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>BlackPowderWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -36060,12 +35777,11 @@
 				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IndependentG</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>Civilization</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Piracy</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AsianFireship</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FlagBearer</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>MercBlackRider</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>BlackPowderWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -36082,6 +35798,73 @@
 			<Effect type ='TechStatus' status ='active'>GuardHussars</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialHussars</Effect>
 			<Effect type ='SetName' proto ='Hussar' culture ='none' newName ='30998'></Effect>
+			<Effect type ='TechStatus' status ='active'>CalltoArmsR</Effect>
+			<Effect type ='TransformUnit' toprotoid ='FortFrontierR' fromprotoid ='FortFrontier'></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='Minuteman' relativity ='Assign'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpGatlingGun</Target></Effect>
+			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Settler</Target></Effect>
+			<Effect type ='Data' amount ='8.00' subtype ='BuildLimit' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Coureur</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Assign'>
+				<Target type ='ProtoUnit'>SettlerWagon</Target></Effect>
+			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Assign'>
+				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ChurchGalataTowerDistrict</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ChurchTopkapi</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ChurchTanzimat</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='XPRevolutionXPirate' type ='Normal'>
+		<DBID>3277</DBID>
+		<DisplayNameID>780811</DisplayNameID>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\revolution</Icon>
+		<RolloverTextID>780812</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>RevoltTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='10.00' subtype ='PlayerSpecificTrainLimitPerAction' relativity ='Assign'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Sapper</Target></Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='BuildLimit' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Factory</Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>IndependentG</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>Civilization</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Piracy</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AsianFireship</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FlagBearer</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>BlackPowderWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpColonialMilitia</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Assign'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='InitiateRevolution'></Effect>
+			<Effect type ='Data' amount ='200.00' subtype ='PopulationCap' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='BlackBeardShip' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Privateer' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>XPRevolution</Effect>
 			<Effect type ='TechStatus' status ='active'>CalltoArmsR</Effect>
 			<Effect type ='TransformUnit' toprotoid ='FortFrontierR' fromprotoid ='FortFrontier'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -57596,7 +57379,6 @@
 			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
 			<Effect type ='TechStatus' status ='active'>WarriorSocietyHuron</Effect>
 			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyLakota</Effect>
 			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedBhakti</Effect>
 			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedJesuit</Effect>
 			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedZen</Effect>
@@ -57628,8 +57410,6 @@
 			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionHuron</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionCoupRiders</Effect>
-			<Effect type ='TechStatus' status ='active'>ChampionLakota</Effect>
 			<Effect type ='TechStatus' status ='active'>ypNatHonoredBhakti</Effect>
 			<Effect type ='TechStatus' status ='active'>ypNatHonoredJesuit</Effect>
 			<Effect type ='TechStatus' status ='active'>ypNatHonoredZen</Effect>
@@ -57665,6 +57445,86 @@
 			<Effect type ='TransformUnit' toprotoid ='DockCap' fromprotoid ='Dock'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpIronclad</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='NativeUpgrades3' type ='Normal'>
+		<DBID>1343</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatAxeRiderDogSoldier</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatAxeRiderDogSoldier</Target></Effect>
+			<Effect type ='SetName' proto ='NatAxeRiderDogSoldier' culture ='none' newName ='45676'></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatHuaminca</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatHuaminca</Target></Effect>
+			<Effect type ='SetName' proto ='NatHuaminca' culture ='none' newName ='36595'></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='NativeUpgrades4' type ='Normal'>
+		<DBID>1343</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='SetName' proto ='xpCoupRider' culture ='none' newName ='47145'></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatAxeRiderDogSoldier</Target></Effect>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatAxeRiderDogSoldier</Target></Effect>
+			<Effect type ='SetName' proto ='NatAxeRiderDogSoldier' culture ='none' newName ='65764'></Effect>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatHuaminca</Target></Effect>
+			<Effect type ='SetName' proto ='NatHuaminca' culture ='none' newName ='27776'></Effect>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatHuaminca</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='Piracy' type ='Normal'>
+		<DBID>684765</DBID>
+		<DisplayNameID>780815</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<ResearchPoints>20.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\piracy</Icon>
+		<RolloverTextID>780812</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='BlackBeardShip' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Privateer' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCHeavyFortificationsSx' type ='Normal'>
+		<DBID>1688</DBID>
+		<DisplayNameID>32721</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_heavy_fortifications\hc_heavy_fortifications</Icon>
+		<RolloverTextID>32722</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>StarFort</Effect>
+			<Effect type ='TechStatus' status ='active'>FrontierBlockhouse</Effect>
+			<Effect type ='TechStatus' status ='active'>FrontierOutpost</Effect>
+			<Effect type ='TechStatus' status ='active'>FortifiedOutpost</Effect>
+			<Effect type ='TechStatus' status ='active'>FortifiedBlockhouse</Effect>
+			<Effect type ='TechStatus' status ='active'>StrongWarHut</Effect>
+			<Effect type ='TechStatus' status ='active'>MightyWarHut</Effect>
+			<Effect type ='TechStatus' status ='active'>StrongNoblesHut</Effect>
+			<Effect type ='TechStatus' status ='active'>MightyNoblesHut</Effect>
+			<Effect type ='TechStatus' status ='active'>TownGuard</Effect>
+			<Effect type ='TextOutput'>41855</Effect>
 		</Effects>
 	</Tech>
 </TechTree>

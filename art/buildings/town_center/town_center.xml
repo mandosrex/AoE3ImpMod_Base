@@ -440,6 +440,24 @@
 	<submodel>
 		east_age3
 		<attachment>
+		flag
+		<component>
+			pennant
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_nocolor</blending>
+					<texture>objects\flags\pirate</texture>
+					<width>1.50</width>
+					<height>0.90</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>pennant</component>
+		</anim>
+		</attachment>
+		<attachment>
 			base smoke
 			<component>
 				smoke base
@@ -493,6 +511,8 @@
 		</attachment>
 		<component>
 			east_age3
+		<logic type="Tech">
+			<none>
 			<logic type="LowPoly">
 				<normal>
 					<logic type="Destruction">
@@ -514,6 +534,32 @@
 					</assetreference>
 				</lowpoly>
 			</logic>
+			</none>
+			<piracy>
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="east_towncenter_age3">
+								<file>buildings\town_center\EAST\AGE_3\east_tc_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="east_towncenter_age3">
+								<file>buildings\town_center\EAST\AGE_3\east_tc_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="east_towncenter_age3">
+						<file>buildings\town_center\EAST\AGE_3\lp_east_tc_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<attach a="flag" frombone="ATTACHPOINT" tobone="GARRISONFLAG" syncanims="0"/>
+			</piracy>
+		</logic>
 			<decal>
 				<effecttype>bump</effecttype>
 				<texture>buildings\town_center\EAST\AGE_3\east_tc_ground_age3</texture>
@@ -901,6 +947,24 @@
 		</anim>
 		</attachment>
 		<attachment>
+		flag2
+		<component>
+			pennant
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_nocolor</blending>
+					<texture>objects\flags\pirate</texture>
+					<width>1.50</width>
+					<height>0.90</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>pennant</component>
+		</anim>
+		</attachment>
+		<attachment>
 			chimney smoke
 			<component>
 				smoke
@@ -1015,6 +1079,30 @@
 			</logic>
 			<attach a="flag" frombone="ATTACHPOINT" tobone="GARRISONFLAG" syncanims="0"/>
 			</ImperializeSPCAct3>
+			<piracy>
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="west_tc_age3">
+								<file>buildings\town_center\WEST\AGE_3\west_tc_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="west_tc_age3">
+								<file>buildings\town_center\WEST\AGE_3\west_tc_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="west_tc_age3">
+						<file>buildings\town_center\west\age_3\lp_west_tc_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<attach a="flag2" frombone="ATTACHPOINT" tobone="GARRISONFLAG" syncanims="0"/>
+			</piracy>
 		</logic>
 			<decal>
 				<effecttype>bump</effecttype>
@@ -1272,6 +1360,24 @@
 	<submodel>
 		med_age3
 		<attachment>
+		flag
+		<component>
+			pennant
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_nocolor</blending>
+					<texture>objects\flags\pirate</texture>
+					<width>1.50</width>
+					<height>0.90</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>pennant</component>
+		</anim>
+		</attachment>
+		<attachment>
 			base smoke
 			<component>
 				smoke base
@@ -1325,6 +1431,8 @@
 		</attachment>
 		<component>
 			med_age3
+		<logic type="Tech">
+			<none>
 			<logic type="LowPoly">
 				<normal>
 					<logic type="Destruction">
@@ -1346,6 +1454,32 @@
 					</assetreference>
 				</lowpoly>
 			</logic>
+			</none>
+			<piracy>
+			<logic type="LowPoly">
+				<normal>
+					<logic type="Destruction">
+						<p1>
+							<assetreference type="GrannyModel" shape="med_tc_age2">
+								<file>buildings\town_center\MED\AGE_3\med_tc_age3_damaged</file>
+							</assetreference>
+						</p1>
+						<p99>
+							<assetreference type="GrannyModel" shape="med_tc_age2">
+								<file>buildings\town_center\MED\AGE_3\med_tc_age3</file>
+							</assetreference>
+						</p99>
+					</logic>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel" shape="med_tc_age2">
+						<file>buildings\town_center\MED\AGE_3\lp_med_tc_age3</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+			<attach a="flag" frombone="ATTACHPOINT" tobone="GARRISONFLAG" syncanims="0"/>
+			</piracy>
+		</logic>
 			<decal>
 				<effecttype>bump</effecttype>
 				<texture>buildings\town_center\MED\AGE_2\med_tc_age2_ground</texture>

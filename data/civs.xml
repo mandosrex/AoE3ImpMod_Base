@@ -7359,6 +7359,14 @@
 		<postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_chilean</postgameflagtexture>
 	</civ>
 	<civ>
+		<name>XPirate</name>
+		<main>0</main>
+		<homecityflagtexture>objects\flags\pirate</homecityflagtexture>
+		<homecityflagbuttonset>oHigginsFlagBtn</homecityflagbuttonset>
+		<homecityflagbuttonsetlarge>oHigginsFlagBtnLarge</homecityflagbuttonsetlarge>
+		<postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_chilean</postgameflagtexture>
+	</civ>
+	<civ>
 		<name>USA</name>
 		<main>1</main>
 		<statsid>US</statsid>

@@ -1053,4 +1053,10 @@
 			<castonself>true</castonself>
 		</ability>
 	</ypDaimyoRegicide>
+	<BlackBeardShip>
+		<ability>
+			PowerBroadside
+			<rof>60</rof>
+		</ability>
+	</BlackBeardShip>
 </abilities>

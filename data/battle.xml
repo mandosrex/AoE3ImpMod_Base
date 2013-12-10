@@ -18,7 +18,7 @@
 		<allowautopick>0</allowautopick>
 		<unittype>Military</unittype>
 		<targetunittype>All</targetunittype>
-		<stance>Defensive</stance>
+		<stance>StandGround</stance>
 		<formationtype>Circle</formationtype>
 		<formationcirclelinespacing>1.1</formationcirclelinespacing>
 		<formationcirclesubgroupspacing>0.5</formationcirclesubgroupspacing>
@@ -35,11 +35,11 @@
 		<tactic>Bombard</tactic>
 		<unittype>AbstractArtillery</unittype>
 		<targetunittype>All</targetunittype>
-		<stance>StandGround</stance>
-		<formationtype>Line</formationtype>
-		<formationlinelinespacing>1.0</formationlinelinespacing>
-		<formationlinecolumnspacing>1.2</formationlinecolumnspacing>
-		<randomspacingoffset>0.35</randomspacingoffset>
+		<stance>Passive</stance>
+		<formationtype>SingleCircle</formationtype>
+		<formationcirclelinespacing>1.0</formationcirclelinespacing>
+		<formationcirclesubgroupspacing>1.0</formationcirclesubgroupspacing>
+		<randomspacingoffset>0.30</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\tactics_bombard_cur</activeicon>
@@ -52,10 +52,10 @@
 		<tactic>Limber</tactic>
 		<unittype>AbstractArtillery</unittype>
 		<targetunittype>All</targetunittype>
-		<stance>StandGround</stance>
+		<stance>Passive</stance>
 		<formationtype>Line</formationtype>
-		<formationlinelinespacing>1.0</formationlinelinespacing>
-		<formationlinecolumnspacing>1.2</formationlinecolumnspacing>
+		<formationlinelinespacing>1.2</formationlinelinespacing>
+		<formationlinecolumnspacing>1.4</formationlinecolumnspacing>
 		<randomspacingoffset>0.35</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
@@ -91,10 +91,12 @@
 		<targetunittype>All</targetunittype>
 		<stance>Defensive</stance>
 		<formationtype>Line</formationtype>
+		<canbreakformation>0</canbreakformation>
+		<canrotateinformation>1</canrotateinformation>
 		<maxnumberformationlines>3</maxnumberformationlines>
 		<formationlinelinespacing>1.6</formationlinelinespacing>
 		<formationlinecolumnspacing>1.6</formationlinecolumnspacing>
-		<randomspacingoffset>1.0</randomspacingoffset>
+		<randomspacingoffset>0.5</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\tactics_stagger_cur</activeicon>
@@ -157,8 +159,8 @@
 		<targetunittype>All</targetunittype>
 		<stance>Defensive</stance>
 		<formationtype>Line</formationtype>
-		<formationlinelinespacing>0.8</formationlinelinespacing>
-		<formationlinecolumnspacing>0.8</formationlinecolumnspacing>
+		<formationlinelinespacing>1.0</formationlinelinespacing>
+		<formationlinecolumnspacing>1.0</formationlinecolumnspacing>
 		<randomspacingoffset>0.35</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
@@ -209,10 +211,10 @@
 		<unittype>AbstractHandSiege</unittype>
 		<targetunittype>Unit</targetunittype>
 		<stance>Defensive</stance>
-		<formationtype>SingleCircle</formationtype>
+		<formationtype>Circle</formationtype>
 		<formationcirclelinespacing>1.1</formationcirclelinespacing>
 		<formationcirclesubgroupspacing>0.5</formationcirclesubgroupspacing>
-		<randomspacingoffset>0.25</randomspacingoffset>
+		<randomspacingoffset>0.35</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\tactics_cover_cur</activeicon>
@@ -232,9 +234,9 @@
 		<targetunittype>All</targetunittype>
 		<stance>Passive</stance>
 		<formationtype>Box</formationtype>
-		<formationboxlinespacing>1.2</formationboxlinespacing>
+		<formationboxlinespacing>1.0</formationboxlinespacing>
 		<formationboxsubgroupspacing>1.0</formationboxsubgroupspacing>
-		<randomspacingoffset>0.25</randomspacingoffset>
+		<randomspacingoffset>0.35</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\tactics_defend_cur</activeicon>
@@ -255,7 +257,7 @@
 		<formationtype>Box</formationtype>
 		<formationboxlinespacing>1.0</formationboxlinespacing>
 		<formationboxsubgroupspacing>1.0</formationboxsubgroupspacing>
-		<randomspacingoffset>0.25</randomspacingoffset>
+		<randomspacingoffset>0.35</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\tactics_defend_cur</activeicon>
@@ -273,10 +275,10 @@
 		<unittype>Military</unittype>
 		<targetunittype>All</targetunittype>
 		<stance>StandGround</stance>
-		<formationtype>SingleBox</formationtype>
-		<formationboxlinespacing>1.2</formationboxlinespacing>
-		<formationboxsubgroupspacing>1.2</formationboxsubgroupspacing>
-		<randomspacingoffset>0.25</randomspacingoffset>
+		<formationtype>Circle</formationtype>
+		<formationcirclelinespacing>1.2</formationcirclelinespacing>
+		<formationcirclesubgroupspacing>1.0</formationcirclesubgroupspacing>
+		<randomspacingoffset>0.35</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\tactics_stand_ground_cur</activeicon>
@@ -294,9 +296,11 @@
 		<targetunittype>All</targetunittype>
 		<stance>Defensive</stance>
 		<formationtype>Line</formationtype>
+		<canbreakformation>0</canbreakformation>
+		<canrotateinformation>1</canrotateinformation>
 		<formationlinelinespacing>1.0</formationlinelinespacing>
 		<formationlinecolumnspacing>1.2</formationlinecolumnspacing>
-		<randomspacingoffset>0.35</randomspacingoffset>
+		<randomspacingoffset>0.25</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\bombgo</activeicon>
@@ -311,9 +315,11 @@
 		<targetunittype>All</targetunittype>
 		<stance>StandGround</stance>
 		<formationtype>Line</formationtype>
+		<canbreakformation>0</canbreakformation>
+		<canrotateinformation>1</canrotateinformation>
 		<formationlinelinespacing>1.0</formationlinelinespacing>
 		<formationlinecolumnspacing>1.2</formationlinecolumnspacing>
-		<randomspacingoffset>0.35</randomspacingoffset>
+		<randomspacingoffset>0.25</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\anchorgo</activeicon>
@@ -324,7 +330,6 @@
 	<squadmode>
 		<name>Shinobi</name>
 		<tactic>Horse</tactic>
-		<allowautopick>0</allowautopick>
 		<unittype>ypMercYojimbo</unittype>
 		<unittype>ypRepentantYojimbo</unittype>
 		<unittype>SaloonOutlawPistol</unittype>
@@ -332,9 +337,9 @@
 		<targetunittype>All</targetunittype>
 		<stance>Defensive</stance>
 		<formationtype>Line</formationtype>
-		<formationboxlinespacing>1.2</formationboxlinespacing>
-		<formationboxsubgroupspacing>1.4</formationboxsubgroupspacing>
-		<randomspacingoffset>0.25</randomspacingoffset>
+		<formationlinelinespacing>1.2</formationlinelinespacing>
+		<formationlinecolumnspacing>1.4</formationlinecolumnspacing>
+		<randomspacingoffset>0.5</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\tactics_trample_cur</activeicon>
