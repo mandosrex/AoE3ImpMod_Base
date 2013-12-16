@@ -43,12 +43,12 @@
 		<logic type="LowPoly">
 			<normal>
 				<assetreference type="GrannyModel">
-					<file>units\natives\lakota\war_chief\war_chief_horse015</file>
+					<file>units\natives\lakota\war_chief\war_chief_horse</file>
 				</assetreference>
 			</normal>
 			<lowpoly>
 				<assetreference type="GrannyModel">
-					<file>units\natives\lakota\war_chief\lp_war_chief_horse015</file>
+					<file>units\natives\lakota\war_chief\war_chief_horse</file>
 				</assetreference>
 			</lowpoly>
 		</logic>

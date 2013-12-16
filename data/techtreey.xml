@@ -6484,7 +6484,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ypMarketSpiritMedicine</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpiesNative</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Prayer2</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>Prayer</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypMarketPlacerMines</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>LongLines</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypImpLegendaryNatives2</Effect>
@@ -6498,6 +6497,8 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImpExcessiveTributeNative</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Bastion</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PercussionLocks</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchMissionFervor</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchStateReligion</Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Cannon</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>CavalryCuirass</Effect>
@@ -6566,7 +6567,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>FactoryMassProduction</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Carronade</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ArmorPlating</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>Prayer</Effect>
 			<Effect type ='Data2' action ='Gather' amount ='0.90' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypMonasteryCompunction</Effect>
@@ -9117,6 +9117,10 @@
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperialMusketeersDutch' type ='Normal'>
@@ -9140,6 +9144,10 @@
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='VeteranMusketeersUS' type ='Normal'>
@@ -9162,6 +9170,10 @@
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Marine' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Marine</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Marine</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Marine</Target></Effect>
 		</Effects>
 	</Tech>
@@ -27559,6 +27571,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>780742</Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='EliteTomahawks' type ='Normal'>
@@ -35331,6 +35345,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='PlayerSpecificTrainLimitPerAction' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='Enable' relativity ='Absolute'>
@@ -35393,6 +35409,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='PlayerSpecificTrainLimitPerAction' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='Enable' relativity ='Absolute'>
@@ -35455,6 +35473,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='PlayerSpecificTrainLimitPerAction' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35517,6 +35537,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='PlayerSpecificTrainLimitPerAction' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35580,6 +35602,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='PlayerSpecificTrainLimitPerAction' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35640,6 +35664,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='PlayerSpecificTrainLimitPerAction' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35702,6 +35728,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='PlayerSpecificTrainLimitPerAction' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35765,6 +35793,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='PlayerSpecificTrainLimitPerAction' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35832,6 +35862,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='PlayerSpecificTrainLimitPerAction' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -57543,7 +57575,7 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Industrialize</TechStatus>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.70' subtype ='Hitpoints' relativity ='BasePercent'>
