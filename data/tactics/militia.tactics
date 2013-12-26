@@ -156,15 +156,7 @@
 		<anim>Build</anim>
 		<active>0</active>
 		<maxrange>0.2</maxrange>
-		<rate type="Barracks">2.0</rate>
-		<rate type="Stable">2.0</rate>
-		<rate type="ArtilleryDepot">2.0</rate>
-		<rate type="Warhut">2.0</rate>
-		<rate type="Corral">2.0</rate>
-		<rate type="FortFrontier">2.0</rate>
-		<rate type="ypBarracksIndian">2.0</rate>
-		<rate type="ypCaravanserai">2.0</rate>
-		<rate type="ypCastle">2.0</rate>
+		<rate type="Building">1.0</rate>
 	</action>
 	<tactic>
 		Volley

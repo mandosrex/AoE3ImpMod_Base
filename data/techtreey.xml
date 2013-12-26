@@ -331,6 +331,10 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Blockhouse' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RanchingE</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -538,6 +542,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.10' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Ranching</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -5007,6 +5013,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Factory</Target></Effect>
 			<Effect type ='Data' action ='SpawnCannon' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
@@ -9117,10 +9125,6 @@
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperialMusketeersDutch' type ='Normal'>
@@ -9144,10 +9148,6 @@
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='VeteranMusketeersUS' type ='Normal'>
@@ -9170,10 +9170,6 @@
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Marine' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Marine</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Marine</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Marine</Target></Effect>
 		</Effects>
 	</Tech>
@@ -11343,7 +11339,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='MaximumVelocity' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
@@ -14090,7 +14086,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='NativeScout' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NativeScout' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
@@ -15621,7 +15617,7 @@
 			<Effect type ='TechStatus' status ='active'>Imperialize</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionLouverture</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionSantander</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='NativeScout' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NativeScout' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
@@ -28115,6 +28111,8 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMedicineManAztec</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ColonializeXPSioux' type ='Normal'>
@@ -28129,8 +28127,6 @@
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='PetCoyote' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeXPAztec' type ='Normal'>
@@ -28151,6 +28147,8 @@
 			<Effect type ='Data' amount ='4.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMedicineManAztec</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades3</Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeXPSioux' type ='Normal'>
@@ -28168,8 +28166,6 @@
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='2.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='PetCoyote' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades3</Effect>
 		</Effects>
 	</Tech>
@@ -28187,6 +28183,8 @@
 			<Effect type ='Data' amount ='4.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMedicineManAztec</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades4</Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeXPSioux' type ='Normal'>
@@ -28200,8 +28198,6 @@
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='PetCoyote' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades4</Effect>
 		</Effects>
 	</Tech>
@@ -28220,6 +28216,8 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMedicineManAztec</Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperializeXPSioux' type ='Normal'>
@@ -28233,7 +28231,7 @@
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='PetCoyote' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -35413,8 +35411,6 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='PlayerSpecificTrainLimitPerAction' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Baron</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Sapper</Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='BuildLimit' relativity ='Assign'>
@@ -45033,7 +45029,7 @@
 			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='TextOutput'>780749</Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -45052,7 +45048,7 @@
 		</Prereqs>
 		<Effects>
 			<Effect type ='TextOutput'>780749</Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -45072,7 +45068,7 @@
 		</Prereqs>
 		<Effects>
 			<Effect type ='TextOutput'>780749</Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>

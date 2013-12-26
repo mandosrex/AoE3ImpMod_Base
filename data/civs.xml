@@ -4863,6 +4863,16 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
+			<building>ypDojo</building>
+			<multipleblockunit>ypDojoSoheiArmy</multipleblockunit>
+			<units>
+				<unit>Sohei</unit>
+			</units>
+			<unitcounts>
+				<count>5</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
 			<building>ypConsulate</building>
 			<multipleblockunit>ypConsulateArmySPCDutch1</multipleblockunit>
 			<units>
