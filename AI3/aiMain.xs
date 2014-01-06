@@ -9443,6 +9443,7 @@ void setUnitPickerPreference(int upID = -1)
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
       if ( (kbGetCiv() == cCivIndians) || (kbGetCiv() == cCivSPCIndians) )    // Avoid mansabdar units
@@ -9486,6 +9487,7 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
          if ( (kbGetCiv() == cCivIndians) || (kbGetCiv() == cCivSPCIndians) )    // Avoid mansabdar units
@@ -9521,6 +9523,7 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
          if ( (kbGetCiv() == cCivIndians) || (kbGetCiv() == cCivSPCIndians) )    // Avoid mansabdar units
@@ -9557,6 +9560,7 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
          if ( (kbGetCiv() == cCivIndians) || (kbGetCiv() == cCivSPCIndians) )    // Avoid mansabdar units
@@ -9635,6 +9639,7 @@ void setUnitPickerPreference(int upID = -1)
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
       if ( (kbGetCiv() == cCivChinese) || (kbGetCiv() == cCivSPCChinese) ) 
@@ -11257,6 +11262,16 @@ minInterval 3
       {     // Start a new one
         createSimpleBuildPlan(cUnitTypeSPCCherokeeWarHut, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
         aiEcho("Starting a new council's hut build plan.");
+      }
+    }
+
+   // At least one livestock pen (natives only)
+   if (civIsNative() == true) {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeLivestockPen);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeLivestockPen, cUnitStateAlive) < 1) )
+      {     // Start a new one
+        createSimpleBuildPlan(cUnitTypeLivestockPen, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+        aiEcho("Starting a new livestock pen build plan.");
       }
     }
 

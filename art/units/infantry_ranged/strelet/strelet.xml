@@ -470,7 +470,7 @@
 			<file>animation_library\2_leg_task\Build_f</file>
 			<weight>10</weight>
 		</assetreference>
-		<component>BuildComp</component>
+		<component>ModelComp</component>
 		<attach a="hammer" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
 		<attach a="measure tape" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"/>
 	</anim>
@@ -489,7 +489,7 @@
 			<weight>10</weight>
 			<tag type="Attack">0.66</tag>
 		</assetreference>
-		<component>BuildComp</component>
+		<component>ModelComp</component>
 		<attach a="hammer" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
@@ -505,7 +505,7 @@
 			<file>animation_library\2_leg_task\human_saw_standing_idlea</file>
 			<weight>10</weight>
 		</assetreference>
-		<component>BuildComp</component>
+		<component>ModelComp</component>
 		<attach a="saw" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
@@ -518,7 +518,7 @@
 			<file>animation_library\2_leg_task\human_saw_idlea</file>
 			<weight>10</weight>
 		</assetreference>
-		<component>BuildComp</component>
+		<component>ModelComp</component>
 		<attach a="saw" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 </animfile>

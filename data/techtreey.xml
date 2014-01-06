@@ -5319,6 +5319,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>LongLines</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SelectiveBreeding</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PlacerMines</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>WarGathering</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='Building' allactions ='1' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Guardian</Target></Effect>
 			<Effect type ='Data' amount ='0.64' subtype ='MaximumVelocity' relativity ='BasePercent'>
@@ -26920,6 +26921,7 @@
 		<DBID>2657</DBID>
 		<DisplayNameID>77848</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\royal_guard_infantry\royal_guard_infantry</Icon>
@@ -26933,6 +26935,7 @@
 		<DBID>2657</DBID>
 		<DisplayNameID>77848</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\royal_guard_infantry\royal_guard_infantry</Icon>
@@ -29215,7 +29218,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\treaty\treaty</Icon>
+		<Icon>ui\units\IRO_tomahawk_icon</Icon>
 		<RolloverTextID>43805</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -29249,7 +29252,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\treaty\treaty</Icon>
+		<Icon>ui\units\iro_forrest_runner_icon</Icon>
 		<RolloverTextID>43809</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -29266,7 +29269,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\treaty\treaty</Icon>
+		<Icon>ui\units\iro_aenna_icon</Icon>
 		<RolloverTextID>43811</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -30495,9 +30498,25 @@
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='SettlerNative' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>48987</Effect>
+			<Effect tech ='AANativeStartingTechs' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='SettlerNative' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect tech ='AAStandardStartingTechs' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect tech ='AAStandardStartingTechsD' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect tech ='AAStandardStartingTechsM' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect tech ='AAStandardStartingTechsO' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect tech ='AAStandardStartingTechsUS' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect tech ='YPAAAsianStartingTechs' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerAsian' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect tech ='YPAAAsianStartingTechs' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect tech ='YPAAAsianStartingTechs' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerJapanese' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPShipVillagers5' type ='Normal'>
@@ -37603,9 +37622,9 @@
 			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
-			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
-				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
+				<Target type ='ProtoUnit'>Longhouse</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Longhouse</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypRicePaddy</Target></Effect>
 			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
@@ -37634,6 +37653,10 @@
 				<Target type ='ProtoUnit'>Manor</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>Manor</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>HouseAztec</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>HouseAztec</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPWhaleOil' type ='Normal'>
@@ -39387,11 +39410,11 @@
 		<RolloverTextID>47196</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='3.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>NativeScout</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>NativeScout</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='PopulationCount' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NativeScout</Target></Effect>
 		</Effects>
 	</Tech>
@@ -57332,14 +57355,14 @@
 		<Cost resourcetype ='Fame'>2000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\native\Dance_Hall</Icon>
+		<Icon>ui\mercarmy2</Icon>
 		<RolloverTextID>780786</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect tech ='SaloonDove' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercDove' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -57577,6 +57600,25 @@
 			<Effect type ='Data' amount ='1.70' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWall</Target></Effect>
 			<Effect type ='Data' amount ='0.03' subtype ='UnitRegenRate' unittype ='AbstractWall' relativity ='Assign'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='WarGathering' type ='Normal'>
+		<DBID>5274</DBID>
+		<DisplayNameID>780816</DisplayNameID>
+		<Cost resourcetype ='Food'>500.0000</Cost>
+		<Cost resourcetype ='Wood'>250.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_native_diplomacy2\hc_native_diplomacy2</Icon>
+		<RolloverTextID>780817</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Colonialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='TransformUnit' toprotoid ='xpWarrior' fromprotoid ='SettlerNative'></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='xpWarrior' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>

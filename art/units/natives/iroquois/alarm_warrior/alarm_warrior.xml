@@ -554,4 +554,29 @@
 		<attach a="measure tape" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"/>
 		<attach a="hammer" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
+	<anim>
+		DanceIdle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\arrow_knight\volley_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="arrow_attachment" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"/>
+		<attach a="bows" frombone="bone_bow" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		DanceActive
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\arrow_knight\volley_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.62</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.12</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\arrow_knight\volley_walk2</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.62</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.12</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="arrow_attachment" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"/>
+		<attach a="bows" frombone="bone_bow" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
 </animfile>
