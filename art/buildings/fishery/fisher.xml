@@ -17,6 +17,8 @@
 	<definebone>bone_man1</definebone>
 	<definebone>bone_man2</definebone>
 	<definebone>bone_man3</definebone>
+	<definebone>Bone_fisher1</definebone>
+	<definebone>Bone_fisher2</definebone>
 	<submodel>
 		euro_Fishing_Boat
 	<attachment>
@@ -113,196 +115,36 @@
 	<component>
 		ModelComp
 		<assetreference type="GrannyModel">
-			<file>objects\flt_boat\flt_boat</file>
-			<replacetexture>
-			<from>objects\flt_boat\flt_boat</from>
-			<to>buildings\fishery\flt_boat</to>
-			</replacetexture>
-		</assetreference>
-	</component>
-	<component>
-		death
-		<assetreference type="GrannyModel">
-			<file>objects\flt_boat\flt_boat</file>
-			<replacetexture>
-			<from>objects\flt_boat\flt_boat</from>
-			<to>buildings\fishery\flt_boat</to>
-			</replacetexture>
+			<file>buildings\fishery\fish</file>
 		</assetreference>
 	</component>
 	<anim>
 		Idle
 		<component>ModelComp</component>
-		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
-		<attach a="Man3" frombone="hotspot" tobone="bone_man3" syncanims="1"/>
-		<attach a="fishing_net" frombone="hotspot" tobone="bone_man1" syncanims="0"/>
+		<attach a="Man" frombone="hotspot" tobone="Bone_fisher1" syncanims="1"/>
+		<attach a="Man3" frombone="hotspot" tobone="Bone_fisher2" syncanims="1"/>
+		<attach a="fishing_net" frombone="hotspot" tobone="Bone_fisher1" syncanims="0"/>
 	</anim>
 	<anim>
 		Walk
 		<component>ModelComp</component>
-		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
-		<attach a="Man3" frombone="hotspot" tobone="bone_man3" syncanims="1"/>
+		<attach a="Man" frombone="hotspot" tobone="Bone_fisher1" syncanims="1"/>
+		<attach a="Man3" frombone="hotspot" tobone="Bone_fisher2" syncanims="1"/>
 	</anim>
 	<anim>
 		Death
 		<component>death</component>
 		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
-		<attach a="Man3" frombone="hotspot" tobone="bone_man3" syncanims="1"/>
-	</anim>
-	</submodel>
-	<submodel>
-		asian_Fishing_Boat
-	<attachment>
-		DeathWaterFoam
-		<component>
-			foam1
-			<assetreference type="ParticleSystem">
-				<file>effects\water_effects\shp_dest_foamSpray_sm.particle</file>
-			</assetreference>
-		</component>
-		<anim>
-			None
-			<component>foam1</component>
-		</anim>
-	</attachment>
-	<attachment>
-		fishing_net
-		<component>
-			fishing_net
-			<assetreference type="GrannyModel">
-				<file>units\attachments\fishing_net</file>
-			</assetreference>
-		</component>
-		<anim>
-			Idle
-			<assetreference type="GrannyAnim">
-				<file>units\attachments\fishing_net_fishingboat</file>
-			</assetreference>
-			<component>fishing_net</component>
-		</anim>
-	</attachment>
-	<attachment>
-		Man
-		<component>
-			Man
-			<assetreference type="GrannyModel">
-				<file>units\asians\mercenaries\fugitive_dacoit\dacoit_0</file>
-			</assetreference>
-		</component>
-		<anim>
-			Idle
-			<assetreference type="GrannyAnim">
-				<file>animation_library\IGC\villager\IGC_villager_extinguish_fire</file>
-			</assetreference>
-			<component>Man</component>
-		</anim>
-		<anim>
-			Death
-			<assetreference type="GrannyAnim">
-				<file>animation_library\naval\flat_boat\deathc</file>
-				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
-			</assetreference>
-			<component>Man</component>
-		</anim>
-		<anim>
-			Walk
-			<assetreference type="GrannyAnim">
-				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
-			</assetreference>
-			<component>Man</component>
-		</anim>
-	</attachment>
-	<attachment>
-		Man3
-		<component>
-			Man3
-			<assetreference type="GrannyModel">
-				<file>units\asians\mercenaries\fugitive_dacoit\dacoit_0</file>
-			</assetreference>
-		</component>
-		<anim>
-			Idle
-			<assetreference type="GrannyAnim">
-				<file>animation_library\villager\villager_male_gathercrate1</file>
-			</assetreference>
-			<component>Man3</component>
-		</anim>
-		<anim>
-			Walk
-			<assetreference type="GrannyAnim">
-				<file>animation_library\IGC\naval\sitting_fishing_boatC_walk</file>
-			</assetreference>
-			<component>Man3</component>
-		</anim>
-		<anim>
-			Death
-			<assetreference type="GrannyAnim">
-				<file>animation_library\naval\flat_boat\deathc</file>
-				<tag type="SpecificSoundSet" checkvisible="1" set="DudeHitsWater">0.14</tag>
-			</assetreference>
-			<component>Man3</component>
-		</anim>
-	</attachment>
-	<component>
-		ModelComp
-		<assetreference type="GrannyModel">
-			<file>objects\flt_boat\flt_boat</file>
-			<replacetexture>
-			<from>objects\flt_boat\flt_boat</from>
-			<to>buildings\fishery\flt_boat</to>
-			</replacetexture>
-		</assetreference>
-	</component>
-	<component>
-		death
-		<assetreference type="GrannyModel">
-			<file>objects\flt_boat\flt_boat</file>
-			<replacetexture>
-			<from>objects\flt_boat\flt_boat</from>
-			<to>buildings\fishery\flt_boat</to>
-			</replacetexture>
-		</assetreference>
-	</component>
-	<anim>
-		Idle
-		<component>ModelComp</component>
-		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
-		<attach a="Man3" frombone="hotspot" tobone="bone_man3" syncanims="1"/>
-		<attach a="fishing_net" frombone="hotspot" tobone="bone_man1" syncanims="0"/>
-	</anim>
-	<anim>
-		Walk
-		<component>ModelComp</component>
-		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
-		<attach a="Man3" frombone="hotspot" tobone="bone_man3" syncanims="1"/>
-	</anim>
-	<anim>
-		Death
-		<component>death</component>
-		<attach a="DeathWaterFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
-		<attach a="Man3" frombone="hotspot" tobone="bone_man3" syncanims="1"/>
+		<attach a="Man" frombone="hotspot" tobone="Bone_fisher1" syncanims="1"/>
+		<attach a="Man3" frombone="hotspot" tobone="Bone_fisher2" syncanims="1"/>
 	</anim>
 	</submodel>
 	<component>
 		Fishing_Boat
 		<logic type="Civ">
-			<british>
+			<none>
 				<submodelref ref="euro_Fishing_Boat"/>
-			</british>
-			<japanese>
-				<submodelref ref="asian_Fishing_Boat"/>
-			</japanese>
-			<spcjapanese>
-				<submodelref ref="asian_Fishing_Boat"/>
-			</spcjapanese>
-			<indians>
-				<submodelref ref="asian_Fishing_Boat"/>
-			</indians>
-			<spcindians>
-				<submodelref ref="asian_Fishing_Boat"/>
-			</spcindians>
+			</none>
 		</logic>
 	</component>
 </animfile>

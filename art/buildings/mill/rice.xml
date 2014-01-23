@@ -1,338 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <animfile>
-	<definebone>bone_debris_1A</definebone>
-	<definebone>bone_debris_1B</definebone>
-	<definebone>bone_debris_1C</definebone>
-	<definebone>bone_debris_1D</definebone>
-	<definebone>bone_debris_1e</definebone>
-	<definebone>bone_debris_1f</definebone>
-	<definebone>bone_debris_1g</definebone>
-	<definebone>bone_debris_1h</definebone>
-	<definebone>bone_debris_1i</definebone>
-	<definebone>bone_debris_1j</definebone>
-	<definebone>bone_debris_1k</definebone>
-	<definebone>bone_debris_2a</definebone>
-	<definebone>bone_debris_2b</definebone>
-	<definebone>bone_debris_2c</definebone>
-	<definebone>bone_debris_2d</definebone>
-	<definebone>bone_debris_2e</definebone>
-	<definebone>bone_debris_2f</definebone>
-	<definebone>bone_debris_2g</definebone>
-	<definebone>bone_debris_2h</definebone>
-	<definebone>bone_debris_2i</definebone>
-	<definebone>bone_debris_3a</definebone>
-	<definebone>bone_debris_3b</definebone>
-	<definebone>bone_debris_3c</definebone>
-	<definebone>bone_debris_3d</definebone>
-	<definebone>bone_debris_3e</definebone>
-	<definebone>bone_debris_3f</definebone>
-	<definebone>bone_debris_3g</definebone>
-	<definebone>bone_debris_3h</definebone>
-	<definebone>bone_debris_4A</definebone>
-	<definebone>bone_debris_4B</definebone>
-	<definebone>bone_debris_4C</definebone>
-	<definebone>bone_debris_4D</definebone>
-	<definebone>bone_debris_4e</definebone>
-	<definebone>bone_debris_4f</definebone>
-	<definebone>bone_debris_4g</definebone>
-	<definebone>bone_debris_4h</definebone>
-	<definebone>bone_debris_4i</definebone>
-	<definebone>bone_debris_4j</definebone>
-	<definebone>bone_debris_4k</definebone>
-	<definebone>bone_debris_4l</definebone>
-	<definebone>bone_debris_4m</definebone>
-	<definebone>bone_debris_5A</definebone>
-	<definebone>bone_debris_5B</definebone>
-	<definebone>bone_debris_5C</definebone>
-	<definebone>bone_debris_5D</definebone>
-	<definebone>bone_debris_5e</definebone>
-	<definebone>bone_debris_5f</definebone>
-	<definebone>bone_debris_5g</definebone>
-	<definebone>bone_debris_5h</definebone>
-	<definebone>bone_debris_5i</definebone>
-	<definebone>bone_debris_3i</definebone>
-	<definebone>bone_debris_3j</definebone>
-	<submodel>
-		japanese_sub_construction_stage_01
-		<component>
-			iro_tc_construction_stage_01
-			<assetreference type="GrannyModel">
-				<file>buildings\asian_civs\construction\asi_2x2_stage1</file>
-			</assetreference>
-		</component>
-		<anim>
-			Idle
-			<component>iro_tc_construction_stage_01</component>
-		</anim>
-	</submodel>
-	<submodel>
-		japanese_sub_construction_Stage_02
+	<definebone>Bone_fruit1</definebone>
+	<definebone>Bone_fruit2</definebone>
+	<definebone>Bone_fruit3</definebone>
+	<definebone>Bone_fruit4</definebone>
+	<definebone>Bone_fruit5</definebone>
+	<definebone>Bone_fruit6</definebone>
+	<definebone>Bone_fruit7</definebone>
+	<definebone>Bone_fruit8</definebone>
+	<definebone>Bone_fruit9</definebone>
+	<definebone>Bone_fruit10</definebone>
+	<definebone>Bone_fruit11</definebone>
+	<definebone>Bone_fruit12</definebone>
 		<attachment>
-			frame
+			pumpkin1
 			<component>
-				as_2x2_center_con
+				pumpkin
 				<assetreference type="GrannyModel">
-					<file>buildings\asian_civs\construction\asi_2x2_frame</file>
-				</assetreference>
-			</component>
-			<anim>
-				<component>as_2x2_center_con</component>
-			</anim>
-		</attachment>
-		<component>
-			iro_tc_construction_stage_02
-			<assetreference type="GrannyModel">
-				<file>buildings\asian_civs\construction\asi_2x2_stage2</file>
-			</assetreference>
-			<attach a="frame" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-		</component>
-		<anim>
-			Idle
-			<component>iro_tc_construction_stage_02</component>
-		</anim>
-	</submodel>
-	<submodel>
-		corn
-		<attachment>
-			base smoke
-			<component>
-				smoke base
-				<assetreference type="ParticleSystem">
-					<file>effects\smoke\collapsesmoke01.particle</file>
+					<file>patch\plymouth\pumpkins_bundle1</file>
 				</assetreference>
 			</component>
 			<anim>
 				Idle
-				<component>smoke base</component>
+				<component>pumpkin</component>
 			</anim>
 		</attachment>
 		<attachment>
-			base smoke2
+			pumpkin2
 			<component>
-				smoke wave
-				<assetreference type="ParticleSystem">
-					<file>effects\smoke\collapse_smoke_wave.particle</file>
+				pumpkin
+				<assetreference type="GrannyModel">
+					<file>patch\plymouth\pumpkins_bundle2</file>
 				</assetreference>
 			</component>
 			<anim>
 				Idle
-				<component>smoke wave</component>
+				<component>pumpkin</component>
 			</anim>
 		</attachment>
 		<attachment>
-			base smoke3
+			pumpkin3
 			<component>
-				smoke wave center
-				<assetreference type="ParticleSystem">
-					<file>effects\smoke\collapse_smoke_wave02.particle</file>
+				pumpkin
+				<assetreference type="GrannyModel">
+					<file>patch\plymouth\pumpkin_big</file>
 				</assetreference>
 			</component>
 			<anim>
 				Idle
-				<component>smoke wave center</component>
+				<component>pumpkin</component>
 			</anim>
 		</attachment>
 		<attachment>
-			collapse_smoke
+			pumpkin4
 			<component>
-				collapse_smoke
-				<assetreference type="ParticleSystem">
-					<file>effects\smoke\collapse_smoke_a.particle</file>
+				pumpkin
+				<assetreference type="GrannyModel">
+					<file>patch\plymouth\pumpkin_sml</file>
 				</assetreference>
 			</component>
 			<anim>
 				Idle
-				<component>collapse_smoke</component>
+				<component>pumpkin</component>
 			</anim>
 		</attachment>
 		<component>
 			generic_mill
-					<logic type="Destruction">
-						<p1>
-							<assetreference type="GrannyModel" shape="india_ricepaddy">
-								<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_damaged</file>
-								<replacetexture>
-									<from>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1</from>
-									<to>buildings\mill\corn</to>
-								</replacetexture>
-							</assetreference>
-						</p1>
-						<p99>
-							<assetreference type="GrannyModel" shape="india_ricepaddy">
-								<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1</file>
-								<replacetexture>
-									<from>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1</from>
-									<to>buildings\mill\corn</to>
-								</replacetexture>
-							</assetreference>
-						</p99>
-					</logic>
-		</component>
-		<component>
-			death
-					<assetreference type="GrannyModel">
-						<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_deathmodel</file>
-						<replacetexture>
-							<from>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1</from>
-							<to>buildings\mill\corn</to>
-						</replacetexture>
-					</assetreference>
+				<assetreference type="GrannyModel">
+					<file>buildings\mill\pump</file>
+				</assetreference>
+			<attach a="pumpkin1" frombone="ATTACHPOINT" tobone="Bone_fruit1" syncanims="0"/>
+			<attach a="pumpkin2" frombone="ATTACHPOINT" tobone="Bone_fruit2" syncanims="0"/>
+			<attach a="pumpkin3" frombone="ATTACHPOINT" tobone="Bone_fruit5" syncanims="0"/>
+			<attach a="pumpkin2" frombone="ATTACHPOINT" tobone="Bone_fruit4" syncanims="0"/>
+			<attach a="pumpkin4" frombone="ATTACHPOINT" tobone="Bone_fruit11" syncanims="0"/>
+			<attach a="pumpkin1" frombone="ATTACHPOINT" tobone="Bone_fruit10" syncanims="0"/>
+			<attach a="pumpkin2" frombone="ATTACHPOINT" tobone="Bone_fruit6" syncanims="0"/>
+			<attach a="pumpkin2" frombone="ATTACHPOINT" tobone="Bone_fruit8" syncanims="0"/>
+			<attach a="pumpkin1" frombone="ATTACHPOINT" tobone="Bone_fruit12" syncanims="0"/>
+			<attach a="pumpkin4" frombone="ATTACHPOINT" tobone="Bone_fruit9" syncanims="0"/>
+			<attach a="pumpkin4" frombone="ATTACHPOINT" tobone="Bone_fruit7" syncanims="0"/>
+			<attach a="pumpkin3" frombone="ATTACHPOINT" tobone="Bone_fruit3" syncanims="0"/>
 		</component>
 		<anim>
 			Idle
 			<component>generic_mill</component>
-			<simskeleton>
-				<model>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_damaged</model>
-				<damagetemplate>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1.dmg</damagetemplate>
-			</simskeleton>
 		</anim>
-		<anim>
-			Death
-			<assetreference type="GrannyAnim">
-				<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_deathanime</file>
-			</assetreference>
-			<component>death</component>
-			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-		</anim>
-	</submodel>
-	<submodel>
-		tomato
-		<attachment>
-			base smoke
-			<component>
-				smoke base
-				<assetreference type="ParticleSystem">
-					<file>effects\smoke\collapsesmoke01.particle</file>
-				</assetreference>
-			</component>
-			<anim>
-				Idle
-				<component>smoke base</component>
-			</anim>
-		</attachment>
-		<attachment>
-			base smoke2
-			<component>
-				smoke wave
-				<assetreference type="ParticleSystem">
-					<file>effects\smoke\collapse_smoke_wave.particle</file>
-				</assetreference>
-			</component>
-			<anim>
-				Idle
-				<component>smoke wave</component>
-			</anim>
-		</attachment>
-		<attachment>
-			base smoke3
-			<component>
-				smoke wave center
-				<assetreference type="ParticleSystem">
-					<file>effects\smoke\collapse_smoke_wave02.particle</file>
-				</assetreference>
-			</component>
-			<anim>
-				Idle
-				<component>smoke wave center</component>
-			</anim>
-		</attachment>
-		<attachment>
-			collapse_smoke
-			<component>
-				collapse_smoke
-				<assetreference type="ParticleSystem">
-					<file>effects\smoke\collapse_smoke_a.particle</file>
-				</assetreference>
-			</component>
-			<anim>
-				Idle
-				<component>collapse_smoke</component>
-			</anim>
-		</attachment>
-		<component>
-			generic_mill
-					<logic type="Destruction">
-						<p1>
-							<assetreference type="GrannyModel" shape="tomato">
-								<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_damaged</file>
-								<replacetexture>
-									<from>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1</from>
-									<to>buildings\mill\tomato</to>
-								</replacetexture>
-							</assetreference>
-						</p1>
-						<p99>
-							<assetreference type="GrannyModel" shape="tomato">
-								<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1</file>
-								<replacetexture>
-									<from>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1</from>
-									<to>buildings\mill\tomato</to>
-								</replacetexture>
-							</assetreference>
-						</p99>
-					</logic>
-		</component>
-		<component>
-			death
-					<assetreference type="GrannyModel">
-						<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_deathmodel</file>
-						<replacetexture>
-							<from>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1</from>
-							<to>buildings\mill\tomato</to>
-						</replacetexture>
-					</assetreference>
-		</component>
-		<anim>
-			Idle
-			<component>generic_mill</component>
-			<simskeleton>
-				<model>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_damaged</model>
-				<damagetemplate>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1.dmg</damagetemplate>
-			</simskeleton>
-		</anim>
-		<anim>
-			Death
-			<assetreference type="GrannyAnim">
-				<file>buildings\asian_civs\rice_paddy\india\age_1\india_ricepaddy_age1_deathanime</file>
-			</assetreference>
-			<component>death</component>
-			<attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-			<attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-			<attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-			<attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-		</anim>
-	</submodel>
-	<component>
-		ypricepaddy
-		<logic type="Culture">
-			<british>
-				<logic type="Tech">
-					<none>
-						<logic type="BuildingCompletion">
-							<p0>
-								<submodelref ref="japanese_sub_construction_stage_01"/>
-							</p0>
-							<p33>
-								<submodelref ref="japanese_sub_construction_Stage_02"/>
-							</p33>
-							<p66>
-								<submodelref ref="indian_ricepaddy_age1_construction_stage_03"/>
-							</p66>
-							<p100>
-								<submodelref ref="tomato"/>
-							</p100>
-						</logic>
-					</none>
-				</logic>
-			</british>
-		</logic>
-	</component>
-	<anim>
-		Idle
-		<component>ypricepaddy</component>
-	</anim>
 </animfile>
