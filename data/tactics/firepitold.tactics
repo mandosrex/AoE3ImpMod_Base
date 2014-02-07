@@ -2,6 +2,15 @@
 
 <tactics>
 	<action>
+		<name stringid="69158">SpawnAge</name>
+		<type>Spawn</type>
+		<rate type="AgeUp">1.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
 		<name stringid="69162">VillagerTrainFaster</name>
 		<type>DanceBonus</type>
 		<active>1</active>
@@ -250,6 +259,7 @@
 	<tactic>
 		FertilityDance
 		<action>VillagerTrainFaster</action>
+		<action>SpawnAge</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Economic</firetype>

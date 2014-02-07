@@ -42,6 +42,14 @@
 	</coffers>
 	<cards>
 		<card>
+			<name>HCBritishHero</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>HCExplorerBritish</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
+		</card>
+		<card>
 			<name>HCShipHalberdiers1</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
@@ -1400,7 +1408,8 @@
 			<tech x="6.0" y="4.0">HCXPShipSurgeons2</tech>
 			<tech x="6.0" y="7.0">HCXPFlorenceNightingale</tech>
 			<tech x="7.0" y="1.0">HCExplorerBritish</tech>
-			<tech x="7.0" y="3.0">HCShipBalloons</tech>
+			<tech x="7.0" y="2.0">HCBritishHero</tech>
+			<tech x="7.0" y="4.0">HCShipBalloons</tech>
 			<tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
 		</obtainabletechs>
 		<activetechs>

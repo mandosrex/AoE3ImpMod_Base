@@ -988,6 +988,16 @@
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
 		</ability>
 	</generalg>
+	<generalbr>
+		<ability>
+			ypPowerCriticalAttack
+			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+		<ability>
+			UnitGeneralAura
+			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+	</generalbr>
 	<warleader>
 		<ability>
 			UnitGeneralAura

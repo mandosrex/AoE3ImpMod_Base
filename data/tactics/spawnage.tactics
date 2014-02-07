@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69158">Spawn</name>
+		<type>Spawn</type>
+		<rate type="AgeUp">2.0</rate>
+		<singleuse>1</singleuse>
+		<animationrate>1</animationrate>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<tactic>
+		Normal
+		<action>Spawn</action>
+	</tactic>
+</tactics>
