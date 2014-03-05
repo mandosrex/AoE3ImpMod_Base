@@ -1982,16 +1982,13 @@
 	<soundset name="Swordwhip" volume="1.0000" maxnum="4" distance="1.0000">
 		<sound filename="ypack\swordwhip.wav" volume="0.5000"/>
 	</soundset>
-	<soundset name="HC_Elephant" volume="1.0000" maxnum="4" distance="1.0000">
+	<soundset name="HC_Elephant" volume="0.5000" maxnum="4" distance="1.0000">
 		<sound filename="ypack\HC_Sounds\Elephant\ElephantAmbient1.wav" volume="0.7000"/>
 		<sound filename="ypack\HC_Sounds\Elephant\ElephantAmbient2.wav" volume="0.4000"/>
-		<sound filename="blank.wav" volume="0.4000"/>
-		<sound filename="blank.wav" volume="0.4000"/>
 	</soundset>
-	<soundset name="HC_Camel" volume="1.0000" maxnum="4" distance="1.0000">
+	<soundset name="HC_Camel" volume="0.5000" maxnum="4" distance="1.0000">
 		<sound filename="ypack\HC_Sounds\Camel\CamelAmbient1.wav" volume="0.4000"/>
-		<sound filename="blank.wav" volume="0.4000"/>
-		<sound filename="blank.wav" volume="0.4000"/>
+		<sound filename="ypack\CamelGrunt2.wav" volume="1.0000"/>
 	</soundset>
 	<soundset name="FlamingArrow" volume="1.0000" maxnum="4" distance="1.0000">
 		<sound filename="ypack\flamingarrow.wav" volume="1.0000"/>

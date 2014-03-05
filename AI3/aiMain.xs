@@ -7893,6 +7893,14 @@ void updateForecasts()
             }
          }
          
+
+         // Natives - one fire pit
+         if (civIsNative() == true)
+         {
+            if (kbUnitCount(cMyID, cUnitTypeFirePit, cUnitStateABQ) < 1)
+               addItemToForecasts(cUnitTypeFirePit, 1);
+         }
+
          // 3 houses, to overweight them and force early wood gathering
          if (cMyCiv != cCivXPSioux)
             addItemToForecasts(gHouseUnit, 3);
@@ -10995,16 +11003,6 @@ minInterval 3
    if ( (kbGetCiv() == cCivDutch) && (kbUnitCount(cMyID, cUnitTypeBank, cUnitStateABQ) < 1) )
       return;
 
-   // Mosque construction for Ottomans is handled in ottomanMonitor rule, do not build mosques here
-   // Construction of monastery and consulate for Asians is handled in monasteryMonitor and consulateMonitor rules
-
-   // That's it for age 1
-   if (kbGetAge() < cAge2) 
-      return;
-   // ***************************************************
-   
-
-
    // If native, at least one fire pit   
    planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeFirePit);
    
@@ -11025,6 +11023,17 @@ minInterval 3
       }
    }
 
+
+   // Mosque construction for Ottomans is handled in ottomanMonitor rule, do not build mosques here
+   // Construction of monastery and consulate for Asians is handled in monasteryMonitor and consulateMonitor rules
+
+   // That's it for age 1
+   if (kbGetAge() < cAge2) 
+      return;
+   // ***************************************************
+   
+
+
    // At least one market
    planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, gMarketUnit);
    if ( (kbGetPopCap()-kbGetPop()) > 20 ) // If we're OK on houses...
@@ -11044,17 +11053,6 @@ minInterval 3
       {     // Start a new one
          createSimpleBuildPlan(cUnitTypeBankE, 1, 90, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
          aiEcho("Starting a new bank build plan.");
-      }
-   }
-
-   // At least two bakeries for germans and russians (not for natives or Asians)
-   if ((civIsNative() == false) && (civIsAsian() == false))
-   {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeLivestockPen);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeLivestockPen, cUnitStateAlive) < 1) )
-      {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeLivestockPen, 1, 90, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
-         aiEcho("Starting a new baker build plan.");
       }
    }
 
@@ -11211,17 +11209,6 @@ minInterval 3
       {     // Start a new one
          createSimpleBuildPlan(cUnitTypeChurch, 1, 60, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
          aiEcho("Starting a new church build plan.");
-      }
-   }
-
-   // At least one university (not for natives or Asians)
-   if ((civIsNative() == false) && (civIsAsian() == false))
-   {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeSPCOssuary);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeSPCOssuary, cUnitStateAlive) < 1) )
-      {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeSPCOssuary, 1, 60, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
-         aiEcho("Starting a new university build plan.");
       }
    }
 
@@ -11429,6 +11416,18 @@ minInterval 3
       }   
    }
 
+   // And how 'bout a capitol, as long as we're here (not for natives or Asians)
+   if ( (civIsNative() == false) && (civIsAsian() == false) )
+   {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeCapitol);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeCapitol, cUnitStateAlive) < 1) )
+      {     // Start a new one
+         createSimpleBuildPlan(cUnitTypeCapitol, 1, 60, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new capitol build plan.");
+      }
+   }
+
+
    // That's it for age 4
    if (kbGetAge() < cAge5)
       return;
@@ -11466,16 +11465,6 @@ minInterval 3
       }   
    }
 
-   // And how 'bout a capitol, as long as we're here (not for natives or Asians)
-   if ( (civIsNative() == false) && (civIsAsian() == false) )
-   {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeCapitol);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeCapitol, cUnitStateAlive) < 1) )
-      {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeCapitol, 1, 60, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
-         aiEcho("Starting a new capitol build plan.");
-      }
-   }
 
 }
 

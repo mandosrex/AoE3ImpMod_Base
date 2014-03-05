@@ -171,7 +171,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Ranching</Effect>
@@ -185,6 +185,11 @@
 				<Target type ='ProtoUnit'>ypConsulateArmyFrench22</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Envoy</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialGrenadiers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardGrenadiers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranGrenadiers</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>MountedCrossbowman</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardMountedCrossbowman</Effect>
@@ -202,6 +207,8 @@
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Explorer</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardStartingTechs</Effect>
@@ -1623,8 +1630,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>NatMustangs</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatHorseArcher</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatTradeLanguage</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyComanche</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NativeTreatyComanche</Effect>
@@ -1642,8 +1647,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>NatGuerillaWars</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatSharktoothBowman</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatBowyery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChampionSeminoles</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietySeminoles</Effect>
@@ -1687,8 +1690,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>NatBasketweaving</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatRifleman</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatSequoyahSyllabary</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyCherokee</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NativeTreatyCherokee</Effect>
@@ -1707,8 +1708,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>NatMetalworking</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatBolasWarrior</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChampionInca</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatChasquisMessengers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyInca</Effect>
@@ -1727,8 +1726,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>NatGarifunaDrums</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatBlowgunWarrior</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChampionCaribs</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatKasiriBeer</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatCeremonialFeast</Effect>
@@ -1750,8 +1747,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>NatHuntingGrounds</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatAxeRider</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChampionLakota</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatDogSoldier</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyLakota</Effect>
@@ -1771,8 +1766,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>NatBarkClothing</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatClubman</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChampionNootka</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyNootka</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatLoyalClubman</Effect>
@@ -2455,8 +2448,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChampionMaya</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatCalendar</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyMaya</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NativeTreatyMaya</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypNativeEmbassyEnableShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypNativeTradeTreatyMaya</Effect>
@@ -2472,8 +2463,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChampionTupi</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatBlackwoodArcher</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatForestBurning</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyTupi</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NativeTreatyTupi</Effect>
@@ -4591,8 +4580,6 @@
 				<Target type ='ProtoUnit'>NativeHouseAztec</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatLightningWarrior</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatXPZapotecCloudPeople</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatXPZapotecCultOfTheDead</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyZapotec</Effect>
@@ -4613,8 +4600,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyCheyenne</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatCheyenneRider</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChampionCheyenne</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatXPCheyenneHuntingGrounds</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NativeTreatyCheyenne</Effect>
@@ -4633,8 +4618,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>NatXPHuronSunCeremony</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatHuronMantlet</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatXPHuronFishWedding</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyHuron</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChampionHuron</Effect>
@@ -5697,8 +5680,6 @@
 				<Target type ='ProtoUnit'>NativeHouseAztec</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatKlamathRifleman</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatXPKlamathHuckleberryFeast</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatXPKlamathStrategy</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyKlamath</Effect>
@@ -5718,8 +5699,6 @@
 				<Target type ='ProtoUnit'>NativeHouseAztec</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatNavajoRifleman</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatXPNavajoCraftsmanship</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatXPNavajoShepherds</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyNavajo</Effect>
@@ -5739,8 +5718,6 @@
 				<Target type ='ProtoUnit'>NativeHouseAztec</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatApacheCavalry</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatXPApacheCactus</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatXPApacheEndurance</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyApache</Effect>
@@ -5758,8 +5735,6 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NativeHouseMaya</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatMapucheClubman</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatXPMapucheTactics</Effect>
@@ -7346,6 +7321,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ypBigConsulateSPCDutch</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypBigConsulateSPCPortuguese</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypPickConsulateTech</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypBigConsulateJapanese</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPAAConsulateBoats</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypBankAsian</Target></Effect>
@@ -7905,10 +7881,12 @@
 			<Effect type ='TechStatus' status ='obtainable'>ypBigConsulateSPCChina</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypPickConsulateTech</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypBigConsulateSPCJapan</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypBigConsulateRussians</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypBigConsulateBritish</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypBigConsulateFrench</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypBigConsulateGermans</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypNatMercChakram</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='PopulationCount' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypNatMercSohei</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypNatMercRattanShield</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='PopulationCount' relativity ='Absolute'>
@@ -8754,9 +8732,11 @@
 		<Effects>
 			<Effect type ='TechStatus' status ='obtainable'>ypBigConsulateSPCFrench</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypBigConsulateSPCOttomans</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypBigConsulatePortuguese</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypPickConsulateTech</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypBigConsulateRussians</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ypBigConsulateBritish</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypBigConsulateFrench</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypBigConsulateOttomans</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypBigConsulatePortuguese</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPSPCBarracksTrainArsonists' type ='Normal'>
@@ -10729,7 +10709,7 @@
 		<DBID>158</DBID>
 		<DisplayNameID>23452</DisplayNameID>
 		<Cost resourcetype ='Wood'>400.0000</Cost>
-		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<Cost resourcetype ='Gold'>400.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\star_fort\star_fort</Icon>
@@ -10750,8 +10730,8 @@
 	<Tech name ='StoneFortifiedWalls' type ='Normal'>
 		<DBID>5274</DBID>
 		<DisplayNameID>77793</DisplayNameID>
-		<Cost resourcetype ='Wood'>600.0000</Cost>
-		<Cost resourcetype ='Gold'>800.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>600.0000</Cost>
 		<ResearchPoints>80.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\bastion\bastion</Icon>
@@ -10772,8 +10752,8 @@
 	<Tech name ='AsianFortifiedWalls' type ='Normal'>
 		<DBID>5274</DBID>
 		<DisplayNameID>77793</DisplayNameID>
-		<Cost resourcetype ='Wood'>600.0000</Cost>
-		<Cost resourcetype ='Gold'>800.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>600.0000</Cost>
 		<ResearchPoints>80.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\bastion\bastion</Icon>
@@ -10795,7 +10775,7 @@
 		<DBID>5274</DBID>
 		<DisplayNameID>77794</DisplayNameID>
 		<Cost resourcetype ='Wood'>400.0000</Cost>
-		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<Cost resourcetype ='Gold'>400.0000</Cost>
 		<ResearchPoints>80.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\stone_walls\stone_walls</Icon>
@@ -13972,8 +13952,7 @@
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Colonialize</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='NativeScout' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>FreeScouts</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -14133,8 +14112,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NativeScout' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>FreeScouts</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -15664,8 +15642,7 @@
 			<Effect type ='TechStatus' status ='active'>Imperialize</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionLouverture</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionSantander</Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NativeScout' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>FreeScouts</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -16446,6 +16423,7 @@
 		<DisplayNameID>34150</DisplayNameID>
 		<Cost resourcetype ='Food'>800.0000</Cost>
 		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Fame'>50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -16466,6 +16444,7 @@
 		<DisplayNameID>34146</DisplayNameID>
 		<Cost resourcetype ='Food'>800.0000</Cost>
 		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Fame'>50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -16484,6 +16463,7 @@
 		<DisplayNameID>34147</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -16502,6 +16482,7 @@
 		<DisplayNameID>34157</DisplayNameID>
 		<Cost resourcetype ='Food'>5000.0000</Cost>
 		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -16522,6 +16503,7 @@
 		<DisplayNameID>34157</DisplayNameID>
 		<Cost resourcetype ='Food'>5000.0000</Cost>
 		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -16539,6 +16521,7 @@
 		<DisplayNameID>34156</DisplayNameID>
 		<Cost resourcetype ='Food'>5000.0000</Cost>
 		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -16556,6 +16539,7 @@
 		<DisplayNameID>34156</DisplayNameID>
 		<Cost resourcetype ='Food'>5000.0000</Cost>
 		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -16576,6 +16560,7 @@
 		<DisplayNameID>34158</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -16594,6 +16579,7 @@
 		<DisplayNameID>34162</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -16746,6 +16732,7 @@
 		<DisplayNameID>34148</DisplayNameID>
 		<Cost resourcetype ='Food'>800.0000</Cost>
 		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Fame'>50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -16764,6 +16751,7 @@
 		<DisplayNameID>34160</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -16784,6 +16772,7 @@
 		<DisplayNameID>34155</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -16802,6 +16791,7 @@
 		<DisplayNameID>34161</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -16822,6 +16812,7 @@
 		<DisplayNameID>34154</DisplayNameID>
 		<Cost resourcetype ='Food'>800.0000</Cost>
 		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Fame'>50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -16840,6 +16831,7 @@
 		<DisplayNameID>34153</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -16859,6 +16851,7 @@
 		<DisplayNameID>34152</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -16877,6 +16870,7 @@
 		<DisplayNameID>34159</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -16911,6 +16905,7 @@
 		<DisplayNameID>34164</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -16936,6 +16931,7 @@
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>YPLandTPOnly</Flag>
+		<Flag>TeamTech</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -16955,6 +16951,7 @@
 		<Flag>YPLandTPOnly</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>UniqueProtoUnitInstance</Flag>
+		<Flag>TeamTech</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>TradeRouteUpgrade1</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
@@ -16975,6 +16972,7 @@
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>YPLandTPOnly</Flag>
+		<Flag>TeamTech</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -16994,6 +16992,7 @@
 		<Flag>YPLandTPOnly</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>UniqueProtoUnitInstance</Flag>
+		<Flag>TeamTech</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>SATradeRouteUpgrade1</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
@@ -17655,6 +17654,7 @@
 		<DisplayNameID>34183</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -17675,6 +17675,7 @@
 		<DisplayNameID>34194</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -17854,8 +17855,7 @@
 				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='NativeScout' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>FreeScouts</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -17964,6 +17964,7 @@
 		<DisplayNameID>34405</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -17982,6 +17983,7 @@
 		<DisplayNameID>34405</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -19385,6 +19387,7 @@
 		<DisplayNameID>35466</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -19414,6 +19417,7 @@
 		<DisplayNameID>35470</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -19431,6 +19435,7 @@
 		<DisplayNameID>35472</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19451,6 +19456,7 @@
 		<DisplayNameID>35474</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19469,6 +19475,7 @@
 		<DisplayNameID>35476</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -19487,6 +19494,7 @@
 		<DisplayNameID>35480</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19505,6 +19513,7 @@
 		<DisplayNameID>35482</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19523,6 +19532,7 @@
 		<DisplayNameID>35486</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -19541,6 +19551,7 @@
 		<DisplayNameID>35489</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -19558,6 +19569,7 @@
 		<DisplayNameID>35495</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19576,6 +19588,7 @@
 		<DisplayNameID>35497</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19594,6 +19607,7 @@
 		<DisplayNameID>35501</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19612,6 +19626,7 @@
 		<DisplayNameID>35503</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -19630,6 +19645,7 @@
 		<DisplayNameID>35507</DisplayNameID>
 		<Cost resourcetype ='Food'>800.0000</Cost>
 		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Fame'>50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -19648,6 +19664,7 @@
 		<DisplayNameID>35509</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19666,6 +19683,7 @@
 		<DisplayNameID>35511</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19832,6 +19850,7 @@
 		<DisplayNameID>35637</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -19850,6 +19869,7 @@
 		<DisplayNameID>35639</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19868,6 +19888,7 @@
 		<DisplayNameID>35641</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19888,6 +19909,7 @@
 		<DisplayNameID>35651</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -20078,6 +20100,7 @@
 		<DisplayNameID>35678</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -20096,6 +20119,7 @@
 		<DisplayNameID>35680</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -20114,6 +20138,7 @@
 		<DisplayNameID>35684</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -20132,6 +20157,7 @@
 		<DisplayNameID>35686</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -20150,6 +20176,7 @@
 		<DisplayNameID>35694</DisplayNameID>
 		<Cost resourcetype ='Food'>5000.0000</Cost>
 		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -20167,6 +20194,7 @@
 		<DisplayNameID>35700</DisplayNameID>
 		<Cost resourcetype ='Food'>5000.0000</Cost>
 		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -20184,6 +20212,7 @@
 		<DisplayNameID>35703</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -20204,6 +20233,7 @@
 		<DisplayNameID>35707</DisplayNameID>
 		<Cost resourcetype ='Food'>1600.0000</Cost>
 		<Cost resourcetype ='Gold'>1300.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -25871,6 +25901,7 @@
 		<DisplayNameID>37020</DisplayNameID>
 		<Cost resourcetype ='Food'>5000.0000</Cost>
 		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -27104,6 +27135,7 @@
 		<DisplayNameID>41943</DisplayNameID>
 		<Cost resourcetype ='Food'>800.0000</Cost>
 		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Fame'>50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -27438,6 +27470,7 @@
 		<DisplayNameID>78038</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -27456,6 +27489,7 @@
 		<DisplayNameID>78039</DisplayNameID>
 		<Cost resourcetype ='Food'>2600.0000</Cost>
 		<Cost resourcetype ='Gold'>1600.0000</Cost>
+		<Cost resourcetype ='Fame'>150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -28418,7 +28452,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28445,7 +28479,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28471,7 +28505,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28496,7 +28530,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28520,7 +28554,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28545,7 +28579,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28569,7 +28603,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28592,7 +28626,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28614,7 +28648,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28639,7 +28673,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28663,7 +28697,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28686,7 +28720,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28708,7 +28742,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28735,7 +28769,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28761,7 +28795,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28786,7 +28820,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28810,7 +28844,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28841,7 +28875,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28871,7 +28905,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -28900,7 +28934,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33297,7 +33331,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33326,7 +33360,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33354,7 +33388,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33381,7 +33415,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33407,7 +33441,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33440,7 +33474,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33465,7 +33499,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33489,7 +33523,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33512,7 +33546,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33534,7 +33568,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33561,7 +33595,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33589,7 +33623,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33616,7 +33650,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33642,7 +33676,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33665,7 +33699,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33687,7 +33721,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33708,7 +33742,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33744,7 +33778,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33776,7 +33810,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33807,7 +33841,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33837,7 +33871,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33862,7 +33896,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33888,7 +33922,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33913,7 +33947,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33935,7 +33969,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33960,7 +33994,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -33984,7 +34018,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34007,7 +34041,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34031,7 +34065,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34056,7 +34090,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34080,7 +34114,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34103,7 +34137,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34125,7 +34159,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34152,7 +34186,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34178,7 +34212,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34203,7 +34237,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34227,7 +34261,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34250,7 +34284,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34272,7 +34306,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -34293,7 +34327,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'/>
+			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
 		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
@@ -40346,6 +40380,8 @@
 	<Tech name ='YPDisciplinedUrumi' type ='Normal'>
 		<DBID>3566</DBID>
 		<DisplayNameID>60436</DisplayNameID>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>100.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\disciplined_infantry</Icon>
@@ -40515,6 +40551,8 @@
 	<Tech name ='YPHonoredUrumi' type ='Normal'>
 		<DBID>3586</DBID>
 		<DisplayNameID>60491</DisplayNameID>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
+		<Cost resourcetype ='Gold'>600.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\honored_infantry</Icon>
@@ -40643,6 +40681,8 @@
 	<Tech name ='YPExaltedUrumi' type ='Normal'>
 		<DBID>3591</DBID>
 		<DisplayNameID>60511</DisplayNameID>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\exalted_infantry</Icon>
@@ -43922,6 +43962,7 @@
 		<RolloverTextID>61767</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>YPCapturableTradeRouteUpgradeTech</Flag>
+		<Flag>TeamTech</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -44237,6 +44278,7 @@
 		<RolloverTextID>61872</RolloverTextID>
 		<Flag>YPCapturableTradeRouteUpgradeTech</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>TeamTech</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 			<TechStatus status ='Active'>ypTradeRouteUpgradeIndia1</TechStatus>
@@ -52082,8 +52124,8 @@
 	<Tech name ='ypFortifiedAgra' type ='Normal'>
 		<DBID>4809</DBID>
 		<DisplayNameID>66079</DisplayNameID>
-		<Cost resourcetype ='Wood'>200.0000</Cost>
-		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<Cost resourcetype ='Gold'>400.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\tech_frontier_castle</Icon>
@@ -52159,8 +52201,8 @@
 	<Tech name ='ypFrontierAgra' type ='Normal'>
 		<DBID>4811</DBID>
 		<DisplayNameID>66086</DisplayNameID>
-		<Cost resourcetype ='Wood'>150.0000</Cost>
-		<Cost resourcetype ='Gold'>150.0000</Cost>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\tech_fortified_castle</Icon>
@@ -56583,6 +56625,7 @@
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>YPNauticalTPOnly</Flag>
+		<Flag>TeamTech</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>YPEnableAsianNativeOutpost</TechStatus>
 			<TechStatus status ='Active'>Colonialize</TechStatus>
@@ -56603,6 +56646,7 @@
 		<Flag>YPNauticalTPOnly</Flag>
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>TeamTech</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 			<TechStatus status ='Active'>ypTradeRouteUpgrade1</TechStatus>
@@ -57836,7 +57880,7 @@
 		<DBID>5274</DBID>
 		<DisplayNameID>77794</DisplayNameID>
 		<Cost resourcetype ='Wood'>400.0000</Cost>
-		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<Cost resourcetype ='Gold'>400.0000</Cost>
 		<ResearchPoints>80.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\stone_walls\stone_walls</Icon>
@@ -57871,6 +57915,33 @@
 			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='xpWarrior' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>780818</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='Labor' type ='Normal'>
+		<DBID>6</DBID>
+		<DisplayNameID>780820</DisplayNameID>
+		<Cost resourcetype ='Food'>100.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\indentured_labor\indentured_labor</Icon>
+		<RolloverTextID>780821</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Tree' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='ypGroveBuilding' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='FreeScouts' type ='Normal'>
+		<DBID>1343</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Flag>TeamTech</Flag>
+		<Flag>YPInfiniteTech</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='NativeScout' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 </TechTree>

@@ -353,6 +353,7 @@
 	<tactic>
 		GiftDance
 		<action>XPTrickleIncrease</action>
+		<action>SpawnAge</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Economic</firetype>
@@ -447,6 +448,7 @@
 		CityDance
 		<action>BuildingHitpointIncrease</action>
 		<action>BuildingDamageIncrease</action>
+		<action>SpawnAge</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Military</firetype>
@@ -541,6 +543,7 @@
 		WaterDance
 		<action>ShipHitpointIncrease</action>
 		<action>ShipDamageIncrease</action>
+		<action>SpawnAge</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Military</firetype>

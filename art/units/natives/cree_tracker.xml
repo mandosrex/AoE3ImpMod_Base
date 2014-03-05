@@ -272,48 +272,41 @@
 	<anim>
 		Volley_standing_idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\idle_rifleman_A</file>
+			<file>animation_library\natives\riflemen\volley_idle</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Volley_standing_bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\bored_rifleman_A</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\bored_rifleman_B</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\bored_rifleman_C</file>
+			<file>animation_library\natives\riflemen\volley_idle2</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Volley_walk
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\walk_crossbow_upper</file>
-			<file>animation_library\shared\walk_generic_lower</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.14</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
+			<file>animation_library\natives\riflemen\volley_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.12</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.60</tag>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Volley_jog
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\jog_rifleman_A</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.04</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.54</tag>
+			<file>animation_library\natives\riflemen\volley_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.09</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.57</tag>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Volley_run
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\run_rifleman_A</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.13</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.60</tag>
+			<file>animation_library\natives\riflemen\volley_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.11</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.58</tag>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

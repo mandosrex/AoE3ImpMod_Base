@@ -38,6 +38,9 @@
 				<choice name="Japanese">
 					<soundset name="SPCMinerSelect"/>
 				</choice>
+				<choice name="SPCJapanese">
+					<soundset name="SPCMinerSelect"/>
+				</choice>
 				<choice name="XPSPC">
 					<soundset name="CusterSelect"/>
 				</choice>
@@ -251,6 +254,23 @@
 					</targetlogic>
 				</choice>
 				<choice name="Japanese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="SPCMinerAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="SPCMinerAttack"/>
+						</choice>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="SPCJapanese">
 					<targetlogic>
 						<choice name="default">
 							<soundset name="SPCMinerAcknowledge"/>

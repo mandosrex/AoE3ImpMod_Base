@@ -133,7 +133,7 @@
 	<anim>
 		GatherBush
 		<assetreference type="GrannyAnim">
-			<file>animation_library\villager\villager_gathefruit</file>
+			<file>units\asians\shared\villager\villager_farm1</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="book" frombone="bone_book" tobone="L HAND" syncanims="0"/>
@@ -386,7 +386,7 @@
 	<anim>
 		GatherBush
 		<assetreference type="GrannyAnim">
-			<file>animation_library\villager\villager_gathefruit</file>
+			<file>units\asians\shared\villager\villager_farm1</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="book" frombone="bone_book" tobone="L HAND" syncanims="0"/>

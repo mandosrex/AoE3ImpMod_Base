@@ -31,8 +31,8 @@
 			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
 			<selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture>
 			<noncinematictexture>shadows_selections\shadow_hero_64x64</noncinematictexture>
-			<width>1.50</width>
-			<height>1.50</height>
+			<width>2.50</width>
+			<height>2.50</height>
 		</decal>
 		<attach a="RiderAttachment" frombone="hotspot" tobone="Attachpoint" syncanims="1"/>
 	</component>
