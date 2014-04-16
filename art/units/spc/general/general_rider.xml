@@ -46,11 +46,11 @@
 							<file>units\cavalry\uhlan\uhlan_age01_rider</file>
 								<replacetexture>
 									<from>units\cavalry\uhlan\uhlan_age01</from>
-									<to>units\cavalry\uhlan\test</to>
+									<to>units\spc\general\test</to>
 								</replacetexture>
 								<replacetexture>
 									<from>units\cavalry\uhlan\uhlan_age01_b</from>
-									<to>units\cavalry\uhlan\test_b</to>
+									<to>units\spc\general\test_b</to>
 								</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>

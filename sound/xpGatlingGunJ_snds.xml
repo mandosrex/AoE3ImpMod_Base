@@ -29,7 +29,7 @@
 				<choice name="Ottomans">
 					<soundset name="OttomanGrenadierSelect"/>
 				</choice>
-				<choice name="Americans">
+				<choice name="XPIroquois">
 					<soundset name="SPCMilitiaSelect"/>
 				</choice>
 				<choice name="USA">
@@ -52,7 +52,6 @@
 				<choice name="Pirate"/>
 				<choice name="TheCircle"/>
 				<choice name="NativeAmerican"/>
-				<choice name="XPIroquois"/>
 				<choice name="XPSioux"/>
 				<choice name="XPAztec"/>
 				<choice name="Aztecs"/>
@@ -388,8 +387,12 @@
 				</choice>
 				<choice name="XPIroquois">
 					<targetlogic>
-						<choice name="default"/>
-						<choice name="enemy"/>
+						<choice name="default">
+							<soundset name="SPCMinerAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="SPCMinerAttack"/>
+						</choice>
 						<choice name="build"/>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>

@@ -17,11 +17,11 @@
 							<file>units\cavalry\cossack\cossack_3age_horse</file>
 								<replacetexture>
 									<from>units\cavalry\cossack\cossack_3age_horse</from>
-									<to>units\cavalry\uhlan\testhorse</to>
+									<to>units\spc\general\testhorse</to>
 								</replacetexture>
 								<replacetexture>
 									<from>units\cavalry\cossack\cossack_3age_horse_b</from>
-									<to>units\cavalry\uhlan\testhorse_b</to>
+									<to>units\spc\general\testhorse_b</to>
 								</replacetexture>
 						</assetreference>
 			</none>

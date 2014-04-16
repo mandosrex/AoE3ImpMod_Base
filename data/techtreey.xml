@@ -31449,8 +31449,6 @@
 		<Effects>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateEspadachins' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='SakerC' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 	</Tech>
 	<Tech name ='HCXPSpanishAllies2' type ='Normal'>
 		<DBID>2967</DBID>
@@ -31465,13 +31463,10 @@
 		<Effects>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateEspadachins' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypNatConquistador' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='SakerC' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateGarrochista' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearerS' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedJesuit</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPTempleCenteotl' type ='Normal'>
@@ -33167,12 +33162,10 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\natives\holcan_spearman_icon</Icon>
-		<RolloverTextID>46947</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='24.00' subtype ='FreeHomeCityUnit' unittype ='NatMercHolcanSpearman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCConquistador' type ='Normal'>
@@ -33214,12 +33207,12 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\natives\conquistador\conquistador_icon_64</Icon>
-		<RolloverTextID>77831</RolloverTextID>
+		<RolloverTextID>77830</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='14.00' subtype ='FreeHomeCityUnit' unittype ='ypNatConquistador' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active'>ypNatHonoredJesuit</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedJesuit</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImpExcessiveTributeNative' type ='Normal'>
@@ -37580,6 +37573,8 @@
 				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='SettlerNative' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NativeEmbassyN</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='SettlerNative' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NativeEmbassyI</Target></Effect>
 			<Effect type ='TextOutput'>49042</Effect>
 		</Effects>
 	</Tech>
@@ -53131,25 +53126,27 @@
 	</Tech>
 	<Tech name ='ypConsulateBritishBrigadeN' type ='Normal'>
 		<DBID>4903</DBID>
-		<DisplayNameID>780760</DisplayNameID>
+		<DisplayNameID>780822</DisplayNameID>
 		<Cost resourcetype ='Gold'>2000.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\british_armies\british_brigade_icon_64</Icon>
-		<RolloverTextID>66601</RolloverTextID>
+		<Icon>ui\techs\native\Dance2</Icon>
+		<IconTextureCoords>.599609375 .607421875 .796875 .908203125</IconTextureCoords>
+		<RolloverTextID>780826</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Flag>ypConsulateImprovementImperial</Flag>
+		<Flag>NativeDance</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateRogersRanger' relativity ='Absolute'>
+			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='RiflemanUSJ' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateFalconet' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='xpGatlingGunJ' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearerB' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearerUS' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Surgeon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -53235,21 +53232,25 @@
 	</Tech>
 	<Tech name ='ypConsulateFrenchBrigadeN' type ='Normal'>
 		<DBID>4906</DBID>
-		<DisplayNameID>780759</DisplayNameID>
+		<DisplayNameID>780823</DisplayNameID>
 		<Cost resourcetype ='Gold'>2000.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\french_armies\french_brigade_icon_64</Icon>
-		<RolloverTextID>66606</RolloverTextID>
+		<Icon>ui\techs\native\Dance2</Icon>
+		<IconTextureCoords>.599609375 .607421875 .796875 .908203125</IconTextureCoords>
+		<RolloverTextID>780825</RolloverTextID>
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
+		<Flag>NativeDance</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateGendarmes' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateCulverin' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearerF' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -53311,23 +53312,27 @@
 	</Tech>
 	<Tech name ='ypConsulateSpanishBrigadeN' type ='Normal'>
 		<DBID>4908</DBID>
-		<DisplayNameID>780758</DisplayNameID>
+		<DisplayNameID>780821</DisplayNameID>
 		<Cost resourcetype ='Gold'>2000.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\consulate\spanish_brigade</Icon>
-		<RolloverTextID>66610</RolloverTextID>
+		<Icon>ui\techs\native\Dance2</Icon>
+		<IconTextureCoords>.599609375 .607421875 .796875 .908203125</IconTextureCoords>
+		<RolloverTextID>780824</RolloverTextID>
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
+		<Flag>NativeDance</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='17.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateEspadachins' relativity ='Absolute'>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateEspadachins' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateGarrochista' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='SakerC' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearerS' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -53911,7 +53916,7 @@
 	<Tech name ='ypConsulateJapaneseKoujou' type ='Normal'>
 		<DBID>4941</DBID>
 		<DisplayNameID>68289</DisplayNameID>
-		<Cost resourcetype ='Trade'>300.0000</Cost>
+		<Cost resourcetype ='Trade'>200.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\levy\levy</Icon>

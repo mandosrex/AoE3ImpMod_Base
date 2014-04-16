@@ -47,6 +47,9 @@
 				<choice name="USA">
 					<soundset name="WarwickSelect"/>
 				</choice>
+				<choice name="SPCAct3">
+					<soundset name="WarwickSelect"/>
+				</choice>
 				<choice name="XPIroquois">
 					<soundset name="DutchHalberdierSelect"/>
 				</choice>
@@ -156,6 +159,16 @@
 					</targetlogic>
 				</choice>
 				<choice name="USA">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="WarwickAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="WarwickAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="SPCAct3">
 					<targetlogic>
 						<choice name="default">
 							<soundset name="WarwickAcknowledge"/>
