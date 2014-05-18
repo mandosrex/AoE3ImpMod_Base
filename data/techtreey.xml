@@ -10875,12 +10875,9 @@
 			<TechStatus status ='Active'>HCRoyalDecreeFrench</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateYoungGarde' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranGrenadiers</Effect>
-			<Effect type ='SetName' proto ='Grenadier' culture ='none' newName ='42457'></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Grenadier' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ChurchCodeNapoleon' type ='Normal'>
@@ -10906,11 +10903,11 @@
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='BerryBush' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
@@ -11242,12 +11239,9 @@
 			<TechStatus status ='Active'>HCRoyalDecreeRussian</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='Dragoon' relativity ='Absolute'>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateKalmuck' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearer' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='SetName' proto ='Dragoon' culture ='none' newName ='42453'></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Dragoon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -11267,13 +11261,11 @@
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='17.00' subtype ='FreeHomeCityUnit' unittype ='Hussar' relativity ='Absolute'>
+			<Effect type ='Data' amount ='17.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateLifeGuard' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active'>VeteranHussars</Effect>
-			<Effect type ='TechStatus' status ='active'>GuardHussars</Effect>
-			<Effect type ='SetName' proto ='Hussar' culture ='none' newName ='42452'></Effect>
+			<Effect type ='SetName' proto ='ypConsulateLifeGuard' culture ='none' newName ='42452'></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Hussar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -11281,8 +11273,7 @@
 	<Tech name ='ChurchWesternization' type ='Normal'>
 		<DBID>224</DBID>
 		<DisplayNameID>23678</DisplayNameID>
-		<Cost resourcetype ='Wood'>900.0000</Cost>
-		<Cost resourcetype ='Fame'>100.0000</Cost>
+		<Cost resourcetype ='Wood'>1000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\westernization\westernization_64x64</Icon>
@@ -11366,7 +11357,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='MaximumVelocity' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
@@ -11434,7 +11425,7 @@
 			<TechStatus status ='Active'>HCRoyalDecreeOttoman</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='Janissary' relativity ='Absolute'>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateTufanciCorps' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -11545,7 +11536,7 @@
 			<TechStatus status ='Active'>HCRoyalDecreeGerman</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Dopplesoldner' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateZweihander' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
@@ -11610,11 +11601,9 @@
 			<TechStatus status ='Active'>Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='13.00' subtype ='FreeHomeCityUnit' unittype ='Halberdier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='13.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateEspadachins' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active'>GuardHalberdiers</Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Halberdier' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>RGEspadachins</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -11855,7 +11844,7 @@
 			<TechStatus status ='Active'>HCRoyalDecreePortuguese</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='22.00' subtype ='FreeHomeCityUnit' unittype ='Crossbowman' relativity ='Absolute'>
+			<Effect type ='Data' amount ='22.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateBestieros' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialCrossbowmen</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearer' relativity ='Absolute'>
@@ -11904,7 +11893,7 @@
 	<Tech name ='ChurchWallensteinsContracts' type ='Normal'>
 		<DBID>357</DBID>
 		<DisplayNameID>23978</DisplayNameID>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Gold'>2000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\wallenstein_contracts\wallenstein_contracts_64x64</Icon>
@@ -11912,32 +11901,12 @@
 		<Flag>UniqueTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
 			<TechStatus status ='Active'>HCRoyalDecreeGerman</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>HCMercsLandsknecht2German</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>HCMercsHighlandGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>HCMercsBlackRidersGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>HCMercsMediterraneanGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>HCMercsLandsknecht1German</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>HCMercsHolyRomanGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>HCMercsHessiansGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>HCMercsHackapellsGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>HCPrivateers</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>HCXPMercsFusiliersGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>HCXPMercsElmetiGerman</Target></Effect>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Mercenary</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ChurchStadholders' type ='Normal'>
@@ -11956,12 +11925,8 @@
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='25.00' subtype ='FreeHomeCityUnit' unittype ='Musketeer' relativity ='Absolute'>
+			<Effect type ='Data' amount ='25.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateStadhouders' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active'>VeteranMusketeers</Effect>
-			<Effect type ='TechStatus' status ='active'>GuardMusketeers</Effect>
-			<Effect type ='TechStatus' status ='active'>ImperialMusketeersDutch</Effect>
-			<Effect type ='SetName' proto ='Musketeer' culture ='none' newName ='42454'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -12980,19 +12945,19 @@
 		<Prereqs>
 			<TechStatus status ='Active'>HCRoyalDecreePortuguese</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Mill' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='Mill' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='0.95' subtype ='WorkRate' unittype ='Tree' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='0.95' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' action ='Gather' amount ='0.95' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='0.95' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='0.95' subtype ='WorkRate' unittype ='BerryBush' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='0.95' subtype ='WorkRate' unittype ='ypBerryBuilding' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
@@ -13612,9 +13577,9 @@
 			<TechStatus status ='Active'>HCRoyalDecreeDutch</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='MercStradiot' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypRepentantStradiot' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='SetName' proto ='MercStradiot' culture ='none' newName ='42319'></Effect>
+			<Effect type ='SetName' proto ='ypRepentantStradiot' culture ='none' newName ='42319'></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='RGGuerreiros' type ='Normal'>
@@ -14152,12 +14117,10 @@
 			<TechStatus status ='Active'>Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateYoungGarde' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>GuardGrenadiers</Effect>
-			<Effect type ='SetName' proto ='Grenadier' culture ='none' newName ='42458'></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Grenadier' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='SetName' proto ='ypConsulateYoungGarde' culture ='none' newName ='42458'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -14178,15 +14141,13 @@
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateYoungGarde' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+				<Target type ='ProtoUnit'>ypConsulateYoungGarde</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Grenadier' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='SetName' proto ='Grenadier' culture ='none' newName ='42459'></Effect>
+				<Target type ='ProtoUnit'>ypConsulateYoungGarde</Target></Effect>
+			<Effect type ='SetName' proto ='ypConsulateYoungGarde' culture ='none' newName ='42459'></Effect>
 			<Effect type ='TechStatus' status ='active'>IncendiaryGrenades</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -16280,9 +16241,9 @@
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='MercBlackRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='ypRepentantBlackRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='SetName' proto ='MercBlackRider' culture ='none' newName ='42320'></Effect>
+			<Effect type ='SetName' proto ='ypRepentantBlackRider' culture ='none' newName ='42320'></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ChurchAbbassidMarket' type ='Normal'>
@@ -16639,12 +16600,7 @@
 			<TechStatus status ='Active'>HCRoyalDecreeBritish</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='26.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active'>VeteranSkirmishersShadow</Effect>
-			<Effect type ='TechStatus' status ='active'>GuardSkirmishers</Effect>
-			<Effect type ='SetName' proto ='Skirmisher' culture ='none' newName ='43846'></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Skirmisher' relativity ='Absolute'>
+			<Effect type ='Data' amount ='26.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateRogersRanger' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -16666,9 +16622,9 @@
 			<TechStatus status ='Active'>Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='MercHighlander' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypRepentantHighlander' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='SetName' proto ='MercHighlander' culture ='none' newName ='42455'></Effect>
+			<Effect type ='SetName' proto ='ypRepentantHighlander' culture ='none' newName ='42455'></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ChurchBlackWatchXP' type ='Normal'>
@@ -16687,9 +16643,9 @@
 			<TechStatus status ='Active'>Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='MercHighlander' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypRepentantHighlander' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='SetName' proto ='MercHighlander' culture ='none' newName ='42455'></Effect>
+			<Effect type ='SetName' proto ='ypRepentantHighlander' culture ='none' newName ='42455'></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ChurchWildGeeseSpanish' type ='Normal'>
@@ -16708,9 +16664,9 @@
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='MercHackapell' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypRepentantHackapell' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='SetName' proto ='MercHackapell' culture ='none' newName ='32927'></Effect>
+			<Effect type ='SetName' proto ='ypRepentantHackapell' culture ='none' newName ='32927'></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='SPCNoSettlerShipment' type ='Normal'>
@@ -25091,7 +25047,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='MaximumVelocity' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>

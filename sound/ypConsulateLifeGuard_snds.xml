@@ -9,17 +9,103 @@
 			<soundset name="GenericMaleDeath"/>
 		</soundtype>
 		<soundtype name="Select">
-			<soundset name="BritishLightCavalrySelect"/>
+			<civlogic>
+				<choice name="Chinese">
+					<soundset name="BritishLightCavalrySelect"/>
+				</choice>
+				<choice name="Japanese">
+					<soundset name="BritishLightCavalrySelect"/>
+				</choice>
+				<choice name="Indians">
+					<soundset name="BritishLightCavalrySelect"/>
+				</choice>
+				<choice name="SPCChinese">
+					<soundset name="BritishLightCavalrySelect"/>
+				</choice>
+				<choice name="SPCJapanese">
+					<soundset name="BritishLightCavalrySelect"/>
+				</choice>
+				<choice name="SPCIndians">
+					<soundset name="BritishLightCavalrySelect"/>
+				</choice>
+				<choice name="Russians">
+					<soundset name="RussianCossackSelect"/>
+				</choice>
+			</civlogic>
 		</soundtype>
 		<soundtype name="Acknowledge">
-			<targetlogic>
-				<choice name="default">
-					<soundset name="BritishLightCavalryAcknowledge"/>
+			<civlogic>
+				<choice name="Chinese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishLightCavalryAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishLightCavalryAttack"/>
+						</choice>
+					</targetlogic>
 				</choice>
-				<choice name="enemy">
-					<soundset name="BritishLightCavalryAttack"/>
+				<choice name="Japanese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishLightCavalryAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishLightCavalryAttack"/>
+						</choice>
+					</targetlogic>
 				</choice>
-			</targetlogic>
+				<choice name="Indians">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishLightCavalryAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishLightCavalryAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="SPCChinese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishLightCavalryAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishLightCavalryAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="SPCJapanese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishLightCavalryAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishLightCavalryAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="SPCIndians">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishLightCavalryAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishLightCavalryAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="Russians">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="RussianCossackAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="RussianCossackAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+			</civlogic>
 		</soundtype>
 		<soundtype name="Creation">
 			<soundset name="MilitaryBirth"/>

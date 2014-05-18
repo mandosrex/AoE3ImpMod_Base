@@ -5272,6 +5272,13 @@
 			<context>AutogatherersAccel</context>
 			<command>unitSetTactic("Yabusame")</command>
 		</keymapdata>
+		<keymapdata>
+			<name>Sohei</name>
+			<displayname>$$60100$$Sohei</displayname>
+			<event>f</event>
+			<context>AutogatherersAccel</context>
+			<command>unitSetTactic("Sohei")</command>
+		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="Shrine Hotkeys" displayname="$$68764$$Shrine">
 		<keymapdata>

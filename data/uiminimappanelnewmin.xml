@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+	<gadget name="minimapPanel" type="gadget" size1024="0 628 342 768" background="ui\ingame\ingame_ui_small_01_ypack" clickthrufile="ui\ingame\ingame_ui_small_01" z="10" texturecoords="0 0.728515625 0.66796875 0.998046875" clickthrucoords="0 0.728515625 0.66796875 0.998046875">
+		<position name="AGameMinimap" size1024="18 566 210 758" windowzstyle="" z="15"/>
+		<gadget name="minimapPanel-map" type="gadget" size1024="22 632 152 765" z="10"/>
+		<gadget name="minimapPanel-flareButton" type="stateButton" z="16" size1024="9 708 73 772" texturecoords="0 0 1 1" mouseovertext="$$18424$$Click this button, and then click in the world to send a flare to all other players." anchortooltiptopright="" clampforeground="" clampbackground="" statebuttonuseinternalstates="" activateondown="" clickthrufile="ui\ingame\ingame_minimap_small_flare_normal_ypack" clickthrucoords="0 0 1 1">
+			<command>editMode("flare") uiSetProtoCursor("WaypointFlag")</command>
+			<stateentry background="ui\ingame\ingame_minimap_small_flare_normal_ypack"/>
+			<stateentry background="ui\ingame\ingame_minimap_small_flare_depressed_ypack"/>
+			<stateentry background="ui\ingame\ingame_minimap_small_flare_active_ypack"/>
+			<stateentry background="ui\ingame\ingame_minimap_small_flare_active_ypack"/>
+		</gadget>
+		<gadget name="minimapPanel-explorerButton" type="stateButton" z="16" size1024="154 708 218 772" texturecoords="0 0 1 1" mouseovertext="$$48949$$" anchortooltiptopright="" clampforeground="" clampbackground="" statebuttonuseinternalstates="" activateondown="" clickthrufile="ui\ingame\ingame_minimap_small_tribute_normal_ypack" clickthrucoords="0 0 1 1">
+			<command>editMode("moveAllMilitary") uiSetProtoCursor("WaypointFlag")</command>
+			<stateentry background="ui\ingame\ingame_minimap_small_tribute_normal_ypack"/>
+			<stateentry background="ui\ingame\ingame_minimap_small_tribute_depressed_ypack"/>
+			<stateentry background="ui\ingame\ingame_minimap_small_tribute_active_ypack"/>
+			<stateentry background="ui\ingame\ingame_minimap_small_tribute_active_ypack"/>
+		</gadget>
+		<gadget name="minimapPanel-chat" type="stateButton" z="16" size1024="9 708 73 772" texturecoords="0 0 1 1" mouseovertext="$$21431$$" anchortooltiptopright="" statebuttonuseinternalstates="" activateondown="" clickthrufile="ui\ingame\ingame_minimap_small_chat_normal_ypack" clickthrucoords="0 0 1 1">
+			<command>uiShowChatWindow()</command>
+			<stateentry background="ui\ingame\ingame_minimap_small_chat_normal_ypack"/>
+			<stateentry background="ui\ingame\ingame_minimap_small_chat_depressed_ypack"/>
+			<stateentry background="ui\ingame\ingame_minimap_small_chat_active_ypack"/>
+			<stateentry background="ui\ingame\ingame_minimap_small_chat_active_ypack"/>
+		</gadget>
+		<gadget name="minimapPanel-FilterToggle" type="stateButton" z="16" size1024="154 708 218 772" mouseovertext="$$36021$$" anchortooltiptopright="" keepflashingonactivate="" statebuttonuseinternalstates="" activateondown="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" background="" clickthrufile="ui\ingame\ingame_minimap_small_all_normal_ypack" clickthrucoords="0 0 1 1">
+			<leftcommand>setMinimapUnitFilter(-1)</leftcommand>
+		</gadget>
+	</gadget>
+	<gadget name="shipsDisplay" type="textBox" size1024="316 643 340 667" textcenterhoriz="" textcentervert="" transparent="" datarefreshrate=".5" textcolor="255 255 255" z="20" textfont="TimerDisplays" textfontsize="12">{resource(ships)}</gadget>
+	<gadget name="uimain-homeCityToggle" type="stateButton" z="16" size1024="271 629 321 661" mouseovertext="$$43039$$" anchortooltiptopright="" keepflashingonactivate="" statebuttonuseinternalstates="" activateondown="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" background="" sound="UI_DefaultPregameClickSet">
+		<leftcommand>toggleHomeCityView()</leftcommand>
+	</gadget>
+	<gadget name="shipsDisplayBG" type="gadget" size1024="320 645 338 661" background="ui\ingame\ingame_ui_01" z="18" texturecoords="0.689453125 0.6484375 0.74609375 0.697265625"/>
+	<gadget name="shipsTimerBG" type="gadget" size1024="271 661 337 667" mouseovertext="$$32711$$" background="ui\ingame\ingame_ui_01" z="14" texturecoords="0.693359375 0.71484375 0.888671875 0.736328125"/>
+	<gadget name="shipsTimerFG" type="gadget" size1024="271 661 337 667" mouseovertext="$$32711$$" background="ui\ingame\ingame_ui_01" z="16" texturecoords="0.693359375 0.615234375 0.888671875 0.63671875"/>
+</layout>
