@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <layout>
-	<gadget name="uiwonderpowerpanel" type="uiwonderpowerpanel" size1024="220 575 490 625" z="105" transparent="" background="">
-		<gadget name="WonderPowerPanel-Button0" type="button" size1024="220 575 270 625" z="0" hidden="">
+	<gadget name="uiwonderpowerpanel" type="uiwonderpowerpanel" size1024="445 585 490 625" z="105" transparent="" background="">
+		<gadget name="WonderPowerPanel-Button0" type="button" size1024="230 585 270 625" z="0" hidden="">
 			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
 		</gadget>
-		<gadget name="WonderPowerPanel-Button1" type="button" size1024="275 575 325 625" z="0" hidden="">
+		<gadget name="WonderPowerPanel-Button1" type="button" size1024="280 585 320 625" z="0" hidden="">
 			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
 		</gadget>
-		<gadget name="WonderPowerPanel-Button2" type="button" size1024="330 575 380 625" z="0" hidden="">
+		<gadget name="WonderPowerPanel-Button2" type="button" size1024="330 585 370 625" z="0" hidden="">
 			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
 		</gadget>
-		<gadget name="WonderPowerPanel-Button3" type="button" size1024="285 575 435 625" z="0" hidden="">
+		<gadget name="WonderPowerPanel-Button3" type="button" size1024="380 585 420 625" z="0" hidden="">
 			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
 		</gadget>
-		<gadget name="WonderPowerPanel-Button4" type="button" size1024="440 575 490 625" z="0" hidden="">
+		<gadget name="WonderPowerPanel-Button4" type="button" size1024="430 585 470 625" z="0" hidden="">
 			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
 		</gadget>
 	</gadget>
-	<gadget name="town_center_Button" type="button" size1024="375 0 395 80" background="ui\town_centerbanner" foreground="" sound="UI_DefaultIngameClickSet" activateondown="">
+	<gadget name="town_center_Button" type="button" size1024="375 0 395 55" background="ui\town_centerbanner" foreground="" sound="UI_DefaultIngameClickSet" activateondown="">
 		<command>saveCamera("game")  uiFindType("TownCenter") doAbilityInSelected("") loadCamera("game")</command>
 	</gadget>
-	<gadget name="hero_Button" type="button" size1024="630 0 650 80" background="ui\herobanner" foreground="" sound="UI_DefaultIngameClickSet" activateondown="">
+	<gadget name="hero_Button" type="button" size1024="630 0 650 55" background="ui\herobanner" foreground="" sound="UI_DefaultIngameClickSet" activateondown="">
 		<command>saveCamera("game")  uiFindType("Hero") doAbilityInSelected("") loadCamera("game")</command>
 	</gadget>
 </layout>
