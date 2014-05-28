@@ -803,9 +803,9 @@
 	</protounitcommand>
 	<protounitcommand>
 		<name>RepairColonyWall</name>
-		<icon>art\ui\command\tactic_wonder_old_han_army_off</icon>
-		<activeicon>art\ui\command\tactic_wonder_old_han_army_on</activeicon>
-		<disabledicon>art\ui\command\tactic_wonder_old_han_army_off</disabledicon>
+		<icon>art\ui\command\tactic_sohei_off</icon>
+		<activeicon>art\ui\command\tactic_sohei_on</activeicon>
+		<disabledicon>art\ui\command\tactic_sohei_off</disabledicon>
 		<rollovertextid>77985</rollovertextid>
 		<activerollovertextid>77986</activerollovertextid>
 		<command>unitSetTactic("Sohei")</command>
@@ -820,9 +820,9 @@
 	</protounitcommand>
 	<protounitcommand>
 		<name>SquadWheelLeft</name>
-		<icon>art\ui\command\tactic_wonder_old_han_army_off</icon>
-		<activeicon>art\ui\command\tactic_wonder_old_han_army_on</activeicon>
-		<disabledicon>art\ui\command\tactic_wonder_old_han_army_off</disabledicon>
+		<icon>art\ui\command\tactic_sohei_off</icon>
+		<activeicon>art\ui\command\tactic_sohei_on</activeicon>
+		<disabledicon>art\ui\command\tactic_sohei_off</disabledicon>
 		<rollovertextid>77985</rollovertextid>
 		<activerollovertextid>77986</activerollovertextid>
 		<command>unitSetTactic("Sohei")</command>

@@ -11434,7 +11434,7 @@
 	<Tech name ='ChurchTopcuCorps' type ='Normal'>
 		<DBID>274</DBID>
 		<DisplayNameID>23768</DisplayNameID>
-		<Cost resourcetype ='Food'>1500.0000</Cost>
+		<Cost resourcetype ='Food'>2000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\topcu_corpse\topcu_corps_64x64</Icon>
@@ -11447,8 +11447,11 @@
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='GreatBombard' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='GreatBombard' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='MercMameluke' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='RGBaratcuCorps' type ='Normal'>
 		<DBID>277</DBID>
