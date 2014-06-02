@@ -4652,7 +4652,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CampfireNative</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>GuardTower</Target></Effect>
+				<Target type ='ProtoUnit'>Lookout</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpIroquoisWarChief</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -5345,11 +5345,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>SelectiveBreeding</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PlacerMines</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarGathering</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='Building' allactions ='1' relativity ='Assign'>
-				<Target type ='ProtoUnit'>Guardian</Target></Effect>
-			<Effect type ='Data' amount ='0.64' subtype ='MaximumVelocity' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Guardian</Target></Effect>
-			<Effect type ='Data' amount ='0.10' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Guardian</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImpDeforestationNative</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImpLargeScaleGathering</Effect>
@@ -5358,12 +5354,10 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImpExcessiveTributeNative</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpiesNative</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HCBlockadeNative</Effect>
-			<Effect type ='Data' amount ='0.60' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Guardian</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypPetOrangutan</Target></Effect>
-			<Effect type ='Data' amount ='0.10' subtype ='DamageBonus' unittype ='Building' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Guardian</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SaloonWildWest</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Fishery</Target></Effect>
@@ -6287,13 +6281,9 @@
 			<Effect type ='TechStatus' status ='obtainable'>LongLines</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SelectiveBreeding</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PlacerMines</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='Building' allactions ='1' relativity ='Assign'>
-				<Target type ='ProtoUnit'>Guardian</Target></Effect>
-			<Effect type ='Data' amount ='0.64' subtype ='MaximumVelocity' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Guardian</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>BigDockFlamingArrows</Effect>
-			<Effect type ='Data' amount ='0.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Guardian</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>ypNativeEmbassyEnabler</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Fishery</Target></Effect>
@@ -53197,7 +53187,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance2</Icon>
 		<IconTextureCoords>.599609375 .607421875 .796875 .908203125</IconTextureCoords>
-		<RolloverTextID>780825</RolloverTextID>
+		<RolloverTextID>780824</RolloverTextID>
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -53277,7 +53267,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance2</Icon>
 		<IconTextureCoords>.599609375 .607421875 .796875 .908203125</IconTextureCoords>
-		<RolloverTextID>780824</RolloverTextID>
+		<RolloverTextID>780825</RolloverTextID>
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
