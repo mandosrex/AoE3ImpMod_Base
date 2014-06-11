@@ -1248,7 +1248,7 @@ extern const float   baselineHandicap = 1.0;    // This is the handicap given to
                                                 // meaning that hard has no handicap advantage or penalty.
                                                 // All other difficulty levels will be adjusted relative to this constant.  This means that
                                                 // we can gradually reduce this number as the AI's competence increases, and all the difficulty levels will respond.
-extern int           gMaxPop = 220;             // Absolute hard limit pop cap for game...will be set lower on some difficulty levels 
+extern int           gMaxPop = 280;             // Absolute hard limit pop cap for game...will be set lower on some difficulty levels 
 extern const int     cMaxSettlersPerPlantation = 10;
 
 // Start mode constants.
@@ -7575,6 +7575,8 @@ void initEcon(void)
       gLivestockPenUnit = cUnitTypeypSacredField;
       
       gEconUnit = cUnitTypeypSettlerIndian;
+
+      gCaravelUnit = cUnitTypeypWokouJunkI;
    }
    //...BHG
 
@@ -8072,7 +8074,7 @@ void updateForecasts()
             popSlots = kbGetPopSlots(cMyID, militaryUnit);
             if (popSlots < 1)
                popSlots = 1;
-            milQty = 15 / popSlots; 
+            milQty = 25 / popSlots; 
             addItemToForecasts(militaryUnit, milQty);
          }            
          else
@@ -8428,7 +8430,7 @@ void updateForecasts()
                popSlots = kbGetPopSlots(cMyID, militaryUnit);
                if (popSlots < 1)
                   popSlots = 1;
-               milQty = 15 / popSlots; 
+               milQty = 25 / popSlots; 
                addItemToForecasts(militaryUnit, milQty);
             }          
             else
@@ -8446,7 +8448,7 @@ void updateForecasts()
                   popSlots = kbGetPopSlots(cMyID, militaryUnit);
                   if (popSlots < 1)
                      popSlots = 1;
-                  milQty = 8 / popSlots; 
+                  milQty = 10 / popSlots; 
                   addItemToForecasts(militaryUnit, milQty);
                } 
             }
@@ -8898,7 +8900,7 @@ void updateForecasts()
                popSlots = kbGetPopSlots(cMyID, militaryUnit);
                if (popSlots < 1)
                   popSlots = 1;
-               milQty = 20 / popSlots; 
+               milQty = 35 / popSlots; 
                addItemToForecasts(militaryUnit, milQty);
             }         
             else
@@ -8916,7 +8918,7 @@ void updateForecasts()
                   popSlots = kbGetPopSlots(cMyID, militaryUnit);
                   if (popSlots < 1)
                      popSlots = 1;
-                  milQty = 10 / popSlots; 
+                  milQty = 20 / popSlots; 
                   addItemToForecasts(militaryUnit, milQty);
                } 
             }
@@ -9151,7 +9153,7 @@ void updateForecasts()
                popSlots = kbGetPopSlots(cMyID, militaryUnit);
                if (popSlots < 1)
                   popSlots = 1;
-               milQty = 30 / popSlots; 
+               milQty = 45 / popSlots; 
                addItemToForecasts(militaryUnit, milQty);
             } 
             
@@ -9164,7 +9166,7 @@ void updateForecasts()
                   popSlots = kbGetPopSlots(cMyID, militaryUnit);
                   if (popSlots < 1)
                      popSlots = 1;
-                  milQty = 15 / popSlots; 
+                  milQty = 25 / popSlots; 
                   addItemToForecasts(militaryUnit, milQty);
                } 
             }   
@@ -9328,7 +9330,7 @@ rule delayWalls
 inactive
 minInterval 10
 {
-   if ( (kbGetPopCap()-kbGetPop()) < 40 )
+   if ( (kbGetPopCap()-kbGetPop()) < 60 )
       return;  // Don't start walls until we have pop room
    int wallPlanID=aiPlanCreate("WallInBase", cPlanBuildWall);
    if (wallPlanID != -1)
@@ -10196,7 +10198,7 @@ minInterval 13
 }*/
 
 
-void setMilPopLimit(int age1=10, int age2=30, int age3=80, int age4=120, int age5=130)
+void setMilPopLimit(int age1=20, int age2=80, int age3=120, int age4=160, int age5=200)
 {
    int limit = 10;
    int age = kbGetAge();
@@ -10254,7 +10256,7 @@ minInterval 15
 {
    float difficulty = aiGetWorldDifficulty();
    int intDifficulty = difficulty;
-   int cvPopLimit = 220;      // Used to calculate implied total pop limit based on civ, army and navy components.
+   int cvPopLimit = 280;      // Used to calculate implied total pop limit based on civ, army and navy components.
    
    if ( (cvMaxCivPop >= 0) && (cvMaxArmyPop >= 0) && (cvMaxNavyPop >= 0) )    // All three are defined, so set a hard total
       cvPopLimit = cvMaxCivPop + cvMaxArmyPop + cvMaxNavyPop;
@@ -10265,10 +10267,10 @@ minInterval 15
    {
 		case cDifficultySandbox: // Sandbox
 		{  // Typically 20 econ, 20 mil
-			gMaxPop = 50 + (30 * (difficulty - intDifficulty));     // Interpolate between integers
+			gMaxPop = 60 + (40 * (difficulty - intDifficulty));     // Interpolate between integers
          if (gMaxPop > cvPopLimit)
             gMaxPop = cvPopLimit;
-         aiSetEconomyPop(20);
+         aiSetEconomyPop(30);
          if ( (aiGetEconomyPop() > cvMaxCivPop) && (cvMaxCivPop >= 0) )
             aiSetEconomyPop(cvMaxCivPop);
          maxMil = gMaxPop - aiGetEconomyPop();
@@ -10277,14 +10279,14 @@ minInterval 15
 		}
 		case cDifficultyEasy: // Easiest
 		{  // Typically 35 econ, 35 mil.
-			gMaxPop = 80 + (50 * (difficulty - intDifficulty));      // 70 at easy up to 120 at moderate
+			gMaxPop = 90 + (60 * (difficulty - intDifficulty));      // 70 at easy up to 120 at moderate
          if (gMaxPop > cvPopLimit)
             gMaxPop = cvPopLimit;
-         aiSetEconomyPop(35);
+         aiSetEconomyPop(45);
          if (gSPC == true)
          {
-            aiSetEconomyPop(25);
-            gMaxPop = 55;
+            aiSetEconomyPop(35);
+            gMaxPop = 75;
          }
          if ( (aiGetEconomyPop() > cvMaxCivPop) && (cvMaxCivPop >= 0) )
             aiSetEconomyPop(cvMaxCivPop);
@@ -10294,14 +10296,14 @@ minInterval 15
 		}
 		case cDifficultyModerate: // Moderate
 		{  // Typically 60 econ, 60 mil
-			gMaxPop = 130 + (80 * (difficulty - intDifficulty));      // 120 at moderate up to 200 at hard
+			gMaxPop = 140 + (90 * (difficulty - intDifficulty));      // 120 at moderate up to 200 at hard
          if (gMaxPop > cvPopLimit)
             gMaxPop = cvPopLimit;
-         aiSetEconomyPop(60);
+         aiSetEconomyPop(70);
          if (gSPC == true)
          {
-            aiSetEconomyPop(45);
-            gMaxPop = 105;
+            aiSetEconomyPop(55);
+            gMaxPop = 125;
          }
          if ( (aiGetEconomyPop() > cvMaxCivPop) && (cvMaxCivPop >= 0) )
             aiSetEconomyPop(cvMaxCivPop);
@@ -10311,14 +10313,14 @@ minInterval 15
 		}
 		case cDifficultyHard: // Hard
 		{  // Typically 80 econ, 120 mil.
-         gMaxPop = 220;
+         gMaxPop = 280;
          if (gMaxPop > cvPopLimit)
             gMaxPop = cvPopLimit;
-         aiSetEconomyPop(80 - (10 * (difficulty -  intDifficulty)));    // 80 at hard, down to 70 at hardest
+         aiSetEconomyPop(100 - (10 * (difficulty -  intDifficulty)));    // 80 at hard, down to 70 at hardest
          if (gSPC == true)
          {
-            aiSetEconomyPop(65);
-            gMaxPop = 185;
+            aiSetEconomyPop(75);
+            gMaxPop = 205;
          }
          if ( (aiGetEconomyPop() > cvMaxCivPop) && (cvMaxCivPop >= 0) )
             aiSetEconomyPop(cvMaxCivPop);
@@ -10328,10 +10330,10 @@ minInterval 15
 		}
 		case cDifficultyExpert: // Expert
 		{  // Typically 70 econ, 130 mil.
-         gMaxPop = 220;
+         gMaxPop = 280;
          if (gMaxPop > cvPopLimit)
             gMaxPop = cvPopLimit;
-         aiSetEconomyPop(70);
+         aiSetEconomyPop(80);
          if ( (aiGetEconomyPop() > cvMaxCivPop) && (cvMaxCivPop >= 0) )
             aiSetEconomyPop(cvMaxCivPop);
          maxMil = gMaxPop - aiGetEconomyPop();
