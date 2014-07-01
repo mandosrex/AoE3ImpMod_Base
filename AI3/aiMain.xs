@@ -5961,7 +5961,7 @@ void deathMatchSetup(void)
    aiEcho("RUNNING DEATHMATCH SETUP");
    // 10 houses, pronto.
    if (cMyCiv != cCivXPSioux)
-      createSimpleBuildPlan(gHouseUnit, 10, 99, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+      createSimpleBuildPlan(gHouseUnit, 15, 99, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
    // 1 each of the main military buildings, ASAP.
    if ( (civIsNative() == false) && (civIsAsian() == false) )
    {
@@ -6013,7 +6013,7 @@ inactive
 minInterval 90
 {  // After 90 seconds, make 10 more houses
    if (cMyCiv != cCivXPSioux)
-      createSimpleBuildPlan(gHouseUnit, 10, 99, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+      createSimpleBuildPlan(gHouseUnit, 15, 99, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
    // 1 each of the main military buildings, ASAP.
    if ( (civIsNative() == false) && (civIsAsian() == false) )
    {
@@ -7001,6 +7001,42 @@ minInterval 30
    }
 }
 
+rule upgradetocivilizationchinese
+inactive
+minInterval 30
+{
+   if (kbTechGetStatus(cTechCivilizationC) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+   int TownCenter = getUnit(cUnitTypeTownCenter, cMyID, cUnitStateAlive);
+   if (TownCenter >= 0)
+   {
+      createSimpleResearchPlan(cTechCivilizationC,TownCenter,cEconomyEscrowID, 80);
+      xsDisableSelf();
+	
+   }
+}
+
+rule upgradetoconfederacy
+inactive
+minInterval 30
+{
+   if (kbTechGetStatus(cTechConSupport) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+   int SPCCherokeeWarHut = getUnit(cUnitTypeSPCCherokeeWarHut, cMyID, cUnitStateAlive);
+   if (SPCCherokeeWarHut >= 0)
+   {
+      createSimpleResearchPlan(cTechConSupport,SPCCherokeeWarHut,cEconomyEscrowID, 80);
+      xsDisableSelf();
+	
+   }
+}
+
 rule upgradetowagon
 inactive
 minInterval 30
@@ -7041,6 +7077,8 @@ minInterval 10
          xsEnableRule("brigadeMonitor");
 
       xsEnableRule("upgradetocivilization");
+      xsEnableRule("upgradetocivilizationchinese");
+      xsEnableRule("upgradetoconfederacy");
 
       xsDisableSelf();
       gAgeUpTime = xsGetTime();
@@ -7190,7 +7228,7 @@ group tcComplete
 minInterval 29
 {
    int numberMills = kbUnitCount(cMyID, gFarmUnit, cUnitStateAlive);
-   const int cMaxSettlersPerHuntPlan = 15;
+   const int cMaxSettlersPerHuntPlan = 20;
    const int cMinSettlersPerHuntPlan = 3;    // Must be much less than Max/2 to avoid thrashing
    static int totalFoodPlans = 0;            // How many are currently requested?  Try to avoid thrashing this number
    int huntPlans = 0;
@@ -7274,7 +7312,7 @@ minInterval 30
    float percentOnWood = aiGetResourceGathererPercentage( cResourceWood, cRGPActual );
    int numWoodGatherers =  percentOnWood * (kbUnitCount(cMyID, gEconUnit, cUnitStateAlive) + kbUnitCount(cMyID, cUnitTypeSettlerWagon, cUnitStateAlive));
    static int numWoodPlans = 0;  // How many are currently requested?  Try to avoid thrashing this number
-   const int cMaxSettlersPerWoodPlan = 20;
+   const int cMaxSettlersPerWoodPlan = 30;
    const int cMinSettlersPerWoodPlan = 2;    // Must be much less than Max/2 to avoid thrashing
    
   if (numWoodPlans < 1)
@@ -7315,7 +7353,7 @@ minInterval 31
    float percentOnGold = aiGetResourceGathererPercentage( cResourceGold, cRGPActual );
    int numGoldGatherers =  percentOnGold * (kbUnitCount(cMyID, gEconUnit, cUnitStateAlive) + kbUnitCount(cMyID, cUnitTypeSettlerWagon, cUnitStateAlive));
 
-   int minPlans = (numGoldGatherers / 15) + 1;     // Assume up to 15 per site
+   int minPlans = (numGoldGatherers / 25) + 1;     // Assume up to 15 per site
    if (gTimeForPlantations == true)
       minPlans = (numGoldGatherers / cMaxSettlersPerPlantation) + 1;
 
@@ -7525,9 +7563,6 @@ void initEcon(void)
    if (kbGetCiv() == cCivXPAztec)
       gTowerUnit = cUnitTypeNoblesHut;
    
-   if (kbGetCiv() == cCivXPSioux)
-      gTowerUnit = cUnitTypeTeepee;
-   
    if (kbGetCiv() == cCivOttomans)
       gCaravelUnit = cUnitTypeGalley;
    
@@ -7601,6 +7636,9 @@ void initEcon(void)
    
    if ( kbGetCiv() == cCivXPAztec )
       gHouseUnit = cUnitTypeHouseAztec;
+
+   if ( kbGetCiv() == cCivXPSioux )
+      gHouseUnit = cUnitTypeTeepee;
    
    
    // Escrow initialization is now delayed until the TC is built, as
@@ -7977,7 +8015,7 @@ void updateForecasts()
          }
          // 3 houses, to overweight them and force early wood gathering
          if (cMyCiv != cCivXPSioux)
-            addItemToForecasts(gHouseUnit, 3);
+            addItemToForecasts(gHouseUnit, 6);
          
          // Ottoman - mosque and techs
          if (cMyCiv == cCivOttomans)
@@ -8138,7 +8176,7 @@ void updateForecasts()
          
          // 3 houses
          if (cMyCiv != cCivXPSioux)
-            addItemToForecasts(gHouseUnit, 3);
+            addItemToForecasts(gHouseUnit, 9);
          
          // Ships and navy techs for water maps
          if (gNavyMode == cNavyModeActive)
@@ -8505,7 +8543,7 @@ void updateForecasts()
          
          // 3 houses
          if (cMyCiv != cCivXPSioux)
-            addItemToForecasts(gHouseUnit, 3);
+            addItemToForecasts(gHouseUnit, 9);
 
          // Ships and navy techs for water maps
          if (gNavyMode == cNavyModeActive)
@@ -8960,7 +8998,7 @@ void updateForecasts()
          }
          
          // 3 houses
-         addItemToForecasts(gHouseUnit, 3);   
+         addItemToForecasts(gHouseUnit, 12);   
                   
          // Ships for water maps
          if (gNavyMode == cNavyModeActive)

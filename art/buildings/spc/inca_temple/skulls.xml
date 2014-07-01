@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>Bone_fruit1</definebone>
+	<definebone>Bone_fruit2</definebone>
+	<definebone>Bone_fruit3</definebone>
+	<definebone>Bone_fruit4</definebone>
+	<definebone>Bone_fruit5</definebone>
+	<definebone>Bone_fruit6</definebone>
+	<definebone>Bone_fruit7</definebone>
+	<definebone>Bone_fruit8</definebone>
+	<definebone>Bone_fruit9</definebone>
+	<definebone>Bone_fruit10</definebone>
+	<definebone>Bone_fruit11</definebone>
+	<definebone>Bone_fruit12</definebone>
+		<attachment>
+			skull1
+			<component>
+				skull
+				<assetreference type="GrannyModel">
+					<file>objects\skulls\skull_A</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>skull</component>
+			</anim>
+		</attachment>
+		<attachment>
+			skull2
+			<component>
+				skull
+				<assetreference type="GrannyModel">
+					<file>objects\skulls\skull_B</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>skull</component>
+			</anim>
+		</attachment>
+		<component>
+			generic_mill
+				<assetreference type="GrannyModel">
+					<file>buildings\spc\inca_temple\skull</file>
+				</assetreference>
+			<attach a="skull1" frombone="ATTACHPOINT" tobone="Bone_fruit5" syncanims="0"/>
+			<attach a="skull2" frombone="ATTACHPOINT" tobone="Bone_fruit7" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>generic_mill</component>
+		</anim>
+</animfile>

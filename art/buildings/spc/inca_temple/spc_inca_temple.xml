@@ -28,6 +28,10 @@
 	<definebone>bone_debris_3h</definebone>
 	<submodel>
 		temple
+		<attachment>
+			skull
+			<include>buildings\spc\inca_temple\skulls.xml</include>
+		</attachment>
 	<attachment>
 		WaterSpray_top
 		<component>
@@ -176,6 +180,7 @@
 			<width>13.00</width>
 			<height>13.00</height>
 		</decal>
+			<attach a="skull" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="1"/>
 	</component>
 	<component>
 		deathModel

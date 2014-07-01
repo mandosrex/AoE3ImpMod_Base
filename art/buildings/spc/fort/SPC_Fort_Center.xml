@@ -690,7 +690,7 @@
 				<submodelref ref="sub_construction_stage_03_w"/>
 			</p66>
 			<p100>
-				<submodelref ref="center_w"/>
+				<submodelref ref="center"/>
 			</p100>
 				</logic>
 			</westerneurope>
@@ -706,7 +706,7 @@
 				<submodelref ref="sub_construction_stage_03_e"/>
 			</p66>
 			<p100>
-				<submodelref ref="center_e"/>
+				<submodelref ref="center"/>
 			</p100>
 				</logic>
 			</easterneurope>
@@ -722,7 +722,7 @@
 				<submodelref ref="sub_construction_stage_03_w"/>
 			</p66>
 			<p100>
-				<submodelref ref="center_w"/>
+				<submodelref ref="center"/>
 			</p100>
 				</logic>
 			</japanese>

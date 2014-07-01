@@ -984,7 +984,7 @@
 								<submodelref ref="Outpost lvl1_con2"/>
 							</p66>
 							<p100>
-								<submodelref ref="Outpost lvl3east"/>
+								<submodelref ref="Outpost lvl3"/>
 							</p100>
 						</logic>
 					</fortifiedoutpost>
@@ -1036,7 +1036,7 @@
 								<submodelref ref="Outpost lvl1_con2"/>
 							</p66>
 							<p100>
-								<submodelref ref="Outpost lvl3med"/>
+								<submodelref ref="Outpost lvl3"/>
 							</p100>
 						</logic>
 					</fortifiedoutpost>
