@@ -6,7 +6,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='150.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardHalberdiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHalberdiers</Effect>
@@ -171,7 +171,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='150.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Ranching</Effect>
@@ -340,7 +340,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Blockhouse' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
@@ -553,7 +553,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>WarTentE</Target></Effect>
@@ -721,7 +721,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' action ='Spawn' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
@@ -768,7 +768,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>VeteranHussars</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
-			<Effect type ='Data' amount ='50.00' subtype ='BuildLimit' relativity ='Assign'>
+			<Effect type ='Data' amount ='55.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Settler</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
@@ -900,7 +900,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='-10.00' subtype ='Cost' resource ='Wood' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
@@ -1063,7 +1063,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>SpyglassE</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RanchingM</Effect>
@@ -1220,7 +1220,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>LumberCamp</Target></Effect>
@@ -1399,7 +1399,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RanchingM</Effect>
@@ -4631,6 +4631,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Dock</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Factory</Target></Effect>
 			<Effect type ='Data' action ='SpawnCannon' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
@@ -4861,6 +4863,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Dock</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateSpanishBrigadeN</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>PetJaguar</Target></Effect>
@@ -5036,6 +5040,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Dock</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -11871,8 +11877,8 @@
 	<Tech name ='ChurchMilletSystem' type ='Normal'>
 		<DBID>352</DBID>
 		<DisplayNameID>23959</DisplayNameID>
-		<Cost resourcetype ='Food'>50.0000</Cost>
-		<Cost resourcetype ='Wood'>100.0000</Cost>
+		<Cost resourcetype ='Food'>100.0000</Cost>
+		<Cost resourcetype ='Fame'>50.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\millet_system\millet_system_64x64</Icon>
@@ -12961,8 +12967,7 @@
 	<Tech name ='ChurchMercantilism' type ='Normal'>
 		<DBID>648</DBID>
 		<DisplayNameID>26137</DisplayNameID>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
-		<Cost resourcetype ='Fame'>500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\mercantilism\mercantilism</Icon>
@@ -13987,8 +13992,8 @@
 	<Tech name ='TownGuard' type ='Normal'>
 		<DBID>7788</DBID>
 		<DisplayNameID>23389</DisplayNameID>
-		<Cost resourcetype ='Wood'>600.0000</Cost>
-		<Cost resourcetype ='Gold'>300.0000</Cost>
+		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<Cost resourcetype ='Gold'>250.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\town_guard</Icon>
@@ -14018,7 +14023,7 @@
 	<Tech name ='FortifiedOutpost' type ='Normal'>
 		<DBID>1155</DBID>
 		<DisplayNameID>29869</DisplayNameID>
-		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
 		<Cost resourcetype ='Gold'>400.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -15930,7 +15935,8 @@
 	<Tech name ='ImpKnighthood' type ='Normal'>
 		<DBID>1384</DBID>
 		<DisplayNameID>31534</DisplayNameID>
-		<Cost resourcetype ='Food'>1500.0000</Cost>
+		<Cost resourcetype ='Food'>1000.0000</Cost>
+		<Cost resourcetype ='Fame'>500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\imperial_peerage\imp_peerage</Icon>
@@ -16242,8 +16248,8 @@
 	<Tech name ='ChurchAbbassidMarket' type ='Normal'>
 		<DBID>1669</DBID>
 		<DisplayNameID>32343</DisplayNameID>
-		<Cost resourcetype ='Food'>50.0000</Cost>
-		<Cost resourcetype ='Wood'>600.0000</Cost>
+		<Cost resourcetype ='Food'>600.0000</Cost>
+		<Cost resourcetype ='Fame'>50.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\abbasid_common_market\abbasid_common_market_64x64</Icon>
@@ -27101,8 +27107,8 @@
 	<Tech name ='ChurchKopruluViziers' type ='Normal'>
 		<DBID>2666</DBID>
 		<DisplayNameID>41958</DisplayNameID>
-		<Cost resourcetype ='Food'>50.0000</Cost>
-		<Cost resourcetype ='Wood'>250.0000</Cost>
+		<Cost resourcetype ='Food'>250.0000</Cost>
+		<Cost resourcetype ='Fame'>50.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\koprulu_viziers\koprulu_viziers_icon_64x64</Icon>
@@ -28030,7 +28036,7 @@
 	<Tech name ='MightyWarHut' type ='Normal'>
 		<DBID>2743</DBID>
 		<DisplayNameID>43606</DisplayNameID>
-		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
 		<Cost resourcetype ='Gold'>400.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -31126,7 +31132,7 @@
 	<Tech name ='MightyNoblesHut' type ='Normal'>
 		<DBID>2952</DBID>
 		<DisplayNameID>44283</DisplayNameID>
-		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
 		<Cost resourcetype ='Gold'>400.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -51979,7 +51985,7 @@
 	<Tech name ='ypFortifiedCastle' type ='Normal'>
 		<DBID>4800</DBID>
 		<DisplayNameID>66032</DisplayNameID>
-		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
 		<Cost resourcetype ='Gold'>400.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>

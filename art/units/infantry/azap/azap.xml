@@ -135,6 +135,13 @@
 			<guardazaps>
 				<assetreference type="GrannyModel">
 					<file>units\spc\Sahin\sahin_spc</file>
+				</assetreference>
+				<attach a="pikes" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
+				<attach a="bolashield_attachment" frombone="bone_shield" tobone="L FOREARM" syncanims="0"/>
+			</guardazaps>
+			<imperialazaps>
+				<assetreference type="GrannyModel">
+					<file>units\spc\Sahin\sahin_spc</file>
 					<replacetexture>
 						<from>units\spc\Sahin\sahin_l</from>
 						<to>units\infantry\azap\azap_3age</to>
@@ -143,13 +150,6 @@
 						<from>units\spc\Sahin\sahin_l_b</from>
 						<to>units\infantry\azap\azap_3age_b</to>
 					</replacetexture>
-				</assetreference>
-				<attach a="pikes" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-				<attach a="bolashield_attachment" frombone="bone_shield" tobone="L FOREARM" syncanims="0"/>
-			</guardazaps>
-			<imperialazaps>
-				<assetreference type="GrannyModel">
-					<file>units\spc\Sahin\sahin_spc</file>
 				</assetreference>
 				<attach a="pikes" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
 				<attach a="bolashield_attachment" frombone="bone_shield" tobone="L FOREARM" syncanims="0"/>
