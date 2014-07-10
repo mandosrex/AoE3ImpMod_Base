@@ -342,8 +342,6 @@
 		<Effects>
 			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Blockhouse' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
@@ -399,7 +397,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialCossack</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGTartarLoyalists</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialTartarLoyalist</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialPavlovs</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialStrelets</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHalberdiers</Effect>
@@ -475,8 +472,6 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Monitor</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Frigate</Target></Effect>
@@ -528,7 +523,6 @@
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionHidalgo</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSantander</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -1063,6 +1057,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialGrenadiers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardGrenadiers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranGrenadiers</Effect>
 			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>SpyglassE</Effect>
@@ -1122,6 +1122,8 @@
 				<Target type ='ProtoUnit'>Stable</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Barracks</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianPresidenteEU</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianGeneral</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianMarksmanPortuguese</Effect>
@@ -7712,6 +7714,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>LevyAsi</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -11116,7 +11120,10 @@
 		<Flag>YPNativeImprovement</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='-0.90' subtype ='FreeHomeCityUnit' unittype ='NatMantlet' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='NatMantlet' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='ChampionSeminoles' type ='Normal'>
 		<DBID>212</DBID>
@@ -15838,7 +15845,10 @@
 		<Flag>YPNativeImprovement</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='-0.60' subtype ='FreeHomeCityUnit' unittype ='CrateofCoin' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoin' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='NatGarlandWars' type ='Normal'>
 		<DBID>1374</DBID>
@@ -16315,7 +16325,9 @@
 		<RolloverTextID>32363</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+			<TechStatus status ='Active'>OreRefining</TechStatus>
+		</Prereqs>
 		<Effects>
 			<Effect type ='Data' action ='Gather' amount ='1.50' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
@@ -16853,7 +16865,10 @@
 		<Flag>YPNativeImprovement</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='-0.67' subtype ='FreeHomeCityUnit' unittype ='NatAxeRiderDogSoldier' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='NatAxeRiderDogSoldier' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='PoliticianWarMinisterSpanish' type ='Normal'>
 		<DBID>1747</DBID>
@@ -32555,8 +32570,8 @@
 	<Tech name ='EarthCeremony' type ='Normal'>
 		<DBID>3044</DBID>
 		<DisplayNameID>44612</DisplayNameID>
-		<Cost resourcetype ='Food'>185.0000</Cost>
-		<Cost resourcetype ='Wood'>150.0000</Cost>
+		<Cost resourcetype ='Food'>200.0000</Cost>
+		<Cost resourcetype ='Wood'>160.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\earth_ceremony</Icon>
@@ -32565,11 +32580,11 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data2' action ='Gather' amount ='1.10' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
+			<Effect type ='Data2' action ='Gather' amount ='1.15' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
@@ -34789,7 +34804,10 @@
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='-0.60' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='NatXPKlamathWorkEthos' type ='Normal'>
 		<DBID>3215</DBID>
@@ -35376,7 +35394,10 @@
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='-0.20' subtype ='FreeHomeCityUnit' unittype ='CrateofFoodLarge' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='BigPlantationMapleFestival' type ='Normal'>
 		<DBID>3251</DBID>
@@ -35393,7 +35414,10 @@
 		<Flag>NativeDance</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='-0.20' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoin' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='BigMarketNewYear' type ='Normal'>
 		<DBID>3252</DBID>
@@ -35427,7 +35451,10 @@
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='-0.20' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='BigIroquoisRaidingParty' type ='Normal'>
 		<DBID>3254</DBID>
@@ -35544,7 +35571,10 @@
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='-0.67' subtype ='FreeHomeCityUnit' unittype ='xpDogSoldier' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='xpDogSoldier' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='SPCXPValleyForge' type ='Normal'>
 		<DBID>3268</DBID>
@@ -36760,7 +36790,10 @@
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='-0.50' subtype ='FreeHomeCityUnit' unittype ='xpSkullKnight' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='xpSkullKnight' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='BigDockCipactli' type ='Normal'>
 		<DBID>3319</DBID>
