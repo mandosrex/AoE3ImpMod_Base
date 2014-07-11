@@ -117,7 +117,7 @@
 			<rate>-0.50</rate>
 		</unitregen>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>MercArmyS</multipleblockunit>
 			<units>
 				<unit>MercElmeti</unit>
@@ -133,7 +133,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmySpanish11</multipleblockunit>
 			<units>
 				<unit>Pikeman</unit>
@@ -143,7 +143,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmySpanish22</multipleblockunit>
 			<units>
 				<unit>Pikeman</unit>
@@ -159,7 +159,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmySpanish33</multipleblockunit>
 			<units>
 				<unit>Rodelero</unit>
@@ -315,7 +315,7 @@
 			<rate>-0.50</rate>
 		</unitregen>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>MercArmyB</multipleblockunit>
 			<units>
 				<unit>MercDove</unit>
@@ -331,7 +331,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyBritish11</multipleblockunit>
 			<units>
 				<unit>Musketeer</unit>
@@ -341,7 +341,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyBritish22</multipleblockunit>
 			<units>
 				<unit>Musketeer</unit>
@@ -357,7 +357,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyBritish33</multipleblockunit>
 			<units>
 				<unit>Hussar</unit>
@@ -373,7 +373,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>TownCenter</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -527,7 +527,7 @@
 			<rate>-0.50</rate>
 		</unitregen>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>MercArmyF</multipleblockunit>
 			<units>
 				<unit>MercSwissPikeman</unit>
@@ -543,7 +543,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyFrench11</multipleblockunit>
 			<units>
 				<unit>Grenadier</unit>
@@ -553,7 +553,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyFrench22</multipleblockunit>
 			<units>
 				<unit>Grenadier</unit>
@@ -569,7 +569,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyFrench33</multipleblockunit>
 			<units>
 				<unit>xpHorseArtillery</unit>
@@ -729,7 +729,7 @@
 			<rate>-0.50</rate>
 		</unitregen>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>MercArmyP</multipleblockunit>
 			<units>
 				<unit>MercHackapell</unit>
@@ -745,7 +745,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyPortuguese11</multipleblockunit>
 			<units>
 				<unit>Crossbowman</unit>
@@ -755,7 +755,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyPortuguese22</multipleblockunit>
 			<units>
 				<unit>Culverin</unit>
@@ -771,7 +771,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyPortuguese33</multipleblockunit>
 			<units>
 				<unit>Cacadore</unit>
@@ -927,7 +927,7 @@
 			<rate>-0.50</rate>
 		</unitregen>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>MercArmyD</multipleblockunit>
 			<units>
 				<unit>MercNinja</unit>
@@ -943,7 +943,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyDutch11</multipleblockunit>
 			<units>
 				<unit>Schutze</unit>
@@ -953,7 +953,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyDutch22</multipleblockunit>
 			<units>
 				<unit>Ruyter</unit>
@@ -969,7 +969,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyDutch33</multipleblockunit>
 			<units>
 				<unit>Ruyter</unit>
@@ -1150,7 +1150,7 @@
 			<rate>-0.50</rate>
 		</unitregen>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>MercArmyR</multipleblockunit>
 			<units>
 				<unit>MercManchu</unit>
@@ -1166,7 +1166,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyRussian11</multipleblockunit>
 			<units>
 				<unit>Cossack</unit>
@@ -1176,7 +1176,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyRussian22</multipleblockunit>
 			<units>
 				<unit>Cossack</unit>
@@ -1192,7 +1192,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyRussian33</multipleblockunit>
 			<units>
 				<unit>Dragoon</unit>
@@ -1350,7 +1350,7 @@
 			<rate>-0.50</rate>
 		</unitregen>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>MercArmyG</multipleblockunit>
 			<units>
 				<unit>WingedK</unit>
@@ -1366,7 +1366,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyGerman11</multipleblockunit>
 			<units>
 				<unit>Dopplesoldner</unit>
@@ -1376,7 +1376,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyGerman22</multipleblockunit>
 			<units>
 				<unit>Skirmisher</unit>
@@ -1392,7 +1392,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyGerman33</multipleblockunit>
 			<units>
 				<unit>Skirmisher</unit>
@@ -1547,7 +1547,7 @@
 			<rate>-0.50</rate>
 		</unitregen>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>MercArmyO</multipleblockunit>
 			<units>
 				<unit>MercMameluke</unit>
@@ -1563,7 +1563,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyOttoman11</multipleblockunit>
 			<units>
 				<unit>Spahi</unit>
@@ -1573,7 +1573,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyOttoman22</multipleblockunit>
 			<units>
 				<unit>Spahi</unit>
@@ -1589,7 +1589,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>FortFrontier</building>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyOttoman33</multipleblockunit>
 			<units>
 				<unit>Janissary</unit>

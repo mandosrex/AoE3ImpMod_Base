@@ -547,10 +547,10 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>GeneralBr</Target></Effect>
 			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>WarTentE</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
@@ -921,8 +921,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialPoleaxemen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardCrossbowmen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardPikemen</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>WarTentE</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Civilization</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Explorer</Target></Effect>
@@ -1081,8 +1079,6 @@
 				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardCrossbowmen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardPikemen</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>WarTentE</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Civilization</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Explorer</Target></Effect>
@@ -1663,7 +1659,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NativeHouseIroquois</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatMorningWars</Effect>
@@ -2100,7 +2096,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialCulverinUS</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHowitzerUS</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Factory</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -4640,7 +4636,7 @@
 			<Effect type ='Data' action ='SpawnCannon' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Factory</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateFrenchBrigadeN</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>PetWolf</Target></Effect>
@@ -5051,7 +5047,7 @@
 			<Effect type ='Data' action ='SpawnCannon' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Factory</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateBritishBrigadeN</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>PetCoyote</Target></Effect>
@@ -10903,11 +10899,11 @@
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' amount ='1.40' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
-			<Effect type ='Data' amount ='1.40' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
-			<Effect type ='Data' amount ='1.40' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='BerryBush' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
@@ -11101,9 +11097,9 @@
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantlet' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawk' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantlet' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='NatMorningWars' type ='Normal'>
@@ -12864,8 +12860,6 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='NatChasquisMessengers' type ='Normal'>
@@ -13389,12 +13383,6 @@
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
-			<Effect type ='Data' action ='CannonAttack' amount ='6.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
-			<Effect type ='Data' amount ='6.00' subtype ='LOS' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='VeteranSaker' type ='Normal'>
@@ -18509,8 +18497,6 @@
 				<Target type ='ProtoUnit'>OutpostWagon</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='FortFrontier' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>FortWagon</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='FortFrontierR' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>FortWagonR</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Blockhouse' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>OutpostWagon</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Factory' relativity ='BasePercent'>
@@ -22631,6 +22617,8 @@
 			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Rocket</Target></Effect>
 			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Saker</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMantlet</Target></Effect>
 			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpRam</Target></Effect>
@@ -24788,8 +24776,6 @@
 				<Target type ='ProtoUnit'>FactoryWagon</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='FortFrontier' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>FortWagon</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='FortFrontierR' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>FortWagonR</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCShipCaravels1German' type ='Normal'>
@@ -26766,8 +26752,10 @@
 		<RolloverTextID>37521</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='WingedK' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='WingedK' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WingedK</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCUhlanCombatGerman' type ='Normal'>
@@ -26986,7 +26974,10 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='General' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>General</Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='HCGermanHero' type ='Normal'>
 		<DBID>2657</DBID>
@@ -27014,7 +27005,10 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='GeneralBr' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>GeneralBr</Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='HCGermantownFarmers' type ='Normal'>
 		<DBID>2658</DBID>
@@ -27062,8 +27056,6 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='VeteranSkirmishersShadow' type ='Normal'>
@@ -34455,10 +34447,10 @@
 		<Icon>units\trade\fort_wagon_icon_64x64_rev</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FortWagonR' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FortWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCREVShipIronclads' type ='Normal'>
@@ -35608,7 +35600,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='XPRevolutionLouverture' type ='Normal'>
@@ -35658,9 +35650,8 @@
 				<Target type ='ProtoUnit'>xpColonialMilitia</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>XPRevolution</Effect>
 			<Effect type ='TechStatus' status ='active'>CalltoArmsR</Effect>
-			<Effect type ='TransformUnit' toprotoid ='FortFrontierR' fromprotoid ='FortFrontier'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='Minuteman' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35722,9 +35713,8 @@
 				<Target type ='ProtoUnit'>xpGatlingGun</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>XPRevolution</Effect>
 			<Effect type ='TechStatus' status ='active'>CalltoArmsR</Effect>
-			<Effect type ='TransformUnit' toprotoid ='FortFrontierR' fromprotoid ='FortFrontier'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='Minuteman' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Assign'>
@@ -35784,9 +35774,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>XPRevolution</Effect>
 			<Effect type ='TechStatus' status ='active'>CalltoArmsR</Effect>
-			<Effect type ='TransformUnit' toprotoid ='FortFrontierR' fromprotoid ='FortFrontier'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='Minuteman' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35849,9 +35838,8 @@
 			<Effect type ='TechStatus' status ='active'>XPRevolution</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryNatives</Effect>
 			<Effect type ='TechStatus' status ='active'>CalltoArmsR</Effect>
-			<Effect type ='TransformUnit' toprotoid ='FortFrontierR' fromprotoid ='FortFrontier'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='Minuteman' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35911,9 +35899,8 @@
 				<Target type ='ProtoUnit'>Unit</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>XPRevolution</Effect>
 			<Effect type ='TechStatus' status ='active'>CalltoArmsR</Effect>
-			<Effect type ='TransformUnit' toprotoid ='FortFrontierR' fromprotoid ='FortFrontier'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='Minuteman' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35975,9 +35962,8 @@
 			<Effect type ='TechStatus' status ='active'>Howitzer</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialHowitzer</Effect>
 			<Effect type ='TechStatus' status ='active'>CalltoArmsR</Effect>
-			<Effect type ='TransformUnit' toprotoid ='FortFrontierR' fromprotoid ='FortFrontier'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='Minuteman' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -36037,9 +36023,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>XPRevolution</Effect>
 			<Effect type ='TechStatus' status ='active'>CalltoArmsR</Effect>
-			<Effect type ='TransformUnit' toprotoid ='FortFrontierR' fromprotoid ='FortFrontier'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='Minuteman' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -36106,9 +36091,8 @@
 			<Effect type ='TechStatus' status ='active'>ImperialHussars</Effect>
 			<Effect type ='SetName' proto ='Hussar' culture ='none' newName ='30998'></Effect>
 			<Effect type ='TechStatus' status ='active'>CalltoArmsR</Effect>
-			<Effect type ='TransformUnit' toprotoid ='FortFrontierR' fromprotoid ='FortFrontier'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='Minuteman' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -36175,9 +36159,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>XPRevolution</Effect>
 			<Effect type ='TechStatus' status ='active'>CalltoArmsR</Effect>
-			<Effect type ='TransformUnit' toprotoid ='FortFrontierR' fromprotoid ='FortFrontier'></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UnitRegenRate' unittype ='Minuteman' relativity ='Assign'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -37114,8 +37097,6 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPIndustrialRevolution' type ='Normal'>
@@ -37166,8 +37147,6 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPShipMortarsTeam' type ='Normal'>
@@ -37486,8 +37465,6 @@
 			<Effect type ='Data' action ='AntiShipAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='SetName' proto ='SPCFortCenter' culture ='none' newName ='46789'></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>WingedK</Target></Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
@@ -37781,8 +37758,6 @@
 				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='BuildPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWall</Target></Effect>
 			<Effect type ='TextOutput'>46854</Effect>
@@ -38916,8 +38891,8 @@
 			<Effect type ='TextOutput'>47027</Effect>
 			<Effect type ='Data' action ='Heal' amount ='1.20' subtype ='WorkRate' unittype ='LogicalTypeHealed' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Missionary</Target></Effect>
-			<Effect type ='Data' amount ='30.00' subtype ='BuildLimit' relativity ='Assign'>
-				<Target type ='ProtoUnit'>Missionary</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='Missionary' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 
 		</Effects>
 	</Tech>
@@ -39206,10 +39181,6 @@
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='FortFrontierR' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Strelet</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontierR</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPShipSpiesTeam' type ='Normal'>
@@ -39275,7 +39246,7 @@
 			<Effect type ='SetName' proto ='SaloonPirate' culture ='none' newName ='49010'></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 		</Effects>
 	</Tech>
@@ -55074,6 +55045,8 @@
 			<Effect type ='Data' amount ='0.70' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='Data' amount ='0.70' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Saker</Target></Effect>
+			<Effect type ='Data' amount ='0.70' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpHorseArtillery</Target></Effect>
 			<Effect type ='Data' amount ='0.70' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
@@ -57639,7 +57612,7 @@
 	<Tech name ='MercArmy' type ='Normal'>
 		<DBID>3554</DBID>
 		<DisplayNameID>780785</DisplayNameID>
-		<Cost resourcetype ='Fame'>2000.0000</Cost>
+		<Cost resourcetype ='Fame'>1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\mercarmy2</Icon>
