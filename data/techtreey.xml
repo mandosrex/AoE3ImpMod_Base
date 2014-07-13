@@ -383,7 +383,6 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>HouseEast</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchPetrineReforms</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>RGPavlovGrenadiers</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranMusketeers</Effect>
@@ -397,7 +396,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialCossack</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGTartarLoyalists</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialTartarLoyalist</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialPavlovs</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialStrelets</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHalberdiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardHalberdiers</Effect>
@@ -547,8 +545,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>GeneralBr</Target></Effect>
 			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='TrainPoints' relativity ='BasePercent'>
@@ -4035,7 +4031,6 @@
 			<Effect type ='TechStatus' status ='active'>VeteranCossacks</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardCossacks</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardHalberdiers</Effect>
-			<Effect type ='TechStatus' status ='active'>VeteranGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='active'>ChurchWesternization</Effect>
 			<Effect type ='TechStatus' status ='active'>ChurchPetrineReforms</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardStrelets</Effect>
@@ -4053,7 +4048,6 @@
 			<Effect type ='TechStatus' status ='active'>Flintlock</Effect>
 			<Effect type ='TechStatus' status ='active'>Pillage</Effect>
 			<Effect type ='TechStatus' status ='active'>FactoryMassProduction</Effect>
-			<Effect type ='TechStatus' status ='active'>RGPavlovGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 			<Effect type ='TechStatus' status ='active'>RGTartarLoyalists</Effect>
@@ -4289,7 +4283,6 @@
 			<Effect type ='TechStatus' status ='active'>ImperialTartarLoyalist</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialCossack</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialHalberdiers</Effect>
-			<Effect type ='TechStatus' status ='active'>ImperialPavlovs</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialStrelets</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialOprichniks</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialMusketeers</Effect>
@@ -11246,6 +11239,29 @@
 	</Tech>
 	<Tech name ='ChurchBashkirPonies' type ='Normal'>
 		<DBID>223</DBID>
+		<DisplayNameID>24160</DisplayNameID>
+		<Cost resourcetype ='Gold'>2000.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\bashkir_ponies\bashkir_ponies_64x64</Icon>
+		<RolloverTextID>780831</RolloverTextID>
+		<Flag>CheckLandHCGatherPoint</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UniqueTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>HCRoyalDecreeRussian</TechStatus>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='20.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateYoungGarde' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearer' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='SetName' proto ='ypConsulateYoungGarde' culture ='none' newName ='32319'></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ChurchBashkirPonies2' type ='Normal'>
+		<DBID>223</DBID>
 		<DisplayNameID>23675</DisplayNameID>
 		<Cost resourcetype ='Gold'>2000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
@@ -11286,7 +11302,6 @@
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>VeteranPoleaxemen</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranCossacks</Effect>
-			<Effect type ='TechStatus' status ='active'>VeteranGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranMusketeers</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranStrelets</Effect>
 		</Effects>
@@ -11309,7 +11324,6 @@
 			<Effect type ='TechStatus' status ='active'>GuardPoleaxemen</Effect>
 			<Effect type ='TechStatus' status ='active'>RGTartarLoyalists</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardCossacks</Effect>
-			<Effect type ='TechStatus' status ='active'>RGPavlovGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPikemen</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardOprichniks</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardMusketeers</Effect>
