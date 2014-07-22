@@ -31,6 +31,9 @@
 				<choice name="USA">
 					<soundset name="FrenchGrenadierSelect"/>
 				</choice>
+				<choice name="Russians">
+					<soundset name="RussianGrenadierSelect"/>
+				</choice>
 			</civlogic>
 		</soundtype>
 		<soundtype name="Acknowledge">
@@ -102,6 +105,16 @@
 						</choice>
 						<choice name="enemy">
 							<soundset name="FrenchGrenadierAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="Russians">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="RussianGrenadierAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="RussianGrenadierAttack"/>
 						</choice>
 					</targetlogic>
 				</choice>

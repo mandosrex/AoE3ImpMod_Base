@@ -3,7 +3,7 @@
 <protounitsounddef>
 	<protounit name="GreatCannon">
 		<soundtype name="Select">
-			<soundset name="RussianCulverinSelect"/>
+			<soundset name="RussianGrenadierSelect"/>
 		</soundtype>
 		<soundtype name="Grunt">
 			<soundset name="GenericMaleGrunt"/>
@@ -16,16 +16,12 @@
 		</soundtype>
 		<soundtype name="Acknowledge">
 			<targetlogic>
-				<choice name="default">
-					<soundset name="RussianCulverinAcknowledge"/>
-				</choice>
-				<choice name="enemy">
-					<soundset name="RussianCulverinAttack"/>
-				</choice>
-				<choice name="Tree"/>
-				<choice name="build">
-					<soundset name="RussianCulverinAcknowledge"/>
-				</choice>
+					<choice name="default">
+						<soundset name="RussianGrenadierAcknowledge"/>
+					</choice>
+					<choice name="enemy">
+						<soundset name="RussianGrenadierAttack"/>
+					</choice>
 			</targetlogic>
 		</soundtype>
 	</protounit>

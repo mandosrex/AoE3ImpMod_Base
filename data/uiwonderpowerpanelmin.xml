@@ -17,11 +17,11 @@
 		<gadget name="WonderPowerPanel-Button4" type="button" size1024="430 585 470 625" z="0" hidden="">
 			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
 		</gadget>
-	</gadget>
-	<gadget name="town_center_Button" type="button" size1024="375 0 395 55" background="ui\town_centerbanner" foreground="" sound="UI_DefaultIngameClickSet" activateondown="">
-		<command>saveCamera("game")  uiFindType("TownCenter") doAbilityInSelected("") loadCamera("game")</command>
-	</gadget>
-	<gadget name="hero_Button" type="button" size1024="630 0 650 55" background="ui\herobanner" foreground="" sound="UI_DefaultIngameClickSet" activateondown="">
-		<command>saveCamera("game")  uiFindType("Hero") doAbilityInSelected("") loadCamera("game")</command>
+		<gadget name="town_center_Button" type="button" size1024="375 0 395 55" background="ui\town_centerbanner" foreground="" sound="UI_DefaultIngameClickSet" activateondown="">
+			<command>saveCamera("game")  uiFindType("TownCenter") doAbilityInSelected("") loadCamera("game")</command>
+		</gadget>
+		<gadget name="hero_Button" type="button" size1024="630 0 650 55" background="ui\herobanner" foreground="" sound="UI_DefaultIngameClickSet" activateondown="">
+			<command>saveCamera("game")  uiFindType("Hero") doAbilityInSelected("") loadCamera("game")</command>
+		</gadget>
 	</gadget>
 </layout>

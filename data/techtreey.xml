@@ -27593,6 +27593,8 @@
 			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpIroquoisWarChief</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades4</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperializeXPIroquois' type ='Normal'>
@@ -28268,6 +28270,8 @@
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades4</Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeXPSioux' type ='Normal'>
@@ -28282,6 +28286,8 @@
 			<Effect type ='Data' amount ='3.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades4</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperializeXPAztec' type ='Normal'>
@@ -42633,6 +42639,8 @@
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypMongolScout' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypIndustrializeIndians' type ='Normal'>

@@ -1,0 +1,1243 @@
+<?xml version = "1.0"?>
+<trigger version="2">
+
+<!--
+
+Advanced Triggers Set for AOE3
+by pftq
+
+Please refer to the readme included with the download for detailed help on how to properly use these effects.
+
+www.pftq.com
+a pftq production!
+February 5 2007
+
+-->
+
+<Conditions>
+	
+	<Condition name = "QV Compare Group">
+	<Param name = "blah" dispName="IMPORTANT:" varType="string">Measure unlimited QVs by inserting more conditions without enabling the reset box (make sure to check the same QV in "QV to Check").  Enable RESET to start a new check.  Note that there may be multiple QVs with highest value.</Param>
+	<Param name = "QVName1" dispName = "QV Name 1" varType ="string">QV1</Param>
+	<Param name = "QVName2" dispName = "QV Name 2" varType ="string">QV2</Param>
+	<Param name = "QVName3" dispName = "QV Name 3" varType ="string">QV3</Param>
+	<Param name = "test" dispName = "QV to Check: " varType="string">QV4</Param>
+	<Param name = "booler" dispName = "QV is (higher or lower)" varType="operator">></Param>
+	<Param name = "reset" dispName = "Reset" varType="bool">true</Param>
+	<Command>if(%reset%==true) trQuestVarSet("QVHighestLowestThing", 0);</Command>
+	<Command>if(trQuestVarGet("%QVName1%") %booler% trQuestVarGet("QVHighestLowestThing")) trQuestVarSet("QVHighestLowestThing", trQuestVarGet("%QVName1%"));</Command>
+	<Command>if(trQuestVarGet("%QVName2%") %booler% trQuestVarGet("QVHighestLowestThing")) trQuestVarSet("QVHighestLowestThing", trQuestVarGet("%QVName2%"));</Command>
+	<Command>if(trQuestVarGet("%QVName3%") %booler% trQuestVarGet("QVHighestLowestThing")) trQuestVarSet("QVHighestLowestThing", trQuestVarGet("%QVName3%"));</Command>
+	<Expression>trQuestVarGet("%test%") %booler% trQuestVarGet("QVHighestLowestThing")</Expression>
+   </Condition>
+
+</Conditions>
+
+<Effects>
+   	<Effect name="Change Name in Area (Center Unit)">
+		<Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+		<Param name="Dst" dispName="Radius" varType="string">10.0</Param>
+		<Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+		<Param name="FromPlayer" dispName="From Player or 99 for ALL" varType="string">99</Param>
+		<Param name="Namer" dispName="Change Display Name" varType="string">Insert Name Here</Param>
+		<Param name="Booler" dispName="Include Center Unit" varType="bool">false</Param>
+		<Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>while(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("warthog", trQuestVarGet("warthog")-1);</Command>
+		<Command>trQuestVarSet("ffweho", kbUnitQueryGetResult(trQuestVarGet("convarea"), trQuestVarGet("warthog")));</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho"));</Command>
+		<Command>if(%Booler%==true) {</Command>
+		<Command>if(trQuestVarGet("ffweho2")==kbGetBlockID(""+1*%Object%)) {trQuestVarSet("ffweho2", trQuestVarGet("ffweho")+1);}}</Command>
+		<Command>if(trQuestVarGet("ffweho2")!=kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command>trUnitSelectByID(1*trQuestVarGet("ffweho"));</Command>
+		<Command>trUnitChangeName("%Namer%");</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+	</Effect>
+
+	<Effect name="Convert/Change Units in Area (Center Unit)">
+		<Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+		<Param name="Dst" dispName="Radius" varType="string">10.0</Param>
+		<Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+		<Param name="FromPlayer" dispName="From Player or 99 for ALL" varType="string">99</Param>
+		<Param name="ToPlayer" dispName="To Player" varType="string">0</Param>
+		<Param name="ChangeUnit" dispName="Change Protounit Type" varType="string">Do Not</Param>
+		<Param name="Booler" dispName="Include Center Unit" varType="bool">false</Param>
+		<Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("i"));</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>while(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("warthog", trQuestVarGet("warthog")-1);</Command>
+		<Command>trQuestVarSet("ffweho", kbUnitQueryGetResult(trQuestVarGet("convarea"), trQuestVarGet("warthog")));</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho"));</Command>
+		<Command>if(%Booler%==true) {</Command>
+		<Command>if(trQuestVarGet("ffweho2")==kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho")+1);}}</Command>
+		<Command>if(trQuestVarGet("ffweho2")!=kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command>trUnitSelectByID(1*trQuestVarGet("ffweho"));</Command>
+		<Command>trUnitConvert(%ToPlayer%);</Command>
+		<Command>if("%ChangeUnit%"!="Do Not") trUnitChangeProtoUnit("%ChangeUnit%");</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+	</Effect>
+	
+	<Effect name="Copy in Area SP-Overlap (Center Unit)">
+      <Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+		<Param name="Dst" dispName="Radius" varType="string">10.0</Param>
+		<Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+		<Param name="FromPlayer" dispName="From Player Number or 99 for ALL" varType="string">99</Param>
+		<Param name="SrcArmy" dispName="Army" varType="group">default</Param>
+		<Param name="location" dispName="Target Unit" varType="unit">default</Param>
+		<Param name="position" dispName="Retain Unit Positions" varType="bool">false</Param>
+		<Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>while(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("warthog", trQuestVarGet("warthog")-1);</Command>
+		<Command>trQuestVarSet("ffweho", kbUnitQueryGetResult(trQuestVarGet("convarea"), trQuestVarGet("warthog")));</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho"));</Command>
+		<Command>if(trQuestVarGet("ffweho2")!=kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command>trUnitSelectByID(1*trQuestVarGet("ffweho"));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%location%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%location%))- (xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-xsVectorGetX(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%location%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%location%))- (xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-xsVectorGetZ(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trArmyDispatch("%SrcArmy%", ""+kbGetProtoUnitName(kbGetUnitBaseTypeID(1*trQuestVarGet("ffweho"))), 1, trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%location%)), trQuestVarGet("oiwghogwhywhlocz"), 0, true);</Command>
+		<Command>trArmySelect("%SrcArmy%");</Command>
+     	<Command>trUnitConvert(trQuestVarGet("i"));</Command>
+     	<Command>if(%position%==true) {trUnitTeleport(1*trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%location%)), 1*trQuestVarGet("oiwghogwhywhlocz"));}</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+   </Effect>
+   
+   <Effect name="Copy/Convert in Area SP-Overlap (Center Unit)">
+      <Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+		<Param name="Dst" dispName="Radius" varType="string">10.0</Param>
+		<Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+		<Param name="FromPlayer" dispName="From Player Number or 99 for ALL" varType="string">99</Param>
+		<Param name="SrcArmy" dispName="Army" varType="group">default</Param>
+		<Param name="location" dispName="Target Unit" varType="unit">default</Param>
+		<Param name="position" dispName="Retain Unit Positions" varType="bool">false</Param>
+		<Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>while(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("warthog", trQuestVarGet("warthog")-1);</Command>
+		<Command>trQuestVarSet("ffweho", kbUnitQueryGetResult(trQuestVarGet("convarea"), trQuestVarGet("warthog")));</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho"));</Command>
+		<Command>if(trQuestVarGet("ffweho2")!=kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command>trUnitSelectByID(1*trQuestVarGet("ffweho"));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%location%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%location%))- (xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-xsVectorGetX(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%location%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%location%))- (xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-xsVectorGetZ(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trArmyDispatch("%SrcArmy%", ""+kbGetProtoUnitName(kbGetUnitBaseTypeID(1*trQuestVarGet("ffweho"))), 1, trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%location%)), trQuestVarGet("oiwghogwhywhlocz"), 0, true);</Command>
+		<Command>if(%position%==true) {trArmySelect("%SrcArmy%"); trUnitTeleport(1*trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%location%)), 1*trQuestVarGet("oiwghogwhywhlocz"));}</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+   </Effect>
+	
+   <Effect name="Copy in Area MP (Center Unit)">
+      <Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+		<Param name="Dst" dispName="Center Unit Radius" varType="string">10.0</Param>
+		<Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+		<Param name="FromPlayer" dispName="From Player Number or 99 for ALL" varType="string">99</Param>
+		<Param name="SrcArmy" dispName="Army" varType="group">default</Param>
+		<Param name="location" dispName="Target Unit" varType="unit">default</Param>
+		<Param name="position" dispName="Retain Unit Positions" varType="bool">false</Param>
+		<Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>while(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("warthog", trQuestVarGet("warthog")-1);</Command>
+		<Command>trQuestVarSet("ffweho", kbUnitQueryGetResult(trQuestVarGet("convarea"), trQuestVarGet("warthog")));</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho"));</Command>
+		<Command>if(trQuestVarGet("ffweho2")!=kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command>trUnitSelectByID(1*trQuestVarGet("ffweho"));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%location%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%location%))- (xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-xsVectorGetX(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%location%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%location%))- (xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-xsVectorGetZ(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trArmyDispatch("%SrcArmy%", ""+kbGetProtoUnitName(kbGetUnitBaseTypeID(1*trQuestVarGet("ffweho"))), 1, 1*trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%location%)), 1*trQuestVarGet("oiwghogwhywhlocz"), 0, true);</Command>
+		<Command>trArmySelect("%SrcArmy%");</Command>
+     	<Command>trUnitConvert(trQuestVarGet("i"));</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+   </Effect>
+   
+   <Effect name="Copy/Convert in Area MP (Center Unit)">
+      <Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+		<Param name="Dst" dispName="Radius" varType="string">10.0</Param>
+		<Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+		<Param name="FromPlayer" dispName="From Player Number or 99 for ALL" varType="string">99</Param>
+		<Param name="SrcArmy" dispName="Army" varType="group">default</Param>
+		<Param name="location" dispName="Target Unit" varType="unit">default</Param>
+		<Param name="position" dispName="Retain Unit Positions" varType="bool">false</Param>
+		<Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>while(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("warthog", trQuestVarGet("warthog")-1);</Command>
+		<Command>trQuestVarSet("ffweho", kbUnitQueryGetResult(trQuestVarGet("convarea"), trQuestVarGet("warthog")));</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho"));</Command>
+		<Command>if(trQuestVarGet("ffweho2")!=kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command>trUnitSelectByID(1*trQuestVarGet("ffweho"));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%location%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%location%))- (xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-xsVectorGetX(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%location%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%location%))- (xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-xsVectorGetZ(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trArmyDispatch("%SrcArmy%", ""+kbGetProtoUnitName(kbGetUnitBaseTypeID(1*trQuestVarGet("ffweho"))), 1, 1*trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%location%)), 1*trQuestVarGet("oiwghogwhywhlocz"), 0, true);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+   </Effect>
+   
+   	<Effect name="ID Viewer">
+		<Param name="wa" dispName="README: " varType="string">This lets you search for a UNIT TYPE ID by listing the range you specify. It will only do one of the three, so specify only one.</Param>
+		<Param name="wa" dispName="SEARCH FEATURE: " varType="string">Use the Search field below to scan for an ID that MATCHES the Unit Type you enter.</Param>
+		<Param name="wa" dispName="TARGET FEATURE: " varType="string">Use this to find the specific PROTOTYPE ID of the selected unit (or just go to your proto file).</Param>
+      	<Param name="min" dispName="Start Range" varType="string">0</Param>
+      	<Param name="max" dispName="End Range" varType="string">999</Param>
+      	<Param name="search" dispName="Search for Unit Type" varType="string"></Param>
+      	<Param name="target" dispName="ProtoID Of Target" varType="unit">-1</Param>
+		<Command>if(%target%==-1) {</Command>
+		<Command>if("%search%"=="") {</Command>
+		<Command>trChatSend(0, "RANGE OF %min% TO %max%....");</Command>
+		<Command>trQuestVarSet("fytpw", %min%);</Command>
+		<Command>while(%max%>=trQuestVarGet("fytpw")) {</Command>
+		<Command>trChatSend(0, (1*trQuestVarGet("fytpw"))+" - "+kbGetUnitTypeName(trQuestVarGet("fytpw")));</Command>
+		<Command>trQuestVarSet("fytpw", trQuestVarGet("fytpw")+1);}}</Command>
+		<Command>if("%search%"!="") {</Command>
+		<Command>trChatSend(0, "SEARCHING FOR \"%search%\"...");</Command>
+		<Command>trQuestVarSet("fytpw", 0);</Command>
+		<Command>while(999>=trQuestVarGet("fytpw")) {</Command>
+		<Command>if(kbGetUnitTypeName(trQuestVarGet("fytpw"))=="%search%") trChatSend(0, "Found! Your id is: "+(1*trQuestVarGet("fytpw")));</Command>
+		<Command>trQuestVarSet("fytpw", trQuestVarGet("fytpw")+1);}}}</Command>
+		<Command>if(%target%!=-1) {</Command>
+		<Command>trChatSend(0, "ID of Targeted "+kbGetUnitTypeName(kbGetUnitBaseTypeID(kbGetBlockID(""+1*%target%)))+": "+kbGetUnitBaseTypeID(kbGetBlockID(""+1*%target%)));}</Command>
+   </Effect>
+   
+   	<Effect name="Move to Self in Area (Center Unit)">
+		<Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+		<Param name="Dst" dispName="Radius" varType="string">10.0</Param>
+		<Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+		<Param name="FromPlayer" dispName="From Player or 99 for ALL" varType="string">99</Param>
+		<Param name="Booler" dispName="Include Center Unit" varType="bool">false</Param>
+		<Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>while(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("warthog", trQuestVarGet("warthog")-1);</Command>
+		<Command>trQuestVarSet("ffweho", kbUnitQueryGetResult(trQuestVarGet("convarea"), trQuestVarGet("warthog")));</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho"));</Command>
+		<Command>if(%Booler%==true) {</Command>
+		<Command>if(trQuestVarGet("ffweho2")==kbGetBlockID(""+1*%Object%)) {trQuestVarSet("ffweho2", trQuestVarGet("ffweho")+1);}}</Command>
+		<Command>if(trQuestVarGet("ffweho2")!=kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command>trUnitSelectByID(1*trQuestVarGet("ffweho"));</Command>
+		<Command>trUnitMoveToPoint(xsVectorGetX(kbUnitGetPosition(1*trQuestVarGet("ffweho"))),xsVectorGetY(kbUnitGetPosition(1*trQuestVarGet("ffweho"))),xsVectorGetZ(kbUnitGetPosition(1*trQuestVarGet("ffweho"))), -1, false);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+	</Effect>
+	
+	<Effect name="Army Deploy Near Unit">
+		<Param name="SrcArmy" dispName="Army" varType="group">default</Param>
+		<Param name="ProtoName" dispName="ProtoName" varType="protounit">Villager</Param>
+		<Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+		<Param name="radius" dispName="Approx. Radius (slightly off)" varType="string">10</Param>
+		<Param name="edge" dispName="Edge Only" varType="bool">false</Param>
+		<Param name="Count"  dispName="Count" varType="string">0</Param>
+		<Param name="Clear" dispName="Clear Existing Units:" varType="bool">true</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", 0, %radius%, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trQuestVarSet("hwfeoaifopx", 0);</Command>
+		<Command>if(%edge%==true) trQuestVarSet("hwfeoaifopx", (%radius%-trQuestVarGet("wagogehmeas")));</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", trQuestVarGet("hwfeoaifopx"), (%radius%-trQuestVarGet("wagogehmeas")), true);</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trArmyDispatch("%SrcArmy%", "%ProtoName%", %Count%, trQuestVarGet("oiwghogwhywhlocx"),xsVectorGetY(kbGetBlockPosition(""+1*%Object%)),trQuestVarGet("oiwghogwhywhlocz"), 0, %Clear%);</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+	</Effect>
+	
+	<Effect name="Unit Create Near Unit">
+	  <Param name="PlayerID" dispName="Player" varType="string">0</Param>
+	  <Param name="ProtoName" dispName="ProtoName" varType="protounit">Villager</Param>
+	  <Param name="ScenName" dispName="Name" varType="string">Default</Param>
+	  <Param name="Object" dispName="Target Unit"  varType="unit">default</Param>
+	  <Param name="radius" dispName="Approx. Radius (slightly off)" varType="string">10</Param>
+	  <Param name="edge" dispName="Edge Only" varType="bool">false</Param>
+	  <Param name="Heading"  dispName="Heading" varType="string">0</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", 0, %radius%, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trQuestVarSet("hwfeoaifopx", 0);</Command>
+		<Command>if(%edge%==true) trQuestVarSet("hwfeoaifopx", (%radius%-trQuestVarGet("wagogehmeas")));</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", trQuestVarGet("hwfeoaifopx"), (%radius%-trQuestVarGet("wagogehmeas")), true);</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trUnitCreate("%ProtoName%", "%ScenName%", trQuestVarGet("oiwghogwhywhlocx"),xsVectorGetY(kbGetBlockPosition(""+1*%Object%)),trQuestVarGet("oiwghogwhywhlocz"), %Heading%, %PlayerID%);</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Army Teleport Near Unit">
+      <Param name="SrcArmy" dispName="Army" varType="group">default</Param>
+	  <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+	  <Param name="radius" dispName="Approx. Radius (slightly off)" varType="string">10</Param>
+	  <Param name="edge" dispName="Edge Only" varType="bool">false</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trArmySelect("%SrcArmy%");</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", 0, %radius%, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trQuestVarSet("hwfeoaifopx", 0);</Command>
+		<Command>if(%edge%==true) trQuestVarSet("hwfeoaifopx", (%radius%-trQuestVarGet("wagogehmeas")));</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", trQuestVarGet("hwfeoaifopx"), (%radius%-trQuestVarGet("wagogehmeas")), true);</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trUnitTeleport(trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), trQuestVarGet("oiwghogwhywhlocz"));</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Army Build Building Near Unit">
+      <Param name="SrcArmy" dispName="Army" varType="group">default</Param>
+      <Param name="ProtoUnit" dispName="ProtoUnit To Build" varType="protounit">default</Param>
+      <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+      <Param name="radius" dispName="Approx. Radius (slightly off)" varType="string">10</Param>
+	  <Param name="edge" dispName="Edge Only" varType="bool">false</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trArmySelect("%SrcArmy%");</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", 0, %radius%, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trQuestVarSet("hwfeoaifopx", 0);</Command>
+		<Command>if(%edge%==true) trQuestVarSet("hwfeoaifopx", (%radius%-trQuestVarGet("wagogehmeas")));</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", trQuestVarGet("hwfeoaifopx"), (%radius%-trQuestVarGet("wagogehmeas")), true);</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trUnitBuildUnit("%ProtoUnit%", xsVectorSet(trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), trQuestVarGet("oiwghogwhywhlocz")));</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Unit Build Building Near Unit">
+      <Param name="SrcObject" dispName="Source Units" varType="unit">default</Param>
+      <Param name="ProtoUnit" dispName="ProtoUnit To Build" varType="protounit">default</Param>
+      <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+      <Param name="radius" dispName="Approx. Radius (slightly off)" varType="string">10</Param>
+	  <Param name="edge" dispName="Edge Only" varType="bool">false</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command loop="" loopParm="SrcObject">trUnitSelect("%SrcObject%");</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", 0, %radius%, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trQuestVarSet("hwfeoaifopx", 0);</Command>
+		<Command>if(%edge%==true) trQuestVarSet("hwfeoaifopx", (%radius%-trQuestVarGet("wagogehmeas")));</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", trQuestVarGet("hwfeoaifopx"), (%radius%-trQuestVarGet("wagogehmeas")), true);</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trUnitBuildUnit("%ProtoUnit%", xsVectorSet(trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), trQuestVarGet("oiwghogwhywhlocz")));</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Move From Area To Near Unit">
+      <Param name="RefObject" dispName="Center Unit" varType="unit">default</Param>
+	   <Param name="UnitType" dispName="Type" varType="string">Unit</Param>
+	   <Param name="PlayerID" dispName="Player" varType="string">0</Param>
+      <Param name="Radius" dispName="Radius" varType="string">10</Param>
+      <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+      <Param name="radius" dispName="Approx. Radius (slightly off)" varType="string">10</Param>
+	  <Param name="edge" dispName="Edge Only" varType="bool">false</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command loop="" loopParm="RefObject">trUnitSelect("%RefObject%");</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", 0, %radius%, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trQuestVarSet("hwfeoaifopx", 0);</Command>
+		<Command>if(%edge%==true) trQuestVarSet("hwfeoaifopx", (%radius%-trQuestVarGet("wagogehmeas")));</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", trQuestVarGet("hwfeoaifopx"), (%radius%-trQuestVarGet("wagogehmeas")), true);</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trUnitMoveFromArea(trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), trQuestVarGet("oiwghogwhywhlocz"), -1, false, %PlayerID%, "%UnitType%", %Radius%);</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Teleport Units to Near Unit">
+      <Param name="SrcObject" dispName="Source Units" varType="unit">default</Param>
+	  <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+	  <Param name="radius" dispName="Approx. Radius (slightly off)" varType="string">10</Param>
+	  <Param name="edge" dispName="Edge Only" varType="bool">false</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command loop="" loopParm="SrcObject">trUnitSelect("%SrcObject%");</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", 0, %radius%, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trQuestVarSet("hwfeoaifopx", 0);</Command>
+		<Command>if(%edge%==true) trQuestVarSet("hwfeoaifopx", (%radius%-trQuestVarGet("wagogehmeas")));</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", trQuestVarGet("hwfeoaifopx"), (%radius%-trQuestVarGet("wagogehmeas")), true);</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trUnitTeleport(trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), trQuestVarGet("oiwghogwhywhlocz"));</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Move Near Unit">
+      <Param name="SrcObject" dispName="Source Units" varType="unit">default</Param>
+      <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+       <Param name="radius" dispName="Approx. Radius (slightly off)" varType="string">10</Param>
+		<Param name="edge" dispName="Edge Only" varType="bool">false</Param>
+	  <Param name="EventID" dispName="Trigger" varType="event">-1</Param>
+      <Param name="AttackMove" dispName="Attack Move" varType="bool">false</Param>
+      <Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", 0, %radius%, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trQuestVarSet("hwfeoaifopx", 0);</Command>
+		<Command>if(%edge%==true) trQuestVarSet("hwfeoaifopx", (%radius%-trQuestVarGet("wagogehmeas")));</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", trQuestVarGet("hwfeoaifopx"), (%radius%-trQuestVarGet("wagogehmeas")), true);</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trUnitSelectClear();</Command>
+      <Command loop="" loopParm="SrcObject">trUnitSelect("%SrcObject%");</Command>
+      <Command>trUnitMoveToPoint(trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), trQuestVarGet("oiwghogwhywhlocz"), %EventID%, %AttackMove%);</Command>
+      <Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Army Move Near Unit">
+      <Param name="SrcArmy" dispName="Army" varType="group">default</Param>
+      <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+      <Param name="radius" dispName="Approx. Radius (slightly off)" varType="string">10</Param>
+		<Param name="edge" dispName="Edge Only" varType="bool">false</Param>
+	  <Param name="EventID" dispName="Trigger" varType="event">-1</Param>
+	  <Param name="AttackMove" dispName="Attack Move" varType="bool">false</Param>
+       <Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", 0, %radius%, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trQuestVarSet("hwfeoaifopx", 0);</Command>
+		<Command>if(%edge%==true) trQuestVarSet("hwfeoaifopx", (%radius%-trQuestVarGet("wagogehmeas")));</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", trQuestVarGet("hwfeoaifopx"), (%radius%-trQuestVarGet("wagogehmeas")), true);</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trArmySelect("%SrcArmy%");</Command>
+      <Command>trUnitMoveToPoint(trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), trQuestVarGet("oiwghogwhywhlocz"), %EventID%, %AttackMove%);</Command>
+      <Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name = "QV 1- Start Highest or Lowest">
+	<Param name = "blah" dispName="IMPORTANT:" varType="string">Have this effect ONCE in the trigger BEFORE using any of "QV Save Highest or Lowest" effects.</Param>
+	<Command>string QVerHighLow="";</Command>
+   </Effect>
+   
+   <Effect name = "QV 2- Save Highest or Lowest">
+	<Param name = "blah" dispName="IMPORTANT:" varType="string">The NAME of the QV with the highest or lowest value is saved to QVerHighLow (in same trigger only). Enter "+QVerHighLow+" in place of the QV name when you want to get the name of the QV with that value. Be sure to have the "QV Start Highest or Lowest" ONCE in the trigger BEFORE using this any number of times. Measure unlimited QVs in the same trigger by inserting more conditions without enabling the reset box (make sure to check the same QV in "QV to Check").  Enable RESET to start a new check.  Note that there may be multiple QVs with highest or lowest value, in which the last QV will be used.</Param>
+	<Param name = "QVName1" dispName = "QV Name 1" varType ="string">QV1</Param>
+	<Param name = "QVName2" dispName = "QV Name 2" varType ="string">QV2</Param>
+	<Param name = "QVName3" dispName = "QV Name 3" varType ="string">QV3</Param>
+	<Param name = "QVName4" dispName = "QV Name 4" varType ="string">QV4</Param>
+	<Param name = "booler" dispName = "Checked Var is (higher or lower)" varType="operator">></Param>
+	<Param name = "reset" dispName = "Reset" varType="bool">true</Param>
+	<Command>if(%reset%==true) trQuestVarSet("QVHighestLowestThing2", 0);</Command>
+	<Command>trQuestVarSet("QVHighestLowestThing2blarar", 0);</Command>
+	<Command>while(2>trQuestVarGet("QVHighestLowestThing2blarar")) {</Command>
+	<Command>trQuestVarSet("QVHighestLowestThing2blarar", trQuestVarGet("QVHighestLowestThing2blarar")+1);</Command>
+	<Command>if(trQuestVarGet("%QVName1%") %booler% trQuestVarGet("QVHighestLowestThing2")) { trQuestVarSet("QVHighestLowestThing2", trQuestVarGet("%QVName1%")); QVerHighLow="%QVName1%";}</Command>
+	<Command>if(trQuestVarGet("%QVName2%") %booler% trQuestVarGet("QVHighestLowestThing2")) { trQuestVarSet("QVHighestLowestThing2", trQuestVarGet("%QVName2%")); QVerHighLow="%QVName2%";}</Command>
+	<Command>if(trQuestVarGet("%QVName3%") %booler% trQuestVarGet("QVHighestLowestThing2")) { trQuestVarSet("QVHighestLowestThing2", trQuestVarGet("%QVName3%")); QVerHighLow="%QVName3%";}</Command>
+	<Command>if(trQuestVarGet("%QVName4%") %booler% trQuestVarGet("QVHighestLowestThing2")) { trQuestVarSet("QVHighestLowestThing2", trQuestVarGet("%QVName4%")); QVerHighLow="%QVName4%";}}</Command>
+   </Effect>
+   
+   	<Effect name="Scatter - Random in Area (Center Unit)">
+      <Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+		<Param name="Dst" dispName="Center Unit Radius" varType="string">10.0</Param>
+		<Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+		<Param name="FromPlayer" dispName="From Player Number or 99 for ALL" varType="string">99</Param>
+       <Param name="radius" dispName="Scatter Radius" varType="string">10</Param>
+		<Param name="edge" dispName="Edge Only" varType="bool">false</Param>
+		<Param name="attack" dispName="Attack Move" varType="bool">false</Param>
+		<Param name="runsp" dispName="Run Speed" VarType="float">0.0</Param>
+		<Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>while(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("warthog", trQuestVarGet("warthog")-1);</Command>
+		<Command>trQuestVarSet("ffweho", kbUnitQueryGetResult(trQuestVarGet("convarea"), trQuestVarGet("warthog")));</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho"));</Command>
+		<Command>if(trQuestVarGet("ffweho2")!=kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command>trUnitSelectByID(1*trQuestVarGet("ffweho"));</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", 0, %radius%, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trQuestVarSet("hwfeoaifopx", 0);</Command>
+		<Command>if(%edge%==true) trQuestVarSet("hwfeoaifopx", (%radius%-trQuestVarGet("wagogehmeas")));</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", trQuestVarGet("hwfeoaifopx"), (%radius%-trQuestVarGet("wagogehmeas")), true);</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(0>=%runsp%) trUnitMoveToPoint(trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), trQuestVarGet("oiwghogwhywhlocz"), -1, %attack%, false, %runsp%);</Command>
+		<Command>if(%runsp%>0) trUnitMoveToPoint(trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), trQuestVarGet("oiwghogwhywhlocz"), -1, %attack%, true, %runsp%);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+   </Effect>
+   
+   <Effect name="Scatter - From Orignal Location (Center Unit)">
+      <Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+		<Param name="Dst" dispName="Center Unit Radius" varType="string">10.0</Param>
+		<Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+		<Param name="FromPlayer" dispName="From Player Number or 99 for ALL" varType="string">99</Param>
+       <Param name="radius" dispName="Scatter Radius" varType="string">10</Param>
+		<Param name="edge" dispName="Edge Only" varType="bool">false</Param>
+		<Param name="attack" dispName="Attack Move" varType="bool">false</Param>
+		<Param name="runsp" dispName="Run Speed" VarType="float">0.0</Param>
+		<Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>while(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("warthog", trQuestVarGet("warthog")-1);</Command>
+		<Command>trQuestVarSet("ffweho", kbUnitQueryGetResult(trQuestVarGet("convarea"), trQuestVarGet("warthog")));</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho"));</Command>
+		<Command>if(trQuestVarGet("ffweho2")!=kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command>trUnitSelectByID(1*trQuestVarGet("ffweho"));</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", 0, %radius%, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbUnitGetPosition(1*trQuestVarGet("ffweho")))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbUnitGetPosition(1*trQuestVarGet("ffweho")))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>trQuestVarSet("hwfeoaifopx", 0);</Command>
+		<Command>if(%edge%==true) trQuestVarSet("hwfeoaifopx", (%radius%-trQuestVarGet("wagogehmeas")));</Command>
+		<Command>trQuestVarSetFromRand("wagogehmeas", trQuestVarGet("hwfeoaifopx"), (%radius%-trQuestVarGet("wagogehmeas")), true);</Command>
+		<Command>trQuestVarSetFromRand("hwfeoaifop", 0, 1, true);</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==0) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbUnitGetPosition(1*trQuestVarGet("ffweho")))+trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(trQuestVarGet("hwfeoaifop")==1) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbUnitGetPosition(1*trQuestVarGet("ffweho")))-trQuestVarGet("wagogehmeas"));</Command>
+		<Command>if(0>=%runsp%) trUnitMoveToPoint(trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), trQuestVarGet("oiwghogwhywhlocz"), -1, %attack%, false, %runsp%);</Command>
+		<Command>if(%runsp%>0) trUnitMoveToPoint(trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), trQuestVarGet("oiwghogwhywhlocz"), -1, %attack%, true, %runsp%);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+   </Effect>
+   
+   	<Effect name="Teleport Units in Area (Center Unit)">
+		<Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+		<Param name="Dst" dispName="Radius" varType="string">10.0</Param>
+		<Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+		<Param name="FromPlayer" dispName="From Player or 99 for ALL" varType="string">99</Param>
+		<Param name="Area" dispName="" varType="area">0, 0, 0</Param>
+		<Param name="Booler" dispName="Include Center Unit" varType="bool">false</Param>
+		<Param name="position" dispName="Retain Unit Positions" varType="bool">false</Param>
+		<Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("i"));</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>while(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("warthog", trQuestVarGet("warthog")-1);</Command>
+		<Command>trQuestVarSet("ffweho", kbUnitQueryGetResult(trQuestVarGet("convarea"), trQuestVarGet("warthog")));</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho"));</Command>
+		<Command>if(%Booler%==true) {</Command>
+		<Command>if(trQuestVarGet("ffweho2")==kbGetBlockID(""+1*%Object%)) {trQuestVarSet("ffweho2", trQuestVarGet("ffweho")+1);}}</Command>
+		<Command>if(trQuestVarGet("ffweho2")!=kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command>trUnitSelectByID(1*trQuestVarGet("ffweho"));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(vector(%Area%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(vector(%Area%))- (xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-xsVectorGetX(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(vector(%Area%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(vector(%Area%))- (xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-xsVectorGetZ(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trUnitTeleport(1*trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(vector(%Area%)), 1*trQuestVarGet("oiwghogwhywhlocz"));</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+	</Effect>
+	
+	<Effect name="Army Deploy to Unit">
+		<Param name="SrcArmy" dispName="Army" varType="group">default</Param>
+		<Param name="ProtoName" dispName="ProtoName" varType="protounit">Villager</Param>
+		<Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+		<Param name="Count"  dispName="Count" varType="string">0</Param>
+		<Param name="Heading"  dispName="Heading" varType="string">0</Param>
+		<Param name="Clear" dispName="Clear Existing Units:" varType="bool">true</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trArmyDispatch("%SrcArmy%", "%ProtoName%", %Count%, xsVectorGetX(kbGetBlockPosition(""+1*%Object%)),xsVectorGetY(kbGetBlockPosition(""+1*%Object%)),xsVectorGetZ(kbGetBlockPosition(""+1*%Object%)), %Heading%, %Clear%);</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+	</Effect>
+	
+	<Effect name="Unit Create At Unit">
+	  <Param name="PlayerID" dispName="Player" varType="string">0</Param>
+	  <Param name="ProtoName" dispName="ProtoName" varType="protounit">Villager</Param>
+	  <Param name="ScenName" dispName="Name" varType="string">Default</Param>
+	  <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+	  <Param name="Heading"  dispName="Heading" varType="string">0</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trUnitCreate("%ProtoName%", "%ScenName%", xsVectorGetX(kbGetBlockPosition(""+1*%Object%)),xsVectorGetY(kbGetBlockPosition(""+1*%Object%)),xsVectorGetZ(kbGetBlockPosition(""+1*%Object%)), %Heading%, %PlayerID%);</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Army Teleport To Unit">
+      <Param name="SrcArmy" dispName="Army" varType="group">default</Param>
+	  <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trArmySelect("%SrcArmy%");</Command>
+		<Command>trUnitTeleport(xsVectorGetX(kbGetBlockPosition(""+1*%Object%)),xsVectorGetY(kbGetBlockPosition(""+1*%Object%)),xsVectorGetZ(kbGetBlockPosition(""+1*%Object%)));</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Army Build Building At Unit">
+      <Param name="SrcArmy" dispName="Army" varType="group">default</Param>
+      <Param name="ProtoUnit" dispName="ProtoUnit To Build" varType="protounit">default</Param>
+      <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trArmySelect("%SrcArmy%");</Command>
+		<Command>trUnitBuildUnit("%ProtoUnit%", kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Unit Build Building At Unit">
+      <Param name="SrcObject" dispName="Source Units" varType="unit">default</Param>
+      <Param name="ProtoUnit" dispName="ProtoUnit To Build" varType="protounit">default</Param>
+      <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command loop="" loopParm="SrcObject">trUnitSelect("%SrcObject%");</Command>
+		<Command>trUnitBuildUnit("%ProtoUnit%", kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Move From Area To Unit">
+      <Param name="RefObject" dispName="Center Unit" varType="unit">default</Param>
+	   <Param name="UnitType" dispName="Type" varType="string">Unit</Param>
+	   <Param name="PlayerID" dispName="Player" varType="string">0</Param>
+      <Param name="Radius" dispName="Radius" varType="string">10</Param>
+      <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+      <Param name="AttackMove" dispName="Attack Move" varType="bool">false</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command loop="" loopParm="RefObject">trUnitSelect("%RefObject%");</Command>
+		<Command>trUnitMoveFromArea(xsVectorGetX(kbGetBlockPosition(""+1*%Object%)), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), xsVectorGetZ(kbGetBlockPosition(""+1*%Object%)), -1, %AttackMove%, %PlayerID%, "%UnitType%", %Radius%);</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   <Effect name="Teleport Units to Unit">
+      <Param name="SrcObject" dispName="Source Units" varType="unit">default</Param>
+	  <Param name="Object" dispName="Target Unit" varType="unit">default</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command loop="" loopParm="SrcObject">trUnitSelect("%SrcObject%");</Command>
+		<Command>trUnitTeleport(xsVectorGetX(kbGetBlockPosition(""+1*%Object%)), xsVectorGetY(kbGetBlockPosition(""+1*%Object%)), xsVectorGetZ(kbGetBlockPosition(""+1*%Object%)));</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+   </Effect>
+   
+   	<Effect name="Teleport Units in Area (Center Unit) To Unit">
+		<Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+		<Param name="Dst" dispName="Radius" varType="string">10.0</Param>
+		<Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+		<Param name="FromPlayer" dispName="From Player or 99 for ALL" varType="string">99</Param>
+		<Param name="Objecto" dispName="Target Unit" varType="unit">default</Param>
+		<Param name="Booler" dispName="Include Center Unit" varType="bool">false</Param>
+		<Param name="position" dispName="Retain Unit Positions" varType="bool">false</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>xsSetContextPlayer(0);</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("i"));</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>while(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("warthog", trQuestVarGet("warthog")-1);</Command>
+		<Command>trQuestVarSet("ffweho", kbUnitQueryGetResult(trQuestVarGet("convarea"), trQuestVarGet("warthog")));</Command>
+		<Command>trQuestVarSet("ffweho2", trQuestVarGet("ffweho"));</Command>
+		<Command>if(%Booler%==true) {</Command>
+		<Command>if(trQuestVarGet("ffweho2")==kbGetBlockID(""+1*%Object%)) {trQuestVarSet("ffweho2", trQuestVarGet("ffweho")+1);}}</Command>
+		<Command>if(trQuestVarGet("ffweho2")!=kbGetBlockID(""+1*%Object%)) {</Command>
+		<Command>trUnitSelectClear();</Command>
+		<Command>trUnitSelectByID(1*trQuestVarGet("ffweho"));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Objecto%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocx", xsVectorGetX(kbGetBlockPosition(""+1*%Objecto%))- (xsVectorGetX(kbGetBlockPosition(""+1*%Object%))-xsVectorGetX(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Objecto%)));</Command>
+		<Command>if(%position%==true) trQuestVarSet("oiwghogwhywhlocz", xsVectorGetZ(kbGetBlockPosition(""+1*%Objecto%))- (xsVectorGetZ(kbGetBlockPosition(""+1*%Object%))-xsVectorGetZ(kbUnitGetPosition(1*trQuestVarGet("ffweho")))));</Command>
+		<Command>trUnitTeleport(1*trQuestVarGet("oiwghogwhywhlocx"), xsVectorGetY(kbGetBlockPosition(""+1*%Objecto%)), 1*trQuestVarGet("oiwghogwhywhlocz"));</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+	</Effect>
+	
+	<Effect name="QV Set Distance to Unit">
+      <Param name="SrcObject" dispName="Source Units" VarType="unit">default</Param>
+      <Param name="DstObject" dispName="Target Unit" VarType="unit">default</Param>
+	  <Param name="QV" dispName="QV" VarType="string">QV1</Param>
+      <Command>trUnitSelectClear();</Command>
+      <Command loop="" loopParm="SrcObject">trUnitSelect("%SrcObject%");</Command>
+      <Command>trQuestVarSet("%QV%", trUnitDistanceToUnit("%DstObject%"));</Command>
+   </Effect>
+   
+   <Effect name="QV Set Units in Area (Center Unit)">
+      <Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+      <Param name="FromPlayer" dispName="Player (99 for ALL)" varType="string">99</Param>
+      <Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+      <Param name="unitstate" dispName="State ID (2=Alive, 255=Any, 4=Dead...)" varType="string">2</Param>
+      <Param name="actionid" dispName="Action ID (Optional)" varType="string">-1</Param>
+      <Param name="Dst" dispName="Radius" varType="string">10</Param>
+	  <Param name="QVName" dispName="QV" varType="string">QV1</Param>
+      <Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("%QVName%", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("i"));</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetState(trQuestVarGet("convarea"), 1*%unitstate%);</Command>
+		<Command>if(%actionid%!=-1) kbUnitQuerySetActionType(trQuestVarGet("convarea"), 1*%actionid%);</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("%QVName%", trQuestVarGet("%QVName%")+kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+   </Effect>
+   
+   <Effect name="QV Set Unit OBJECT ID in Area (Center Unit)">
+	  <Param name="QVName" dispName="QV" varType="string">QV1</Param>
+	  <Param name="index" dispName="Index (first unit is 0)" varType="string">0</Param>
+      <Param name="Object" dispName="Center Unit" varType="unit">default</Param>
+      <Param name="FromPlayer" dispName="Player (99 for ALL)" varType="string">99</Param>
+      <Param name="UnitId" dispName="Unit Type ID (Optional)" varType="string">-1</Param>
+      <Param name="actionid" dispName="Action ID (Optional)" varType="string">-1</Param>
+      <Param name="Dst" dispName="Radius (-1 for ALL)" varType="string">10</Param>
+      <Command>trQuestVarSet("convarea", 0);</Command>
+		<Command>trQuestVarSet("ffweho",0);</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("vroom", %FromPlayer%);</Command>
+		<Command>trQuestVarSet("warthog", 0);</Command>
+		<Command>trQuestVarSet("zeep", 0);</Command>
+		<Command>if(%UnitId%>=0) {</Command>
+		<Command>trQuestVarSet("zeep", %UnitId%);</Command>
+		<Command>}</Command>
+		<Command>if(0>%UnitId%) {</Command>
+		<Command>while(kbGetUnitTypeName(trQuestVarGet("zeep"))!="All") {</Command>
+		<Command>trQuestVarSet("zeep", trQuestVarGet("zeep")+1);</Command>
+		<Command>}}</Command>
+		<Command>trQuestVarSet("lastpl", xsGetContextPlayer());</Command>
+		<Command>if(%FromPlayer%!=99) trQuestVarSet("blarg",%FromPlayer%);</Command>
+		<Command>if(%FromPlayer%==99) {</Command>
+		<Command>trQuestVarSet("blarg",0);</Command>
+		<Command>trQuestVarSet("vroom",12);</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i",trQuestVarGet("blarg"));</Command>
+		<Command>while(trQuestVarGet("vroom")>=trQuestVarGet("i")) {</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("i"));</Command>
+		<Command>kbLookAtAllUnitsOnMap();</Command>
+		<Command>trQuestVarSet("convarea", kbUnitQueryCreate("convarea"));</Command>
+		<Command>kbUnitQuerySetPlayerID(trQuestVarGet("convarea"), trQuestVarGet("i"));</Command>
+		<Command>kbUnitQuerySetUnitType(trQuestVarGet("convarea"), trQuestVarGet("zeep"));</Command>
+		<Command>kbUnitQuerySetState(trQuestVarGet("convarea"), 2);</Command>
+		<Command>if(%actionid%!=-1) kbUnitQuerySetActionType(trQuestVarGet("convarea"), 1*%actionid%);</Command>
+		<Command>if(%Dst%!=-1) {</Command>
+		<Command>kbUnitQuerySetPosition(trQuestVarGet("convarea"), kbGetBlockPosition(""+1*%Object%));</Command>
+		<Command>kbUnitQuerySetMaximumDistance(trQuestVarGet("convarea"), %Dst%);}</Command>
+		<Command>kbUnitQuerySetAscendingSort(trQuestVarGet("convarea"), true);</Command>
+		<Command>kbUnitQueryResetResults(trQuestVarGet("convarea"));</Command>
+		<Command>trQuestVarSet("warthog", kbUnitQueryExecute(trQuestVarGet("convarea")));</Command>
+		<Command>if(trQuestVarGet("warthog")>0) {</Command>
+		<Command>trQuestVarSet("%QVName%", kbUnitQueryGetResult(trQuestVarGet("convarea"), %index%));</Command>
+		<Command>}</Command>
+		<Command>trQuestVarSet("i", trQuestVarGet("i")+1);}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("lastpl"));</Command>
+   </Effect>
+	
+	<Effect name="QV Set Unit Current HP">
+		<Param name="Player" dispName="Player (if known, reduces lag)" varType="string">-1</Param>
+		<Param name="UnitID" dispName="Unit" varType="unit">default</Param>
+		<Param name="QVName" dispName="QV to Record" varType="string">QV1</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>if(%Player%==-1) {</Command>
+		<Command>trQuestVarSet("jwfeoihgoewhowy222", 99);</Command>
+		<Command>trUnitSelectClear(); trUnitSelect(""+1*%UnitID%);</Command>
+		<Command>trQuestVarSet("fhewohfewowi3ru", 0);</Command>
+		<Command>while(12>trQuestVarGet("fhewohfewowi3ru")) {</Command>
+		<Command>if(trUnitIsOwnedBy(trQuestVarGet("fhewohfewowi3ru"))==true) trQuestVarSet("jwfeoihgoewhowy222", trQuestVarGet("fhewohfewowi3ru"));</Command>
+		<Command>trQuestVarSet("fhewohfewowi3ru", trQuestVarGet("fhewohfewowi3ru")+1);}}</Command>
+		<Command>if(%Player%>=0) trQuestVarSet("jwfeoihgoewhowy222", %Player%);</Command>
+		<Command>if(trQuestVarGet("jwfeoihgoewhowy222")!=99) {</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("jwfeoihgoewhowy222"));</Command>
+		<Command>trQuestVarSet("%QVName%", kbUnitGetCurrentHitpoints(kbGetBlockID(""+1*%UnitID%)));</Command>
+		<Command>}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+	</Effect>
+	
+	
+	<Effect name="QV Set Unit Max HP">
+		<Param name="Player" dispName="Player (if known, reduces lag)" varType="string">-1</Param>
+		<Param name="UnitID" dispName="Unit" varType="unit">default</Param>
+		<Param name="QVName" dispName="QV to Record" varType="string">QV1</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>if(%Player%==-1) {</Command>
+		<Command>trQuestVarSet("jwfeoihgoewhowy222", 99);</Command>
+		<Command>trUnitSelectClear(); trUnitSelect(""+1*%UnitID%);</Command>
+		<Command>trQuestVarSet("fhewohfewowi3ru", 0);</Command>
+		<Command>while(12>trQuestVarGet("fhewohfewowi3ru")) {</Command>
+		<Command>if(trUnitIsOwnedBy(trQuestVarGet("fhewohfewowi3ru"))==true) trQuestVarSet("jwfeoihgoewhowy222", trQuestVarGet("fhewohfewowi3ru"));</Command>
+		<Command>trQuestVarSet("fhewohfewowi3ru", trQuestVarGet("fhewohfewowi3ru")+1);}}</Command>
+		<Command>if(%Player%>=0) trQuestVarSet("jwfeoihgoewhowy222", %Player%);</Command>
+		<Command>if(trQuestVarGet("jwfeoihgoewhowy222")!=99) {</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("jwfeoihgoewhowy222"));</Command>
+		<Command>trQuestVarSet("%QVName%", kbUnitGetMaximumHitpoints(kbGetBlockID(""+1*%UnitID%)));</Command>
+		<Command>}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+	</Effect>
+	
+	<Effect name="QV Set Unit Health (Percent HP)">
+		<Param name="UnitID" dispName="Unit" varType="unit">default</Param>
+		<Param name="QVName" dispName="QV to Record" varType="string">QV1</Param>
+		<Command>trUnitSelectClear(); trUnitSelect(""+1*%UnitID%);</Command>
+		<Command>trQuestVarSet("%QVName%", (100-trUnitPercentDamaged())/100);</Command>
+	</Effect>
+	
+	<Effect name="QV Set Unit Action Type ID">
+		<Param name="Player" dispName="Player (if known, reduces lag)" varType="string">-1</Param>
+		<Param name="UnitID" dispName="Unit" varType="unit">default</Param>
+		<Param name="QVName" dispName="QV to Record" varType="string">QV1</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>if(%Player%==-1) {</Command>
+		<Command>trQuestVarSet("jwfeoihgoewhowy222", 99);</Command>
+		<Command>trUnitSelectClear(); trUnitSelect(""+1*%UnitID%);</Command>
+		<Command>trQuestVarSet("fhewohfewowi3ru", 0);</Command>
+		<Command>while(12>trQuestVarGet("fhewohfewowi3ru")) {</Command>
+		<Command>if(trUnitIsOwnedBy(trQuestVarGet("fhewohfewowi3ru"))==true) trQuestVarSet("jwfeoihgoewhowy222", trQuestVarGet("fhewohfewowi3ru"));</Command>
+		<Command>trQuestVarSet("fhewohfewowi3ru", trQuestVarGet("fhewohfewowi3ru")+1);}}</Command>
+		<Command>if(%Player%>=0) trQuestVarSet("jwfeoihgoewhowy222", %Player%);</Command>
+		<Command>if(trQuestVarGet("jwfeoihgoewhowy222")!=99) {</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("jwfeoihgoewhowy222"));</Command>
+		<Command>trQuestVarSet("%QVName%", kbUnitGetActionType(kbGetBlockID(""+1*%UnitID%)));</Command>
+		<Command>}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+	</Effect>
+	
+	<Effect name="QV Set Num. Workers on Unit">
+		<Param name="Player" dispName="Player (if known, reduces lag)" varType="string">-1</Param>
+		<Param name="UnitID" dispName="Unit" varType="unit">default</Param>
+		<Param name="QVName" dispName="QV to Record" varType="string">QV1</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>if(%Player%==-1) {</Command>
+		<Command>trQuestVarSet("jwfeoihgoewhowy222", 99);</Command>
+		<Command>trUnitSelectClear(); trUnitSelect(""+1*%UnitID%);</Command>
+		<Command>trQuestVarSet("fhewohfewowi3ru", 0);</Command>
+		<Command>while(12>trQuestVarGet("fhewohfewowi3ru")) {</Command>
+		<Command>if(trUnitIsOwnedBy(trQuestVarGet("fhewohfewowi3ru"))==true) trQuestVarSet("jwfeoihgoewhowy222", trQuestVarGet("fhewohfewowi3ru"));</Command>
+		<Command>trQuestVarSet("fhewohfewowi3ru", trQuestVarGet("fhewohfewowi3ru")+1);}}</Command>
+		<Command>if(%Player%>=0) trQuestVarSet("jwfeoihgoewhowy222", %Player%);</Command>
+		<Command>if(trQuestVarGet("jwfeoihgoewhowy222")!=99) {</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("jwfeoihgoewhowy222"));</Command>
+		<Command>trQuestVarSet("%QVName%", kbUnitGetNumberWorkers(kbGetBlockID(""+1*%UnitID%)));</Command>
+		<Command>}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+	</Effect>
+	
+	<Effect name="QV Set Unit's Target OBJECT ID">
+		<Param name="Player" dispName="Player (if known, reduces lag)" varType="string">-1</Param>
+		<Param name="UnitID" dispName="Unit" varType="unit">default</Param>
+		<Param name="QVName" dispName="QV to Record" varType="string">QV1</Param>
+		<Command>trQuestVarSet("fhweaohpgpagowhwa", xsGetContextPlayer());</Command>
+		<Command>if(%Player%==-1) {</Command>
+		<Command>trQuestVarSet("jwfeoihgoewhowy222", 99);</Command>
+		<Command>trUnitSelectClear(); trUnitSelect(""+1*%UnitID%);</Command>
+		<Command>trQuestVarSet("fhewohfewowi3ru", 0);</Command>
+		<Command>while(12>trQuestVarGet("fhewohfewowi3ru")) {</Command>
+		<Command>if(trUnitIsOwnedBy(trQuestVarGet("fhewohfewowi3ru"))==true) trQuestVarSet("jwfeoihgoewhowy222", trQuestVarGet("fhewohfewowi3ru"));</Command>
+		<Command>trQuestVarSet("fhewohfewowi3ru", trQuestVarGet("fhewohfewowi3ru")+1);}}</Command>
+		<Command>if(%Player%>=0) trQuestVarSet("jwfeoihgoewhowy222", %Player%);</Command>
+		<Command>if(trQuestVarGet("jwfeoihgoewhowy222")!=99) {</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("jwfeoihgoewhowy222"));</Command>
+		<Command>trQuestVarSet("%QVName%", kbUnitGetTargetUnitID(kbGetBlockID(""+1*%UnitID%)));</Command>
+		<Command>}</Command>
+		<Command>xsSetContextPlayer(trQuestVarGet("fhweaohpgpagowhwa"));</Command>
+	</Effect>
+	
+	<Effect name="QV Set Unit OBJECT ID">
+		<Param name="UnitID" dispName="Target Unit" varType="unit">default</Param>
+		<Param name="QVName" dispName="QV to Record" varType="string">QV1</Param>
+		<Command>trQuestVarSet("%QVName%", kbGetBlockID(""+1*%UnitID%));</Command>
+	</Effect>
+
+</Effects>
+
+</trigger>
