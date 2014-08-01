@@ -9380,7 +9380,7 @@ minInterval 10
       aiPlanSetVariableInt(wallPlanID, cBuildWallPlanNumberOfGates, 0, 6);
       aiPlanSetBaseID(wallPlanID, kbBaseGetMainID(cMyID));
       aiPlanSetEscrowID(wallPlanID, cEconomyEscrowID);
-      aiPlanSetDesiredPriority(wallPlanID, 60);
+      aiPlanSetDesiredPriority(wallPlanID, 40);
       aiPlanSetActive(wallPlanID, true);
       sendStatement(cPlayerRelationAlly, cAICommPromptToAllyWhenIWallIn);
       //Enable our wall gap rule, too.
@@ -19525,7 +19525,7 @@ rule fillInWallGaps
          aiPlanSetVariableInt(wallPlanID, cBuildWallPlanNumberOfGates, 0, 6);
          aiPlanSetBaseID(wallPlanID, kbBaseGetMainID(cMyID));
          aiPlanSetEscrowID(wallPlanID, cEconomyEscrowID);
-         aiPlanSetDesiredPriority(wallPlanID,60);
+         aiPlanSetDesiredPriority(wallPlanID,40);
          aiPlanSetActive(wallPlanID, true);
    }
 }

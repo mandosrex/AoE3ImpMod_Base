@@ -44,6 +44,9 @@
 				<choice name="XPSPC">
 					<soundset name="CusterSelect"/>
 				</choice>
+				<choice name="XPSioux">
+					<soundset name="SiouxRifleRiderSelect"/>
+				</choice>
 				<choice name="SPCAct1"/>
 				<choice name="SPCAct2"/>
 				<choice name="SPCAct3">
@@ -293,6 +296,23 @@
 						</choice>
 						<choice name="enemy">
 							<soundset name="CusterAttack"/>
+						</choice>
+						<choice name="build"/>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="XPSioux">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="SiouxRifleRiderAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="SiouxRifleRiderAttack"/>
 						</choice>
 						<choice name="build"/>
 						<choice name="Huntable"/>

@@ -10,6 +10,9 @@
 		</soundtype>
 		<soundtype name="Select">
 			<civlogic>
+				<choice name="French">
+					<soundset name="FrenchGrenadierSelect"/>
+				</choice>
 				<choice name="Chinese">
 					<soundset name="FrenchGrenadierSelect"/>
 				</choice>
@@ -38,6 +41,16 @@
 		</soundtype>
 		<soundtype name="Acknowledge">
 			<civlogic>
+				<choice name="French">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="FrenchGrenadierAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="FrenchGrenadierAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
 				<choice name="Chinese">
 					<targetlogic>
 						<choice name="default">

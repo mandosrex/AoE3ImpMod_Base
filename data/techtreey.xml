@@ -13817,6 +13817,8 @@
 				<Target type ='ProtoUnit'>ypFuchuan</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypWokouJunk</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouJunkI</Target></Effect>
 			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypFireship</Target></Effect>
 		</Effects>
@@ -56379,6 +56381,8 @@
 				<Target type ='ProtoUnit'>ypFuchuan</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypWokouJunk</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouJunkI</Target></Effect>
 			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypFireship</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>

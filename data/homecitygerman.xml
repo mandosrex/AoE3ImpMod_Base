@@ -794,7 +794,7 @@
 			<displayunitcount>2</displayunitcount>
 		</card>
 		<card>
-			<name>HCAdvancedArsenalGerman</name>
+			<name>HCAdvancedArsenal</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
 			<prereqtech>HCColonialMilitia</prereqtech>
@@ -880,7 +880,7 @@
 			<age>0</age>
 		</card>
 		<card>
-			<name>HCAdvancedDockGerman</name>
+			<name>HCAdvancedDock</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
 			<prereqtech>-1</prereqtech>
@@ -1557,7 +1557,7 @@
 			<tech x="2.5" y="5.0">HCTeamTeutonTownCenter</tech>
 			<tech x="3.2" y="5.0">HCPalatineSettlements</tech>
 			<tech x="2.8" y="1.0">HCFrontierDefensesGerman</tech>
-			<tech x="3.2" y="3.0">HCAdvancedArsenalGerman</tech>
+			<tech x="3.2" y="3.0">HCAdvancedArsenal</tech>
 			<tech x="3.9" y="1.0">HCUnlockFortGerman</tech>
 			<tech x="3.9" y="5.0">HCXPUnlockFort2German</tech>
 			<tech x="4.8" y="1.0">HCXPRanching</tech>
@@ -1566,7 +1566,7 @@
 			<tech x="5.5" y="5.0">HCGermantownFarmers</tech>
 			<tech x="6.2" y="1.0">HCAdvancedMarketGerman</tech>
 			<tech x="6.2" y="5.0">HCAdvancedPlantationsGerman</tech>
-			<tech x="6.2" y="3.0">HCAdvancedDockGerman</tech>
+			<tech x="6.2" y="3.0">HCAdvancedDock</tech>
 			<tech x="6.9" y="1.0">HCUnlockFactoryGerman</tech>
 			<tech x="6.9" y="3.0">HCRobberBaronsGerman</tech>
 			<tech x="3.9" y="3.0">HCExtensiveFortifications</tech>
