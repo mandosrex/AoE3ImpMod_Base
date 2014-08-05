@@ -31,6 +31,9 @@
 				<choice name="Russians">
 					<soundset name="RussianCossackSelect"/>
 				</choice>
+				<choice name="Ottoman">
+					<soundset name="OttomanLightCavalrySelect"/>
+				</choice>
 			</civlogic>
 		</soundtype>
 		<soundtype name="Acknowledge">
@@ -102,6 +105,16 @@
 						</choice>
 						<choice name="enemy">
 							<soundset name="RussianCossackAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="Ottoman">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="OttomanLightCavalryAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="OttomanLightCavalryAttack"/>
 						</choice>
 					</targetlogic>
 				</choice>

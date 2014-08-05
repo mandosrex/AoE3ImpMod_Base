@@ -844,7 +844,7 @@
 			<age>2</age>
 		</card>
 		<card>
-			<name>HCXPRanchingLlama</name>
+			<name>HCXPRanching</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
@@ -1528,7 +1528,7 @@
 			<tech x="4.6" y="1.0">HCXPShipSpies1</tech>
 			<tech x="4.6" y="3.0">HCXPShipSpies2</tech>
 			<tech x="4.6" y="7.0">HCXPShipSpies3</tech>
-			<tech x="5.3" y="1.0">HCXPRanchingLlama</tech>
+			<tech x="5.3" y="1.0">HCXPRanching</tech>
 			<tech x="5.3" y="3.0">HCRoyalDecreeSpanish</tech>
 			<tech x="5.3" y="4.0">HCInquisition</tech>
 			<tech x="6.0" y="1.0">HCAdvancedMill</tech>
