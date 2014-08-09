@@ -42,6 +42,13 @@
 	</coffers>
 	<cards>
 		<card>
+			<name>HCEarlySkirmishersTeam</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>YPHCShipGurkha4</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
 			<name>HCXPShipSurgeons2</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
@@ -1376,16 +1383,17 @@
 			<tech x="0.0" y="2">YPHCShipRajput2</tech>
 			<tech x="0.0" y="3">YPHCShipRajput3</tech>
 			<tech x="0.0" y="4">YPHCShipRajput4</tech>
-			<tech x="0.0" y="7">YPHCMeleeDamageIndians</tech>
+			<tech x="0.0" y="5">YPHCMeleeDamageIndians</tech>
 			<tech x="0.7" y="1">YPHCShipGurkha1</tech>
 			<tech x="0.7" y="2">YPHCShipGurkha2</tech>
 			<tech x="0.7" y="3">YPHCShipGurkha3</tech>
-			<tech x="0.7" y="5">YPHCShipGurkha4</tech>
+			<tech x="0.7" y="4">YPHCShipGurkha4</tech>
+			<tech x="0.7" y="7">HCEarlySkirmishersTeam</tech>
 			<tech x="1.4" y="1">YPHCShipSepoy1</tech>
 			<tech x="1.4" y="2">YPHCShipSepoy2</tech>
 			<tech x="1.4" y="3">YPHCShipSepoy3</tech>
 			<tech x="1.4" y="4">YPHCShipSepoy4</tech>
-			<tech x="1.4" y="5">YPHCInfantrySpeedHitpointsTeam</tech>
+			<tech x="1.4" y="7">YPHCInfantrySpeedHitpointsTeam</tech>
 			<tech x="2.2" y="1">YPHCShipIndianHandCavalry1</tech>
 			<tech x="2.2" y="3">YPHCShipIndianHandCavalry3</tech>
 			<tech x="2.7" y="4">YPHCCamelDamageIndians</tech>

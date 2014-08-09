@@ -288,6 +288,8 @@
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianGovernorFrench</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianExiledPrinceFrench</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianCavalierFrench</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialCrossbowmen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialPikemen</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -653,6 +655,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMohawkStatesmanBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianPhilosopherPrinceBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianBishopBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialPikemen</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -840,6 +843,7 @@
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialPikemen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianCavalierDutch</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianViceroyDutch</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianAdmiralDutch</Effect>
@@ -999,6 +1003,8 @@
 				<Target type ='ProtoUnit'>FieldHospital</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialPikemen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialCrossbowmen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianViceroyGerman</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianEngineerGerman</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMarksmanGerman</Effect>
@@ -1165,6 +1171,8 @@
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialPikemen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialCrossbowmen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianKingsMusketeerPortuguese</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianTycoonPortuguese</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMohawkStatesmanPortuguese</Effect>
@@ -1508,6 +1516,7 @@
 				<Target type ='ProtoUnit'>WallStraight5</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>WallConnector</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialCrossbowmen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGEspadachins</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGGarrochista</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianWarMinisterSpanish</Effect>
@@ -2546,6 +2555,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>VeteranCrossbowmen</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialCrossbowmen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UniqueSPCCustomizedMercWeapons</Effect>
@@ -4119,6 +4129,7 @@
 			<Effect type ='TechStatus' status ='active'>ImperialMonitors</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryNatives</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialHorseArtillery</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialPikemen</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostImperialDutch' type ='Normal'>
@@ -4149,6 +4160,8 @@
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryNatives</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialLancers</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialPikemen</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialCrossbowmen</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostImperialFrench' type ='Normal'>
@@ -4179,6 +4192,8 @@
 			<Effect type ='TechStatus' status ='active'>ImperialManOWar</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryNatives</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialHorseArtillery</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialPikemen</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialCrossbowmen</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostImperialGerman' type ='Normal'>
@@ -4207,6 +4222,8 @@
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryNatives</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialPoleaxemen</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialPikemen</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialCrossbowmen</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostImperialOttoman' type ='Normal'>
@@ -4265,6 +4282,8 @@
 			<Effect type ='TechStatus' status ='active'>ImperialMonitors</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryNatives</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialHorseArtillery</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialPikemen</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialCrossbowmen</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostImperialRussian' type ='Normal'>
@@ -4295,6 +4314,8 @@
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryNatives</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialPoleaxemen</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialPikemen</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialCrossbowmen</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostImperialSpanish' type ='Normal'>
@@ -4326,6 +4347,8 @@
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryNatives</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialSaker</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialPikemen</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialCrossbowmen</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='SPCLizzieShipNoGarrison' type ='Normal'>
@@ -7835,6 +7858,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -10055,9 +10079,32 @@
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
+	<Tech name ='ImperialPikemen' type ='Normal'>
+		<DBID>1322</DBID>
+		<DisplayNameID>780838</DisplayNameID>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_spear_infantry\imperial_spear_infantry</Icon>
+		<RolloverTextID>35185</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>GuardPikemen</TechStatus>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
+			<Effect type ='SetName' proto ='Pikeman' culture ='none' newName ='30978'></Effect>
+		</Effects>
+	</Tech>
 	<Tech name ='ImperialCrossbowmen' type ='Normal'>
 		<DBID>1322</DBID>
-		<DisplayNameID>78057</DisplayNameID>
+		<DisplayNameID>780840</DisplayNameID>
 		<Cost resourcetype ='Wood'>1500.0000</Cost>
 		<Cost resourcetype ='Gold'>1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -10075,7 +10122,7 @@
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
-			<Effect type ='SetName' proto ='Crossbowman' culture ='none' newName ='31044'></Effect>
+			<Effect type ='SetName' proto ='Crossbowman' culture ='none' newName ='780839'></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='InfantryBreastplate' type ='Normal'>
@@ -12611,7 +12658,7 @@
 				<Target type ='Tech'>HCXPMercsFusiliersRepeat</Target></Effect>
 			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPMercsNinja</Target></Effect>
-			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPMercsGreatCannon</Target></Effect>
 			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPMercsFusiliers</Target></Effect>
@@ -12711,6 +12758,18 @@
 				<Target type ='Tech'>YPHCMercsRonin2</Target></Effect>
 			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>YPHCShipManchuTeam</Target></Effect>
+			<Effect type ='Data' amount ='300.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPComancheroAllies</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>ChurchWaardgelders</Target></Effect>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>ChurchTowerAndSword</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ChurchBlackWatch</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ChurchBlackWatchXP</Target></Effect>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ChurchWildGeeseSpanish</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCPrivateers' type ='Normal'>
@@ -14255,7 +14314,6 @@
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateYoungGarde</Target></Effect>
 			<Effect type ='SetName' proto ='ypConsulateYoungGarde' culture ='none' newName ='42459'></Effect>
-			<Effect type ='TechStatus' status ='active'>IncendiaryGrenades</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -23672,6 +23730,8 @@
 				<Target type ='ProtoUnit'>Cacadore</Target></Effect>
 			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Assign'>
 				<Target type ='ProtoUnit'>RiflemanUS</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Assign'>
+				<Target type ='ProtoUnit'>ypNatMercGurkha</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
@@ -23682,8 +23742,6 @@
 				<Target type ='ProtoUnit'>xpWarRifle</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMacehualtin</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypNatMercGurkha</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypYumi</Target></Effect>
 			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Assign'>
@@ -36336,6 +36394,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\outlaws\outlaw_shotgun_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36351,6 +36410,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\units\fusilier_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36366,6 +36426,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\mameluke\mameluke_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36381,6 +36442,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\manchurian_archer\manchurian_archer_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36396,6 +36458,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\hackapell\hackapell_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36411,6 +36474,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\highlander\highlander_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36426,6 +36490,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\miner\miner_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36441,6 +36506,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\landsknecht\landsknect_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36456,6 +36522,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\balkan_stradiot\balkan_stradiot_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36471,6 +36538,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\jaeger\hessian_jaeger_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36486,6 +36554,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\hoop_thrower\hoop_thrower_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36501,6 +36570,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\samurai\ronin_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36542,6 +36612,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\units\ninja_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36557,6 +36628,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>nuggets\outlaw_kidnap\outlaw_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36572,6 +36644,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\outlaws\outlaw_rider_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36587,6 +36660,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\pirates\pirate_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36635,6 +36709,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\swiss_pikeman\swiss_pikeman_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36650,6 +36725,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\Units\elmeti_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36665,6 +36741,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\barbary_corsair\barbary_corsair_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36680,6 +36757,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\hoop_thrower\hoop_thrower_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36695,6 +36773,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\elizabeth_ramsey\elizabeth_ramsey_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -36710,6 +36789,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -37450,12 +37530,10 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
 		<RolloverTextID>46787</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CommandWagon' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='Data' action ='RangedAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
@@ -37474,8 +37552,6 @@
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
 			<Effect type ='TextOutput'>46860</Effect>
-			<Effect type ='TechStatus' status ='active'>BoneguardRifleman</Effect>
-			<Effect type ='TechStatus' status ='active'>BoneguardSwordsman</Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
@@ -37535,8 +37611,8 @@
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CommandWagon' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WingedK</Target></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='Data' action ='RangedAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
@@ -37582,6 +37658,14 @@
 			<Effect type ='TextOutput'>46813</Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Percent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='GathererLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>HouseEast</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='GathererLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>House</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='GathererLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>HouseMed</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='GathererLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Manor</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPRanchingLlama' type ='Normal'>
@@ -40108,6 +40192,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\barbary_corsair\barbary_corsair_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -43118,7 +43203,6 @@
 	<Tech name ='YPHCShipSiegeElephant1' type ='Normal'>
 		<DBID>3913</DBID>
 		<DisplayNameID>61499</DisplayNameID>
-		<Cost resourcetype ='Food'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -43137,7 +43221,7 @@
 	<Tech name ='YPHCShipSiegeElephant2' type ='Normal'>
 		<DBID>3914</DBID>
 		<DisplayNameID>61500</DisplayNameID>
-		<Cost resourcetype ='Food'>600.0000</Cost>
+		<Cost resourcetype ='Food'>300.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -50806,7 +50890,6 @@
 	<Tech name ='YPHCShipFlailiphant3' type ='Normal'>
 		<DBID>4714</DBID>
 		<DisplayNameID>65627</DisplayNameID>
-		<Cost resourcetype ='Food'>300.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -54117,6 +54200,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -54132,6 +54216,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -54147,6 +54232,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -54162,6 +54248,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -54177,6 +54264,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -54192,6 +54280,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -54207,6 +54296,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -55936,6 +56026,7 @@
 	<Tech name ='YPHCShipSowarRegiment' type ='Normal'>
 		<DBID>5134</DBID>
 		<DisplayNameID>69261</DisplayNameID>
+		<Cost resourcetype ='Food'>150.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -55957,7 +56048,7 @@
 	<Tech name ='YPHCShipHowdahRegiment' type ='Normal'>
 		<DBID>5135</DBID>
 		<DisplayNameID>69263</DisplayNameID>
-		<Cost resourcetype ='Food'>350.0000</Cost>
+		<Cost resourcetype ='Food'>250.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -56122,6 +56213,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -56137,6 +56229,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -56152,6 +56245,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\black_rider\black_rider_icon</Icon>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -56535,14 +56629,6 @@
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 			<Effect type ='SetName' proto ='ypNatMercGurkha' culture ='none' newName ='69800'></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='LOS' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' action ='StaggerRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' action ='DefendRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' action ='VolleyRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHonoredGurkha' type ='Normal'>
@@ -56566,14 +56652,6 @@
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='LOS' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' action ='StaggerRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' action ='DefendRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' action ='VolleyRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPExaltedGurkha' type ='Normal'>
@@ -56596,14 +56674,6 @@
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='LOS' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' action ='StaggerRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' action ='VolleyRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' action ='DefendRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 		</Effects>
 	</Tech>
@@ -56688,7 +56758,6 @@
 	<Tech name ='YPHCShipHowdah1' type ='Normal'>
 		<DBID>5195</DBID>
 		<DisplayNameID>69864</DisplayNameID>
-		<Cost resourcetype ='Food'>250.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -56707,7 +56776,6 @@
 	<Tech name ='YPHCShipHowdah2' type ='Normal'>
 		<DBID>5196</DBID>
 		<DisplayNameID>69866</DisplayNameID>
-		<Cost resourcetype ='Food'>600.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -56721,7 +56789,6 @@
 	<Tech name ='YPHCShipMahout1' type ='Normal'>
 		<DBID>5197</DBID>
 		<DisplayNameID>69868</DisplayNameID>
-		<Cost resourcetype ='Food'>350.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -56740,7 +56807,7 @@
 	<Tech name ='YPHCShipMahout2' type ='Normal'>
 		<DBID>5198</DBID>
 		<DisplayNameID>69870</DisplayNameID>
-		<Cost resourcetype ='Food'>1000.0000</Cost>
+		<Cost resourcetype ='Food'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -56759,7 +56826,7 @@
 	<Tech name ='YPHCShipMahout3' type ='Normal'>
 		<DBID>5199</DBID>
 		<DisplayNameID>69872</DisplayNameID>
-		<Cost resourcetype ='Food'>1000.0000</Cost>
+		<Cost resourcetype ='Food'>400.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -57945,6 +58012,300 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractMansabdar</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPDanceHallFr' type ='Normal'>
+		<DBID>3361</DBID>
+		<DisplayNameID>46788</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<RolloverTextID>780842</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='RangedAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='SetName' proto ='SPCFortCenter' culture ='none' newName ='46789'></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
+			<Effect type ='TextOutput'>46860</Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypThuggee</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWanderingHorseman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWaywardRonin</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>SaloonSwissPikeman</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPDanceHallDu' type ='Normal'>
+		<DBID>3361</DBID>
+		<DisplayNameID>46788</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<RolloverTextID>780847</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='RangedAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='SetName' proto ='SPCFortCenter' culture ='none' newName ='46789'></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
+			<Effect type ='TextOutput'>46860</Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypThuggee</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWanderingHorseman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWaywardRonin</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>SaloonLandsknecht</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPDanceHallBr' type ='Normal'>
+		<DBID>3361</DBID>
+		<DisplayNameID>46788</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<RolloverTextID>780841</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='RangedAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='SetName' proto ='SPCFortCenter' culture ='none' newName ='46789'></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
+			<Effect type ='TextOutput'>46860</Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypThuggee</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWanderingHorseman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWaywardRonin</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>SaloonHighlander</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPDanceHallRu' type ='Normal'>
+		<DBID>3361</DBID>
+		<DisplayNameID>46788</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<RolloverTextID>780843</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='RangedAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='SetName' proto ='SPCFortCenter' culture ='none' newName ='46789'></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
+			<Effect type ='TextOutput'>46860</Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypThuggee</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWanderingHorseman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWaywardRonin</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>SaloonStradiot</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPDanceHallPo' type ='Normal'>
+		<DBID>3361</DBID>
+		<DisplayNameID>46788</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<RolloverTextID>780844</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='RangedAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='SetName' proto ='SPCFortCenter' culture ='none' newName ='46789'></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
+			<Effect type ='TextOutput'>46860</Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypThuggee</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWanderingHorseman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWaywardRonin</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>SaloonBlackRider</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPDanceHallOt' type ='Normal'>
+		<DBID>3361</DBID>
+		<DisplayNameID>46788</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<RolloverTextID>780846</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='RangedAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='SetName' proto ='SPCFortCenter' culture ='none' newName ='46789'></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
+			<Effect type ='TextOutput'>46860</Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypThuggee</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWanderingHorseman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWaywardRonin</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>SaloonMameluke</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPDanceHallSp' type ='Normal'>
+		<DBID>3361</DBID>
+		<DisplayNameID>46788</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<RolloverTextID>780845</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='RangedAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='1.30' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
+			<Effect type ='SetName' proto ='SPCFortCenter' culture ='none' newName ='46789'></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
+			<Effect type ='TextOutput'>46860</Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypThuggee</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWanderingHorseman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWaywardRonin</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>SaloonHackapell</Effect>
 		</Effects>
 	</Tech>
 </TechTree>

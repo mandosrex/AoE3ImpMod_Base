@@ -1652,6 +1652,21 @@
 			<context>BarracksAccel</context>
 			<command>tis("ypNatMercGurkha",5)</command>
 		</keymapdata>
+		<keymapdata>
+			<name>Urumi</name>
+			<displayname>$$60144$$Urumi</displayname>
+			<event>r</event>
+			<context>BarracksAccel</context>
+			<command>tis("ypUrumi")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Sepoy</name>
+			<displayname>$$60144$$Seopy</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-r</event>
+			<context>BarracksAccel</context>
+			<command>tis("ypUrumi",5)</command>
+		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="Village Hotkeys" displayname="$$68759$$Village Hotkeys">
 		<keymapdata>

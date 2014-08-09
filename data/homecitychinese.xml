@@ -42,6 +42,15 @@
 	</coffers>
 	<cards>
 		<card>
+			<name>HCXPMercsFusiliers</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>3</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
 			<name>HCXPShipSurgeons2</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
@@ -1546,6 +1555,7 @@
 			<tech x="3.4" y="5">HCMercenaryLoyalty</tech>
 			<tech x="3.4" y="1">YPHCAtonementChinese</tech>
 			<tech x="5.0" y="3">YPHCMercsIronTroop1</tech>
+			<tech x="5.0" y="4">HCXPMercsFusiliers</tech>
 			<tech x="5.8" y="3">YPHCMercsRattanShield1</tech>
 			<tech x="5.8" y="5">YPHCMercsRattanShield2</tech>
 			<tech x="5.8" y="7">YPHCMercsRattanShield3</tech>

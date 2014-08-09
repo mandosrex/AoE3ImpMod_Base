@@ -72,7 +72,7 @@
 			<name>HCXPMercsGreatCannon</name>
 			<maxcount>1</maxcount>
 			<level>25</level>
-			<prereqtech>HCMercenaryLoyalty</prereqtech>
+			<prereqtech>-1</prereqtech>
 			<age>3</age>
 			<displayunitcount>10</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
@@ -1202,7 +1202,7 @@
 			<name>HCMercenaryLoyalty</name>
 			<maxcount>1</maxcount>
 			<level>25</level>
-			<prereqtech>-1</prereqtech>
+			<prereqtech>HCXPDanceHallSp</prereqtech>
 			<age>2</age>
 		</card>
 		<card>
@@ -1251,7 +1251,7 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
-			<name>HCXPDanceHall</name>
+			<name>HCXPDanceHallSp</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
@@ -1607,19 +1607,18 @@
 		<displaynamestringid>35745</displaynamestringid>
 		<rolloverstringid>35746</rolloverstringid>
 		<obtainabletechs>
-			<tech x="1.3" y="1.0">HCShipCaravels1</tech>
-			<tech x="1.0" y="2.0">HCShipCaravels2</tech>
-			<tech x="1.0" y="3.0">HCCoastalDefensesTeam</tech>
-			<tech x="1.7" y="2.0">HCShipGalleons</tech>
-			<tech x="1.7" y="3.0">HCSpanishGalleons</tech>
-			<tech x="1.7" y="4.0">HCArmada</tech>
-			<tech x="1.7" y="5.0">HCSpanishTreasureFleet</tech>
-			<tech x="1.7" y="7.0">HCXPSpanishGold</tech>
-			<tech x="3.6" y="1.0">HCXPDanceHall</tech>
-			<tech x="2.8" y="3.0">HCShipFrigates</tech>
-			<tech x="2.4" y="4.0">HCNavalCombat</tech>
-			<tech x="3.1" y="4.0">HCShipMonitors</tech>
-			<tech x="3.1" y="7.0">HCXPShipMonitorsTeam</tech>
+			<tech x="0.3" y="1.0">HCShipCaravels1</tech>
+			<tech x="0.0" y="2.0">HCShipCaravels2</tech>
+			<tech x="0.0" y="3.0">HCCoastalDefensesTeam</tech>
+			<tech x="0.7" y="2.0">HCShipGalleons</tech>
+			<tech x="0.7" y="3.0">HCSpanishGalleons</tech>
+			<tech x="0.7" y="4.0">HCArmada</tech>
+			<tech x="0.7" y="5.0">HCSpanishTreasureFleet</tech>
+			<tech x="0.7" y="7.0">HCXPSpanishGold</tech>
+			<tech x="1.8" y="3.0">HCShipFrigates</tech>
+			<tech x="1.4" y="4.0">HCNavalCombat</tech>
+			<tech x="2.1" y="4.0">HCShipMonitors</tech>
+			<tech x="2.1" y="7.0">HCXPShipMonitorsTeam</tech>
 			<tech x="2.8" y="1.0">HCAdmirality</tech>
 			<tech x="4.4" y="3.0">HCMercsSwissPikemen</tech>
 			<tech x="4.4" y="4.0">HCMercsHighlanders</tech>
@@ -1628,12 +1627,13 @@
 			<tech x="5.1" y="5.0">HCMercsMediterranean</tech>
 			<tech x="5.8" y="4.0">HCXPMercsElmeti</tech>
 			<tech x="5.8" y="5.0">HCMercsAsian</tech>
-			<tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
-			<tech x="6.5" y="6.0">HCXPMercsGreatCannon</tech>
+			<tech x="6.5" y="5.0">HCXPMercsGreatCannon</tech>
 			<tech x="6.5" y="1.0">HCPrivateers</tech>
 			<tech x="7.2" y="1.0">HCXPMayanAllies1</tech>
 			<tech x="7.2" y="3.0">HCXPMayanAllies2</tech>
 			<tech x="7.2" y="7.0">HCXPMayanAlliesRepeat</tech>
+			<tech x="3.6" y="1.0">HCXPDanceHallSp</tech>
+			<tech x="3.6" y="6.0">HCMercenaryLoyalty</tech>
 		</obtainabletechs>
 		<activetechs/>
 		<validunits/>

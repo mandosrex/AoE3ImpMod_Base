@@ -47,33 +47,6 @@
 					</replacetexture>
 				</assetreference>
 			</imperialgrenadiersUS>
-			<imperialpavlovs>
-				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\grenadier\grenadier_age4_hat</file>
-					<replacetexture>
-						<from>units\infantry_ranged\grenadier\grenadier_age4</from>
-						<to>units\infantry_ranged\grenadier\grenadier_imperial</to>
-					</replacetexture>
-				</assetreference>
-			</imperialpavlovs>
-			<imperialbaratcu>
-				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\grenadier\grenadier_age4_hat</file>
-					<replacetexture>
-						<from>units\infantry_ranged\grenadier\grenadier_age4</from>
-						<to>units\infantry_ranged\grenadier\grenadier_imperial</to>
-					</replacetexture>
-				</assetreference>
-			</imperialbaratcu>
-			<ChurchGardeImperial3>
-				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\grenadier\grenadier_age4_hat</file>
-					<replacetexture>
-						<from>units\infantry_ranged\grenadier\grenadier_age4</from>
-						<to>units\infantry_ranged\grenadier\grenadier_imperial</to>
-					</replacetexture>
-				</assetreference>
-			</ChurchGardeImperial3>
 		</logic>
 	</component>
 	<anim>

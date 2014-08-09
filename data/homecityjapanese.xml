@@ -362,7 +362,7 @@
 			<name>HCSohei</name>
 			<maxcount>2</maxcount>
 			<level>0</level>
-			<prereqtech>YPHCShipSamurai2</prereqtech>
+			<prereqtech>-1</prereqtech>
 			<age>2</age>
 			<displayunitcount>10</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
@@ -396,7 +396,7 @@
 			<name>YPHCShipSamurai4</name>
 			<maxcount>-1</maxcount>
 			<level>25</level>
-			<prereqtech>HCSohei</prereqtech>
+			<prereqtech>YPHCShipSamurai3</prereqtech>
 			<age>3</age>
 			<displayunitcount>6</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
@@ -1363,8 +1363,6 @@
 			<tech x="0.7" y="3">YPHCYumiDamage</tech>
 			<tech x="0" y="4">YPHCShipYumi3</tech>
 			<tech x="0" y="6">YPHCShipYumi4</tech>
-			<tech x="0.7" y="7">YPHCShinobi</tech>
-			<tech x="2.2" y="7">YPHCShinobi2</tech>
 			<tech x="0.7" y="5">YPHCYumiRange</tech>
 			<tech x="1.5" y="1">YPHCShipAshigaru1</tech>
 			<tech x="1.5" y="2">YPHCShipAshigaru2</tech>
@@ -1377,7 +1375,8 @@
 			<tech x="3.7" y="3">YPHCSamuraiDamage</tech>
 			<tech x="3.0" y="6">YPHCShipSamurai4</tech>
 			<tech x="3.7" y="5">YPHCSamuraiSpeed</tech>
-			<tech x="3.0" y="4">HCSohei</tech>
+			<tech x="3.0" y="4">YPHCShipSamurai3</tech>
+			<tech x="2.2" y="7">HCSohei</tech>
 			<tech x="4.5" y="1">YPHCShipNaginataRider1</tech>
 			<tech x="4.5" y="2">YPHCShipNaginataRider2</tech>
 			<tech x="5.2" y="3">YPHCnaginatahitpoints</tech>

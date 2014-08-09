@@ -1249,11 +1249,11 @@
 			<name>HCMercenaryLoyalty</name>
 			<maxcount>1</maxcount>
 			<level>25</level>
-			<prereqtech>-1</prereqtech>
+			<prereqtech>HCXPDanceHallRu</prereqtech>
 			<age>2</age>
 		</card>
 		<card>
-			<name>HCXPDanceHall</name>
+			<name>HCXPDanceHallRu</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
@@ -1650,10 +1650,10 @@
 			<tech x="5.1" y="5.0">HCMercsHolyRoman</tech>
 			<tech x="5.1" y="7.0">HCXPNootkaAlliesRepeat</tech>
 			<tech x="5.8" y="5.0">HCMercsHighland</tech>
-			<tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
-			<tech x="5.1" y="1.0">HCXPDanceHall</tech>
-			<tech x="7.2" y="1.0">HCPrivateers</tech>
+			<tech x="7.3" y="1.0">HCPrivateers</tech>
 			<tech x="4.4" y="3.0">HCMercsStradiots</tech>
+			<tech x="6.5" y="1.0">HCXPDanceHallRu</tech>
+			<tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
 		</obtainabletechs>
 		<activetechs/>
 		<validunits/>

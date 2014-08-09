@@ -1240,7 +1240,7 @@
 			<name>HCMercenaryLoyaltyGerman</name>
 			<maxcount>1</maxcount>
 			<level>25</level>
-			<prereqtech>-1</prereqtech>
+			<prereqtech>HCXPDanceHallGerman</prereqtech>
 			<age>2</age>
 		</card>
 		<card>
@@ -1490,7 +1490,6 @@
 			<tech x="3.6" y="1.0">HCShipWarWagons1</tech>
 			<tech x="3.6" y="2.0">HCShipWarWagons2</tech>
 			<tech x="3.6" y="4.0">HCCavalryDamageGermanTeam</tech>
-			<tech x="3.6" y="5.0">HCShipWingedHussars</tech>
 			<tech x="3.6" y="3.0">HCCavalryHitpointsGerman</tech>
 			<tech x="4.3" y="4.0">HCCavalryCombatGerman</tech>
 			<tech x="4.9" y="1.0">HCShipUhlans1</tech>
@@ -1640,14 +1639,14 @@
 		<displaynamestringid>35745</displaynamestringid>
 		<rolloverstringid>35746</rolloverstringid>
 		<obtainabletechs>
-			<tech x="1.3" y="1.0">HCShipCaravels1German</tech>
-			<tech x="1.0" y="2.0">HCShipCaravels2German</tech>
-			<tech x="1.7" y="2.0">HCShipGalleonsGerman</tech>
-			<tech x="1.7" y="3.0">HCShipFrigatesGerman</tech>
-			<tech x="1.4" y="4.0">HCNavalCombatGerman</tech>
-			<tech x="2.1" y="4.0">HCShipMonitorsGerman</tech>
-			<tech x="2.1" y="7.0">HCXPShipMonitorsTeam</tech>
-			<tech x="2.8" y="1.0">HCAdmiralityGerman</tech>
+			<tech x="0.5" y="1.0">HCShipCaravels1German</tech>
+			<tech x="0.2" y="2.0">HCShipCaravels2German</tech>
+			<tech x="0.9" y="2.0">HCShipGalleonsGerman</tech>
+			<tech x="0.9" y="3.0">HCShipFrigatesGerman</tech>
+			<tech x="0.6" y="4.0">HCNavalCombatGerman</tech>
+			<tech x="1.3" y="4.0">HCShipMonitorsGerman</tech>
+			<tech x="1.3" y="7.0">HCXPShipMonitorsTeam</tech>
+			<tech x="2.1" y="1.0">HCAdmiralityGerman</tech>
 			<tech x="4.7" y="1.0">HCMercsLandsknecht1German</tech>
 			<tech x="4.7" y="3.0">HCMercsLandsknecht2German</tech>
 			<tech x="4.0" y="3.0">HCMercsHessiansGerman</tech>
@@ -1659,10 +1658,10 @@
 			<tech x="6.1" y="3.0">HCMercsHackapellsGerman</tech>
 			<tech x="6.1" y="4.0">HCXPMercsElmetiGerman</tech>
 			<tech x="5.4" y="5.0">HCMercsMediterraneanGerman</tech>
-			<tech x="6.1" y="5.0">HCMercenaryLoyaltyGerman</tech>
+			<tech x="3.1" y="6.0">HCMercenaryLoyaltyGerman</tech>
 			<tech x="5.4" y="4.0">HCMercenaryCombatGerman</tech>
 			<tech x="6.1" y="7.0">HCXPCreeAlliesTeam</tech>
-			<tech x="6.1" y="1.0">HCXPDanceHallGerman</tech>
+			<tech x="3.1" y="1.0">HCXPDanceHallGerman</tech>
 			<tech x="7.0" y="1.0">HCPrivateers</tech>
 		</obtainabletechs>
 		<activetechs>
