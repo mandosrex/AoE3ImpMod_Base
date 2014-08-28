@@ -548,7 +548,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
 			<Effect type ='TechStatus' status ='active'>Ranching</Effect>
@@ -4645,6 +4645,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
 			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Dock</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -4805,7 +4807,6 @@
 				<Target type ='ProtoUnit'>FirePit</Target></Effect>
 			<Effect type ='Data' amount ='1.00' tactic ='HolyDance' subtype ='TacticEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FirePit</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>BigDockRawhideCovers</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpWarrior</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -5054,6 +5055,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
 			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Dock</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
@@ -5217,7 +5220,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>EliteDogSoldierShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChampionDogSoldierShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>LegendaryDogSoldierShadow</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>BigDockFlamingArrows</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostIndustrialXPSioux' type ='Normal'>
@@ -5333,11 +5335,11 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
 			<Effect type ='SetName' proto ='Stagecoach' culture ='none' newName ='780736'></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='CopyUnitPortraitAndIcon' unittype ='Stagecoach' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ResourceWagon</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='CopyUnitPortraitAndIcon' unittype ='FishingBoat' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>BoatNative</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -5390,6 +5392,9 @@
 				<Target type ='ProtoUnit'>DockNative</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='CopyUnitPortraitAndIcon' unittype ='Market' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>MarketNative</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>BigDockRawhideCovers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>BigDockFlamingArrows</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>BigDockCipactli</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0XPSPC' type ='Normal'>
@@ -6362,6 +6367,7 @@
 			<Effect type ='TechStatus' status ='active'>SelectiveBreeding</Effect>
 			<Effect type ='TechStatus' status ='active'>PlacerMines</Effect>
 			<Effect type ='TechStatus' status ='active'>BigDockFlamingArrows</Effect>
+			<Effect type ='TechStatus' status ='active'>BigDockRawhideCovers</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpDeforestationNative</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpLargeScaleGathering</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpLargeScaleAgriculture</Effect>
@@ -11294,7 +11300,7 @@
 		<Cost resourcetype ='Gold'>2000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\bashkir_ponies\bashkir_ponies_64x64</Icon>
+		<Icon>ui\techs\garde_imperial\garde_imperial_2_icon_64x64</Icon>
 		<RolloverTextID>780831</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -13930,6 +13936,10 @@
 				<Target type ='ProtoUnit'>ypSettlerJapanese</Target></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Dock</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>YPDockAsian</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCAdmirality' type ='Normal'>
@@ -14047,6 +14057,10 @@
 				<Target type ='ProtoUnit'>ypFishingBoatAsian</Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypSettlerJapanese</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Dock</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>YPDockAsian</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ColonializeRussian' type ='Normal'>
@@ -15685,6 +15699,10 @@
 				<Target type ='ProtoUnit'>ypSettlerJapanese</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Dock</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>YPDockAsian</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperialManOWar' type ='Normal'>
@@ -17899,6 +17917,10 @@
 				<Target type ='ProtoUnit'>ypSettlerJapanese</Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Dock</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>YPDockAsian</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeBritish' type ='Normal'>
@@ -35470,7 +35492,7 @@
 				<Target type ='ProtoUnit'>xpWarRifle</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='BigDockRawhideCovers' type ='Normal'>
+	<Tech name ='BigDockRawhideCovers2' type ='Normal'>
 		<DBID>3248</DBID>
 		<DisplayNameID>45709</DisplayNameID>
 		<Cost resourcetype ='Food'>400.0000</Cost>
@@ -35489,7 +35511,7 @@
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect></Effects>
 	</Tech>
-	<Tech name ='BigDockFlamingArrows' type ='Normal'>
+	<Tech name ='BigDockFlamingArrows2' type ='Normal'>
 		<DBID>3249</DBID>
 		<DisplayNameID>45711</DisplayNameID>
 		<Cost resourcetype ='Food'>400.0000</Cost>
@@ -35801,6 +35823,12 @@
 				<Target type ='ProtoUnit'>SettlerWagon</Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='XPRevolutionWashington' type ='Normal'>
@@ -35862,6 +35890,12 @@
 				<Target type ='ProtoUnit'>SettlerWagon</Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='XPRevolutionHidalgo' type ='Normal'>
@@ -35925,6 +35959,12 @@
 				<Target type ='ProtoUnit'>SettlerWagon</Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='XPRevolutionBonifacio' type ='Normal'>
@@ -35989,6 +36029,12 @@
 				<Target type ='ProtoUnit'>SettlerWagon</Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='XPRevolutionBolivar' type ='Normal'>
@@ -36050,6 +36096,12 @@
 				<Target type ='ProtoUnit'>SettlerWagon</Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='XPRevolutionSanMartin' type ='Normal'>
@@ -36113,6 +36165,12 @@
 				<Target type ='ProtoUnit'>SettlerWagon</Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='XPRevolutionSantander' type ='Normal'>
@@ -36177,6 +36235,12 @@
 			<Effect type ='TechStatus' status ='unobtainable'>ChurchGalataTowerDistrict</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ChurchTopkapi</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ChurchTanzimat</Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='XPRevolutionOHiggins' type ='Normal'>
@@ -36245,6 +36309,12 @@
 			<Effect type ='TechStatus' status ='unobtainable'>ChurchGalataTowerDistrict</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ChurchTopkapi</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ChurchTanzimat</Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='XPRevolutionXPirate' type ='Normal'>
@@ -36313,6 +36383,12 @@
 			<Effect type ='TechStatus' status ='unobtainable'>ChurchGalataTowerDistrict</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ChurchTopkapi</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ChurchTanzimat</Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='SpiesNative' type ='Normal'>
@@ -36939,21 +37015,22 @@
 	</Tech>
 	<Tech name ='BigDockCipactli' type ='Normal'>
 		<DBID>3319</DBID>
-		<DisplayNameID>46182</DisplayNameID>
-		<Cost resourcetype ='Food'>2000.0000</Cost>
-		<ResearchPoints>10.0000</ResearchPoints>
+		<DisplayNameID>780848</DisplayNameID>
+		<Cost resourcetype ='Wood'>1400.0000</Cost>
+		<Cost resourcetype ='Gold'>400.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\native\Dance2</Icon>
-		<IconTextureCoords>.798828125 .001953125 .99609375 .302734375</IconTextureCoords>
-		<RolloverTextID>46181</RolloverTextID>
+		<Icon>ui\techs\native\Dance3</Icon>
+		<IconTextureCoords>.001953125 .001953125 .19921875 .302734375</IconTextureCoords>
+		<RolloverTextID>780849</RolloverTextID>
 		<Flag>CheckWaterHCGatherPoint</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>NativeDance</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpTlalocCanoe' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Monitor' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='BigHouseCoatlicue' type ='Normal'>
@@ -37484,7 +37561,6 @@
 		<DBID>3361</DBID>
 		<DisplayNameID>46788</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
@@ -37526,7 +37602,6 @@
 	<Tech name ='HCXPDanceHall' type ='Normal'>
 		<DBID>3361</DBID>
 		<DisplayNameID>46788</DisplayNameID>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -37601,7 +37676,6 @@
 	<Tech name ='HCXPDanceHallGerman' type ='Normal'>
 		<DBID>3366</DBID>
 		<DisplayNameID>46788</DisplayNameID>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -37631,8 +37705,6 @@
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
 			<Effect type ='TextOutput'>46860</Effect>
-			<Effect type ='TechStatus' status ='active'>BoneguardRifleman</Effect>
-			<Effect type ='TechStatus' status ='active'>BoneguardSwordsman</Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
@@ -42661,6 +42733,8 @@
 				<Target type ='ProtoUnit'>ypFlyingCrow</Target></Effect>
 			<Effect type ='Data' action ='CannonAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypFlyingCrow</Target></Effect>
+			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypFlyingCrow</Target></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypMonkDisciple</Target></Effect>
 			<Effect type ='Data' action ='RoundhouseAttack' amount ='225.00' subtype ='Damage' relativity ='Assign'>
@@ -42728,6 +42802,8 @@
 				<Target type ='ProtoUnit'>ypFlyingCrow</Target></Effect>
 			<Effect type ='Data' action ='CannonAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypFlyingCrow</Target></Effect>
+			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypFlyingCrow</Target></Effect>
 			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypMonkDisciple</Target></Effect>
 			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -42794,6 +42870,8 @@
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypFlyingCrow</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypFlyingCrow</Target></Effect>
+			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypFlyingCrow</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypMonkDisciple</Target></Effect>
@@ -49928,7 +50006,7 @@
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianCharminar3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianCharminar4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianCharminar5</Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypSowar' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianAgra2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianKarniMata2</Effect>
@@ -49951,7 +50029,7 @@
 			<Effect type ='SetAge'>Age2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianCharminar4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianCharminar5</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypMahout' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianAgra3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianKarniMata3</Effect>
@@ -50020,6 +50098,9 @@
 				<Target type ='ProtoUnit'>ypMonkDisciple</Target></Effect>
 			<Effect type ='Data' action ='RoundhouseAttack' amount ='0.00' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractChineseMonk</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='ProtoUnit'>AbstractChineseMonk</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='ypToriiGatesRicePaddyBonus' type ='Normal'>
@@ -58017,7 +58098,6 @@
 	<Tech name ='HCXPDanceHallFr' type ='Normal'>
 		<DBID>3361</DBID>
 		<DisplayNameID>46788</DisplayNameID>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -58059,7 +58139,6 @@
 	<Tech name ='HCXPDanceHallDu' type ='Normal'>
 		<DBID>3361</DBID>
 		<DisplayNameID>46788</DisplayNameID>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -58101,7 +58180,6 @@
 	<Tech name ='HCXPDanceHallBr' type ='Normal'>
 		<DBID>3361</DBID>
 		<DisplayNameID>46788</DisplayNameID>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -58143,7 +58221,6 @@
 	<Tech name ='HCXPDanceHallRu' type ='Normal'>
 		<DBID>3361</DBID>
 		<DisplayNameID>46788</DisplayNameID>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -58185,7 +58262,6 @@
 	<Tech name ='HCXPDanceHallPo' type ='Normal'>
 		<DBID>3361</DBID>
 		<DisplayNameID>46788</DisplayNameID>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -58227,7 +58303,6 @@
 	<Tech name ='HCXPDanceHallOt' type ='Normal'>
 		<DBID>3361</DBID>
 		<DisplayNameID>46788</DisplayNameID>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -58269,7 +58344,6 @@
 	<Tech name ='HCXPDanceHallSp' type ='Normal'>
 		<DBID>3361</DBID>
 		<DisplayNameID>46788</DisplayNameID>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -58307,5 +58381,39 @@
 				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>SaloonHackapell</Effect>
 		</Effects>
+	</Tech>
+	<Tech name ='BigDockRawhideCovers' type ='Normal'>
+		<DBID>3248</DBID>
+		<DisplayNameID>45709</DisplayNameID>
+		<Cost resourcetype ='Food'>400.0000</Cost>
+		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\canoehp</Icon>
+		<RolloverTextID>45708</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect></Effects>
+	</Tech>
+	<Tech name ='BigDockFlamingArrows' type ='Normal'>
+		<DBID>3249</DBID>
+		<DisplayNameID>45711</DisplayNameID>
+		<Cost resourcetype ='Food'>400.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\canoedmg</Icon>
+		<RolloverTextID>45710</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect></Effects>
 	</Tech>
 </TechTree>

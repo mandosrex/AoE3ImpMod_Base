@@ -1368,6 +1368,7 @@
 			<file>objects\flt_boat\idle</file>
 			<tag type="Attack">0.00</tag>
 			<tag type="CameraShake" force="0.10" duration="0.3">0.00</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PetardExplosion">0.01</tag>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

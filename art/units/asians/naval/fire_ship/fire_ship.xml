@@ -719,6 +719,7 @@
 		<assetreference type="GrannyAnim">
 			<file>units\asians\naval\war_junk\war_junk_death</file>
 			<tag type="CameraShake" force="0.10" duration="0.3">0.00</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PetardExplosion">0.01</tag>
 		</assetreference>
 		<component>DeathModel</component>
 		<attach a="barrel_fire1" frombone="ATTACHPOINT" tobone="bone_FX01" syncanims="0"/>
@@ -777,6 +778,7 @@
 			<file>units\spc\fire_ship\fire_ship_idle</file>
 			<tag type="Attack">0.00</tag>
 			<tag type="CameraShake" force="0.10" duration="0.3">0.00</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PetardExplosion">0.01</tag>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

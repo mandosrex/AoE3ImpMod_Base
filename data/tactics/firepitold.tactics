@@ -2,6 +2,13 @@
 
 <tactics>
 	<action>
+		<name stringid="69155">Heal</name>
+		<type>Heal</type>
+		<maxrange>16</maxrange>
+		<rate type="LogicalTypeHealed">5.0</rate>
+		<anim>Heal</anim>
+	</action>
+	<action>
 		<name stringid="69158">SpawnAge</name>
 		<type>Spawn</type>
 		<rate type="AgeUp">1.0</rate>
@@ -260,6 +267,7 @@
 		FertilityDance
 		<action>VillagerTrainFaster</action>
 		<action>SpawnAge</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Economic</firetype>
@@ -354,6 +362,7 @@
 		GiftDance
 		<action>XPTrickleIncrease</action>
 		<action>SpawnAge</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Economic</firetype>
@@ -449,6 +458,7 @@
 		<action>BuildingHitpointIncrease</action>
 		<action>BuildingDamageIncrease</action>
 		<action>SpawnAge</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Military</firetype>
@@ -544,6 +554,7 @@
 		<action>ShipHitpointIncrease</action>
 		<action>ShipDamageIncrease</action>
 		<action>SpawnAge</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Military</firetype>
@@ -637,6 +648,7 @@
 	<tactic>
 		AlarmDance
 		<action>SpawnWarrior</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>1</agerequirement>
 		<firetype>Military</firetype>
@@ -730,6 +742,7 @@
 	<tactic>
 		FounderDance
 		<action>SpawnTravois</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Economic</firetype>
@@ -823,6 +836,7 @@
 	<tactic>
 		MorningWarsDance
 		<action>SpawnIroquoisDude</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>3</agerequirement>
 		<firetype>Military</firetype>
@@ -906,6 +920,7 @@
 	<tactic>
 		EarthMotherDance
 		<action>IncreasePopCap</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>1</agerequirement>
 		<firetype>Economic</firetype>
@@ -999,6 +1014,7 @@
 	<tactic>
 		HealingDance
 		<action>RegenAllUnits</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>2</agerequirement>
 		<firetype>Economic</firetype>
@@ -1092,6 +1108,7 @@
 	<tactic>
 		FireDance
 		<action>SiegeDamageIncrease</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>2</agerequirement>
 		<firetype>Military</firetype>
@@ -1185,6 +1202,7 @@
 	<tactic>
 		WarDanceSong
 		<action>SpawnSiouxDude</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>3</agerequirement>
 		<firetype>Military</firetype>
@@ -1268,6 +1286,7 @@
 	<tactic>
 		GarlandWarDance
 		<action>SpawnAztecDude</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>3</agerequirement>
 		<firetype>Military</firetype>
@@ -1352,6 +1371,7 @@
 		WarChiefDance
 		<action>SpawnWarChief</action>
 		<action>HeroHitpointIncrease</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Military</firetype>
@@ -1436,6 +1456,7 @@
 		WarChiefDanceSioux
 		<action>SpawnLakotaWarChief</action>
 		<action>HeroHitpointIncrease</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Military</firetype>
@@ -1520,6 +1541,7 @@
 		WarChiefDanceAztec
 		<action>SpawnAztecWarChief</action>
 		<action>HeroHitpointIncrease</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>0</agerequirement>
 		<firetype>Military</firetype>
@@ -1603,6 +1625,7 @@
 	<tactic>
 		HolyDance
 		<action>SpawnMedicineMan</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>1</agerequirement>
 		<firetype>Military</firetype>
@@ -1691,6 +1714,7 @@
 	<tactic>
 		HolyDanceAztec
 		<action>SpawnMedicineManAztec</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>1</agerequirement>
 		<firetype>Military</firetype>
@@ -1779,6 +1803,7 @@
 	<tactic>
 		WarDance
 		<action>UnitDamageIncrease</action>
+		<action>Heal</action>
 		<active>0</active>
 		<agerequirement>1</agerequirement>
 		<firetype>Military</firetype>

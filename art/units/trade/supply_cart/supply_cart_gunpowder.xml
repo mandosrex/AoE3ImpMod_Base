@@ -98,6 +98,7 @@
 		<assetreference type="GrannyAnim">
 			<file>units\trade\supply_cart\supply_cart_idle</file>
 			<tag type="Attack">0.00</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PetardExplosion">0.01</tag>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

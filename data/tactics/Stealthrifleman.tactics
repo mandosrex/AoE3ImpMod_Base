@@ -263,7 +263,7 @@
 		<action>Stealth</action>
 		<checkifcanstealth range="20.0">1</checkifcanstealth>
 		<speedmodifier>0.5</speedmodifier>
-		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<transition>
 			<tactic>Melee</tactic>
 			<length>0.8</length>

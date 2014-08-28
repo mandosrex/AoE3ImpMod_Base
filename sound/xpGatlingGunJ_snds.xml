@@ -30,7 +30,7 @@
 					<soundset name="OttomanGrenadierSelect"/>
 				</choice>
 				<choice name="XPIroquois">
-					<soundset name="SPCMilitiaSelect"/>
+					<soundset name="SPCMinerSelect"/>
 				</choice>
 				<choice name="USA">
 					<soundset name="SPCMinerSelect"/>
@@ -45,7 +45,7 @@
 					<soundset name="CusterSelect"/>
 				</choice>
 				<choice name="XPSioux">
-					<soundset name="SiouxRifleRiderSelect"/>
+					<soundset name="SPCMinerSelect"/>
 				</choice>
 				<choice name="SPCAct1"/>
 				<choice name="SPCAct2"/>
@@ -309,10 +309,10 @@
 				<choice name="XPSioux">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="SiouxRifleRiderAcknowledge"/>
+							<soundset name="SPCMinerAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="SiouxRifleRiderAttack"/>
+							<soundset name="SPCMinerAttack"/>
 						</choice>
 						<choice name="build"/>
 						<choice name="Huntable"/>
@@ -413,19 +413,6 @@
 						<choice name="enemy">
 							<soundset name="SPCMinerAttack"/>
 						</choice>
-						<choice name="build"/>
-						<choice name="Huntable"/>
-						<choice name="Tree"/>
-						<choice name="AbstractMine"/>
-						<choice name="AbstractFarm"/>
-						<choice name="AbstractResourceCrate"/>
-						<choice name="AbstractFruit"/>
-					</targetlogic>
-				</choice>
-				<choice name="XPSioux">
-					<targetlogic>
-						<choice name="default"/>
-						<choice name="enemy"/>
 						<choice name="build"/>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
