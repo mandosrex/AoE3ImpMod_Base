@@ -4645,6 +4645,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='TechStatus' status ='obtainable'>BigDockCipactli</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
 			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
@@ -4878,6 +4879,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='TechStatus' status ='obtainable'>BigDockCipactli2</Effect>
 			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Dock</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateSpanishBrigadeN</Effect>
@@ -5055,6 +5057,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='TechStatus' status ='obtainable'>BigDockCipactli</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
 			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
@@ -5394,7 +5397,7 @@
 				<Target type ='ProtoUnit'>MarketNative</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>BigDockRawhideCovers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>BigDockFlamingArrows</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>BigDockCipactli</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>MercArmy</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0XPSPC' type ='Normal'>
@@ -6613,6 +6616,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>FactoryMassProduction</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Carronade</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ArmorPlating</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>MercArmy</Effect>
 			<Effect type ='TechStatus' status ='active'>MansabdarUpgrade</Effect>
 			<Effect type ='Data2' action ='Gather' amount ='0.90' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
@@ -11345,7 +11349,7 @@
 	<Tech name ='ChurchWesternization' type ='Normal'>
 		<DBID>224</DBID>
 		<DisplayNameID>23678</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\westernization\westernization_64x64</Icon>
@@ -57788,59 +57792,59 @@
 	<Tech name ='MercArmy' type ='Normal'>
 		<DBID>3554</DBID>
 		<DisplayNameID>780785</DisplayNameID>
-		<Cost resourcetype ='Fame'>1000.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\mercarmy2</Icon>
 		<RolloverTextID>780786</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
-		<Flag>YPNeverObtainableAfterUse</Flag>
+		<Flag>YPCapturableTradeRouteUpgradeTech</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect tech ='SaloonDove' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercDove' relativity ='Absolute'>
+			<Effect tech ='SaloonDove' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercDove' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonBlackRider' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercBlackRider' relativity ='Absolute'>
+			<Effect tech ='SaloonBlackRider' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercBlackRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonCorsair' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercHoopThrowers' relativity ='Absolute'>
+			<Effect tech ='SaloonCorsair' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercHoopThrowers' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonElmeti' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercElmeti' relativity ='Absolute'>
+			<Effect tech ='SaloonElmeti' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercElmeti' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonMameluke' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercMameluke' relativity ='Absolute'>
+			<Effect tech ='SaloonMameluke' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercMameluke' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonManchu' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercManchu' relativity ='Absolute'>
+			<Effect tech ='SaloonManchu' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercManchu' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonNinja' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercNinja' relativity ='Absolute'>
+			<Effect tech ='SaloonNinja' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercNinja' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonHackapell' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercHackapell' relativity ='Absolute'>
+			<Effect tech ='SaloonHackapell' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercHackapell' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonHighlander' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercHighlander' relativity ='Absolute'>
+			<Effect tech ='SaloonHighlander' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercHighlander' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonLandsknecht' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercLandsknecht' relativity ='Absolute'>
+			<Effect tech ='SaloonLandsknecht' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercLandsknecht' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonStradiot' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercStradiot' relativity ='Absolute'>
+			<Effect tech ='SaloonStradiot' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercStradiot' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonJaeger' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercJaeger' relativity ='Absolute'>
+			<Effect tech ='SaloonJaeger' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercJaeger' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonSwissPikeman' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercSwissPikeman' relativity ='Absolute'>
+			<Effect tech ='SaloonSwissPikeman' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercSwissPikeman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonFusilier' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercFusilier' relativity ='Absolute'>
+			<Effect tech ='SaloonFusilier' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='MercFusilier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='SaloonMiner' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='GoldMiner' relativity ='Absolute'>
+			<Effect tech ='SaloonMiner' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='GoldMiner' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypSaloonArsonist' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypMercArsonist' relativity ='Absolute'>
+			<Effect tech ='ypSaloonArsonist' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypMercArsonist' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypSaloonBlindMonk' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypWokouBlindMonk' relativity ='Absolute'>
+			<Effect tech ='ypSaloonBlindMonk' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypWokouBlindMonk' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypSaloonIronTroop' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypMercIronTroop' relativity ='Absolute'>
+			<Effect tech ='ypSaloonIronTroop' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypMercIronTroop' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypSaloonJat' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypMercJatLancer' relativity ='Absolute'>
+			<Effect tech ='ypSaloonJat' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypMercJatLancer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypSaloonYojimbo' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypMercYojimboO' relativity ='Absolute'>
+			<Effect tech ='ypSaloonYojimbo' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypMercYojimboO' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypSaloonShinobi' type ='Data' amount ='6.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypMercYojimbo' relativity ='Absolute'>
+			<Effect tech ='ypSaloonShinobi' type ='Data' amount ='5.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypMercYojimbo' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -58386,7 +58390,7 @@
 		<DBID>3248</DBID>
 		<DisplayNameID>45709</DisplayNameID>
 		<Cost resourcetype ='Food'>400.0000</Cost>
-		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\canoehp</Icon>
@@ -58396,7 +58400,7 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect></Effects>
 	</Tech>
 	<Tech name ='BigDockFlamingArrows' type ='Normal'>
@@ -58413,7 +58417,26 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect></Effects>
+	</Tech>
+	<Tech name ='BigDockCipactli2' type ='Normal'>
+		<DBID>3319</DBID>
+		<DisplayNameID>46182</DisplayNameID>
+		<Cost resourcetype ='Food'>2000.0000</Cost>
+		<ResearchPoints>10.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Dance2</Icon>
+		<IconTextureCoords>.798828125 .001953125 .99609375 .302734375</IconTextureCoords>
+		<RolloverTextID>46181</RolloverTextID>
+		<Flag>CheckWaterHCGatherPoint</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>NativeDance</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpTlalocCanoe' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 </TechTree>
