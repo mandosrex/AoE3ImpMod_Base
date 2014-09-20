@@ -7,7 +7,7 @@
 	<definebone>bone_sword</definebone>
 	<attachment>
 		gun
-		<include>units\infantry_ranged\musketeer\musketeer_guns.xml</include>
+		<include>units\infantry_ranged\janissary\janissary_gun.xml</include>
 	</attachment>
 	<attachment>
 		torch

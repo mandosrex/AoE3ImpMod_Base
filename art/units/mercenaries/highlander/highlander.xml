@@ -10,16 +10,7 @@
 	</attachment>
 	<attachment>
 		gun
-		<component>
-			gun
-			<assetreference type="GrannyModel">
-				<file>units\infantry_ranged\musketeer\musketeer_3age_gun</file>
-			</assetreference>
-		</component>
-		<anim>
-			Idle
-			<component>gun</component>
-		</anim>
+		<include>units\infantry_ranged\janissary\janissary_gun.xml</include>
 	</attachment>
 	<attachment>
 		hat

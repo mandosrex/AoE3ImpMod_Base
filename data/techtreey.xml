@@ -33,8 +33,6 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>MountedRifleman</Target></Effect>
@@ -5397,7 +5395,7 @@
 				<Target type ='ProtoUnit'>MarketNative</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>BigDockRawhideCovers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>BigDockFlamingArrows</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>MercArmy</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>MercArmyNat</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0XPSPC' type ='Normal'>
@@ -7088,12 +7086,6 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>LevyAsi</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateYamabushi</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -35747,12 +35739,12 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\units\az_war_canoe_icon</Icon>
+		<Icon>ui\units\native_fishing_boat_icon</Icon>
 		<RolloverTextID>45951</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Canoe</Target></Effect>
+			<Effect type ='Data' amount ='0.55' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
 			<Effect type ='TextOutput'>45953</Effect>
 		</Effects>
 	</Tech>
@@ -39005,7 +38997,7 @@
 			<Effect type ='Data' amount ='1.35' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
 			<Effect type ='Data' amount ='1.35' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypRepentantBarbaryCorsair</Target></Effect>
+				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
 			<Effect type ='Data' amount ='1.35' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWokouBlindMonk</Target></Effect>
 			<Effect type ='Data' amount ='1.35' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
@@ -53889,6 +53881,10 @@
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypBigSequesterJapanese' type ='Normal'>
@@ -56656,7 +56652,7 @@
 			<Effect type ='Data' amount ='1.35' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
 			<Effect type ='Data' amount ='1.35' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypRepentantBarbaryCorsair</Target></Effect>
+				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
 			<Effect type ='Data' amount ='1.35' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypRepentantWaywardRonin</Target></Effect>
 			<Effect type ='Data' amount ='1.35' subtype ='Damage' allactions ='1' relativity ='Percent'>
@@ -58438,5 +58434,28 @@
 		<Effects>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpTlalocCanoe' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='MercArmyNat' type ='Normal'>
+		<DBID>3554</DBID>
+		<DisplayNameID>780785</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\mercarmy2</Icon>
+		<RolloverTextID>780850</RolloverTextID>
+		<Flag>CheckLandHCGatherPoint</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPCapturableTradeRouteUpgradeTech</Flag>
+		<Flag>YPCheckPopCap</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
+		<Effects>
+			<Effect tech ='Age0XPSioux' type ='Data' amount ='10.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='xpCoupRider' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect tech ='Age0XPAztec' type ='Data' amount ='10.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='NatHuaminca' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect tech ='Age0XPIroquois' type ='Data' amount ='10.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='NatAxeRiderDogSoldier' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 </TechTree>
