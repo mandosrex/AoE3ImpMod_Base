@@ -158,7 +158,6 @@
 			</assetreference>
 			<component>ModelComp</component>
 			<attach a="HealRays" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-			<attach a="HealRays" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 		</anim>
 		<anim>
 			Walk
@@ -396,7 +395,6 @@
 				<file>animation_library\natives\priest\heal2</file>
 			</assetreference>
 			<component>ModelComp</component>
-			<attach a="HealRays" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 			<attach a="HealRays" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 		</anim>
 		<anim>

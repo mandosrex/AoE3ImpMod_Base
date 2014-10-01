@@ -922,7 +922,7 @@ void main(void)
   
     // Place random flags
     int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
+    for ( i =1; <12 ) {
     int flagID = rmCreateObjectDef("random flag"+i);
     rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
     rmSetObjectDefMinDistance(flagID, 0.0);

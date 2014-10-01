@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="Cow">
+		<soundtype name="Select">
+			<soundset name="CowSelect"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="CowDie"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="CowSelect"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<soundset name="CowAcknowledge"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

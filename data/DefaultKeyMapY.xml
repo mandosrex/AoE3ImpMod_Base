@@ -595,7 +595,7 @@
 			<displayname>$$43352$$Find Barracks or Blockhouse</displayname>
 			<event>control-b</event>
 			<context>game</context>
-			<command>uiFindType("Barracks") uiFindType("Blockhouse") uiFindType("ypBarracksIndian")uiFindType("ypBarracksJapanese") </command>
+			<command>uiFindType("Barracks") uiFindType("Blockhouse") uiFindType("ypBarracksIndian") uiFindType("ypBarracksJapanese")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Find Church or Mosque</name>
@@ -630,7 +630,7 @@
 			<displayname>$$48976$$Find House</displayname>
 			<event>control-e</event>
 			<context>game</context>
-			<command>uiFindType("House") uiFindType("HouseEast") uiFindType("HouseMed") uiFindType("HouseAztec")  uiFindType("Manor") uiFindType("Longhouse")  uiFindType("ypHouseIndian") uiFindType("ypShrineJapanese")</command>
+			<command>uiFindType("House") uiFindType("HouseEast") uiFindType("HouseMed") uiFindType("HouseAztec") uiFindType("Manor") uiFindType("Longhouse") uiFindType("ypHouseIndian") uiFindType("ypShrineJapanese")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Find Fort</name>
@@ -721,7 +721,7 @@
 			<displayname>$$48977$$Find Stable</displayname>
 			<event>control-s</event>
 			<context>game</context>
-			<command>uiFindType("Stable") uiFindType("Corral") uiFindType("ypStableJapanese") </command>
+			<command>uiFindType("Stable") uiFindType("Corral") uiFindType("ypStableJapanese")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Find Teepee</name>
@@ -733,7 +733,7 @@
 		<keymapdata>
 			<name>Find Castle</name>
 			<displayname>$$68808$$Castle</displayname>
-			<event>control-o</event>
+			<event>control-z</event>
 			<context>game</context>
 			<command>uiFindType("ypCastle") uiFindType("ypCastleI")</command>
 		</keymapdata>
@@ -1027,7 +1027,7 @@
 		<keymapdata>
 			<name>Build Castle</name>
 			<displayname>$$68811$$Castle</displayname>
-			<event>o</event>
+			<event>z</event>
 			<context>BuildAccel</context>
 			<command>tis("ypCastle") tis("ypCastleI")</command>
 		</keymapdata>
@@ -3071,7 +3071,7 @@
 			<name>Siege Elephant</name>
 			<displayname>$$60136$$Siege Elephant</displayname>
 			<event>e</event>
-			<context>CastleAccel</context>
+			<context>CastleIAccel</context>
 			<command>tis("ypSiegeElephant")</command>
 		</keymapdata>
 		<keymapdata>
@@ -3079,14 +3079,14 @@
 			<displayname>$$60136$$Siege Elephant</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-e</event>
-			<context>CastleAccel</context>
+			<context>CastleIAccel</context>
 			<command>tis("ypSiegeElephant",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Flail Elephant</name>
 			<displayname>$$60775$$Flail Elephant</displayname>
 			<event>r</event>
-			<context>CastleAccel</context>
+			<context>CastleIAccel</context>
 			<command>tis("ypMercFlailiphant")</command>
 		</keymapdata>
 		<keymapdata>
@@ -3094,8 +3094,38 @@
 			<displayname>$$60775$$Flail Elephant</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-r</event>
-			<context>CastleAccel</context>
+			<context>CastleIAccel</context>
 			<command>tis("ypMercFlailiphant",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Saker</name>
+			<displayname>Saker</displayname>
+			<event>f</event>
+			<context>CastleIAccel</context>
+			<command>tis("Saker")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Sakers</name>
+			<displayname>Saker</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-f</event>
+			<context>CastleIAccel</context>
+			<command>tis("Saker",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Petard</name>
+			<displayname>$$45003$$Petard</displayname>
+			<event>p</event>
+			<context>CastleAccel</context>
+			<command>tis("xpPetard")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Petards</name>
+			<displayname>$$45003$$Petard</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-p</event>
+			<context>CastleAccel</context>
+			<command>tis("xpPetard",5)</command>
 		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="Consulate Hotkeys" displayname="$$68762$$Consulate">

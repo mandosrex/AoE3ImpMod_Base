@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="ypGoat">
+		<soundtype name="Select">
+			<soundset name="GoatSelect"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="GoatDeath"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<soundset name="GoatMove"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="GoatSelect"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

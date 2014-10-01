@@ -316,7 +316,7 @@
 		</anim>
 	</submodel>
 	<submodel>
-		ee_basilica
+		indian_basilica
 		<attachment>
 			collapse smoke
 			<component>
@@ -377,7 +377,11 @@
 						<file>buildings\spc\ossuary\spc_ossuary_damaged</file>
 					<replacetexture>
 						<from>buildings\spc\ossuary\spc_ossuary</from>
-						<to>buildings\university\university</to>
+						<to>buildings\spc\ossuary\spc_ossuary2</to>
+					</replacetexture>
+					<replacetexture>
+						<from>buildings\spc\ossuary\spc_ossuary_bumpmap</from>
+						<to>buildings\spc\ossuary\spc_ossuary_bumpmap2</to>
 					</replacetexture>
 					</assetreference>
 				</p1>
@@ -386,7 +390,11 @@
 						<file>buildings\spc\ossuary\spc_ossuary</file>
 					<replacetexture>
 						<from>buildings\spc\ossuary\spc_ossuary</from>
-						<to>buildings\university\university</to>
+						<to>buildings\spc\ossuary\spc_ossuary2</to>
+					</replacetexture>
+					<replacetexture>
+						<from>buildings\spc\ossuary\spc_ossuary_bumpmap</from>
+						<to>buildings\spc\ossuary\spc_ossuary_bumpmap2</to>
 					</replacetexture>
 					</assetreference>
 				</p99>
@@ -406,7 +414,11 @@
 						<file>buildings\spc\ossuary\spc_ossuary_deathModel</file>
 					<replacetexture>
 						<from>buildings\spc\ossuary\spc_ossuary</from>
-						<to>buildings\university\university</to>
+						<to>buildings\spc\ossuary\spc_ossuary2</to>
+					</replacetexture>
+					<replacetexture>
+						<from>buildings\spc\ossuary\spc_ossuary_bumpmap</from>
+						<to>buildings\spc\ossuary\spc_ossuary_bumpmap2</to>
 					</replacetexture>
 					</assetreference>
 			<decal>
@@ -604,23 +616,7 @@
 			</p100>
 		</logic>
 			</westerneurope>
-			<easterneurope>
-		<logic type="BuildingCompletion">
-			<p0>
-				<submodelref ref="sub_construction_stage_01"/>
-			</p0>
-			<p33>
-				<submodelref ref="sub_construction_stage_02"/>
-			</p33>
-			<p66>
-				<submodelref ref="ee_basilica_con2"/>
-			</p66>
-			<p100>
-				<submodelref ref="ee_basilica"/>
-			</p100>
-		</logic>
-			</easterneurope>
-			<mediterranean>
+			<indian>
 		<logic type="BuildingCompletion">
 			<p0>
 				<submodelref ref="sub_construction_stage_01"/>
@@ -632,10 +628,10 @@
 				<submodelref ref="med_basilica_con2"/>
 			</p66>
 			<p100>
-				<submodelref ref="med_basilica"/>
+				<submodelref ref="indian_basilica"/>
 			</p100>
 		</logic>
-			</mediterranean>
+			</indian>
 		</logic>
 	</component>
 </animfile>

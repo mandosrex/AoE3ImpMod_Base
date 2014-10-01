@@ -98,7 +98,7 @@
       <Setting Name="OptionCameraInertiaRampTime">200.000000</Setting>
       <Setting Name="OptionESOPrivacy">false</Setting>
       <Setting Name="OptionSoundChatVolume">1.0</Setting>
-      <Setting Name="OptionMinimizedUI">false</Setting>
+      <Setting Name="OptionMinimizedUI">true</Setting>
       <Setting Name="OptionShowChatNotifications">true</Setting>
     </Settings>
   </GameSettings>

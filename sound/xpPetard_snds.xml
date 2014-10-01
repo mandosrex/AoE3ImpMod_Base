@@ -66,22 +66,22 @@
 				<choice name="Navajo"/>
 				<choice name="Apache"/>
 				<choice name="Japanese">
-					<soundset name="BritishLightCavalrySelect"/>
+					<soundset name="JapaneseSoheiSelect"/>
 				</choice>
 				<choice name="Chinese">
 					<soundset name="ChineseHandMortarSelect"/>
 				</choice>
 				<choice name="Indians">
-					<soundset name="BritishLightCavalrySelect"/>
+					<soundset name="IndianMahoutSelect"/>
 				</choice>
 				<choice name="SPCJapanese">
-					<soundset name="BritishLightCavalrySelect"/>
+					<soundset name="JapaneseSoheiSelect"/>
 				</choice>
 				<choice name="SPCChinese">
-					<soundset name="BritishLightCavalrySelect"/>
+					<soundset name="ChineseHandMortarSelect"/>
 				</choice>
 				<choice name="SPCIndians">
-					<soundset name="BritishLightCavalrySelect"/>
+					<soundset name="IndianMahoutSelect"/>
 				</choice>
 			</civlogic>
 		</soundtype>
@@ -633,10 +633,10 @@
 				<choice name="Japanese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="BritishLightCavalryAcknowledge"/>
+							<soundset name="JapaneseSoheiAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="BritishLightCavalryAttack"/>
+							<soundset name="JapaneseSoheiAttack"/>
 						</choice>
 						<choice name="build"/>
 						<choice name="Huntable"/>
@@ -667,10 +667,10 @@
 				<choice name="Indians">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="BritishLightCavalryAcknowledge"/>
+							<soundset name="IndianMahoutAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="BritishLightCavalryAttack"/>
+							<soundset name="IndianMahoutAttack"/>
 						</choice>
 						<choice name="build"/>
 						<choice name="Huntable"/>
@@ -684,10 +684,10 @@
 				<choice name="SPCJapanese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="BritishLightCavalryAcknowledge"/>
+							<soundset name="JapaneseSoheiAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="BritishLightCavalryAttack"/>
+							<soundset name="JapaneseSoheiAttack"/>
 						</choice>
 						<choice name="build"/>
 						<choice name="Huntable"/>
@@ -701,10 +701,10 @@
 				<choice name="SPCChinese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="BritishLightCavalryAcknowledge"/>
+							<soundset name="ChineseHandMortarAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="BritishLightCavalryAttack"/>
+							<soundset name="ChineseHandMortarAttack"/>
 						</choice>
 						<choice name="build"/>
 						<choice name="Huntable"/>
@@ -718,10 +718,10 @@
 				<choice name="SPCIndians">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="BritishLightCavalryAcknowledge"/>
+							<soundset name="IndianMahoutAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="BritishLightCavalryAttack"/>
+							<soundset name="IndianMahoutAttack"/>
 						</choice>
 						<choice name="build"/>
 						<choice name="Huntable"/>

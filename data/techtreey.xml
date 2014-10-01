@@ -340,6 +340,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>PetBear</Target></Effect>
 			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
@@ -14057,6 +14059,8 @@
 				<Target type ='ProtoUnit'>Dock</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>YPDockAsian</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>PetBear</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ColonializeRussian' type ='Normal'>
@@ -14235,6 +14239,7 @@
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Settler' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>GuardDragoons</Effect>
+			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -14255,6 +14260,7 @@
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
 			<Effect type ='TechStatus' status ='active'>FreeScouts</Effect>
+			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -14265,6 +14271,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
+			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -14275,6 +14282,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
+			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -14357,6 +14365,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
+			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -14380,6 +14389,7 @@
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ResourceWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -14396,6 +14406,7 @@
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -14406,6 +14417,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
+			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -16720,7 +16732,9 @@
 		<Icon>ui\post_game\time_line_age_4</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>Industrialize</Effect></Effects>
+			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
+			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='ImperializeSPCAct2' type ='Normal'>
 		<DBID>1714</DBID>
@@ -17827,6 +17841,7 @@
 				<Target type ='ProtoUnit'>ypSPCNanib</Target></Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypSPCNanib</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='SPCUberBeaumont' type ='Normal'>
@@ -58093,6 +58108,15 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractMansabdar</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='Crackshot' type ='Normal'>
+		<DBID>8888</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WTF</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPDanceHallFr' type ='Normal'>
