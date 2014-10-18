@@ -169,7 +169,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='150.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='120.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
 			<Effect type ='TechStatus' status ='active'>Ranching</Effect>
@@ -1073,6 +1073,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Envoy</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Church</Target></Effect>
+			<Effect type ='Data' amount ='10.00' subtype ='PopulationCapAddition' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Church</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardCrossbowmen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardPikemen</Effect>
@@ -14095,6 +14097,8 @@
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Colonialize</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='Data' amount ='20.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='VeteranStrelets' type ='Normal'>
@@ -14256,6 +14260,8 @@
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeBritish' type ='Normal'>
@@ -15789,6 +15795,8 @@
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionLouverture</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionSantander</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperializeGerman' type ='Normal'>
@@ -17977,6 +17985,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeGerman' type ='Normal'>
