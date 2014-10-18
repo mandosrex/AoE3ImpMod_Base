@@ -623,7 +623,7 @@
 		</ability>
 		<ability>
 			PowerCrackshot
-			<tech>Industrialize</tech>
+			<tech>Crackshot</tech>
 			<rof>90</rof>
 		</ability>
 		<ability>
@@ -1069,4 +1069,34 @@
 			<rof>60</rof>
 		</ability>
 	</BlackBeardShip>
+	<priest>
+		<ability>
+			PowerHeal
+			<rof>200</rof>
+		</ability>
+	</priest>
+	<imam>
+		<ability>
+			PowerHeal
+			<rof>200</rof>
+		</ability>
+	</imam>
+	<xpMedicineMan>
+		<ability>
+			PowerHeal
+			<rof>200</rof>
+		</ability>
+	</xpMedicineMan>
+	<NatMedicineMan>
+		<ability>
+			PowerHeal
+			<rof>200</rof>
+		</ability>
+	</NatMedicineMan>
+	<surgeon>
+		<ability>
+			PowerHeal
+			<rof>200</rof>
+		</ability>
+	</surgeon>
 </abilities>

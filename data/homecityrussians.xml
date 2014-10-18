@@ -54,11 +54,9 @@
 		<card>
 			<name>TreasurySup</name>
 			<maxcount>1</maxcount>
-			<level>0</level>
+			<level>40</level>
 			<prereqtech>-1</prereqtech>
 			<age>3</age>
-			<displayunitcount>2000</displayunitcount>
-			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCXPComancheroAllies</name>

@@ -296,4 +296,12 @@
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
+	<anim>
+		Pickup
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\pickup_treasure</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
+	</anim>
 </animfile>

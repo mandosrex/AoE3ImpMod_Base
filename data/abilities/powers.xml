@@ -460,7 +460,7 @@
 		<abstractattacktargettype>LogicalTypeHealed</abstractattacktargettype>
 		<rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
 		<unitaction>Heal</unitaction>
-		<hitpointstoheal>400</hitpointstoheal>
+		<hitpointstoheal>500</hitpointstoheal>
 		<allowduringnorush>1</allowduringnorush>
 	</power>
 	<power name="PowerBalloon" type="TempUnit">

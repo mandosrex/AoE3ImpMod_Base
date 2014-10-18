@@ -895,12 +895,8 @@
 		<Effects>
 			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='-10.00' subtype ='Cost' resource ='Wood' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
-			<Effect type ='Data' amount ='-10.00' subtype ='Cost' resource ='Food' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
-			<Effect type ='Data' amount ='-10.00' subtype ='Cost' resource ='Gold' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
+			<Effect type ='Data' amount ='0.90' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Mercenary</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
 			<Effect type ='TechStatus' status ='active'>RanchingE</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -1077,7 +1073,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Envoy</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Settler' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
+				<Target type ='ProtoUnit'>Church</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardCrossbowmen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardPikemen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Civilization</Effect>
@@ -6590,10 +6586,6 @@
 				<Target type ='ProtoUnit'>OrganGun</Target></Effect>
 			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Trade' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>OrganGun</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
-			<Effect type ='Data' amount ='180.00' subtype ='Cost' resource ='Trade' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypFakeFortressAge</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypFakeImperialAge</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypCropMarket</Effect>
@@ -7079,6 +7071,8 @@
 				<Target type ='ProtoUnit'>ypChurch</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypArsenalAsian</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FieldHospital</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPAge0JapaneseUnits' type ='Normal'>
@@ -7731,6 +7725,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypMongolScout</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -12868,7 +12864,7 @@
 		<RolloverTextID>24664</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.69' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
@@ -14098,7 +14094,6 @@
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Colonialize</Effect>
-			<Effect type ='TechStatus' status ='active'>FreeScouts</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -14259,7 +14254,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
-			<Effect type ='TechStatus' status ='active'>FreeScouts</Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
@@ -14404,8 +14398,6 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
@@ -15796,7 +15788,6 @@
 			<Effect type ='TechStatus' status ='active'>Imperialize</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionLouverture</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionSantander</Effect>
-			<Effect type ='TechStatus' status ='active'>FreeScouts</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -16599,8 +16590,8 @@
 	<Tech name ='PoliticianPresidente' type ='Normal'>
 		<DBID>1697</DBID>
 		<DisplayNameID>34157</DisplayNameID>
-		<Cost resourcetype ='Food'>5000.0000</Cost>
-		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Food'>4000.0000</Cost>
+		<Cost resourcetype ='Gold'>4000.0000</Cost>
 		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -16620,8 +16611,8 @@
 	<Tech name ='PoliticianPresidenteEU' type ='Normal'>
 		<DBID>6662</DBID>
 		<DisplayNameID>34157</DisplayNameID>
-		<Cost resourcetype ='Food'>5000.0000</Cost>
-		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Food'>4000.0000</Cost>
+		<Cost resourcetype ='Gold'>4000.0000</Cost>
 		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -16638,8 +16629,8 @@
 	<Tech name ='PoliticianGeneral' type ='Normal'>
 		<DBID>1698</DBID>
 		<DisplayNameID>34156</DisplayNameID>
-		<Cost resourcetype ='Food'>5000.0000</Cost>
-		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Food'>4000.0000</Cost>
+		<Cost resourcetype ='Gold'>4000.0000</Cost>
 		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -16656,8 +16647,8 @@
 	<Tech name ='PoliticianGeneralUSA' type ='Normal'>
 		<DBID>6661</DBID>
 		<DisplayNameID>34156</DisplayNameID>
-		<Cost resourcetype ='Food'>5000.0000</Cost>
-		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Food'>4000.0000</Cost>
+		<Cost resourcetype ='Gold'>4000.0000</Cost>
 		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -17056,6 +17047,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='TradeRouteUpgrade2' type ='Normal'>
@@ -17077,7 +17069,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='SATradeRouteUpgrade1' type ='Normal'>
 		<DBID>1790</DBID>
@@ -17097,6 +17091,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='SATradeRouteUpgrade2' type ='Normal'>
@@ -17118,7 +17113,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='HCAdvancedTradingPost' type ='Normal'>
 		<DBID>1796</DBID>
@@ -17979,7 +17976,6 @@
 				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-			<Effect type ='TechStatus' status ='active'>FreeScouts</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -18020,8 +18016,6 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 		</Effects>
 	</Tech>
@@ -18654,33 +18648,51 @@
 		<RolloverTextID>35145</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Building' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Building' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TextOutput'>41929</Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='TownCenter' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='TownCenter' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Outpost' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Outpost' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>OutpostWagon</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='FortFrontier' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='FortFrontier' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>FortWagon</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Blockhouse' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Blockhouse' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>OutpostWagon</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Factory' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Factory' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>FactoryWagon</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Building' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Building' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpBuilder</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>FarmTravois</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='WarHut' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='WarHut' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>WarHutTravois</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Bank' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Bank' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>BankWagon</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='TradingPost' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='TradingPost' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>TradingPostTravois</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='NoblesHut' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='NoblesHut' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>NoblesHutTravois</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.50' subtype ='WorkRate' unittype ='Dock' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>YPDockWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Arsenal' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypArsenalWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='ypArsenalAsian' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypArsenalWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='ypTradeMarketAsian' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMarket</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Market' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMarket</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Mill' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMill</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMill</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonPlantation</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Dock' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonDock</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='YPDockAsian' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonDock</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCFencingSchool' type ='Normal'>
@@ -19311,13 +19323,15 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_advanced_mill\hc_advanced_mill</Icon>
-		<RolloverTextID>35364</RolloverTextID>
+		<RolloverTextID>780855</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
 			<Effect type ='SetName' proto ='Mill' culture ='none' newName ='35366'></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Mill</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='GathererLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
 			<Effect type ='TextOutput'>41789</Effect>
 		</Effects>
@@ -19472,7 +19486,7 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_advanced_market\hc_advanced_market</Icon>
-		<RolloverTextID>35389</RolloverTextID>
+		<RolloverTextID>780852</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='SetName' proto ='Market' culture ='none' newName ='35392'></Effect>
@@ -19481,6 +19495,8 @@
 			<Effect type ='Data' amount ='1.20' subtype ='Market' component ='SellFactor' relativity ='Percent'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>41786</Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Market</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCExplorerPortuguese' type ='Normal'>
@@ -20296,8 +20312,8 @@
 	<Tech name ='PoliticianGeneralBritish' type ='Normal'>
 		<DBID>2201</DBID>
 		<DisplayNameID>35694</DisplayNameID>
-		<Cost resourcetype ='Food'>5000.0000</Cost>
-		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Food'>4000.0000</Cost>
+		<Cost resourcetype ='Gold'>4000.0000</Cost>
 		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -20314,8 +20330,8 @@
 	<Tech name ='PoliticianGeneralOttoman' type ='Normal'>
 		<DBID>2202</DBID>
 		<DisplayNameID>35700</DisplayNameID>
-		<Cost resourcetype ='Food'>5000.0000</Cost>
-		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Food'>4000.0000</Cost>
+		<Cost resourcetype ='Gold'>4000.0000</Cost>
 		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -20522,20 +20538,6 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
-	</Tech>
-	<Tech name ='TreasurySup' type ='Normal'>
-		<DBID>2216</DBID>
-		<DisplayNameID>780754</DisplayNameID>
-		<Cost resourcetype ='Ships'>1.0000</Cost>
-		<Cost resourcetype ='Fame'>500.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>objects\treasure\treasure_icon_64x64</Icon>
-		<RolloverTextID>780755</RolloverTextID>
-		<Flag>HomeCity</Flag>
-		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPCoinCratesAztec5' type ='Normal'>
@@ -24337,7 +24339,7 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_advanced_arsenal\hc_advanced_arsenal</Icon>
-		<RolloverTextID>36465</RolloverTextID>
+		<RolloverTextID>780853</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='obtainable'>ProfessionalGunners</Effect>
@@ -24349,6 +24351,8 @@
 			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Arsenal</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypArsenalWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>37237</Effect>
 		</Effects>
@@ -24428,13 +24432,15 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_advanced_mill\hc_advanced_mill</Icon>
-		<RolloverTextID>36475</RolloverTextID>
+		<RolloverTextID>780855</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
 			<Effect type ='SetName' proto ='Mill' culture ='none' newName ='36477'></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Mill</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='GathererLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
 			<Effect type ='TextOutput'>41790</Effect>
 		</Effects>
@@ -24446,7 +24452,7 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_advanced_market\hc_advanced_market</Icon>
-		<RolloverTextID>36478</RolloverTextID>
+		<RolloverTextID>780852</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='SetName' proto ='Market' culture ='none' newName ='36480'></Effect>
@@ -24455,6 +24461,8 @@
 			<Effect type ='Data' amount ='1.20' subtype ='Market' component ='SellFactor' relativity ='Percent'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>41788</Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Market</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCAdvancedPlantationsGerman' type ='Normal'>
@@ -24464,10 +24472,10 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_advanced_plantation\hc_advanced_plantation</Icon>
-		<RolloverTextID>36481</RolloverTextID>
+		<RolloverTextID>24664</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.69' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
@@ -24484,15 +24492,22 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_advanced_dock\hc_advanced_dock</Icon>
-		<RolloverTextID>36484</RolloverTextID>
+		<RolloverTextID>35375</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='SetName' proto ='Dock' culture ='none' newName ='36486'></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='SetName' proto ='Dock' culture ='none' newName ='35377'></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dock</Target></Effect>
-			<Effect type ='TextOutput'>41785</Effect>
-			<Effect type ='Data' action ='Heal' amount ='1.50' subtype ='WorkRate' unittype ='Ship' relativity ='BasePercent'>
+			<Effect type ='TextOutput'>41784</Effect>
+			<Effect type ='Data' action ='Heal' amount ='2.00' subtype ='WorkRate' unittype ='Ship' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dock</Target></Effect>
+			<Effect type ='Data' amount ='0.67' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Ship</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>YPDockAsian</Target></Effect>
+			<Effect type ='Data' action ='Heal' amount ='2.00' subtype ='WorkRate' unittype ='Ship' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>YPDockAsian</Target></Effect>
+			<Effect type ='SetName' proto ='YPDockAsian' culture ='none' newName ='70427'></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCUnlockFactoryGerman' type ='Normal'>
@@ -26021,8 +26036,8 @@
 	<Tech name ='PoliticianGeneralSkirmisher' type ='Normal'>
 		<DBID>2583</DBID>
 		<DisplayNameID>37020</DisplayNameID>
-		<Cost resourcetype ='Food'>5000.0000</Cost>
-		<Cost resourcetype ='Gold'>5000.0000</Cost>
+		<Cost resourcetype ='Food'>4000.0000</Cost>
+		<Cost resourcetype ='Gold'>4000.0000</Cost>
 		<Cost resourcetype ='Fame'>200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -28655,8 +28670,8 @@
 	<Tech name ='TribalIroquoisWarrior5' type ='Normal'>
 		<DBID>2779</DBID>
 		<DisplayNameID>43711</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -28751,8 +28766,8 @@
 	<Tech name ='TribalIroquoisShaman5' type ='Normal'>
 		<DBID>2783</DBID>
 		<DisplayNameID>43719</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -28845,8 +28860,8 @@
 	<Tech name ='TribalIroquoisYouth5' type ='Normal'>
 		<DBID>2787</DBID>
 		<DisplayNameID>43727</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -28945,8 +28960,8 @@
 	<Tech name ='TribalIroquoisChief5' type ='Normal'>
 		<DBID>2791</DBID>
 		<DisplayNameID>43735</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -29059,8 +29074,8 @@
 	<Tech name ='TribalIroquoisWisewoman5' type ='Normal'>
 		<DBID>2795</DBID>
 		<DisplayNameID>43743</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -29491,6 +29506,8 @@
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
 			<Effect type ='SetName' proto ='Farm' culture ='none' newName ='43797'></Effect>
 			<Effect type ='TextOutput'>48870</Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPIroquoisMohawkSupport' type ='Normal'>
@@ -33527,8 +33544,8 @@
 	<Tech name ='TribalAztecChief5' type ='Normal'>
 		<DBID>3139</DBID>
 		<DisplayNameID>45089</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -33658,8 +33675,8 @@
 	<Tech name ='TribalAztecWarrior5' type ='Normal'>
 		<DBID>3147</DBID>
 		<DisplayNameID>45105</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -33762,8 +33779,8 @@
 	<Tech name ='TribalAztecWisewoman5' type ='Normal'>
 		<DBID>3151</DBID>
 		<DisplayNameID>45113</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -33854,8 +33871,8 @@
 	<Tech name ='TribalAztecYouth5' type ='Normal'>
 		<DBID>3155</DBID>
 		<DisplayNameID>45121</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -33953,8 +33970,8 @@
 	<Tech name ='TribalAztecShaman5' type ='Normal'>
 		<DBID>3159</DBID>
 		<DisplayNameID>45130</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -34059,8 +34076,8 @@
 	<Tech name ='TribalSiouxChief5' type ='Normal'>
 		<DBID>3163</DBID>
 		<DisplayNameID>45138</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -34153,8 +34170,8 @@
 	<Tech name ='TribalSiouxShaman5' type ='Normal'>
 		<DBID>3167</DBID>
 		<DisplayNameID>45146</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -34249,8 +34266,8 @@
 	<Tech name ='TribalSiouxWarrior5' type ='Normal'>
 		<DBID>3171</DBID>
 		<DisplayNameID>45154</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -34349,8 +34366,8 @@
 	<Tech name ='TribalSiouxWisewoman5' type ='Normal'>
 		<DBID>3175</DBID>
 		<DisplayNameID>45162</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -34439,8 +34456,8 @@
 	<Tech name ='TribalSiouxYouth5' type ='Normal'>
 		<DBID>3179</DBID>
 		<DisplayNameID>45170</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -36571,6 +36588,20 @@
 				<Target type ='ProtoUnit'>ypRepentantHighlander</Target></Effect>
 		</Effects>
 	</Tech>
+	<Tech name ='SaloonSurgeon' type ='Normal'>
+		<DBID>3292</DBID>
+		<DisplayNameID>46109</DisplayNameID>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\mercenaries\highlander\highlander_icon</Icon>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
+		</Effects>
+	</Tech>
 	<Tech name ='SaloonMiner' type ='Normal'>
 		<DBID>3292</DBID>
 		<DisplayNameID>31145</DisplayNameID>
@@ -37662,8 +37693,8 @@
 		<Effects>
 			<Effect type ='Data' action ='Heal' amount ='1.50' subtype ='WorkRate' unittype ='LogicalTypeHealed' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FieldHospital</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPMasterSurgeonsGerman' type ='Normal'>
@@ -37678,8 +37709,8 @@
 		<Effects>
 			<Effect type ='Data' action ='Heal' amount ='1.50' subtype ='WorkRate' unittype ='LogicalTypeHealed' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FieldHospital</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -38718,7 +38749,7 @@
 				<Target type ='ProtoUnit'>Missionary</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>NatMedicineMan</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='MaximumVelocity' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.05' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMedicineMan</Target></Effect>
@@ -41760,6 +41791,24 @@
 				<Target type ='ProtoUnit'>FortWagon</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='WorkRate' unittype ='AbstractWonder' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Arsenal' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypArsenalWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='ypArsenalAsian' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypArsenalWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='ypTradeMarketAsian' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMarket</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Market' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMarket</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Mill' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMill</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMill</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonPlantation</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Dock' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonDock</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='YPDockAsian' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonDock</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCForeignLogging' type ='Normal'>
@@ -44130,6 +44179,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypNatDisciplinedGurkha</Effect>
+			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCElephantLimit' type ='Normal'>
@@ -44443,6 +44493,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCYumiDamage' type ='Normal'>
@@ -45489,7 +45540,7 @@
 		<DBID>7777</DBID>
 		<DisplayNameID>780696</DisplayNameID>
 		<Cost resourcetype ='Fame'>1000.0000</Cost>
-		<ResearchPoints>50.0000</ResearchPoints>
+		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\favor</Icon>
 		<RolloverTextID>780697</RolloverTextID>
@@ -45498,7 +45549,7 @@
 			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='TextOutput'>780749</Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -45506,10 +45557,10 @@
 		<DBID>7777</DBID>
 		<DisplayNameID>780696</DisplayNameID>
 		<Cost resourcetype ='Fame'>1500.0000</Cost>
-		<ResearchPoints>50.0000</ResearchPoints>
+		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\favor</Icon>
-		<RolloverTextID>780697</RolloverTextID>
+		<RolloverTextID>780864</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
@@ -45517,7 +45568,7 @@
 		</Prereqs>
 		<Effects>
 			<Effect type ='TextOutput'>780749</Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -45525,10 +45576,10 @@
 		<DBID>7777</DBID>
 		<DisplayNameID>780696</DisplayNameID>
 		<Cost resourcetype ='Fame'>2000.0000</Cost>
-		<ResearchPoints>50.0000</ResearchPoints>
+		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\favor</Icon>
-		<RolloverTextID>780697</RolloverTextID>
+		<RolloverTextID>780865</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>YPInfiniteTech</Flag>
 		<Prereqs>
@@ -46713,6 +46764,24 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' action ='BuildingAttack' amount ='1.00' subtype ='WorkRate' unittype ='AbstractWonder' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Arsenal' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypArsenalWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='ypArsenalAsian' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypArsenalWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='ypTradeMarketAsian' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMarket</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Market' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMarket</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Mill' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMill</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonMill</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonPlantation</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='Dock' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonDock</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.60' subtype ='WorkRate' unittype ='YPDockAsian' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WagonDock</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCFishMarketIndians' type ='Normal'>
@@ -46776,6 +46845,8 @@
 			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypFishingBoatAsian</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypFishingBoatAsian</Target></Effect>
 		</Effects>
 	</Tech>
@@ -48551,8 +48622,8 @@
 	<Tech name ='ypFakeImperialAge' type ='Normal'>
 		<DBID>4550</DBID>
 		<DisplayNameID>64401</DisplayNameID>
-		<Cost resourcetype ='Food'>4000.0000</Cost>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Food'>3500.0000</Cost>
+		<Cost resourcetype ='Gold'>3500.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -52442,6 +52513,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='YPDockWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypFishingBoatAsian</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypFishingBoatAsian</Target></Effect>
 		</Effects>
 	</Tech>
@@ -56792,7 +56865,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='ypTradeRouteUpgrade2' type ='Normal'>
 		<DBID>5192</DBID>
@@ -56813,7 +56888,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='YPHCShipGurkha3' type ='Normal'>
 		<DBID>5193</DBID>
@@ -58480,6 +58557,50 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='Age0XPIroquois' type ='Data' amount ='10.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='NatAxeRiderDogSoldier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='TreeRefresh' type ='Normal'>
+		<DBID>97000</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Flag>Shadow</Flag>
+		<Flag>YPInfiniteTech</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='AgeUp' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='TreasurySup' type ='Normal'>
+		<DBID>2216</DBID>
+		<DisplayNameID>780754</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<Cost resourcetype ='Fame'>2000.0000</Cost>
+		<ResearchPoints>120.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_v</Icon>
+		<RolloverTextID>780755</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
+		<Flag>YPNoTextMessage</Flag>
+		<Effects>
+			<Effect tech ='Imperialize' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='CrateofCoinLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>HCAgeUp</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>PoliticianPresidente</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>PoliticianPresidenteEU</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>PoliticianGeneral</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>PoliticianGeneralUSA</Effect>
+			<Effect type='Sound'>AgeAdvance</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCAgeUp' type ='Normal'>
+		<DBID>97000</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>AgeUpgrade</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age4</Effect>
+			<Effect type='Sound'>AgeAdvance</Effect>
 		</Effects>
 	</Tech>
 </TechTree>

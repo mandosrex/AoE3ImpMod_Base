@@ -255,6 +255,14 @@
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
+	<anim>
+		Pickup
+		<assetreference type="GrannyAnim">
+			<file>animation_library\explorer\pickup_explorer_A</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GatherFruit">0.33</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
 	</submodel>
 	<submodel>
 		merchant
@@ -499,6 +507,14 @@
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\shared\recoil_G</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Pickup
+		<assetreference type="GrannyAnim">
+			<file>animation_library\explorer\pickup_explorer_A</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GatherFruit">0.33</tag>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
