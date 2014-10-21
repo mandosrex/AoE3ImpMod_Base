@@ -7,7 +7,7 @@
 	<definebone>HS Bone Hoof Back Rt</definebone>
 	<attachment>
 		RiderAttachment
-		<include>units\cavalry\uhlan\uhlan_rider.xml</include>
+		<include>units\spc\general\general_rider.xml</include>
 	</attachment>
 	<component>
 		ModelComp

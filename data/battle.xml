@@ -296,11 +296,11 @@
 		<targetunittype>All</targetunittype>
 		<stance>Defensive</stance>
 		<formationtype>Line</formationtype>
-		<canbreakformation>0</canbreakformation>
+		<canbreakformation>1</canbreakformation>
 		<canrotateinformation>1</canrotateinformation>
-		<formationlinelinespacing>1.0</formationlinelinespacing>
-		<formationlinecolumnspacing>1.2</formationlinecolumnspacing>
-		<randomspacingoffset>0.25</randomspacingoffset>
+		<formationlinelinespacing>0.0</formationlinelinespacing>
+		<formationlinecolumnspacing>0.2</formationlinecolumnspacing>
+		<randomspacingoffset>0.0</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\bombgo</activeicon>
@@ -315,11 +315,11 @@
 		<targetunittype>All</targetunittype>
 		<stance>StandGround</stance>
 		<formationtype>Line</formationtype>
-		<canbreakformation>0</canbreakformation>
+		<canbreakformation>1</canbreakformation>
 		<canrotateinformation>1</canrotateinformation>
-		<formationlinelinespacing>1.0</formationlinelinespacing>
-		<formationlinecolumnspacing>1.2</formationlinecolumnspacing>
-		<randomspacingoffset>0.25</randomspacingoffset>
+		<formationlinelinespacing>0.0</formationlinelinespacing>
+		<formationlinecolumnspacing>0.2</formationlinecolumnspacing>
+		<randomspacingoffset>0.0</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\anchorgo</activeicon>
