@@ -324,8 +324,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>VeteranSkirmishersShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialManOWar</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionLouverture</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSantander</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -520,8 +518,6 @@
 			<Effect type ='TechStatus' status ='active'>VeteranCavalryArchersShadow</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionHidalgo</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSantander</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -696,8 +692,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionLouverture</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionWashington</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
@@ -876,8 +870,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>VeteranRuytersShadow</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBonifacio</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionWashington</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
@@ -1036,8 +1028,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SettlerWagon</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSanMartin</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionHidalgo</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
@@ -1205,8 +1195,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialManOWar</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBolivar</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBonifacio</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -1383,8 +1371,6 @@
 			<Effect type ='TechStatus' status ='active'>VeteranCavalryArchersShadow</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionOHiggins</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSantander</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
@@ -1556,8 +1542,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionOHiggins</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBolivar</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -14257,6 +14241,8 @@
 			<Effect type ='TechStatus' status ='active'>GuardDragoons</Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionHidalgo</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSantander</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ColonializeBritish' type ='Normal'>
@@ -14279,6 +14265,8 @@
 			<Effect type ='TextOutput'>780790</Effect>
 			<Effect type ='Data' amount ='50.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionLouverture</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSantander</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeBritish' type ='Normal'>
@@ -14290,6 +14278,8 @@
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionLouverture</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionWashington</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeDutch' type ='Normal'>
@@ -14301,6 +14291,8 @@
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBonifacio</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionWashington</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ChurchGardeImperial2' type ='Normal'>
@@ -14384,6 +14376,8 @@
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionOHiggins</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBolivar</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ColonializeGerman' type ='Normal'>
@@ -14408,6 +14402,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSanMartin</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionHidalgo</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializePortuguese' type ='Normal'>
@@ -14423,6 +14419,8 @@
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBolivar</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBonifacio</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeOttoman' type ='Normal'>
@@ -14434,6 +14432,8 @@
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionOHiggins</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSantander</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortifiedBlockhouse' type ='Normal'>
@@ -53387,7 +53387,9 @@
 		<Flag>ypConsulateImprovementImperial</Flag>
 		<Flag>NativeDance</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+			<TechStatus status ='Active'>ConSupport</TechStatus>
+		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='RiflemanUSJ' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -53493,7 +53495,9 @@
 		<Flag>YPCheckPopCap</Flag>
 		<Flag>NativeDance</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+			<TechStatus status ='Active'>ConSupport</TechStatus>
+		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateGendarmes' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -53573,7 +53577,9 @@
 		<Flag>YPCheckPopCap</Flag>
 		<Flag>NativeDance</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+			<TechStatus status ='Active'>ConSupport</TechStatus>
+		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateEspadachins' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
