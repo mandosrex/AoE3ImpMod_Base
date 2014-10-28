@@ -16667,7 +16667,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age4</Effect>
-			<Effect type ='TechStatus' status ='active'>ImpKnighthood</Effect>
+			<Effect type ='TechStatus' status ='active'>ImpLegendaryNatives</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PoliticianGeneralUSA' type ='Normal'>

@@ -4,16 +4,17 @@
 	<set name="asianrandom">4213687070</set>
 	<set name="fastrandom">2007172782</set>
 	<set name="landrandom">1076298093</set>
-	<set name="Largerandommaps">4108651159</set>
+	<set name="Largerandommaps">1634486495</set>
 	<set name="randommaps">864575973</set>
-	<set name="regicidemaps">827229969</set>
+	<set name="regicidemaps">191592197</set>
 	<map name="amazonia">2662320357</map>
 	<map name="andes">3563240092</map>
 	<map name="AndesRegicide">2019914572</map>
 	<map name="araucania">188442630</map>
 	<map name="bayou">2784836132</map>
 	<map name="borneo">1915859544</map>
-	<map name="california">401428676</map>
+	<map name="california">4074863463</map>
+	<map name="californialarge">4120596324</map>
 	<map name="caribbean">2751020476</map>
 	<map name="carolina">350587851</map>
 	<map name="carolinaLarge">1904924895</map>
@@ -26,12 +27,14 @@
 	<map name="great plains">2568096022</map>
 	<map name="great plainsLarge">392211617</map>
 	<map name="himalayas">3392777229</map>
+	<map name="himalayasRegicide">4009231116</map>
 	<map name="himalayasUpper">3135393739</map>
 	<map name="Hispaniola">123443072</map>
 	<map name="honshu">1623704509</map>
 	<map name="honshuRegicide">925036252</map>
 	<map name="indochina">4287986747</map>
 	<map name="mongolia">1766115039</map>
+	<map name="mongolialarge">277733060</map>
 	<map name="new england">2974830711</map>
 	<map name="new englandLarge">4182229041</map>
 	<map name="northwest territory">2388610910</map>
@@ -47,6 +50,7 @@
 	<map name="saguenayLarge">2242803263</map>
 	<map name="siberia">3904389256</map>
 	<map name="siberiaLarge">1991066712</map>
+	<map name="siberiaRegicide">813109512</map>
 	<map name="silkRoad">3367478974</map>
 	<map name="silkRoadLarge">852466239</map>
 	<map name="sonora">1431074121</map>
@@ -58,6 +62,7 @@
 	<map name="unknownstranded">590431601</map>
 	<map name="yellow riverDry">3394480420</map>
 	<map name="yellow riverLarge">1680202763</map>
+	<map name="yellow riverRegicide">2174069106</map>
 	<map name="yucatan">4170193300</map>
 	<map name="yukon">4032701522</map>
 </rmfilecrc>

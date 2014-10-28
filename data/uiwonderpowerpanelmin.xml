@@ -2,19 +2,19 @@
 
 <layout>
 	<gadget name="uiwonderpowerpanel" type="uiwonderpowerpanel" size1024="445 585 490 625" z="105" transparent="" background="">
-		<gadget name="WonderPowerPanel-Button0" type="button" size1024="230 585 270 625" z="0" hidden="">
+		<gadget name="WonderPowerPanel-Button0" type="button" size1024="230 585 265 620" z="0" hidden="">
 			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
 		</gadget>
-		<gadget name="WonderPowerPanel-Button1" type="button" size1024="280 585 320 625" z="0" hidden="">
+		<gadget name="WonderPowerPanel-Button1" type="button" size1024="270 585 305 620" z="0" hidden="">
 			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
 		</gadget>
-		<gadget name="WonderPowerPanel-Button2" type="button" size1024="330 585 370 625" z="0" hidden="">
+		<gadget name="WonderPowerPanel-Button2" type="button" size1024="310 585 345 620" z="0" hidden="">
 			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
 		</gadget>
-		<gadget name="WonderPowerPanel-Button3" type="button" size1024="380 585 420 625" z="0" hidden="">
+		<gadget name="WonderPowerPanel-Button3" type="button" size1024="350 585 385 620" z="0" hidden="">
 			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
 		</gadget>
-		<gadget name="WonderPowerPanel-Button4" type="button" size1024="430 585 470 625" z="0" hidden="">
+		<gadget name="WonderPowerPanel-Button4" type="button" size1024="390 585 425 620" z="0" hidden="">
 			<piechartfilling color="255 0 0 100" rotation="cw" fill="false"/>
 		</gadget>
 		<gadget name="town_center_Button" type="button" size1024="375 0 396 54" background="ui\town_centerbanner" foreground="" sound="UI_DefaultIngameClickSet" activateondown="">

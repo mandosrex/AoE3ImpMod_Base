@@ -52,9 +52,6 @@
 		<soundtype name="Death">
 			<soundset name="GenericMaleDeath"/>
 		</soundtype>
-		<soundtype name="Creation">
-			<soundset name="MilitaryBirth"/>
-		</soundtype>
 		<soundtype name="Acknowledge">
 			<civlogic>
 				<choice name="Nature">
@@ -387,6 +384,50 @@
 			</civlogic>
 		</soundtype>
 		<soundtype name="Ransomed">
+			<civlogic>
+				<choice name="Nature"/>
+				<choice name="French">
+					<soundset name="FrenchExplorerRansomed"/>
+				</choice>
+				<choice name="British">
+					<soundset name="BritishExplorerRansomed"/>
+				</choice>
+				<choice name="Russians">
+					<soundset name="RussianExplorerRansomed"/>
+				</choice>
+				<choice name="Ottomans">
+					<soundset name="OttomanExplorerRansomed"/>
+				</choice>
+				<choice name="Dutch">
+					<soundset name="DutchExplorerRansomed"/>
+				</choice>
+				<choice name="Spanish">
+					<soundset name="SpanishExplorerRansomed"/>
+				</choice>
+				<choice name="Portuguese">
+					<soundset name="PortugueseExplorerRansomed"/>
+				</choice>
+				<choice name="Germans">
+					<soundset name="GermanExplorerRansomed"/>
+				</choice>
+				<choice name="USA">
+					<soundset name="CooperSelect"/>
+				</choice>
+				<choice name="Aztecs"/>
+				<choice name="Incas"/>
+				<choice name="Maya"/>
+				<choice name="Seminoles"/>
+				<choice name="Caribs"/>
+				<choice name="Cherokee"/>
+				<choice name="Iroquois"/>
+				<choice name="Cree"/>
+				<choice name="Lakota"/>
+				<choice name="Comanche"/>
+				<choice name="Nootka"/>
+				<choice name="Tupi"/>
+			</civlogic>
+		</soundtype>
+		<soundtype name="Creation">
 			<civlogic>
 				<choice name="Nature"/>
 				<choice name="French">
