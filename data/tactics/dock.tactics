@@ -36,8 +36,27 @@
 		<spreadfactor>0.25</spreadfactor>
 		<trackrating>12</trackrating>
 		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
 		<impacteffect>effects\impacts\cannon</impacteffect>
 		<rate type="Ship">1.0</rate>
+	</action>
+	<action>
+		<name stringid="78053">AntiBuildingAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.01</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Cannonball</projectile>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<rate type="MilitaryBuilding">1.0</rate>
 	</action>
 	<action>
 		<name stringid="69155">Heal</name>
@@ -63,5 +82,6 @@
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
 		<action priority="100">AntiShipAttack</action>
 		<action priority="70">AntiShipAttackA</action>
+		<action priority="50">AntiBuildingAttack</action>
 	</tactic>
 </tactics>

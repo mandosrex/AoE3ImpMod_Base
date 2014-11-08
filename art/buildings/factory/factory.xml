@@ -670,9 +670,10 @@
 				<file>buildings\factory\east\east_factory_con</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\factory\MED\med_factory_grnd</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>14.00</width>
 				<height>14.00</height>
 			</decal>
@@ -704,9 +705,10 @@
 				<file>buildings\constructions\5x5_stage3</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\factory\MED\med_factory_grnd</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>14.00</width>
 				<height>14.00</height>
 			</decal>
@@ -738,9 +740,10 @@
 				<file>buildings\constructions\5x5_stage3</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\factory\MED\med_factory_grnd</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>14.00</width>
 				<height>14.00</height>
 			</decal>

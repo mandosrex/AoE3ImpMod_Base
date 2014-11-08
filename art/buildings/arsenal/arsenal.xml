@@ -385,7 +385,7 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\arsenal\west\age_3\West Arsenal Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
 				<width>9.55</width>
@@ -522,9 +522,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\arsenal\WEST\AGE_3\West Arsenal Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>9.55</width>
 				<height>9.55</height>
 				<xoffset>0.50</xoffset>
@@ -545,9 +546,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\arsenal\WEST\AGE_3\West Arsenal Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>9.55</width>
 				<height>9.55</height>
 				<xoffset>0.50</xoffset>
@@ -666,9 +668,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\arsenal\WEST\AGE_3\West Arsenal Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>9.55</width>
 				<height>9.55</height>
 				<xoffset>0.50</xoffset>
@@ -691,9 +694,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\arsenal\WEST\AGE_3\West Arsenal Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>9.55</width>
 				<height>9.55</height>
 				<xoffset>0.50</xoffset>
@@ -1213,7 +1217,7 @@
 				<file>buildings\constructions\4x4_stage3</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\arsenal\west\age_3\West Arsenal Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
 				<width>9.55</width>

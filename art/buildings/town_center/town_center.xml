@@ -1853,9 +1853,10 @@
 				<file>buildings\constructions\nat_5x5_stage1</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\native_civs\town_center\iro\tc_age1_decal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -1886,9 +1887,10 @@
 				<file>buildings\constructions\nat_5x5_stage2</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\native_civs\town_center\iro\tc_age1_decal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -1920,9 +1922,10 @@
 				<file>buildings\constructions\iro_towncenter_age1</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\native_civs\town_center\iro\tc_age1_decal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -3208,9 +3211,10 @@
 				<file>buildings\constructions\iro_towncenter_age2</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\native_civs\town_center\iro\tc_age1_decal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -3242,9 +3246,10 @@
 				<file>buildings\constructions\iro_towncenter_age4</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\native_civs\town_center\iro\tc_age1_decal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -3357,9 +3362,10 @@
 				<file>buildings\constructions\lak_towncenter_age1</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\native_civs\town_center\lak\lak_tc_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -3391,9 +3397,10 @@
 				<file>buildings\constructions\lak_towncenter_age2</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\native_civs\town_center\lak\lak_tc_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -3425,9 +3432,10 @@
 				<file>buildings\constructions\lak_towncenter_age3</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\native_civs\town_center\lak\lak_tc_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -3654,9 +3662,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\native_civs\town_center\iro\tc_age1_decal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -3875,9 +3884,10 @@
 			</ConSupport>
 		</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\native_civs\town_center\iro\tc_age1_decal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -4127,9 +4137,10 @@
 			</Consupport>
 		</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\native_civs\town_center\iro\tc_age1_decal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>

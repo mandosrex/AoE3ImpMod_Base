@@ -300,4 +300,31 @@
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
+	<anim>
+		Pickup
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\horse\pickup_treasure</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GatherFruit">0.37</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\horse\horse_build1</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.66</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\horse\horse_build2</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\warchief_lakota\horse\horse_build3</file>
+			<weight>10</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
 </animfile>

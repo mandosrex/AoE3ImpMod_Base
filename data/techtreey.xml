@@ -8,6 +8,8 @@
 		<Effects>
 			<Effect type ='Data' amount ='150.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SPCFortCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardHalberdiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHalberdiers</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -1555,6 +1557,7 @@
 		<DBID>1219</DBID>
 		<DisplayNameID>30458</DisplayNameID>
 		<Cost resourcetype ='Gold'>100.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_blockade\hc_blockade</Icon>
@@ -1565,13 +1568,13 @@
 			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Blockade' delay ='10.00'></Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>HCBlockadeNative</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCBlockadeNative' type ='Normal'>
 		<DBID>3516</DBID>
 		<DisplayNameID>48869</DisplayNameID>
 		<Cost resourcetype ='Gold'>100.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_blockade\hc_blockade</Icon>
@@ -5361,8 +5364,8 @@
 			<Effect type ='SetName' proto ='CoveredWagon' culture ='none' newName ='48801'></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImpLegendaryNativesNatives</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImpExcessiveTributeNative</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>SpiesNative</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>HCBlockadeNative</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Spies</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>HCBlockade</Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Guardian</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -6512,10 +6515,10 @@
 				<Target type ='ProtoUnit'>BuildingRubble4x4Def</Target></Effect>
 			<Effect type ='Data' action ='SpawnA' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>BuildingRubble5x5Def</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>HCBlockadeNative</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>HCBlockade</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypImpDeforestationAsian</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypMarketSpiritMedicine</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>SpiesNative</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Spies</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Prayer2</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypMarketPlacerMines</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>LongLines</Effect>
@@ -13875,6 +13878,8 @@
 		<RolloverTextID>780793</RolloverTextID>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -13996,6 +14001,8 @@
 		<RolloverTextID>780793</RolloverTextID>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='UpdateVisual' unittype ='Building' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
@@ -14485,7 +14492,8 @@
 	<Tech name ='Spies' type ='Normal'>
 		<DBID>1197</DBID>
 		<DisplayNameID>30313</DisplayNameID>
-		<Cost resourcetype ='Gold'>75.0000</Cost>
+		<Cost resourcetype ='Gold'>100.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\spies\spies</Icon>
@@ -15660,6 +15668,8 @@
 		<RolloverTextID>780793</RolloverTextID>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -17901,6 +17911,8 @@
 		<RolloverTextID>780793</RolloverTextID>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='100.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -36437,7 +36449,8 @@
 	<Tech name ='SpiesNative' type ='Normal'>
 		<DBID>3280</DBID>
 		<DisplayNameID>46001</DisplayNameID>
-		<Cost resourcetype ='Gold'>75.0000</Cost>
+		<Cost resourcetype ='Gold'>100.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\spies\spies</Icon>
@@ -44967,7 +44980,7 @@
 		<RolloverTextID>61988</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypMercYojimbo' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypMercYojimbo' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='YPHCMercsJapaneseArmy' type ='Normal'>
@@ -45637,6 +45650,7 @@
 		<DBID>7777</DBID>
 		<DisplayNameID>77788</DisplayNameID>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\home_city\hc_2x_red_seal_ship</Icon>
@@ -45655,6 +45669,7 @@
 		<DBID>7777</DBID>
 		<DisplayNameID>77788</DisplayNameID>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\home_city\hc_2x_red_seal_ship</Icon>
@@ -48856,7 +48871,7 @@
 				<Target type ='ProtoUnit'>LogicalTypeLandMilitary</Target></Effect>
 			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>LogicalTypeLandMilitary</Target></Effect>
-			<Effect type ='Data' amount ='400.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
+			<Effect type ='Data' amount ='300.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypDaimyoMasamune</Target></Effect>
@@ -48885,7 +48900,7 @@
 				<Target type ='ProtoUnit'>ypDaimyoMasamune</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypDaimyoMasamune' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='300.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
+			<Effect type ='Data' amount ='400.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>LogicalTypeLandMilitary</Target></Effect>
@@ -54426,9 +54441,9 @@
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypMercYojimboO</Target></Effect>
+				<Target type ='ProtoUnit'>ypMercYojimbo</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypRepentantYojimboO</Target></Effect>
+				<Target type ='ProtoUnit'>ypRepentantYojimbo</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypSaloonJat' type ='Normal'>
@@ -56493,7 +56508,8 @@
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypRepentantBarbaryCorsair</Target></Effect>
 			<Effect type ='TextOutput'>69653</Effect>
-			<Effect type ='TechStatus' status ='active'>ypSaloonYojimbo</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypMercYojimboO</Target></Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>

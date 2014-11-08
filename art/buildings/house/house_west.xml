@@ -515,9 +515,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\west\age_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -618,9 +619,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\west\age_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -640,9 +642,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\west\age_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -741,9 +744,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\west\age_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -764,9 +768,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\west\age_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -865,9 +870,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\WEST\AGE_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -969,9 +975,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\WEST\AGE_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -1072,9 +1079,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\WEST\AGE_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -1144,9 +1152,10 @@
 				<file>buildings\constructions\2x2_stage3</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\west\age_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -1178,9 +1187,10 @@
 				<file>buildings\constructions\2x2_stage3</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\west\age_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -1212,9 +1222,10 @@
 				<file>buildings\constructions\2x2_stage3</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\west\age_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -1246,9 +1257,10 @@
 				<file>buildings\constructions\2x2_stage3</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\west\age_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -1280,9 +1292,10 @@
 				<file>buildings\constructions\2x2_stage3</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\west\age_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>
@@ -1314,9 +1327,10 @@
 				<file>buildings\constructions\2x2_stage3</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\house\west\age_1\House_Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>7.00</width>
 				<height>7.00</height>
 			</decal>

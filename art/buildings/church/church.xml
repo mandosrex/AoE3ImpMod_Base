@@ -1046,9 +1046,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\church\french_church_age2_ground</texture>
 				<selectedtexture>shadows_selections\selection_circle_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -1227,9 +1228,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\church\french_church_age2_ground</texture>
-				<selectedtexture>shadows_selections\selection_circle_128x128</selectedtexture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -1370,9 +1372,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\church\german_church_age2_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 				<xoffset>0.00</xoffset>
@@ -1394,9 +1397,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\church\german_church_age2_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 				<xoffset>0.00</xoffset>
@@ -1563,9 +1567,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
-				<texture>buildings\church\german_churchdecal</texture>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\german_church_age3_decal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>11.00</width>
 				<height>15.00</height>
 				<xoffset>0.30</xoffset>
@@ -2078,9 +2083,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\church\russian_church_age2_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 				<xoffset>0.00</xoffset>
@@ -2714,9 +2720,10 @@
 				<file>buildings\constructions\4x4_stage3</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\church\ottoman_churchdecal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 				<xoffset>0.00</xoffset>
@@ -2807,9 +2814,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\church\ottoman_churchdecal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 				<xoffset>0.00</xoffset>
@@ -2831,9 +2839,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\church\ottoman_churchdecal</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 				<xoffset>0.00</xoffset>
@@ -2975,9 +2984,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\church\ottoman_church_age3_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>9.00</width>
 				<height>9.00</height>
 				<xoffset>0.00</xoffset>
@@ -2999,9 +3009,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
-				<texture>buildings\church\ottoman_churchdecal</texture>
+				<effecttype>bump</effecttype>
+				<texture>buildings\church\ottoman_church_age3_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 				<xoffset>0.00</xoffset>

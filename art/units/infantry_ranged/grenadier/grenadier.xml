@@ -236,55 +236,57 @@
 	<anim>
 		Raze_Idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\idle_grenadier_A</file>
+			<file>animation_library\shared\human_idle_generic_A</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Raze_Attack
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\ranged_attack_grenadier</file>
-			<tag type="Attack">0.66</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="GrenadeLight">0.39</tag>
+			<file>units\spc\miner\miner_rangedattack</file>
+			<tag type="Attack">0.82</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GrenadeLight">0.22</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="fusesparks" frombone="bone_fuse" tobone="bone_fuse" syncanims="0"/>
 		<attach a="fusesmoke" frombone="bone_fuse" tobone="bone_fuse" syncanims="0"/>
+		<attach a="fusesparks" frombone="bone_fuse" tobone="bone_fuse" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_ranged_idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\idle_grenadier_A</file>
+			<file>animation_library\shared\human_idle_generic_A</file>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\bored_grenadier_A</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\bored_grenadier_B</file>
+			<file>animation_library\shared\human_bored_generic_A</file>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_walk
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\walk_grenadier</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.50</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">1.00</tag>
+			<file>animation_library\shared\human_walk_generic_A</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_jog
 		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\jog_generic</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.60</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.10</tag>
+			<file>animation_library\villager\villager_male_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_run
@@ -294,59 +296,63 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.60</tag>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\idle_grenadier_A</file>
+			<file>animation_library\shared\human_idle_generic_A</file>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_attack
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\ranged_attack_grenadier</file>
-			<tag type="Attack">0.66</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="GrenadeLight">0.39</tag>
+			<file>units\spc\miner\miner_rangedattack</file>
+			<tag type="Attack">0.82</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="GrenadeLight">0.22</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="fusesmoke" frombone="bone_fuse" tobone="bone_fuse" syncanims="0"/>
 		<attach a="fusesparks" frombone="bone_fuse" tobone="bone_fuse" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_reload
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\idle_grenadier_A</file>
+			<file>animation_library\shared\human_idle_generic_A</file>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\bored_grenadier_A</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\bored_grenadier_B</file>
+			<file>animation_library\shared\human_bored_generic_A</file>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_walk
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\walk_grenadier</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.50</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">1.00</tag>
+			<file>animation_library\shared\human_walk_generic_A</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_jog
 		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\jog_generic</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.60</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.10</tag>
+			<file>animation_library\villager\villager_male_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_run
@@ -356,6 +362,7 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.60</tag>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Defend_idle
@@ -363,7 +370,7 @@
 			<file>animation_library\infantry\Defend\dopplesoldner_defend_idle</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Defend_bored
@@ -371,34 +378,34 @@
 			<file>animation_library\infantry\Defend\dopplesoldner_defend_bored</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\melee_idle_grenadier_a</file>
+			<file>animation_library\shared\human_sword_combat_idle_a</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_bored</file>
+			<file>animation_library\shared\human_sword_combat_idle_a</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_attack
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\melee_grenadier_A</file>
-			<tag type="Attack">0.29</tag>
+			<file>animation_library\shared\human_attack_club_e</file>
+			<tag type="Attack">0.61</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.20</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.58</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_Walk
@@ -408,7 +415,7 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_Jog
@@ -428,7 +435,7 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_Run
@@ -448,6 +455,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 </animfile>

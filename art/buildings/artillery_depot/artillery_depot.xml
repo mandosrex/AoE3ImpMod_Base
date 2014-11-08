@@ -190,9 +190,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\artillery_depot\WEST\AGE_3\artillery_depot_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>9.50</width>
 				<height>9.50</height>
 				<xoffset>0.00</xoffset>
@@ -214,9 +215,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\artillery_depot\WEST\AGE_3\artillery_depot_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>9.50</width>
 				<height>9.50</height>
 				<xoffset>0.00</xoffset>
@@ -407,9 +409,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\artillery_depot\WEST\AGE_3\artillery_depot_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>9.50</width>
 				<height>9.50</height>
 				<xoffset>0.00</xoffset>
@@ -433,9 +436,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\artillery_depot\WEST\AGE_3\artillery_depot_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>9.50</width>
 				<height>9.50</height>
 				<xoffset>0.00</xoffset>
