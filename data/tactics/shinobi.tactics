@@ -17,7 +17,7 @@
 		<idleanim>Volley_standing_idle</idleanim>
 		<reloadanim>Volley_standing_reload</reloadanim>
 		<accuracy>1.0</accuracy>
-		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<maxspread>5</maxspread>
 		<spreadfactor>0.25</spreadfactor>
@@ -37,7 +37,7 @@
 		<idleanim>Horse_idle</idleanim>
 		<reloadanim>Horse_reload</reloadanim>
 		<accuracy>1.0</accuracy>
-		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<maxspread>5</maxspread>
 		<spreadfactor>0.25</spreadfactor>
@@ -94,7 +94,7 @@
 		<idleanim>Defend_idle</idleanim>
 		<reloadanim>Volley_standing_reload</reloadanim>
 		<accuracy>1.0</accuracy>
-		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<maxspread>5</maxspread>
 		<spreadfactor>0.25</spreadfactor>
@@ -140,7 +140,7 @@
 		<idleanim>Volley_standing_idle</idleanim>
 		<reloadanim>Volley_standing_reload</reloadanim>
 		<accuracy>1.0</accuracy>
-		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<maxspread>5</maxspread>
 		<spreadfactor>0.25</spreadfactor>

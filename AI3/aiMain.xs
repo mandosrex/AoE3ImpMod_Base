@@ -2993,6 +2993,61 @@ void setConsulateArmyPreference() {
   
 }
 
+
+void setCommandPostArmyPreference() {
+  if (kbUnitCount(cMyID, cUnitTypeSPCFortCenter, cUnitStateAlive) < 1) {
+    return;
+  }
+  if (kbTechGetStatus(cTechImperializePortuguese) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese11, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese22, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese33, 0.5);
+  }
+  
+  if (kbTechGetStatus(cTechImperializeDutch) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch11, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch22, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch33, 0.5);
+  }
+  
+  if (kbTechGetStatus(cTechImperializeRussian) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian11, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian22, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian33, 0.5);
+  }
+  
+  if (kbTechGetStatus(cTechImperializeSpanish) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish11, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish22, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish33, 0.5);
+  }
+  
+  if (kbTechGetStatus(cTechImperializeBritish) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish11, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish22, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish33, 0.5);      
+  }
+  
+  if (kbTechGetStatus(cTechImperializeFrench) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench11, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench22, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench33, 0.5); 
+  }
+  
+  if (kbTechGetStatus(cTechImperializeGerman) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman11, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman22, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman33, 0.5); 
+  }
+  
+  if (kbTechGetStatus(cTechImperializeOttoman) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman11, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman22, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman33, 0.5);
+  }
+  
+}
+
 //==============================================================================
 //createSimpleTrainPlan
 //==============================================================================
@@ -9756,42 +9811,17 @@ void setUnitPickerPreference(int upID = -1)
 
       if (civIsAsian() == false)
       { 
+         // Set preferences for command post units
+         setCommandPostArmyPreference();
+      }
+
+      if (civIsNative() == true)
+      { 
          // Natives and Europeans need to stop trying to build consulate and monastery units
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractConsulateSiegeFortress, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractConsulateSiegeIndustrial, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractConsulateUnit, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractConsulateUnitColonial, 0.0);
-
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractWokou, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantArsonist, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantBarbaryCorsair, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantBlackRider, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantBlindMonk, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantDacoit, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantElmeti, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantFusilier, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantGreatCannon, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantHackapell, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantHighlander, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantIronTroop, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantJaeger, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantJatLancer, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantLandsknecht, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantMameluke, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantManchu, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantNinja, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantOutlawPistol, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantOutlawRider, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantOutlawRifleman, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantPirate, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantRonin, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantSmuggler, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantStradiot, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantSwissPikeman, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantThuggee, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantWanderingHorseman, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantWaywardRonin, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypRepentantYojimbo, 0.0);
       }
    }
 }

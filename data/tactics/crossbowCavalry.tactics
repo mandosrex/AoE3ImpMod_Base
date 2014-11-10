@@ -10,7 +10,7 @@
 		<idleanim>Idle</idleanim>
 		<reloadanim>Attack_ranged_reload</reloadanim>
 		<accuracy>1.0</accuracy>
-		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<minrange>1</minrange>
 		<maxspread>5</maxspread>

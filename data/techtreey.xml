@@ -1557,7 +1557,6 @@
 		<DBID>1219</DBID>
 		<DisplayNameID>30458</DisplayNameID>
 		<Cost resourcetype ='Gold'>100.0000</Cost>
-		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_blockade\hc_blockade</Icon>
@@ -14492,8 +14491,7 @@
 	<Tech name ='Spies' type ='Normal'>
 		<DBID>1197</DBID>
 		<DisplayNameID>30313</DisplayNameID>
-		<Cost resourcetype ='Gold'>100.0000</Cost>
-		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<Cost resourcetype ='Gold'>80.0000</Cost>
 		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\spies\spies</Icon>
@@ -17081,6 +17079,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TradeRouteTeam1</Effect>
 			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
@@ -17104,6 +17103,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TradeRouteTeam2</Effect>
 			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
@@ -17125,6 +17125,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TradeRouteTeam1</Effect>
 			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
@@ -17148,6 +17149,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TradeRouteTeam2</Effect>
 			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
@@ -39463,6 +39465,14 @@
 				<Target type ='Tech'>ypTradeRouteUpgrade1</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ypTradeRouteUpgrade2</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia1</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia2</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia1</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia2</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPNationalRedoubt' type ='Normal'>
@@ -44206,7 +44216,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypNatDisciplinedGurkha</Effect>
+			<Effect type ='TechStatus' status ='active'>TradeRouteTeam1</Effect>
 			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
@@ -44521,6 +44531,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TradeRouteTeam2</Effect>
 			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
@@ -45650,7 +45661,6 @@
 		<DBID>7777</DBID>
 		<DisplayNameID>77788</DisplayNameID>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
-		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\home_city\hc_2x_red_seal_ship</Icon>
@@ -45669,7 +45679,6 @@
 		<DBID>7777</DBID>
 		<DisplayNameID>77788</DisplayNameID>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
-		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\home_city\hc_2x_red_seal_ship</Icon>
@@ -56906,6 +56915,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TradeRouteTeam1</Effect>
 			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
@@ -56929,6 +56939,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>TradeRouteTeam2</Effect>
 			<Effect type ='TechStatus' status ='active'>TreeRefresh</Effect>
 		</Effects>
 	</Tech>
@@ -58645,6 +58656,28 @@
 		<Effects>
 			<Effect type ='SetAge'>Age4</Effect>
 			<Effect type='Sound'>AgeAdvance</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='TradeRouteTeam1' type ='Normal'>
+		<DBID>970060</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='TradeRouteTeam2' type ='Normal'>
+		<DBID>970060</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='UpgradeTradeRoute' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 </TechTree>

@@ -100,8 +100,8 @@
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
-			<texture isfakeshadow="1">shadows_selections\shadow_hero_64x64</texture>
-			<selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
+			<selectedtexture>shadows_selections\selection_merc_32x32</selectedtexture>
 			<width>1.0</width>
 			<height>1.0</height>
 		</decal>
@@ -124,8 +124,8 @@
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
-			<texture isfakeshadow="1">shadows_selections\shadow_hero_64x64</texture>
-			<selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_merc_32x64</selectedtexture>
 			<width>1.50</width>
 			<height>3.00</height>
 		</decal>
