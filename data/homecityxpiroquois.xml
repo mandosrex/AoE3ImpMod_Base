@@ -614,7 +614,7 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
-			<name>HCXPRanching</name>
+			<name>HCXPRanchingLlama</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
@@ -1450,7 +1450,7 @@
 			<tech x="4.7" y="3.0">HCHeavyFortifications</tech>
 			<tech x="4.7" y="4.0">HCXPExtensiveFortifications2</tech>
 			<tech x="4.7" y="5.0">HCXPBattleFieldConstructionIroquois</tech>
-			<tech x="5.5" y="1.0">HCXPRanching</tech>
+			<tech x="5.5" y="1.0">HCXPRanchingLlama</tech>
 			<tech x="5.5" y="3.0">HCEngineeringSchool</tech>
 			<tech x="5.5" y="5.0">HCXPConservativeTactics</tech>
 			<tech x="6.3" y="1.0">HCXPAdvancedFarms</tech>

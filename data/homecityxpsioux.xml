@@ -792,7 +792,7 @@
 			<age>0</age>
 		</card>
 		<card>
-			<name>HCXPRanching</name>
+			<name>HCXPRanchingLlama</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
@@ -1460,7 +1460,7 @@
 			<tech x="2.5" y="4.0">HCRidingSchool</tech>
 			<tech x="3.4" y="1.0">HCPioneers</tech>
 			<tech x="3.4" y="5.0">HCXPPioneers2</tech>
-			<tech x="4.1" y="1.0">HCXPRanching</tech>
+			<tech x="4.1" y="1.0">HCXPRanchingLlama</tech>
 			<tech x="4.1" y="5.0">HCAdvancedPlantations</tech>
 			<tech x="4.1" y="6.0">HCXPAggressivePolicy</tech>
 			<tech x="5.2" y="1.0">HCImprovedBuildings</tech>

@@ -1573,7 +1573,6 @@
 		<DBID>3516</DBID>
 		<DisplayNameID>48869</DisplayNameID>
 		<Cost resourcetype ='Gold'>100.0000</Cost>
-		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_blockade\hc_blockade</Icon>
@@ -3289,7 +3288,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='0.01' subtype ='MinimumResourceTrickleRate' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='MaximumResourceTrickleRate' resource ='XP' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='MaximumResourceTrickleRate' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='ResourceTrickleRate' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -3302,7 +3301,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='0.01' subtype ='MinimumResourceTrickleRate' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='MaximumResourceTrickleRate' resource ='XP' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='MaximumResourceTrickleRate' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.20' subtype ='ResourceTrickleRate' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -4895,7 +4894,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Lookout</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpIroquoisWarChief</Target></Effect>
+				<Target type ='ProtoUnit'>xpAztecWarChief</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpMacehualtin</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -17163,13 +17162,37 @@
 		<RolloverTextID>33314</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
 			<Effect type ='TextOutput'>41794</Effect>
 			<Effect type ='Data' action ='RangedAttack' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>TradeRouteUpgrade1</Target></Effect>
+			<Effect type ='Data' amount ='150.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>TradeRouteUpgrade2</Target></Effect>
+			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>TradeRouteUpgrade2</Target></Effect>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>TradeRouteUpgrade1</Target></Effect>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgrade1</Target></Effect>
+			<Effect type ='Data' amount ='150.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgrade2</Target></Effect>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgrade1</Target></Effect>
+			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgrade2</Target></Effect>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia1</Target></Effect>
+			<Effect type ='Data' amount ='150.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia2</Target></Effect>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia1</Target></Effect>
+			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia2</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='WarriorSocietyAztecs' type ='Normal'>
@@ -18289,6 +18312,14 @@
 				<Target type ='Tech'>ypTradeRouteUpgrade1</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ypTradeRouteUpgrade2</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia1</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia2</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia1</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>ypTradeRouteUpgradeIndia2</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='UniqueSPCIndianFriendship' type ='Normal'>
@@ -22767,7 +22798,7 @@
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
 			<Effect type ='TextOutput'>36048</Effect>
 		</Effects>
@@ -36452,7 +36483,6 @@
 		<DBID>3280</DBID>
 		<DisplayNameID>46001</DisplayNameID>
 		<Cost resourcetype ='Gold'>100.0000</Cost>
-		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\spies\spies</Icon>
@@ -37810,21 +37840,25 @@
 				<Target type ='ProtoUnit'>HouseMed</Target></Effect>
 			<Effect type ='Data' amount ='5.00' subtype ='GathererLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Manor</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='WagonBuildings' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPRanchingLlama' type ='Normal'>
 		<DBID>3368</DBID>
-		<DisplayNameID>46815</DisplayNameID>
+		<DisplayNameID>46811</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\native\Llama_Ranching</Icon>
-		<RolloverTextID>46814</RolloverTextID>
+		<Icon>ui\techs\native\Ranching</Icon>
+		<RolloverTextID>780880</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='TextOutput'>46816</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Llama</Target></Effect>
+			<Effect type ='TextOutput'>46813</Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' amount ='0.01' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPKinshipTies' type ='Normal'>
@@ -39473,6 +39507,8 @@
 				<Target type ='Tech'>ypTradeRouteUpgradeIndia1</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ypTradeRouteUpgradeIndia2</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='WagonTradePost' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPNationalRedoubt' type ='Normal'>

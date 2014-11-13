@@ -863,7 +863,7 @@
 			<displayunitcount>1</displayunitcount>
 		</card>
 		<card>
-			<name>HCXPRanchingLlama</name>
+			<name>HCXPRanching</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
@@ -1520,7 +1520,7 @@
 			<tech x="0.0" y="3.0">HCNativeWarriors</tech>
 			<tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
 			<tech x="0.9" y="5.0">HCXPBloodBrothers</tech>
-			<tech x="0.9" y="1.0">HCXPRanchingLlama</tech>
+			<tech x="0.9" y="1.0">HCXPRanching</tech>
 			<tech x="0.9" y="3.0">HCFencingSchool</tech>
 			<tech x="1.6" y="3.0">HCRidingSchool</tech>
 			<tech x="0.9" y="6.0">HCEngineeringSchool</tech>
