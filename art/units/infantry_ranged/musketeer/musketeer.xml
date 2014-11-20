@@ -62,16 +62,35 @@
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
 			</guardmusketeersus>
-			<imperialmusketeers>
+			<RGRedcoats>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\musketeer\musketeer_4age</file>
+							<replacetexture>
+								<from>units\infantry_ranged\musketeer\musketeer_4age</from>
+								<to>units\infantry_ranged\musketeer\musketeer_imperial</to>
+							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
-			</imperialmusketeers>
+			</RGRedcoats>
+			<RGGuerreiros>
+						<assetreference type="GrannyModel">
+							<file>units\infantry_ranged\musketeer\musketeer_4age</file>
+							<replacetexture>
+								<from>units\infantry_ranged\musketeer\musketeer_4age</from>
+								<to>units\infantry_ranged\musketeer\musketeer_imperial</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
+			</RGGuerreiros>
 			<imperialmusketeersus>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\musketeer\musketeer_4age</file>
+							<replacetexture>
+								<from>units\infantry_ranged\musketeer\musketeer_4age</from>
+								<to>units\infantry_ranged\musketeer\musketeer_imperial</to>
+							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>

@@ -40,7 +40,7 @@
 					</lowpoly>
 				</logic>
 			</guardlancers>
-			<imperialgarrochistas>
+			<RGGarrochista>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -53,7 +53,7 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</imperialgarrochistas>
+			</RGGarrochista>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

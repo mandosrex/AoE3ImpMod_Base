@@ -42,7 +42,7 @@
 					</lowpoly>
 				</logic>
 			</guardcavalryarchers>
-			<imperialcavalryarchers>
+			<imperialcavalryarchers2>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -55,8 +55,8 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</imperialcavalryarchers>
-			<imperialtartarloyalist>
+			</imperialcavalryarchers2>
+			<RGTartarLoyalists>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -69,7 +69,7 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</imperialtartarloyalist>
+			</RGTartarLoyalists>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

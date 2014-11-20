@@ -59,6 +59,10 @@
 			<normal>
 				<assetreference type="GrannyModel">
 					<file>units\infantry_ranged\grenadier\grenadier_age4</file>
+					<replacetexture>
+						<from>units\infantry_ranged\grenadier\grenadier_age4</from>
+						<to>units\infantry_ranged\grenadier\grenadier_imperial</to>
+					</replacetexture>
 				</assetreference>
 				<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 				<attach a="pouch" frombone="bone_pouch" tobone="PELVIS" syncanims="0"/>

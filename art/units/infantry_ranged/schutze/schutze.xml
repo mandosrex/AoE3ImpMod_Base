@@ -61,7 +61,7 @@
 						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
 						<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop2" syncanims="0"/>
 			</none>
-			<guardschutzens>
+			<VeteranSchutze>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\musketeer\musketeer_3age</file>
 							<replacetexture>
@@ -76,8 +76,8 @@
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
 						<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop2" syncanims="0"/>
-			</guardschutzens>
-			<imperialschutzens>
+			</VeteranSchutze>
+			<guardschutzens>
 						<assetreference type="GrannyModel">
 							<file>units\spc\miner\miner</file>
 							<replacetexture>
@@ -93,7 +93,7 @@
 						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
 						<attach a="backpack" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
 						<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop2" syncanims="0"/>
-			</imperialschutzens>
+			</guardschutzens>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

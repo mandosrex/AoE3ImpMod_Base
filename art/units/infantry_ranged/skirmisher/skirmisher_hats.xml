@@ -6,22 +6,22 @@
 		<logic type="Tech">
 			<none>
 				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\skirmisher\skirmisher_2age_hat</file>
+					<file>units\infantry_ranged\skirmisher\skirmisher_3age_hat</file>
 				</assetreference>
 			</none>
 			<veteranskirmishersshadow>
 				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\skirmisher\skirmisher_2age_hat</file>
+					<file>units\infantry_ranged\skirmisher\skirmisher_3age_hat</file>
 				</assetreference>
 			</veteranskirmishersshadow>
 			<guardskirmishers>
 				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\skirmisher\skirmisher_3age_hat</file>
+					<file>units\infantry_ranged\skirmisher\skirmisher_4age_hat</file>
 				</assetreference>
 			</guardskirmishers>
 			<guardskirmishersus>
 				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\skirmisher\skirmisher_3age_hat</file>
+					<file>units\infantry_ranged\skirmisher\skirmisher_4age_hat</file>
 				</assetreference>
 			</guardskirmishersus>
 			<imperialskirmishers>

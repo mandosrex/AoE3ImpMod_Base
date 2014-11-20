@@ -77,7 +77,7 @@
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 						<attach a="pouch" frombone="bone_pouch" tobone="PELVIS" syncanims="0"/>
 			</guardgrenadiers>
-			<imperialgrenadiers>
+			<imperialgrenadiers2>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\grenadier\grenadier_age4</file>
 							<replacetexture>
@@ -87,7 +87,7 @@
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 						<attach a="pouch" frombone="bone_pouch" tobone="PELVIS" syncanims="0"/>
-			</imperialgrenadiers>
+			</imperialgrenadiers2>
 			<veterangrenadiersUS>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\grenadier\grenadier_age3</file>
@@ -102,7 +102,7 @@
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 						<attach a="pouch" frombone="bone_pouch" tobone="PELVIS" syncanims="0"/>
 			</guardgrenadiersUS>
-			<imperialgrenadiersUS>
+			<RGPavlovGrenadiers>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\grenadier\grenadier_age4</file>
 							<replacetexture>
@@ -112,7 +112,7 @@
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 						<attach a="pouch" frombone="bone_pouch" tobone="PELVIS" syncanims="0"/>
-			</imperialgrenadiersUS>
+			</RGPavlovGrenadiers>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

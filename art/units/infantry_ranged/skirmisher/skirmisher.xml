@@ -23,14 +23,14 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\skirmisher\skirmisher_1age</file>
+							<file>units\infantry_ranged\skirmisher\skirmisher_2age</file>
 						</assetreference>
 						<attach a="guns" frombone="bone_gun" tobone="BIP01 PROP1" syncanims="0"/>
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\skirmisher\lp_skirmisher_1age</file>
+							<file>units\infantry_ranged\skirmisher\lp_skirmisher_2age</file>
 						</assetreference>
 						<attach a="guns" frombone="bone_gun" tobone="BIP01 PROP1" syncanims="0"/>
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
@@ -91,7 +91,7 @@
 					</lowpoly>
 				</logic>
 			</guardskirmishersus>
-			<imperialskirmishers>
+			<imperialskirmishers2>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -108,7 +108,7 @@
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 					</lowpoly>
 				</logic>
-			</imperialskirmishers>
+			</imperialskirmishers2>
 			<imperialskirmishersus>
 				<logic type="LowPoly">
 					<normal>
@@ -127,7 +127,7 @@
 					</lowpoly>
 				</logic>
 			</imperialskirmishersus>
-			<imperialvoltigeur>
+			<RGVoltigeur>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -144,8 +144,8 @@
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 					</lowpoly>
 				</logic>
-			</imperialvoltigeur>
-			<imperialneedlegun>
+			</RGVoltigeur>
+			<RGPrussianNeedleGun>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -162,7 +162,7 @@
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 					</lowpoly>
 				</logic>
-			</imperialneedlegun>
+			</RGPrussianNeedleGun>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

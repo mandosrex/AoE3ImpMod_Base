@@ -54,7 +54,21 @@
 					</lowpoly>
 				</logic>
 			</guardhussars>
-			<imperialhussars>
+			<imperialhussars2>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\light_cavalry\light_cavalry_age3_horse</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\light_cavalry\lp_light_cavalry_age3_horse</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</imperialhussars2>
+			<RGLifeGuardHussars>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -67,8 +81,8 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</imperialhussars>
-			<imperiallifeguard>
+			</RGLifeGuardHussars>
+			<RGGendarmes>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -81,21 +95,7 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</imperiallifeguard>
-			<imperialgardener>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>units\cavalry\light_cavalry\light_cavalry_age4_horse</file>
-						</assetreference>
-					</normal>
-					<lowpoly>
-						<assetreference type="GrannyModel">
-							<file>units\cavalry\light_cavalry\lp_light_cavalry_age4_horse</file>
-						</assetreference>
-					</lowpoly>
-				</logic>
-			</imperialgardener>
+			</RGGendarmes>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

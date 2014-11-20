@@ -19,7 +19,7 @@
 					<file>units\infantry_ranged\grenadier\grenadier_age4_hat</file>
 				</assetreference>
 			</guardgrenadiers>
-			<imperialgrenadiers>
+			<imperialgrenadiers2>
 				<assetreference type="GrannyModel">
 					<file>units\infantry_ranged\grenadier\grenadier_age4_hat</file>
 					<replacetexture>
@@ -27,7 +27,7 @@
 						<to>units\infantry_ranged\grenadier\grenadier_imperial</to>
 					</replacetexture>
 				</assetreference>
-			</imperialgrenadiers>
+			</imperialgrenadiers2>
 			<veterangrenadiersUS>
 				<assetreference type="GrannyModel">
 					<file>units\infantry_ranged\grenadier\grenadier_age3_hat</file>

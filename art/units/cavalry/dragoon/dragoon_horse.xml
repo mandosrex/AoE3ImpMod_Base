@@ -22,7 +22,7 @@
 							<file>units\cavalry\dragoon\dragoon_horse_age4</file>
 						</assetreference>
 			</guarddragoons>
-			<imperialdragoons>
+			<imperialdragoons2>
 						<assetreference type="GrannyModel">
 							<file>units\cavalry\dragoon\dragoon_horse_age4</file>
 							<replacetexture>
@@ -30,8 +30,8 @@
 								<to>units\cavalry\dragoon\dragoon_horse_imperial</to>
 							</replacetexture>
 						</assetreference>
-			</imperialdragoons>
-			<imperialjinetes>
+			</imperialdragoons2>
+			<RGJinetes>
 						<assetreference type="GrannyModel">
 							<file>units\cavalry\dragoon\dragoon_horse_age4</file>
 							<replacetexture>
@@ -39,7 +39,7 @@
 								<to>units\cavalry\dragoon\dragoon_horse_imperial</to>
 							</replacetexture>
 						</assetreference>
-			</imperialjinetes>
+			</RGJinetes>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

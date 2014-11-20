@@ -21,6 +21,10 @@
 			<normal>
 				<assetreference type="GrannyModel">
 					<file>units\cavalry\dragoon\dragoon_age4</file>
+							<replacetexture>
+								<from>units\cavalry\dragoon\dragoon_age4</from>
+								<to>units\cavalry\dragoon\dragoon_imperial</to>
+							</replacetexture>
 				</assetreference>
 			</normal>
 			<lowpoly>

@@ -96,7 +96,7 @@
 					</lowpoly>
 				</logic>
 			</guardhalberdiers>
-			<imperialhalberdiers>
+			<imperialhalberdiers2>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -113,8 +113,8 @@
 						<attach a="pikes" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
 					</lowpoly>
 				</logic>
-			</imperialhalberdiers>
-			<ImperialNassauers>
+			</imperialhalberdiers2>
+			<RGNassausLinearTactics>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -131,7 +131,7 @@
 						<attach a="pikes" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
 					</lowpoly>
 				</logic>
-			</ImperialNassauers>
+			</RGNassausLinearTactics>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

@@ -113,22 +113,6 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\infantry\pikeman\pikeman_3age</file>
-						</assetreference>
-						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-						<attach a="pikes" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-					</normal>
-					<lowpoly>
-						<assetreference type="GrannyModel">
-							<file>units\infantry\pikeman\lp_pikeman_3age</file>
-						</assetreference>
-					</lowpoly>
-				</logic>
-			</RGTercio>
-			<imperialtercio>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
 							<file>units\infantry\pikeman\pikeman_4age</file>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
@@ -140,7 +124,7 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</imperialtercio>
+			</RGTercio>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
