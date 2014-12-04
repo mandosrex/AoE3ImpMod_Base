@@ -46,20 +46,6 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\longbow\longbow_1age</file>
-						</assetreference>
-					</normal>
-					<lowpoly>
-						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\longbow\lp_longbow_1age</file>
-						</assetreference>
-					</lowpoly>
-				</logic>
-			</none>
-			<veteranlongbowmen>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\longbow\longbow_2age</file>
 						</assetreference>
 					</normal>
@@ -69,8 +55,8 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</veteranlongbowmen>
-			<guardlongbowmen>
+			</none>
+			<veteranlongbowmen>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -80,6 +66,20 @@
 					<lowpoly>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\longbow\lp_longbow_3age</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</veteranlongbowmen>
+			<guardlongbowmen>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\infantry_ranged\longbow\longbow_4age</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\infantry_ranged\longbow\lp_longbow_4age</file>
 						</assetreference>
 					</lowpoly>
 				</logic>

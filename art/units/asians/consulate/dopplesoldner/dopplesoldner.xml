@@ -15,9 +15,9 @@
 		ModelComp
 		<logic type="LowPoly">
 			<normal>
-				<assetreference type="GrannyModel">
-					<file>units\infantry\dopplesoldner\dopplesoldner_age3</file>
-				</assetreference>
+						<assetreference type="GrannyModel">
+							<file>units\infantry\dopplesoldner\dopplesoldner_age3</file>
+						</assetreference>
 				<attach a="sword" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
 			</normal>
 			<lowpoly>

@@ -36,8 +36,21 @@
 		</anim>
 	</attachment>
 	<attachment>
-		hats
-		<include>units\artillery\falconet\gunner_hats.xml</include>
+	hats
+	<component>
+		gunner_hats
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</none>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>gunner_hats</component>
+	</anim>
 	</attachment>
 	<component>
 		culverin
@@ -61,13 +74,10 @@
 			<grapeshot>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\culverin\culverin</file>
-							<replacetexture>
-								<from>units\artillery\culverin\culverin</from>
-								<to>units\artillery\culverin\culverin_grape</to>
-							</replacetexture>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 			</grapeshot>
-			<imperialculverin>
+			<imperialculverin2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\culverin\culverin</file>
 							<replacetexture>
@@ -76,7 +86,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-			</imperialculverin>
+			</imperialculverin2>
 			<grapeshotus>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\culverin\culverin</file>

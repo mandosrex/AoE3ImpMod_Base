@@ -44,8 +44,21 @@
 		<include>units\artillery\mortar\mortar_guy.xml</include>
 	</attachment>
 	<attachment>
-		hats
-		<include>units\artillery\falconet\gunner_hats.xml</include>
+	hats
+	<component>
+		gunner_hats
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</none>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>gunner_hats</component>
+	</anim>
 	</attachment>
 	<component>
 		mortar
@@ -64,7 +77,7 @@
 							</replacetexture>
 						</assetreference>
 					</howitzer>
-					<imperialhowitzer>
+					<imperialhowitzer2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\mortar\mortar</file>
 							<replacetexture>
@@ -75,7 +88,7 @@
 						<attach a="hats" frombone="bone_hat" tobone="Bip03 Head" syncanims="0"/>
 						<attach a="hats" frombone="bone_hat" tobone="Bip04 Head" syncanims="0"/>
 						<attach a="hats" frombone="bone_hat" tobone="Bip05 Head" syncanims="0"/>
-					</imperialhowitzer>
+					</imperialhowitzer2>
 					<howitzerus>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\mortar\mortar</file>

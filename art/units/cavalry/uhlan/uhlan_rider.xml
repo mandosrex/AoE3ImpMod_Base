@@ -36,22 +36,6 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\cavalry\uhlan\uhlan_age01_rider</file>
-						</assetreference>
-						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-					</normal>
-					<lowpoly>
-						<assetreference type="GrannyModel">
-							<file>units\cavalry\uhlan\lp_uhlan_age01_rider</file>
-						</assetreference>
-						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-					</lowpoly>
-				</logic>
-			</none>
-			<veteranuhlans>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
 							<file>units\cavalry\uhlan\uhlan_age02_rider</file>
 						</assetreference>
 					</normal>
@@ -61,8 +45,8 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</veteranuhlans>
-			<guarduhlans>
+			</none>
+			<veteranuhlans>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -75,8 +59,8 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</guarduhlans>
-			<ImperialCzapkaUhlans>
+			</veteranuhlans>
+			<guarduhlans>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -89,7 +73,7 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</ImperialCzapkaUhlans>
+			</guarduhlans>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

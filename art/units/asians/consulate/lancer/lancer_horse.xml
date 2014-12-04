@@ -14,12 +14,12 @@
 		<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\cavalry\spahi\spahi_horse_standard</file>
+							<file>units\cavalry\spahi\spahi_horse_veteran</file>
 						</assetreference>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
-							<file>units\cavalry\spahi\lp_spahi_horse_standard</file>
+							<file>units\cavalry\spahi\lp_spahi_horse_veteran</file>
 						</assetreference>
 					</lowpoly>
 		</logic>

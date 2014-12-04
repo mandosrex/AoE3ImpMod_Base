@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		hats
+		<assetreference type="GrannyModel">
+			<file>units\infantry_ranged\skirmisher\skirmisher_4age_hat</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>hats</component>
+	</anim>
+</animfile>

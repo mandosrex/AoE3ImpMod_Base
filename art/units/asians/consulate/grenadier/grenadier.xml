@@ -47,7 +47,20 @@
 	</attachment>
 	<attachment>
 		hats
-		<include>units\asians\consulate\grenadier\grenadier_hats.xml</include>
+		<component>
+			hats
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\grenadier\grenadier_age4_hat</file>
+					<replacetexture>
+						<from>units\infantry_ranged\grenadier\grenadier_age4</from>
+						<to>units\infantry_ranged\grenadier\grenadier_imperial</to>
+					</replacetexture>
+				</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>hats</component>
+		</anim>
 	</attachment>
 	<attachment>
 		pouch

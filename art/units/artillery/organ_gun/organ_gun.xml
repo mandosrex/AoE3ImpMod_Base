@@ -69,7 +69,7 @@
 						</replacetexture>
 						</assetreference>
 					</rabauld>
-					<imperialrabaulds>
+					<imperialrabaulds2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\organ_gun\organ_gun</file>
 						<replacetexture>
@@ -78,7 +78,7 @@
 						</replacetexture>
 						</assetreference>
 						<attach a="hat" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-					</imperialrabaulds>
+					</imperialrabaulds2>
 				</logic>
 		<decal>
 			<effecttype>default</effecttype>

@@ -36,8 +36,21 @@
 		</anim>
 	</attachment>
 	<attachment>
-		hats
-		<include>units\artillery\falconet\gunner_hats.xml</include>
+	hats
+	<component>
+		gunner_hats
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</none>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>gunner_hats</component>
+	</anim>
 	</attachment>
 	<component>
 		falconet
@@ -71,13 +84,10 @@
 					<fieldgun>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\falconet\falconet</file>
-							<replacetexture>
-								<from>units\artillery\falconet\falconet</from>
-								<to>units\artillery\falconet\fieldgun</to>
-							</replacetexture>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 					</fieldgun>
-					<imperialfieldgun>
+					<imperialfieldgun2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\falconet\falconet</file>
 							<replacetexture>
@@ -86,7 +96,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-					</imperialfieldgun>
+					</imperialfieldgun2>
 				</logic>
 		<decal>
 			<effecttype>default</effecttype>

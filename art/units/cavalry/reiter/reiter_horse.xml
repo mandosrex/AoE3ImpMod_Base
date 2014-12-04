@@ -17,31 +17,17 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\cavalry\reiter\rieter_age2_horse</file>
+							<file>units\cavalry\reiter\rieter_age3_horse</file>
 						</assetreference>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
-							<file>units\cavalry\reiter\lp_rieter_age2_horse</file>
+							<file>units\cavalry\reiter\lp_rieter_age3_horse</file>
 						</assetreference>
 					</lowpoly>
 				</logic>
 			</none>
 			<veteranruytersshadow>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>units\cavalry\reiter\rieter_age2_horse</file>
-						</assetreference>
-					</normal>
-					<lowpoly>
-						<assetreference type="GrannyModel">
-							<file>units\cavalry\reiter\lp_rieter_age2_horse</file>
-						</assetreference>
-					</lowpoly>
-				</logic>
-			</veteranruytersshadow>
-			<guardruyters>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -54,8 +40,8 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</guardruyters>
-			<imperialcarabineer>
+			</veteranruytersshadow>
+			<guardruyters>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -68,7 +54,21 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</imperialcarabineer>
+			</guardruyters>
+			<imperialcarabineer2>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\reiter\rieter_age4_horse</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\reiter\lp_rieter_age4_horse</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</imperialcarabineer2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

@@ -20,12 +20,12 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\cavalry\lancer\lancer_2age_rider</file>
+							<file>units\cavalry\lancer\lancer_3age_rider</file>
 						</assetreference>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
-							<file>units\cavalry\lancer\lp_lancer_2age_rider</file>
+							<file>units\cavalry\lancer\lp_lancer_3age_rider</file>
 						</assetreference>
 					</lowpoly>
 				</logic>
@@ -34,12 +34,12 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\cavalry\lancer\lancer_3age_rider</file>
+							<file>units\cavalry\lancer\lancer_4age_rider</file>
 						</assetreference>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
-							<file>units\cavalry\lancer\lp_lancer_3age_rider</file>
+							<file>units\cavalry\lancer\lp_lancer_4age_rider</file>
 						</assetreference>
 					</lowpoly>
 				</logic>

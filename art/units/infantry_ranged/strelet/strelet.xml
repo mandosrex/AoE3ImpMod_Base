@@ -59,22 +59,7 @@
 	<component>
 		ModelComp
 		<logic type="Tech">
-			<data>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\strelet\strelet_age1</file>
-						</assetreference>
-						<attach a="musket" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
-					</normal>
-					<lowpoly>
-						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\strelet\lp_strelet_1age</file>
-						</assetreference>
-					</lowpoly>
-				</logic>
-			</data>
-			<veteranstrelets>
+			<none>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -88,8 +73,8 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</veteranstrelets>
-			<guardstrelets>
+			</none>
+			<veteranstrelets>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -103,8 +88,8 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</guardstrelets>
-			<imperialstrelets>
+			</veteranstrelets>
+			<guardstrelets>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -118,7 +103,22 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</imperialstrelets>
+			</guardstrelets>
+			<imperialstrelets2>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\infantry_ranged\strelet\strelet_age4</file>
+						</assetreference>
+						<attach a="musket" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\infantry_ranged\strelet\lp_strelet_4age</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</imperialstrelets2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

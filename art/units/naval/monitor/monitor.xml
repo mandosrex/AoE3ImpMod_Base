@@ -180,7 +180,7 @@
 							</ottomans>
 						</logic>
 			</none>
-			<imperialmonitors>
+			<imperialmonitors2>
 						<logic type="Civ">
 							<none>
 								<logic type="Destruction">
@@ -243,7 +243,7 @@
 								</logic>
 							</ottomans>
 						</logic>
-			</imperialmonitors>
+			</imperialmonitors2>
 			<imperialmonitorsus>
 						<logic type="Civ">
 							<none>
@@ -308,7 +308,7 @@
 							</ottomans>
 						</logic>
 			</imperialmonitorsus>
-			<ypimperialmonitors>
+			<ypimperialmonitors2>
 						<logic type="Civ">
 							<none>
 								<logic type="Destruction">
@@ -371,7 +371,7 @@
 								</logic>
 							</ottomans>
 						</logic>
-			</ypimperialmonitors>
+			</ypimperialmonitors2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

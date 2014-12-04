@@ -24,10 +24,6 @@
 					<normal>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\cacadore\cacadore_2age</file>
-					<replacetexture>
-						<from>units\infantry_ranged\cacadore\cacadore_2age</from>
-						<to>units\infantry_ranged\cacadore\cacadore_1age</to>
-					</replacetexture>
 						</assetreference>
 						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
 					</normal>
@@ -43,10 +39,6 @@
 					<normal>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\cacadore\cacadore_4age</file>
-					<replacetexture>
-						<from>units\infantry_ranged\cacadore\cacadore_4age</from>
-						<to>units\infantry_ranged\cacadore\cacadore_2age</to>
-					</replacetexture>
 						</assetreference>
 						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
 						<attach a="backpack" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
@@ -58,22 +50,6 @@
 					</lowpoly>
 				</logic>
 			</guardcacadores>
-			<imperialcacadores>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\cacadore\cacadore_4age</file>
-						</assetreference>
-						<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
-						<attach a="backpack" frombone="bone_backpack" tobone="SPINE1" syncanims="0"/>
-					</normal>
-					<lowpoly>
-						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\cacadore\lp_cacadore_4age</file>
-						</assetreference>
-					</lowpoly>
-				</logic>
-			</imperialcacadores>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

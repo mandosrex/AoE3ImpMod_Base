@@ -84,7 +84,7 @@
 					</lowpoly>
 				</logic>
 			</RGLifeGuardHussars>
-			<RGGendarmes>
+			<RGRoyalHussar>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -97,7 +97,7 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</RGGendarmes>
+			</RGRoyalHussar>
 		</logic>
 	</component>
 	<anim>

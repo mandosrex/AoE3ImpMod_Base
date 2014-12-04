@@ -38,37 +38,19 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\crossbow\crossbow_1age</file>
-						</assetreference>
-						<attach a="crossbows" frombone="bone_crossbow" tobone="BIP01 PROP1" syncanims="0"/>
-					</normal>
-					<lowpoly>
-						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\crossbow\lp_crossbow_1age</file>
-						</assetreference>
-						<attach a="crossbows" frombone="bone_crossbow" tobone="BIP01 PROP1" syncanims="0"/>						
-					</lowpoly>
-				</logic>
-			</none>
-			<veterancrossbowmen>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\crossbow\crossbow_2age</file>
 						</assetreference>
-						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 						<attach a="crossbows" frombone="bone_crossbow" tobone="BIP01 PROP1" syncanims="0"/>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\crossbow\lp_crossbow_2age</file>
 						</assetreference>
-						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 						<attach a="crossbows" frombone="bone_crossbow" tobone="BIP01 PROP1" syncanims="0"/>						
 					</lowpoly>
 				</logic>
-			</veterancrossbowmen>
-			<guardcrossbowmen>
+			</none>
+			<veterancrossbowmen>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -80,6 +62,24 @@
 					<lowpoly>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\crossbow\lp_crossbow_3age</file>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+						<attach a="crossbows" frombone="bone_crossbow" tobone="BIP01 PROP1" syncanims="0"/>						
+					</lowpoly>
+				</logic>
+			</veterancrossbowmen>
+			<guardcrossbowmen>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\infantry_ranged\crossbow\crossbow_4age</file>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+						<attach a="crossbows" frombone="bone_crossbow" tobone="BIP01 PROP1" syncanims="0"/>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\infantry_ranged\crossbow\lp_crossbow_4age</file>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 						<attach a="crossbows" frombone="bone_crossbow" tobone="BIP01 PROP1" syncanims="0"/>						

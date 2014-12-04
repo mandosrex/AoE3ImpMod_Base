@@ -32,7 +32,7 @@
 						</assetreference>
 						<attach a="sword" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
 			</guarddopplesoldners>
-			<imperialdopplesoldner>
+			<imperialdopplesoldner2>
 						<assetreference type="GrannyModel">
 							<file>units\infantry\dopplesoldner\dopplesoldner_age3</file>
 							<replacetexture>
@@ -41,7 +41,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="sword" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
-			</imperialdopplesoldner>
+			</imperialdopplesoldner2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

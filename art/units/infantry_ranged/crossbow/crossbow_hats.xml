@@ -14,11 +14,11 @@
 					<file>units\infantry_ranged\crossbow\crossbow_3age_hat</file>
 				</assetreference>
 			</guardcrossbowmen>
-			<imperialcrossbowmen>
+			<imperialcrossbowmen2>
 				<assetreference type="GrannyModel">
 					<file>units\infantry_ranged\crossbow\crossbow_4age_hat</file>
 				</assetreference>
-			</imperialcrossbowmen>
+			</imperialcrossbowmen2>
 		</logic>
 	</component>
 	<anim>

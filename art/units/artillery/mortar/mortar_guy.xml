@@ -4,8 +4,21 @@
 	<definebone>bone_hat</definebone>
 	<definebone>Bip06 Head</definebone>
 	<attachment>
-		hat
-		<include>units\artillery\falconet\gunner_hats.xml</include>
+	hats
+	<component>
+		gunner_hats
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</none>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>gunner_hats</component>
+	</anim>
 	</attachment>
 	<component>
 		mortar_guy
@@ -21,7 +34,7 @@
 						<assetreference type="GrannyModel">
 							<file>units\artillery\mortar\mortar_guy</file>
 						</assetreference>
-						<attach a="hat" frombone="bone_hat" tobone="Bip06 Head" syncanims="0"/>
+						<attach a="hats" frombone="bone_hat" tobone="Bip06 Head" syncanims="0"/>
 					</howitzer>
 				</logic>
 			</normal>

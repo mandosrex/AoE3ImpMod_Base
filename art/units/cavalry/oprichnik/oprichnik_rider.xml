@@ -48,19 +48,19 @@
 		<logic type="Tech">
 			<none>
 				<assetreference type="GrannyModel">
-					<file>units\cavalry\oprichnik\oprichnik_1age_rider</file>
+					<file>units\cavalry\oprichnik\oprichnik_2age_rider</file>
 				</assetreference>
 			</none>
 			<guardoprichniks>
 				<assetreference type="GrannyModel">
-					<file>units\cavalry\oprichnik\oprichnik_2age_rider</file>
+					<file>units\cavalry\oprichnik\oprichnik_3age_rider</file>
 				</assetreference>
 			</guardoprichniks>
-			<imperialoprichniks>
+			<imperialoprichniks2>
 				<assetreference type="GrannyModel">
 					<file>units\cavalry\oprichnik\oprichnik_3age_rider</file>
 				</assetreference>
-			</imperialoprichniks>
+			</imperialoprichniks2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

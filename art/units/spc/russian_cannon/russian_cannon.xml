@@ -10,8 +10,25 @@
 	<definebone>Bip01 Head</definebone>
 	<definebone>Bip02 Head</definebone>
 	<attachment>
-		hats
-		<include>units\artillery\cannon\factory_hats.xml</include>
+	hats
+	<component>
+		gunner_hats
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\grenadier\grenadier_age3_hat</file>
+					<replacetexture>
+						<from>units\infantry_ranged\grenadier\grenadier_age3</from>
+						<to>units\artillery\cannon\hat2</to>
+					</replacetexture>
+				</assetreference>
+			</none>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>gunner_hats</component>
+	</anim>
 	</attachment>
 	<attachment>
 		Horse_Dust
@@ -198,11 +215,13 @@
 						<assetreference type="GrannyModel">
 							<file>units\spc\russian_cannon\russian_cannon</file>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"/>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
 							<file>units\spc\russian_cannon\lp_russian_cannon_guys</file>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"/>
 					</lowpoly>
 				</logic>
 			</none>

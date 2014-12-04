@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		sword
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\cavalry\light_cavalry\light_cavalry_sword_age01</file>
+				</assetreference>
+			</none>
+			<veteranhussars>
+				<assetreference type="GrannyModel">
+					<file>units\cavalry\light_cavalry\light_cavalry_sword_age02</file>
+				</assetreference>
+			</veteranhussars>
+			<guardhussars>
+				<assetreference type="GrannyModel">
+					<file>units\cavalry\light_cavalry\light_cavalry_sword_age02</file>
+				</assetreference>
+			</guardhussars>
+			<imperialhussars>
+				<assetreference type="GrannyModel">
+					<file>units\cavalry\light_cavalry\light_cavalry_sword_age03</file>
+				</assetreference>
+			</imperialhussars>
+			<imperiallifeguard>
+				<assetreference type="GrannyModel">
+					<file>units\cavalry\light_cavalry\light_cavalry_sword_age03</file>
+				</assetreference>
+			</imperiallifeguard>
+			<imperialRoyalHussar>
+				<assetreference type="GrannyModel">
+					<file>units\cavalry\light_cavalry\light_cavalry_sword_age03</file>
+				</assetreference>
+			</imperialRoyalHussar>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>sword</component>
+	</anim>
+</animfile>

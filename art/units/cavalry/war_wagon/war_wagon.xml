@@ -52,7 +52,7 @@
 							<file>units\cavalry\war_wagon\war_wagon_age2</file>
 						</assetreference>
 			</guardwarwagons>
-			<imperialwarwagons>
+			<imperialwarwagons2>
 						<assetreference type="GrannyModel">
 							<file>units\cavalry\war_wagon\war_wagon_age2</file>
 							<replacetexture>
@@ -60,7 +60,7 @@
 								<to>units\cavalry\war_wagon\war_wagon_age03</to>
 							</replacetexture>
 						</assetreference>
-			</imperialwarwagons>
+			</imperialwarwagons2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

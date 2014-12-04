@@ -21,14 +21,14 @@
 		<logic type="LowPoly">
 			<normal>
 				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\skirmisher\skirmisher_3age</file>
+					<file>units\infantry_ranged\skirmisher\skirmisher_4age</file>
 				</assetreference>
 				<attach a="guns" frombone="bone_gun" tobone="BIP01 PROP1" syncanims="0"/>
 				<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 			</normal>
 			<lowpoly>
 				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\skirmisher\lp_skirmisher_3age</file>
+					<file>units\infantry_ranged\skirmisher\lp_skirmisher_4age</file>
 				</assetreference>
 			</lowpoly>
 		</logic>

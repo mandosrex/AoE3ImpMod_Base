@@ -18,20 +18,6 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\cavalry\cossack\cossack_1age_rider</file>
-						</assetreference>
-					</normal>
-					<lowpoly>
-						<assetreference type="GrannyModel">
-							<file>units\cavalry\cossack\lp_cossack_1age_rider</file>
-						</assetreference>
-					</lowpoly>
-				</logic>
-			</none>
-			<veterancossacks>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
 							<file>units\cavalry\cossack\cossack_2age_rider</file>
 						</assetreference>
 					</normal>
@@ -41,8 +27,8 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</veterancossacks>
-			<guardcossacks>
+			</none>
+			<veterancossacks>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -55,8 +41,8 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</guardcossacks>
-			<imperialcossack>
+			</veterancossacks>
+			<guardcossacks>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -69,7 +55,21 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</imperialcossack>
+			</guardcossacks>
+			<imperialcossack2>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\cossack\cossack_4age_rider</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\cossack\lp_cossack_4age_rider</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</imperialcossack2>
 		</logic>
 	</component>
 	<anim>
