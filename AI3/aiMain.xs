@@ -4461,7 +4461,7 @@ int chooseRevolutionary(bool emergency = false)
          }
          if (emergency == true)
          {
-            politician = cTechXPRevolutionOHiggins;
+            politician = cTechXPRevolutionSantander;
          }
          break;
       }
@@ -7083,28 +7083,10 @@ minInterval 30
       xsDisableSelf();
       return;
    }
-   int SPCCherokeeWarHut = getUnit(cUnitTypeSPCCherokeeWarHut, cMyID, cUnitStateAlive);
-   if (SPCCherokeeWarHut >= 0)
+   int NativeEmbassyN = getUnit(cUnitTypeNativeEmbassyN, cMyID, cUnitStateAlive);
+   if (NativeEmbassyN >= 0)
    {
-      createSimpleResearchPlan(cTechConSupport,SPCCherokeeWarHut,cEconomyEscrowID, 80);
-      xsDisableSelf();
-	
-   }
-}
-
-rule upgradetowagon
-inactive
-minInterval 30
-{
-   if (kbTechGetStatus(cTechSATradeRouteUpgrade1) == cTechStatusActive)
-   {
-      xsDisableSelf();
-      return;
-   }
-   int TradingPost = getUnit(cUnitTypeTradingPost, cMyID, cUnitStateAlive);
-   if (TradingPost >= 0)
-   {
-      createSimpleResearchPlan(cTechSATradeRouteUpgrade1,TradingPost,cEconomyEscrowID, 80);
+      createSimpleResearchPlan(cTechConSupport,NativeEmbassyN,cEconomyEscrowID, 80);
       xsDisableSelf();
 	
    }
@@ -11114,28 +11096,6 @@ minInterval 3
          aiEcho("Starting a new market build plan.");
       }   
    }
-
-   // At least two banks for french and british (not for natives or Asians)
-   if ((civIsNative() == false) && (civIsAsian() == false))
-   {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeBankE);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeBankE, cUnitStateAlive) < 1) )
-      {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeBankE, 1, 90, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
-         aiEcho("Starting a new bank build plan.");
-      }
-   }
-
-   // At least two lumber camps for spanish, portuguese and ottomans (not for natives or Asians)
-   if ((civIsNative() == false) && (civIsAsian() == false))
-   {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeSPCXPMiningCamp);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeSPCXPMiningCamp, cUnitStateAlive) < 1) )
-      {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeSPCXPMiningCamp, 1, 90, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
-         aiEcho("Starting a new lumber camp build plan.");
-      }
-   }
    
    // If Russian, at least 1 block house
 	if (kbGetCiv() == cCivRussians)
@@ -11282,26 +11242,6 @@ minInterval 3
       }
    }
 
-   // At least one university (Asians only)
-   if (civIsAsian() == true) {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeUniversityA);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeUniversityA, cUnitStateAlive) < 1) )
-      {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeUniversityA, 1, 60, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
-         aiEcho("Starting a new university build plan.");
-      }
-   }
-
-   // At least one university indian (Asians only)
-   if (civIsAsian() == true) {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeUniversityI);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeUniversityI, cUnitStateAlive) < 1) )
-      {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeUniversityI, 1, 60, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
-         aiEcho("Starting a new university build plan.");
-      }
-   }
-
    // At least one native embassy (natives only)
    if (civIsNative() == true) {
       planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeNativeEmbassyN);
@@ -11312,16 +11252,6 @@ minInterval 3
       }
     }
 
-   // At least one council's hut (natives only)
-   if (civIsNative() == true) {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeSPCCherokeeWarHut);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeSPCCherokeeWarHut, cUnitStateAlive) < 1) )
-      {     // Start a new one
-        createSimpleBuildPlan(cUnitTypeSPCCherokeeWarHut, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
-        aiEcho("Starting a new council's hut build plan.");
-      }
-    }
-
    // At least one livestock pen (natives only)
    if (civIsNative() == true) {
       planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeLivestockPen);
@@ -11329,16 +11259,6 @@ minInterval 3
       {     // Start a new one
         createSimpleBuildPlan(cUnitTypeLivestockPen, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
         aiEcho("Starting a new livestock pen build plan.");
-      }
-    }
-
-   // At least one high temple (natives only)
-   if (civIsNative() == true) {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeSPCAztecTemple);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeSPCAztecTemple, cUnitStateAlive) < 1) )
-      {     // Start a new one
-        createSimpleBuildPlan(cUnitTypeSPCAztecTemple, 1, 60, false, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
-        aiEcho("Starting a new high temple build plan.");
       }
     }
 

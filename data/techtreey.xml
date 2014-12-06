@@ -10876,11 +10876,10 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardSkirmishers</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='SetName' proto ='Skirmisher' culture ='none' newName ='31269'></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 		</Effects>
 	</Tech>
@@ -10899,9 +10898,9 @@
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>GuardCuirassiers</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
 			<Effect type ='SetName' proto ='Cuirassier' culture ='none' newName ='32333'></Effect>
 		</Effects>
@@ -11466,11 +11465,10 @@
 			<TechStatus status ='Active'>VeteranMusketeers</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardMusketeers</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='SetName' proto ='Musketeer' culture ='none' newName ='32323'></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 		</Effects>
 	</Tech>
@@ -11631,11 +11629,10 @@
 			<TechStatus status ='Active'>VeteranGrenadiers</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardGrenadiers</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 			<Effect type ='SetName' proto ='Grenadier' culture ='none' newName ='32324'></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 		</Effects>
 	</Tech>
@@ -11653,11 +11650,10 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardSkirmishers</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='SetName' proto ='Skirmisher' culture ='none' newName ='37009'></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 		</Effects>
 	</Tech>
@@ -11677,10 +11673,9 @@
 			<TechStatus status ='Active'>VeteranHussars</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardHussars</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
 			<Effect type ='SetName' proto ='Hussar' culture ='none' newName ='36999'></Effect>
 		</Effects>
@@ -11701,10 +11696,9 @@
 			<TechStatus status ='Active'>VeteranHussars</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardHussars</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
 			<Effect type ='SetName' proto ='Hussar' culture ='none' newName ='780881'></Effect>
 		</Effects>
@@ -11766,10 +11760,9 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardLancers</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Lancer</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Lancer</Target></Effect>
 			<Effect type ='SetName' proto ='Lancer' culture ='none' newName ='36188'></Effect>
 		</Effects>
@@ -11883,11 +11876,10 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardHalberdiers</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
 			<Effect type ='SetName' proto ='Halberdier' culture ='none' newName ='36292'></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
 		</Effects>
 	</Tech>
@@ -11943,10 +11935,9 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardRuyters</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Ruyter</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Ruyter</Target></Effect>
 			<Effect type ='SetName' proto ='Ruyter' culture ='none' newName ='36214'></Effect>
 		</Effects>
@@ -12011,10 +12002,9 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardDragoons</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
 			<Effect type ='SetName' proto ='Dragoon' culture ='none' newName ='32329'></Effect>
 		</Effects>
@@ -12063,11 +12053,10 @@
 			<TechStatus status ='Active'>VeteranHussars</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardHussars</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
 			<Effect type ='SetName' proto ='Hussar' culture ='none' newName ='32326'></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
 		</Effects>
 	</Tech>
@@ -12203,10 +12192,9 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardCavalryArchers</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 			<Effect type ='SetName' proto ='CavalryArcher' culture ='none' newName ='32334'></Effect>
 		</Effects>
@@ -12227,10 +12215,9 @@
 			<TechStatus status ='Active'>VeteranGrenadiers</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardGrenadiers</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 			<Effect type ='SetName' proto ='Grenadier' culture ='none' newName ='32319'></Effect>
 		</Effects>
@@ -13219,10 +13206,9 @@
 			<TechStatus status ='Active'>VeteranPikemen</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardPikemen</Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.45' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.45' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
 			<Effect type ='SetName' proto ='Pikeman' culture ='none' newName ='38288'></Effect>
 		</Effects>
@@ -13468,10 +13454,9 @@
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardUhlans</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Uhlan</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Uhlan</Target></Effect>
 			<Effect type ='SetName' proto ='Uhlan' culture ='none' newName ='32337'></Effect>
 		</Effects>
@@ -13797,10 +13782,9 @@
 			<TechStatus status ='Active'>VeteranMusketeers</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardMusketeers</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='SetName' proto ='Musketeer' culture ='none' newName ='32322'></Effect>
 		</Effects>
@@ -14276,7 +14260,7 @@
 			<Effect type ='TechStatus' status ='active'>GuardDragoons</Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionHidalgo</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBolivar</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSantander</Effect>
 		</Effects>
 	</Tech>
@@ -14412,7 +14396,7 @@
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionOHiggins</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBolivar</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionHidalgo</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ColonializeGerman' type ='Normal'>
@@ -14438,7 +14422,7 @@
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionSanMartin</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionHidalgo</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBolivar</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializePortuguese' type ='Normal'>
@@ -14454,7 +14438,7 @@
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>Crackshot</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBolivar</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionHidalgo</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBonifacio</Effect>
 		</Effects>
 	</Tech>
@@ -14625,7 +14609,6 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
-			<TechStatus status ='Active'>GuardGrenadiers</TechStatus>
 			<TechStatus status ='Active'>RGBaratcuCorps</TechStatus>
 		</Prereqs>
 		<Effects>
@@ -14648,7 +14631,6 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>GuardRuyters</TechStatus>
 			<TechStatus status ='Active'>RGCarabineer</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 		</Prereqs>
@@ -14674,7 +14656,6 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>RGGardener</TechStatus>
-			<TechStatus status ='Active'>GuardHussars</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
@@ -14696,7 +14677,6 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>GuardDragoons</TechStatus>
 			<TechStatus status ='Active'>RGJinetes</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 		</Prereqs>
@@ -14722,7 +14702,6 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>RGNassausLinearTactics</TechStatus>
-			<TechStatus status ='Active'>GuardHalberdiers</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
@@ -14744,7 +14723,6 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>GuardMusketeers</TechStatus>
 			<TechStatus status ='Active'>RGRedcoats</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 		</Prereqs>
@@ -14791,7 +14769,6 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>GuardCavalryArchers</TechStatus>
 			<TechStatus status ='Active'>RGTartarLoyalists</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 		</Prereqs>
@@ -14816,7 +14793,6 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
-			<TechStatus status ='Active'>GuardSkirmishers</TechStatus>
 			<TechStatus status ='Active'>RGVoltigeur</TechStatus>
 		</Prereqs>
 		<Effects>
@@ -15159,7 +15135,6 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
-			<TechStatus status ='Active'>GuardUhlans</TechStatus>
 			<TechStatus status ='Active'>RGCzapkaUhlans</TechStatus>
 		</Prereqs>
 		<Effects>
@@ -15252,7 +15227,6 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
-			<TechStatus status ='Active'>GuardHussars</TechStatus>
 			<TechStatus status ='Active'>RGLifeGuardHussars</TechStatus>
 		</Prereqs>
 		<Effects>
@@ -15276,7 +15250,6 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
-			<TechStatus status ='Active'>GuardHussars</TechStatus>
 			<TechStatus status ='Active'>RGRoyalHussar</TechStatus>
 		</Prereqs>
 		<Effects>
@@ -15299,7 +15272,6 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>GuardMusketeers</TechStatus>
 			<TechStatus status ='Active'>RGGuerreiros</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 		</Prereqs>
@@ -15325,7 +15297,6 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>RGPavlovGrenadiers</TechStatus>
-			<TechStatus status ='Active'>GuardGrenadiers</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
@@ -18946,10 +18917,9 @@
 			<TechStatus status ='Active'>VeteranRodeleros</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>GuardRodeleros</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Rodelero</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Rodelero</Target></Effect>
 			<Effect type ='SetName' proto ='Rodelero' culture ='none' newName ='36186'></Effect>
 		</Effects>
@@ -19569,7 +19539,6 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>GuardRodeleros</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>RGEspadachins</TechStatus>
 		</Prereqs>
@@ -26148,7 +26117,6 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>RGPrussianNeedleGun</TechStatus>
-			<TechStatus status ='Active'>GuardSkirmishers</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
