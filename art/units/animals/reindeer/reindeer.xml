@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_fx1</definebone>
+	<attachment>
+		noseFX
+		<component>
+			emitter
+			<assetreference type="ParticleSystem">
+				<file>effects\animal particles\rudolph_nose.particle</file>
+			</assetreference>
+		</component>
+		<anim>
+			None
+			<component>emitter</component>
+		</anim>
+	</attachment>
+	<component>
+		ModelComp
+		<assetreference type="GrannyModel">
+			<file>units\animals\reindeer\reindeer</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_64x64</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>0.75</width>
+			<height>1.25</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_idleA</file>
+			<weight>60</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_boreda</file>
+			<weight>15</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_boredb</file>
+			<weight>15</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="noseFX" frombone="ATTACHPOINT" tobone="bone_fx1" syncanims="0"/>
+	</anim>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_walka</file>
+			<tag type="FootstepLeft">0.30</tag>
+			<tag type="FootstepRight">0.80</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="noseFX" frombone="ATTACHPOINT" tobone="bone_fx1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_deathA</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.71</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_deathB</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.30</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		LayDown
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_feed_in_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_feed_in_B</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="noseFX" frombone="ATTACHPOINT" tobone="bone_fx1" syncanims="0"/>
+	</anim>
+	<anim>
+		LayDownIdle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_feed_idle_A</file>
+			<weight>5</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_feed_idle_B</file>
+			<weight>30</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_feed_idle_C</file>
+			<weight>30</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_feed_idle_D</file>
+			<weight>30</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="noseFX" frombone="ATTACHPOINT" tobone="bone_fx1" syncanims="0"/>
+	</anim>
+	<anim>
+		GetUp
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_feed_out_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_feed_out_B</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="noseFX" frombone="ATTACHPOINT" tobone="bone_fx1" syncanims="0"/>
+	</anim>
+	<anim>
+		LayDownBored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_feed_idle_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_feed_idle_B</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="noseFX" frombone="ATTACHPOINT" tobone="bone_fx1" syncanims="0"/>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_runa</file>
+			<weight>70</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\deer_jumpa</file>
+			<weight>30</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="noseFX" frombone="ATTACHPOINT" tobone="bone_fx1" syncanims="0"/>
+	</anim>
+</animfile>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		treasure
+		<assetreference type="GrannyModel">
+			<file>buildings\props_colony\christmas_gifts\gift_coin</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
+			<width>3.00</width>
+			<height>3.00</height>
+		</decal>
+	</component>
+	<anim>
+		Idle
+		<component>treasure</component>
+	</anim>
+</animfile>

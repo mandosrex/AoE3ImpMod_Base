@@ -1850,7 +1850,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChurchStandingArmy</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchGasLighting</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>FrontierTraining</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GreatCoat</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>LogFlume</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Bookkeeping</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ArtificialFertilizer</Effect>
@@ -1953,7 +1952,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChurchStandingArmy</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchGasLighting</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>FrontierTraining</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GreatCoat</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>LogFlume</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Bookkeeping</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ArtificialFertilizer</Effect>
@@ -2067,7 +2065,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChurchStandingArmy</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchGasLighting</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>FrontierTraining</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GreatCoat</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>LogFlume</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Bookkeeping</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ArtificialFertilizer</Effect>
@@ -2172,7 +2169,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChurchStandingArmy</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchGasLighting</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>FrontierTraining</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GreatCoat</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>LogFlume</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Bookkeeping</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ArtificialFertilizer</Effect>
@@ -2277,7 +2273,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChurchStandingArmy</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchGasLighting</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>FrontierTraining</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GreatCoat</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>LogFlume</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Bookkeeping</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ArtificialFertilizer</Effect>
@@ -2383,7 +2378,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChurchStandingArmy</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchGasLighting</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>FrontierTraining</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GreatCoat</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>LogFlume</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Bookkeeping</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ArtificialFertilizer</Effect>
@@ -14189,6 +14183,8 @@
 				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Outpost' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='TownGuard' type ='Normal'>
@@ -14205,10 +14201,6 @@
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' action ='RangedAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>HuariStronghold</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>HuariStronghold</Target></Effect>
-			<Effect type ='Data' action ='RangedAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Lookout</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Lookout</Target></Effect>
@@ -14216,10 +14208,10 @@
 				<Target type ='ProtoUnit'>ypOutpostAsian</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypOutpostAsian</Target></Effect>
-			<Effect type ='Data' action ='RangedAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>GuardTower</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>GuardTower</Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypOutpostAsian</Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Lookout</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortifiedOutpost' type ='Normal'>
@@ -14246,6 +14238,8 @@
 				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Outpost' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeRussian' type ='Normal'>
@@ -16199,6 +16193,8 @@
 			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Explorer</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>SpyglassE</Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Explorer</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImpImmigrants' type ='Normal'>
@@ -28339,6 +28335,8 @@
 			<Effect type ='SetName' proto ='WarHut' culture ='none' newName ='43612'></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='WarHut' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WarHut</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='StrongWarHut' type ='Normal'>
@@ -28361,6 +28359,8 @@
 				<Target type ='ProtoUnit'>WarHut</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='WarHut' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WarHut</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='BigWarHutLacrosse' type ='Normal'>
@@ -52352,6 +52352,10 @@
 				<Target type ='ProtoUnit'>ypCastle</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCastleI</Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypCastle</Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypCastleI</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypFortifiedCastle' type ='Normal'>
@@ -52387,6 +52391,10 @@
 				<Target type ='ProtoUnit'>ypCastleI</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='ypCastleI' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypCastle</Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypCastleI</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCSpawnLivestock1' type ='Normal'>

@@ -21518,8 +21518,7 @@ minInterval 180 // research to be started 3 minutes into Age 2
    }
    else
    {
-      if ((kbTechGetStatus(cTechGreatCoat) == cTechStatusActive) &&
-          (kbTechGetStatus(cTechBlunderbuss) == cTechStatusActive))
+      if (kbTechGetStatus(cTechFrontierTraining) == cTechStatusActive)
       {
          xsDisableSelf();
          return;
@@ -21543,20 +21542,12 @@ minInterval 180 // research to be started 3 minutes into Age 2
       createSimpleResearchPlan(cTechypMarketSpiritMedicine, getUnit(cUnitTypeypTradeMarketAsian), cEconomyEscrowID, 50);
       return;
    }
-   if (kbTechGetStatus(cTechGreatCoat) == cTechStatusObtainable)
+   if (kbTechGetStatus(cTechFrontierTraining) == cTechStatusObtainable)
    {
-      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechGreatCoat);
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechFrontierTraining);
       if (upgradePlanID >= 0)
          aiPlanDestroy(upgradePlanID);
-      createSimpleResearchPlan(cTechGreatCoat, getUnit(cUnitTypeMarket), cEconomyEscrowID, 50);
-      return;
-   }
-   if (kbTechGetStatus(cTechBlunderbuss) == cTechStatusObtainable)
-   {
-      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechBlunderbuss);
-      if (upgradePlanID >= 0)
-         aiPlanDestroy(upgradePlanID);
-      createSimpleResearchPlan(cTechBlunderbuss, getUnit(cUnitTypeMarket), cEconomyEscrowID, 50);
+      createSimpleResearchPlan(cTechFrontierTraining, getUnit(cUnitTypeMarket), cEconomyEscrowID, 50);
       return;
    }
 }
