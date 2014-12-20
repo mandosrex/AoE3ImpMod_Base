@@ -15,19 +15,6 @@
 		<logic type="Tech">
 			<none>
 						<assetreference type="GrannyModel">
-							<file>units\spc\outlaws\outlaw_horse</file>
-								<replacetexture>
-									<from>units\spc\outlaws\outlaw_horse</from>
-									<to>units\cavalry\mounted_rifleman\horse2</to>
-								</replacetexture>
-								<replacetexture>
-									<from>units\spc\outlaws\outlaw_horse_b</from>
-									<to>units\cavalry\mounted_rifleman\horse2_b</to>
-								</replacetexture>
-						</assetreference>
-			</none>
-			<guardmountedriflemen>
-						<assetreference type="GrannyModel">
 							<file>units\cavalry\light_cavalry\light_cavalry_age3_horse</file>
 								<replacetexture>
 									<from>units\cavalry\light_cavalry\light_cavalry_age3_horse</from>
@@ -38,8 +25,8 @@
 									<to>units\cavalry\mounted_rifleman\horse3_b</to>
 								</replacetexture>
 						</assetreference>
-			</guardmountedriflemen>
-			<imperialmountedriflemen>
+			</none>
+			<guardmountedriflemen>
 						<assetreference type="GrannyModel">
 							<file>units\cavalry\light_cavalry\light_cavalry_age3_horse</file>
 								<replacetexture>
@@ -51,7 +38,7 @@
 									<to>units\cavalry\mounted_rifleman\horse4_b</to>
 								</replacetexture>
 						</assetreference>
-			</imperialmountedriflemen>
+			</guardmountedriflemen>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

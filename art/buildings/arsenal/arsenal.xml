@@ -388,6 +388,7 @@
 				<effecttype>bump</effecttype>
 				<texture>buildings\arsenal\west\age_3\West Arsenal Ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>9.55</width>
 				<height>9.55</height>
 				<xoffset>0.50</xoffset>

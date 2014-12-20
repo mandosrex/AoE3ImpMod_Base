@@ -87,20 +87,6 @@
 			<none>
 						<assetreference type="GrannyModel">
 							<file>units\cavalry\uhlan\uhlan_age01_rider</file>
-							<replacetexture>
-								<from>units\cavalry\uhlan\uhlan_age01</from>
-								<to>units\cavalry\saber\rider2</to>
-							</replacetexture>
-							<replacetexture>
-								<from>units\cavalry\uhlan\uhlan_age01_b</from>
-								<to>units\cavalry\saber\rider2_b</to>
-							</replacetexture>
-						</assetreference>
-						<attach a="hat3" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-			</none>
-			<veteransabers>
-						<assetreference type="GrannyModel">
-							<file>units\cavalry\uhlan\uhlan_age01_rider</file>
 								<replacetexture>
 									<from>units\cavalry\uhlan\uhlan_age01</from>
 									<to>units\cavalry\saber\rider</to>
@@ -111,6 +97,20 @@
 								</replacetexture>
 						</assetreference>
 						<attach a="hat2" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+			</none>
+			<veteransabers>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\uhlan\uhlan_age01_rider</file>
+							<replacetexture>
+								<from>units\cavalry\uhlan\uhlan_age01</from>
+								<to>units\cavalry\saber\rider2</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\cavalry\uhlan\uhlan_age01_b</from>
+								<to>units\cavalry\saber\rider2_b</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="hat3" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 			</veteransabers>
 		</logic>
 		<decal>

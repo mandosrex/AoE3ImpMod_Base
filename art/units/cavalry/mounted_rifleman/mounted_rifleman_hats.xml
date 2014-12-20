@@ -17,11 +17,6 @@
 					</replacetexture>
 				</assetreference>
 			</none>
-			<guardmountedriflemen>
-				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\skirmisher\skirmisher_3age_hat</file>
-				</assetreference>
-			</guardmountedriflemen>
 		</logic>
 	</component>
 	<anim>

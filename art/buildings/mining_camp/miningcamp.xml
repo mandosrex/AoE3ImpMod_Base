@@ -40,9 +40,10 @@
 								</replacetexture>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\shelter\shelter_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -64,9 +65,10 @@
 								</replacetexture>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\shelter\shelter_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -88,9 +90,10 @@
 								</replacetexture>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\shelter\shelter_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>
@@ -182,9 +185,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\shelter\shelter_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>10.00</width>
 				<height>10.00</height>
 			</decal>

@@ -9446,9 +9446,9 @@ minInterval 10
    int needToRoll = 100.0 * odds;  // Range -50 to +150
    if ( (aiRandInt(100) < needToRoll) && (cvOkToBuildWalls == true) )
    {
-      aiEcho("Decided to do walls.");
-      gBuildWalls = true;
-      xsEnableRule("delayWalls");   // Start walls once we have housing room
+      //aiEcho("Decided to do walls.");
+      //gBuildWalls = true;
+      //xsEnableRule("delayWalls");   // Start walls once we have housing room
    }
    
    if (gNumTowers < 0)

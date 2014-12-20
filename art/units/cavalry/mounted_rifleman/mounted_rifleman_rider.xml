@@ -39,20 +39,6 @@
 			</none>
 			<guardmountedriflemen>
 						<assetreference type="GrannyModel">
-							<file>units\cavalry\uhlan\uhlan_age01_rider</file>
-							<replacetexture>
-								<from>units\cavalry\uhlan\uhlan_age01</from>
-								<to>units\cavalry\mounted_rifleman\mounted_rifleman_3age</to>
-							</replacetexture>
-							<replacetexture>
-								<from>units\cavalry\uhlan\uhlan_age01_b</from>
-								<to>units\cavalry\mounted_rifleman\mounted_rifleman_3age_b</to>
-							</replacetexture>
-						</assetreference>
-						<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-			</guardmountedriflemen>
-			<imperialmountedriflemen>
-						<assetreference type="GrannyModel">
 							<file>units\cavalry\uhlan\uhlan_age04_rider</file>
 							<replacetexture>
 								<from>units\cavalry\uhlan\uhlan_age04</from>
@@ -63,7 +49,7 @@
 								<to>units\cavalry\mounted_rifleman\mounted_rifleman_4age_b</to>
 							</replacetexture>
 						</assetreference>
-			</imperialmountedriflemen>
+			</guardmountedriflemen>
 		</logic>
 	</component>
 	<anim>

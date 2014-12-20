@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <protounitsounddef>
-	<protounit name="xpGatlingGunJ">
+	<protounit name="xpGatlingGun">
 		<soundtype name="Select">
 			<civlogic>
 				<choice name="Nature"/>

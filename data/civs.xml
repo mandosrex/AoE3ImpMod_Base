@@ -7957,8 +7957,8 @@
 			<count>3</count>
 		</blocktrain>
 		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmyBritish1</multipleblockunit>
+			<building>SPCFortCenter</building>
+			<multipleblockunit>ypConsulateArmyBritish1US</multipleblockunit>
 			<units>
 				<unit>ypConsulateRedcoat</unit>
 			</units>
@@ -7967,66 +7967,8 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmyBritish2</multipleblockunit>
-			<units>
-				<unit>ypConsulateRedcoat</unit>
-			</units>
-			<units>
-				<unit>ypConsulateFalconet</unit>
-			</units>
-			<unitcounts>
-				<count>8</count>
-			</unitcounts>
-			<unitcounts>
-				<count>1</count>
-			</unitcounts>
-		</multipleblocktrain>
-		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmyBritish3</multipleblockunit>
-			<units>
-				<unit>ypConsulateLifeGuard</unit>
-			</units>
-			<units>
-				<unit>ypConsulateFalconet</unit>
-			</units>
-			<unitcounts>
-				<count>6</count>
-			</unitcounts>
-			<unitcounts>
-				<count>3</count>
-			</unitcounts>
-		</multipleblocktrain>
-		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmyFrench1</multipleblockunit>
-			<units>
-				<unit>ypConsulateYoungGarde</unit>
-			</units>
-			<unitcounts>
-				<count>4</count>
-			</unitcounts>
-		</multipleblocktrain>
-		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmyFrench2</multipleblockunit>
-			<units>
-				<unit>ypConsulateYoungGarde</unit>
-			</units>
-			<units>
-				<unit>ypConsulateGendarmes</unit>
-			</units>
-			<unitcounts>
-				<count>3</count>
-			</unitcounts>
-			<unitcounts>
-				<count>3</count>
-			</unitcounts>
-		</multipleblocktrain>
-		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmyFrench3</multipleblockunit>
+			<building>SPCFortCenter</building>
+			<multipleblockunit>ypConsulateArmyFrench3US</multipleblockunit>
 			<units>
 				<unit>ypConsulateHorseArtillery</unit>
 			</units>
@@ -8041,87 +7983,51 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmySpanish1</multipleblockunit>
+			<building>SPCFortCenter</building>
+			<multipleblockunit>ypConsulateArmyDutch2US</multipleblockunit>
 			<units>
-				<unit>ypConsulateTercio</unit>
+				<unit>ypConsulateCarabineer</unit>
+			</units>
+			<units>
+				<unit>ypConsulateStadhouders</unit>
 			</units>
 			<unitcounts>
 				<count>7</count>
 			</unitcounts>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmySpanish2</multipleblockunit>
+			<building>TownCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
-				<unit>ypConsulateTercio</unit>
+				<unit>Minuteman</unit>
 			</units>
 			<units>
-				<unit>SakerC</unit>
+				<unit>LevyMin</unit>
 			</units>
 			<unitcounts>
-				<count>10</count>
+				<count>6</count>
 			</unitcounts>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmySpanish3</multipleblockunit>
+			<building>Outpost</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
-				<unit>ypConsulateEspadachins</unit>
+				<unit>Minuteman</unit>
 			</units>
 			<units>
-				<unit>ypConsulateFalconet</unit>
-			</units>
-			<unitcounts>
-				<count>13</count>
-			</unitcounts>
-			<unitcounts>
-				<count>3</count>
-			</unitcounts>
-		</multipleblocktrain>
-		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmyPortuguese1</multipleblockunit>
-			<units>
-				<unit>ypConsulateBestieros</unit>
+				<unit>LevyMin</unit>
 			</units>
 			<unitcounts>
-				<count>7</count>
+				<count>6</count>
 			</unitcounts>
-		</multipleblocktrain>
-		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmyPortuguese2</multipleblockunit>
-			<units>
-				<unit>ypConsulateCulverin</unit>
-			</units>
-			<units>
-				<unit>ypConsulateBestieros</unit>
-			</units>
 			<unitcounts>
 				<count>1</count>
-			</unitcounts>
-			<unitcounts>
-				<count>10</count>
-			</unitcounts>
-		</multipleblocktrain>
-		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmyPortuguese3</multipleblockunit>
-			<units>
-				<unit>ypConsulateGuerreiros</unit>
-			</units>
-			<units>
-				<unit>ypConsulateCulverin</unit>
-			</units>
-			<unitcounts>
-				<count>13</count>
-			</unitcounts>
-			<unitcounts>
-				<count>3</count>
 			</unitcounts>
 		</multipleblocktrain>
 	</civ>

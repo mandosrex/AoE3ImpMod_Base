@@ -284,9 +284,9 @@
 		</logic>
 		<decal>
 			<effecttype>bump</effecttype>
-			<texture>buildings\native_civs\war_hut\az\az_war_hut_age2_decal</texture>
+			<texture>buildings\spc\aztec_temple\aztec_temple_ground</texture>
 			<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
-			<bumptexture>buildings\native_civs\war_hut\az\az_war_hut_age2_decal_bump</bumptexture>
+			<bumptexture>buildings\spc\aztec_temple\aztec_temple_ground_bumpmap</bumptexture>
 			<width>14.50</width>
 			<height>14.50</height>
 		</decal>

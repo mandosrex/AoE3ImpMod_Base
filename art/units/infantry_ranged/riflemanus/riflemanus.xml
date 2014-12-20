@@ -79,13 +79,6 @@
 				</assetreference>
 				<attach a="bag" frombone="bone_bag" tobone="PELVIS" syncanims="0"/>
 			</guardriflemenus>
-			<imperialriflemenus>
-				<assetreference type="GrannyModel">
-					<file>units\spc\major_cooper\spc_major_cooper</file>
-				</assetreference>
-				<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-				<attach a="bag" frombone="bone_bag" tobone="PELVIS" syncanims="0"/>
-			</imperialriflemenus>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
