@@ -35006,20 +35006,11 @@
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Ranching</Icon>
 		<RolloverTextID>780757</RolloverTextID>
-		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='obtainable'>SelectiveBreeding</Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='GathererLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>House</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='GathererLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Manor</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Sheep</Target></Effect>
-			<Effect type ='Data' amount ='99999.00' subtype ='InventoryAmount' resource ='Food' relativity ='Assign'>
-				<Target type ='ProtoUnit'>House</Target></Effect>
-			<Effect type ='Data' amount ='99999.00' subtype ='InventoryAmount' resource ='Food' relativity ='Assign'>
-				<Target type ='ProtoUnit'>Manor</Target></Effect>
 			<Effect type ='Data' action ='GatherHouse' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>
@@ -35032,20 +35023,11 @@
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Ranching</Icon>
 		<RolloverTextID>780757</RolloverTextID>
-		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='obtainable'>SelectiveBreeding</Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='GathererLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>HouseEast</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='GathererLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>House</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypGoat</Target></Effect>
-			<Effect type ='Data' amount ='99999.00' subtype ='InventoryAmount' resource ='Food' relativity ='Assign'>
-				<Target type ='ProtoUnit'>House</Target></Effect>
-			<Effect type ='Data' amount ='99999.00' subtype ='InventoryAmount' resource ='Food' relativity ='Assign'>
-				<Target type ='ProtoUnit'>HouseEast</Target></Effect>
 			<Effect type ='Data' action ='GatherHouse' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>
@@ -35058,20 +35040,11 @@
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Ranching</Icon>
 		<RolloverTextID>780757</RolloverTextID>
-		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='obtainable'>SelectiveBreeding</Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='GathererLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>HouseMed</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='GathererLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>House</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Cow</Target></Effect>
-			<Effect type ='Data' amount ='99999.00' subtype ='InventoryAmount' resource ='Food' relativity ='Assign'>
-				<Target type ='ProtoUnit'>House</Target></Effect>
-			<Effect type ='Data' amount ='99999.00' subtype ='InventoryAmount' resource ='Food' relativity ='Assign'>
-				<Target type ='ProtoUnit'>HouseMed</Target></Effect>
 			<Effect type ='Data' action ='GatherHouse' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>

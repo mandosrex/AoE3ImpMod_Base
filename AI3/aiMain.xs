@@ -1589,10 +1589,10 @@ void initArrays(void)
       xsArraySetString(gMapNames, 45, "silkRoadLarge");
 
    gTargetSettlerCounts = xsArrayCreateInt(cAge5+1, 0, "Target Settler Counts");
-      xsArraySetInt(gTargetSettlerCounts, cAge1, 20);
-      xsArraySetInt(gTargetSettlerCounts, cAge2, 45);
-      xsArraySetInt(gTargetSettlerCounts, cAge3, 65);
-      xsArraySetInt(gTargetSettlerCounts, cAge4, 80);
+      xsArraySetInt(gTargetSettlerCounts, cAge1, 25);
+      xsArraySetInt(gTargetSettlerCounts, cAge2, 50);
+      xsArraySetInt(gTargetSettlerCounts, cAge3, 70);
+      xsArraySetInt(gTargetSettlerCounts, cAge4, 90);
       xsArraySetInt(gTargetSettlerCounts, cAge5, 100);
 
 
@@ -7631,19 +7631,15 @@ void initEcon(void)
 
    if ( (kbGetCiv() == cCivBritish) || (kbGetCiv() == cCivXPSPC) || (kbGetCiv() == cCivSPCAct3))
       gHouseUnit = cUnitTypeManor;
-      gLivestockPenUnit = cUnitTypeManor;
    
    if ( (kbGetCiv() == cCivFrench) || (kbGetCiv() == cCivDutch) )
       gHouseUnit = cUnitTypeHouse;
-      gLivestockPenUnit = cUnitTypeHouse;
    
    if ( (kbGetCiv() == cCivGermans) || (kbGetCiv() == cCivTheCircle) || (kbGetCiv() == cCivRussians) )
       gHouseUnit = cUnitTypeHouseEast;
-      gLivestockPenUnit = cUnitTypeHouseEast;
    
    if ( (kbGetCiv() == cCivSpanish) || (kbGetCiv() == cCivPortuguese) || (kbGetCiv() == cCivOttomans) )
       gHouseUnit = cUnitTypeHouseMed;
-      gLivestockPenUnit = cUnitTypeHouseMed;
    
    if ( kbGetCiv() == cCivXPIroquois )
       gHouseUnit = cUnitTypeLonghouse;
@@ -8112,10 +8108,6 @@ void updateForecasts()
          // One town center
          if (kbUnitCount(cMyID, cUnitTypeTownCenter, cUnitStateABQ) < 1)
             addItemToForecasts(cUnitTypeTownCenter, 1);
-
-         // One mill
-         if (kbUnitCount(cMyID, cUnitTypeMill, cUnitStateABQ) < 1)
-            addItemToForecasts(cUnitTypeMill, 1);
 
          // Europeans - one saloon
          if ((civIsNative() == false) && (civIsAsian() == false))
@@ -11179,16 +11171,6 @@ minInterval 3
    }
    
    // Mill construction is handled in updateFoodBreakdown, do not build mills here
-   // At least one mill (not for natives or Asians)
-   if ((civIsNative() == false) && (civIsAsian() == false))
-   {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeMill);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeMill, cUnitStateAlive) < 1) )
-      {     // Start a new one
-         createSimpleBuildPlan(cUnitTypeMill, 1, 60, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
-         aiEcho("Starting a new mill build plan.");
-      }
-   }
    
    // Livestock pen if we own critters (Europeans and Indians only)
    int livestockMinimum = 6;
@@ -11617,13 +11599,13 @@ minInterval 20
    // Make sure no more than 25 units are assigned in total
    int want = -1;
    want = kbUnitCount(cMyID, gEconUnit, cUnitStateAlive) / 5;
-   if ((want*2 + numWarPriests) <= 25)
+   if ((want*2 + numWarPriests) <= 20)
    {
       aiPlanAddUnitType(gNativeDancePlan, gEconUnit, want/2, want, want*2);
    }
    else
    {
-      aiPlanAddUnitType(gNativeDancePlan, gEconUnit, want/2, want, (25-numWarPriests));
+      aiPlanAddUnitType(gNativeDancePlan, gEconUnit, want/2, want, (20-numWarPriests));
    }
    
    // Select a tactic 
@@ -20421,27 +20403,6 @@ minInterval 10
             aiPlanSetDesiredPriority(livestockPlan, 99);
             aiPlanAddUnitType(livestockPlan, cUnitTypeHerdable, 0, 100, 100);
             aiPlanSetVariableInt(livestockPlan, cHerdPlanBuildingTypeID, 0, gLivestockPenUnit);
-            aiPlanSetVariableFloat(livestockPlan, cHerdPlanDistance, 0, 0.0);
-            aiPlanSetActive(livestockPlan);
-         }
-      }
-      else
-      {
-         aiPlanDestroy(livestockPlan);  // Destroy plan to have it recreated with a new pen
-         livestockPlan = -1;
-      }
-   }
-   else // natives use second farm for livestock
-   {
-      if (kbUnitCount(cMyID, cUnitTypeFarm, cUnitStateAlive) > 1)
-      {
-         // Create herd plan
-         if (livestockPlan < 0)
-         {
-            livestockPlan = aiPlanCreate("Livestock Plan", cPlanHerd);
-            aiPlanSetDesiredPriority(livestockPlan, 99);
-            aiPlanAddUnitType(livestockPlan, cUnitTypeHerdable, 0, 100, 100);
-            aiPlanSetVariableInt(livestockPlan, cHerdPlanBuildingTypeID, 0, cUnitTypeFarm);
             aiPlanSetVariableFloat(livestockPlan, cHerdPlanDistance, 0, 0.0);
             aiPlanSetActive(livestockPlan);
          }
