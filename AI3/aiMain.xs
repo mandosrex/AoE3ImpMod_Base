@@ -8565,7 +8565,7 @@ void updateForecasts()
          
          // 3 houses
          if (cMyCiv != cCivXPSioux)
-            addItemToForecasts(gHouseUnit, 9);
+            addItemToForecasts(gHouseUnit, 12);
 
          // Ships and navy techs for water maps
          if (gNavyMode == cNavyModeActive)
@@ -9020,7 +9020,7 @@ void updateForecasts()
          }
          
          // 3 houses
-         addItemToForecasts(gHouseUnit, 12);   
+         addItemToForecasts(gHouseUnit, 15);   
                   
          // Ships for water maps
          if (gNavyMode == cNavyModeActive)
