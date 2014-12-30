@@ -49,28 +49,6 @@
 			<age>0</age>
 		</card>
 		<card>
-			<name>YPHCAdvancedConsulate</name>
-			<maxcount>1</maxcount>
-			<level>0</level>
-			<prereqtech>-1</prereqtech>
-			<age>0</age>
-		</card>
-		<card>
-			<name>YPHCConsulateRelations</name>
-			<maxcount>1</maxcount>
-			<level>10</level>
-			<prereqtech>YPHCAdvancedConsulate</prereqtech>
-			<age>2</age>
-		</card>
-		<card>
-			<name>YPHCSmoothRelations</name>
-			<maxcount>1</maxcount>
-			<level>10</level>
-			<prereqtech>YPHCConsulateRelations</prereqtech>
-			<age>1</age>
-			<displayunitcount>300</displayunitcount>
-		</card>
-		<card>
 			<name>USATraining</name>
 			<maxcount>1</maxcount>
 			<level>15</level>

@@ -44,11 +44,11 @@
 						<file>units\artillery\horse_artillery\horse_artillery_hat</file>
 					</assetreference>
 				</none>
-				<ImperialHorseArtilleryUS>
+				<ImperialHorseArtilleryUS2>
 					<assetreference type="GrannyModel">
 						<file>units\artillery\horse_artillery\horse_artillery_hat</file>
 					</assetreference>
-				</ImperialHorseArtilleryUS>
+				</ImperialHorseArtilleryUS2>
 			</logic>
 		</component>
 		<anim>
@@ -116,7 +116,7 @@
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 					</ImperialHorseArtillery2>
-					<ImperialHorseArtilleryUS>
+					<ImperialHorseArtilleryUS2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\horse_artillery\horse_artillery</file>
 							<replacetexture>
@@ -125,7 +125,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-					</ImperialHorseArtilleryUS>
+					</ImperialHorseArtilleryUS2>
 				</logic>
 		<decal>
 			<effecttype>default</effecttype>

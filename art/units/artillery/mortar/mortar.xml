@@ -98,7 +98,7 @@
 							</replacetexture>
 						</assetreference>
 					</howitzerus>
-					<imperialhowitzerus>
+					<imperialhowitzerus2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\mortar\mortar</file>
 							<replacetexture>
@@ -109,7 +109,7 @@
 						<attach a="hats" frombone="bone_hat" tobone="Bip03 Head" syncanims="0"/>
 						<attach a="hats" frombone="bone_hat" tobone="Bip04 Head" syncanims="0"/>
 						<attach a="hats" frombone="bone_hat" tobone="Bip05 Head" syncanims="0"/>
-					</imperialhowitzerus>
+					</imperialhowitzerus2>
 				</logic>
 		<decal>
 			<effecttype>default</effecttype>

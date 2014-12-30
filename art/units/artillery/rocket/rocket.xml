@@ -183,7 +183,7 @@
 							<file>units\artillery\rocket\Rocket_stripped</file>
 						</assetreference>
 			</none>
-			<imperialrocket>
+			<imperialrocket2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\rocket\Rocket_stripped</file>
 							<replacetexture>
@@ -192,17 +192,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-			</imperialrocket>
-			<imperialrocketus>
-						<assetreference type="GrannyModel">
-							<file>units\artillery\rocket\Rocket_stripped</file>
-							<replacetexture>
-								<from>units\artillery\rocket\rocket</from>
-								<to>units\artillery\rocket\rocketus</to>
-							</replacetexture>
-						</assetreference>
-						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-			</imperialrocketus>
+			</imperialrocket2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

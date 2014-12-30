@@ -2014,32 +2014,32 @@
 					<bastion>
 						<logic type="BuildingCompletion">
 							<p0>
-								<submodelref ref="med_con1"/>
+								<submodelref ref="stone_con1"/>
 							</p0>
 							<p33>
-								<submodelref ref="med_con2"/>
+								<submodelref ref="stone_con2"/>
 							</p33>
 							<p66>
-								<submodelref ref="med_con3"/>
+								<submodelref ref="stone_con3"/>
 							</p66>
 							<p100>
-								<submodelref ref="wall_med"/>
+								<submodelref ref="wall_east"/>
 							</p100>
 						</logic>
 					</bastion>
 					<asianfortifiedwalls>
 						<logic type="BuildingCompletion">
 							<p0>
-								<submodelref ref="indian_stone_con1"/>
+								<submodelref ref="stone_con11"/>
 							</p0>
 							<p33>
-								<submodelref ref="indian_stone_con2"/>
+								<submodelref ref="stone_con22"/>
 							</p33>
 							<p66>
-								<submodelref ref="indian_stone_con3"/>
+								<submodelref ref="stone_con33"/>
 							</p66>
 							<p100>
-								<submodelref ref="Stone_Fort_Wall_Indian"/>
+								<submodelref ref="Stone_Fort_Wall"/>
 							</p100>
 						</logic>
 					</asianfortifiedwalls>
@@ -2075,7 +2075,7 @@
 								<submodelref ref="stone_con3"/>
 							</p66>
 							<p100>
-								<submodelref ref="stone"/>
+								<submodelref ref="wall_east"/>
 							</p100>
 						</logic>
 					</bastion>

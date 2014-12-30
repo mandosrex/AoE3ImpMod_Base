@@ -7,6 +7,9 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AsianFireship</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>HCPatriots</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Falconet</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialFieldGunUS</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>FieldGunUS</Effect>
@@ -168,9 +171,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitorsUS</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>AdvancedGatlingGun</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>WoodenFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>StoneWall</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>StoneFortifiedWalls</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0French' type ='Normal'>
@@ -180,7 +181,7 @@
 		<Effects>
 			<Effect type ='SetName' proto ='Halberdier' culture ='none' newName ='28292'></Effect>
 			<Effect type ='SetName' proto ='Cuirassier' culture ='none' newName ='780888'></Effect>
-			<Effect type ='Data' amount ='120.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
+			<Effect type ='Data' amount ='150.00' subtype ='Resource' resource ='Fame' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
 			<Effect type ='TechStatus' status ='active'>Ranching</Effect>
@@ -1826,7 +1827,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ExportShips3</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImprovedBows</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Prayer</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>StoneFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Gangsaw</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>MercArmy</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>CavalryCuirass</Effect>
@@ -1929,7 +1929,6 @@
 				<Target type ='ProtoUnit'>BuildingRubble5x5Def</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImprovedBows</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Prayer</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>StoneFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Gangsaw</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>CavalryCuirass</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GunnersQuadrant</Effect>
@@ -2041,7 +2040,6 @@
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractConsulateUnit</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Prayer</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>StoneFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Gangsaw</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>CavalryCuirass</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Rifling</Effect>
@@ -2145,7 +2143,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ExportShips2</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ExportShips3</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImprovedBows</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>AsianFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Gangsaw</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>CavalryCuirass</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Rifling</Effect>
@@ -2249,7 +2246,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ExportShips3</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImprovedBows</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Prayer</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>AsianFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Gangsaw</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>CavalryCuirass</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Rifling</Effect>
@@ -2354,7 +2350,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ExportShips2</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ExportShips3</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Prayer</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>StoneFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Gangsaw</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>CavalryCuirass</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Rifling</Effect>
@@ -3424,7 +3419,6 @@
 			<Effect type ='TechStatus' status ='active'>GuardHalberdiers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPikemen</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardCrossbowmen</Effect>
-			<Effect type ='TechStatus' status ='active'>StoneFortifiedWalls</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostIndustrialUSA' type ='Normal'>
@@ -3503,7 +3497,6 @@
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardSkirmishersUS</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardRiflemenUS</Effect>
-			<Effect type ='TechStatus' status ='active'>StoneFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='active'>FieldGunUS</Effect>
 		</Effects>
 	</Tech>
@@ -3584,7 +3577,6 @@
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPikemen</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardCrossbowmen</Effect>
-			<Effect type ='TechStatus' status ='active'>StoneFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardGrenadiers</Effect>
 		</Effects>
@@ -3663,7 +3655,6 @@
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPikemen</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardLancers</Effect>
-			<Effect type ='TechStatus' status ='active'>StoneFortifiedWalls</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostIndustrialSpanish' type ='Normal'>
@@ -3742,7 +3733,6 @@
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPikemen</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardCrossbowmen</Effect>
-			<Effect type ='TechStatus' status ='active'>AsianFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranSaker</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardSaker</Effect>
 		</Effects>
@@ -3819,7 +3809,6 @@
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPikemen</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardCrossbowmen</Effect>
-			<Effect type ='TechStatus' status ='active'>StoneFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranPoleaxemen</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPoleaxemen</Effect>
 		</Effects>
@@ -3902,7 +3891,6 @@
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardSpahi</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardAzaps</Effect>
-			<Effect type ='TechStatus' status ='active'>AsianFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranCamel</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardCamel</Effect>
 		</Effects>
@@ -3980,7 +3968,6 @@
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPikemen</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardCrossbowmen</Effect>
-			<Effect type ='TechStatus' status ='active'>AsianFortifiedWalls</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostIndustrialRussian' type ='Normal'>
@@ -4060,7 +4047,6 @@
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPikemen</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardCrossbowmen</Effect>
-			<Effect type ='TechStatus' status ='active'>StoneFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranPoleaxemen</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPoleaxemen</Effect>
 		</Effects>
@@ -7144,7 +7130,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredSohei</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedSohei</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>TownGuard</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>AsianFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedAshigaru</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedDaimyoShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedNaginataRider</Effect>
@@ -7683,7 +7668,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>VeteranStrelets</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardStrelets</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>TownGuard</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>AsianFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedChuKoNu</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedQiangPikeman</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedKeshik</Effect>
@@ -8410,7 +8394,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ypImperialMonitors</Effect>
 			<Effect type ='TechStatus' status ='active'>YPDisciplinedGurkha</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>TownGuard</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>AsianFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedCamel</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedCamelGun</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedRajput</Effect>
@@ -8827,7 +8810,6 @@
 			<Effect type ='TechStatus' status ='active'>YPHonoredSteppeRider</Effect>
 			<Effect type ='TechStatus' status ='active'>YPHonoredChuKoNu</Effect>
 			<Effect type ='TechStatus' status ='active'>ypAAAsianStandardTechsPI</Effect>
-			<Effect type ='TechStatus' status ='active'>AsianFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 		</Effects>
@@ -8860,7 +8842,6 @@
 			<Effect type ='TechStatus' status ='active'>ypDojoUpgrade1</Effect>
 			<Effect type ='TechStatus' status ='active'>YPHonoredFlamingArrow</Effect>
 			<Effect type ='TechStatus' status ='active'>ypShrineFortressUpgrade</Effect>
-			<Effect type ='TechStatus' status ='active'>AsianFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades2</Effect>
 		</Effects>
@@ -8898,7 +8879,6 @@
 			<Effect type ='TechStatus' status ='active'>ypMarketSteelTraps</Effect>
 			<Effect type ='TechStatus' status ='active'>ypFrontierAgra</Effect>
 			<Effect type ='TechStatus' status ='active'>ypFortifiedAgra</Effect>
-			<Effect type ='TechStatus' status ='active'>AsianFortifiedWalls</Effect>
 			<Effect type ='TechStatus' status ='active'>DisciplinedSaker</Effect>
 			<Effect type ='TechStatus' status ='active'>HonoredSaker</Effect>
 			<Effect type ='TechStatus' status ='active'>NativeUpgrades</Effect>
@@ -18319,7 +18299,7 @@
 		<Icon>ui\techs\hc_trade_route_coin\hc_trade_route_coin</Icon>
 		<RolloverTextID>77900</RolloverTextID>
 		<Flag>UniqueTech</Flag>
-		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>HCRoyalDecreeUS</TechStatus>
 		</Prereqs>
@@ -18509,7 +18489,7 @@
 	<Tech name ='HCColonialMilitia' type ='Normal'>
 		<DBID>1992</DBID>
 		<DisplayNameID>34999</DisplayNameID>
-		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<Cost resourcetype ='Fame'>100.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\conscription\conscription</Icon>
@@ -18642,17 +18622,9 @@
 			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Lookout</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>HuariStronghold</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>HuariStronghold</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypOutpostAsian</Target></Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypOutpostAsian</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>GuardTower</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>GuardTower</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCRobberBarons' type ='Normal'>
@@ -21492,43 +21464,43 @@
 	</Tech>
 	<Tech name ='HCWoodWagon' type ='Normal'>
 		<DBID>2263</DBID>
-		<DisplayNameID>77840</DisplayNameID>
+		<DisplayNameID>77842</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\trade\spc_wagon_icon_64x64</Icon>
-		<RolloverTextID>77844</RolloverTextID>
+		<RolloverTextID>77846</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='WoodWagon' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ResourceWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCFoodWagon' type ='Normal'>
 		<DBID>2263</DBID>
-		<DisplayNameID>77839</DisplayNameID>
+		<DisplayNameID>77842</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\trade\spc_wagon_icon_64x64</Icon>
-		<RolloverTextID>77843</RolloverTextID>
+		<RolloverTextID>77846</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FoodWagon' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ResourceWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCCoinWagon' type ='Normal'>
 		<DBID>2263</DBID>
-		<DisplayNameID>77838</DisplayNameID>
+		<DisplayNameID>77842</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\trade\spc_wagon_icon_64x64</Icon>
-		<RolloverTextID>77845</RolloverTextID>
+		<RolloverTextID>77846</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoinWagon' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ResourceWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -23327,11 +23299,7 @@
 			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>ypCastleI</Target></Effect>
 			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='Percent'>
-				<Target type ='ProtoUnit'>GuardTower</Target></Effect>
-			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>Lookout</Target></Effect>
-			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='Percent'>
-				<Target type ='ProtoUnit'>HuariStronghold</Target></Effect>
 			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>ypOutpostAsian</Target></Effect>
 		</Effects>
@@ -27806,11 +27774,9 @@
 			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>USColonialMilitia</Target></Effect>
 			<Effect type ='TextOutput'>42886</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Barracks' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='WallConnector' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>USColonialMilitia</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ArtilleryDepot' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>USColonialMilitia</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Stable' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Outpost' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>USColonialMilitia</Target></Effect>
 		</Effects>
 	</Tech>
@@ -28702,9 +28668,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -28729,9 +28692,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -28755,9 +28715,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -28780,9 +28737,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -28803,9 +28757,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -28828,9 +28779,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -28852,9 +28800,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -28875,9 +28820,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -28896,9 +28838,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -28921,9 +28860,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -28945,9 +28881,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -28968,9 +28901,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -28989,9 +28919,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -29016,9 +28943,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -29042,9 +28966,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -29067,9 +28988,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -29090,9 +29008,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -29121,9 +29036,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -29151,9 +29063,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -29180,9 +29089,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -31395,7 +31301,7 @@
 			<Effect type ='Data' amount ='6.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>WarHut</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>HuariStronghold</Target></Effect>
+				<Target type ='ProtoUnit'>Lookout</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='StrongNoblesHut' type ='Normal'>
@@ -31418,6 +31324,8 @@
 				<Target type ='ProtoUnit'>NoblesHut</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='NoblesHut' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NoblesHut</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='MightyNoblesHut' type ='Normal'>
@@ -31442,6 +31350,8 @@
 			<Effect type ='SetName' proto ='NoblesHut' culture ='none' newName ='44285'></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='NoblesHut' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='0.30' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NoblesHut</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPArtificialIslands' type ='Normal'>
@@ -33565,9 +33475,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -33594,9 +33501,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -33622,9 +33526,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -33649,9 +33550,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -33674,9 +33572,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -33706,9 +33601,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -33731,9 +33623,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -33755,9 +33644,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -33778,9 +33664,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -33799,9 +33682,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -33826,9 +33706,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -33854,9 +33731,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -33881,9 +33755,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -33906,9 +33777,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -33929,9 +33797,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -33951,9 +33816,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -33972,9 +33834,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -34008,9 +33867,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -34040,9 +33896,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -34071,9 +33924,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -34100,9 +33950,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -34125,9 +33972,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -34151,9 +33995,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -34176,9 +34017,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -34197,9 +34035,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -34222,9 +34057,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -34246,9 +34078,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -34269,9 +34098,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -34292,9 +34118,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -34317,9 +34140,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -34341,9 +34161,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -34364,9 +34181,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -34385,9 +34199,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -34412,9 +34223,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -34438,9 +34246,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -34463,9 +34268,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -34486,9 +34288,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age1</Effect>
@@ -34509,9 +34308,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age2</Effect>
@@ -34531,9 +34327,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
@@ -34552,9 +34345,6 @@
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<typecount unit='FirePit' count='1.00' state='noneState aliveState' operator='gte'></typecount>
-		</Prereqs>
 		<Effects>
 			<Effect type='Sound'>Example_Sound_Set_UI_StrategyWarning</Effect>
 			<Effect type ='SetAge'>Age4</Effect>
@@ -39627,11 +39417,15 @@
 		<DBID>3463</DBID>
 		<DisplayNameID>780732</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
+		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\units\patriots</Icon>
 		<RolloverTextID>780733</RolloverTextID>
-		<Flag>HomeCity</Flag>
+		<Flag>UniqueTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>HCRoyalDecreeUS</TechStatus>
+		</Prereqs>
 		<Effects>
 			<Effect type ='TransformUnit' toprotoid ='USColonialMilitia' fromprotoid ='Settler'></Effect>
 		</Effects>
@@ -45448,7 +45242,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\animals\cow\HC_cow_icon</Icon>
+		<Icon>units\animals\cow\cow_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
@@ -45460,7 +45254,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\animals\cow\HC_cow_icon</Icon>
+		<Icon>units\animals\cow\cow_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
@@ -57417,17 +57211,9 @@
 			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Lookout</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>HuariStronghold</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>HuariStronghold</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypOutpostAsian</Target></Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypOutpostAsian</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>GuardTower</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>GuardTower</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypHCFishMarket' type ='Normal'>
@@ -58863,6 +58649,69 @@
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Falconet</Target></Effect>
 			<Effect type ='SetName' proto ='Falconet' culture ='none' newName ='31072'></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ypConsulateBritishBrigadeUS' type ='Normal'>
+		<DBID>4903</DBID>
+		<DisplayNameID>66600</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<Cost resourcetype ='Fame'>1000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\consulate\british_armies\british_brigade_icon_64</Icon>
+		<RolloverTextID>66601</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateRogersRanger' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateFalconet' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect tech ='YPHCEnlistGurkhas' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypNatMercGurkha' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearerB' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Surgeon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ypConsulateDutchBrigadeUS' type ='Normal'>
+		<DBID>4907</DBID>
+		<DisplayNameID>66609</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<Cost resourcetype ='Fame'>1000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\consulate\dutch_brigade</Icon>
+		<RolloverTextID>66608</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='28.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateStadhouders' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateMortar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearerD' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Surgeon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ypConsulateFrenchBrigadeUS' type ='Normal'>
+		<DBID>4906</DBID>
+		<DisplayNameID>66607</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<Cost resourcetype ='Fame'>1000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\consulate\french_armies\french_brigade_icon_64</Icon>
+		<RolloverTextID>66606</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateGendarmes' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FlagBearerF' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Surgeon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 </TechTree>

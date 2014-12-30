@@ -100,7 +100,7 @@
 							<file>units\artillery\great_bombard\great_bombard_stripped</file>
 						</assetreference>
 			</none>
-			<imperialbombard>
+			<imperialbombard2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\great_bombard\great_bombard_stripped</file>
 							<replacetexture>
@@ -109,7 +109,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"/>
-			</imperialbombard>
+			</imperialbombard2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

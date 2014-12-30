@@ -1591,9 +1591,9 @@ void initArrays(void)
    gTargetSettlerCounts = xsArrayCreateInt(cAge5+1, 0, "Target Settler Counts");
       xsArraySetInt(gTargetSettlerCounts, cAge1, 20);
       xsArraySetInt(gTargetSettlerCounts, cAge2, 45);
-      xsArraySetInt(gTargetSettlerCounts, cAge3, 60);
-      xsArraySetInt(gTargetSettlerCounts, cAge4, 75);
-      xsArraySetInt(gTargetSettlerCounts, cAge5, 80);
+      xsArraySetInt(gTargetSettlerCounts, cAge3, 65);
+      xsArraySetInt(gTargetSettlerCounts, cAge4, 80);
+      xsArraySetInt(gTargetSettlerCounts, cAge5, 100);
 
 
      
@@ -3384,7 +3384,6 @@ int createMainBase(vector mainVec=cInvalidVector)
       aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeEasy, oldMainID);
       aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeHunt, oldMainID);
       aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeHerdable, oldMainID);
-      aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeHuntAggressive, oldMainID);
       aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeFish, oldMainID);
       aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeFarm, oldMainID);
       aiRemoveResourceBreakdown(cResourceWood, cAIResourceSubTypeEasy, oldMainID);
@@ -5128,11 +5127,11 @@ void updateEscrows(void)
    kbEscrowSetPercentage(cEconomyEscrowID, cResourceGold, econPercent);
    kbEscrowSetPercentage(cEconomyEscrowID, cResourceFame, 0.0);
    kbEscrowSetPercentage(cEconomyEscrowID, cResourceSkillPoints, 0.0);
-   kbEscrowSetCap(cEconomyEscrowID, cResourceFood, 1200);    // Save for age upgrades
+   kbEscrowSetCap(cEconomyEscrowID, cResourceFood, 1000);    // Save for age upgrades
    kbEscrowSetCap(cEconomyEscrowID, cResourceWood, 200);
    if (kbGetAge() >= cAge3)
       kbEscrowSetCap(cEconomyEscrowID, cResourceWood, 600); // Needed for mills, plantations
-   kbEscrowSetCap(cEconomyEscrowID, cResourceGold, 1200);   // Save for age upgrades
+   kbEscrowSetCap(cEconomyEscrowID, cResourceGold, 1000);   // Save for age upgrades
    if (kbGetCiv() == cCivDutch)
    {
       kbEscrowSetCap(cEconomyEscrowID, cResourceFood, 350); // Needed for banks
@@ -7020,24 +7019,6 @@ minInterval 10
 }
 
 
-rule upgradetobastion
-inactive
-minInterval 30
-{
-   if (kbTechGetStatus(cTechBastion) == cTechStatusActive)
-   {
-      xsDisableSelf();
-      return;
-   }
-   int WallConnector = getUnit(cUnitTypeWallConnector, cMyID, cUnitStateAlive);
-   if (WallConnector >= 0)
-   {
-      createSimpleResearchPlan(cTechBastion,WallConnector,cEconomyEscrowID, 80);
-      xsDisableSelf();
-	
-   }
-}
-
 rule upgradetocivilization
 inactive
 minInterval 30
@@ -7332,7 +7313,6 @@ minInterval 29
      aiSetResourceBreakdown(cResourceFood, cAIResourceSubTypeHerdable, totalFoodPlans, 50, 1.0, kbBaseGetMainID(cMyID));  
     }
 
-   aiSetResourceBreakdown(cResourceFood, cAIResourceSubTypeHuntAggressive, 0, 79, 0.0, kbBaseGetMainID(cMyID)); 
    aiSetResourceBreakdown(cResourceFood, cAIResourceSubTypeFish, 0, 79, 0.0, kbBaseGetMainID(cMyID));
    aiSetResourceBreakdown(cResourceFood, cAIResourceSubTypeFarm, 0, 81, 0.0, kbBaseGetMainID(cMyID));
 }
@@ -7349,7 +7329,7 @@ minInterval 30
    float percentOnWood = aiGetResourceGathererPercentage( cResourceWood, cRGPActual );
    int numWoodGatherers =  percentOnWood * (kbUnitCount(cMyID, gEconUnit, cUnitStateAlive) + kbUnitCount(cMyID, cUnitTypeSettlerWagon, cUnitStateAlive));
    static int numWoodPlans = 0;  // How many are currently requested?  Try to avoid thrashing this number
-   const int cMaxSettlersPerWoodPlan = 30;
+   const int cMaxSettlersPerWoodPlan = 20;
    const int cMinSettlersPerWoodPlan = 2;    // Must be much less than Max/2 to avoid thrashing
    
   if (numWoodPlans < 1)
@@ -7390,7 +7370,7 @@ minInterval 31
    float percentOnGold = aiGetResourceGathererPercentage( cResourceGold, cRGPActual );
    int numGoldGatherers =  percentOnGold * (kbUnitCount(cMyID, gEconUnit, cUnitStateAlive) + kbUnitCount(cMyID, cUnitTypeSettlerWagon, cUnitStateAlive));
 
-   int minPlans = (numGoldGatherers / 25) + 1;     // Assume up to 15 per site
+   int minPlans = (numGoldGatherers / 15) + 1;     // Assume up to 15 per site
    if (gTimeForPlantations == true)
       minPlans = (numGoldGatherers / cMaxSettlersPerPlantation) + 1;
 
@@ -7462,7 +7442,6 @@ int initGatherGoal()
       }
       aiPlanSetVariableInt(planID, cGatherGoalPlanNumFoodPlans, cAIResourceSubTypeHerdable, 0);
       aiPlanSetVariableInt(planID, cGatherGoalPlanNumFoodPlans, cAIResourceSubTypeHunt, 0);
-      aiPlanSetVariableInt(planID, cGatherGoalPlanNumFoodPlans, cAIResourceSubTypeHuntAggressive, 0);
       aiPlanSetVariableInt(planID, cGatherGoalPlanNumFoodPlans, cAIResourceSubTypeFarm, 0);
       aiPlanSetVariableInt(planID, cGatherGoalPlanNumFoodPlans, cAIResourceSubTypeFish, 0);
       aiPlanSetVariableInt(planID, cGatherGoalPlanNumWoodPlans, 0, 1);
@@ -7501,7 +7480,6 @@ int initGatherGoal()
       int numFoodEasyPlans=aiPlanGetVariableInt(planID, cGatherGoalPlanNumFoodPlans, cAIResourceSubTypeEasy);
       int numFoodHuntPlans=aiPlanGetVariableInt(planID, cGatherGoalPlanNumFoodPlans, cAIResourceSubTypeHunt);
       int numFoodHerdablePlans=aiPlanGetVariableInt(planID, cGatherGoalPlanNumFoodPlans, cAIResourceSubTypeHerdable);
-      int numFoodHuntAggressivePlans=aiPlanGetVariableInt(planID, cGatherGoalPlanNumFoodPlans, cAIResourceSubTypeHuntAggressive);
       int numFishPlans=aiPlanGetVariableInt(planID, cGatherGoalPlanNumFoodPlans, cAIResourceSubTypeFish);
       int numFarmPlans=aiPlanGetVariableInt(planID, cGatherGoalPlanNumFoodPlans, cAIResourceSubTypeFarm);
       int numWoodPlans=aiPlanGetVariableInt(planID, cGatherGoalPlanNumWoodPlans, 0);
@@ -7518,7 +7496,6 @@ int initGatherGoal()
             if ( (kbGetCiv() != cCivIndians) && (kbGetCiv() != cCivSPCIndians) && (kbGetCiv() != cCivJapanese) && (kbGetCiv() != cCivSPCJapanese) && (kbGetCiv() != cCivSPCJapaneseEnemy) ) {
               aiSetResourceBreakdown(cResourceFood, cAIResourceSubTypeHerdable, numFoodHerdablePlans, 24, 1.0, kbBaseGetMainID(cMyID));
             }
-            aiSetResourceBreakdown(cResourceFood, cAIResourceSubTypeHuntAggressive, numFoodHuntAggressivePlans, 49, 0.0, kbBaseGetMainID(cMyID)); 
             aiSetResourceBreakdown(cResourceFood, cAIResourceSubTypeFish, numFishPlans, 49, 0.0, kbBaseGetMainID(cMyID));
             aiSetResourceBreakdown(cResourceFood, cAIResourceSubTypeFarm, numFarmPlans, 51, 0.0, kbBaseGetMainID(cMyID));
             if ( (kbGetCiv() == cCivJapanese) || (kbGetCiv() == cCivSPCJapanese) || (kbGetCiv() == cCivSPCJapaneseEnemy) ) {
@@ -8132,6 +8109,14 @@ void updateForecasts()
          if (kbUnitCount(cMyID, gMarketUnit, cUnitStateABQ) < 1)
             addItemToForecasts(gMarketUnit, 1);
 
+         // One town center
+         if (kbUnitCount(cMyID, cUnitTypeTownCenter, cUnitStateABQ) < 1)
+            addItemToForecasts(cUnitTypeTownCenter, 1);
+
+         // One mill
+         if (kbUnitCount(cMyID, cUnitTypeMill, cUnitStateABQ) < 1)
+            addItemToForecasts(cUnitTypeMill, 1);
+
          // Europeans - one saloon
          if ((civIsNative() == false) && (civIsAsian() == false))
          {
@@ -8523,7 +8508,7 @@ void updateForecasts()
                   popSlots = kbGetPopSlots(cMyID, militaryUnit);
                   if (popSlots < 1)
                      popSlots = 1;
-                  milQty = 10 / popSlots; 
+                  milQty = 15 / popSlots; 
                   addItemToForecasts(militaryUnit, milQty);
                } 
             }
@@ -10474,7 +10459,6 @@ minInterval 2
          aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeEasy, gMainBase);
          aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeHunt, gMainBase);
          aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeHerdable, gMainBase);
-         aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeHuntAggressive, gMainBase);
          aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeFish, gMainBase);
          aiRemoveResourceBreakdown(cResourceFood, cAIResourceSubTypeFarm, gMainBase);
          aiRemoveResourceBreakdown(cResourceWood, cAIResourceSubTypeEasy, gMainBase);
@@ -11195,6 +11179,16 @@ minInterval 3
    }
    
    // Mill construction is handled in updateFoodBreakdown, do not build mills here
+   // At least one mill (not for natives or Asians)
+   if ((civIsNative() == false) && (civIsAsian() == false))
+   {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeMill);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeMill, cUnitStateAlive) < 1) )
+      {     // Start a new one
+         createSimpleBuildPlan(cUnitTypeMill, 1, 60, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new mill build plan.");
+      }
+   }
    
    // Livestock pen if we own critters (Europeans and Indians only)
    int livestockMinimum = 6;
@@ -14713,13 +14707,13 @@ minInterval 10
    
    int count = kbUnitCount(cMyID, cUnitTypeTownCenter, cUnitStateABQ);
    int plan = -1;
-   if (count < 1)
+   if (count < 2)
       plan = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeTownCenter, true);
 
-   if ((count > 0) || (plan >= 0))
+   if ((count > 1) || (plan >= 1))
       return;     // We have a TC or a TC build plan, no more work to do.
 
-   if ((count == 0) && (plan >= 0))
+   if ((count == 1) && (plan >= 1))
       aiPlanDestroy(plan);  // Destroy old plan to keep it from blocking the rule
 
    aiEcho("Starting a new TC build plan.");
@@ -14740,38 +14734,46 @@ minInterval 10
       case cCivXPAztec:
       {
          aiPlanAddUnitType(buildPlan, cUnitTypexpAztecWarchief, 1, 1, 1);
+         aiPlanAddUnitType(buildPlan, gEconUnit, 1, 1, 1);
          break;
       }
       case cCivXPIroquois:
       {
-          aiPlanAddUnitType(buildPlan, cUnitTypexpIroquoisWarChief, 1, 1, 1);
+         aiPlanAddUnitType(buildPlan, cUnitTypexpIroquoisWarChief, 1, 1, 1);
+         aiPlanAddUnitType(buildPlan, gEconUnit, 1, 1, 1);
          break;
       }
       case cCivXPSioux:
       {
          aiPlanAddUnitType(buildPlan, cUnitTypexpLakotaWarchief, 1, 1, 1);
+         aiPlanAddUnitType(buildPlan, gEconUnit, 1, 1, 1);
          break;
       }
       case cCivChinese:
       {
          aiPlanAddUnitType(buildPlan, cUnitTypeypMonkChinese, 1, 1, 1);
+         aiPlanAddUnitType(buildPlan, gEconUnit, 1, 1, 1);
          break;
       }
       case cCivIndians:
       {
          aiPlanAddUnitType(buildPlan, cUnitTypeypMonkIndian, 1, 1, 1);
          aiPlanAddUnitType(buildPlan, cUnitTypeypMonkIndian2, 1, 1, 1);
+         aiPlanAddUnitType(buildPlan, gEconUnit, 1, 1, 1);
          break;
       }
       case cCivJapanese:
       {
          aiPlanAddUnitType(buildPlan, cUnitTypeypMonkJapanese, 1, 1, 1);
          aiPlanAddUnitType(buildPlan, cUnitTypeypMonkJapanese2, 1, 1, 1);
+         aiPlanAddUnitType(buildPlan, gEconUnit, 1, 1, 1);
          break;
       }
       default:
       {
          aiPlanAddUnitType(buildPlan, cUnitTypeExplorer, 1, 1, 1);
+         aiPlanAddUnitType(buildPlan, cUnitTypeEnvoy, 1, 1, 1);
+         aiPlanAddUnitType(buildPlan, gEconUnit, 1, 1, 1);
          break;
       }
    }

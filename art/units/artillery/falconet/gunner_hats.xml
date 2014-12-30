@@ -9,6 +9,11 @@
 					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
 				</assetreference>
 			</imperialfieldgun>
+			<imperialfieldgunus>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</imperialfieldgunus>
 			<imperialculverin>
 				<assetreference type="GrannyModel">
 					<file>units\artillery\horse_artillery\horse_artillery_hat</file>

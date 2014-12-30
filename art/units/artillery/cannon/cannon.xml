@@ -207,7 +207,7 @@
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 			</imperialcannon2>
-			<imperialcannonus>
+			<imperialcannonus2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\cannon\cannon</file>
 							<replacetexture>
@@ -216,7 +216,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-			</imperialcannonus>
+			</imperialcannonus2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
@@ -239,7 +239,7 @@
 							<file>units\artillery\cannon\cannon_stripped model</file>
 						</assetreference>
 			</none>
-			<imperialcannon>
+			<imperialcannon2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\cannon\cannon_stripped model</file>
 							<replacetexture>
@@ -248,8 +248,8 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-			</imperialcannon>
-			<imperialcannonus>
+			</imperialcannon2>
+			<imperialcannonus2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\cannon\cannon_stripped model</file>
 							<replacetexture>
@@ -258,7 +258,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-			</imperialcannonus>
+			</imperialcannonus2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

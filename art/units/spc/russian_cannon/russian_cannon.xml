@@ -225,7 +225,7 @@
 					</lowpoly>
 				</logic>
 			</none>
-			<imperialgreatcannon>
+			<imperialgreatcannon2>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -244,7 +244,7 @@
 						<attach a="hats" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"/>
 					</lowpoly>
 				</logic>
-			</imperialgreatcannon>
+			</imperialgreatcannon2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
@@ -269,15 +269,17 @@
 						<assetreference type="GrannyModel">
 							<file>units\spc\russian_cannon\russian_cannon_stripped</file>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"/>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
 							<file>units\spc\russian_cannon\lp_russian_cannon_stripped</file>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"/>
 					</lowpoly>
 				</logic>
 			</none>
-			<imperialgreatcannon>
+			<imperialgreatcannon2>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -296,7 +298,7 @@
 						<attach a="hats" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"/>
 					</lowpoly>
 				</logic>
-			</imperialgreatcannon>
+			</imperialgreatcannon2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

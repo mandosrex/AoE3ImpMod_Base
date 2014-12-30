@@ -758,9 +758,12 @@
 	</protounitcommand>
 	<protounitcommand>
 		<name>TreasureShipWood</name>
-		<icon>art\ui\command\generate_food_icon</icon>
-		<command>uiTransformSelectedUnit("CrateFoodLarge")</command>
-		<rollovertextid>31763</rollovertextid>
+		<icon>art\ui\command\generate_wood_off</icon>
+		<activeicon>art\ui\command\generate_wood_on</activeicon>
+		<disabledicon>art\ui\command\generate_wood_off</disabledicon>
+		<rollovertextid>68568</rollovertextid>
+		<activerollovertextid>68569</activerollovertextid>
+		<command>unitSetTactic("Wood")</command>
 	</protounitcommand>
 	<protounitcommand>
 		<name>TreasureShipCoin</name>

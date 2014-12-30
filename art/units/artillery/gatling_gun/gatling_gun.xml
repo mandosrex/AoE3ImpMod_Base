@@ -53,7 +53,7 @@
 				</assetreference>
 				<attach a="ammo_magazine" frombone="hotspot" tobone="bone_master" syncanims="1"/>
 			</none>
-			<HeavyGatlingGun>
+			<HeavyGatlingGun2>
 				<assetreference type="GrannyModel">
 					<file>units\artillery\gatling_gun\gatling_gun</file>
 					<replacetexture>
@@ -62,8 +62,8 @@
 					</replacetexture>
 				</assetreference>
 				<attach a="ammo_magazine" frombone="hotspot" tobone="bone_master" syncanims="1"/>
-			</HeavyGatlingGun>
-			<militarypromotion>
+			</HeavyGatlingGun2>
+			<militarypromotion2>
 				<assetreference type="GrannyModel">
 					<file>units\artillery\gatling_gun\gatling_gun</file>
 					<replacetexture>
@@ -72,8 +72,8 @@
 					</replacetexture>
 				</assetreference>
 				<attach a="ammo_magazine" frombone="hotspot" tobone="bone_master" syncanims="1"/>
-			</militarypromotion>
-			<AdvancedGatlingGun>
+			</militarypromotion2>
+			<AdvancedGatlingGun2>
 				<assetreference type="GrannyModel">
 					<file>units\artillery\gatling_gun\gatling_gun</file>
 					<replacetexture>
@@ -82,8 +82,8 @@
 					</replacetexture>
 				</assetreference>
 				<attach a="ammo_magazine" frombone="hotspot" tobone="bone_master" syncanims="1"/>
-			</AdvancedGatlingGun>
-			<XPRevolutionWashington>
+			</AdvancedGatlingGun2>
+			<XPRevolutionWashington2>
 				<assetreference type="GrannyModel">
 					<file>units\artillery\gatling_gun\gatling_gun</file>
 					<replacetexture>
@@ -92,8 +92,8 @@
 					</replacetexture>
 				</assetreference>
 				<attach a="ammo_drum" frombone="hotspot" tobone="bone_master" syncanims="1"/>
-			</XPRevolutionWashington>
-			<HCArtilleryCombatFrench>
+			</XPRevolutionWashington2>
+			<HCArtilleryCombatFrench2>
 				<assetreference type="GrannyModel">
 					<file>units\artillery\gatling_gun\gatling_gun</file>
 					<replacetexture>
@@ -102,7 +102,7 @@
 					</replacetexture>
 				</assetreference>
 				<attach a="ammo_drum" frombone="hotspot" tobone="bone_master" syncanims="1"/>
-			</HCArtilleryCombatFrench>
+			</HCArtilleryCombatFrench2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

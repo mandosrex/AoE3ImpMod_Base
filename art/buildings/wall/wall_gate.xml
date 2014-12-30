@@ -1667,7 +1667,7 @@
 						<submodelref ref="Wood Gate"/>
 					</none>
 					<bastion>
-						<submodelref ref="gate_east"/>
+						<submodelref ref="Stone Gate"/>
 					</bastion>
 					<stonefortifiedwalls>
 						<submodelref ref="Fort_Stone_Gate"/>
@@ -1680,10 +1680,10 @@
 						<submodelref ref="Wood Gate"/>
 					</none>
 					<bastion>
-						<submodelref ref="Indian Gate"/>
+						<submodelref ref="Stone Gate"/>
 					</bastion>
 					<asianfortifiedwalls>
-						<submodelref ref="Fort_Stone_Gate_Indian"/>
+						<submodelref ref="Fort_Stone_Gate"/>
 					</asianfortifiedwalls>
 				</logic>
 			</mediterranean>

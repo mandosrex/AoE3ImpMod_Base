@@ -87,6 +87,12 @@
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 					</fieldgun>
+					<fieldgunus>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\falconet\falconet</file>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
+					</fieldgunus>
 					<imperialfieldgun2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\falconet\falconet</file>
@@ -148,7 +154,16 @@
 							</replacetexture>
 						</assetreference>
 					</fieldgun>
-					<imperialfieldgun>
+					<fieldgunus>
+						<assetreference type="GrannyModel">
+							<file>units\artillery\falconet\falconet_stripped model</file>
+							<replacetexture>
+								<from>units\artillery\falconet\falconet</from>
+								<to>units\artillery\falconet\fieldgun</to>
+							</replacetexture>
+						</assetreference>
+					</fieldgunus>
+					<imperialfieldgun2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\falconet\falconet_stripped model</file>
 							<replacetexture>
@@ -157,7 +172,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-					</imperialfieldgun>
+					</imperialfieldgun2>
 				</logic>
 		<decal>
 			<effecttype>default</effecttype>

@@ -1226,10 +1226,10 @@
 						<submodelref ref="wood"/>
 					</none>
 					<bastion>
-						<submodelref ref="wall_med"/>
+						<submodelref ref="wall_east"/>
 					</bastion>
 					<asianfortifiedwalls>
-						<submodelref ref="SPC_Fort_Wall_Large_Indian"/>
+						<submodelref ref="SPC_Fort_Wall_Large"/>
 					</asianfortifiedwalls>
 				</logic>
 			</mediterranean>
@@ -1239,7 +1239,7 @@
 						<submodelref ref="wood"/>
 					</none>
 					<bastion>
-						<submodelref ref="stone"/>
+						<submodelref ref="wall_east"/>
 					</bastion>
 					<stonefortifiedwalls>
 						<submodelref ref="SPC_Fort_Wall_Large"/>
