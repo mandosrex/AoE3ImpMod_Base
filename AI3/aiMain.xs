@@ -7574,9 +7574,6 @@ void initEcon(void)
       gFarmUnit = cUnitTypeFarm;
    }
    
-   if (kbGetCiv() == cCivXPAztec)
-      gTowerUnit = cUnitTypeNoblesHut;
-   
    if (kbGetCiv() == cCivOttomans)
       gCaravelUnit = cUnitTypeGalley;
    
@@ -7631,15 +7628,19 @@ void initEcon(void)
 
    if ( (kbGetCiv() == cCivBritish) || (kbGetCiv() == cCivXPSPC) || (kbGetCiv() == cCivSPCAct3))
       gHouseUnit = cUnitTypeManor;
+      gLivestockPenUnit = cUnitTypeManor;
    
    if ( (kbGetCiv() == cCivFrench) || (kbGetCiv() == cCivDutch) )
       gHouseUnit = cUnitTypeHouse;
+      gLivestockPenUnit = cUnitTypeHouse;
    
    if ( (kbGetCiv() == cCivGermans) || (kbGetCiv() == cCivTheCircle) || (kbGetCiv() == cCivRussians) )
       gHouseUnit = cUnitTypeHouseEast;
+      gLivestockPenUnit = cUnitTypeHouseEast;
    
    if ( (kbGetCiv() == cCivSpanish) || (kbGetCiv() == cCivPortuguese) || (kbGetCiv() == cCivOttomans) )
       gHouseUnit = cUnitTypeHouseMed;
+      gLivestockPenUnit = cUnitTypeHouseMed;
    
    if ( kbGetCiv() == cCivXPIroquois )
       gHouseUnit = cUnitTypeLonghouse;
@@ -11228,6 +11229,17 @@ minInterval 3
       }
     }
 
+   // At least two nobles huts for Aztecs
+   if (cMyCiv == cCivXPAztec)
+   {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeNoblesHut);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeNoblesHut, cUnitStateAlive) < 2) )
+      {     // Start a new one
+         createSimpleBuildPlan(cUnitTypeNoblesHut, 1, 70, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new nobles hut build plan.");
+      }   
+   }
+
    // At least one livestock pen (natives only)
    if (civIsNative() == true) {
       planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeLivestockPen);
@@ -11371,14 +11383,14 @@ minInterval 3
       }
    }
 
-   // One additional war hut for Aztecs, for a total of three (low priority)
+   // One additional nobles hut for Aztecs, for a total of three
    if (cMyCiv == cCivXPAztec)
    {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeWarHut);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeWarHut, cUnitStateAlive) < 3) )
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeNoblesHut);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeNoblesHut, cUnitStateAlive) < 3) )
       {
-         createSimpleBuildPlan(cUnitTypeWarHut, 1, 50, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
-         aiEcho("Starting a new war hut build plan.");
+         createSimpleBuildPlan(cUnitTypeNoblesHut, 1, 70, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new nobles hut build plan.");
       }   
    }
 
@@ -11420,14 +11432,14 @@ minInterval 3
       }
     }
 
-   // Two additional war huts for Aztecs, for a total of five (low priority)
+   // Two additional nobles huts for Aztecs, for a total of five
    if (cMyCiv == cCivXPAztec)
    {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeWarHut);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeWarHut, cUnitStateAlive) < 5) )
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeNoblesHut);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeNoblesHut, cUnitStateAlive) < 5) )
       {
-         createSimpleBuildPlan(cUnitTypeWarHut, 1, 50, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
-         aiEcho("Starting a new war hut build plan.");
+         createSimpleBuildPlan(cUnitTypeNoblesHut, 1, 70, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new nobles hut build plan.");
       }   
    }
 
@@ -24312,6 +24324,12 @@ minInterval 30
    {
       planID = createSimpleBuildPlan(cUnitTypeNoblesHut, 1, 75, true, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 0);
       aiPlanAddUnitType(planID, cUnitTypeNoblesHutTravois, 1, 1, 1);
+   }
+   if ((kbUnitCount(cMyID, cUnitTypeWagonBuildings, cUnitStateAlive) > 0) &&
+       (aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, gHouseUnit) < 0))
+   {
+      planID = createSimpleBuildPlan(gHouseUnit, 1, 75, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 0);
+      aiPlanAddUnitType(planID, cUnitTypeWagonBuildings, 1, 1, 1);
    }
 }
 

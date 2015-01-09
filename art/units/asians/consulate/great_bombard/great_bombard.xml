@@ -7,16 +7,20 @@
 	<definebone>bone_wheelL</definebone>
 	<definebone>bone_wheelR</definebone>
 	<attachment>
-		hats
+	hats
 	<component>
-		hats
+		gunner_hats
+		<logic type="Tech">
+			<none>
 				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\musketeer\musketeer_4age_hat</file>
+					<file>units\priests\ottoman_priest_hat</file>
 				</assetreference>
+			</none>
+		</logic>
 	</component>
 	<anim>
 		Idle
-		<component>hats</component>
+		<component>gunner_hats</component>
 	</anim>
 	</attachment>
 	<attachment>
@@ -55,10 +59,6 @@
 		</linksection>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\great_bombard\great_bombard</file>
-							<replacetexture>
-								<from>units\artillery\great_bombard\great_bombard</from>
-								<to>units\artillery\great_bombard\imperialbombard</to>
-							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"/>
 		<decal>
@@ -79,10 +79,6 @@
 		great_bombard_stripped
 						<assetreference type="GrannyModel">
 							<file>units\artillery\great_bombard\great_bombard_stripped</file>
-							<replacetexture>
-								<from>units\artillery\great_bombard\great_bombard</from>
-								<to>units\artillery\great_bombard\imperialbombard</to>
-							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"/>
 		<decal>

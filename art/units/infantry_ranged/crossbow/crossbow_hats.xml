@@ -4,21 +4,21 @@
 	<component>
 		hats
 		<logic type="Tech">
-			<veterancrossbowmen>
+			<none>
 				<assetreference type="GrannyModel">
 					<file>units\infantry_ranged\crossbow\crossbow_2age_hat</file>
+				</assetreference>
+			</none>
+			<veterancrossbowmen>
+				<assetreference type="GrannyModel">
+					<file>units\infantry_ranged\crossbow\crossbow_3age_hat</file>
 				</assetreference>
 			</veterancrossbowmen>
 			<guardcrossbowmen>
 				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\crossbow\crossbow_3age_hat</file>
-				</assetreference>
-			</guardcrossbowmen>
-			<imperialcrossbowmen2>
-				<assetreference type="GrannyModel">
 					<file>units\infantry_ranged\crossbow\crossbow_4age_hat</file>
 				</assetreference>
-			</imperialcrossbowmen2>
+			</guardcrossbowmen>
 		</logic>
 	</component>
 	<anim>

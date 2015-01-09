@@ -238,6 +238,7 @@
 						<assetreference type="GrannyModel">
 							<file>units\artillery\cannon\cannon_stripped model</file>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 			</none>
 			<imperialcannon2>
 						<assetreference type="GrannyModel">

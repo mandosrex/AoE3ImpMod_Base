@@ -162,6 +162,23 @@
 			<component>cannon_small_smoke_puff_b</component>
 		</anim>
 	</attachment>
+	<attachment>
+	hats
+	<component>
+		gunner_hats
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\artillery\horse_artillery\horse_artillery_hat</file>
+				</assetreference>
+			</none>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>gunner_hats</component>
+	</anim>
+	</attachment>
 	<component>
 		cannon
 		<linksection>
@@ -175,11 +192,13 @@
 				<assetreference type="GrannyModel">
 					<file>units\artillery\cannon\cannon</file>
 				</assetreference>
+				<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 			</normal>
 			<lowpoly>
 				<assetreference type="GrannyModel">
 					<file>units\artillery\cannon\cannon_lp</file>
 				</assetreference>
+				<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 			</lowpoly>
 		</logic>
 		<decal>
@@ -202,11 +221,13 @@
 				<assetreference type="GrannyModel">
 					<file>units\artillery\cannon\cannon_stripped model</file>
 				</assetreference>
+				<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 			</normal>
 			<lowpoly>
 				<assetreference type="GrannyModel">
 					<file>units\artillery\cannon\cannon_stripped_lp</file>
 				</assetreference>
+				<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 			</lowpoly>
 		</logic>
 		<decal>

@@ -1231,10 +1231,10 @@
 			<Effect type ='Data' amount ='10.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypSowar</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialCamel</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GuardCamel</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranCamel</Effect>
+				<Target type ='ProtoUnit'>Hussar</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialHussars</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardHussars</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranHussars</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>SpyglassE</Effect>
 			<Effect type ='TechStatus' status ='active'>RanchingM</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -3891,8 +3891,8 @@
 			<Effect type ='TechStatus' status ='active'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardSpahi</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardAzaps</Effect>
-			<Effect type ='TechStatus' status ='active'>VeteranCamel</Effect>
-			<Effect type ='TechStatus' status ='active'>GuardCamel</Effect>
+			<Effect type ='TechStatus' status ='active'>VeteranHussars</Effect>
+			<Effect type ='TechStatus' status ='active'>GuardHussars</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostIndustrialPortuguese' type ='Normal'>
@@ -4233,7 +4233,7 @@
 			<Effect type ='TechStatus' status ='active'>ImperialManOWar</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryNatives</Effect>
 			<Effect type ='TechStatus' status ='active'>ImperialHorseArtillery</Effect>
-			<Effect type ='TechStatus' status ='active'>ImperialCamel</Effect>
+			<Effect type ='TechStatus' status ='active'>ImperialHussars</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostImperialPortuguese' type ='Normal'>
@@ -9274,6 +9274,7 @@
 		<Icon>ui\techs\log_flume\log_flume_64x64</Icon>
 		<RolloverTextID>23062</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Gangsaw</TechStatus>
 			<TechStatus status ='Active'>Colonialize</TechStatus>
@@ -9759,6 +9760,7 @@
 		<RolloverTextID>23223</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 			<TechStatus status ='Active'>VeteranGrenadiers</TechStatus>
@@ -9784,6 +9786,7 @@
 		<RolloverTextID>23223</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 			<TechStatus status ='Active'>VeteranGrenadiersUS</TechStatus>
@@ -10455,6 +10458,7 @@
 		<RolloverTextID>23363</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
@@ -10476,6 +10480,7 @@
 		<RolloverTextID>23363</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
@@ -10497,6 +10502,7 @@
 		<RolloverTextID>23366</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
@@ -10518,6 +10524,7 @@
 		<RolloverTextID>23369</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
@@ -10541,6 +10548,7 @@
 		<RolloverTextID>23369</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
@@ -10562,6 +10570,7 @@
 		<Icon>ui\techs\town_watch\town_watch</Icon>
 		<RolloverTextID>23388</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -10578,6 +10587,7 @@
 		<Icon>ui\techs\hunting_dogs\hunting_dogs_64x64</Icon>
 		<RolloverTextID>23400</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Effects>
 			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect></Effects>
@@ -10592,6 +10602,7 @@
 		<Icon>ui\techs\selective_breeding\selective_breeding</Icon>
 		<RolloverTextID>23402</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Effects>
 			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='LivestockPen' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
@@ -10609,14 +10620,6 @@
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='Manor' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
-			<Effect type ='Data' amount ='99999.00' subtype ='InventoryAmount' resource ='Food' relativity ='Assign'>
-				<Target type ='ProtoUnit'>House</Target></Effect>
-			<Effect type ='Data' amount ='99999.00' subtype ='InventoryAmount' resource ='Food' relativity ='Assign'>
-				<Target type ='ProtoUnit'>HouseMed</Target></Effect>
-			<Effect type ='Data' amount ='99999.00' subtype ='InventoryAmount' resource ='Food' relativity ='Assign'>
-				<Target type ='ProtoUnit'>HouseEast</Target></Effect>
-			<Effect type ='Data' amount ='99999.00' subtype ='InventoryAmount' resource ='Food' relativity ='Assign'>
-				<Target type ='ProtoUnit'>Manor</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='SeedDrill' type ='Normal'>
@@ -10629,6 +10632,7 @@
 		<Icon>ui\techs\seed_drill\seed_drill</Icon>
 		<RolloverTextID>23405</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -10650,6 +10654,7 @@
 		<Icon>ui\techs\artificial_fertilizer\artificial_fertilizer</Icon>
 		<RolloverTextID>23408</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus>
 			<TechStatus status ='Active'>SeedDrill</TechStatus>
@@ -10673,6 +10678,7 @@
 		<Icon>ui\techs\bookkeeping\bookkeeping</Icon>
 		<RolloverTextID>23411</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -10692,6 +10698,7 @@
 		<Icon>ui\techs\homesteading\homesteading</Icon>
 		<RolloverTextID>23414</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Bookkeeping</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
@@ -10713,6 +10720,7 @@
 		<RolloverTextID>23419</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.35' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect></Effects>
@@ -10746,6 +10754,7 @@
 		<RolloverTextID>23451</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
@@ -10768,6 +10777,7 @@
 		<RolloverTextID>23451</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Bastion</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
@@ -10790,6 +10800,7 @@
 		<RolloverTextID>23451</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Bastion</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
@@ -10812,6 +10823,7 @@
 		<RolloverTextID>23451</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Bastion</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
@@ -12193,6 +12205,7 @@
 		<RolloverTextID>24159</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 			<TechStatus status ='Active'>VeteranGrenadiers</TechStatus>
@@ -13684,6 +13697,7 @@
 		<Icon>ui\techs\amalgamation\amalgamation_64x64</Icon>
 		<RolloverTextID>28747</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus>
 			<TechStatus status ='Active'>PlacerMines</TechStatus>
@@ -13702,6 +13716,7 @@
 		<Icon>ui\techs\placer_mines\placer_mines_64x64</Icon>
 		<RolloverTextID>28749</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Effects>
 			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect></Effects>
@@ -14082,6 +14097,8 @@
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Colonialize</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='WagonBuildings' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ColonializeOttoman' type ='Normal'>
@@ -14162,6 +14179,7 @@
 		<Icon>ui\techs\frontier_outpost\frontier_outpost</Icon>
 		<RolloverTextID>29870</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -14213,6 +14231,7 @@
 		<Icon>ui\techs\fortified_outpost\fortified_outpost</Icon>
 		<RolloverTextID>29871</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>FrontierOutpost</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
@@ -14295,6 +14314,8 @@
 			<Effect type ='TextOutput'>780790</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionBonifacio</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionWashington</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='WagonBuildings' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ChurchGardeImperial2' type ='Normal'>
@@ -14448,6 +14469,7 @@
 		<Icon>ui\techs\fortified_outpost\fortified_outpost</Icon>
 		<RolloverTextID>30255</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 			<TechStatus status ='Active'>FrontierBlockhouse</TechStatus>
@@ -14474,6 +14496,7 @@
 		<Icon>ui\techs\frontier_outpost\frontier_outpost</Icon>
 		<RolloverTextID>30259</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -14529,6 +14552,7 @@
 		<Icon>ui\techs\ore_refining\ore_refining</Icon>
 		<RolloverTextID>30446</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 			<TechStatus status ='Active'>Homesteading</TechStatus>
@@ -14550,6 +14574,7 @@
 		<Icon>ui\techs\steel_traps\steel_traps</Icon>
 		<RolloverTextID>30448</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>HuntingDogs</TechStatus>
 			<TechStatus status ='Active'>Colonialize</TechStatus>
@@ -14568,6 +14593,7 @@
 		<Icon>ui\techs\circular_saw\circular_saw</Icon>
 		<RolloverTextID>30452</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus>
 			<TechStatus status ='Active'>LogFlume</TechStatus>
@@ -15277,6 +15303,7 @@
 		<RolloverTextID>31024</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>RGPavlovGrenadiers</TechStatus>
@@ -15514,6 +15541,7 @@
 		<RolloverTextID>31069</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>FieldGun</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
@@ -15537,6 +15565,7 @@
 		<RolloverTextID>31073</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>GrapeShot</TechStatus>
@@ -15560,6 +15589,7 @@
 		<RolloverTextID>31077</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Howitzer</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
@@ -15585,6 +15615,7 @@
 		<RolloverTextID>31073</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>GrapeShotUS</TechStatus>
@@ -15608,6 +15639,7 @@
 		<RolloverTextID>31077</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>HowitzerUS</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
@@ -15653,6 +15685,7 @@
 		<Icon>ui\techs\imperial_artillery\imperial_artillery</Icon>
 		<RolloverTextID>31085</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>Rabauld</TechStatus>
@@ -15815,6 +15848,8 @@
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionBonifacio</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionWashington</Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='WagonBuildings' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperializeFrench' type ='Normal'>
@@ -16040,6 +16075,7 @@
 		<RolloverTextID>31285</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
@@ -16382,6 +16418,7 @@
 		<RolloverTextID>32065</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -16405,6 +16442,7 @@
 		<RolloverTextID>32069</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>GuardAbusGuns</TechStatus>
@@ -18034,6 +18072,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='TextOutput'>780790</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='WagonBuildings' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeFrench' type ='Normal'>
@@ -28298,6 +28338,7 @@
 		<Icon>ui\techs\native\mighty_warhut</Icon>
 		<RolloverTextID>43605</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 			<TechStatus status ='Active'>StrongWarHut</TechStatus>
@@ -28324,6 +28365,7 @@
 		<Icon>ui\techs\native\strong_warhut</Icon>
 		<RolloverTextID>43608</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -31314,6 +31356,7 @@
 		<Icon>ui\techs\native\strong_warhut</Icon>
 		<RolloverTextID>44277</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -31338,6 +31381,7 @@
 		<Icon>ui\techs\native\mighty_warhut</Icon>
 		<RolloverTextID>44282</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 			<TechStatus status ='Active'>StrongNoblesHut</TechStatus>
@@ -34937,7 +34981,7 @@
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
-			<Effect type ='Data' action ='ShrineGather' amount ='1.35' subtype ='WorkRate' unittype ='AbstractShrineyp' relativity ='BasePercent'>
+			<Effect type ='Data' action ='ShrineGather' amount ='1.35' subtype ='WorkRate' unittype ='AbstractShrine' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 			<Effect type ='Data' action ='GatherXP' amount ='1.30' subtype ='WorkRate' unittype ='ypSacredField' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
@@ -40237,6 +40281,7 @@
 		<RolloverTextID>48893</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>HeavyHorseArtillery</TechStatus>
@@ -40260,6 +40305,7 @@
 		<RolloverTextID>48897</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
@@ -40281,6 +40327,7 @@
 		<RolloverTextID>48893</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>HeavyHorseArtilleryUS</TechStatus>
@@ -40304,6 +40351,7 @@
 		<RolloverTextID>48897</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
@@ -40325,6 +40373,7 @@
 		<RolloverTextID>77798</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 		</Prereqs>
@@ -40347,6 +40396,7 @@
 		<RolloverTextID>780725</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 			<TechStatus status ='Active'>HeavyGatlingGun</TechStatus>
@@ -44597,6 +44647,7 @@
 		<RolloverTextID>61957</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>UniqueTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>ypVillagePopCapIncrease</TechStatus></Prereqs>
 		<Effects>
@@ -44954,6 +45005,7 @@
 		<RolloverTextID>62075</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>UniqueTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>ypVillagePopCapIncrease2</TechStatus></Prereqs>
 		<Effects>
@@ -45831,6 +45883,7 @@
 		<RolloverTextID>62990</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>UniqueTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='5.00' subtype ='PopulationCapAddition' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
@@ -52143,6 +52196,7 @@
 		<Icon>ui\techs\asians\tech_fortified_castle</Icon>
 		<RolloverTextID>66026</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -52176,6 +52230,7 @@
 		<Icon>ui\techs\asians\tech_frontier_castle</Icon>
 		<RolloverTextID>66031</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>ypFrontierCastle</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
@@ -52522,6 +52577,7 @@
 		<RolloverTextID>66130</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>UniqueTech</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>ypVillagePopCapIncrease3</TechStatus></Prereqs>
 		<Effects>
@@ -57725,6 +57781,7 @@
 		<RolloverTextID>44603</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='3.00' subtype ='Damage' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>

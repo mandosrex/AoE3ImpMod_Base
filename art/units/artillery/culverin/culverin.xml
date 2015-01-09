@@ -74,6 +74,10 @@
 			<grapeshot>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\culverin\culverin</file>
+							<replacetexture>
+								<from>units\artillery\culverin\culverin</from>
+								<to>units\artillery\culverin\culverin_grape</to>
+							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 			</grapeshot>
@@ -142,6 +146,7 @@
 								<to>units\artillery\culverin\culverin_grape</to>
 							</replacetexture>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 			</grapeshot>
 			<imperialculverin2>
 						<assetreference type="GrannyModel">
@@ -161,6 +166,7 @@
 								<to>units\artillery\culverin\culverin_grape</to>
 							</replacetexture>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 			</grapeshotus>
 			<imperialculverinus2>
 						<assetreference type="GrannyModel">

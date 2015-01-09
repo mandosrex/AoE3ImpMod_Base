@@ -182,6 +182,7 @@
 						<assetreference type="GrannyModel">
 							<file>units\artillery\rocket\Rocket_stripped</file>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 			</none>
 			<imperialrocket2>
 						<assetreference type="GrannyModel">

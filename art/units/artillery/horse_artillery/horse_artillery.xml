@@ -169,6 +169,7 @@
 								<to>units\artillery\horse_artillery\heavyhorseartillery</to>
 							</replacetexture>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 					</HeavyHorseArtillery>
 					<HeavyHorseArtilleryUS>
 						<assetreference type="GrannyModel">
@@ -178,6 +179,7 @@
 								<to>units\artillery\horse_artillery\heavyhorseartillery</to>
 							</replacetexture>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 					</HeavyHorseArtilleryUS>
 					<HCArtilleryCombatFrench>
 						<assetreference type="GrannyModel">
@@ -187,6 +189,7 @@
 								<to>units\artillery\horse_artillery\heavyhorseartillery</to>
 							</replacetexture>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 					</HCArtilleryCombatFrench>
 					<ImperialHorseArtillery>
 						<assetreference type="GrannyModel">

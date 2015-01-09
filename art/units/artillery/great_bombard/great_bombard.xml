@@ -99,6 +99,7 @@
 						<assetreference type="GrannyModel">
 							<file>units\artillery\great_bombard\great_bombard_stripped</file>
 						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"/>
 			</none>
 			<imperialbombard2>
 						<assetreference type="GrannyModel">
