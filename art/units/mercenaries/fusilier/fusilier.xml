@@ -328,7 +328,7 @@
 	<anim>
 		Volley_walk
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\unique_infantry\jannisary_march</file>
+			<file>animation_library\range\unique_infantry\jannisary_walk</file>
 			<tag type="FootstepLeft" footprinttype="HumanLeft">0.68</tag>
 			<tag type="FootstepRight" footprinttype="HumanRight">0.16</tag>
 		</assetreference>
@@ -337,7 +337,7 @@
 	<anim>
 		Volley_jog
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\unique_infantry\jannisary_march_run</file>
+			<file>animation_library\range\unique_infantry\jannisary_jog</file>
 			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
 			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
 		</assetreference>
@@ -346,7 +346,7 @@
 	<anim>
 		Volley_run
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\unique_infantry\jannisary_march_run</file>
+			<file>animation_library\range\unique_infantry\jannisary_jog</file>
 			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
 			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
 		</assetreference>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		ModelComp
+			<assetreference type="GrannyModel" shape="ship_fishing_ship">
+				<file>units\naval\fishing_ship\fishing_ship</file>
+			<replacetexture>
+				<from>units\naval\fishing_ship\fishing_ship</from>
+				<to>units\naval\fishing_ship\fishing_ship_destruction</to>
+			</replacetexture>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

@@ -1275,6 +1275,32 @@
 		<component>model</component>
 	</anim>
 	</attachment>
+	<attachment>
+	model94
+	<component>
+		model
+		<assetreference type="GrannyModel">
+			<file>units\asians\naval\wokou_junk\wokou_junk_mesh_destroyed</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>model</component>
+	</anim>
+	</attachment>
+	<attachment>
+	model95
+	<component>
+		model
+		<assetreference type="GrannyModel">
+			<file>units\asians\naval\wokou_junk\wokou_junk_mesh</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>model</component>
+	</anim>
+	</attachment>
 	<component>
 		Modelfix
 		<assetreference type="GrannyModel">
@@ -1373,6 +1399,8 @@
 		<attach a="model91" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 		<attach a="model92" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 		<attach a="model93" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
+		<attach a="model94" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
+		<attach a="model95" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 	</component>
 	<anim>
 		Idle

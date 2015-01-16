@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>Bone_fruit1</definebone>
+	<definebone>Bone_fruit2</definebone>
+	<definebone>Bone_fruit3</definebone>
+	<definebone>Bone_fruit4</definebone>
+	<definebone>Bone_fruit5</definebone>
+	<definebone>Bone_fruit6</definebone>
+	<definebone>Bone_fruit7</definebone>
+	<definebone>Bone_fruit8</definebone>
+	<definebone>Bone_fruit9</definebone>
+	<definebone>Bone_fruit10</definebone>
+	<definebone>Bone_fruit11</definebone>
+	<definebone>Bone_fruit12</definebone>
+	<attachment>
+		junk1
+		<include>objects\stranded\junk.xml</include>
+	</attachment>
+	<attachment>
+		junk2
+		<include>objects\stranded\junk2.xml</include>
+	</attachment>
+	<attachment>
+		junk3
+		<include>objects\stranded\junk3.xml</include>
+	</attachment>
+	<attachment>
+		junk4
+		<include>objects\stranded\junk4.xml</include>
+	</attachment>
+	<attachment>
+		ship
+		<include>objects\stranded\ship.xml</include>
+	</attachment>
+	<component>
+		ModelComp
+			<assetreference type="GrannyModel">
+				<file>buildings\mill\pump</file>
+			</assetreference>
+		<decal>
+			<effecttype>bump</effecttype>
+			<texture>buildings\gold_mine\gold_mine_wetground</texture>
+			<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+			<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+			<width>1.00</width>
+			<height>1.00</height>
+		</decal>
+		<attach a="man" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="1"/>
+		<attach a="ship" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="1"/>
+		<attach a="junk1" frombone="ATTACHPOINT" tobone="Bone_fruit9" syncanims="1"/>
+		<attach a="junk3" frombone="ATTACHPOINT" tobone="Bone_fruit2" syncanims="1"/>
+		<attach a="junk2" frombone="ATTACHPOINT" tobone="Bone_fruit11" syncanims="1"/>
+		<attach a="junk3" frombone="ATTACHPOINT" tobone="Bone_fruit4" syncanims="1"/>
+		<attach a="junk1" frombone="ATTACHPOINT" tobone="Bone_fruit10" syncanims="1"/>
+		<attach a="junk3" frombone="ATTACHPOINT" tobone="Bone_fruit6" syncanims="1"/>
+		<attach a="junk1" frombone="ATTACHPOINT" tobone="Bone_fruit12" syncanims="1"/>
+		<attach a="junk2" frombone="ATTACHPOINT" tobone="Bone_fruit8" syncanims="1"/>
+	</component>
+	<anim>
+		Idle
+		<component>ModelComp</component>
+	</anim>
+</animfile>

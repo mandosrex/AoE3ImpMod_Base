@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+	<gadget name="playersummarydlg" type="dialog" size1024="163 60 873 715" background="ui\core_ui\wood_thick_board_tile" tilebackground="" texturereplace="" windowzstyle="" dontautoclose="" contextexclusive="tributeDialog" dialogdefaultbuttonindex="2" dialogescapebuttonindex="0">
+		<gadget name="playersummarydlg-BordersLeftTop" type="gadget" background="ui\core_ui\ornate_trim_topleft_corner" size1024="163 60 291 188" texturereplace="" z="4" clampbackground=""/>
+		<gadget tilebackgroundhoriz="" name="playersummarydlg-BordersTop" type="gadget" background="ui\core_ui\ornate_trim_top_middle" texturereplace="" size1024="291 60 745 124" z="3"/>
+		<gadget name="playersummarydlg-BordersRightTop" type="gadget" background="ui\core_ui\ornate_trim_topright_corner" size1024="745 60 873 188" texturereplace="" z="4" clampbackground=""/>
+		<gadget name="playersummarydlg-BordersLeft" type="gadget" background="ui\core_ui\ornate_trim_left_middle" size1024="163 188 167 587" texturereplace="" tilebackgroundvert="" z="9"/>
+		<gadget name="playersummarydlg-BordersRight" type="gadget" background="ui\core_ui\ornate_trim_right_middle" size1024="869 198 873 587" texturereplace="" tilebackgroundvert="" z="3"/>
+		<gadget name="playersummarydlg-BordersLeftBottom" type="gadget" background="ui\core_ui\ornate_trim_bottomleft_corner" size1024="163 587 291 715" texturereplace="" z="10" clampbackground=""/>
+		<gadget name="playersummarydlg-BordersRightBottom" type="gadget" background="ui\core_ui\ornate_trim_bottomright_corner" size1024="745 587 873 715" texturereplace="" z="4" clampbackground=""/>
+		<gadget tilebackgroundhoriz="" name="playersummarydlg-BordersBottom" type="gadget" background="ui\core_ui\ornate_trim_bottom_middle" texturereplace="" size1024="291 711 745 715" z="3"/>
+		<gadget name="playersummarydlg-TitleBullet1" type="gadget" tilebackgroundhoriz="" background="ui\core_ui\bolt" size1024="501 120 513 132" z="4" texturecoords="0 0 0.75 0.75"/>
+		<gadget name="playersummarydlg-TitleBarLeft" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="177 98 241 162" z="3"/>
+		<gadget name="playersummarydlg-TitleBar" type="gadget" tilebackgroundhoriz="" background="ui\core_ui\title_bar_48_middle" size1024="241 98 794 162" z="3"/>
+		<gadget name="playersummarydlg-TitleBarRight" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="794 98 858 162" z="3"/>
+		<gadget name="playersummarydlg-ScreenLabel" textcentervert="" textcenterhoriz="" textcolor="255 198 2" textfontsize="26" textfont="ScenarioTitleLarge" type="formatText" size1024="375 62 668 90" z="11">$$29329$$Player Summary</gadget>
+		<gadget name="playersummarydlg-Players-Label" textcentervert="" textcenterhoriz="" textcolor="255 198 2" textfont="InGameLabels" textfontsize="18" type="formatText" size1024="240 110 340 142" z="11">$$21205$$Player</gadget>
+		<gadget name="playersummarydlg-Tribute-Treaty-Label" textcentervert="" textcenterhoriz="" textcolor="255 198 2" textfont="InGameLabels" textfontsize="18" type="formatText" size1024="668 111 781 142" z="11">$$29360$$Send Resources</gadget>
+		<gadget type="gadget" size1024="643 166 675 182" background="ui\ingame\resource_food" name="playersummarydlg-food-pic"/>
+		<gadget type="gadget" size1024="723 166 755 182" background="ui\ingame\resource_wood" name="playersummarydlg-wood-pic"/>
+		<gadget type="gadget" size1024="798 166 830 181" background="ui\ingame\resource_gold" name="playersummarydlg-gold-pic"/>
+		<gadget type="formatText" textmarkup="" name="playersummarydlg-availFood" size1024="627 171 691 187" textcenterhoriz="" textcolor="255 255 255" textfont="InGameLabels" textfontsize="18">0</gadget>
+		<gadget type="formatText" textmarkup="" name="playersummarydlg-availWood" size1024="705 170 769 186" textcenterhoriz="" textcolor="255 255 255" textfont="InGameLabels" textfontsize="18">0</gadget>
+		<gadget type="formatText" textmarkup="" name="playersummarydlg-availGold" size1024="782 170 846 186" textcenterhoriz="" textcolor="255 255 255" textfont="InGameLabels" textfontsize="18">0 </gadget>
+		<gadget name="playersummarydlg-ParchmentCenter" type="gadget" background="ui\ingame\ingame_ui_parch" tilebackgroundhoriz="" tilebackgroundvert="" size1024="188 162 846 652" z="3"/>
+		<gadget name="playersummarydlg-ParchmentTopLeft" type="gadget" background="ui\ingame\ingame_ui_parch_corner_topleft" size1024="180 154 212 186" z="4"/>
+		<gadget tilebackgroundhoriz="" name="playersummarydlg-ParchmentTop" type="gadget" texturereplace="" background="ui\ingame\ingame_ui_parch_top" size1024="212 154 822 186" z="4"/>
+		<gadget name="playersummarydlg-ParchmentTopRight" type="gadget" background="ui\ingame\ingame_ui_parch_corner_topright" size1024="822 154 854 186" z="4"/>
+		<gadget name="playersummarydlg-ParchmentLeft" type="gadget" background="ui\ingame\ingame_ui_parch_left" size1024="180 186 212 628" texturereplace="" tilebackgroundvert="" z="4"/>
+		<gadget name="playersummarydlg-ParchmentRight" type="gadget" texturereplace="" tilebackgroundvert="" background="ui\ingame\ingame_ui_parch_right" size1024="822 186 854 628" z="4"/>
+		<gadget name="playersummarydlg-ParchmentBottomLeft" type="gadget" background="ui\ingame\ingame_ui_parch_corner_bottomleft" size1024="180 628 212 660" z="4"/>
+		<gadget name="playersummarydlg-ParchmentBottomRight" type="gadget" background="ui\ingame\ingame_ui_parch_corner_bottomright" size1024="822 628 854 660" z="4"/>
+		<gadget tilebackgroundhoriz="" name="playersummarydlg-ParchmentBottom" type="gadget" texturereplace="" background="ui\ingame\ingame_ui_parch_bottom" size1024="212 628 822 660" z="4"/>
+		<gadget name="playersummarydlg-Divider1" type="gadget" tilebackgroundvert="" background="ui\core_ui\divider" size1024="620 162 624 187" z="22"/>
+		<gadget name="playersummarydlg-Divider2" type="gadget" tilebackgroundvert="" background="ui\core_ui\divider" size1024="694 162 699 187" z="22"/>
+		<gadget name="playersummarydlg-Divider3" type="gadget" tilebackgroundvert="" background="ui\core_ui\divider" size1024="772 162 776 187" z="22"/>
+		<gadget name="playersummarydlg-TributeRow" type="gadget" size1024="181 182 853 207">
+			<gadget name="playersummarydlg-TributeLabel" type="textBox" textjustifyright="" textcolor="105 70 25" textfont="InGameLabels" textfontsize="18" size1024="422 182 617 207" z="19">$$42099$$Total Tribute:</gadget>
+			<gadget name="playersummarydlg-TributeFood" type="formatText" textcenterhoriz="" textcolor="255 255 255" textfont="InGameLabels" textfontsize="18" size1024="627 181 691 206" z="19"/>
+			<gadget name="playersummarydlg-TributeWood" type="formatText" textcenterhoriz="" textcolor="255 255 255" textfont="InGameLabels" textfontsize="18" size1024="705 183 769 208" z="19"/>
+			<gadget name="playersummarydlg-TributeGold" type="formatText" textcenterhoriz="" textcolor="255 255 255" textfont="InGameLabels" textfontsize="18" size1024="782 181 846 206" z="19"/>
+			<gadget name="timeDisplay" type="textBox" size1024="550 515 845 540" transparent="" datarefreshrate=".5" textcolor="105 70 25" z="8" textfont="InGameLabels" textjustifyright="" textfontsize="18">{gametime}{gamespeed}{aiDifficulty}</gadget>
+		</gadget>
+		<gadget name="playersummarydlg-playerStart" type="gadget" size1024="180 162 181 163"/>
+		<gadget name="playersummarydlg-Team1Row" type="gadget" size1024="181 182 853 207">
+			<gadget name="playersummarydlg-Team1Name" type="textBox" textcentervert="" textfont="InGameLabels" textfontsize="18" size1024="193 182 487 207" textcolor="0 0 0" z="19"/>
+		</gadget>
+		<gadget name="playersummarydlg-Team2Row" type="gadget" size1024="181 182 853 207">
+			<gadget name="playersummarydlg-Team2Name" type="textBox" textcentervert="" textfont="InGameLabels" textfontsize="18" size1024="193 182 487 207" textcolor="0 0 0" z="19"/>
+		</gadget>
+		<gadget name="playersummarydlg-Team3Row" type="gadget" size1024="181 182 853 207">
+			<gadget name="playersummarydlg-Team3Name" type="textBox" textcentervert="" textfont="InGameLabels" textfontsize="18" size1024="193 182 487 207" textcolor="0 0 0" z="19"/>
+		</gadget>
+		<gadget name="playersummarydlg-Team4Row" type="gadget" size1024="181 182 853 207">
+			<gadget name="playersummarydlg-Team4Name" type="textBox" textcentervert="" textfont="InGameLabels" textfontsize="18" size1024="193 182 487 207" textcolor="0 0 0" z="19"/>
+		</gadget>
+		<gadget name="playersummarydlg-Team5Row" type="gadget" size1024="181 182 853 207">
+			<gadget name="playersummarydlg-Team5Name" type="textBox" textcentervert="" textfont="InGameLabels" textfontsize="18" size1024="193 182 487 207" textcolor="0 0 0" z="19"/>
+		</gadget>
+		<gadget name="playersummarydlg-Team6Row" type="gadget" size1024="181 182 853 207">
+			<gadget name="playersummarydlg-Team6Name" type="textBox" textcentervert="" textfont="InGameLabels" textfontsize="18" size1024="193 182 487 207" textcolor="0 0 0" z="19"/>
+		</gadget>
+		<gadget name="playersummarydlg-Team7Row" type="gadget" size1024="181 182 853 207">
+			<gadget name="playersummarydlg-Team7Name" type="textBox" textcentervert="" textfont="InGameLabels" textfontsize="18" size1024="193 182 487 207" textcolor="0 0 0" z="19"/>
+		</gadget>
+		<gadget name="playersummarydlg-Team8Row" type="gadget" size1024="181 182 853 207">
+			<gadget name="playersummarydlg-Team8Name" type="textBox" textcentervert="" textfont="InGameLabels" textfontsize="18" size1024="193 182 487 207" textcolor="0 0 0" z="19"/>
+		</gadget>
+		<gadget name="playersummarydlg-Player1Row" size1024="181 151 853 187" type="gadget">
+			<gadget name="playersummarydlg-Player1Boundary" size1024="181 151 853 187" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.25">
+				<gadget name="playersummarydlg-Player1Name" textmarkup="" type="formatText" textfont="InGameLabels" textfontsize="18" size1024="277 155 524 181" z="20"/>
+				<gadget name="playersummarydlg-Player1ViewHC" type="stateButton" size1024="222 152 275 185" z="21"/>
+				<gadget name="playersummarydlg-Player1HCLevel" type="formatText" transparent="" textfont="PregameEntry" textfontsize="15" size1024="240 163 275 185" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.25" textcenterhoriz="" textcentervert="" z="22"/>
+				<gadget name="playersummarydlg-tributePlayer1Food" type="stateButton" size1024="627 153 691 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer1Wood" type="stateButton" size1024="705 153 769 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer1Gold" type="stateButton" size1024="782 153 846 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+			</gadget>
+			<gadget name="Player1AgeIcon" type="gadget" size1024="200 155 216 181" z="3" transparent=""/>
+		</gadget>
+		<gadget name="playersummarydlg-Player2Row" size1024="181 151 853 187" type="gadget">
+			<gadget name="playersummarydlg-Player2Boundary" size1024="181 151 853 187" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.25">
+				<gadget name="playersummarydlg-Player2Name" textmarkup="" type="formatText" textfont="InGameLabels" textfontsize="18" size1024="277 155 524 181" z="20"/>
+				<gadget name="playersummarydlg-Player2ViewHC" type="stateButton" size1024="222 152 275 185" z="21"/>
+				<gadget name="playersummarydlg-Player2HCLevel" type="formatText" transparent="" textfont="PregameEntry" textfontsize="15" size1024="240 163 275 185" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.25" textcenterhoriz="" textcentervert="" z="22"/>
+				<gadget name="playersummarydlg-tributePlayer2Food" type="stateButton" size1024="627 153 691 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer2Wood" type="stateButton" size1024="705 153 769 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer2Gold" type="stateButton" size1024="782 153 846 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+			</gadget>
+		</gadget>
+		<gadget name="playersummarydlg-Player3Row" size1024="181 151 853 187" type="gadget">
+			<gadget name="playersummarydlg-Player3Boundary" size1024="181 151 853 187" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.25">
+				<gadget name="playersummarydlg-Player3Name" textmarkup="" type="formatText" textfont="InGameLabels" textfontsize="18" size1024="277 155 524 181" z="20"/>
+				<gadget name="playersummarydlg-Player3ViewHC" type="stateButton" size1024="222 152 275 185" z="21"/>
+				<gadget name="playersummarydlg-Player3HCLevel" type="formatText" transparent="" textfont="PregameEntry" textfontsize="15" size1024="240 163 275 185" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.25" textcenterhoriz="" textcentervert="" z="22"/>
+				<gadget name="playersummarydlg-tributePlayer3Food" type="stateButton" size1024="627 153 691 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer3Wood" type="stateButton" size1024="705 153 769 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer3Gold" type="stateButton" size1024="782 153 846 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+			</gadget>
+		</gadget>
+		<gadget name="playersummarydlg-Player4Row" size1024="181 151 853 187" type="gadget">
+			<gadget name="playersummarydlg-Player4Boundary" size1024="181 151 853 187" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.25">
+				<gadget name="playersummarydlg-Player4Name" textmarkup="" type="formatText" textfont="InGameLabels" textfontsize="18" size1024="277 155 524 181" z="20"/>
+				<gadget name="playersummarydlg-Player4ViewHC" type="stateButton" size1024="222 152 275 185" z="21"/>
+				<gadget name="playersummarydlg-Player4HCLevel" type="formatText" transparent="" textfont="PregameEntry" textfontsize="15" size1024="240 163 275 185" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.25" textcenterhoriz="" textcentervert="" z="22"/>
+				<gadget name="playersummarydlg-tributePlayer4Food" type="stateButton" size1024="627 153 691 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer4Wood" type="stateButton" size1024="705 153 769 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer4Gold" type="stateButton" size1024="782 153 846 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+			</gadget>
+		</gadget>
+		<gadget name="playersummarydlg-Player5Row" size1024="181 151 853 187" type="gadget">
+			<gadget name="playersummarydlg-Player5Boundary" size1024="181 151 853 187" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.25">
+				<gadget name="playersummarydlg-Player5Name" textmarkup="" type="formatText" textfont="InGameLabels" textfontsize="18" size1024="277 155 524 181" z="20"/>
+				<gadget name="playersummarydlg-Player5ViewHC" type="stateButton" size1024="222 152 275 185" z="21"/>
+				<gadget name="playersummarydlg-Player5HCLevel" type="formatText" transparent="" textfont="PregameEntry" textfontsize="15" size1024="240 163 275 185" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.25" textcenterhoriz="" textcentervert="" z="22"/>
+				<gadget name="playersummarydlg-tributePlayer5Food" type="stateButton" size1024="627 153 691 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer5Wood" type="stateButton" size1024="705 153 769 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer5Gold" type="stateButton" size1024="782 153 846 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+			</gadget>
+		</gadget>
+		<gadget name="playersummarydlg-Player6Row" size1024="181 151 853 187" type="gadget">
+			<gadget name="playersummarydlg-Player6Boundary" size1024="181 151 853 187" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.25">
+				<gadget name="playersummarydlg-Player6Name" textmarkup="" type="formatText" textfont="InGameLabels" textfontsize="18" size1024="277 155 524 181" z="20"/>
+				<gadget name="playersummarydlg-Player6ViewHC" type="stateButton" size1024="222 152 275 185" z="21"/>
+				<gadget name="playersummarydlg-Player6HCLevel" type="formatText" transparent="" textfont="PregameEntry" textfontsize="15" size1024="240 163 275 185" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.25" textcenterhoriz="" textcentervert="" z="22"/>
+				<gadget name="playersummarydlg-tributePlayer6Food" type="stateButton" size1024="627 153 691 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer6Wood" type="stateButton" size1024="705 153 769 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer6Gold" type="stateButton" size1024="782 153 846 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+			</gadget>
+		</gadget>
+		<gadget name="playersummarydlg-Player7Row" size1024="181 151 853 187" type="gadget">
+			<gadget name="playersummarydlg-Player7Boundary" size1024="181 151 853 187" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.25">
+				<gadget name="playersummarydlg-Player7Name" textmarkup="" type="formatText" textfont="InGameLabels" textfontsize="18" size1024="277 155 524 181" z="20"/>
+				<gadget name="playersummarydlg-Player7ViewHC" type="stateButton" size1024="222 152 275 185" z="21"/>
+				<gadget name="playersummarydlg-Player7HCLevel" type="formatText" transparent="" textfont="PregameEntry" textfontsize="15" size1024="240 163 275 185" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.25" textcenterhoriz="" textcentervert="" z="22"/>
+				<gadget name="playersummarydlg-tributePlayer7Food" type="stateButton" size1024="627 153 691 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer7Wood" type="stateButton" size1024="705 153 769 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer7Gold" type="stateButton" size1024="782 153 846 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+			</gadget>
+		</gadget>
+		<gadget name="playersummarydlg-Player8Row" size1024="181 151 853 187" type="gadget">
+			<gadget name="playersummarydlg-Player8Boundary" size1024="181 151 853 187" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.25">
+				<gadget name="playersummarydlg-Player8Name" textmarkup="" type="formatText" textfont="InGameLabels" textfontsize="18" size1024="277 155 524 181" z="20"/>
+				<gadget name="playersummarydlg-Player8ViewHC" type="stateButton" size1024="222 152 275 185" z="21"/>
+				<gadget name="playersummarydlg-Player8HCLevel" type="formatText" transparent="" textfont="PregameEntry" textfontsize="15" size1024="240 163 275 185" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.25" textcenterhoriz="" textcentervert="" z="22"/>
+				<gadget name="playersummarydlg-tributePlayer8Food" type="stateButton" size1024="627 153 691 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer8Wood" type="stateButton" size1024="705 153 769 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="playersummarydlg-tributePlayer8Gold" type="stateButton" size1024="782 153 846 185" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+					$$29332$$+100
+					<stateentry background="ui\core_ui\button_128x32_normal"/>
+					<stateentry background="ui\core_ui\button_128X32_clicked"/>
+					<stateentry background="ui\core_ui\button_128X32_rollover"/>
+					<stateentry background=""/>
+				</gadget>
+			</gadget>
+		</gadget>
+		<gadget name="playersummarydlg-closeButton" type="stateButton" mouseovertext="$$41948$$" size1024="618 668 746 700" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+			$$18457$$Close
+			<stateentry background="ui\core_ui\button_med_normal"/>
+			<stateentry background="ui\core_ui\button_med_clicked"/>
+			<stateentry background="ui\core_ui\button_med_high"/>
+			<stateentry background="ui\core_ui\button_med_disable"/>
+		</gadget>
+		<gadget name="playersummarydlg-clearButton" type="stateButton" mouseovertext="$$41947$$" size1024="457 668 585 700" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+			$$19009$$Clear
+			<stateentry background="ui\core_ui\button_med_normal"/>
+			<stateentry background="ui\core_ui\button_med_clicked"/>
+			<stateentry background="ui\core_ui\button_med_high"/>
+			<stateentry background="ui\core_ui\button_med_disable"/>
+		</gadget>
+		<gadget name="playersummarydlg-sendButton" type="stateButton" mouseovertext="$$41946$$" size1024="290 668 418 700" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">
+			$$19008$$Send
+			<stateentry background="ui\core_ui\button_med_normal"/>
+			<stateentry background="ui\core_ui\button_med_clicked"/>
+			<stateentry background="ui\core_ui\button_med_high"/>
+			<stateentry background="ui\core_ui\button_med_disable"/>
+		</gadget>
+	</gadget>
+</layout>

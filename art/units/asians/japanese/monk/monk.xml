@@ -435,9 +435,9 @@
 	<anim>
 		Volley_standing_attack
 		<assetreference type="GrannyAnim">
-			<file>units\asians\spc\huang\volley_fire2</file>
-			<tag type="Attack">0.99</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.99</tag>
+			<file>animation_library\range\volley\longbow_volley_standing_fire</file>
+			<tag type="Attack">0.98</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="arrow_attachment" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"/>

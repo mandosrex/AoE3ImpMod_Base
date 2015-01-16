@@ -99,6 +99,8 @@
 			<component>twinkle07</component>
 		</anim>
 	</attachment>
+	<attachment>
+		ship
 	<component>
 		ModelComp
 		<logic type="Variation">
@@ -125,6 +127,27 @@
 			</data>
 		</logic>
 	</component>
+	<anim>
+		Idle
+		<component>ModelComp</component>
+	</anim>
+	</attachment>
+		<component>
+			ModelComp
+			<logic type="LowPoly">
+				<normal>
+					<assetreference type="GrannyModel">
+						<file>units\villagers\we_villager_male</file>
+					</assetreference>
+				</normal>
+				<lowpoly>
+					<assetreference type="GrannyModel">
+						<file>units\villagers\lp_we_villager_male</file>
+					</assetreference>
+				</lowpoly>
+			</logic>
+		<attach a="ship" frombone="BONE" tobone="HEAD" syncanims="0"/>
+		</component>
 	<anim>
 		Idle
 		<component>ModelComp</component>

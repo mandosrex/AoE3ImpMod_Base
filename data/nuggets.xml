@@ -7931,7 +7931,7 @@
 		<nugget>
 			<name>ypWaterNuggetSeaUrchinsAM</name>
 			<type>AdjustResource</type>
-			<nuggetunit>ypNuggetKelp</nuggetunit>
+			<nuggetunit>NuggetStranded</nuggetunit>
 			<waternugget>true</waternugget>
 			<rolloverstringid>66491</rolloverstringid>
 			<applystringid>66492</applystringid>
@@ -7979,7 +7979,7 @@
 		<nugget>
 			<name>ypWaterNuggetCoralAM</name>
 			<type>AdjustResource</type>
-			<nuggetunit>ypNuggetKelp</nuggetunit>
+			<nuggetunit>NuggetStranded</nuggetunit>
 			<waternugget>true</waternugget>
 			<rolloverstringid>66503</rolloverstringid>
 			<applystringid>66504</applystringid>
@@ -7998,7 +7998,7 @@
 		<nugget>
 			<name>ypWaterNuggetFlotsamAM</name>
 			<type>AdjustResource</type>
-			<nuggetunit>ypNuggetKelp</nuggetunit>
+			<nuggetunit>NuggetStranded</nuggetunit>
 			<waternugget>true</waternugget>
 			<rolloverstringid>66505</rolloverstringid>
 			<applystringid>66506</applystringid>

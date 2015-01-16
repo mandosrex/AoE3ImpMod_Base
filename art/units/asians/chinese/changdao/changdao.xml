@@ -276,9 +276,14 @@
 			<tag type="Attack">0.55</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\villager\choptree_down</file>
+			<file>animation_library\mercs\samurai\samurai_attackD</file>
+			<tag type="Attack">0.58</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.49</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\mercs\samurai\samurai_attackE</file>
 			<tag type="Attack">0.52</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.30</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.43</tag>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

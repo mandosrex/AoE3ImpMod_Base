@@ -66,7 +66,7 @@
 		Idle
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\sword_idle_A</file>
-			<weight>40</weight>
+			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\sword_idle_B</file>
@@ -77,7 +77,7 @@
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_D</file>
+			<file>animation_library\cavalry\sword_bored_A</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
@@ -86,10 +86,6 @@
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\sword_idle_G</file>
-			<weight>10</weight>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_H</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
@@ -102,20 +98,16 @@
 	<anim>
 		Bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_bored_A</file>
-			<weight>10</weight>
-		</assetreference>
-		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\sword_idle_E</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\sword_idle_A</file>
-			<weight>50</weight>
+			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\sword_idle_I</file>
-			<weight>50</weight>
+			<weight>10</weight>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
@@ -132,14 +124,14 @@
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\sword_attack_C</file>
-			<weight>10</weight>
+			<weight>40</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\sword_attack_D</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_trample attackA</file>
+			<file>animation_library\cavalry\sword_attack_A</file>
 			<weight>40</weight>
 		</assetreference>
 		<component>ModelComp</component>

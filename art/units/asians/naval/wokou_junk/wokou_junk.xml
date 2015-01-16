@@ -116,10 +116,10 @@
 			flag
 			<assetreference type="ClothFlag">
 				<flag>
-					<blending>alphatest_color</blending>
-					<texture>units\asians\naval\wokou_junk\woko_tc_flag</texture>
-					<width>2.00</width>
-					<height>1.30</height>
+					<blending>alphatest_nocolor</blending>
+					<texture>objects\flags\pirate</texture>
+					<width>1.50</width>
+					<height>1.00</height>
 				</flag>
 			</assetreference>
 		</component>
@@ -134,10 +134,10 @@
 			flag
 			<assetreference type="ClothFlag">
 				<flag>
-					<blending>alphatest_color</blending>
-					<texture>units\asians\naval\wokou_junk\woko_tc_flag</texture>
-					<width>2.00</width>
-					<height>1.30</height>
+					<blending>alphatest_nocolor</blending>
+					<texture>objects\flags\pirate</texture>
+					<width>1.50</width>
+					<height>1.00</height>
 				</flag>
 			</assetreference>
 		</component>

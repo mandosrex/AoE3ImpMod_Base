@@ -117,9 +117,9 @@
 			<assetreference type="ClothFlag">
 				<flag>
 					<blending>alphatest_color</blending>
-					<texture>units\asians\naval\war_junk\war_junk_flag_mid</texture>
-					<width>1.00</width>
-					<height>1.00</height>
+					<texture>units\asians\naval\wokou_junk\woko_tc_flag</texture>
+					<width>2.00</width>
+					<height>1.30</height>
 				</flag>
 			</assetreference>
 		</component>
@@ -135,9 +135,9 @@
 			<assetreference type="ClothFlag">
 				<flag>
 					<blending>alphatest_color</blending>
-					<texture>units\asians\naval\war_junk\war_junk_flag_mid</texture>
-					<width>1.00</width>
-					<height>1.00</height>
+					<texture>units\asians\naval\wokou_junk\woko_tc_flag</texture>
+					<width>2.00</width>
+					<height>1.30</height>
 				</flag>
 			</assetreference>
 		</component>
@@ -185,11 +185,19 @@
 			<p1>
 				<assetreference type="GrannyModel">
 					<file>units\asians\naval\wokou_junk\wokou_junk_mesh_destroyed</file>
+					<replacetexture>
+						<from>units\asians\naval\wokou_junk\wokou_junk_color</from>
+						<to>units\asians\naval\wokou_junk\wokou_junk_color2</to>
+					</replacetexture>
 				</assetreference>
 			</p1>
 			<p99>
 				<assetreference type="GrannyModel">
 					<file>units\asians\naval\wokou_junk\wokou_junk_mesh</file>
+					<replacetexture>
+						<from>units\asians\naval\wokou_junk\wokou_junk_color</from>
+						<to>units\asians\naval\wokou_junk\wokou_junk_color2</to>
+					</replacetexture>
 				</assetreference>
 			</p99>
 		</logic>
@@ -204,6 +212,10 @@
 		death
 		<assetreference type="GrannyModel">
 			<file>units\asians\naval\wokou_junk\wokou_junk_death_mesh</file>
+			<replacetexture>
+				<from>units\asians\naval\wokou_junk\wokou_junk_color</from>
+				<to>units\asians\naval\wokou_junk\wokou_junk_color2</to>
+			</replacetexture>
 		</assetreference>
 		<decal>
 			<effecttype>default</effecttype>

@@ -154,7 +154,6 @@
 				<height>8.00</height>
 			</decal>
 		<attach a="flag" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-		<attach a="port2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 		<attach a="crate" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 		<attach a="fisher" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="1"/>
 	</component>

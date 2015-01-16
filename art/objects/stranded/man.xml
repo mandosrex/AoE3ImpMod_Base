@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		ModelComp
+		<assetreference type="GrannyModel">
+			<file>units\spc\harbor_master\IGC_harbor_master</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_idleA</file>
+			<file>animation_library\IGC\shared\IGC_turn_left</file>
+			<file>animation_library\IGC\shared\IGC_greeting</file>
+			<file>animation_library\IGC\shared\IGC_turn_right</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\IGC\shared\IGC_turn_left</file>
+			<file>animation_library\IGC\shared\IGC_idleA</file>
+			<file>animation_library\IGC\shared\IGC_greeting</file>
+			<file>animation_library\IGC\shared\IGC_turn_right</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+
+</animfile>
