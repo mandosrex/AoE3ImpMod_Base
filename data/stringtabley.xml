@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 
 <StringTable version="8">
 	<Language name="English">
@@ -6,9 +6,7 @@
 		<String _locID="11070">Gang Saw</String>
 		<String _locID="11723" symbol="cStringNotReadyToResearch">%s is not ready to research.</String>
 		<String _locID="11724" symbol="cStringHelpStringUnitFormat" comment="1 - culture name, 2 - hotkey text, 3 - cost, 4 - pop, 5 - rollover text">%1s%2s. %3s  %4s\n%5s</String>
-		<String _locID="11725" symbol="cStringHelpStringUnitPopCost"><![CDATA[
-			Pop: %d  <icon="(32)(ui/ingame/resource_population)">
-		]]></String>
+		<String _locID="11725" symbol="cStringHelpStringUnitPopCost">Pop: %d  &lt;icon="(32)(ui/ingame/resource_population)"&gt;</String>
 		<String _locID="11726" symbol="cStringAgeOfMythology">Age of Empires III</String>
 		<String _locID="11727" symbol="cStringInfinite" comment="Test" portraitfilename="asdf">Infinite</String>
 		<String _locID="17062" symbol="cStringCantPayResearchCost" comment="1 - cost, 2 - tech name">An additional %1s required for the improvement %2s.</String>
@@ -174,13 +172,9 @@
 		<String _locID="18638" symbol="cStringDetailHelpRequirements">Requirements:\n</String>
 		<String _locID="18639" symbol="cStringDetailHelpResearchedAt">Improvement at:</String>
 		<String _locID="18640" symbol="cStringInvokePower1">You use the %s ability!</String>
-		<String _locID="18641" symbol="cStringInvokePower2" comment="1  - player name, 2 -power used">%1s has used the %2s ability!</String>
-		<String _locID="18642" symbol="cStringTributeSent" comment="1 - amount sent, 2 - resource type sent, 3 -player sent to"><![CDATA[
-			%1d <icon="(32)(%2s)"> sent to %3s.
-		]]></String>
-		<String _locID="18643" symbol="cStringTributeReceived" comment="1 - amount sent, 2 - resource type sent, 3 - player who sent"><![CDATA[
-			%1d <icon="(32)(%2s)"> received from %3s.
-		]]></String>
+		<String _locID="18641" symbol="cStringInvokePower2" comment="1 - player name, 2 - power used">%1s has used the %2s ability!</String>
+		<String _locID="18642" symbol="cStringTributeSent" comment ="1 - amount sent, 2 - resource type sent, 3 - player sent to">%1d &lt;icon="(32)(%2s)"&gt; sent to %3s.</String>
+		<String _locID="18643" symbol="cStringTributeReceived" comment="1 - amount sent, 2 - resource type sent, 3 - player who sent">%1d &lt;icon="(32)(%2s)"&gt; received from %3s</String>
 		<String _locID="18676" symbol="cStringComputerOpponent">Select which computer opponent you want to face.</String>
 		<String _locID="18677" symbol="cStringNumPlayers">Number of Other Players:</String>
 		<String _locID="18678" symbol="cStringNumComputerPlayers">Select how many computer players you want to have in the game.</String>
@@ -386,18 +380,10 @@
 		<String _locID="19215" symbol="cStringWhisperMsgFormat" comment="1 - whispering player, 2 - message">%1s whispers: %2s</String>
 		<String _locID="19216" symbol="cStringYouWhisperMsgFormat" comment="1 - whisper to player, 2 - message">You whisper to %1s: %2s</String>
 		<String _locID="19217" symbol="cStringNothing">(Nothing)</String>
-		<String _locID="19222" symbol="cStringBuyFood"><![CDATA[
-			Buy 100 <icon="(32)(ui/ingame/resource_food)"> with Coin.
-		]]></String>
-		<String _locID="19223" symbol="cStringBuyWood"><![CDATA[
-			Buy 100 <icon="(32)(ui/ingame/resource_wood)"> with Coin.
-		]]></String>
-		<String _locID="19224" symbol="cStringSellFood"><![CDATA[
-			Sell 100 <icon="(32)(ui/ingame/resource_food)"> for Coin.
-		]]></String>
-		<String _locID="19225" symbol="cStringSellWood"><![CDATA[
-			Sell 100 <icon="(32)(ui/ingame/resource_wood)"> for Coin.
-		]]></String>
+		<String _locID="19222" symbol="cStringBuyFood">Buy 100 &lt;icon="(32)(ui/ingame/resource_food)"&gt; with Coin.</String>
+		<String _locID="19223" symbol="cStringBuyWood">Buy 100 &lt;icon="(32)(ui/ingame/resource_wood)"&gt; with Coin.</String>
+		<String _locID="19224" symbol="cStringSellFood">Sell 100 &lt;icon="(32)(ui/ingame/resource_food)"&gt; for Coin.</String>
+		<String _locID="19225" symbol="cStringSellWood">Sell 100 &lt;icon="(32)(ui/ingame/resource_wood)"&gt; for Coin.</String>
 		<String _locID="19229" symbol="cStringSetGatherPoint">Set gather point.</String>
 		<String _locID="19231">Garrison inside a building or ship.</String>
 		<String _locID="19269" symbol="cStringCPPersonality4">Random</String>
@@ -638,9 +624,7 @@
 		<String _locID="20187" symbol="cStringCheckingForUpdate">Checking for update...</String>
 		<String _locID="20189" symbol="cStringStart">START</String>
 		<String _locID="20193" symbol="cStringAbstractNameGold">Coin</String>
-		<String _locID="20194" symbol="cStringAbstractNameNotFound"><![CDATA[
-			<type error>
-		]]></String>
+		<String _locID="20194" symbol="cStringAbstractNameNotFound">&lt;type error&gt;</String>
 		<String _locID="20197">type</String>
 		<String _locID="20213" symbol="cStringVoteText1">No Vote</String>
 		<String _locID="20214" symbol="cStringVoteText2">Drop</String>
@@ -737,9 +721,7 @@
 		<String _locID="20333">Cliffs</String>
 		<String _locID="20334">Cliff Tool</String>
 		<String _locID="20335">Forests</String>
-		<String _locID="20336"><![CDATA[
-			Copy & Paste
-		]]></String>
+		<String _locID="20336">Copy &amp; Paste</String>
 		<String _locID="20337">Mountains</String>
 		<String _locID="20338">Elevation</String>
 		<String _locID="20339">Textures</String>
@@ -798,9 +780,7 @@
 		<String _locID="20392">Color:</String>
 		<String _locID="20393">Civilization:</String>
 		<String _locID="20394">Control:</String>
-		<String _locID="20395" symbol="cStringPopFormat"><![CDATA[
-			Pop: {colorizePop(%d)}  <icon="(32)(ui/ingame/resource_population)">
-		]]></String>
+		<String _locID="20395" symbol="cStringPopFormat">Pop: {colorizePop(%d)}  &lt;icon="(32)(ui/ingame/resource_population)"&gt;</String>
 		<String _locID="20396">AI</String>
 		<String _locID="20397">Clear AI</String>
 		<String _locID="20473" symbol="cStringCantOpenLogFile">Cannot create log file. Ensure that you have full rights in the directory where Age of Empires III resides, and that you have available disk space.\n Error:</String>
@@ -1024,9 +1004,7 @@
 		<String _locID="21201" symbol="cStringPausesAllowed1">5 per player</String>
 		<String _locID="21202" symbol="cStringPausesAllowed2">10 per player</String>
 		<String _locID="21203" symbol="cStringPausesAllowed3">15 per player</String>
-		<String _locID="21205" symbol="cStringSendToPlayer"><![CDATA[
-			Players & Teams
-		]]></String>
+		<String _locID="21205" symbol="cStringSendToPlayer">Players &amp; Teams</String>
 		<String _locID="21206" symbol="cStringAttachingNickname">Attaching the nickname to the passport...</String>
 		<String _locID="21213" symbol="cStringRetrievingMOTD">Retrieving the Message of the Day...</String>
 		<String _locID="21215" symbol="cStringPauseLimitReached">Pause limit reached</String>
@@ -1115,9 +1093,7 @@
 		<String _locID="21563" symbol="cStringUpdateErrorAccess">There was a file access problem. You have to be logged into Windows as a user with Admin rights.</String>
 		<String _locID="21565" symbol="cStringForgotPwdHTMLFilename">%sForgotPwd.html</String>
 		<String _locID="21566" symbol="cStringForgotPwdHTMLContentsRedirecting">Redirecting, please wait...</String>
-		<String _locID="21571" symbol="cStringForgotPwdHTMLContentsURL"><![CDATA[
-			https://memberservices.passport.com/ppsecure/MSRV_ResetPW.srf?lc=%d&em=%s
-		]]></String>
+		<String _locID="21571" symbol="cStringForgotPwdHTMLContentsURL">https://memberservices.passport.com/ppsecure/MSRV_ResetPW.srf?lc=%d&amp;em=%s</String>
 		<String _locID="21573" symbol="cStringExternalAutoPatcherProgress">%d%% complete</String>
 		<String _locID="21574" symbol="cStringExternalAutoPatcherFile">Processing file %hs</String>
 		<String _locID="21581" comment="Command">Convert to Gate</String>
@@ -1169,9 +1145,7 @@
 		<String _locID="22177" symbol="cStringStartupLoadingSounds">Loading sounds...</String>
 		<String _locID="22178" symbol="cStringEditorNewScenarioBlankType">Blank</String>
 		<String _locID="22179">Restore Game</String>
-		<String _locID="22180" symbol="cStringESOBadPassword"><![CDATA[
-			Passwords cannot contain spaces or the following characters: $ " < > ( ) ;
-		]]></String>
+		<String _locID="22180" symbol="cStringESOBadPassword">Passwords cannot contain spaces or the following characters: $ " &lt; &gt; ( ) ;</String>
 		<String _locID="22201" symbol="cStringMultiple">Multiple</String>
 		<String _locID="22203" symbol="cStringAbstractNameWood">Wood</String>
 		<String _locID="22204" symbol="cStringAbstractNameFood">Food</String>
@@ -1478,9 +1452,7 @@
 		<String _locID="22683" symbol="cStringRecordGameFileName">Record Game</String>
 		<String _locID="22684">All</String>
 		<String _locID="22685">Popular</String>
-		<String _locID="22692"><![CDATA[
-			<link="proto:Barracks">Barracks</link>, <link="proto:Armory">Armory</link>
-		]]></String>
+		<String _locID="22692">&lt;link="proto:Barracks"&gt;Barracks&lt;/link&gt;, &lt;link="proto:Armory"&gt;Armory&lt;/link&gt;</String>
 		<String _locID="22714" symbol="cStringGameNotRated">This game is not rated.</String>
 		<String _locID="22715" symbol="cStringUploadingGameStats">Uploading game stats.</String>
 		<String _locID="22716" symbol="cStringDoneUploadingGameStats">Done uploading game stats.</String>
@@ -1493,9 +1465,7 @@
 		<String _locID="22749" symbol="cStringESOPasswordCantContainNickname">Your password cannot contain your nickname.</String>
 		<String _locID="22750" symbol="cStringESOSecretQuestionRules">Your secret question and answer cannot be the same.</String>
 		<String _locID="22751" symbol="cStringESOSecretQuestionPassword">Your secret question and answer cannot contain your password.</String>
-		<String _locID="22752" symbol="cStringESOSecretQuestionChars"><![CDATA[
-			Your secret question and answer cannot contain $ & ( ) ; " < >
-		]]></String>
+		<String _locID="22752" symbol="cStringESOSecretQuestionChars">Your secret question and answer cannot contain $ &amp; ( ) ; " &lt; &gt;</String>
 		<String _locID="22804">Mill</String>
 		<String _locID="22805">Musketeer</String>
 		<String _locID="22806">Settler</String>
@@ -4323,12 +4293,8 @@
 		<String _locID="31292">AR Abus Gun</String>
 		<String _locID="31329">Repair this building.</String>
 		<String _locID="31330">Cancel the repair on this building.</String>
-		<String _locID="31343" symbol="cStringScoreTeam"><![CDATA[
-			<color=%f, %f, %f>%s</color>
-		]]></String>
-		<String _locID="31345" symbol="cStringScoreWinsIn"><![CDATA[
-			<color=1.0, 1.0, 1.0>    WINS IN %s</color>
-		]]></String>
+		<String _locID="31343" symbol="cStringScoreTeam">&lt;color=%f, %f, %f&gt;%s&lt;/color&gt;</String>
+		<String _locID="31345" symbol="cStringScoreWinsIn">&lt;color=1.0, 1.0, 1.0&gt;    WINS IN %s&lt;/color&gt;</String>
 		<String _locID="31348" symbol="cStringRangedMode2">Volley Mode. Default ranged attack.</String>
 		<String _locID="31349">Assault Mode. Extra damage at the cost of reduced speed.</String>
 		<String _locID="31350">Melee Mode. Default hand-to-hand attack.</String>
@@ -4443,27 +4409,15 @@
 		<String _locID="31803">Secondary Objectives</String>
 		<String _locID="31804">Objective Details</String>
 		<String _locID="31805">Click on this button to view your objectives.</String>
-		<String _locID="31806" symbol="cStringObjectiveNoticePrimaryDiscovered"><![CDATA[
-			<color="1.0 0.81568627 0.0">PRIMARY OBJECTIVE DISCOVERED</color>\n
-		]]></String>
-		<String _locID="31807" symbol="cStringObjectiveNoticeSecondaryDiscovered"><![CDATA[
-			<color="1.0 0.81568627 0.0">SECONDARY OBJECTIVE DISCOVERED</color>\n
-		]]></String>
-		<String _locID="31808" symbol="cStringObjectiveNoticePrimaryCompleted"><![CDATA[
-			<color="1.0 0.81568627 0.0">PRIMARY OBJECTIVE COMPLETED</color>\n
-		]]></String>
-		<String _locID="31809" symbol="cStringObjectiveNoticeSecondaryCompleted"><![CDATA[
-			<color="1.0 0.81568627 0.0">SECONDARY OBJECTIVE COMPLETED</color>\n
-		]]></String>
-		<String _locID="31810" symbol="cStringObjectiveNoticeFameAwarded"><![CDATA[
-			\n<color="1.0 0.81568627 0.0">(%d Experience awarded.)</color>
-		]]></String>
+		<String _locID="31806" symbol="cStringObjectiveNoticePrimaryDiscovered">&lt;color="1.0 0.81568627 0.0"&gt;PRIMARY OBJECTIVE DISCOVERED&lt;/color&gt;\n</String>
+		<String _locID="31807" symbol="cStringObjectiveNoticeSecondaryDiscovered">&lt;color="1.0 0.81568627 0.0"&gt;SECONDARY OBJECTIVE DISCOVERED&lt;/color&gt;\n</String>
+		<String _locID="31808" symbol="cStringObjectiveNoticePrimaryCompleted">&lt;color="1.0 0.81568627 0.0"&gt;PRIMARY OBJECTIVE COMPLETED&lt;/color&gt;\n</String>
+		<String _locID="31809" symbol="cStringObjectiveNoticeSecondaryCompleted">&lt;color="1.0 0.81568627 0.0"&gt;SECONDARY OBJECTIVE COMPLETED&lt;/color&gt;\n</String>
+		<String _locID="31810" symbol="cStringObjectiveNoticeFameAwarded">\n&lt;color="1.0 0.81568627 0.0"&gt;(%d Experience awarded.)&lt;/color&gt;</String>
 		<String _locID="31812">A natural formation of rock and ice.</String>
 		<String _locID="31813">Rock Bridge</String>
 		<String _locID="31814">SPC Dead Rock Bridge</String>
-		<String _locID="31815" symbol="cStringObjectiveNoticeFameReward"><![CDATA[
-			\n<color="1.0 0.81568627 0.0">(%d Experience reward.)</color>
-		]]></String>
+		<String _locID="31815" symbol="cStringObjectiveNoticeFameReward">\n&lt;color="1.0 0.81568627 0.0"&gt;(%d Experience reward.)&lt;/color&gt;</String>
 		<String _locID="31818" symbol="cStringResourceNameShips">Ships</String>
 		<String _locID="31820">Lake Plants New England</String>
 		<String _locID="31821">PROP Lake Plants (New England)</String>
@@ -6025,9 +5979,7 @@
 		<String _locID="34774">Artillery pieces: 6/8</String>
 		<String _locID="34775">Artillery pieces: 7/8</String>
 		<String _locID="34776">Artillery pieces: 8</String>
-		<String _locID="34778" symbol="cStringScoreLosesIn"><![CDATA[
-			<color=1.0, 1.0, 1.0>TIME LEFT: %s</color>
-		]]></String>
+		<String _locID="34778" symbol="cStringScoreLosesIn">&lt;color=1.0, 1.0, 1.0&gt;TIME LEFT: %s&lt;/color&gt;</String>
 		<String _locID="34816">Caches Destroyed: 6/8</String>
 		<String _locID="34817">Caches Destroyed: 7/8</String>
 		<String _locID="34818">Caches Destroyed: 8/8</String>
@@ -7472,9 +7424,7 @@
 		<String _locID="36879">PROP Underbrush Snow</String>
 		<String _locID="36880">5 Cuirassiers</String>
 		<String _locID="36881">6 Cuirassiers</String>
-		<String _locID="36882" symbol="cStringCannotSendUntilAge"><![CDATA[
-			<color=1.0, 0.0, 0.0>This Card cannot be sent until Age %d</color>
-		]]></String>
+		<String _locID="36882" symbol="cStringCannotSendUntilAge">&lt;color=1.0, 0.0, 0.0&gt;This Card cannot be sent until Age %d&lt;/color&gt;</String>
 		<String _locID="36883">London</String>
 		<String _locID="36884">Amsterdam</String>
 		<String _locID="36885">Paris</String>
@@ -7483,16 +7433,10 @@
 		<String _locID="36888">Lisbon</String>
 		<String _locID="36889">St. Petersburg</String>
 		<String _locID="36890">Seville</String>
-		<String _locID="36891" symbol="cStringUpgradeNotObtained"><![CDATA[
-			<color=0, 1, 0>You DO NOT have this Card yet</color>
-		]]></String>
-		<String _locID="36892" symbol="cStringHCLevelRequired"><![CDATA[
-			<color=1, 0, 0>Level %d Home City required.</color>
-		]]></String>
+		<String _locID="36891" symbol="cStringUpgradeNotObtained">&lt;color=0, 1, 0&gt;You DO NOT have this Card yet&lt;/color&gt;</String>
+		<String _locID="36892" symbol="cStringHCLevelRequired">&lt;color=1, 0, 0&gt;Level %d Home City required.&lt;/color&gt;</String>
 		<String _locID="36893" gamecharacter="Narrator" soundfilename="TUTO5275">Your Explorer has fallen! Control the area where he fell with your units and he will recover after he has healed.</String>
-		<String _locID="36894" symbol="cStringCanSendInAge"><![CDATA[
-			<color=0.0, 0.8, 0.8>This Card can be sent in Age %d</color>
-		]]></String>
+		<String _locID="36894" symbol="cStringCanSendInAge">&lt;color=0.0, 0.8, 0.8&gt;This Card can be sent in Age %d&lt;/color&gt;</String>
 		<String _locID="36895">Run Speed</String>
 		<String _locID="36896" gamecharacter="Narrator" soundfilename="TUTO6000">That sound means your units or buildings are under attack!</String>
 		<String _locID="36897" gamecharacter="Narrator" soundfilename="TUTO6005">When you hear this sound, it means a Shipment is ready in the Home City.</String>
@@ -7959,19 +7903,13 @@
 		<String _locID="37434" symbol="cStringCustomizeHomeCity">Customize</String>
 		<String _locID="37435" symbol="cStringHavok">(c) 2007 Havok and Havok 3 are registered trademarks of Havok and Telekinesys Research Limited. All other products, company names and logos are trademarks or registered trademarks of their respective owners.</String>
 		<String _locID="37436">DetailedHelpHistory</String>
-		<String _locID="37437"><![CDATA[
-			<b>Game Information:</b> \n The Musketeer is an infantry unit with decent hitpoints, range and a good attack. They are one of the few units available to every Civilization and as such are one of the most common units in the game. \n \n Musketeers are a good all around unit, but not outstanding in any particular trait. Certain Civilizations, like the British, have unique improvements to Musketeers that make them even better than regular fully upgraded Musketeer infantry.
-		]]></String>
-		<String _locID="37438"><![CDATA[
-			<b>About Musketeers:</b>\n Musketeers were an infantry soldier who stood in ranks for two and three men deep, taking turns firing while other ranks reloaded. Muskets were drilled and disciplined to stand as close as 80 yards away from an enemy firing right back at them. Musket balls ranged from about 1/2" in diameter to 3/4" in diameter. Until long guns with rifled barrels that could be fired more than once every two minutes were developed, muskets were the ranged weapon of choice for infantry. \n \n Muskets had a relatively short range and were wildly inaccurate.. Musketeers fought an awful lot like longbowmen, firing volley after volley in the direction of the enemy with no specific target. The barrage of lead was bound to hit something. A competent musketeer could fire 3 shots in a minute. Four times slower than a longbow and twice as fast as an early rifle.
-		]]></String>
+		<String _locID="37437">&lt;b&gt;Game Information:&lt;/b&gt; \n The Musketeer is an infantry unit with decent hitpoints, range and a good attack. They are one of the few units available to every Civilization and as such are one of the most common units in the game. \n \n Musketeers are a good all around unit, but not outstanding in any particular trait. Certain Civilizations, like the British, have unique improvements to Musketeers that make them even better than regular fully upgraded Musketeer infantry.</String>
+		<String _locID="37438">&lt;b&gt;About Musketeers:&lt;/b&gt;\n Musketeers were an infantry soldier who stood in ranks for two and three men deep, taking turns firing while other ranks reloaded. Muskets were drilled and disciplined to stand as close as 80 yards away from an enemy firing right back at them. Musket balls ranged from about 1/2" in diameter to 3/4" in diameter. Until long guns with rifled barrels that could be fired more than once every two minutes were developed, muskets were the ranged weapon of choice for infantry. \n \n Muskets had a relatively short range and were wildly inaccurate.. Musketeers fought an awful lot like longbowmen, firing volley after volley in the direction of the enemy with no specific target. The barrage of lead was bound to hit something. A competent musketeer could fire 3 shots in a minute. Four times slower than a longbow and twice as fast as an early rifle.</String>
 		<String _locID="37439">9 Halberdiers</String>
 		<String _locID="37440">13 Halberdiers</String>
 		<String _locID="37441">11 Musketeers</String>
 		<String _locID="37442">16 Musketeers</String>
-		<String _locID="37443"><![CDATA[
-			<b>Game Information:</b> \n The Musketeer is an infantry unit with decent hitpoints, range and a good attack. They are one of the few units available to every Civilization and as such are one of the most common units in the game. \n \n Musketeers are a good all around unit, but not outstanding in any particular trait. Certain Civilizations, like the British, have unique improvements to Musketeers that make them even better than regular fully upgraded Musketeer infantry. \n\n <b>About Musketeers:</b>\n Musketeers were an infantry soldier who stood in ranks for two and three men deep, taking turns firing while other ranks reloaded. Muskets were drilled and disciplined to stand as close as 80 yards away from an enemy firing right back at them. Musket balls ranged from about 1/2" in diameter to 3/4" in diameter. Until long guns with rifled barrels that could be fired more than once every two minutes were developed, muskets were the ranged weapon of choice for infantry. \n \n Muskets had a relatively short range a
-		]]></String>
+		<String _locID="37443">&lt;b&gt;Game Information:&lt;/b&gt; \n The Musketeer is an infantry unit with decent hitpoints, range and a good attack. They are one of the few units available to every Civilization and as such are one of the most common units in the game. \n \n Musketeers are a good all around unit, but not outstanding in any particular trait. Certain Civilizations, like the British, have unique improvements to Musketeers that make them even better than regular fully upgraded Musketeer infantry. \n\n &lt;b&gt;About Musketeers:&lt;/b&gt;\n Musketeers were an infantry soldier who stood in ranks for two and three men deep, taking turns firing while other ranks reloaded. Muskets were drilled and disciplined to stand as close as 80 yards away from an enemy firing right back at them. Musket balls ranged from about 1/2" in diameter to 3/4" in diameter. Until long guns with rifled barrels that could be fired more than once every two minutes were developed, muskets were the ranged weapon of choice for infantry. \n \n Muskets had a relatively short range a</String>
 		<String _locID="37446">Tsar Cannon</String>
 		<String _locID="37447">5 Grenadiers</String>
 		<String _locID="37448" symbol="cStringCurrentGatherers">Current Gatherers: %d</String>
@@ -7987,9 +7925,7 @@
 		<String _locID="37458">In a Free for All game, each player is on their own team. You can attack anyone.</String>
 		<String _locID="37459">Check this box if you want to allow Cheats.</String>
 		<String _locID="37460">TEAM: Ships 2 Surgeons to the New World.</String>
-		<String _locID="37461" symbol="cStringNonColorizedPopFormat"><![CDATA[
-			Pop: %d  <icon="(32)(ui/ingame/resource_population)">
-		]]></String>
+		<String _locID="37461" symbol="cStringNonColorizedPopFormat">Pop: %d  &lt;icon="(32)(ui/ingame/resource_population)"&gt;</String>
 		<String _locID="37462">Rocket Shell</String>
 		<String _locID="37463">Skirmish Nickname</String>
 		<String _locID="37464" symbol="cStringUnitHelpGameInfo">Game Information:</String>
@@ -13785,12 +13721,8 @@
 		<String _locID="43304">Good. It's lit.</String>
 		<String _locID="43305" symbol="cStringGameVerifyMapProblem">I'm having problems verifying the map.</String>
 		<String _locID="43306" symbol="cStringESOCancellingMatch">Cancelling Matchmaking...</String>
-		<String _locID="43307" symbol="cStringRansomExplorerSend"><![CDATA[
-			%1d <icon="(32)(%2s)"> sent to %3s to ransom your explorer.
-		]]></String>
-		<String _locID="43308" symbol="cStringRansomExplorerReceipt"><![CDATA[
-			%1s has paid %2d <icon="(32)(%3s)"> to you as explorer ransom.
-		]]></String>
+		<String _locID="43307" symbol="cStringRansomExplorerSend">%1d &lt;icon="(32)(%2s)"&gt; sent to %3s to ransom your explorer.</String>
+		<String _locID="43308" symbol="cStringRansomExplorerReceipt">%1s has paid %2d &lt;icon="(32)(%3s)"&gt; to you as explorer ransom.</String>
 		<String _locID="43309" symbol="cStringUnselectedLit">Unselected</String>
 		<String _locID="43310" symbol="cStringNoMap">You cannot ready up before a map is selected.</String>
 		<String _locID="43311" symbol="cStringTacticPercentComplete">{currentUnitLimberPercent} complete."</String>
@@ -14103,9 +14035,7 @@
 		<String _locID="43618">Horse Secrets</String>
 		<String _locID="43619">All Corral unit attack increases.</String>
 		<String _locID="43620">Horse Secrets</String>
-		<String _locID="43621"><![CDATA[
-			Horsemen & Musket Riders train more quickly.
-		]]></String>
+		<String _locID="43621">Horsemen &amp; Musket Riders train more quickly.</String>
 		<String _locID="43622">Horse Training</String>
 		<String _locID="43623">Siege Workshop</String>
 		<String _locID="43624">Siege Workshop</String>
@@ -14501,9 +14431,7 @@
 		<String _locID="44015">Mighty War Hut</String>
 		<String _locID="44016">Fortified Blockhouse</String>
 		<String _locID="44017">Fortified War Hut</String>
-		<String _locID="44018"><![CDATA[
-			War Hut attack & hitpoints increased.
-		]]></String>
+		<String _locID="44018">War Hut attack &amp; hitpoints increased.</String>
 		<String _locID="44019">Strong War Hut</String>
 		<String _locID="44020">Frontier Blockhouse</String>
 		<String _locID="44021">Strong War Hut</String>
@@ -15034,16 +14962,12 @@
 		<String _locID="44546" gamecharacter="Nathaniel" soundfilename="XNATH9050">We've freed some villagers!</String>
 		<String _locID="44547" gamecharacter="Nathaniel" soundfilename="XNATH9065">Another settler has joined us at our trading post!</String>
 		<String _locID="44548" gamecharacter="Nathaniel" soundfilename="XNATH9055">We've got to destroy the stockade holding my mother before the Mohawk become too strong to defeat.</String>
-		<String _locID="44549" gamecharacter="Nathaniel" soundfilename="PlaceholderShort"><![CDATA[
-			<DELETED>
-		]]></String>
+		<String _locID="44549" gamecharacter="Nathaniel" soundfilename="PlaceholderShort">&lt;DELETED&gt;</String>
 		<String _locID="44550" gamecharacter="Nathaniel" soundfilename="XNATH9060">You're a fool, Kuechler - you and the Mohawks you've tricked into joining you.</String>
 		<String _locID="44551" gamecharacter="Kanyenke" soundfilename="XKANY9040">We must protect them as they work to expand our military strength.</String>
 		<String _locID="44552" gamecharacter="Kanyenke" soundfilename="XKANY9045">There are two trading post sites. One has already been claimed by the Mohawks, but we can change that.</String>
 		<String _locID="44553" gamecharacter="Kanyenke" soundfilename="XKANY9050">Each time a travois passes our trading post, a new villager will join us.</String>
-		<String _locID="44554" gamecharacter="Kanyenke" soundfilename="PlaceholderShort"><![CDATA[
-			<DELETED>
-		]]></String>
+		<String _locID="44554" gamecharacter="Kanyenke" soundfilename="PlaceholderShort">&lt;DELETED&gt;</String>
 		<String _locID="44555" gamecharacter="Nonahkee" soundfilename="XNONA9000">Nathaniel!</String>
 		<String _locID="44556" gamecharacter="Nonahkee" soundfilename="XNONA9005">I'm free. Thank you all.</String>
 		<String _locID="44557" gamecharacter="Oneida Warchief" soundfilename="XGENR9035">Our base has no villagers. To build and expand we must free villagers being held captive by the Mohawk and their Hessian allies.</String>
@@ -15065,9 +14989,7 @@
 		<String _locID="44573">Pine trees. Harvest for Wood.</String>
 		<String _locID="44574">Tree</String>
 		<String _locID="44575">Tree - Pine</String>
-		<String _locID="44576"><![CDATA[
-			Attack and hitpoints increased for Aennas & Tomahawks.
-		]]></String>
+		<String _locID="44576">Attack and hitpoints increased for Aennas &amp; Tomahawks.</String>
 		<String _locID="44577">Elite War Hut</String>
 		<String _locID="44578">Elite War Bow</String>
 		<String _locID="44579">Attack and hitpoints increased for Horsemen.</String>
@@ -15515,9 +15437,7 @@
 		<String _locID="45021">Earth Dance</String>
 		<String _locID="45022">Attack and hitpoints increased for Horsemen.  Requires Fire Pit.</String>
 		<String _locID="45023">Elite Corral</String>
-		<String _locID="45024"><![CDATA[
-			Attack and hitpoints increased for Aennas & Tomahawks.  Requires Fire Pit.
-		]]></String>
+		<String _locID="45024">Attack and hitpoints increased for Aennas &amp; Tomahawks.  Requires Fire Pit.</String>
 		<String _locID="45025">Elite War Hut</String>
 		<String _locID="45026">Villagers gather Food faster.  Requires Fire Pit.</String>
 		<String _locID="45027">Feast Dance</String>
@@ -15848,9 +15768,7 @@
 		<String _locID="45354">SPC Ammo Storehouse</String>
 		<String _locID="45355">Spawns 6 Tomahawks at your TC.</String>
 		<String _locID="45356">War Dance</String>
-		<String _locID="45357"><![CDATA[
-			Attack and hitpoints increased for Aennas & Tomahawks.  Requires Fire Pit.
-		]]></String>
+		<String _locID="45357">Attack and hitpoints increased for Aennas &amp; Tomahawks.  Requires Fire Pit.</String>
 		<String _locID="45358">War Dance</String>
 		<String _locID="45359">Intensive Zapotec battle training increases hand infantry damage.</String>
 		<String _locID="45360">Zapotec Cult of the Dead</String>
@@ -16745,9 +16663,7 @@
 		<String _locID="46258" gamecharacter="Holme" soundfilename="XHOLM9250">It looks like word of the gold got back to Spain. Now you've got some Spanish miners to fight off too, kid.</String>
 		<String _locID="46259" gamecharacter="Burgoyne" soundfilename="XGENR9126">The Colonials are ambushing our wagons - stop them!</String>
 		<String _locID="46260" gamecharacter="British Soldier" soundfilename="XGENR9129">Yes sir!</String>
-		<String _locID="46261"><![CDATA[
-			<DELETE ME>
-		]]></String>
+		<String _locID="46261">&lt;DELETE ME&gt;</String>
 		<String _locID="46262" gamecharacter="Amelia" soundfilename="XAMEL8185">After Red Cloud's War, the uneasy truce between the Sioux and the settlers held for almost a decade.</String>
 		<String _locID="46263" gamecharacter="Amelia" soundfilename="XAMEL8190">When I retired from Falcon Company, I put my son in charge. For years, he was so busy he almost forgot about Red Cloud's War.</String>
 		<String _locID="46264" gamecharacter="Amelia" soundfilename="XAMEL8195">Until one day, when an old friend called him back to a town in the shadow of the Black Hills.</String>
@@ -17361,9 +17277,7 @@
 		<String _locID="46875">Crazy Horse</String>
 		<String _locID="46876">IGC Crazy Horse</String>
 		<String _locID="46877" symbol="cStringRegisterTitle">Would you like to register The Asian Dynasties expansion pack with your current ESO2 account? You cannot login to ESO2 unless you register.</String>
-		<String _locID="46878" symbol="cStringFirstESOConnectWarchiefs"><![CDATA[
-			<font=SmallIngame 12>ATTENTION! You must have an Age of Empires III ESO account to play The Asian Dynasties expansion pack online. If you already have an account, log in and your account will be enabled for The Asian Dynasties online play. If you don't have an account, you must create one. If you have forgotten your credentials, visit www.agecommunity.com.</font>
-		]]></String>
+		<String _locID="46878" symbol="cStringFirstESOConnectWarchiefs">&lt;font=SmallIngame 12&gt;ATTENTION! You must have an Age of Empires III ESO account to play The Asian Dynasties expansion pack online. If you already have an account, log in and your account will be enabled for The Asian Dynasties online play. If you don't have an account, you must create one. If you have forgotten your credentials, visit www.agecommunity.com.&lt;/font&gt;</String>
 		<String _locID="46879">New methods of rendering Whale oil at sea allow your Fishing Boats to gather from Whales significantly faster.</String>
 		<String _locID="46880">Whale Oil</String>
 		<String _locID="46881">Exotic Hardwoods Shipment has arrived.</String>
@@ -17540,9 +17454,7 @@
 		<String _locID="47052">Advanced Dock</String>
 		<String _locID="47053">Advanced Dock Shipment has arrived.</String>
 		<String _locID="47054">Florence Nightingale Shipment has arrived.</String>
-		<String _locID="47055" symbol="cStringActRequired"><![CDATA[
-			<color=1,0,0>Not available until Act %d</color>
-		]]></String>
+		<String _locID="47055" symbol="cStringActRequired">&lt;color=1,0,0&gt;Not available until Act %d&lt;/color&gt;</String>
 		<String _locID="47056">When this Shipment arrives, all of your current Coin is exchanged for a greater amount of Wood.</String>
 		<String _locID="47057">South Sea Bubble</String>
 		<String _locID="47058">Versailles Shipment has arrived.</String>
@@ -21819,15 +21731,9 @@
 		<String _locID="62283">All warships attack and hitpoints increased.</String>
 		<String _locID="62284">Improved Warships</String>
 		<String _locID="62285">Improved Warships Shipment has arrived.</String>
-		<String _locID="62286" symbol="cStringBuyFoodWithTrade"><![CDATA[
-			Buy 100 <icon="(32)(ui/ingame/resource_food)"> with Export.
-		]]></String>
-		<String _locID="62287" symbol="cStringBuyWoodWithTrade"><![CDATA[
-			Buy 100 <icon="(32)(ui/ingame/resource_wood)"> with Export.
-		]]></String>
-		<String _locID="62288" symbol="cStringBuyCoinWithTrade"><![CDATA[
-			Sell 100 <icon="(32)(ui/ingame/resource_trade)"> for Coin.
-		]]></String>
+		<String _locID="62286" symbol="cStringBuyFoodWithTrade">Buy 100 &lt;icon="(32)(ui/ingame/resource_food)"&gt; with Export.</String>
+		<String _locID="62287" symbol="cStringBuyWoodWithTrade">Buy 100 &lt;icon="(32)(ui/ingame/resource_wood)"&gt; with Export.</String>
+		<String _locID="62288" symbol="cStringBuyCoinWithTrade">Sell 100 &lt;icon="(32)(ui/ingame/resource_trade)"&gt; for Coin.</String>
 		<String _locID="62289">{E^Food source^}{J^Enhances nearby Shrines^}</String>
 		<String _locID="62290">{E^Medium herbivore. Harvest for Food.^}{J^Medium herbivore. Attracted to nearby Shrines. Enhances resources generated by Shrines.^}</String>
 		<String _locID="62291">Saiga</String>
@@ -28853,9 +28759,7 @@
 		<String _locID="69478">Repentant Jaeger</String>
 		<String _locID="69479">Repentant Jaeger</String>
 		<String _locID="69480">Repentant Jaeger</String>
-		<String _locID="69481" symbol="cStringRansomExplorerSendAsian"><![CDATA[
-			You paid %1d <icon="(32)(%2s)"> to reincarnate your Monk.
-		]]></String>
+		<String _locID="69481" symbol="cStringRansomExplorerSendAsian">You paid %1d &lt;icon="(32)(%2s)"&gt; to reincarnate your Monk.</String>
 		<String _locID="69482">Repentant Landsknecht</String>
 		<String _locID="69483">Repentant Landsknecht</String>
 		<String _locID="69484">Repentant Landsknecht</String>
