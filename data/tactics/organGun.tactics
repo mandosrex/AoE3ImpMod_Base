@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="38119">CannonAttack</name>
+		<reloadanim>Bombard_reload</reloadanim>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Bombard_ranged_attack</anim>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
+		<maxheight>0</maxheight>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>InvisibleProjectile</projectile>
+		<numberprojectiles>1</numberprojectiles>
+		<impacteffect>effects\impacts\gun</impacteffect>
+		<rate type="All">1.0 </rate>
+		<instantballistics>1</instantballistics>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<tactic>
+		Limber
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<transition>
+			<tactic>Bombard</tactic>
+			<action>Limber</action>
+			<anim>Bombard_unlimber</anim>
+			<length>2</length>
+			<exit>1</exit>
+			<commandautomatic>1</commandautomatic>
+			<automatic>1</automatic>
+		</transition>
+		<deathanim>Death_by_melee</deathanim>
+	</tactic>
+	<tactic>
+		Bombard
+		<speedmodifier>0.6</speedmodifier>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<exclusive>1</exclusive>
+		<action>CannonAttack</action>
+		<transition>
+			<tactic>Limber</tactic>
+			<action>Limber</action>
+			<anim>Bombard_limber</anim>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
+		<throw>1</throw>
+		<deathanim>Death_by_melee</deathanim>
+	</tactic>
+</tactics>

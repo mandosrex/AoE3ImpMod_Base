@@ -40,8 +40,8 @@
 			<gadget name="playersummarydlg-TributeFood" type="formatText" textcenterhoriz="" textcolor="255 255 255" textfont="InGameLabels" textfontsize="18" size1024="627 181 691 206" z="19"/>
 			<gadget name="playersummarydlg-TributeWood" type="formatText" textcenterhoriz="" textcolor="255 255 255" textfont="InGameLabels" textfontsize="18" size1024="705 183 769 208" z="19"/>
 			<gadget name="playersummarydlg-TributeGold" type="formatText" textcenterhoriz="" textcolor="255 255 255" textfont="InGameLabels" textfontsize="18" size1024="782 181 846 206" z="19"/>
-			<gadget name="timeDisplay" type="textBox" size1024="550 515 845 540" transparent="" datarefreshrate=".5" textcolor="105 70 25" z="8" textfont="InGameLabels" textjustifyright="" textfontsize="18">{gametime}{gamespeed}{aiDifficulty}</gadget>
 		</gadget>
+		<gadget name="timeDisplay" type="textBox" size1024="550 615 845 740" transparent="" datarefreshrate=".5" textcolor="105 70 25" z="8" textfont="InGameLabels" textjustifyright="" textfontsize="18">{gametime}{gamespeed}{aiDifficulty}</gadget>
 		<gadget name="playersummarydlg-playerStart" type="gadget" size1024="180 162 181 163"/>
 		<gadget name="playersummarydlg-Team1Row" type="gadget" size1024="181 182 853 207">
 			<gadget name="playersummarydlg-Team1Name" type="textBox" textcentervert="" textfont="InGameLabels" textfontsize="18" size1024="193 182 487 207" textcolor="0 0 0" z="19"/>

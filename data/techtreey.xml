@@ -2983,6 +2983,7 @@
 			<Effect type="TechStatus" status="obtainable">PlacerMines</Effect>
 			<Effect type="TechStatus" status="obtainable">Caracole</Effect>
 			<Effect type="TechStatus" status="obtainable">OreRefining</Effect>
+			<Effect type="TechStatus" status="obtainable">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpExcessiveTaxationD</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpLargeScaleAgriculture</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpDeforestation</Effect>
@@ -4955,6 +4956,7 @@
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxationD</Effect>
 			<Effect type="TechStatus" status="active">PostIndustrialDutch</Effect>
 			<Effect type="TechStatus" status="active">ImperialSchutzens</Effect>
@@ -19642,33 +19644,20 @@
 	</Tech>
 	<Tech name="ImpExcessiveTaxationD" type="Normal">
 		<DBID>1674</DBID>
-		<DisplayNameID>32364</DisplayNameID>
-		<Cost resourcetype="Food">1000.0000</Cost>
-		<Cost resourcetype="Wood">1000.0000</Cost>
+		<DisplayNameID>780899</DisplayNameID>
+		<Cost resourcetype="Food">500.0000</Cost>
+		<Cost resourcetype="Wood">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\imperial_excessive_taxation\imp_excessive_taxation</Icon>
-		<RolloverTextID>32363</RolloverTextID>
+		<RolloverTextID>780900</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
-			<TechStatus status="Active">OreRefining</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
-				<Target type="ProtoUnit">AbstractVillager</Target>
-			</Effect>
-			<Effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
-				<Target type="ProtoUnit">AbstractVillager</Target>
-			</Effect>
-			<Effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
-				<Target type="ProtoUnit">AbstractFishingBoat</Target>
-			</Effect>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Bank</Target>
-			</Effect>
-			<Effect type="Data2" action="Gather" amount="1.50" subtype="WorkRateSpecific" resource="Gold" unittype="ypRicePaddy" relativity="BasePercent">
-				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
 		</Effects>
 	</Tech>

@@ -7875,7 +7875,7 @@
 		<String _locID="37404" symbol="cStringHintRequestFailed">Failed to retrieve password hint</String>
 		<String _locID="37405" symbol="cStringPasswordRequestSuccess">Password request received - Email will be sent to your registered address.</String>
 		<String _locID="37406" soundfilename="SAHI5011">Wait, Morgan! Don't kill me yet! Delgado dragged all the treasure ships into the lagoons to hide them. I can show you where they are.</String>
-		<String _locID="37407">Increases Town Center build limit by +2.</String>
+		<String _locID="37407">Increases Town Center build limit by 2.</String>
 		<String _locID="37408">Donatarios</String>
 		<String _locID="37410">Admirality shipment has arrived.</String>
 		<String _locID="37411">TEAM Crates of 1,000 Wood</String>
@@ -30304,5 +30304,7 @@
 		<String _locID="780896">War Camp</String>
 		<String _locID="780897">Trains hand and ranged infantry.</String>
 		<String _locID="780898">Solid general-purpose infantry.</String>
+		<String _locID="780899">Excessive Banking</String>
+		<String _locID="780900">Increases Bank limit by 2.</String>
 	</Language>
 </StringTable>
