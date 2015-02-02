@@ -535,7 +535,7 @@
 			<command>uiShowPlayerSummaryDialog uiEnterGameMenuModeIfNotResigned</command>
 		</gadget>
 		<gadget name="SettlerCountDialog-fameLabel" type="stateButton" z="9" size1024="227 654 277 672" mouseovertext="$$780745$$" anchortooltiptopright="" statebuttonuseinternalstates="" activateondown="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255">
-			<command>uiFindType("Envoy")</command>
+			<command>uiFindType("TownCenter")</command>
 			<stateentry background=""/>
 		</gadget>
 		<gadget name="SettlerCountDialog-fame" type="formatText" transparent="" textcenterhoriz="" size1024="227 654 247 672" anchortooltiptopright="" donthighlight="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background=""/>
@@ -570,7 +570,7 @@
 			<command>uiShowPlayerSummaryDialog uiEnterGameMenuModeIfNotResigned</command>
 		</gadget>
 		<gadget name="SettlerCountDialog-fameLabel" type="stateButton" z="9" size1024="227 673 277 684" mouseovertext="$$780745$$" anchortooltiptopright="" statebuttonuseinternalstates="" activateondown="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255">
-			<command>uiFindType("Envoy")</command>
+			<command>uiFindType("TownCenter")</command>
 			<stateentry background=""/>
 		</gadget>
 		<gadget name="SettlerCountDialog-fame" type="formatText" transparent="" textcenterhoriz="" size1024="227 673 247 684" anchortooltiptopright="" donthighlight="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background=""/>
@@ -751,7 +751,7 @@
 			<command>uiShowPlayerSummaryDialog uiEnterGameMenuModeIfNotResigned</command>
 		</gadget>
 		<gadget name="SettlerCountDialog-fameLabel" type="stateButton" z="9" size1024="227 654 277 672" mouseovertext="$$780745$$" anchortooltiptopright="" statebuttonuseinternalstates="" activateondown="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255">
-			<command>uiFindType("Envoy")</command>
+			<command>uiFindType("TownCenter")</command>
 			<stateentry background=""/>
 		</gadget>
 		<gadget name="SettlerCountDialog-fame" type="formatText" transparent="" textcenterhoriz="" size1024="227 654 247 672" anchortooltiptopright="" donthighlight="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background=""/>
@@ -786,7 +786,7 @@
 			<command>uiShowPlayerSummaryDialog uiEnterGameMenuModeIfNotResigned</command>
 		</gadget>
 		<gadget name="SettlerCountDialog-fameLabel" type="stateButton" z="9" size1024="227 673 277 684" mouseovertext="$$780745$$" anchortooltiptopright="" statebuttonuseinternalstates="" activateondown="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255">
-			<command>uiFindType("Envoy")</command>
+			<command>uiFindType("TownCenter")</command>
 			<stateentry background=""/>
 		</gadget>
 		<gadget name="SettlerCountDialog-fame" type="formatText" transparent="" textcenterhoriz="" size1024="227 673 247 684" anchortooltiptopright="" donthighlight="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background=""/>

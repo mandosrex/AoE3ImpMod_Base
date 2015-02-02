@@ -9,13 +9,6 @@
 		<rate type="AbstractNugget">1.0</rate>
 	</action>
 	<action>
-		<name stringid="42178">Gather</name>
-		<type>Gather</type>
-		<anim>Gather</anim>
-		<maxrange>0.5</maxrange>
-		<rate type="TownCenter">1.0</rate>
-	</action>
-	<action>
 		<name stringid="38118">BuildingAttack</name>
 		<type>Attack</type>
 		<rangedlogic>1</rangedlogic>
@@ -50,7 +43,6 @@
 		<action priority="100">BuildingAttack</action>
 		<action priority="75">HandAttack</action>
 		<action>Discover</action>
-		<action>Gather</action>
 		<action>Build</action>
 		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
 		<runaway>0</runaway>

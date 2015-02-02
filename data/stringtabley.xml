@@ -5804,10 +5804,10 @@
 		<String _locID="34445" symbol="cStringESOMakeLeader">Make New Leader</String>
 		<String _locID="34446" symbol="cStringESOPromptNewLeader">There can only be one leader of a Clan. Are you sure you wish to make %s the new leader of your Clan?</String>
 		<String _locID="34447" symbol="cStringUICostLabel">Cost:</String>
-		<String _locID="34448" symbol="cStringChoosePoliticianAge2">Select an Expansion Age politician (50 Fame)</String>
-		<String _locID="34449" symbol="cStringChoosePoliticianAge3">Select a Conquest Age politician (100 Fame)</String>
-		<String _locID="34450" symbol="cStringChoosePoliticianAge4">Select an Industrial Age politician (150 Fame)</String>
-		<String _locID="34451" symbol="cStringChoosePoliticianAge5">Select an Imperial Age political party (200 Fame)</String>
+		<String _locID="34448" symbol="cStringChoosePoliticianAge2">Select an Expansion Age politician</String>
+		<String _locID="34449" symbol="cStringChoosePoliticianAge3">Select a Conquest Age politician</String>
+		<String _locID="34450" symbol="cStringChoosePoliticianAge4">Select an Industrial Age politician</String>
+		<String _locID="34451" symbol="cStringChoosePoliticianAge5">Select an Imperial Age political party</String>
 		<String _locID="34452">Double-barrel Attack</String>
 		<String _locID="34453">Fire with both shotgun barrels for heavy damage to infantry, cavalry or guardians.</String>
 		<String _locID="34454" symbol="cStringAdvanceAge2">Advance to the Expansion Age</String>
@@ -6348,7 +6348,7 @@
 		<String _locID="35568">Run</String>
 		<String _locID="35573">All cavalry attack and hitpoints increased.</String>
 		<String _locID="35574">Cavalry Combat</String>
-		<String _locID="35579">Improves your Russian Explorer in combat, improves his damage against guardians, and gives him a powerful canine companion.</String>
+		<String _locID="35579">Improves your Russian Explorer in combat, improves his damage against guardians, and enables him to train Bears.</String>
 		<String _locID="35580">Polar Explorer</String>
 		<String _locID="35581">Strelet, Cossack and Oprichnik attack and hitpoints increased.</String>
 		<String _locID="35582">Boyars</String>
@@ -23418,7 +23418,7 @@
 		<String _locID="64123" comment="pink unit">Traitorous Allies of Ishida</String>
 		<String _locID="64124">Daimyo Ishida</String>
 		<String _locID="64125">Shogun Tokugawa</String>
-		<String _locID="64126">Capture the Fort by moving military troops into the area</String>
+		<String _locID="64126">Capture the Hill by moving military troops into the area</String>
 		<String _locID="64127">Controlling the Hill starts a victory countdown. Undefended, it will convert to whoever moves military units into the area.</String>
 		<String _locID="64128">King's Hill</String>
 		<String _locID="64129">King's Hill</String>
@@ -30159,7 +30159,7 @@
 		<String _locID="780742">You have joined the Native Confederacy!</String>
 		<String _locID="780743">Patriot Militia</String>
 		<String _locID="780744">Fisheries must be built near Fish.</String>
-		<String _locID="780745">Fame Collected (Envoys gather Fame from Town Centers; spend it on special cards and techs)</String>
+		<String _locID="780745">Fame Collected (Town Centers generate Fame over time; spend it on armies and techs)</String>
 		<String _locID="780746">Messenger</String>
 		<String _locID="780747">Town Centers cannot be built too close to any starting Town Center.</String>
 		<String _locID="780748">Repentant Miner</String>

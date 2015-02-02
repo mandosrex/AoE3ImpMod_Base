@@ -6,8 +6,15 @@
 		<type>Spawn</type>
 		<rate type="Envoy">1.0 </rate>
 		<singleuse>1</singleuse>
-		<animationrate>1</animationrate>
 		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69158">SpawnFamer</name>
+		<type>Spawn</type>
+		<rate type="Famer">1.0 </rate>
+		<singleuse>1</singleuse>
+		<active>1</active>
 		<persistent>1</persistent>
 	</action>
 	<action>
@@ -182,6 +189,7 @@
 		<action priority="15">SpawnLivestock2</action>
 		<action priority="15">SpawnLivestock3</action>
 		<action priority="15">Spawn</action>
+		<action priority="15">SpawnFamer</action>
 		<action>MaintainSettlersOttoman</action>
 		<action>EconomicAuraKM</action>
 		<action>AutoGather</action>

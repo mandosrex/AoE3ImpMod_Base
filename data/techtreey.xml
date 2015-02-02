@@ -458,9 +458,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">PetBear</Target>
-			</Effect>
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -19721,7 +19718,6 @@
 		<DBID>1693</DBID>
 		<DisplayNameID>34150</DisplayNameID>
 		<Cost resourcetype="Food">800.0000</Cost>
-		<Cost resourcetype="Fame">50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -19743,7 +19739,6 @@
 		<DBID>1694</DBID>
 		<DisplayNameID>34146</DisplayNameID>
 		<Cost resourcetype="Food">800.0000</Cost>
-		<Cost resourcetype="Fame">50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -19763,7 +19758,6 @@
 		<DisplayNameID>34147</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -19783,7 +19777,6 @@
 		<DisplayNameID>34157</DisplayNameID>
 		<Cost resourcetype="Food">4000.0000</Cost>
 		<Cost resourcetype="Gold">4000.0000</Cost>
-		<Cost resourcetype="Fame">200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -19806,7 +19799,6 @@
 		<DisplayNameID>34157</DisplayNameID>
 		<Cost resourcetype="Food">4000.0000</Cost>
 		<Cost resourcetype="Gold">4000.0000</Cost>
-		<Cost resourcetype="Fame">200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -19824,7 +19816,6 @@
 		<DisplayNameID>34156</DisplayNameID>
 		<Cost resourcetype="Food">4000.0000</Cost>
 		<Cost resourcetype="Gold">4000.0000</Cost>
-		<Cost resourcetype="Fame">200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -19842,7 +19833,6 @@
 		<DisplayNameID>34156</DisplayNameID>
 		<Cost resourcetype="Food">4000.0000</Cost>
 		<Cost resourcetype="Gold">4000.0000</Cost>
-		<Cost resourcetype="Fame">200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -19865,7 +19855,6 @@
 		<DisplayNameID>34158</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -19885,7 +19874,6 @@
 		<DisplayNameID>34162</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -20048,7 +20036,6 @@
 		<DBID>1722</DBID>
 		<DisplayNameID>34148</DisplayNameID>
 		<Cost resourcetype="Food">800.0000</Cost>
-		<Cost resourcetype="Fame">50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -20068,7 +20055,6 @@
 		<DisplayNameID>34160</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -20091,7 +20077,6 @@
 		<DisplayNameID>34155</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -20111,7 +20096,6 @@
 		<DisplayNameID>34161</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -20133,7 +20117,6 @@
 		<DBID>1726</DBID>
 		<DisplayNameID>34154</DisplayNameID>
 		<Cost resourcetype="Food">800.0000</Cost>
-		<Cost resourcetype="Fame">50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -20153,7 +20136,6 @@
 		<DisplayNameID>34153</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -20175,7 +20157,6 @@
 		<DisplayNameID>34152</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -20195,7 +20176,6 @@
 		<DisplayNameID>34159</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -20236,7 +20216,6 @@
 		<DisplayNameID>34164</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -21152,7 +21131,6 @@
 		<DisplayNameID>34183</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -21175,7 +21153,6 @@
 		<DisplayNameID>34194</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -21536,7 +21513,6 @@
 		<DisplayNameID>34405</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -21556,7 +21532,6 @@
 		<DisplayNameID>34405</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -23193,7 +23168,6 @@
 		<DisplayNameID>35466</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -23228,7 +23202,6 @@
 		<DisplayNameID>35470</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -23247,7 +23220,6 @@
 		<DisplayNameID>35472</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23270,7 +23242,6 @@
 		<DisplayNameID>35474</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23290,7 +23261,6 @@
 		<DisplayNameID>35476</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -23310,7 +23280,6 @@
 		<DisplayNameID>35480</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23330,7 +23299,6 @@
 		<DisplayNameID>35482</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23350,7 +23318,6 @@
 		<DisplayNameID>35486</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -23370,7 +23337,6 @@
 		<DisplayNameID>35489</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -23389,7 +23355,6 @@
 		<DisplayNameID>35495</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23409,7 +23374,6 @@
 		<DisplayNameID>35497</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23429,7 +23393,6 @@
 		<DisplayNameID>35501</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23449,7 +23412,6 @@
 		<DisplayNameID>35503</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -23468,7 +23430,6 @@
 		<DBID>2151</DBID>
 		<DisplayNameID>35507</DisplayNameID>
 		<Cost resourcetype="Food">800.0000</Cost>
-		<Cost resourcetype="Fame">50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -23488,7 +23449,6 @@
 		<DisplayNameID>35509</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23508,7 +23468,6 @@
 		<DisplayNameID>35511</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23617,9 +23576,6 @@
 		<RolloverTextID>35579</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ExplorerDog" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Hero</Target>
 			</Effect>
@@ -23628,6 +23584,9 @@
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="DamageBonus" unittype="Guardian" allactions="1" relativity="Absolute">
 				<Target type="ProtoUnit">Explorer</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">PetBear</Target>
 			</Effect>
 			<Effect type="TextOutput">41836</Effect>
 		</Effects>
@@ -23704,7 +23663,6 @@
 		<DisplayNameID>35637</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -23724,7 +23682,6 @@
 		<DisplayNameID>35639</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23744,7 +23701,6 @@
 		<DisplayNameID>35641</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23767,7 +23723,6 @@
 		<DisplayNameID>35651</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -23987,7 +23942,6 @@
 		<DisplayNameID>35678</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -24007,7 +23961,6 @@
 		<DisplayNameID>35680</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -24027,7 +23980,6 @@
 		<DisplayNameID>35684</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -24047,7 +23999,6 @@
 		<DisplayNameID>35686</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -24067,7 +24018,6 @@
 		<DisplayNameID>35694</DisplayNameID>
 		<Cost resourcetype="Food">4000.0000</Cost>
 		<Cost resourcetype="Gold">4000.0000</Cost>
-		<Cost resourcetype="Fame">200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -24085,7 +24035,6 @@
 		<DisplayNameID>35700</DisplayNameID>
 		<Cost resourcetype="Food">4000.0000</Cost>
 		<Cost resourcetype="Gold">4000.0000</Cost>
-		<Cost resourcetype="Fame">200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -24103,7 +24052,6 @@
 		<DisplayNameID>35703</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -24126,7 +24074,6 @@
 		<DisplayNameID>35707</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
@@ -30806,7 +30753,6 @@
 		<DisplayNameID>37020</DisplayNameID>
 		<Cost resourcetype="Food">4000.0000</Cost>
 		<Cost resourcetype="Gold">4000.0000</Cost>
-		<Cost resourcetype="Fame">200.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
@@ -32211,7 +32157,6 @@
 		<DBID>2665</DBID>
 		<DisplayNameID>41943</DisplayNameID>
 		<Cost resourcetype="Food">800.0000</Cost>
-		<Cost resourcetype="Fame">50.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
@@ -32599,7 +32544,6 @@
 		<DisplayNameID>78038</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
@@ -32619,7 +32563,6 @@
 		<DisplayNameID>78039</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
-		<Cost resourcetype="Fame">150.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
