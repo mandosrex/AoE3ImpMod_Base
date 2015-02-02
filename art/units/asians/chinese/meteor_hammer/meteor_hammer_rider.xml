@@ -25,7 +25,7 @@
 					</lowpoly>
 				</logic>
 			</none>
-			<yphonoredmeteorhammer>
+			<ypdisciplinedmeteorhammer>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -38,8 +38,8 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</yphonoredmeteorhammer>
-			<ypexaltedmeteorhammer>
+			</ypdisciplinedmeteorhammer>
+			<yphhonoredmeteorhammer>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
@@ -52,7 +52,7 @@
 						</assetreference>
 					</lowpoly>
 				</logic>
-			</ypexaltedmeteorhammer>
+			</yphhonoredmeteorhammer>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
@@ -150,22 +150,6 @@
 		<assetreference type="GrannyAnim">
 			<file>units\asians\chinese\meteor_hammer\Meteor_Hammer_attack_01</file>
 			<weight>40</weight>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_attack_A</file>
-			<weight>40</weight>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_attack_B</file>
-			<weight>10</weight>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_attack_C</file>
-			<weight>10</weight>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_attack_D</file>
-			<weight>10</weight>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
@@ -280,6 +264,14 @@
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\oprichnik_attack_B</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\oprichnik_attack_C</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\oprichnik_attack_D</file>
 			<weight>10</weight>
 		</assetreference>
 		<component>ModelComp</component>

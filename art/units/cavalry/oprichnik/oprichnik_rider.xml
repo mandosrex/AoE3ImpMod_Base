@@ -3,38 +3,6 @@
 <animfile>
 	<definebone>Bip01 Prop1</definebone>
 	<definebone>bip01_attach_rt</definebone>
-	<definebone>bone_gun</definebone>
-	<definebone>bone_fuse</definebone>
-	<attachment>
-		fusesparks
-		<component>
-			fusesparks
-			<assetreference type="ParticleSystem">
-				<file>effects\spc\fusesparks.particle</file>
-			</assetreference>
-		</component>
-		<anim>
-			None
-			<component>fusesparks</component>
-		</anim>
-	</attachment>
-	<attachment>
-		fusesmoke
-		<component>
-			fusesmoke
-			<assetreference type="ParticleSystem">
-				<file>effects\spc\fusesmoke.particle</file>
-			</assetreference>
-		</component>
-		<anim>
-			None
-			<component>fusesmoke</component>
-		</anim>
-	</attachment>
-	<attachment>
-		grenade
-		<include>effects\projectiles\grenade.xml</include>
-	</attachment>
 	<attachment>
 		torch
 		<include>effects\projectiles\torch_cavalry.xml</include>
@@ -56,11 +24,6 @@
 					<file>units\cavalry\oprichnik\oprichnik_3age_rider</file>
 				</assetreference>
 			</guardoprichniks>
-			<imperialoprichniks2>
-				<assetreference type="GrannyModel">
-					<file>units\cavalry\oprichnik\oprichnik_3age_rider</file>
-				</assetreference>
-			</imperialoprichniks2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
@@ -73,12 +36,11 @@
 	<anim>
 		Walk
 		<assetreference type="GrannyAnim">
-			<file>units\asians\chinese\iron_flail\iron_flail_rider_walk00</file>
+			<file>animation_library\cavalry\oprichnik_canter</file>
 			<tag type="FootstepLeft" footprinttype="Horse">1.00</tag>
 			<tag type="FootstepRight" footprinttype="Horse">0.70</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="attachment_whip" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Jog
@@ -88,7 +50,6 @@
 			<tag type="FootstepRight" footprinttype="Horse">0.94</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="attachment_whip" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Run
@@ -98,7 +59,6 @@
 			<tag type="FootstepRight" footprinttype="Horse">0.94</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="attachment_whip" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Idle
@@ -135,7 +95,6 @@
 			<weight>40</weight>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="attachment_whip" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Bored
@@ -156,7 +115,6 @@
 			<weight>50</weight>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="attachment_whip" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Attack_melee
@@ -176,25 +134,7 @@
 			<file>animation_library\cavalry\oprichnik_attack_D</file>
 			<weight>10</weight>
 		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_attack_B</file>
-			<weight>10</weight>
-		</assetreference>
 		<component>ModelComp</component>
-		<attach a="attachment_whip" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Attack_trample
-		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_attack_A</file>
-			<weight>40</weight>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_attack_B</file>
-			<weight>10</weight>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="attachment_whip" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_by_melee
@@ -208,7 +148,6 @@
 			<file>animation_library\cavalry\oprichnik_deathC</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="attachment_whip" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_by_range
@@ -222,7 +161,6 @@
 			<file>animation_library\cavalry\oprichnik_deathC</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="attachment_whip" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_by_havoc
@@ -233,7 +171,6 @@
 			<file>animation_library\cavalry\rider_death_havoc_b</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="attachment_whip" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Raze_idle
@@ -270,7 +207,7 @@
 			<weight>40</weight>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="grenade" frombone="ATTACHPOINT" tobone="R HAND" syncanims="0"/>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="R HAND" syncanims="0"/>
 	</anim>
 	<anim>
 		Raze_attack
@@ -287,8 +224,6 @@
 			<file>animation_library\cavalry\raze_attack_A</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="fusesparks" frombone="bone_fuse" tobone="bone_fuse" syncanims="0"/>
-		<attach a="fusesmoke" frombone="bone_fuse" tobone="bone_fuse" syncanims="0"/>
-		<attach a="grenade" frombone="ATTACHPOINT" tobone="R HAND" syncanims="0"/>
+		<attach a="torch" frombone="ATTACHPOINT" tobone="R HAND" syncanims="0"/>
 	</anim>
 </animfile>

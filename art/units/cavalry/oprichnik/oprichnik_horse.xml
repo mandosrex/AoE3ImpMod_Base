@@ -22,11 +22,6 @@
 					<file>units\cavalry\oprichnik\oprichnik_3age_horse</file>
 				</assetreference>
 			</guardoprichniks>
-			<imperialoprichniks2>
-				<assetreference type="GrannyModel">
-					<file>units\cavalry\oprichnik\oprichnik_3age_horse</file>
-				</assetreference>
-			</imperialoprichniks2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
@@ -171,12 +166,6 @@
 			<tag type="Attack">0.56</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.50</tag>
 		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\horse_trample_A</file>
-			<weight>40</weight>
-			<tag type="Attack">0.43</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.37</tag>
-		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
@@ -305,22 +294,22 @@
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\horse_1_attack_A</file>
 			<tag type="Attack">0.43</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="GrenadeLight">0.10</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.29</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\horse_1_attack_B</file>
 			<tag type="Attack">0.43</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="GrenadeLight">0.10</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.34</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\horse_1_attack_C</file>
 			<tag type="Attack">0.43</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="GrenadeLight">0.10</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.38</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\horse_1_attack_D</file>
 			<tag type="Attack">0.43</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="GrenadeLight">0.10</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.33</tag>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

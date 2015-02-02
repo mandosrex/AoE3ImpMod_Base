@@ -63,7 +63,7 @@
 	<anim>
 		Walk
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_canter</file>
+			<file>animation_library\cavalry\sword_canter</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="lance" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
@@ -71,7 +71,7 @@
 	<anim>
 		Jog
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_jog</file>
+			<file>animation_library\cavalry\sword_jog</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="lance" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
@@ -79,7 +79,7 @@
 	<anim>
 		Run
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_gallop</file>
+			<file>animation_library\cavalry\sword_gallop</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="lance" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
@@ -95,35 +95,35 @@
 	<anim>
 		Idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_A</file>
+			<file>animation_library\cavalry\sword_idle_A</file>
 			<weight>40</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_B</file>
+			<file>animation_library\cavalry\sword_idle_B</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_C</file>
+			<file>animation_library\cavalry\sword_idle_C</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_D</file>
+			<file>animation_library\cavalry\sword_idle_D</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_F</file>
+			<file>animation_library\cavalry\sword_idle_F</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_G</file>
+			<file>animation_library\cavalry\sword_idle_G</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_H</file>
+			<file>animation_library\cavalry\sword_idle_H</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_I</file>
+			<file>animation_library\cavalry\sword_idle_I</file>
 			<weight>40</weight>
 		</assetreference>
 		<component>ModelComp</component>
@@ -132,19 +132,19 @@
 	<anim>
 		Bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_bored_A</file>
+			<file>animation_library\cavalry\sword_bored_A</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_E</file>
+			<file>animation_library\cavalry\sword_idle_E</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_A</file>
+			<file>animation_library\cavalry\sword_idle_A</file>
 			<weight>50</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_I</file>
+			<file>animation_library\cavalry\sword_idle_I</file>
 			<weight>50</weight>
 		</assetreference>
 		<component>ModelComp</component>
@@ -330,7 +330,7 @@
 	<anim>
 		Walk
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_canter</file>
+			<file>animation_library\cavalry\sword_canter</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="lance" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
@@ -338,7 +338,7 @@
 	<anim>
 		Jog
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_jog</file>
+			<file>animation_library\cavalry\sword_jog</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="lance" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
@@ -346,7 +346,7 @@
 	<anim>
 		Run
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_gallop</file>
+			<file>animation_library\cavalry\sword_gallop</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="lance" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
@@ -362,35 +362,35 @@
 	<anim>
 		Idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_A</file>
+			<file>animation_library\cavalry\sword_idle_A</file>
 			<weight>40</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_B</file>
+			<file>animation_library\cavalry\sword_idle_B</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_C</file>
+			<file>animation_library\cavalry\sword_idle_C</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_D</file>
+			<file>animation_library\cavalry\sword_idle_D</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_F</file>
+			<file>animation_library\cavalry\sword_idle_F</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_G</file>
+			<file>animation_library\cavalry\sword_idle_G</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_H</file>
+			<file>animation_library\cavalry\sword_idle_H</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_I</file>
+			<file>animation_library\cavalry\sword_idle_I</file>
 			<weight>40</weight>
 		</assetreference>
 		<component>ModelComp</component>
@@ -399,19 +399,19 @@
 	<anim>
 		Bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_bored_A</file>
+			<file>animation_library\cavalry\sword_bored_A</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_E</file>
+			<file>animation_library\cavalry\sword_idle_E</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_A</file>
+			<file>animation_library\cavalry\sword_idle_A</file>
 			<weight>50</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\lance_idle_I</file>
+			<file>animation_library\cavalry\sword_idle_I</file>
 			<weight>50</weight>
 		</assetreference>
 		<component>ModelComp</component>

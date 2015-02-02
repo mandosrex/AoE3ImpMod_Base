@@ -42,6 +42,13 @@
 	</coffers>
 	<cards>
 		<card>
+			<name>HCEarlySkirmishersTeam</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipSkirmishers4</prereqtech>
+			<age>0</age>
+		</card>
+		<card>
 			<name>TreasurySup</name>
 			<maxcount>1</maxcount>
 			<level>40</level>
@@ -1463,6 +1470,7 @@
 			<tech x="7.3" y="1.0">HCMortarsDamageDutchTeam</tech>
 			<tech x="7.3" y="2.0">HCShipMortars1</tech>
 			<tech x="7.3" y="7.0">HCXPShipMortarsTeam</tech>
+			<tech x="1.6" y="7.0">HCEarlySkirmishersTeam</tech>
 		</obtainabletechs>
 		<activetechs>
 			<tech>HCShipPikemen1</tech>

@@ -26,34 +26,34 @@
 					</lowpoly>
 				</logic>
 			</none>
+			<ypdisciplinedmeteorhammer>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\chinese\meteor_hammer\Meteor_Hammer_Horse_02</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\chinese\meteor_hammer\Meteor_Hammer_Horse_02</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</ypdisciplinedmeteorhammer>
 			<yphonoredmeteorhammer>
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\asians\chinese\meteor_hammer\Meteor_Hammer_Horse_02</file>
+							<file>units\asians\chinese\meteor_hammer\Meteor_Hammer_Horse_03</file>
 						</assetreference>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
-							<file>units\asians\chinese\meteor_hammer\Meteor_Hammer_Horse_02</file>
+							<file>units\asians\chinese\meteor_hammer\Meteor_Hammer_Horse_03</file>
 						</assetreference>
 					</lowpoly>
 				</logic>
 			</yphonoredmeteorhammer>
-			<ypexaltedmeteorhammer>
-				<logic type="LowPoly">
-					<normal>
-						<assetreference type="GrannyModel">
-							<file>units\asians\chinese\meteor_hammer\Meteor_Hammer_Horse_03</file>
-						</assetreference>
-					</normal>
-					<lowpoly>
-						<assetreference type="GrannyModel">
-							<file>units\asians\chinese\meteor_hammer\Meteor_Hammer_Horse_03</file>
-						</assetreference>
-					</lowpoly>
-				</logic>
-			</ypexaltedmeteorhammer>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
@@ -197,12 +197,6 @@
 			<weight>10</weight>
 			<tag type="Attack">0.56</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.50</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\horse_trample_A</file>
-			<weight>40</weight>
-			<tag type="Attack">0.43</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.37</tag>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

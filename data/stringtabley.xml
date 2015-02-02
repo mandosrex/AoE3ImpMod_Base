@@ -250,7 +250,7 @@
 		<String _locID="18971" symbol="cStringFilename">Filename:</String>
 		<String _locID="18972" symbol="cStringLookin">Look In:</String>
 		<String _locID="18973" symbol="cStringUp">Up</String>
-		<String _locID="18986" symbol="cStringAttackMove">Attack Move</String>
+		<String _locID="18986" symbol="cStringAttackMove">Move and attack on contact.</String>
 		<String _locID="19000" symbol="cStringHotkeySetup">Hotkey Setup</String>
 		<String _locID="19004" symbol="cStringViewPlayer">View Player</String>
 		<String _locID="19005" symbol="cStringViewLock">View Lock</String>
@@ -20890,7 +20890,7 @@
 		<String _locID="61442">Does stuff a sequester is supposed to do</String>
 		<String _locID="61443"/>
 		<String _locID="61444">Supports 10 population / economic building</String>
-		<String _locID="61445">Generates a tiny amount of resources. Configure it to produce different things. Attracts nearby livestock for bonus production. Supports 10 population.</String>
+		<String _locID="61445">Generates a tiny amount of resources. Configure it to produce different things. Attracts nearby animals for bonus production. Supports 10 population.</String>
 		<String _locID="61446">Shrine</String>
 		<String _locID="61447">Shrine Japanese</String>
 		<String _locID="61448">2 Yamabushi</String>
@@ -24396,7 +24396,7 @@
 		<String _locID="65106" comment="JC Load Screen 5">September 1600 - I have few words. Lies always litter a battlefield, but this, this lie cuts too deeply. With a heavy spirit, I lead my men to their dooms at Fushimi Castle. There, 30,000 enemies will fall upon them like the stones of an avalanche. As for me, I struggle under a different weight: the truth.</String>
 		<String _locID="65107" comment="JC Load Screen 6">October 1600 - I watch the sun rise over the village of Sekigahara, and I wonder what morning will bring. Two paths now wait at my feet. One holds the truth of who I was. The other holds the truth of who I have become. The choice is mine alone, and the master waits.</String>
 		<String _locID="65108">Open Foreign Relations</String>
-		<String _locID="65109">Shipment: 2 Sepoys\n \nPower: Powerful fortress that can also train units.</String>
+		<String _locID="65109">Shipment: 2 Sepoys\n \nPower: Powerful fortress that can also train units. Enables Gurkhas earlier.</String>
 		<String _locID="65110">Agra Fort</String>
 		<String _locID="65111">Shipment: 5 Gurkhas\n \nPower: Powerful fortress that can also train units.</String>
 		<String _locID="65112">Agra Fort</String>
@@ -24412,9 +24412,9 @@
 		<String _locID="65122">Tower of Victory</String>
 		<String _locID="65123">Shipment: 2000 Wood\n \nPower: Inspiration - temporary attack, hitpoint, and speed boost to all land units.</String>
 		<String _locID="65124">Tower of Victory</String>
-		<String _locID="65125">Shipment: 4 Gurkhas\n \nPower: Trains Mansabdars who boost the attack and hitpoints of other units.</String>
+		<String _locID="65125">Shipment: 2 Sowars\n \nPower: Trains Mansabdars who boost the attack and hitpoints of other units.</String>
 		<String _locID="65126">Charminar Gate</String>
-		<String _locID="65127">Shipment: 6 Gurkhas\n \nPower: Trains Mansabdars who boost the attack and hitpoints of other units.</String>
+		<String _locID="65127">Shipment: 1 Mahout Lancer\n \nPower: Trains Mansabdars who boost the attack and hitpoints of other units.</String>
 		<String _locID="65128">Charminar Gate</String>
 		<String _locID="65129">Shipment: 2 Mahout Lancers\n \nPower: Trains Mansabdars who boost the attack and hitpoints of other units.</String>
 		<String _locID="65130">Charminar Gate</String>
@@ -30306,5 +30306,6 @@
 		<String _locID="780898">Solid general-purpose infantry.</String>
 		<String _locID="780899">Excessive Banking</String>
 		<String _locID="780900">Increases Bank limit by 2.</String>
+		<String _locID="780901">Powerful, defensive building that can also train units.</String>
 	</Language>
 </StringTable>

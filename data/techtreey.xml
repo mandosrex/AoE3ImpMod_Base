@@ -8562,6 +8562,9 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypSacredCow</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">LevyAsi</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -58242,6 +58245,9 @@
 			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="ypSepoy" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+				<Target type="ProtoUnit">ypNatMercGurkha</Target>
+			</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianCharminar2</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianTowerOfVictory2</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianTajMahal2</Effect>
@@ -58433,7 +58439,7 @@
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianCharminar3</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianCharminar4</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianCharminar5</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="ypNatMercGurkha" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="ypSowar" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianAgra2</Effect>
@@ -58457,7 +58463,7 @@
 			<Effect type="SetAge">Age2</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianCharminar4</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianCharminar5</Effect>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="ypNatMercGurkha" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypMahout" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianAgra3</Effect>

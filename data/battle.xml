@@ -7,6 +7,7 @@
 		<name>Default</name>
 		<unittype>Unit</unittype>
 		<taskai>0</taskai>
+		<allowautopick>0</allowautopick>
 		<activeicon>art\ui\command\mode_raking_on</activeicon>
 		<availableicon>art\ui\command\mode_raking</availableicon>
 		<unavailableicon>art\ui\command\mode_raking_off</unavailableicon>
@@ -298,9 +299,6 @@
 		<formationtype>Line</formationtype>
 		<canbreakformation>1</canbreakformation>
 		<canrotateinformation>1</canrotateinformation>
-		<formationlinelinespacing>0.0</formationlinelinespacing>
-		<formationlinecolumnspacing>0.2</formationlinecolumnspacing>
-		<randomspacingoffset>0.0</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\bombgo</activeicon>
@@ -317,9 +315,6 @@
 		<formationtype>Line</formationtype>
 		<canbreakformation>1</canbreakformation>
 		<canrotateinformation>1</canrotateinformation>
-		<formationlinelinespacing>0.0</formationlinelinespacing>
-		<formationlinecolumnspacing>0.2</formationlinecolumnspacing>
-		<randomspacingoffset>0.0</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
 		<activeicon>art\ui\command\anchorgo</activeicon>
@@ -334,6 +329,7 @@
 		<unittype>ypRepentantYojimbo</unittype>
 		<unittype>SaloonOutlawPistol</unittype>
 		<unittype>ypRepentantOutlawPistol</unittype>
+		<unittype>ypConsulateShinobi</unittype>
 		<targetunittype>All</targetunittype>
 		<stance>Defensive</stance>
 		<formationtype>Line</formationtype>

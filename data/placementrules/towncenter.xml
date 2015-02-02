@@ -9,7 +9,7 @@
 	<obstructionatleastfromtype player="any" foundation="any" distance="8" errorstringid="34686">ypRicePaddy</obstructionatleastfromtype>
 	<distanceatleastfromtype player="any" foundation="any" distance="20" errorstringid="69985">ypKingsHill</distanceatleastfromtype>
 	<distanceatleastfromtype player="enemy" foundation="any" distance="65" errorstringid="25521">FirstTC</distanceatleastfromtype>
-	<distanceatleastfromtype player="any" foundation="any" distance="50" errorstringid="780747">FirstTC</distanceatleastfromtype>
+	<distanceatleastfromtype player="any" foundation="any" distance="20" errorstringid="780747">FirstTC</distanceatleastfromtype>
 	<distanceatleastfromcliff distance="6" errorstringid="25529"/>
 	<distanceatmostfromtype player="team" foundation="any" distance="75" errorstringid="46622" norushonly="true">FirstTC</distanceatmostfromtype>
 </placementrules>

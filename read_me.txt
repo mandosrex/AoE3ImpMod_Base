@@ -3,10 +3,10 @@ Version 5.4
 
 ~~~ ATTENTION! ~~~
 
-Every version of this mod should be installed on a fresh, unmodified version of 'Age of Empires 3 The Asian Dynasties' (must also include 'The War Chiefs' and all games must be updated to the latest versions, v1.03 for TAD)! Mostly recommended only if you have any kind of errors or other problems.
+Every version of this mod should be installed on a fresh, unmodified version of 'Age of Empires 3 The Asian Dynasties' !
+This mod requires that you have the game and both expansions installed and updated to their latest official versions.
 
-If you have problems with missing models, sounds or buildings icons then try to re-install 'The War Chiefs'. It has some installation glitches.
-And if that doesn't work then find out how to fix it at the end of this description.
+If you have problems with missing models, sounds or building icons then you probably have issues with 'The WarChiefs' expansion (a common registry bug), try re-installing everything.
 
 If you have problems with resources not being displayed correctly in the UI please go to "Options" and press the "Restore Defaults" button, and if the game crashes on startup try making it run in Windows XP compatibility mode.
 
@@ -22,15 +22,28 @@ If you plan on installing the mod over the Steam version, use this path for the 
 http://impmod.blogspot.com
 http://www.moddb.com/mods/improvement-mod
 http://aoe3.heavengames.com/downloads/lister.php?category=modpacks
+http://impmod.freeforums.org
 
 -------------------------------------------------------------------------------
 
+Installation
+- To install the Improvement Mod make sure you have the game and both expansion, The WarChiefs and The Asian Dynasties, installed and updated to their latest official versions. For AoE3 versions 1.14, for TWC version 1.06 and for TAD version 1.03.
+For the latest official patches go to:
+http://www.agecommunity.com/
 
-This mod started out as a 'Buildings Mod', with the objective to add more nice and useful buildings to the game, but many more improvements where needed and many ideas where coming so the 'Improvement Mod' was born.
-For now, this mod tries to upgrade the game with small, big and necessary tweaks, changes and adds to make the gameplay more interesting, fun and challenging. All known bugs from the original game have been fixed.
-More great things to come!
+- There are 3 ways to install the Improvement Mod, with the mod's Patcher, Installer or manual installation (not recommended).
+For a video tutorial for all 3 options please go to:
+https://www.youtube.com/watch?v=nOFQGitVKR0
 
-Requirements: This mod is only for TAD but requires AOE3+TWC+TAD 1.03
+- To remove the mod simply uninstall and delete the entire game, including any remaining files and folders.
+
+-------------------------------------------------------------------------------
+
+The Improvement Mod touches on every aspect of the game, improving and tweaking every feature the game has to offer while also adding many new ones.
+The mod adds new units, buildings, maps, civilizations, soundtracks and game modes. All of this results in a very refined gameplay experience powered by an improved AI and more detailed graphics. Balancing is also a main focus and the mod has been tuned for competitive play. Check the "Features" for more details.
+The mod works with both versions of the game, Steam and non-Steam, and is only available for The Asian Dynasties expansion but requires Age of Empires 3 plus The WarChiefs expansion and The Asian Dynasties 1.3. It is recommended to install over the AoE3 Complete Edition (Steam version) as it contains everything the mod needs.
+
+Requirements: Age of Empires 3 + The WarChiefs + The Asian Dynasties 1.3
 
 
 Changes:
@@ -442,7 +455,7 @@ Plus
 - added proper building animations and models to all new buildings
 - many other little or big things...
 
-
+-------------------------------------------------------------------------------
 
 Known Problems
 - the Bakery doesn't have destruction animations
@@ -453,51 +466,3 @@ Known Problems
 NOTES
 - If you find any more problems, bugs or glitches please leave any information in the comments section.
 - This mod works perfect on LAN, as long as the other players have the same version of the mod of course.
-
-
-Special thanks to aLEN, Don Omar, Sanpedrocactus, Arkantoz, Napoleonic Era and everyone else!
-
-
-Un/Installation
-- make sure you have the latest versions of all 3 games (v1.03 for TAD), get the latest patches from the game's official website or use the game's updaters
-- run the installer, select your AoE3 directory and continue with the installation
-- to completely remove the mod please re-install the game
-
-
-For the latest official patches go to:
-http://www.agecommunity.com/
-
-For more updates, information and comments, head to the mod's blog at:
-http://impmod.blogspot.com/
-
-Screenshots *they are very old, but i am too lazy to make new ones:)*
-http://img713.imageshack.us/g/screen11h.jpg
-
-Video preview of the mod here:
-http://www.youtube.com/watch?v=5kwrWCkecRw
-
-
--------------------------------------------------------------------------------
-
-HOW TO FIX 'THE WAR CHIEFS' CONTENT NOT APPEARING IN 'THE ASIAN DYNASTIES'!
-
-As some of you know, TWC has some installation problems and does not register completely in the Windows registry.
-I have made a registry file which fixes this problem, no matter of the Windows version.
-The file needs to know the exact install location of your game, the default one is:
-C:\Program Files\Microsoft Games\Age of Empires III
-
-If you have the game installed in this location then just go ahead and double click the file, then select 'Yes' when asked.
-
-If you have the game installed in a different place then you will have to edit the file your self, very simple.
-Just right click the file and click 'Edit'. Notepad will be opened and besides other things you will have this line:
-"SetupPath"="C:\\Program Files\\Microsoft Games\\Age of Empires III\\"
-
-Replace this with your install path for AoE3, for example:
-"SetupPath"="D:\\Games\\Age of Empires III\\"
-
-Save it and run the file selecting 'Yes' when asked.
-
-
-You can download the file from here:
-http://www.mediafire.com/?qxrn74s8svjib1a
-http://www.mediafire.com/?qxrn74s8svjib1a
