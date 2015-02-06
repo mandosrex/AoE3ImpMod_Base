@@ -3,7 +3,7 @@
 <protounitcommands>
 	<protounitcommand>
 		<name>MarketBuy1</name>
-		<command>resourceMarket(-1, "food" , 100.0, "gold")</command>
+		<command>resourceMarket(-1,"food",100.0,"gold")</command>
 		<icon>art\ui\command\trade_buy_food</icon>
 		<rollovertextid>19222</rollovertextid>
 		<valuetext>{marketBuy(food)}</valuetext>
@@ -31,7 +31,7 @@
 	</protounitcommand>
 	<protounitcommand>
 		<name>TradeForFood</name>
-		<command>resourceMarket(-1, "food" , 100.0, "trade")</command>
+		<command>resourceMarket(-1,"food",100.0,"trade")</command>
 		<icon>art\ui\command\trade_buy_food_with_trade</icon>
 		<rollovertextid>62286</rollovertextid>
 		<valuetext>{marketBuy(food)}</valuetext>

@@ -19639,15 +19639,16 @@ minInterval 10
       }
 
    // Create explore plan
-   int envoyExplore = aiPlanCreate("Envoy Gather", cPlanHerd);
+   int envoyExplore = aiPlanCreate("Envoy Explore", cPlanExplore);
    aiPlanSetDesiredPriority(envoyExplore, 99);
    aiPlanAddUnitType(envoyExplore, cUnitTypeEnvoy, 1, 1, 1);
-   aiPlanSetVariableInt(envoyExplore, cHerdPlanBuildingTypeID, 0, cUnitTypeTownCenter);
-   aiPlanSetVariableFloat(envoyExplore, cHerdPlanDistance, 0, 0.0);
+   aiPlanSetEscrowID(envoyExplore, cEconomyEscrowID);
+   aiPlanSetBaseID(envoyExplore, kbBaseGetMainID(cMyID));
+   aiPlanSetVariableBool(envoyExplore, cExplorePlanDoLoops, 0, false);
    aiPlanSetActive(envoyExplore);
 
    // Disable rule
-   xsDisableSelf();   
+   xsDisableSelf();      
 }
 
 
@@ -19681,11 +19682,13 @@ rule mongolScoutMonitor
 inactive
 minInterval 10
 {
-   // Create plan only when mongol scout available
-   if ((kbUnitCount(cMyID, cUnitTypeypMongolScout) == 0) || (cvOkToExplore == false))
-   {
-      return;
-   }
+   static int mongolPlan = -1;
+
+   // Create maintain plan
+      if (mongolPlan < 0)
+      {
+         mongolPlan = createSimpleMaintainPlan(cUnitTypeypMongolScout, 1, false, kbBaseGetMainID(cMyID));
+      }
 
    // Create explore plan
    int mongolExplore = aiPlanCreate("Mongol Explore", cPlanExplore);

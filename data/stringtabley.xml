@@ -1563,7 +1563,7 @@
 		<String _locID="22966">Generic Corpse</String>
 		<String _locID="22967">Travels along Trade Routes.</String>
 		<String _locID="22968">Locomotive</String>
-		<String _locID="22971">Messenger that gathers Fame from Town Centers. Good at exploring.</String>
+		<String _locID="22971">Messenger that builds Town Centers and Trading Posts. Good at exploring.</String>
 		<String _locID="22973">Envoy</String>
 		<String _locID="22974">Artillery that fires an exploding shell at buildings or ships. Can't move in Bombard Mode.</String>
 		<String _locID="22975">Mortar</String>
@@ -2496,9 +2496,9 @@
 		<String _locID="26057">River Props Amazon</String>
 		<String _locID="26058">PROP River Amazon River</String>
 		<String _locID="26059" symbol="cStringCivRolloverFrench">Home City gives support and bonuses through Decree cards. Villagers are Coureurs - expensive, but gather and fight better than Settlers. Gets extra Fame with each Age. Best units: Skirmisher, Cuirassier.</String>
-		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built and the maximum population capacity is increased for free. Gets a free General in the Conquest Age. Artillery units train faster. Best units: Musketeer, Hussar.</String>
+		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built. Gets a free General in the Conquest Age and Artillery units train faster. Best units: Musketeer, Hussar.</String>
 		<String _locID="26061" symbol="cStringCivRolloverSpanish">Home City gives support and bonuses through Decree cards. Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Conquest Age. Best units: Rodelero, Lancer.</String>
-		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Town Center limit. Churches can train Settlers and support population. Best units: Musketeer, Dragoon.</String>
+		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Town Center limit. Biggest overall Fame production. Best units: Musketeer, Dragoon.</String>
 		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets a free Builder Wagon with each Age and extra Envoys. Best units: Halberdier, Ruyter.</String>
 		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Shipments, and a free Supply Wagon with every Age. Mercenaries are cheaper to train. Best units: Skirmisher, Uhlan.</String>
 		<String _locID="26066" symbol="cStringCivRolloverRussians">Home City gives support and bonuses through Decree cards. Trains Settlers and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age. Best units: Grenadier, Cavalry Archer.</String>
@@ -17209,7 +17209,7 @@
 		<String _locID="46807">Upgrades Command Posts to Command Centers which can train Winged Hussar Knights, have increased attack and hitpoints and outlaw-type units cost less population, +2 Uhlans.</String>
 		<String _locID="46808">Dance Hall</String>
 		<String _locID="46809">Dance Hall</String>
-		<String _locID="46810">You can now have double the amount of livestock and each house can herd one more animal. Also ships a Builder Wagon which can build various economic buildings.</String>
+		<String _locID="46810">You can now have double the amount of livestock and each house can herd one more animal.</String>
 		<String _locID="46811">Ranching</String>
 		<String _locID="46812">Black Arrow Shipment has arrived.</String>
 		<String _locID="46813">Ranching Shipment has arrived.</String>
@@ -29864,10 +29864,10 @@
 		<String _locID="77846">Provides any type of resources + 1 Villager.</String>
 		<String _locID="77847">4 Pilgrims</String>
 		<String _locID="77848">Military Might</String>
-		<String _locID="77849">Ships a General that can boost hitpoints of nearby soldiers and train Redcoats. Also enables the General at the Command Post.</String>
+		<String _locID="77849">Ships a General that can boost hitpoints and attack of nearby units. Also enables the General at the Command Post.</String>
 		<String _locID="77850">General</String>
-		<String _locID="77851">Ships a General that can boost hitpoints of nearby soldiers and train Cassadores. Also enables the General at the Command Post.</String>
-		<String _locID="77852">War Leader who can train all Sioux infantry and boost hitpoints of nearby troops.</String>
+		<String _locID="77851">Ships a General that can boost hitpoints and attack of nearby units. Also enables the General at the Command Post.</String>
+		<String _locID="77852">War Leader who can train all Sioux infantry and boost hitpoints of nearby units.</String>
 		<String _locID="77854">War Leader</String>
 		<String _locID="77855">Ranger</String>
 		<String _locID="77856">Guard Rangers</String>
@@ -30234,7 +30234,7 @@
 		<String _locID="780817">All your Villagers transform into Warriors and they no longer lose hitpoints.</String>
 		<String _locID="780818">Your villagers took up arms and gathered for war!</String>
 		<String _locID="35605">Heal</String>
-		<String _locID="780819">British general who can train Redcoats and boost hitpoints of nearby troops.</String>
+		<String _locID="780819">British general who can build War Camps, and boost hitpoints and attack of nearby troops.</String>
 		<String _locID="780820">Indentured Labor</String>
 		<String _locID="780821">Spanish Support</String>
 		<String _locID="780822">American Support</String>
@@ -30307,5 +30307,6 @@
 		<String _locID="780899">Excessive Banking</String>
 		<String _locID="780900">Increases Bank limit by 2.</String>
 		<String _locID="780901">Powerful, defensive building that can also train units.</String>
+		<String _locID="780902">Fame</String>
 	</Language>
 </StringTable>

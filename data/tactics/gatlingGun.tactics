@@ -45,7 +45,7 @@
 		Bombard
 		<speedmodifier>0.6</speedmodifier>
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
-		<autoattacktype>Unit</autoattacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
 		<exclusive>1</exclusive>
 		<action>CannonAttack</action>

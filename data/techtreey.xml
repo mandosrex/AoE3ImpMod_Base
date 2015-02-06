@@ -732,6 +732,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Dock</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">WarCamp</Target>
 			</Effect>
@@ -775,7 +778,7 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCTent</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">CivilizationC</Effect>
+			<Effect type="TechStatus" status="obtainable">Civilization</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
@@ -1394,6 +1397,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">WarCamp</Target>
+			</Effect>
+			<Effect type="Data" action="Gather" amount="0.90" subtype="WorkRate" unittype="TownCenter" relativity="BasePercent">
+				<Target type="ProtoUnit">Famer</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranCacadoresShadow</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Grenadier</Target>
@@ -1402,7 +1411,7 @@
 			<Effect type="TechStatus" status="obtainable">ImperialGrenadiers</Effect>
 			<Effect type="TechStatus" status="obtainable">GuardGrenadiers</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranGrenadiers</Effect>
-			<Effect type="Data" amount="100.00" subtype="Resource" resource="Fame" relativity="Absolute">
+			<Effect type="Data" amount="50.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="active">SpyglassE</Effect>
@@ -1421,12 +1430,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Envoy</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Settler" relativity="Absolute">
-				<Target type="ProtoUnit">Church</Target>
-			</Effect>
-			<Effect type="Data" amount="10.00" subtype="PopulationCapAddition" relativity="Absolute">
-				<Target type="ProtoUnit">Church</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">GuardCrossbowmen</Effect>
 			<Effect type="TechStatus" status="obtainable">GuardPikemen</Effect>
@@ -17170,6 +17173,9 @@
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="WagonBuildings" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChurchGardeImperial2" type="Normal">
@@ -18854,9 +18860,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
-			</Effect>
-			<Effect type="Data" amount="100.00" subtype="PopulationCapExtra" relativity="Absolute">
-				<Target type="Player"/>
 			</Effect>
 			<Effect type="TextOutput">780790</Effect>
 		</Effects>
@@ -44090,9 +44093,6 @@
 			<Effect type="Data" amount="5.00" subtype="GathererLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Manor</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="WagonBuildings" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCXPRanchingLlama" type="Normal">
@@ -50088,9 +50088,6 @@
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypMongolScout" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">TownCenter</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypIndustrializeIndians" type="Normal">
@@ -51091,7 +51088,7 @@
 		<DBID>3962</DBID>
 		<DisplayNameID>61589</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
+		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\home_city\hc_confucious_gift</Icon>
 		<RolloverTextID>61588</RolloverTextID>
@@ -64228,6 +64225,33 @@
 			<Effect type="Data" amount="0.25" subtype="Cost" resource="Trade" relativity="Percent">
 				<Target type="Tech">ypBigConsulateFrench</Target>
 			</Effect>
+			<Effect type="Data" amount="0.25" subtype="Cost" resource="Trade" relativity="Percent">
+				<Target type="Tech">ypBigSequesterBritish</Target>
+			</Effect>
+			<Effect type="Data" amount="0.25" subtype="Cost" resource="Trade" relativity="Percent">
+				<Target type="Tech">ypBigSequesterDutch</Target>
+			</Effect>
+			<Effect type="Data" amount="0.25" subtype="Cost" resource="Trade" relativity="Percent">
+				<Target type="Tech">ypBigSequesterSpanish</Target>
+			</Effect>
+			<Effect type="Data" amount="0.25" subtype="Cost" resource="Trade" relativity="Percent">
+				<Target type="Tech">ypBigSequesterRussians</Target>
+			</Effect>
+			<Effect type="Data" amount="0.25" subtype="Cost" resource="Trade" relativity="Percent">
+				<Target type="Tech">ypBigSequesterPortuguese</Target>
+			</Effect>
+			<Effect type="Data" amount="0.25" subtype="Cost" resource="Trade" relativity="Percent">
+				<Target type="Tech">ypBigSequesterJapanese</Target>
+			</Effect>
+			<Effect type="Data" amount="0.25" subtype="Cost" resource="Trade" relativity="Percent">
+				<Target type="Tech">ypBigSequesterOttomans</Target>
+			</Effect>
+			<Effect type="Data" amount="0.25" subtype="Cost" resource="Trade" relativity="Percent">
+				<Target type="Tech">ypBigSequesterGermans</Target>
+			</Effect>
+			<Effect type="Data" amount="0.25" subtype="Cost" resource="Trade" relativity="Percent">
+				<Target type="Tech">ypBigSequesterFrench</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPHCSmoothRelationsIndians" type="Normal">
@@ -68796,6 +68820,66 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Surgeon" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="AgeUpSpeed2" type="Normal">
+		<DBID>970069</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
+				<Target type="techWithFlag">YPConsulateImprovement</Target>
+			</Effect>
+			<Effect type="Data" amount="0.90" subtype="BuildPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractWonder</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="AgeUpSpeed3" type="Normal">
+		<DBID>970070</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
+				<Target type="techWithFlag">YPConsulateImprovement</Target>
+			</Effect>
+			<Effect type="Data" amount="0.90" subtype="BuildPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractWonder</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="AgeUpSpeed4" type="Normal">
+		<DBID>970071</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
+				<Target type="techWithFlag">YPConsulateImprovement</Target>
+			</Effect>
+			<Effect type="Data" amount="0.90" subtype="BuildPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractWonder</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="AgeUpSpeed5" type="Normal">
+		<DBID>970072</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="0.90" subtype="ResearchPoints" relativity="Percent">
+				<Target type="techWithFlag">YPConsulateImprovement</Target>
+			</Effect>
+			<Effect type="Data" amount="0.90" subtype="BuildPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractWonder</Target>
 			</Effect>
 		</Effects>
 	</Tech>

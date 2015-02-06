@@ -1099,4 +1099,16 @@
 			<rof>200</rof>
 		</ability>
 	</surgeon>
+	<Missionary>
+		<ability>
+			PowerHeal
+			<rof>200</rof>
+		</ability>
+	</Missionary>
+	<MissionaryN>
+		<ability>
+			PowerHeal
+			<rof>200</rof>
+		</ability>
+	</MissionaryN>
 </abilities>
