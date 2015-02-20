@@ -7,6 +7,9 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">GeneralBr</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">AsianFireship</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">HCPatriots</Effect>
@@ -46899,6 +46902,9 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="WarLeader" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">WarLeader</Target>
 			</Effect>
 		</Effects>
 	</Tech>

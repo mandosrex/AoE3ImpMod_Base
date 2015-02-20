@@ -326,7 +326,7 @@
 	<anim>
 		Pickup
 		<assetreference type="GrannyAnim">
-			<file>animation_library\explorer\pickup_explorer_A</file>
+			<file>animation_library\natives\warchief_lakota\horse\pickup_treasure</file>
 			<tag type="SpecificSoundSet" checkvisible="1" set="GatherFruit">0.33</tag>
 		</assetreference>
 		<component>ModelComp</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<placementrules>
+	<distanceatmostfromsocket distance="2" errorstringid="25984" successstringid="26011">TradePostSocket</distanceatmostfromsocket>
+	<distanceatleastfromtype player="enemy" foundation="any" distance="65" errorstringid="25521">FirstTC</distanceatleastfromtype>
+	<distanceatmostfromtype player="team" foundation="any" distance="75" errorstringid="46622" norushonly="true">FirstTC</distanceatmostfromtype>
+</placementrules>
