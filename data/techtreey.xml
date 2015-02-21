@@ -9264,7 +9264,7 @@
 		<Effects>
 			<Effect type="TechStatus" status="obtainable">ImpImmigrantsAsian</Effect>
 			<Effect type="TechStatus" status="active">XPTrickle</Effect>
-			<Effect type="TechStatus" status="obtainable">CivilizationC</Effect>
+			<Effect type="TechStatus" status="obtainable">Civilization</Effect>
 			<Effect type="TechStatus" status="obtainable">ypVillagePopCapIncrease2</Effect>
 			<Effect type="TechStatus" status="obtainable">ypVillagePopCapIncrease3</Effect>
 			<Effect type="TechStatus" status="obtainable">ypVillagePopCapIncrease</Effect>
@@ -16725,6 +16725,9 @@
 			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
+			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Dock</Target>
+			</Effect>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Dock</Target>
 			</Effect>
@@ -18743,7 +18746,7 @@
 			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateSiegeIndustrial</Target>
 			</Effect>
-			<Effect type="Data" amount="80.00" subtype="PopulationCapExtra" relativity="Absolute">
+			<Effect type="Data" amount="100.00" subtype="PopulationCapExtra" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
@@ -18790,6 +18793,9 @@
 			</Effect>
 			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Dock</Target>
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Dock</Target>
@@ -21329,6 +21335,9 @@
 			</Effect>
 			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Dock</Target>
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Dock</Target>
@@ -50169,8 +50178,35 @@
 			<Effect type="Data" action="RoundhouseAttack" amount="270.00" subtype="Damage" relativity="Assign">
 				<Target type="ProtoUnit">AbstractChineseMonk</Target>
 			</Effect>
-			<Effect type="Data" amount="100.00" subtype="PopulationCapExtra" relativity="Absolute">
-				<Target type="Player"/>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">FishingBoat</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Coureur</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerWagon</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerNative</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Pilgrim</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerIndian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypFishingBoatAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerJapanese</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -53270,7 +53306,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="Civilization" type="Normal">
+	<Tech name="Civilization2" type="Normal">
 		<DBID>7777</DBID>
 		<DisplayNameID>77788</DisplayNameID>
 		<Cost resourcetype="Gold">1000.0000</Cost>
@@ -53291,6 +53327,54 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="Civilization" type="Normal">
+		<DBID>7777</DBID>
+		<DisplayNameID>77788</DisplayNameID>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\home_city\hc_2x_red_seal_ship</Icon>
+		<RolloverTextID>77789</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Imperialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="10.00" subtype="PopulationCapAddition" relativity="Absolute">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">FishingBoat</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">Coureur</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerWagon</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerNative</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">Pilgrim</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerIndian</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">ypFishingBoatAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerJapanese</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="CivilizationC" type="Normal">
 		<DBID>7777</DBID>
 		<DisplayNameID>77788</DisplayNameID>
@@ -53306,9 +53390,6 @@
 		<Effects>
 			<Effect type="Data" amount="10.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
-			</Effect>
-			<Effect type="Data" amount="100.00" subtype="PopulationCapExtra" relativity="Absolute">
-				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
