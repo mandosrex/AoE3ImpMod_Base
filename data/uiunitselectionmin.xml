@@ -8,31 +8,29 @@
 		<gadget name="unitselectionpanel-showStats" type="button" size1024="674 702 701 757" z="125" foreground="" mouseovertext="$$42184$$Unit Information">
 			<command>uiShowStatPanel()</command>
 		</gadget>
-		<gadget name="LOS" size1024="405 702 420 714" type="formatText" z="801" datarefreshrate=".5" mouseovertext="Line of Sight" texturereplace="" textcolor="255 255 255" textfont="StatText" textfontsize="10" textjustifyleft="">{currentUnitLOS}</gadget>
-		<gadget name="Speed" size1024="425 702 440 714" type="formatText" z="801" datarefreshrate=".5" mouseovertext="Speed" texturereplace="" textcolor="255 255 255" textfont="StatText" textfontsize="10" textjustifyleft="">{currentUnitMaxVelocity}</gadget>
 		<gadget name="unitselectionpanel-unit" type="gadget" background="ui\ingame\ingame_ui_small_02_ypack" size1024="342 628 700 768" z="105" texturecoords="0 0 0.6875 0.26953125">
-			<gadget name="unitselectionpanel-unitPortrait" type="button" background="" size1024="343 698 403 758" z="106"/>
-			<gadget name="unitselectionpanel-unitHealthBarGreen" type="progressBar" size1024="343 759 403 767" z="110" progressbarbackground="ui\ingame\ui_health_bar" progressbarbackgroundsize="104 8" progressbarmask="ui\ingame\ingame_ui_health_green"/>
-			<gadget name="unitselectionpanel-unitHealthBarYellow" type="progressBar" size1024="343 759 403 767" z="110" progressbarbackground="ui\ingame\ui_health_bar" progressbarbackgroundsize="104 8" progressbarmask="ui\ingame\ingame_ui_health_yellow"/>
-			<gadget name="unitselectionpanel-unitHealthBarRed" type="progressBar" size1024="343 759 403 767" z="110" progressbarbackground="ui\ingame\ui_health_bar" progressbarbackgroundsize="104 8" progressbarmask="ui\ingame\ingame_ui_health_red"/>
-			<gadget name="unitselectionpanel-unitTypeName" type="formatText" textwrapon="" textcenterhoriz="" texttruecentervert="" background="" transparent="" textcolor="255 255 255" textfont="SmallIngame" textfontsize="12" size1024="348 650 516 714" z="107"/>
+			<gadget name="unitselectionpanel-unitPortrait" type="button" background="" size1024="345 699 405 759" z="106"/>
+			<gadget name="unitselectionpanel-unitHealthBarGreen" type="progressBar" size1024="345 759 405 767" z="110" progressbarbackground="ui\ingame\ui_health_bar" progressbarbackgroundsize="104 8" progressbarmask="ui\ingame\ingame_ui_health_green"/>
+			<gadget name="unitselectionpanel-unitHealthBarYellow" type="progressBar" size1024="345 759 405 767" z="110" progressbarbackground="ui\ingame\ui_health_bar" progressbarbackgroundsize="104 8" progressbarmask="ui\ingame\ingame_ui_health_yellow"/>
+			<gadget name="unitselectionpanel-unitHealthBarRed" type="progressBar" size1024="345 759 405 767" z="110" progressbarbackground="ui\ingame\ui_health_bar" progressbarbackgroundsize="104 8" progressbarmask="ui\ingame\ingame_ui_health_red"/>
+			<gadget name="unitselectionpanel-unitTypeName" type="formatText" textwrapon="" textcenterhoriz="" texttruecentervert="" background="" transparent="" textcolor="255 255 255" textfont="SmallIngame" textfontsize="12" size1024="338 650 516 714" z="107"/>
 			<gadget name="unitselectionpanel-unitPlayerName" type="formatText" textwrapon="" textcenterhoriz="" texttruecentervert="" background="" transparent="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" size1024="520 650 700 714" z="107"/>
-			<gadget name="unitselectionpanel-unitHitPointsLabel" type="formatText" textwrapon="" texttruecentervert="" background="" transparent="" textcolor="255 255 255" textfont="StatText" textfontsize="10" size1024="405 880 578 934" z="107"/>
-			<gadget name="unitselectionpanel-unitHitPointsValue" type="formatText" textwrapon="" textcenterhoriz="" background="" transparent="" textcolor="255 255 255" textfont="StatText" textfontsize="10" size1024="331 757 414 767" z="107"/>
-			<gadget name="unitselectionpanel-unitResistsLabel" type="formatText" texttruecentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="10" size1024="457 700 535 714" z="107"/>
-			<gadget name="unitselectionpanel-unitResistsValue" type="formatText" texttruecentervert="" textmarkup="" formattextusedatareplace="" textcolor="255 255 255" textfont="StatText" textfontsize="10" size1024="490 700 525 714" z="107"/>
-			<gadget name="unitselectionpanel-unitResourceLabel" type="formatText" size1024="457 700 575 714" texttruecentervert="" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatText" textfontsize="10" z="107"/>
-			<gadget name="unitselectionpanel-unitResourceValue" type="formatText" size1024="512 700 555 714" texttruecentervert="" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatText" textfontsize="10" z="107"/>
-			<gadget name="unitselectionpanel-unitResourceRateLabel" type="formatText" size1024="563 700 680 714" texttruecentervert="" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatText" textfontsize="10" z="107"/>
-			<gadget name="unitselectionpanel-unitResourceRateValue" type="formatText" size1024="613 700 680 714" texttruecentervert="" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatText" textfontsize="10" z="107"/>
-			<gadget name="unitselectionpanel-StackLabel0" type="formatText" size1024="405 715 703 735" texttruecentervert="" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatText" textfontsize="10" z="107"/>
-			<gadget name="unitselectionpanel-StackLabel1" type="formatText" size1024="405 731 703 751" texttruecentervert="" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="10" z="107"/>
-			<gadget name="unitselectionpanel-StackLabel2" type="formatText" size1024="405 747 703 767" texttruecentervert="" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="10" z="107"/>
+			<gadget name="unitselectionpanel-unitHitPointsLabel" type="formatText" textwrapon="" texttruecentervert="" background="" transparent="" textcolor="255 255 255" textfont="StatText" textfontsize="10" size1024="408 680 528 734" z="107"/>
+			<gadget name="unitselectionpanel-unitHitPointsValue" type="formatText" textwrapon="" textcentervert="" background="" transparent="" textcolor="255 255 255" textfont="StatText" textfontsize="10" size1024="460 680 540 734" z="107"/>
+			<gadget name="unitselectionpanel-unitResistsLabel" type="formatText" texttruecentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="10" size1024="573 700 695 714" z="107"/>
+			<gadget name="unitselectionpanel-unitResistsValue" type="formatText" textcentervert="" textmarkup="" formattextusedatareplace="" textcolor="255 255 255" textfont="StatText" textfontsize="10" size1024="619 700 680 714" z="107"/>
+			<gadget name="unitselectionpanel-unitResourceLabel" type="formatText" size1024="408 714 543 734" texttruecentervert="" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatText" textfontsize="10" z="107"/>
+			<gadget name="unitselectionpanel-unitResourceValue" type="formatText" size1024="476 714 575 734" texttruecentervert="" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatText" textfontsize="10" z="107"/>
+			<gadget name="unitselectionpanel-unitResourceRateLabel" type="formatText" size1024="573 714 700 734" texttruecentervert="" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatText" textfontsize="10" z="107"/>
+			<gadget name="unitselectionpanel-unitResourceRateValue" type="formatText" size1024="632 714 722 734" texttruecentervert="" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatText" textfontsize="10" z="107"/>
+			<gadget name="unitselectionpanel-StackLabel0" type="formatText" size1024="408 714 703 733" texttruecentervert="" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatText" textfontsize="10" z="107"/>
+			<gadget name="unitselectionpanel-StackLabel1" type="formatText" size1024="408 731 703 750" texttruecentervert="" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="10" z="107"/>
+			<gadget name="unitselectionpanel-StackLabel2" type="formatText" size1024="408 748 703 767" texttruecentervert="" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="10" z="107"/>
 			<gadget name="unitselectionpanel-unitPortraitCountBackground" type="gadget" background="ui\ingame\ingame_ui_small_02_ypack" transparent="" size1024="429 727 461 759" z="107" texturecoords="0.861328125 0.62890625 0.923828125 0.69140625"/>
 			<gadget name="unitselectionpanel-unitPortraitCount" textfont="TimerDisplays" textfontsize="16" type="formatText" formattextbottomfill="" textjustifyright="" transparent="" textcolor="255 255 255" size1024="430 737 460 757" z="108"/>
 		</gadget>
 		<gadget name="unitselectionpanel-stackQueue" type="gadget" size1024="361 631 615 665" z="107">
-			<gadget name="unitselectionpanel-buttonArea" type="gadget" size1024="369 632 607 666" z="107"/>
+			<gadget name="unitselectionpanel-buttonArea" type="gadget" size1024="402 632 640 666" z="107"/>
 			<gadget name="unitselectionpanel-unitStackButton0" textfont="TimerDisplays" textfontsize="12" type="button" size1024="371 641 395 665" z="108" activateondown=""/>
 			<gadget name="unitselectionpanel-unitStackButton1" textfont="TimerDisplays" textfontsize="12" type="button" size1024="371 641 395 665" z="108" activateondown=""/>
 			<gadget name="unitselectionpanel-unitStackButton2" textfont="TimerDisplays" textfontsize="12" type="button" size1024="371 641 395 665" z="108" activateondown=""/>

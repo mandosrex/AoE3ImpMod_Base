@@ -36,8 +36,8 @@
 		<attackaction>1</attackaction>
 		<rangedlogic>1</rangedlogic>
 		<anim>RangedAttack</anim>
-		<accuracy>0.9</accuracy>
-		<accuracyreductionfactor>2</accuracyreductionfactor>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<maxspread>5</maxspread>
 		<spreadfactor>0.25</spreadfactor>
@@ -62,8 +62,8 @@
 		<attackaction>1</attackaction>
 		<rangedlogic>1</rangedlogic>
 		<anim>RangedAttack</anim>
-		<accuracy>0.9</accuracy>
-		<accuracyreductionfactor>2</accuracyreductionfactor>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<maxspread>5</maxspread>
 		<spreadfactor>0.25</spreadfactor>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>bone_flag_bottom</definebone>
+	<attachment>
+		flag
+		<component>
+			flag
+			<assetreference type="ClothFlag">
+				<flag>
+					<blending>alphatest_nocolor</blending>
+					<texture>objects\flags\ottomans</texture>
+					<width>1.95</width>
+					<height>1.25</height>
+				</flag>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>flag</component>
+		</anim>
+	</attachment>
+	<component>
+		pikes
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\squad\flag_bearer\attachment_flag</file>
+					<replacetexture>
+						<from>homecity\gatherpoint_flags\gatherpoint_flags</from>
+						<to>units\squad\flag_bearer\flag_pole</to>
+					</replacetexture>
+				</assetreference>
+				<attach a="flag" frombone="flag" tobone="bone_flag_bottom" syncanims="0"/>
+			</none>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>pikes</component>
+	</anim>
+</animfile>

@@ -4231,7 +4231,7 @@
 		<String _locID="31085">Imperial upgrade for Organ Guns.</String>
 		<String _locID="31086">Imperial Rabaulds</String>
 		<String _locID="31088">Imperial Organ Gun</String>
-		<String _locID="31106" symbol="cStringAge4">V: Imperial Age</String>
+		<String _locID="31106" symbol="cStringAge4">&lt;color="1.0 0.81568627 0.0"&gt;V: Imperial Age&lt;/color&gt;\n</String>
 		<String _locID="31107">Imperial Age</String>
 		<String _locID="31111">Imperial upgrade for Frigates.</String>
 		<String _locID="31112">Imperial Men-o'-War</String>
@@ -6962,7 +6962,7 @@
 		<String _locID="36355">TEAM Early Skirmishers</String>
 		<String _locID="36357">TEAM allows Skirmishers in Expansion Age.</String>
 		<String _locID="36358">TEAM ranged infantry damage increased.</String>
-		<String _locID="36359">TEAM Churches, Mosques, and Field Hospitals are much cheaper and their non-advanced improvements are also cheaper. Monastaries and Universities are somewhat cheaper. Native Fire Pits become free.</String>
+		<String _locID="36359">TEAM Churches, Mosques, and Field Hospitals are much cheaper and their non-advanced improvements are also cheaper. Monastaries are somewhat cheaper and Native Fire Pits become free.</String>
 		<String _locID="36360">TEAM Cheap Church</String>
 		<String _locID="36361">TEAM Churches and Mosques cheaper and build faster.</String>
 		<String _locID="36362">TEAM Villagers gather Coin from Plantations and Rice Paddies faster.</String>
@@ -7765,7 +7765,7 @@
 		<String _locID="37288">Ships 6 Grenadiers +1 Great Bombard.</String>
 		<String _locID="37289">Ottoman Artillery Division</String>
 		<String _locID="37290">3 Falconets</String>
-		<String _locID="37291">TEAM 2 Outpost Wagons that can transform into Outposts or Blockhouses.</String>
+		<String _locID="37291">TEAM 2 Outpost Wagons that can transform into Outposts or Blockhouses (War Huts for Natives and Castles for Asians).</String>
 		<String _locID="37292">TEAM Team Defenses</String>
 		<String _locID="37294">TEAM Ottomans upgrade team walls.</String>
 		<String _locID="37295">3 Galleys</String>
@@ -7991,7 +7991,7 @@
 		<String _locID="37524" symbol="cStringESOFailedChatConnection">Failed to connect to ESO and retrieve Chat Channel List.</String>
 		<String _locID="37525" symbol="cStringESOTBD">TBD</String>
 		<String _locID="37527">12 Skirmishers +4 Uhlans</String>
-		<String _locID="37528">Provides your Church with unique Ottoman improvements.</String>
+		<String _locID="37528">Provides your Mosque with unique Ottoman improvements.</String>
 		<String _locID="37529">Palace Intrigue</String>
 		<String _locID="37530" symbol="cStringESOJoined">%s has joined channel %s</String>
 		<String _locID="37531" symbol="cStringESOLeft">%s has left channel %s</String>
@@ -17288,7 +17288,7 @@
 		<String _locID="46886">Rangefinding</String>
 		<String _locID="46887">Mortars get increased range and line of sight.</String>
 		<String _locID="46888">Rangefinding Shipment has arrived.</String>
-		<String _locID="46889">Sends a Bank Wagon that can build a Bank. If you are at your Bank limit, the wagon will wait in reserve.</String>
+		<String _locID="46889">Sends a Bank Wagon that can build a Bank. Alternatively, if you are at your Bank limit it can also build a Plantation.</String>
 		<String _locID="46890">Bank Wagon</String>
 		<String _locID="46891">TEAM Crossbows, Longbows and Pikemen train faster.</String>
 		<String _locID="46892">Doppelsoldner attack and hitpoints increase greatly, but speed drops drastically.</String>
@@ -17296,7 +17296,7 @@
 		<String _locID="46894">Improved Artillery Shipment has arrived.</String>
 		<String _locID="46895">Solingen Steel Shipment has arrived.</String>
 		<String _locID="46896">Transforms into a Bank</String>
-		<String _locID="46897">Transforms into a Bank.</String>
+		<String _locID="46897">Transforms into a Bank or Plantation.</String>
 		<String _locID="46898">Bank Wagon</String>
 		<String _locID="46899">VIL Bank Wagon</String>
 		<String _locID="46900">Halberdiers march significantly more quickly, but do less damage against Infantry.</String>
@@ -29799,7 +29799,7 @@
 		<String _locID="70520">INF Rifleman</String>
 		<String _locID="70521">Skirmisher</String>
 		<String _locID="77788">Reformed Government</String>
-		<String _locID="77789">Town Centers support 10 more population, also Villagers and Fishing Boats don't take up population space anymore.</String>
+		<String _locID="77789">Town Centers support 10 more population, and Villager and Fishing Boat limit is increased by 20.</String>
 		<String _locID="70522">Skirmisher with low hitpoints, but a strong attack. Good against infantry.</String>
 		<String _locID="70523">Veteran Rifleman</String>
 		<String _locID="70524">INF Rifleman</String>
