@@ -16705,6 +16705,9 @@
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">YPDockAsian</Target>
 			</Effect>
+			<Effect type="Data" amount="5.00" subtype="PopulationCapAddition" relativity="Absolute">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCAdmirality" type="Normal">
@@ -18716,6 +18719,9 @@
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">YPDockAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="PopulationCapAddition" relativity="Absolute">
+				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -27427,6 +27433,9 @@
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Schutze</Target>
 			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Skirmisher</Target>
+			</Effect>
 			<Effect type="TextOutput">41864</Effect>
 		</Effects>
 	</Tech>
@@ -27474,6 +27483,12 @@
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Schutze</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Skirmisher</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Skirmisher</Target>
 			</Effect>
 			<Effect type="TextOutput">41863</Effect>
 		</Effects>

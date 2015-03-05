@@ -4231,7 +4231,7 @@
 		<String _locID="31085">Imperial upgrade for Organ Guns.</String>
 		<String _locID="31086">Imperial Rabaulds</String>
 		<String _locID="31088">Imperial Organ Gun</String>
-		<String _locID="31106" symbol="cStringAge4">&lt;color="1.0 0.81568627 0.0"&gt;V: Imperial Age&lt;/color&gt;\n</String>
+		<String _locID="31106" symbol="cStringAge4">V: Imperial Age</String>
 		<String _locID="31107">Imperial Age</String>
 		<String _locID="31111">Imperial upgrade for Frigates.</String>
 		<String _locID="31112">Imperial Men-o'-War</String>
@@ -6891,12 +6891,12 @@
 		<String _locID="36265">Beat the Boneguard army to Pacamayo Valley.</String>
 		<String _locID="36266">Reach Pacamayo Valley.</String>
 		<String _locID="36267">The Circle is following you. Scouts moving through the Andes will alert them, allowing their army to advance. Killing the scouts will slow down the Circle. The cold weather damages your men.</String>
-		<String _locID="36268">Pikeman, Halberdier and Fencible attack increased.</String>
+		<String _locID="36268">Dutch infantry attack increased.</String>
 		<String _locID="36269">Infantry Attack</String>
 		<String _locID="36270">TEAM All infantry hitpoints increased.</String>
 		<String _locID="36271">TEAM Infantry Hitpoints</String>
 		<String _locID="36273">TEAM improved all infantry hitpoints.</String>
-		<String _locID="36274">Pikeman, Halberdier and Fencible attack and hitpoints increased.</String>
+		<String _locID="36274">Dutch infantry attack and hitpoints increased.</String>
 		<String _locID="36275">Infantry Combat</String>
 		<String _locID="36276">7 Ruyters</String>
 		<String _locID="36277">11 Ruyters</String>
@@ -20812,7 +20812,7 @@
 		<String _locID="61364">VIL Arsenal Wagon</String>
 		<String _locID="61365" symbol="cStringTradeGatherers">Export Collected (Villagers generate Export automatically; spend it at the Consulate building)</String>
 		<String _locID="61366">Coin production building</String>
-		<String _locID="61367">Dutch building that produces Coin fast.</String>
+		<String _locID="61367">Building that produces Coin. The more Banks you have, the faster each Bank produces Coin.</String>
 		<String _locID="61368">Bank</String>
 		<String _locID="61369">Bank Asian</String>
 		<String _locID="61370">Military improvement building</String>
