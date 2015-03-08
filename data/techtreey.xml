@@ -5816,6 +5816,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.50" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">SPCIncaTemple</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">BigDockCipactli2</Effect>
 			<Effect type="Data" amount="200.00" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="ProtoUnit">Dock</Target>
@@ -6047,6 +6050,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="obtainable">ImpImmigrantsNative</Effect>
 			<Effect type="TechStatus" status="obtainable">BigDockCipactli</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">LivestockPen</Target>
@@ -6374,6 +6378,7 @@
 			<Effect type="TechStatus" status="active">ImpLegendaryNativesNatives</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTributeNative</Effect>
 			<Effect type="TechStatus" status="active">ImpLegendaryRams</Effect>
+			<Effect type="TechStatus" status="active">ImpImmigrantsNative</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="AANativeStartingTechs" type="Normal">
@@ -19224,6 +19229,7 @@
 	<Tech name="ImpImmigrants" type="Normal">
 		<DBID>1385</DBID>
 		<DisplayNameID>31528</DisplayNameID>
+		<Cost resourcetype="Food">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -19236,6 +19242,33 @@
 		<Effects>
 			<Effect type="Data" amount="100.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">FishingBoat</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Coureur</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerNative</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Pilgrim</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerIndian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypFishingBoatAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerJapanese</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -42420,11 +42453,12 @@
 	<Tech name="ImpImmigrantsNative" type="Normal">
 		<DBID>3281</DBID>
 		<DisplayNameID>46003</DisplayNameID>
+		<Cost resourcetype="Food">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\imperial_immigrants\imp_immigrants</Icon>
-		<RolloverTextID>46002</RolloverTextID>
+		<RolloverTextID>31527</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
@@ -42433,16 +42467,44 @@
 			<Effect type="Data" amount="100.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">FishingBoat</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Coureur</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerNative</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Pilgrim</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerIndian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypFishingBoatAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerJapanese</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImpImmigrantsAsian" type="Normal">
 		<DBID>3281</DBID>
 		<DisplayNameID>46003</DisplayNameID>
+		<Cost resourcetype="Food">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\imperial_immigrants\imp_immigrants</Icon>
-		<RolloverTextID>46002</RolloverTextID>
+		<RolloverTextID>31527</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
@@ -42450,6 +42512,33 @@
 		<Effects>
 			<Effect type="Data" amount="100.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">FishingBoat</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Coureur</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerNative</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Pilgrim</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerIndian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypFishingBoatAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerJapanese</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -53103,7 +53192,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\units\currier</Icon>
+		<Icon>ui\home_city\hc_2x_red_seal_ship</Icon>
 		<RolloverTextID>62625</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -53174,7 +53263,7 @@
 	<Tech name="IndependentG" type="Normal">
 		<DBID>7790</DBID>
 		<DisplayNameID>780698</DisplayNameID>
-		<Cost resourcetype="Gold">500.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\home_city\hc_2x_red_seal_ship</Icon>

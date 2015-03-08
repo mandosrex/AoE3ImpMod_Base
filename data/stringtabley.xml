@@ -1761,7 +1761,7 @@
 		<String _locID="23693">Canoe good at exploring, fishing or transport.</String>
 		<String _locID="23694">Canoe</String>
 		<String _locID="23708">Bank</String>
-		<String _locID="23709">Building that produces Coin.</String>
+		<String _locID="23709">Building that produces Coin. Supports 10 population.</String>
 		<String _locID="23715">British Musketeer attack and hitpoints greatly increased.</String>
 		<String _locID="23716">Redcoats</String>
 		<String _locID="23722">British infantry hitpoints increased but march more slowly.</String>
@@ -4330,7 +4330,7 @@
 		<String _locID="31518" symbol="cStringExplorerKnockoutTooltipText">Every moment I live... is agony.</String>
 		<String _locID="31522">Enables the Explorer to peer into the blackmap to temporarily see what is there. Explorer attack and hitpoints greatly increased.</String>
 		<String _locID="31523">Knighthood</String>
-		<String _locID="31527">Allows you to support 100 population without the need for Houses or Town Centers (total population is not increased).</String>
+		<String _locID="31527">Villager limit is increase by 20, also allows you to support 100 population without the need for Houses or Town Centers.</String>
 		<String _locID="31528">Immigrants</String>
 		<String _locID="31529">Villagers gather Food from Mills much faster.</String>
 		<String _locID="31530">Large Scale Agriculture</String>
