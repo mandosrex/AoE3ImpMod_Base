@@ -1250,7 +1250,7 @@
 				<card>HCShipFoodCrates1</card>
 				<card>HCShipCoveredWagons</card>
 				<card>HCXPWarChiefSioux1</card>
-				<card>HCXPShipCoyotes</card>
+				<card>HCXPShipWarRifles1</card>
 				<card>HCXPShipWarBows1</card>
 				<card>HCXPShipAxeRiders1</card>
 				<card>HCXPShipCoupRiders1</card>
@@ -1271,7 +1271,7 @@
 				<card>HCShipFoodCrates1</card>
 				<card>HCShipCoveredWagons</card>
 				<card>HCXPWarChiefSioux1</card>
-				<card>HCXPShipCoyotes</card>
+				<card>HCXPShipWarRifles1</card>
 				<card>HCXPShipWarBows1</card>
 				<card>HCXPShipAxeRiders1</card>
 				<card>HCXPShipCoupRiders1</card>
@@ -1360,7 +1360,6 @@
 			<tech>HCShipFoodCrates1</tech>
 			<tech>HCShipCoveredWagons</tech>
 			<tech>HCXPWarChiefSioux1</tech>
-			<tech>HCXPShipCoyotes</tech>
 		</activetechs>
 		<validunits/>
 		<units/>
@@ -1425,6 +1424,7 @@
 			<tech>HCXPShipCoupRiders1</tech>
 			<tech>HCXPShipRifleRiders1</tech>
 			<tech>HCXPShipDogSoldiers1</tech>
+			<tech>HCXPShipWarRifles1</tech>
 		</activetechs>
 		<validunits/>
 		<units/>

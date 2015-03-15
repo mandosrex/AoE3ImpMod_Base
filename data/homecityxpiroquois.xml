@@ -1235,18 +1235,18 @@
 				<card>HCXPShipVillagers1</card>
 				<card>HCShipFoodCrates1</card>
 				<card>HCShipCoveredWagons</card>
-				<card>HCXPShipBears</card>
+				<card>HCShipSheep1Team</card>
 				<card>HCXPShipTomahawk1</card>
 				<card>HCXPShipTomahawk2</card>
 				<card>HCXPShipAennas1</card>
 				<card>HCXPShipHorsemen1</card>
-				<card>HCXPShipRams1</card>
+				<card>HCXPShipMusketWarriors1</card>
 				<card>HCXPShipMantlets1</card>
 				<card>HCXPShipLightCannon1</card>
 				<card>HCXPTownDance</card>
 				<card>HCXPShipTravois1</card>
 				<card>HCFurrierTeam</card>
-				<card>HCXPShipFishingBoats</card>
+				<card>HCXPWarHouses</card>
 			</cards>
 		</deck>
 		<deck>
@@ -1256,18 +1256,18 @@
 				<card>HCXPShipVillagers1</card>
 				<card>HCShipFoodCrates1</card>
 				<card>HCShipCoveredWagons</card>
-				<card>HCXPShipBears</card>
+				<card>HCShipSheep1Team</card>
 				<card>HCXPShipTomahawk1</card>
 				<card>HCXPShipTomahawk2</card>
 				<card>HCXPShipAennas1</card>
 				<card>HCXPShipHorsemen1</card>
-				<card>HCXPShipRams1</card>
+				<card>HCXPShipMusketWarriors1</card>
 				<card>HCXPShipMantlets1</card>
 				<card>HCXPShipLightCannon1</card>
 				<card>HCXPTownDance</card>
 				<card>HCXPShipTravois1</card>
 				<card>HCFurrierTeam</card>
-				<card>HCXPShipFishingBoats</card>
+				<card>HCXPWarHouses</card>
 			</cards>
 		</deck>
 	</decks>
@@ -1340,7 +1340,7 @@
 			<tech>HCXPShipVillagers1</tech>
 			<tech>HCShipFoodCrates1</tech>
 			<tech>HCShipCoveredWagons</tech>
-			<tech>HCXPShipBears</tech>
+			<tech>HCShipSheep1Team</tech>
 		</activetechs>
 		<validunits/>
 		<units/>
@@ -1405,7 +1405,7 @@
 			<tech>HCXPShipTomahawk1</tech>
 			<tech>HCXPShipTomahawk2</tech>
 			<tech>HCXPShipAennas1</tech>
-			<tech>HCXPShipRams1</tech>
+			<tech>HCXPShipMusketWarriors1</tech>
 			<tech>HCXPShipHorsemen1</tech>
 			<tech>HCXPShipMantlets1</tech>
 			<tech>HCXPShipLightCannon1</tech>
@@ -1460,6 +1460,7 @@
 		</obtainabletechs>
 		<activetechs>
 			<tech>HCXPTownDance</tech>
+			<tech>HCXPWarHouses</tech>
 		</activetechs>
 		<validunits/>
 		<units/>
@@ -1559,9 +1560,6 @@
 			<tech x="7.0" y="5.0">HCXPBuccaneers2</tech>
 			<tech x="1.8" y="1.0">HCAdmirality</tech>
 		</obtainabletechs>
-		<activetechs>
-			<tech x="1.0" y="1.0">HCXPShipFishingBoats</tech>
-		</activetechs>
 		<validunits/>
 		<units/>
 		<trainbuilding>1</trainbuilding>

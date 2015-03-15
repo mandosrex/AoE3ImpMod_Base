@@ -2998,49 +2998,49 @@ void setCommandPostArmyPreference() {
   if (kbUnitCount(cMyID, cUnitTypeSPCFortCenter, cUnitStateAlive) < 1) {
     return;
   }
-  if (kbTechGetStatus(cTechImperializePortuguese) == cTechStatusActive) {
+  if (kbTechGetStatus(cTechIndustrializePortuguese) == cTechStatusActive) {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese11, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese22, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese33, 0.5);
   }
   
-  if (kbTechGetStatus(cTechImperializeDutch) == cTechStatusActive) {
+  if (kbTechGetStatus(cTechIndustrializeDutch) == cTechStatusActive) {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch11, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch22, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch33, 0.5);
   }
   
-  if (kbTechGetStatus(cTechImperializeRussian) == cTechStatusActive) {
+  if (kbTechGetStatus(cTechIndustrializeRussian) == cTechStatusActive) {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian11, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian22, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian33, 0.5);
   }
   
-  if (kbTechGetStatus(cTechImperializeSpanish) == cTechStatusActive) {
+  if (kbTechGetStatus(cTechIndustrializeSpanish) == cTechStatusActive) {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish11, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish22, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish33, 0.5);
   }
   
-  if (kbTechGetStatus(cTechImperializeBritish) == cTechStatusActive) {
+  if (kbTechGetStatus(cTechIndustrializeBritish) == cTechStatusActive) {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish11, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish22, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish33, 0.5);      
   }
   
-  if (kbTechGetStatus(cTechImperializeFrench) == cTechStatusActive) {
+  if (kbTechGetStatus(cTechIndustrializeFrench) == cTechStatusActive) {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench11, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench22, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench33, 0.5); 
   }
   
-  if (kbTechGetStatus(cTechImperializeGerman) == cTechStatusActive) {
+  if (kbTechGetStatus(cTechIndustrializeGerman) == cTechStatusActive) {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman11, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman22, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman33, 0.5); 
   }
   
-  if (kbTechGetStatus(cTechImperializeOttoman) == cTechStatusActive) {
+  if (kbTechGetStatus(cTechIndustrializeOttoman) == cTechStatusActive) {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman11, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman22, 0.5);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman33, 0.5);
@@ -7023,7 +7023,7 @@ rule upgradetocivilization
 inactive
 minInterval 30
 {
-   if (kbTechGetStatus(cTechCivilization) == cTechStatusActive)
+   if (kbTechGetStatus(cTechImpImmigrants) == cTechStatusActive)
    {
       xsDisableSelf();
       return;
@@ -7031,7 +7031,25 @@ minInterval 30
    int TownCenter = getUnit(cUnitTypeTownCenter, cMyID, cUnitStateAlive);
    if (TownCenter >= 0)
    {
-      createSimpleResearchPlan(cTechCivilization,TownCenter,cEconomyEscrowID, 80);
+      createSimpleResearchPlan(cTechImpImmigrants,TownCenter,cEconomyEscrowID, 80);
+      xsDisableSelf();
+	
+   }
+}
+
+rule upgradetocivilizationnative
+inactive
+minInterval 30
+{
+   if (kbTechGetStatus(cTechImpImmigrantsNative) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+   int TownCenter = getUnit(cUnitTypeTownCenter, cMyID, cUnitStateAlive);
+   if (TownCenter >= 0)
+   {
+      createSimpleResearchPlan(cTechImpImmigrantsNative,TownCenter,cEconomyEscrowID, 80);
       xsDisableSelf();
 	
    }
@@ -7041,7 +7059,7 @@ rule upgradetocivilizationchinese
 inactive
 minInterval 30
 {
-   if (kbTechGetStatus(cTechCivilizationC) == cTechStatusActive)
+   if (kbTechGetStatus(cTechImpImmigrantsAsian) == cTechStatusActive)
    {
       xsDisableSelf();
       return;
@@ -7049,7 +7067,7 @@ minInterval 30
    int TownCenter = getUnit(cUnitTypeTownCenter, cMyID, cUnitStateAlive);
    if (TownCenter >= 0)
    {
-      createSimpleResearchPlan(cTechCivilizationC,TownCenter,cEconomyEscrowID, 80);
+      createSimpleResearchPlan(cTechImpImmigrantsAsian,TownCenter,cEconomyEscrowID, 80);
       xsDisableSelf();
 	
    }
@@ -7064,10 +7082,10 @@ minInterval 30
       xsDisableSelf();
       return;
    }
-   int NativeEmbassyN = getUnit(cUnitTypeNativeEmbassyN, cMyID, cUnitStateAlive);
-   if (NativeEmbassyN >= 0)
+   int NativeEmbassy = getUnit(cUnitTypeNativeEmbassy, cMyID, cUnitStateAlive);
+   if (NativeEmbassy >= 0)
    {
-      createSimpleResearchPlan(cTechConSupport,NativeEmbassyN,cEconomyEscrowID, 80);
+      createSimpleResearchPlan(cTechConSupport,NativeEmbassy,cEconomyEscrowID, 80);
       xsDisableSelf();
 	
    }
@@ -7095,6 +7113,7 @@ minInterval 10
          xsEnableRule("brigadeMonitor");
 
       xsEnableRule("upgradetocivilization");
+      xsEnableRule("upgradetocivilizationnative");
       xsEnableRule("upgradetocivilizationchinese");
       xsEnableRule("upgradetoconfederacy");
 
@@ -9506,6 +9525,9 @@ void setUnitPickerPreference(int upID = -1)
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
@@ -9550,6 +9572,9 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
@@ -9586,6 +9611,9 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
@@ -9623,6 +9651,9 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
@@ -9702,6 +9733,9 @@ void setUnitPickerPreference(int upID = -1)
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
@@ -9735,32 +9769,6 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypHowdahMansabdar, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMahoutMansabdar, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypSiegeElephantMansabdar, 0.0);
-      }
-
-      if ((civIsAsian() == true) || (civIsNative() == true))
-      { 
-         // Asians and natives need to stop trying to build saloon units
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSaloonOutlawPistol, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSaloonOutlawRider, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSaloonOutlawRifleman, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSaloonPirate, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercBarbaryCorsair, 0.0);
-
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercBlackRider, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercElmeti, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercFusilier, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercGreatCannon, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercHackapell, 0.0);
-
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercHighlander, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercJaeger, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercLandsknecht, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercMameluke, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercManchu, 0.0);
-
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercRonin, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercStradiot, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercSwissPikeman, 0.0);
       }
 
       if (civIsAsian() == true)
@@ -11221,10 +11229,10 @@ minInterval 3
 
    // At least one native embassy (natives only)
    if (civIsNative() == true) {
-      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeNativeEmbassyN);
-      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeNativeEmbassyN, cUnitStateAlive) < 1) )
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeNativeEmbassy);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeNativeEmbassy, cUnitStateAlive) < 1) )
       {     // Start a new one
-        createSimpleBuildPlan(cUnitTypeNativeEmbassyN, 1, 60, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
+        createSimpleBuildPlan(cUnitTypeNativeEmbassy, 1, 60, false, cMilitaryEscrowID, kbBaseGetMainID(cMyID), 1);
         aiEcho("Starting a new native embassy build plan.");
       }
     }
@@ -13315,6 +13323,70 @@ minInterval 1
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCAdvancedMonasteryIndians") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipBerryWagon1") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipBerryWagon2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipMonitorLizard1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipMonitorLizard2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipTigers1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipLions1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipRhino1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPZapotecAllies1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPZapotecAllies2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPZapotecAlliesRepeat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPMayanAllies1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPMayanAllies2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPMayanAlliesRepeat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSpanishAllies1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSpanishAllies2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleCenteotl") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleCoatlicue") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPGreatTempleHuitzilopochtli") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleXipeTotec") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleXolotl") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPGreatTempleQuetzalcoatl") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleXochipilli") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleTlaloc") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPGreatTempleTezcatlipoca") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisMohawkSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisOnondagaSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisOneidaSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisTuscaroraSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisSenecaSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisCayugaSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCherokeeAllies1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCherokeeAllies2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCherokeeAlliesRepeat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAllies1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAllies2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAlliesTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPHuronAllies1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPHuronAllies2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPHuronAlliesRepeat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPFrenchAllies1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPFrenchAllies2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPDutchAllies1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPDutchAllies2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPComancheAllies1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPComancheAllies2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxNakotaSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCheyenneAllies1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCheyenneAllies2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCheyenneAlliesTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAllies1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAllies2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAlliesTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxSansArcSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxHunkpapaSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxLakotaSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxBurntThighSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxOglalaSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxDakotaSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxSanteeSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxYanktonSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxTwoKettleSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPRenegadoAllies") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPPistoleroAllies") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPComancheroAllies") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPBanditGang") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPBanditGangRepeat") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipRicePaddyWagon1") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipRicePaddyWagon2") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipRicePaddyWagon3"))
@@ -13822,196 +13894,6 @@ minInterval 1
             }
          } // 4-9 remaining.
 
-
-         // Next, mercenaries for Europeans and Asians, renegades and native allies for natives
-         if (civIsNative() == false)
-         {
-            // First, two age 3 mercenary cards (if available).
-            toPick = 2;
-            for (i=0; < toPick) 
-            {  
-               bestCard = -1;
-               bestCardPri = -1;
-               for (card=0; < maxCards)
-               {
-                  if (xsArrayGetString(gCardStates, card) != "P")
-                     continue;   // Only consider purchased cards not already in deck.
-                  if (aiHCCardsGetCardAgePrereq(card) != cAge3)
-                     continue;
-                  if ((kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercenary) == false) &&
-                      (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeypMercArsonist) == false))
-                     continue;   // Ignore any non-mercenary (including arsonist) cards
-                  if (xsArrayGetInt(gCardPriorities, card) > bestCardPri)
-                  {
-                     bestCardPri = xsArrayGetInt(gCardPriorities, card);
-                     bestCard = card;
-                  }
-                  else if ((xsArrayGetInt(gCardPriorities, card) == bestCardPri) && (aiRandInt(10) < 3))
-                  {
-                     bestCardPri = xsArrayGetInt(gCardPriorities, card);
-                     bestCard = card;
-                  }
-               }
-               if (bestCard >= 0)
-               {
-                  aiHCDeckAddCardToDeck(gDefaultDeck, bestCard);
-                  cardsRemaining = cardsRemaining - 1;
-                  xsArraySetString(gCardStates, bestCard, "D");
-                  aiEcho("  Adding card "+xsArrayGetString(gCardNames, bestCard));
-               }
-            } // 2-9 remaining.
-
-            // Next, one age 4 mercenary card (if available).
-            toPick = 1;
-            for (i=0; < toPick) 
-            {  
-               bestCard = -1;
-               bestCardPri = -1;
-               for (card=0; < maxCards)
-               {
-                  if (xsArrayGetString(gCardStates, card) != "P")
-                     continue;   // Only consider purchased cards not already in deck.
-                  if (aiHCCardsGetCardAgePrereq(card) != cAge4)
-                     continue;
-                  if ((kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercenary) == false) &&
-                      (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeypMercArsonist) == false))
-                     continue;   // Ignore any non-mercenary (including arsonist) cards
-                  if ((kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercJaeger) == true) && (kbGetCiv() == cCivBritish))
-                     continue;   // Ignore Holy Roman Army for British - a bug in aiHCDeckAddCardToDeck() tries to add this unavailable card
-                  if (xsArrayGetInt(gCardPriorities, card) > bestCardPri)
-                  {
-                     bestCardPri = xsArrayGetInt(gCardPriorities, card);
-                     bestCard = card;
-                  }
-                  else if ((xsArrayGetInt(gCardPriorities, card) == bestCardPri) && (aiRandInt(10) < 2))
-                  {
-                     bestCardPri = xsArrayGetInt(gCardPriorities, card);
-                     bestCard = card;
-                  }
-               }
-               if (bestCard >= 0)
-               {
-                  aiHCDeckAddCardToDeck(gDefaultDeck, bestCard);
-                  cardsRemaining = cardsRemaining - 1;
-                  xsArraySetString(gCardStates, bestCard, "D");
-                  aiEcho("  Adding card "+xsArrayGetString(gCardNames, bestCard));
-               }
-            } // 1-9 remaining.
-         }
-         else
-         {
-            // First, two "renegade" cards (if available).
-            toPick = 2;
-            for (i=0; < toPick) 
-            {  
-               bestCard = -1;
-               bestCardPri = -1;
-               for (card=0; < maxCards)
-               {
-                  if (xsArrayGetString(gCardStates, card) != "P")
-                     continue;   // Only consider purchased cards not already in deck.
-                  if ((kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeRodelero) == false) &&
-                      (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeCuirassier) == false) &&
-                      (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeHalberdier) == false) &&
-                      (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeSaloonOutlawPistol) == false) &&
-                      (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeSaloonOutlawRider) == false) &&
-                      (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeSaloonOutlawRifleman) == false))
-                     continue;   // Ignore any non-renegade cards
-                  if (xsArrayGetInt(gCardPriorities, card) > bestCardPri)
-                  {
-                     bestCardPri = xsArrayGetInt(gCardPriorities, card);
-                     bestCard = card;
-                  }
-                  else if ((xsArrayGetInt(gCardPriorities, card) == bestCardPri) && (aiRandInt(10) < 3))
-                  {
-                     bestCardPri = xsArrayGetInt(gCardPriorities, card);
-                     bestCard = card;
-                  }
-               }
-               if (bestCard >= 0)
-               {
-                  aiHCDeckAddCardToDeck(gDefaultDeck, bestCard);
-                  cardsRemaining = cardsRemaining - 1;
-                  xsArraySetString(gCardStates, bestCard, "D");
-                  aiEcho("  Adding card "+xsArrayGetString(gCardNames, bestCard));
-               }
-            } // 2-9 remaining.
-
-            // Next, three native allies cards (if available).
-            toPick = 3;
-            for (i=0; < toPick) 
-            {  
-               bestCard = -1;
-               bestCardPri = -1;
-               for (card=0; < maxCards)
-               {
-                  if (xsArrayGetString(gCardStates, card) != "P")
-                     continue;   // Only consider purchased cards not already in deck.
-                  if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercType1) == false)
-                     continue;   // Ignore any non-allies cards
-                  if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypexpSkullKnight) == true)
-                     continue;   // Ignore all Aztec skull knight cards (also classified as 'MercType1')
-                  if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypexpDogSoldier) == true)
-                     continue;   // Ignore all Sioux dog soldier cards (also classified as 'MercType1')
-                  if ((aiHCCardsGetCardAgePrereq(card) == cAge2) && (btRushBoom > 0.0))
-                     continue;   // Don't add Age 2 allies to a rush deck, as tier 2 will become blocked
-                  if (xsArrayGetInt(gCardPriorities, card) > bestCardPri)
-                  {
-                     bestCardPri = xsArrayGetInt(gCardPriorities, card);
-                     bestCard = card;
-                  }
-                  else if ((xsArrayGetInt(gCardPriorities, card) == bestCardPri) && (aiRandInt(10) < 3))
-                  {
-                     bestCardPri = xsArrayGetInt(gCardPriorities, card);
-                     bestCard = card;
-                  }
-               }
-               if (bestCard >= 0)
-               {
-                  aiHCDeckAddCardToDeck(gDefaultDeck, bestCard);
-                  cardsRemaining = cardsRemaining - 1;
-                  xsArraySetString(gCardStates, bestCard, "D");
-                  aiEcho("  Adding card "+xsArrayGetString(gCardNames, bestCard));
-               }
-            } // 0-9 remaining.
-         }
-
-         // Next, two additional native allies cards for Asians (if available).
-         if (civIsAsian() == true)
-         {
-            toPick = 2;
-            for (i=0; < toPick) 
-            {  
-               bestCard = -1;
-               bestCardPri = -1;
-               for (card=0; < maxCards)
-               {
-                  if (xsArrayGetString(gCardStates, card) != "P")
-                     continue;   // Only consider purchased cards not already in deck.
-                  if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercType1) == false)
-                     continue;   // Ignore any non-allies cards
-                  if ((aiHCCardsGetCardAgePrereq(card) == cAge2) && (btRushBoom > 0.0))
-                     continue;   // Don't add Age 2 allies to a rush deck, as tier 2 will become blocked
-                  if (xsArrayGetInt(gCardPriorities, card) > bestCardPri)
-                  {
-                     bestCardPri = xsArrayGetInt(gCardPriorities, card);
-                     bestCard = card;
-                  }
-                  else if ((xsArrayGetInt(gCardPriorities, card) == bestCardPri) && (aiRandInt(10) < 3))
-                  {
-                     bestCardPri = xsArrayGetInt(gCardPriorities, card);
-                     bestCard = card;
-                  }
-               }
-               if (bestCard >= 0)
-               {
-                  aiHCDeckAddCardToDeck(gDefaultDeck, bestCard);
-                  cardsRemaining = cardsRemaining - 1;
-                  xsArraySetString(gCardStates, bestCard, "D");
-                  aiEcho("  Adding card "+xsArrayGetString(gCardNames, bestCard));
-               }
-            } // 0-9 remaining.
-         }
 
          // Next, 'Advanced Balloon' (if available, but not for Russians).
          for (card=0; < maxCards)

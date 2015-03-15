@@ -1907,7 +1907,7 @@
 		<String _locID="24183">Cherokee Rifleman</String>
 		<String _locID="24184">Cree rifleman with a good line of sight and long range.</String>
 		<String _locID="24185">Cree Tracker</String>
-		<String _locID="24186">Inca infantry armed with a flexible spear. Good against cavalry.</String>
+		<String _locID="24186">Inca infantry that grow in strength as they grow in number. Good against cavalry.</String>
 		<String _locID="24187">Incan Huaminca</String>
 		<String _locID="24188">Inca infantry that hurls bolas for a wide area of effect.</String>
 		<String _locID="24189">Incan Bolas Warrior</String>
@@ -2499,7 +2499,7 @@
 		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built. Gets a free General in the Conquest Age and Artillery units train faster. Best units: Musketeer, Hussar.</String>
 		<String _locID="26061" symbol="cStringCivRolloverSpanish">Home City gives support and bonuses through Decree cards. Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Conquest Age. Best units: Rodelero, Lancer.</String>
 		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Town Center limit. Biggest overall Fame production. Best units: Musketeer, Dragoon.</String>
-		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets a free Builder Wagon with each Age and extra Envoys. Best units: Halberdier, Ruyter.</String>
+		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets a free Bank Wagon with each Age and extra Envoys. Best units: Halberdier, Ruyter.</String>
 		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Shipments, and a free Supply Wagon with every Age. Mercenaries are cheaper to train. Best units: Skirmisher, Uhlan.</String>
 		<String _locID="26066" symbol="cStringCivRolloverRussians">Home City gives support and bonuses through Decree cards. Trains Settlers and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age. Best units: Grenadier, Cavalry Archer.</String>
 		<String _locID="26068" symbol="cStringCivRolloverOttomans">Home City gives support and bonuses through Decree cards. Town Centers produce Settlers for free. Mosques improve Settler production and generate experience. Bonus line of sight for buildings. Best units: Abus Gun, Spahi.</String>
@@ -4064,7 +4064,7 @@
 		<String _locID="30314">You can see everything your enemies can see!</String>
 		<String _locID="30323">Feast Warrior</String>
 		<String _locID="30324">Native American hand cavalry</String>
-		<String _locID="30325">Elite Oneida horsemen.</String>
+		<String _locID="30325">Elite Oneida horsemen that grow in strength as they grow in number.</String>
 		<String _locID="30326">Lakota Dog Soldier</String>
 		<String _locID="30327">NAT Lakota Dog Soldier</String>
 		<String _locID="30331">Special beer brewed from the poisonous Cassava root give your soldiers strength. Archer and hand infantry attack increased.</String>

@@ -5836,9 +5836,6 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">TreasuryCoinCratesAztec</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">xpRam</Target>
-			</Effect>
 			<Effect type="TechStatus" status="obtainable">ChampionRams</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpLegendaryRams</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -5851,7 +5848,7 @@
 				<Target type="ProtoUnit">SPCAztecTempleD</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">NativeEmbassyN</Target>
+				<Target type="ProtoUnit">NativeEmbassy</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">CampfireNative</Target>
@@ -6074,9 +6071,6 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">PetCoyote</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">xpRam</Target>
-			</Effect>
 			<Effect type="TechStatus" status="obtainable">ChampionRams</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpLegendaryRams</Effect>
 			<Effect type="TechStatus" status="obtainable">TownGuard</Effect>
@@ -6086,7 +6080,7 @@
 				<Target type="ProtoUnit">SPCCherokeeWarHutD</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">NativeEmbassyN</Target>
+				<Target type="ProtoUnit">NativeEmbassy</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">CampfireNative</Target>
@@ -16883,7 +16877,7 @@
 		<Effects>
 			<Effect type="TechStatus" status="active">Colonialize</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="WagonBuildings" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -17128,7 +17122,7 @@
 			<Effect type="TextOutput">780790</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionBonifacio</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionWashington</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="WagonBuildings" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
@@ -18808,7 +18802,7 @@
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionBonifacio</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionWashington</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="WagonBuildings" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -21309,7 +21303,7 @@
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="WagonBuildings" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -32719,7 +32713,7 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TextOutput">780742</Effect>
-			<Effect type="Data" amount="1.50" subtype="BuildLimit" relativity="Percent">
+			<Effect type="Data" amount="1.40" subtype="BuildLimit" relativity="Percent">
 				<Target type="ProtoUnit">AbstractNativeWarrior</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Resource" resource="Ships" relativity="Absolute">
@@ -36951,7 +36945,6 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\units\az_zapotec_lightning_warrior_icon</Icon>
-		<RolloverTextID>46949</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="Data" amount="24.00" subtype="FreeHomeCityUnit" unittype="NatMercLightningWarrior" relativity="Absolute">
@@ -43859,7 +43852,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
 		<RolloverTextID>46787</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -44007,7 +44000,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
 		<RolloverTextID>46807</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -45498,7 +45491,6 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\infinite_holcan</Icon>
-		<RolloverTextID>46994</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Flag>YPInfiniteTech</Flag>
 		<Effects>
@@ -45516,7 +45508,6 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\infinite_zapotec</Icon>
-		<RolloverTextID>46996</RolloverTextID>
 		<Flag>YPInfiniteTech</Flag>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -68189,7 +68180,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
 		<RolloverTextID>780842</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -68243,7 +68234,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
 		<RolloverTextID>780847</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -68297,7 +68288,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
 		<RolloverTextID>780841</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -68351,7 +68342,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
 		<RolloverTextID>780843</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -68405,7 +68396,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
 		<RolloverTextID>780844</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -68459,7 +68450,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
 		<RolloverTextID>780846</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -68513,7 +68504,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_extensive_fortifications\hc_extensive_fortifications</Icon>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
 		<RolloverTextID>780845</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>

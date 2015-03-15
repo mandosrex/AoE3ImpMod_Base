@@ -8,7 +8,7 @@
 		<maxrange>20</maxrange>
 		<persistent>1</persistent>
 		<modifytype>MaxHP</modifytype>
-		<modifymultiplier>0.02</modifymultiplier>
+		<modifymultiplier>0.01</modifymultiplier>
 		<modifyexponent>1.0</modifyexponent>
 		<modifybase>1.0</modifybase>
 	</action>
@@ -19,7 +19,7 @@
 		<maxrange>20</maxrange>
 		<persistent>1</persistent>
 		<modifytype>Damage</modifytype>
-		<modifymultiplier>0.05</modifymultiplier>
+		<modifymultiplier>0.02</modifymultiplier>
 		<modifyexponent>1.0</modifyexponent>
 		<modifybase>1.0</modifybase>
 	</action>

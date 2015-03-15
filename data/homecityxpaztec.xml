@@ -1240,7 +1240,7 @@
 				<card>HCXPExtensiveFortificationsAztec</card>
 				<card>HCXPShipFarmTravois1</card>
 				<card>HCXPSilversmithTeam</card>
-				<card>HCXPShipJaguars1</card>
+				<card>HCXPShipSkullKnights1</card>
 			</cards>
 		</deck>
 		<deck>
@@ -1261,7 +1261,7 @@
 				<card>HCXPExtensiveFortificationsAztec</card>
 				<card>HCXPShipFarmTravois1</card>
 				<card>HCXPSilversmithTeam</card>
-				<card>HCXPShipJaguars1</card>
+				<card>HCXPShipSkullKnights1</card>
 			</cards>
 		</deck>
 	</decks>
@@ -1337,7 +1337,6 @@
 			<tech>HCXPShipVillagers1</tech>
 			<tech>HCShipFoodCrates1</tech>
 			<tech>HCShipCoveredWagons</tech>
-			<tech>HCXPShipJaguars1</tech>
 			<tech>HCXPWarChiefAztec1</tech>
 		</activetechs>
 		<validunits/>
@@ -1402,6 +1401,7 @@
 			<tech>HCXPShipPumamen1</tech>
 			<tech>HCXPShipMacehualtins1</tech>
 			<tech>HCXPShipMacehualtins2</tech>
+			<tech>HCXPShipSkullKnights1</tech>
 		</activetechs>
 		<validunits/>
 		<units/>
