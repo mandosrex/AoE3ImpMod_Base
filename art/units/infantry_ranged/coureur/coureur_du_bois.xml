@@ -411,9 +411,6 @@
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\volley\volley_standing_reload</file>
 		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\volley\volley_kneeling_reload</file>
-		</assetreference>
 		<component>ModelComp</component>
 		<attach a="musket" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>

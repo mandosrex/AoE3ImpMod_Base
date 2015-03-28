@@ -32,7 +32,7 @@
 		<component>
 			gun
 			<assetreference type="GrannyModel">
-				<file>units\mercenaries\jaeger\jaeger_gun</file>
+				<file>units\infantry_ranged\musketeer\musketeer_2age_gun</file>
 			</assetreference>
 		</component>
 		<anim>
@@ -61,12 +61,14 @@
 					<file>units\infantry_ranged\minuteman\minuteman</file>
 				</assetreference>
 				<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+				<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
 			</normal>
 			<lowpoly>
 				<assetreference type="GrannyModel">
 					<file>units\infantry_ranged\minuteman\lp_minuteman</file>
 				</assetreference>
 				<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+				<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
 			</lowpoly>
 		</logic>
 		<decal>
@@ -81,7 +83,7 @@
 		Death_by_melee
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\death_standing_rifleman_A</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.52</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.51</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\death_standing_rifleman_B</file>
@@ -89,10 +91,9 @@
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\death_standing_rifleman_C</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.72</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.73</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_by_range
@@ -102,14 +103,13 @@
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\death_standing_rifleman_B</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.19</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.17</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\death_standing_rifleman_C</file>
 			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.72</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_by_havoc
@@ -126,7 +126,6 @@
 			<file>animation_library\range\havoc_deathD</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_havoc_flail
@@ -134,7 +133,13 @@
 			<file>animation_library\range\havoc_flail</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_havoc_spin
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_spin</file>
+		</assetreference>
+		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Cheer
@@ -154,7 +159,6 @@
 			<file>animation_library\shared\cheer_E</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Recoil
@@ -171,7 +175,6 @@
 			<file>animation_library\shared\recoil_G</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		HC_openDoor
@@ -200,12 +203,12 @@
 		<assetreference type="GrannyAnim">
 			<file>animation_library\shared\torch_throwA</file>
 			<tag type="Attack">0.61</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.45</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.50</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\shared\torch_throwB</file>
 			<tag type="Attack">0.56</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.44</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.43</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
@@ -216,7 +219,6 @@
 			<file>animation_library\range\cover\cover_idle</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_bored
@@ -224,7 +226,6 @@
 			<file>animation_library\range\cover\cover_bored</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_Walk
@@ -234,7 +235,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.80</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_Jog
@@ -244,7 +244,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.76</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_Run
@@ -254,7 +253,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.12</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_idle
@@ -262,32 +260,35 @@
 			<file>animation_library\range\idle_rifleman_A</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_attack
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\volley\volley_standing_fire</file>
-			<tag type="Attack">0.37</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.36</tag>
-			<tag type="Particles" particlename="musketshot">0.36</tag>
+			<tag type="Attack">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="MusketShot">0.46</tag>
+			<tag type="Particles" particlename="musketshot">0.46</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\volley\volley_kneeling_fire</file>
-			<tag type="Attack">0.37</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.36</tag>
-			<tag type="Particles" particlename="musketshot">0.36</tag>
+			<tag type="Attack">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="MusketShot">0.46</tag>
+			<tag type="Particles" particlename="musketshot">0.46</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\volley\volley_standing_fire</file>
+			<tag type="Attack">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="MusketShot">0.46</tag>
+			<tag type="Particles" particlename="musketshot">0.46</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_reload
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\volley\volley_kneeling_idle</file>
+			<file>animation_library\range\volley\volley_standing_reload</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_bored
@@ -301,7 +302,6 @@
 			<file>animation_library\range\bored_rifleman_C</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_walk
@@ -312,7 +312,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_jog
@@ -322,7 +321,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.54</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_run
@@ -332,7 +330,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.60</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Defend_idle
@@ -340,7 +337,6 @@
 			<file>animation_library\range\defend\defend_idle</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Defend_bored
@@ -348,7 +344,6 @@
 			<file>animation_library\range\defend\defend_boredA</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_idle
@@ -359,7 +354,6 @@
 			<file>animation_library\range\charge\charge_idleB</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_bored
@@ -367,19 +361,18 @@
 			<file>animation_library\range\charge\charge_bored</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_attack
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\cacadore_charge_attackA</file>
-			<tag type="Attack">0.52</tag>
+			<tag type="Attack">0.51</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\cacadore_charge_attackB</file>
 			<tag type="Attack">0.52</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.34</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\charge_attackA</file>
@@ -387,15 +380,14 @@
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\charge_attackB</file>
-			<tag type="Attack">0.71</tag>
+			<tag type="Attack">0.70</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\charge_attackC</file>
-			<tag type="Attack">0.52</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.42</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_Walk
@@ -405,7 +397,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.06</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_Jog
@@ -415,7 +406,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.11</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_Run
@@ -425,74 +415,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.12</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_attack
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\melee_strelet_A</file>
-			<tag type="Attack">0.45</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.45</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\melee_strelet_B</file>
-			<tag type="Attack">0.45</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.45</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop2" syncanims="0"/>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_idle
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\melee_strelet_idle</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop2" syncanims="0"/>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_bored
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\melee_strelet_bored</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop2" syncanims="0"/>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_walk
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\defend\jannisary_defend_walk</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.36</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.86</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop2" syncanims="0"/>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_jog
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\unique_infantry\jannisary_charge_jog</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.73</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.19</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop2" syncanims="0"/>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_run
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\unique_infantry\jannisary_charge_run</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.73</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.19</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop2" syncanims="0"/>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	</submodel>
 	<submodel>
@@ -519,7 +441,7 @@
 		<component>
 			gun
 			<assetreference type="GrannyModel">
-				<file>units\mercenaries\jaeger\jaeger_gun</file>
+				<file>units\infantry_ranged\musketeer\musketeer_2age_gun</file>
 			</assetreference>
 		</component>
 		<anim>
@@ -547,13 +469,15 @@
 				<assetreference type="GrannyModel">
 					<file>units\spc\Sahin\sahin_spc</file>
 				</assetreference>
-				<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
+				<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+				<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="1"/>
 			</normal>
 			<lowpoly>
 				<assetreference type="GrannyModel">
 					<file>units\spc\Sahin\sahin_l_b</file>
 				</assetreference>
-				<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
+				<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+				<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="1"/>
 			</lowpoly>
 		</logic>
 		<decal>
@@ -568,7 +492,7 @@
 		Death_by_melee
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\death_standing_rifleman_A</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.52</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.51</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\death_standing_rifleman_B</file>
@@ -576,10 +500,9 @@
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\death_standing_rifleman_C</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.72</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.73</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_by_range
@@ -589,14 +512,13 @@
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\death_standing_rifleman_B</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.19</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.17</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\death_standing_rifleman_C</file>
 			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.72</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_by_havoc
@@ -613,7 +535,6 @@
 			<file>animation_library\range\havoc_deathD</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_havoc_flail
@@ -621,7 +542,13 @@
 			<file>animation_library\range\havoc_flail</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Death_havoc_spin
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\havoc_spin</file>
+		</assetreference>
+		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Cheer
@@ -641,7 +568,6 @@
 			<file>animation_library\shared\cheer_E</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Recoil
@@ -658,7 +584,6 @@
 			<file>animation_library\shared\recoil_G</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		HC_openDoor
@@ -687,12 +612,12 @@
 		<assetreference type="GrannyAnim">
 			<file>animation_library\shared\torch_throwA</file>
 			<tag type="Attack">0.61</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.45</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.50</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\shared\torch_throwB</file>
 			<tag type="Attack">0.56</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.44</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.43</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
@@ -703,7 +628,6 @@
 			<file>animation_library\range\cover\cover_idle</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_bored
@@ -711,7 +635,6 @@
 			<file>animation_library\range\cover\cover_bored</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_Walk
@@ -721,7 +644,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.80</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_Jog
@@ -731,7 +653,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.76</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Cover_Run
@@ -741,7 +662,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.12</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_idle
@@ -749,24 +669,22 @@
 			<file>animation_library\range\idle_rifleman_A</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_attack
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\volley\volley_standing_fire</file>
-			<tag type="Attack">0.37</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.36</tag>
-			<tag type="Particles" particlename="musketshot">0.36</tag>
+			<tag type="Attack">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="MusketShot">0.46</tag>
+			<tag type="Particles" particlename="musketshot">0.46</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\volley\volley_kneeling_fire</file>
-			<tag type="Attack">0.37</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.36</tag>
-			<tag type="Particles" particlename="musketshot">0.36</tag>
+			<tag type="Attack">0.46</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="MusketShot">0.46</tag>
+			<tag type="Particles" particlename="musketshot">0.46</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_reload
@@ -777,7 +695,6 @@
 			<file>animation_library\range\volley\volley_kneeling_reload</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_standing_bored
@@ -791,7 +708,6 @@
 			<file>animation_library\range\bored_rifleman_C</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_walk
@@ -802,7 +718,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_jog
@@ -812,7 +727,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.54</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Volley_run
@@ -822,7 +736,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.60</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Defend_idle
@@ -830,7 +743,6 @@
 			<file>animation_library\range\defend\defend_idle</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Defend_bored
@@ -838,7 +750,6 @@
 			<file>animation_library\range\defend\defend_boredA</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_idle
@@ -849,7 +760,6 @@
 			<file>animation_library\range\charge\charge_idleB</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_bored
@@ -857,19 +767,18 @@
 			<file>animation_library\range\charge\charge_bored</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_attack
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\cacadore_charge_attackA</file>
-			<tag type="Attack">0.52</tag>
+			<tag type="Attack">0.51</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\cacadore_charge_attackB</file>
 			<tag type="Attack">0.52</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.34</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\charge_attackA</file>
@@ -877,15 +786,14 @@
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\charge_attackB</file>
-			<tag type="Attack">0.71</tag>
+			<tag type="Attack">0.70</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\charge_attackC</file>
-			<tag type="Attack">0.52</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
+			<tag type="Attack">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.42</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_Walk
@@ -895,7 +803,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.06</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_Jog
@@ -905,7 +812,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.11</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_Run
@@ -915,567 +821,6 @@
 			<tag type="FootstepRight" footprinttype="HumanRight">0.12</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_attack
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_attackA</file>
-			<tag type="Attack">0.52</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_attackB</file>
-			<tag type="Attack">0.52</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_attackC</file>
-			<tag type="Attack">0.38</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.31</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_attackD</file>
-			<tag type="Attack">0.57</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.48</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_idle
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_idle</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_bored
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_bored</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_walk
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_walk</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.30</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_jog
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_jog</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.23</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_run
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_run</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.75</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	</submodel>
-	<submodel>
-		Militia
-	<attachment>
-		hat
-		<component>
-			hat
-			<assetreference type="GrannyModel">
-				<file>units\infantry_ranged\colonial_militia\colonial_militia_hat</file>
-			</assetreference>
-		</component>
-		<anim>
-			Idle
-			<component>hat</component>
-		</anim>
-	</attachment>
-	<attachment>
-		torch
-		<include>effects\projectiles\torch.xml</include>
-	</attachment>
-	<attachment>
-		gun
-		<component>
-			gun
-			<assetreference type="GrannyModel">
-				<file>units\mercenaries\jaeger\jaeger_gun</file>
-			</assetreference>
-		</component>
-		<anim>
-			Idle
-			<component>gun</component>
-		</anim>
-	</attachment>
-	<attachment>
-		pike
-		<component>
-			pike
-			<assetreference type="GrannyModel">
-				<file>units\infantry\pikeman\pikeman_2age_pike</file>
-			</assetreference>
-		</component>
-		<anim>
-			Idle
-			<component>pike</component>
-		</anim>
-	</attachment>
-	<component>
-		ModelComp
-		<logic type="LowPoly">
-			<normal>
-				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\colonial_militia\colonial_militia</file>
-				</assetreference>
-			</normal>
-			<lowpoly>
-				<assetreference type="GrannyModel">
-					<file>units\infantry_ranged\colonial_militia\lp_colonial_militia</file>
-				</assetreference>
-			</lowpoly>
-		</logic>
-		<decal>
-			<effecttype>default</effecttype>
-			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
-			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
-			<width>1.0</width>
-			<height>1.0</height>
-		</decal>
-		<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-	</component>
-	<anim>
-		Death_by_melee
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\death_standing_rifleman_A</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.52</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\death_standing_rifleman_B</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.18</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\death_standing_rifleman_C</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.72</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Death_by_range
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\death_standing_rifleman_A</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.52</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\death_standing_rifleman_B</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.19</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\death_standing_rifleman_C</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.72</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Death_by_havoc
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\havoc_death</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\havoc_deathB</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\havoc_deathC</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\havoc_deathD</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Death_havoc_flail
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\havoc_flail</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Cheer
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\cheer_A</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\cheer_B</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\cheer_C</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\cheer_D</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\cheer_E</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Recoil
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\recoil_A</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\recoil_C</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\recoil_E</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\recoil_G</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		HC_openDoor
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\doorOpen</file>
-		</assetreference>
-		<component>ModelComp</component>
-	</anim>
-	<anim>
-		HC_closeDoor
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\doorClose</file>
-		</assetreference>
-		<component>ModelComp</component>
-	</anim>
-	<anim>
-		Raze_Idle
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\torch_throw_idle</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
-	</anim>
-	<anim>
-		Raze_Attack
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\torch_throwA</file>
-			<tag type="Attack">0.61</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.45</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\torch_throwB</file>
-			<tag type="Attack">0.56</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.44</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"/>
-	</anim>
-	<anim>
-		Cover_ranged_idle
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\cover\cover_idle</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Cover_bored
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\cover\cover_bored</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Cover_Walk
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\cover\cover_walk</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.28</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.80</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Cover_Jog
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\cover\cover_jog</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.29</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.76</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Cover_Run
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\cover\cover_run</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.68</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.12</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Volley_standing_idle
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\idle_rifleman_A</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Volley_standing_attack
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\volley\volley_standing_fire</file>
-			<tag type="Attack">0.37</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.36</tag>
-			<tag type="Particles" particlename="musketshot">0.36</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\volley\volley_kneeling_fire</file>
-			<tag type="Attack">0.37</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.36</tag>
-			<tag type="Particles" particlename="musketshot">0.36</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Volley_standing_reload
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\volley\volley_standing_reload</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\volley\volley_kneeling_reload</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Volley_standing_bored
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\bored_rifleman_A</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\bored_rifleman_B</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\bored_rifleman_C</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Volley_walk
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\walk_crossbow_upper</file>
-			<file>animation_library\shared\walk_generic_lower</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.14</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Volley_jog
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\jog_rifleman_A</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.04</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.54</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Volley_run
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\run_rifleman_A</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.13</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.60</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Defend_idle
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\defend\defend_idle</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Defend_bored
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\defend\defend_boredA</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Charge_idle
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_idleA</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_idleB</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Charge_bored
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_bored</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Charge_attack
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\cacadore_charge_attackA</file>
-			<tag type="Attack">0.52</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\cacadore_charge_attackB</file>
-			<tag type="Attack">0.52</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_attackA</file>
-			<tag type="Attack">0.52</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_attackB</file>
-			<tag type="Attack">0.71</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_attackC</file>
-			<tag type="Attack">0.52</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Charge_Walk
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_walk</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.06</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Charge_Jog
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_jog</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.11</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Charge_Run
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_runA</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.66</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.12</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_attack
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_attackA</file>
-			<tag type="Attack">0.52</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_attackB</file>
-			<tag type="Attack">0.52</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_attackC</file>
-			<tag type="Attack">0.38</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.31</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_attackD</file>
-			<tag type="Attack">0.57</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.48</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_idle
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_idle</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_bored
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_bored</file>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_walk
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_walk</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.30</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_jog
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_jog</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.76</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.23</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
-	</anim>
-	<anim>
-		Pike_run
-		<assetreference type="GrannyAnim">
-			<file>animation_library\infantry\Charge\pikemen_charge_run</file>
-			<tag type="FootstepLeft" footprinttype="HumanLeft">0.75</tag>
-			<tag type="FootstepRight" footprinttype="HumanRight">0.20</tag>
-		</assetreference>
-		<component>ModelComp</component>
-		<attach a="pike" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
 	</anim>
 	</submodel>
 	<component>

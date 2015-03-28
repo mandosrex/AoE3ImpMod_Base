@@ -2,24 +2,10 @@
 
 <animfile>
 	<definebone>bip01 prop1</definebone>
-	<definebone>bone_axe</definebone>
-	<definebone>bone_sword</definebone>
-		<attachment>
-			sword
-			<component>
-				sword
-				<assetreference type="GrannyModel">
-					<file>units\spc\nate_black\spc_nate_tomahawk</file>
-				</assetreference>
-			</component>
-			<anim>
-				Idle
-				<component>sword</component>
-			</anim>
-		</attachment>
+	<definebone>bone_gun</definebone>
 	<attachment>
-		spear2
-		<include>units\infantry_ranged\strelet\strelet_axe.xml</include>
+		spear
+		<include>units\mercenaries\balkan_stradiot\stradiot_spear.xml</include>
 	</attachment>
 	<attachment>
 		torch
@@ -47,109 +33,109 @@
 	<anim>
 		Walk
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_canter</file>
+			<file>animation_library\cavalry\lance_canter</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_axe" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Jog
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_jog</file>
+			<file>animation_library\cavalry\lance_jog</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_axe" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Run
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_gallop</file>
+			<file>animation_library\cavalry\lance_gallop</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_axe" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Highstep
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_highstep</file>
+			<file>animation_library\cavalry\lance_highstep</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_axe" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_A</file>
+			<file>animation_library\cavalry\lance_idle_A</file>
 			<weight>40</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_B</file>
+			<file>animation_library\cavalry\lance_idle_B</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_C</file>
+			<file>animation_library\cavalry\lance_idle_C</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_D</file>
+			<file>animation_library\cavalry\lance_idle_D</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_F</file>
+			<file>animation_library\cavalry\lance_idle_F</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_G</file>
+			<file>animation_library\cavalry\lance_idle_G</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_H</file>
+			<file>animation_library\cavalry\lance_idle_H</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_I</file>
+			<file>animation_library\cavalry\lance_idle_I</file>
 			<weight>40</weight>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_axe" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_bored_A</file>
+			<file>animation_library\cavalry\lance_bored_A</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_E</file>
+			<file>animation_library\cavalry\lance_idle_E</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_A</file>
+			<file>animation_library\cavalry\lance_idle_A</file>
 			<weight>50</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_idle_I</file>
+			<file>animation_library\cavalry\lance_idle_I</file>
 			<weight>50</weight>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_axe" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Attack_melee
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_attack_A</file>
+			<file>animation_library\cavalry\lance_attack_A</file>
 			<weight>40</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_attack_B</file>
+			<file>animation_library\cavalry\lance_attack_B</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_attack_C</file>
+			<file>animation_library\cavalry\lance_attack_C</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_attack_D</file>
+			<file>animation_library\cavalry\lance_attack_D</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
@@ -157,20 +143,20 @@
 			<weight>40</weight>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_axe" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Attack_trample
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_trample attackA</file>
+			<file>animation_library\cavalry\lance_trample_attack</file>
 			<weight>40</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\sword_trample attackB</file>
+			<file>animation_library\cavalry\lance_trample_attack</file>
 			<weight>40</weight>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_axe" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_by_melee
@@ -184,7 +170,7 @@
 			<file>animation_library\cavalry\sword_deathC</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_axe" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_by_range
@@ -198,7 +184,7 @@
 			<file>animation_library\cavalry\sword_deathC</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_axe" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_by_havoc
@@ -225,7 +211,7 @@
 			<file>animation_library\cavalry\sword_cheer_E</file>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_axe" tobone="Bip01 Prop1" syncanims="0"/>
+		<attach a="spear" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Raze_idle

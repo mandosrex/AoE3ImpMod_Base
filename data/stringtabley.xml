@@ -2496,7 +2496,7 @@
 		<String _locID="26057">River Props Amazon</String>
 		<String _locID="26058">PROP River Amazon River</String>
 		<String _locID="26059" symbol="cStringCivRolloverFrench">Home City gives support and bonuses through Decree cards. Villagers are Coureurs - expensive, but gather and fight better than Settlers. Gets extra Fame with each Age. Best units: Skirmisher, Cuirassier.</String>
-		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built. Gets a free General in the Conquest Age and Artillery units train faster. Best units: Musketeer, Hussar.</String>
+		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built. Gets a free General in the Conquest Age and extra early Docks. Best units: Musketeer, Hussar.</String>
 		<String _locID="26061" symbol="cStringCivRolloverSpanish">Home City gives support and bonuses through Decree cards. Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Conquest Age. Best units: Rodelero, Lancer.</String>
 		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Town Center limit. Biggest overall Fame production. Best units: Musketeer, Dragoon.</String>
 		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets a free Bank Wagon with each Age and extra Envoys. Best units: Halberdier, Ruyter.</String>
@@ -3305,14 +3305,14 @@
 		<String _locID="27727">SHP Privateer</String>
 		<String _locID="27738">Galleon. Slow, powerful ship resistant to building fire that can train units.</String>
 		<String _locID="27739">This tech doesn't do anything yet!</String>
-		<String _locID="27740" symbol="cStringNuggetSpeedBoost">The boots of El Pollo Guapo, which increases speed of whomever picks them up by %2.2f%%.</String>
-		<String _locID="27741" symbol="cStringNuggetSpeedBoostActivate">%s has recovered the boots of El Pollo Guapo, which increases speed by %2.2f%%.</String>
+		<String _locID="27740" symbol="cStringNuggetSpeedBoost">The boots of El Pollo Guapo, which increases Hero speed by %2.2f%%.</String>
+		<String _locID="27741" symbol="cStringNuggetSpeedBoostActivate">%s has recovered the boots of El Pollo Guapo, which increases Hero speed by %2.2f%%.</String>
 		<String _locID="27742" symbol="cStringNuggetHPDouble">The cuirass of El Pollo Guapo, which increases Explorer or Hero hitpoints by %2.2f%%.</String>
-		<String _locID="27743" symbol="cStringNuggetHPDoubleActivate">%s has recovered the cuirass of El Pollo Guapo, which increases hitpoints by %2.2f%%.</String>
+		<String _locID="27743" symbol="cStringNuggetHPDoubleActivate">%s has recovered the cuirass of El Pollo Guapo, which increases Hero hitpoints by %2.2f%%.</String>
 		<String _locID="27744" symbol="cStringNuggetHPBoost">The morion of El Pollo Guapo, which increases Explorer or Hero hitpoints by %2.2f%%.</String>
-		<String _locID="27745" symbol="cStringNuggetHPBoostActivate">%s has found the morion of El Pollo Guapo, which increases hitpoints %2.2f%%.</String>
+		<String _locID="27745" symbol="cStringNuggetHPBoostActivate">%s has found the morion of El Pollo Guapo, which increases Hero hitpoints %2.2f%%.</String>
 		<String _locID="27746" symbol="cStringNuggetHPBoost2">The shield of El Pollo Guapo, which increases Explorer or Hero hitpoints by %2.2f%%.</String>
-		<String _locID="27747" symbol="cStringNuggetHPBoost2Activate">%s has recovered the shield of El Pollo Guapo, which increases hitpoints by %2.2f%%.</String>
+		<String _locID="27747" symbol="cStringNuggetHPBoost2Activate">%s has recovered the shield of El Pollo Guapo, which increases Hero hitpoints by %2.2f%%.</String>
 		<String _locID="27748" symbol="cStringNuggetPeanuts" comment="1 - amount, 2 - resource">A patch of peanuts worth %1d %2s.</String>
 		<String _locID="27749" symbol="cStringNuggetPeanutsActivate" comment="1 - player, 2 - amount, 3 - resource">%1s has discovered a patch of peanuts worth %2d %3s.</String>
 		<String _locID="27750" symbol="cStringNuggetManioc" comment="1 - amount, 2 - resource">A supply of manioc root (cassava) worth %1d %2s.</String>
@@ -22373,7 +22373,7 @@
 		<String _locID="63018" symbol="cStringypPlum" comment="1 - amount, 2 - resource">A crate of plums worth %1d %2s.</String>
 		<String _locID="63019" symbol="cStringypPolecat" comment="1 - amount, 2 - resource">Polecats whose furs are worth %1d %2s.</String>
 		<String _locID="63020" symbol="cStringypDragonfly3" comment="1 - amount, 2 - resource">An iridescent dragonfly worth %1d %2s.</String>
-		<String _locID="63021" symbol="cStringypPopulationBonus" comment="2.2f - floating point number - amount">Empress Zoe's cookbook, which increases the maximum population cap of whomever recovers it by 5.</String>
+		<String _locID="63021" symbol="cStringypPopulationBonus" comment="2.2f - floating point number - amount">Empress Zoe's cookbook, which increases Town Center hitpoints by 10 percent.</String>
 		<String _locID="63022" symbol="cStringypAspen2" comment="1 - amount, 2 - resource">A grove of aspen worth %1d %2s.</String>
 		<String _locID="63023" symbol="cStringypKiwi" comment="1 - amount, 2 - resource">Delicious kiwi fruit worth %1d %2s.</String>
 		<String _locID="63024" symbol="cStringypMustard2" comment="1 - amount, 2 - resource">A cache of mustard seeds worth %1d %2s for the entire team.</String>
@@ -22392,7 +22392,7 @@
 		<String _locID="63037" symbol="cStringypPlumActivate" comment="1 - player, 2 - amount, 3 - resource">%1s has discovered a crate of plums worth %2d %3s.</String>
 		<String _locID="63038" symbol="cStringypNuggetPolecatActivate" comment="1 - player, 2 - amount, 3 - resource">%1s has trapped polecats whose furs are worth %2d %3s.</String>
 		<String _locID="63039" symbol="cStringypDragonfly3Activate" comment="1 - player, 2 - amount, 3 - resource">%1s has captured an exotic dragonfly worth %2d %3s.</String>
-		<String _locID="63040" symbol="cStringypPopulationBonusActivate" comment="s - player, 2.2f - amount">%s has recovered Empress Zoe's cookbook, which increases their maximum population cap by 5.</String>
+		<String _locID="63040" symbol="cStringypPopulationBonusActivate" comment="s - player, 2.2f - amount">%s has recovered Empress Zoe's cookbook, which increases Town Center hitpoints by 10 percent.</String>
 		<String _locID="63041" symbol="cStringypAspen2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s has discovered a grove of aspen trees worth %2d %3s.</String>
 		<String _locID="63042" symbol="cStringypKiwiActivate" comment="1 - player, 2 - amount, 3 - resource">%1s just snacked on delicious kiwi fruit worth %2d %3s.</String>
 		<String _locID="63043" symbol="cStringypMustard2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s recovered a cache of mustard seeds worth %2d %3s for their team.</String>

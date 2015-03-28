@@ -378,9 +378,15 @@
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\volley\volley_kneeling_fire</file>
-			<tag type="Attack">0.45</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.45</tag>
-			<tag type="Particles" particlename="musketshot">0.45</tag>
+			<tag type="Attack">0.37</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.36</tag>
+			<tag type="Particles" particlename="musketshot">0.36</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\volley\volley_standing_fire</file>
+			<tag type="Attack">0.37</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="SettlerGunShot">0.36</tag>
+			<tag type="Particles" particlename="musketshot">0.36</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="musket" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>
@@ -388,7 +394,7 @@
 	<anim>
 		Volley_standing_reload
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\volley\volley_kneeling_idle</file>
+			<file>animation_library\range\volley\volley_kneeling_reload</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="musket" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>

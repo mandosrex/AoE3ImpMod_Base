@@ -333,15 +333,18 @@
 			<tag type="SpecificSoundSet" checkvisible="1" set="MusketShot">0.48</tag>
 			<tag type="Particles" particlename="musketshot">0.48</tag>
 		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\volley\volley_standing_fire</file>
+			<tag type="Attack">0.48</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="MusketShot">0.48</tag>
+			<tag type="Particles" particlename="musketshot">0.48</tag>
+		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Volley_standing_reload
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\volley\volley_standing_reload</file>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\volley\volley_kneeling_reload</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

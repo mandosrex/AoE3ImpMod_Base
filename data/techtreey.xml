@@ -461,6 +461,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Assign">
+				<Target type="ProtoUnit">Outpost</Target>
+			</Effect>
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -744,9 +747,6 @@
 			<Effect type="SetName" proto="Halberdier" culture="none" newName="28292"/>
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
-				<Target type="ProtoUnit">AbstractArtillery</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
 			<Effect type="TechStatus" status="active">Ranching</Effect>
@@ -31947,7 +31947,6 @@
 		<DBID>2657</DBID>
 		<DisplayNameID>77848</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
-		<Cost resourcetype="Fame">200.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\royal_guard_infantry\royal_guard_infantry</Icon>
@@ -31966,7 +31965,6 @@
 		<DBID>2657</DBID>
 		<DisplayNameID>77848</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
-		<Cost resourcetype="Fame">200.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\royal_guard_infantry\royal_guard_infantry</Icon>
@@ -31982,7 +31980,6 @@
 		<DBID>2657</DBID>
 		<DisplayNameID>77848</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
-		<Cost resourcetype="Fame">200.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\royal_guard_infantry\royal_guard_infantry</Icon>
@@ -44317,7 +44314,6 @@
 	<Tech name="HCXPAdvancedBalloon" type="Normal">
 		<DBID>3382</DBID>
 		<DisplayNameID>46846</DisplayNameID>
-		<Cost resourcetype="Fame">100.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -53765,6 +53761,17 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypPopulationCapBonus" type="Normal">
+		<DBID>4303</DBID>
+		<ResearchPoints>50.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ypPopulationCapBonus2" type="Normal">
 		<DBID>4303</DBID>
 		<ResearchPoints>50.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>

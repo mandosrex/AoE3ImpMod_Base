@@ -314,6 +314,11 @@
 			<tag type="Attack">0.14</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.14</tag>
 		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\spc\huang\volley_fire2</file>
+			<tag type="Attack">0.99</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.99</tag>
+		</assetreference>
 		<component>ModelComp</component>
 		<attach a="arrow_attachment" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"/>
 	</anim>

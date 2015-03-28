@@ -283,6 +283,11 @@
 			<tag type="Attack">0.14</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.14</tag>
 		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\japanese\yumi\yumi_attackRanged00</file>
+			<tag type="Attack">0.14</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.14</tag>
+		</assetreference>
 		<component>ModelComp</component>
 		<attach a="bow" frombone="bone_bow" tobone="Bip01 Prop1" syncanims="0"/>
 		<attach a="arrow_attachment" frombone="bone_quiver" tobone="Bip01 Prop2" syncanims="0"/>

@@ -7,7 +7,7 @@
 		<attackaction>1</attackaction>
 		<rangedlogic>1</rangedlogic>
 		<anim>Volley_standing_attack</anim>
-		<reloadanim>Defend_idle</reloadanim>
+		<reloadanim>Volley_standing_reload</reloadanim>
 		<idleanim>Volley_standing_idle</idleanim>
 		<maxheight>0</maxheight>
 		<accuracy>1.0</accuracy>
@@ -38,6 +38,7 @@
 		<anim>Charge_attack</anim>
 		<idleanim>Charge_idle</idleanim>
 		<impacteffect>effects\impacts\melee</impacteffect>
+		<targetspeedboost>1</targetspeedboost>
 	</action>
 	<action>
 		<name stringid="38136">DefendRangedAttack</name>
@@ -78,6 +79,7 @@
 		<impacteffect>effects\impacts\melee</impacteffect>
 		<damage>6.5</damage>
 		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
 	</action>
 	<action>
 		<name stringid="38129">StaggerRangedAttack</name>
@@ -118,6 +120,7 @@
 		<impacteffect>effects\impacts\melee</impacteffect>
 		<damage>6.5</damage>
 		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
 	</action>
 	<action>
 		<name stringid="38135">MeleeHandAttack</name>
@@ -132,6 +135,7 @@
 		<impacteffect>effects\impacts\melee</impacteffect>
 		<damage>6.5</damage>
 		<rof>1.0</rof>
+		<targetspeedboost>1</targetspeedboost>
 	</action>
 	<action>
 		<name stringid="38118">BuildingAttack</name>

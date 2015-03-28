@@ -125,7 +125,7 @@
 	<anim>
 		Volley_standing_reload
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\volley\volley_kneeling_idle</file>
+			<file>animation_library\range\volley\volley_kneeling_reload</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="rifle" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>

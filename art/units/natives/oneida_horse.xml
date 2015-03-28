@@ -146,30 +146,31 @@
 			<file>animation_library\cavalry\horse_1-5_attack_A</file>
 			<weight>40</weight>
 			<tag type="Attack">0.54</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.34</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.46</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\horse_1-5_attack_B</file>
 			<weight>10</weight>
 			<tag type="Attack">0.47</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.34</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.37</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\horse_1-5_attack_C</file>
 			<weight>10</weight>
 			<tag type="Attack">0.54</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.34</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.48</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\horse_1-5_attack_D</file>
 			<weight>10</weight>
 			<tag type="Attack">0.54</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.34</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.46</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\horse_trample_A</file>
 			<weight>40</weight>
 			<tag type="Attack">0.57</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.46</tag>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

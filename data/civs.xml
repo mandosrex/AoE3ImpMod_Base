@@ -95,21 +95,6 @@
 			<idletimeout>5.0</idletimeout>
 		</unitregen>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -293,21 +278,6 @@
 			<unittype>TownCenter</unittype>
 			<rate>0.03</rate>
 			<idletimeout>5.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
 		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
@@ -509,21 +479,6 @@
 			<idletimeout>5.0</idletimeout>
 		</unitregen>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -713,21 +668,6 @@
 			<idletimeout>5.0</idletimeout>
 		</unitregen>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -911,21 +851,6 @@
 			<unittype>TownCenter</unittype>
 			<rate>0.03</rate>
 			<idletimeout>5.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
 		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
@@ -1138,21 +1063,6 @@
 			<idletimeout>5.0</idletimeout>
 		</unitregen>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -1339,21 +1249,6 @@
 			<idletimeout>5.0</idletimeout>
 		</unitregen>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -1536,21 +1431,6 @@
 			<unittype>TownCenter</unittype>
 			<rate>0.03</rate>
 			<idletimeout>5.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
 		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
@@ -1744,21 +1624,6 @@
 			<idletimeout>5.0</idletimeout>
 		</unitregen>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -1887,21 +1752,6 @@
 		<visible>0</visible>
 		<visibleineditor>1</visibleineditor>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -2016,21 +1866,6 @@
 		</unitregen>
 		<visible>0</visible>
 		<visibleineditor>1</visibleineditor>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
@@ -2181,21 +2016,6 @@
 		<visible>0</visible>
 		<visibleineditor>1</visibleineditor>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -2310,21 +2130,6 @@
 		</unitregen>
 		<visible>0</visible>
 		<visibleineditor>1</visibleineditor>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
@@ -2469,21 +2274,6 @@
 			<idletimeout>5.0</idletimeout>
 		</unitregen>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -2580,21 +2370,6 @@
 			<idletimeout>5.0</idletimeout>
 		</unitregen>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -2686,21 +2461,6 @@
 			<idletimeout>5.0</idletimeout>
 		</unitregen>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -2773,21 +2533,6 @@
 		</unitregen>
 		<visible>0</visible>
 		<visibleineditor>1</visibleineditor>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
@@ -3344,21 +3089,6 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<key>J</key>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
@@ -4536,21 +4266,6 @@
 		</multipleblocktrain>
 		<key>C</key>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -4899,21 +4614,6 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<key>I</key>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
@@ -5342,21 +5042,6 @@
 		<visible>0</visible>
 		<visibleineditor>1</visibleineditor>
 		<key>J</key>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
@@ -6477,21 +6162,6 @@
 		<visibleineditor>1</visibleineditor>
 		<key>C</key>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -6886,21 +6556,6 @@
 		<visibleineditor>1</visibleineditor>
 		<key>I</key>
 		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
 			<idletimeout>3.5</idletimeout>
@@ -6986,21 +6641,6 @@
 		<unitregen>
 			<unittype>Minuteman</unittype>
 			<rate>-2.0</rate>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
 		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
@@ -7272,21 +6912,6 @@
 		<visible>0</visible>
 		<visibleineditor>1</visibleineditor>
 		<key>J</key>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
 			<rate>0.02</rate>
@@ -7894,21 +7519,6 @@
 			<unittype>TownCenter</unittype>
 			<rate>0.03</rate>
 			<idletimeout>5.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractVillager</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractInfantry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
-		</unitregen>
-		<unitregen>
-			<unittype>AbstractCavalry</unittype>
-			<rate>0.02</rate>
-			<idletimeout>4.0</idletimeout>
 		</unitregen>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
