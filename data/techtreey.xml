@@ -1197,9 +1197,6 @@
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="Assign">
-				<Target type="ProtoUnit">Mercenary</Target>
-			</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
 			<Effect type="TechStatus" status="active">RanchingE</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -1624,14 +1621,9 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">LumberCamp</Target>
 			</Effect>
-			<Effect type="Data" amount="10.00" subtype="LOS" relativity="Absolute">
-				<Target type="ProtoUnit">Building</Target>
-			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Hussar</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialHussars</Effect>
-			<Effect type="TechStatus" status="obtainable">GuardHussars</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranHussars</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
 			<Effect type="TechStatus" status="active">RanchingM</Effect>
@@ -6296,7 +6288,6 @@
 			<Effect type="TechStatus" status="active">EliteBowRider</Effect>
 			<Effect type="TechStatus" status="active">StrongWarHut</Effect>
 			<Effect type="TechStatus" status="active">MightyWarHut</Effect>
-			<Effect type="TechStatus" status="active">ConSupport</Effect>
 			<Effect type="TechStatus" status="active">ImprovedWallsNativeSx</Effect>
 		</Effects>
 	</Tech>
@@ -6330,7 +6321,6 @@
 			<Effect type="TechStatus" status="active">EliteMacehualtins</Effect>
 			<Effect type="TechStatus" status="active">ElitePumaMen</Effect>
 			<Effect type="TechStatus" status="active">EliteCoyotemen</Effect>
-			<Effect type="TechStatus" status="active">ConSupport</Effect>
 			<Effect type="TechStatus" status="active">ImprovedWallsNative</Effect>
 		</Effects>
 	</Tech>
@@ -11665,7 +11655,7 @@
 	</Tech>
 	<Tech name="GuardSpahi" type="Normal">
 		<DBID>94</DBID>
-		<DisplayNameID>23956</DisplayNameID>
+		<DisplayNameID>77881</DisplayNameID>
 		<Cost resourcetype="Wood">1000.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -11685,7 +11675,7 @@
 			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Spahi</Target>
 			</Effect>
-			<Effect type="SetName" proto="Spahi" culture="none" newName="32326"/>
+			<Effect type="SetName" proto="Spahi" culture="none" newName="24013"/>
 			<Effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Spahi" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -13909,10 +13899,7 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="GreatBombard" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="MercMameluke" relativity="Absolute">
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="GreatBombard" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -13923,7 +13910,7 @@
 		<Cost resourcetype="Gold">2000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\bashkir_ponies\bashkir_ponies_64x64</Icon>
+		<Icon>units\mercenaries\mameluke\mameluke_icon_64x64</Icon>
 		<RolloverTextID>780836</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -13933,16 +13920,13 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="ypConsulateLifeGuard" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="ypRepentantMameluke" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="SetName" proto="ypConsulateLifeGuard" culture="none" newName="780837"/>
-			<Effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Hussar" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
+			<Effect type="SetName" proto="ypRepentantMameluke" culture="none" newName="780837"/>
 		</Effects>
 	</Tech>
 	<Tech name="RGBaratcuCorps" type="Normal">
@@ -16641,7 +16625,7 @@
 			<Effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
-			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="UpdateVisual" unittype="Building" relativity="Absolute">
@@ -16650,7 +16634,7 @@
 			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ExplorerDog</Target>
 			</Effect>
-			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="2.00" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
@@ -16793,7 +16777,7 @@
 			<Effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
-			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 			<Effect type="Data" action="RangedAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
@@ -16814,7 +16798,7 @@
 			<Effect type="Data" action="BroadsideAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
 				<Target type="ProtoUnit">ypFuchuan</Target>
 			</Effect>
-			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
@@ -17967,7 +17951,7 @@
 	</Tech>
 	<Tech name="ImperialSpahi" type="Normal">
 		<DBID>1310</DBID>
-		<DisplayNameID>30937</DisplayNameID>
+		<DisplayNameID>77882</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -17987,7 +17971,7 @@
 			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Spahi</Target>
 			</Effect>
-			<Effect type="SetName" proto="Spahi" culture="none" newName="30937"/>
+			<Effect type="SetName" proto="Spahi" culture="none" newName="77887"/>
 		</Effects>
 	</Tech>
 	<Tech name="ImperialMusketeersUS" type="Normal">
@@ -21214,7 +21198,7 @@
 			<Effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
-			<Effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="UpdateVisual" unittype="Building" relativity="Absolute">
@@ -21223,7 +21207,7 @@
 			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ExplorerDog</Target>
 			</Effect>
-			<Effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
@@ -23064,7 +23048,7 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TextOutput">41786</Effect>
-			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Assign">
+			<Effect type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="ProtoUnit">Market</Target>
 			</Effect>
 		</Effects>
@@ -32703,7 +32687,7 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>NativeDance</Flag>
 		<Prereqs>
-			<TechStatus status="Active">Fortressize</TechStatus>
+			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="10.00" subtype="PlayerSpecificTrainLimitPerAction" relativity="Assign">
@@ -58709,7 +58693,7 @@
 			<Effect type="TechStatus" status="obtainable">DisciplinedSaker</Effect>
 			<Effect type="TechStatus" status="obtainable">ExaltedSaker</Effect>
 			<Effect type="TechStatus" status="active">GuardSpahi</Effect>
-			<Effect type="SetName" proto="ypConsulateGardener" culture="none" newName="65884"/>
+			<Effect type="SetName" proto="ypConsulateGardener" culture="none" newName="23733"/>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypConsulateArmyOttoman3</Target>
 			</Effect>
@@ -63211,7 +63195,7 @@
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="7.00" subtype="PlayerSpecificTrainLimitPerAction" relativity="Assign">
+			<Effect type="Data" amount="10.00" subtype="PlayerSpecificTrainLimitPerAction" relativity="Assign">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -63226,7 +63210,7 @@
 		<RolloverTextID>68332</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="7.00" subtype="PlayerSpecificTrainLimitPerAction" relativity="Assign">
+			<Effect type="Data" amount="10.00" subtype="PlayerSpecificTrainLimitPerAction" relativity="Assign">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>

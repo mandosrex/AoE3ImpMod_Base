@@ -165,6 +165,10 @@
 				<component>smoke</component>
 			</anim>
 		</attachment>
+		<attachment>
+			flag
+			<include>buildings\trading_post\pump2.xml</include>
+		</attachment>
 		<component>
 			trade post
 			<logic type="LowPoly">
@@ -194,6 +198,7 @@
 				<width>9.00</width>
 				<height>9.00</height>
 			</decal>
+			<attach a="flag" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="1"/>
 		</component>
 		<component>
 			death
@@ -321,6 +326,10 @@
 				<component>smoke</component>
 			</anim>
 		</attachment>
+		<attachment>
+			flag
+			<include>buildings\trading_post\pump2.xml</include>
+		</attachment>
 		<component>
 			trade post
 			<logic type="LowPoly">
@@ -341,6 +350,7 @@
 				<width>9.00</width>
 				<height>9.00</height>
 			</decal>
+			<attach a="flag" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="1"/>
 		</component>
 		<component>
 			death

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protounitsounddef>
+	<protounit name="HomeCityWaterSpawnFlag">
+		<soundtype name="Select">
+			<soundset name="ShipBirth"/>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

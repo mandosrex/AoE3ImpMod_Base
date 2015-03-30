@@ -1778,7 +1778,7 @@
 		<String _locID="23761">Guard Janissaries</String>
 		<String _locID="23764">Ships the Tufanci corps of 15 Janissaries. Also improves all Janissaries.</String>
 		<String _locID="23765">Tufanci Corps</String>
-		<String _locID="23767">Ships the mighty Topcu Cannon Corps of 3 Great Bombards and 2 Mamelukes.</String>
+		<String _locID="23767">Ships the mighty Topcu Cannon Corps of 4 Great Bombards.</String>
 		<String _locID="23768">Topcu Corps</String>
 		<String _locID="23776">Ottoman Grenadier attack and hitpoints greatly increased.</String>
 		<String _locID="23777">Baratcu Corps</String>
@@ -2499,10 +2499,10 @@
 		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built. Gets a free General in the Conquest Age and extra early Docks. Best units: Musketeer, Hussar.</String>
 		<String _locID="26061" symbol="cStringCivRolloverSpanish">Home City gives support and bonuses through Decree cards. Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Conquest Age. Best units: Rodelero, Lancer.</String>
 		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Town Center limit. Biggest overall Fame production. Best units: Musketeer, Dragoon.</String>
-		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets a free Bank Wagon with each Age and extra Envoys. Best units: Halberdier, Ruyter.</String>
-		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Shipments, and a free Supply Wagon with every Age. Mercenaries are cheaper to train. Best units: Skirmisher, Uhlan.</String>
+		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets a free Bank Wagon with every Age and extra Envoys. Best units: Halberdier, Ruyter.</String>
+		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Shipments, and a free Supply Wagon with every Age. Best units: Skirmisher, Uhlan.</String>
 		<String _locID="26066" symbol="cStringCivRolloverRussians">Home City gives support and bonuses through Decree cards. Trains Settlers and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age. Best units: Grenadier, Cavalry Archer.</String>
-		<String _locID="26068" symbol="cStringCivRolloverOttomans">Home City gives support and bonuses through Decree cards. Town Centers produce Settlers for free. Mosques improve Settler production and generate experience. Bonus line of sight for buildings. Best units: Abus Gun, Spahi.</String>
+		<String _locID="26068" symbol="cStringCivRolloverOttomans">Home City gives support and bonuses through Decree cards. Town Centers produce Settlers for free. Mosques improve Settler production and generate experience. Best units: Abus Gun, Spahi.</String>
 		<String _locID="26071">Rubble</String>
 		<String _locID="26072">Underbrush Amazon</String>
 		<String _locID="26075">PROP Amazon</String>
@@ -30250,9 +30250,9 @@
 		<String _locID="780832">Large New England</String>
 		<String _locID="780833">Land Maps</String>
 		<String _locID="780834">Randomly selects from among all land standard maps.</String>
-		<String _locID="780835">Timariot Hussars</String>
-		<String _locID="780836">Ships 17 Timariot Hussars from the motherland.</String>
-		<String _locID="780837">Timariot Hussar</String>
+		<String _locID="780835">Timariot Mamelukes</String>
+		<String _locID="780836">Ships 17 Timariot Mamelukes from the motherland.</String>
+		<String _locID="780837">Timariot Mameluke</String>
 		<String _locID="780838">Imperial Pikemen</String>
 		<String _locID="780839">Imperial Crossbowman</String>
 		<String _locID="780840">Imperial Crossbowmen</String>

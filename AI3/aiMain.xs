@@ -7019,79 +7019,6 @@ minInterval 10
 }
 
 
-rule upgradetocivilization
-inactive
-minInterval 30
-{
-   if (kbTechGetStatus(cTechImpImmigrants) == cTechStatusActive)
-   {
-      xsDisableSelf();
-      return;
-   }
-   int TownCenter = getUnit(cUnitTypeTownCenter, cMyID, cUnitStateAlive);
-   if (TownCenter >= 0)
-   {
-      createSimpleResearchPlan(cTechImpImmigrants,TownCenter,cEconomyEscrowID, 80);
-      xsDisableSelf();
-	
-   }
-}
-
-rule upgradetocivilizationnative
-inactive
-minInterval 30
-{
-   if (kbTechGetStatus(cTechImpImmigrantsNative) == cTechStatusActive)
-   {
-      xsDisableSelf();
-      return;
-   }
-   int TownCenter = getUnit(cUnitTypeTownCenter, cMyID, cUnitStateAlive);
-   if (TownCenter >= 0)
-   {
-      createSimpleResearchPlan(cTechImpImmigrantsNative,TownCenter,cEconomyEscrowID, 80);
-      xsDisableSelf();
-	
-   }
-}
-
-rule upgradetocivilizationchinese
-inactive
-minInterval 30
-{
-   if (kbTechGetStatus(cTechImpImmigrantsAsian) == cTechStatusActive)
-   {
-      xsDisableSelf();
-      return;
-   }
-   int TownCenter = getUnit(cUnitTypeTownCenter, cMyID, cUnitStateAlive);
-   if (TownCenter >= 0)
-   {
-      createSimpleResearchPlan(cTechImpImmigrantsAsian,TownCenter,cEconomyEscrowID, 80);
-      xsDisableSelf();
-	
-   }
-}
-
-rule upgradetoconfederacy
-inactive
-minInterval 30
-{
-   if (kbTechGetStatus(cTechConSupport) == cTechStatusActive)
-   {
-      xsDisableSelf();
-      return;
-   }
-   int NativeEmbassy = getUnit(cUnitTypeNativeEmbassy, cMyID, cUnitStateAlive);
-   if (NativeEmbassy >= 0)
-   {
-      createSimpleResearchPlan(cTechConSupport,NativeEmbassy,cEconomyEscrowID, 80);
-      xsDisableSelf();
-	
-   }
-}
-
-
 //==============================================================================
 // rule age5Monitor
 /*
@@ -24215,6 +24142,82 @@ minInterval 30
    {
       planID = createSimpleBuildPlan(gHouseUnit, 1, 75, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 0);
       aiPlanAddUnitType(planID, cUnitTypeWagonBuildings, 1, 1, 1);
+   }
+}
+
+
+rule upgradetocivilization
+inactive
+minInterval 30
+{
+   if (kbTechGetStatus(cTechImpImmigrants) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+   int TownCenter = getUnit(cUnitTypeTownCenter, cMyID, cUnitStateAlive);
+   if (TownCenter >= 0)
+   {
+      createSimpleResearchPlan(cTechImpImmigrants,TownCenter,cEconomyEscrowID, 80);
+      xsDisableSelf();
+	
+   }
+}
+
+
+rule upgradetocivilizationnative
+inactive
+minInterval 30
+{
+   if (kbTechGetStatus(cTechImpImmigrantsNative) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+   int TownCenter = getUnit(cUnitTypeTownCenter, cMyID, cUnitStateAlive);
+   if (TownCenter >= 0)
+   {
+      createSimpleResearchPlan(cTechImpImmigrantsNative,TownCenter,cEconomyEscrowID, 80);
+      xsDisableSelf();
+	
+   }
+}
+
+
+rule upgradetocivilizationchinese
+inactive
+minInterval 30
+{
+   if (kbTechGetStatus(cTechImpImmigrantsAsian) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+   int TownCenter = getUnit(cUnitTypeTownCenter, cMyID, cUnitStateAlive);
+   if (TownCenter >= 0)
+   {
+      createSimpleResearchPlan(cTechImpImmigrantsAsian,TownCenter,cEconomyEscrowID, 80);
+      xsDisableSelf();
+	
+   }
+}
+
+
+rule upgradetoconfederacy
+inactive
+minInterval 30
+{
+   if (kbTechGetStatus(cTechConSupport) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+   int NativeEmbassy = getUnit(cUnitTypeNativeEmbassy, cMyID, cUnitStateAlive);
+   if (NativeEmbassy >= 0)
+   {
+      createSimpleResearchPlan(cTechConSupport,NativeEmbassy,cEconomyEscrowID, 80);
+      xsDisableSelf();
+	
    }
 }
 
