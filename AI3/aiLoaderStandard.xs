@@ -1,14 +1,15 @@
 //==============================================================================
 /* aiLoaderStandard.xs
    
-   Includes the main and header files for the Draugur AI by Felix Hermansson
+   Create a new loader file for each personality.  Always specify loader
+   file names (not the main or header files) in scenarios.
 */
 //==============================================================================
 
 
 
-include "aiDraugurHeader.xs";     // Gets global vars, function forward declarations
-include "aiDraugurMain.xs";       // The bulk of the Draugur AI
+include "aiHeader.xs";     // Gets global vars, function forward declarations
+include "aiMain.xs";       // The bulk of the AI
 
 
 

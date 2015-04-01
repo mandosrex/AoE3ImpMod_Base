@@ -1248,7 +1248,7 @@ extern const float   baselineHandicap = 1.0;    // This is the handicap given to
                                                 // meaning that hard has no handicap advantage or penalty.
                                                 // All other difficulty levels will be adjusted relative to this constant.  This means that
                                                 // we can gradually reduce this number as the AI's competence increases, and all the difficulty levels will respond.
-extern int           gMaxPop = 280;             // Absolute hard limit pop cap for game...will be set lower on some difficulty levels 
+extern int           gMaxPop = 200;             // Absolute hard limit pop cap for game...will be set lower on some difficulty levels 
 extern const int     cMaxSettlersPerPlantation = 10;
 
 // Start mode constants.
@@ -1400,7 +1400,7 @@ extern vector gNavyVec = cInvalidVector;  // The center of the navy's operations
 extern int  gPrimaryArmyUnit = -1;     // Main land unit type
 extern int  gSecndaryArmyUnit = -1;    // Secondary land unit type
 extern int  gTertiaryArmyUnit = -1;    // Tertiary land unit type
-extern int  gNumArmyUnitTypes = 6;    // How many land unit types do we want to train?
+extern int  gNumArmyUnitTypes = 3;    // How many land unit types do we want to train?
 
 extern int  gPrimaryNavyUnit = -1;     // Main water unit type
 extern int  gSecndaryNavyUnit = -1;    // Secondary water unit type
@@ -2938,112 +2938,57 @@ void setConsulateArmyPreference() {
     return;
   }
   if (kbTechGetStatus(cTechypBigConsulatePortuguese) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese1, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese2, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese3, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese1, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese3, 0.6);
   }
   
   if (kbTechGetStatus(cTechypBigConsulateDutch) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch1, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch2, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch3, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch1, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch3, 0.6);
   }
   
   if (kbTechGetStatus(cTechypBigConsulateRussians) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian1, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian2, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian3, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian1, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian3, 0.6);
   }
   
   if (kbTechGetStatus(cTechypBigConsulateSpanish) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish1, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish2, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish3, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish1, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish3, 0.6);
   }
   
   if (kbTechGetStatus(cTechypBigConsulateBritish) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish1, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish2, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish3, 0.5);      
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish1, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish3, 0.6);      
   }
   
   if (kbTechGetStatus(cTechypBigConsulateFrench) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench1, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench2, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench3, 0.5); 
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench1, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench3, 0.6); 
   }
   
   if (kbTechGetStatus(cTechypBigConsulateGermans) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman1, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman2, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman3, 0.5); 
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman1, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman3, 0.6); 
   }
   
   if (kbTechGetStatus(cTechypBigConsulateOttomans) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman1, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman2, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman3, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman1, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman3, 0.6);
   }
   if (kbTechGetStatus(cTechypBigConsulateJapanese) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSColonialMarines, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSRiflemenRegiment, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSSaberSquad, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSGatlingGuns, 0.5);
-  }
-  
-}
-
-
-void setCommandPostArmyPreference() {
-  if (kbUnitCount(cMyID, cUnitTypeSPCFortCenter, cUnitStateAlive) < 1) {
-    return;
-  }
-  if (kbTechGetStatus(cTechIndustrializePortuguese) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese11, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese22, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese33, 0.5);
-  }
-  
-  if (kbTechGetStatus(cTechIndustrializeDutch) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch11, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch22, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch33, 0.5);
-  }
-  
-  if (kbTechGetStatus(cTechIndustrializeRussian) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian11, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian22, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian33, 0.5);
-  }
-  
-  if (kbTechGetStatus(cTechIndustrializeSpanish) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish11, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish22, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish33, 0.5);
-  }
-  
-  if (kbTechGetStatus(cTechIndustrializeBritish) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish11, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish22, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish33, 0.5);      
-  }
-  
-  if (kbTechGetStatus(cTechIndustrializeFrench) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench11, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench22, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench33, 0.5); 
-  }
-  
-  if (kbTechGetStatus(cTechIndustrializeGerman) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman11, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman22, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman33, 0.5); 
-  }
-  
-  if (kbTechGetStatus(cTechIndustrializeOttoman) == cTechStatusActive) {
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman11, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman22, 0.5);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman33, 0.5);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSColonialMarines, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSRiflemenRegiment, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSSaberSquad, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSGatlingGuns, 0.6);
   }
   
 }
@@ -3143,8 +3088,8 @@ int createSimpleBuildPlan(int puid=-1, int number=1, int pri=100, bool economy=t
       // What to build
       aiPlanSetVariableInt(planID, cBuildPlanBuildingTypeID, 0, puid);
 
-      // 4 meter separation
-      aiPlanSetVariableFloat(planID, cBuildPlanBuildingBufferSpace, 0, 4.0);
+      // 3 meter separation
+      aiPlanSetVariableFloat(planID, cBuildPlanBuildingBufferSpace, 0, 3.0);
       if (puid == gFarmUnit)
          aiPlanSetVariableFloat(planID, cBuildPlanBuildingBufferSpace, 0, 8.0);       
       
@@ -3299,10 +3244,10 @@ int createLocationBuildPlan(int puid=-1, int number=1, int pri=100, bool economy
       aiPlanSetVariableInt(planID, cBuildPlanBuildingTypeID, 0, puid);
 
       aiPlanSetVariableVector(planID, cBuildPlanCenterPosition, 0, position);
-      aiPlanSetVariableFloat(planID, cBuildPlanCenterPositionDistance, 0, 40.0);
+      aiPlanSetVariableFloat(planID, cBuildPlanCenterPositionDistance, 0, 30.0);
       
-      // 4 meter separation
-      aiPlanSetVariableFloat(planID, cBuildPlanBuildingBufferSpace, 0, 4.0);
+      // 3 meter separation
+      aiPlanSetVariableFloat(planID, cBuildPlanBuildingBufferSpace, 0, 3.0);
       if (puid == gFarmUnit)
          aiPlanSetVariableFloat(planID, cBuildPlanBuildingBufferSpace, 0, 8.0);  
 
@@ -3320,7 +3265,7 @@ int createLocationBuildPlan(int puid=-1, int number=1, int pri=100, bool economy
 	aiPlanAddUnitType(planID, gEconUnit, numberBuilders, numberBuilders, numberBuilders);
       
       aiPlanSetVariableVector(planID, cBuildPlanInfluencePosition, 0, position);    // Influence toward position
-      aiPlanSetVariableFloat(planID, cBuildPlanInfluencePositionDistance, 0, 120.0);     // 100m range.
+      aiPlanSetVariableFloat(planID, cBuildPlanInfluencePositionDistance, 0, 100.0);     // 100m range.
       aiPlanSetVariableFloat(planID, cBuildPlanInfluencePositionValue, 0, 200.0);        // 200 points max
       aiPlanSetVariableInt(planID, cBuildPlanInfluencePositionFalloff, 0, cBPIFalloffLinear);  // Linear slope falloff
 
@@ -5670,7 +5615,7 @@ minInterval 10
    
    int attempt = 0;
    vector testVec = cInvalidVector;
-   float spacingDistance = 32.0; // Mid- and corner-spots on a square with 'radius' spacingDistance, i.e. each side is 2 * spacingDistance.
+   float spacingDistance = 22.0; // Mid- and corner-spots on a square with 'radius' spacingDistance, i.e. each side is 2 * spacingDistance.
    float exclusionRadius = spacingDistance / 2.0;
    float dx = spacingDistance;
    float dz = spacingDistance;
@@ -6015,7 +5960,7 @@ void deathMatchSetup(void)
    aiEcho("RUNNING DEATHMATCH SETUP");
    // 10 houses, pronto.
    if (cMyCiv != cCivXPSioux)
-      createSimpleBuildPlan(gHouseUnit, 15, 99, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+      createSimpleBuildPlan(gHouseUnit, 10, 99, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
    // 1 each of the main military buildings, ASAP.
    if ( (civIsNative() == false) && (civIsAsian() == false) )
    {
@@ -6067,7 +6012,7 @@ inactive
 minInterval 90
 {  // After 90 seconds, make 10 more houses
    if (cMyCiv != cCivXPSioux)
-      createSimpleBuildPlan(gHouseUnit, 15, 99, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+      createSimpleBuildPlan(gHouseUnit, 10, 99, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
    // 1 each of the main military buildings, ASAP.
    if ( (civIsNative() == false) && (civIsAsian() == false) )
    {
@@ -6188,8 +6133,8 @@ minInterval 30
          if (cvNumArmyUnitTypes >= 0)
             gNumArmyUnitTypes = cvNumArmyUnitTypes;
          else
-            gNumArmyUnitTypes = 6;
-         gLandUnitPicker = initUnitPicker("Land military units", gNumArmyUnitTypes, 1, 60, -1, -1, 1, true);
+            gNumArmyUnitTypes = 3;
+         gLandUnitPicker = initUnitPicker("Land military units", gNumArmyUnitTypes, 1, 30, -1, -1, 1, true);
          
          // now the goal
          // wmj -- hard coded for now, but this should most likely ramp up as the ages progress
@@ -6769,8 +6714,6 @@ minInterval 5
 
       xsEnableRule("stageCoachMonitor");
       xsEnableRule("healerMonitor");
-      xsEnableRule("upgradetobastion");
-      xsEnableRule("upgradetowagon");
 
       // Enable settler hitpoint and attack upgrades (research to be started about 3 minutes later)
       xsEnableRule("settlerUpgradeMonitor");
@@ -7192,7 +7135,7 @@ group tcComplete
 minInterval 29
 {
    int numberMills = kbUnitCount(cMyID, gFarmUnit, cUnitStateAlive);
-   const int cMaxSettlersPerHuntPlan = 20;
+   const int cMaxSettlersPerHuntPlan = 12;
    const int cMinSettlersPerHuntPlan = 3;    // Must be much less than Max/2 to avoid thrashing
    static int totalFoodPlans = 0;            // How many are currently requested?  Try to avoid thrashing this number
    int huntPlans = 0;
@@ -7415,7 +7358,7 @@ int initGatherGoal()
          aiSetResourceGathererPercentage(cResourceWood, 0.5, false, cRGPScript);    
          aiSetResourceGathererPercentage(cResourceFood, 0.3, false, cRGPScript);
       }
-      if ( (kbGetCiv() == cCivBritish) || (kbGetCiv() == cCivXPSPC) || (kbGetCiv() == cCivSPCAct3))
+      if ( (kbGetCiv() == cCivBritish) || (kbGetCiv() == cCivXPSPC) || (kbGetCiv() == cCivTheCircle)  || (kbGetCiv() == cCivSPCAct3))
       {  // Need extra wood
          aiSetResourceGathererPercentage(cResourceWood, 0.4, false, cRGPScript);    
          aiSetResourceGathererPercentage(cResourceFood, 0.6, false, cRGPScript);
@@ -7890,14 +7833,6 @@ void updateForecasts()
             }
          }
          
-
-         // Natives - one fire pit
-         if (civIsNative() == true)
-         {
-            if (kbUnitCount(cMyID, cUnitTypeFirePit, cUnitStateABQ) < 1)
-               addItemToForecasts(cUnitTypeFirePit, 1);
-         }
-
          // 3 houses, to overweight them and force early wood gathering
          if (cMyCiv != cCivXPSioux)
             addItemToForecasts(gHouseUnit, 3);
@@ -7972,7 +7907,7 @@ void updateForecasts()
          }
          // 3 houses, to overweight them and force early wood gathering
          if (cMyCiv != cCivXPSioux)
-            addItemToForecasts(gHouseUnit, 6);
+            addItemToForecasts(gHouseUnit, 3);
          
          // Ottoman - mosque and techs
          if (cMyCiv == cCivOttomans)
@@ -8073,7 +8008,7 @@ void updateForecasts()
             popSlots = kbGetPopSlots(cMyID, militaryUnit);
             if (popSlots < 1)
                popSlots = 1;
-            milQty = 25 / popSlots; 
+            milQty = 15 / popSlots; 
             addItemToForecasts(militaryUnit, milQty);
          }            
          else
@@ -8137,7 +8072,7 @@ void updateForecasts()
          
          // 3 houses
          if (cMyCiv != cCivXPSioux)
-            addItemToForecasts(gHouseUnit, 9);
+            addItemToForecasts(gHouseUnit, 3);
          
          // Ships and navy techs for water maps
          if (gNavyMode == cNavyModeActive)
@@ -8429,7 +8364,7 @@ void updateForecasts()
                popSlots = kbGetPopSlots(cMyID, militaryUnit);
                if (popSlots < 1)
                   popSlots = 1;
-               milQty = 25 / popSlots; 
+               milQty = 15 / popSlots; 
                addItemToForecasts(militaryUnit, milQty);
             }          
             else
@@ -8447,7 +8382,7 @@ void updateForecasts()
                   popSlots = kbGetPopSlots(cMyID, militaryUnit);
                   if (popSlots < 1)
                      popSlots = 1;
-                  milQty = 15 / popSlots; 
+                  milQty = 8 / popSlots; 
                   addItemToForecasts(militaryUnit, milQty);
                } 
             }
@@ -8504,7 +8439,7 @@ void updateForecasts()
          
          // 3 houses
          if (cMyCiv != cCivXPSioux)
-            addItemToForecasts(gHouseUnit, 12);
+            addItemToForecasts(gHouseUnit, 3);
 
          // Ships and navy techs for water maps
          if (gNavyMode == cNavyModeActive)
@@ -8899,7 +8834,7 @@ void updateForecasts()
                popSlots = kbGetPopSlots(cMyID, militaryUnit);
                if (popSlots < 1)
                   popSlots = 1;
-               milQty = 35 / popSlots; 
+               milQty = 20 / popSlots; 
                addItemToForecasts(militaryUnit, milQty);
             }         
             else
@@ -8917,7 +8852,7 @@ void updateForecasts()
                   popSlots = kbGetPopSlots(cMyID, militaryUnit);
                   if (popSlots < 1)
                      popSlots = 1;
-                  milQty = 20 / popSlots; 
+                  milQty = 10 / popSlots; 
                   addItemToForecasts(militaryUnit, milQty);
                } 
             }
@@ -8959,7 +8894,7 @@ void updateForecasts()
          }
          
          // 3 houses
-         addItemToForecasts(gHouseUnit, 15);   
+         addItemToForecasts(gHouseUnit, 3);   
                   
          // Ships for water maps
          if (gNavyMode == cNavyModeActive)
@@ -9152,7 +9087,7 @@ void updateForecasts()
                popSlots = kbGetPopSlots(cMyID, militaryUnit);
                if (popSlots < 1)
                   popSlots = 1;
-               milQty = 45 / popSlots; 
+               milQty = 30 / popSlots; 
                addItemToForecasts(militaryUnit, milQty);
             } 
             
@@ -9165,7 +9100,7 @@ void updateForecasts()
                   popSlots = kbGetPopSlots(cMyID, militaryUnit);
                   if (popSlots < 1)
                      popSlots = 1;
-                  milQty = 25 / popSlots; 
+                  milQty = 15 / popSlots; 
                   addItemToForecasts(militaryUnit, milQty);
                } 
             }   
@@ -9486,7 +9421,7 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractInfantry, 0.4);   // Range 0.0 to 1.0
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractArtillery, 0.4 );
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.4);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractNativeWarrior, 0.1);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractNativeWarrior, 0.2);
          if (cMyCiv == cCivXPAztec)
             kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.4);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);    // Avoid coureurs, they mess up econ/mil calcs.
@@ -9527,7 +9462,7 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.4);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractNativeWarrior, 0.2);
          if (cMyCiv == cCivXPAztec)
-            kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.0);
+            kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.4);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);    // Avoid coureurs, they mess up econ/mil calcs.  
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpWarrior, 0.0);    // Never pick xpWarrior or xpDogSoldier, available via dance only
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
@@ -9567,7 +9502,7 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.4);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractNativeWarrior, 0.2);
          if (cMyCiv == cCivXPAztec)
-            kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.0);
+            kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.4);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);    // Avoid coureurs, they mess up econ/mil calcs.  
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpWarrior, 0.0);    // Never pick xpWarrior or xpDogSoldier, available via dance only
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
@@ -9658,13 +9593,13 @@ void setUnitPickerPreference(int upID = -1)
 
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpRam, 0.0);   // Avoid units the AI cannot handle properly
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.0);
 
       if ( (kbGetCiv() == cCivChinese) || (kbGetCiv() == cCivSPCChinese) ) 
       {
@@ -9702,12 +9637,6 @@ void setUnitPickerPreference(int upID = -1)
       { 
          // Set preferences for consulate units
          setConsulateArmyPreference();
-      }
-
-      if (civIsAsian() == false)
-      { 
-         // Set preferences for command post units
-         setCommandPostArmyPreference();
       }
 
       if (civIsNative() == true)
@@ -10161,7 +10090,7 @@ minInterval 13
 }*/
 
 
-void setMilPopLimit(int age1=20, int age2=80, int age3=120, int age4=160, int age5=200)
+void setMilPopLimit(int age1=10, int age2=40, int age3=80, int age4=120, int age5=140)
 {
    int limit = 10;
    int age = kbGetAge();
@@ -10219,7 +10148,7 @@ minInterval 15
 {
    float difficulty = aiGetWorldDifficulty();
    int intDifficulty = difficulty;
-   int cvPopLimit = 280;      // Used to calculate implied total pop limit based on civ, army and navy components.
+   int cvPopLimit = 200;      // Used to calculate implied total pop limit based on civ, army and navy components.
    
    if ( (cvMaxCivPop >= 0) && (cvMaxArmyPop >= 0) && (cvMaxNavyPop >= 0) )    // All three are defined, so set a hard total
       cvPopLimit = cvMaxCivPop + cvMaxArmyPop + cvMaxNavyPop;
@@ -10230,10 +10159,10 @@ minInterval 15
    {
 		case cDifficultySandbox: // Sandbox
 		{  // Typically 20 econ, 20 mil
-			gMaxPop = 60 + (40 * (difficulty - intDifficulty));     // Interpolate between integers
+			gMaxPop = 40 + (30 * (difficulty - intDifficulty));     // Interpolate between integers
          if (gMaxPop > cvPopLimit)
             gMaxPop = cvPopLimit;
-         aiSetEconomyPop(30);
+         aiSetEconomyPop(20);
          if ( (aiGetEconomyPop() > cvMaxCivPop) && (cvMaxCivPop >= 0) )
             aiSetEconomyPop(cvMaxCivPop);
          maxMil = gMaxPop - aiGetEconomyPop();
@@ -10242,14 +10171,14 @@ minInterval 15
 		}
 		case cDifficultyEasy: // Easiest
 		{  // Typically 35 econ, 35 mil.
-			gMaxPop = 90 + (60 * (difficulty - intDifficulty));      // 70 at easy up to 120 at moderate
+			gMaxPop = 70 + (50 * (difficulty - intDifficulty));      // 70 at easy up to 120 at moderate
          if (gMaxPop > cvPopLimit)
             gMaxPop = cvPopLimit;
-         aiSetEconomyPop(45);
+         aiSetEconomyPop(35);
          if (gSPC == true)
          {
-            aiSetEconomyPop(35);
-            gMaxPop = 75;
+            aiSetEconomyPop(25);
+            gMaxPop = 55;
          }
          if ( (aiGetEconomyPop() > cvMaxCivPop) && (cvMaxCivPop >= 0) )
             aiSetEconomyPop(cvMaxCivPop);
@@ -10259,14 +10188,14 @@ minInterval 15
 		}
 		case cDifficultyModerate: // Moderate
 		{  // Typically 60 econ, 60 mil
-			gMaxPop = 140 + (90 * (difficulty - intDifficulty));      // 120 at moderate up to 200 at hard
+			gMaxPop = 120 + (80 * (difficulty - intDifficulty));      // 120 at moderate up to 200 at hard
          if (gMaxPop > cvPopLimit)
             gMaxPop = cvPopLimit;
-         aiSetEconomyPop(70);
+         aiSetEconomyPop(60);
          if (gSPC == true)
          {
-            aiSetEconomyPop(55);
-            gMaxPop = 125;
+            aiSetEconomyPop(45);
+            gMaxPop = 105;
          }
          if ( (aiGetEconomyPop() > cvMaxCivPop) && (cvMaxCivPop >= 0) )
             aiSetEconomyPop(cvMaxCivPop);
@@ -10276,14 +10205,14 @@ minInterval 15
 		}
 		case cDifficultyHard: // Hard
 		{  // Typically 80 econ, 120 mil.
-         gMaxPop = 280;
+         gMaxPop = 200;
          if (gMaxPop > cvPopLimit)
             gMaxPop = cvPopLimit;
-         aiSetEconomyPop(100 - (10 * (difficulty -  intDifficulty)));    // 80 at hard, down to 70 at hardest
+         aiSetEconomyPop(80 - (10 * (difficulty -  intDifficulty)));    // 80 at hard, down to 70 at hardest
          if (gSPC == true)
          {
-            aiSetEconomyPop(75);
-            gMaxPop = 205;
+            aiSetEconomyPop(65);
+            gMaxPop = 185;
          }
          if ( (aiGetEconomyPop() > cvMaxCivPop) && (cvMaxCivPop >= 0) )
             aiSetEconomyPop(cvMaxCivPop);
@@ -10293,10 +10222,10 @@ minInterval 15
 		}
 		case cDifficultyExpert: // Expert
 		{  // Typically 70 econ, 130 mil.
-         gMaxPop = 280;
+         gMaxPop = 200;
          if (gMaxPop > cvPopLimit)
             gMaxPop = cvPopLimit;
-         aiSetEconomyPop(80);
+         aiSetEconomyPop(70);
          if ( (aiGetEconomyPop() > cvMaxCivPop) && (cvMaxCivPop >= 0) )
             aiSetEconomyPop(cvMaxCivPop);
          maxMil = gMaxPop - aiGetEconomyPop();
@@ -10967,6 +10896,15 @@ minInterval 3
    if ( (kbGetCiv() == cCivDutch) && (kbUnitCount(cMyID, cUnitTypeBank, cUnitStateABQ) < 1) )
       return;
 
+   // Mosque construction for Ottomans is handled in ottomanMonitor rule, do not build mosques here
+   // Construction of monastery and consulate for Asians is handled in monasteryMonitor and consulateMonitor rules
+
+   // That's it for age 1
+   if (kbGetAge() < cAge2) 
+      return;
+   // ***************************************************
+
+
    // If native, at least one fire pit   
    planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeFirePit);
    
@@ -10986,17 +10924,6 @@ minInterval 3
          }   
       }
    }
-
-
-   // Mosque construction for Ottomans is handled in ottomanMonitor rule, do not build mosques here
-   // Construction of monastery and consulate for Asians is handled in monasteryMonitor and consulateMonitor rules
-
-   // That's it for age 1
-   if (kbGetAge() < cAge2) 
-      return;
-   // ***************************************************
-   
-
 
    // At least one market
    planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, gMarketUnit);
@@ -11378,7 +11305,6 @@ minInterval 3
       }   
    }
 
-
 }
 
 
@@ -11546,13 +11472,13 @@ minInterval 20
    // Make sure no more than 25 units are assigned in total
    int want = -1;
    want = kbUnitCount(cMyID, gEconUnit, cUnitStateAlive) / 5;
-   if ((want*2 + numWarPriests) <= 20)
+   if ((want*2 + numWarPriests) <= 25)
    {
       aiPlanAddUnitType(gNativeDancePlan, gEconUnit, want/2, want, want*2);
    }
    else
    {
-      aiPlanAddUnitType(gNativeDancePlan, gEconUnit, want/2, want, (20-numWarPriests));
+      aiPlanAddUnitType(gNativeDancePlan, gEconUnit, want/2, want, (25-numWarPriests));
    }
    
    // Select a tactic 
@@ -14510,13 +14436,13 @@ minInterval 10
    
    int count = kbUnitCount(cMyID, cUnitTypeTownCenter, cUnitStateABQ);
    int plan = -1;
-   if (count < 2)
+   if (count < 1)
       plan = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeTownCenter, true);
 
-   if ((count > 1) || (plan >= 1))
+   if ((count > 0) || (plan >= 0))
       return;     // We have a TC or a TC build plan, no more work to do.
 
-   if ((count == 1) && (plan >= 1))
+   if ((count == 0) && (plan >= 0))
       aiPlanDestroy(plan);  // Destroy old plan to keep it from blocking the rule
 
    aiEcho("Starting a new TC build plan.");
