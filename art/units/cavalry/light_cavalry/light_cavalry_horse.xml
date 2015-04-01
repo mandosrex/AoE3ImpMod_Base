@@ -96,6 +96,20 @@
 					</lowpoly>
 				</logic>
 			</RGRoyalHussar>
+			<RGGardener>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\light_cavalry\light_cavalry_age4_horse</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\cavalry\light_cavalry\lp_light_cavalry_age4_horse</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</RGGardener>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>

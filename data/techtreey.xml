@@ -11656,8 +11656,8 @@
 	<Tech name="GuardSpahi" type="Normal">
 		<DBID>94</DBID>
 		<DisplayNameID>77881</DisplayNameID>
-		<Cost resourcetype="Wood">1000.0000</Cost>
-		<Cost resourcetype="Gold">1000.0000</Cost>
+		<Cost resourcetype="Wood">600.0000</Cost>
+		<Cost resourcetype="Gold">600.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
@@ -16691,6 +16691,9 @@
 			<Effect type="Data" amount="5.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCAdmirality" type="Normal">
@@ -17244,9 +17247,6 @@
 			<Effect type="TechStatus" status="active">Industrialize</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CoveredWagon" relativity="Absolute">
 				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="TechStatus" status="active">Crackshot</Effect>
 			<Effect type="TextOutput">780790</Effect>
@@ -18706,6 +18706,9 @@
 			<Effect type="Data" amount="5.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperialManOWar" type="Normal">
@@ -18767,10 +18770,10 @@
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionWashington</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionLouverture</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
 			<Effect type="TextOutput">780790</Effect>
@@ -21113,10 +21116,10 @@
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
 			<Effect type="TechStatus" status="active">Colonialize</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
 		</Effects>
@@ -21128,10 +21131,10 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
 		</Effects>
@@ -21146,7 +21149,7 @@
 			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
 			<Effect type="TechStatus" status="active">Crackshot</Effect>
@@ -21264,7 +21267,7 @@
 			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="GeneralBr" relativity="Absolute">
@@ -21419,7 +21422,7 @@
 			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
 			</Effect>
 		</Effects>
@@ -46053,6 +46056,12 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="WagonTradePost" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="7.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">TradingPost</Target>
+			</Effect>
+			<Effect type="Data" amount="7.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">ypTradingPostCapture</Target>
 			</Effect>
 		</Effects>
 	</Tech>

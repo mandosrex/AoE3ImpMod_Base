@@ -22,7 +22,7 @@
 				<assetreference type="GrannyModel">
 					<file>buildings\trading_post\pump2</file>
 				</assetreference>
-			<attach a="pumpkin1" frombone="ATTACHPOINT" tobone="Bone_fruit11" syncanims="0"/>
+			<attach a="pumpkin1" frombone="ATTACHPOINT" tobone="Bone_fruit5" syncanims="0"/>
 		</component>
 		<anim>
 			Idle
