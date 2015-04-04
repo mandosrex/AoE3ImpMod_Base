@@ -1725,7 +1725,7 @@
 		<String _locID="23627">Seminole warrior attack and hitpoints increased.</String>
 		<String _locID="23630" symbol="cStringNativeDialogTitle">Native Americans</String>
 		<String _locID="23631" symbol="cStringNativeDialogClose">Close the Native Americans Summary</String>
-		<String _locID="23633">Russian combination of Barracks and Outpost. Can defend the frontier or train infantry in groups.  Also provides 5 population.</String>
+		<String _locID="23633">Russian combination of Barracks and Outpost. Can train infantry and cavalry in groups.</String>
 		<String _locID="23634">Blockhouse</String>
 		<String _locID="23635" symbol="cStringUndiscovered">No contact</String>
 		<String _locID="23636" symbol="cStringNativeAllyCost" comment="1 - native name, 2 - cost">An alliance with the %1s village will cost you %2s.</String>
@@ -12428,7 +12428,7 @@
 		<String _locID="42010" symbol="cStringChangeCostEffect">%1s: Changes %2s cost by %3.2f%%</String>
 		<String _locID="42011" symbol="cStringAddCostEffect">%1s: Adds %2.2f to %3s cost</String>
 		<String _locID="42012" symbol="cStringSetCostEffect">%1s: Sets %2s cost to %3.2f</String>
-		<String _locID="42013">Builds and upgrades Fishing Boats and warships. Repairs nearby ships.</String>
+		<String _locID="42013">Builds and upgrades Fishing Boats and warships. Supports 5 population and repairs nearby ships.</String>
 		<String _locID="42014" symbol="cStringESOClanSubmitMsg">Add a Message to the Clan Message Board</String>
 		<String _locID="42015" symbol="cStringESOClanInvite">Send an invite to the specified user</String>
 		<String _locID="42016" symbol="cStringESOClanDestroy">Remove all members and destroy the Clan</String>
@@ -19824,7 +19824,7 @@
 		<String _locID="60376">Barracks</String>
 		<String _locID="60377">Barracks Indian</String>
 		<String _locID="60378">Naval building</String>
-		<String _locID="60379">Builds and upgrades Fishing Boats and warships. Repairs nearby ships.</String>
+		<String _locID="60379">Builds and upgrades Fishing Boats and warships. Supports 5 population and repairs nearby ships.</String>
 		<String _locID="60380">Dock</String>
 		<String _locID="60381">Dock Asian</String>
 		<String _locID="60382">Livestock building</String>

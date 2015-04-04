@@ -9,7 +9,7 @@
 		<anim>RangedAttack</anim>
 		<maxheight>0</maxheight>
 		<accuracy>1.0</accuracy>
-		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<maxspread>5</maxspread>
 		<spreadfactor>0.25</spreadfactor>
@@ -28,7 +28,6 @@
 		<anim>RangedAttackShip</anim>
 		<maxheight>0</maxheight>
 		<accuracy>1.0</accuracy>
-		<accuracyreductionfactor>0.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<maxspread>5</maxspread>
 		<spreadfactor>0.25</spreadfactor>
@@ -37,9 +36,14 @@
 		<projectile>Cannonball</projectile>
 		<impacteffect>effects\impacts\cannon</impacteffect>
 		<rate type="Unit">1.0 </rate>
+		<active>0</active>
+		<throw>1</throw>
 		<outerdamageareadistance>.25</outerdamageareadistance>
 		<outerdamageareafactor>.20</outerdamageareafactor>
-		<active>0</active>
+		<areasortmode>Directional</areasortmode>
+		<perfectaccuracy>0</perfectaccuracy>
+		<targetground>1</targetground>
+		<numberbounces>1</numberbounces>
 		<basedamagecap>1</basedamagecap>
 	</action>
 	<action>
@@ -50,7 +54,7 @@
 		<anim>RangedAttackShip</anim>
 		<maxheight>0</maxheight>
 		<accuracy>1.0</accuracy>
-		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<maxspread>5</maxspread>
 		<spreadfactor>0.25</spreadfactor>
@@ -69,7 +73,7 @@
 		<anim>RangedAttackShip</anim>
 		<maxheight>0</maxheight>
 		<accuracy>1.0</accuracy>
-		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<maxspread>5</maxspread>
 		<spreadfactor>0.25</spreadfactor>

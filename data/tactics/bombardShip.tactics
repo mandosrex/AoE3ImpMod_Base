@@ -12,7 +12,7 @@
 		<numberprojectiles>1</numberprojectiles>
 		<impacteffect>effects\impacts\mortar</impacteffect>
 		<accuracy>1.0</accuracy>
-		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
 		<aimbonus>5</aimbonus>
 		<throw>1</throw>
 		<rate type="All">1.0 </rate>

@@ -461,6 +461,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="obtainable">ImperialPavlovs</Effect>
+			<Effect type="TechStatus" status="obtainable">RGPavlovGrenadiers</Effect>
+			<Effect type="TechStatus" status="obtainable">VeteranGrenadiers</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Grenadier</Target>
+			</Effect>
 			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
@@ -487,20 +493,11 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Envoy</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Axeman</Target>
-			</Effect>
-			<Effect type="TechStatus" status="obtainable">VeteranPoleaxemen</Effect>
-			<Effect type="TechStatus" status="obtainable">GuardPoleaxemen</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialPoleaxemen</Effect>
 			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
 				<Target type="ProtoUnit">ArtilleryDepot</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCTent</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">Civilization</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -554,12 +551,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ArtilleryDepot</Target>
-			</Effect>
-			<Effect type="Data" amount="2.12" subtype="TrainPoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Settler</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Stable</Target>
 			</Effect>
 			<Effect type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="BasePercent">
 				<Target type="ProtoUnit">Strelet</Target>
@@ -730,6 +721,15 @@
 			</Effect>
 			<Effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Axeman</Target>
+			</Effect>
+			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Cossack</Target>
+			</Effect>
+			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Oprichnik</Target>
+			</Effect>
+			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">CavalryArcher</Target>
 			</Effect>
 		</Effects>
 	</Tech>

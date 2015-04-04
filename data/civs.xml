@@ -1028,11 +1028,6 @@
 			<rate>-2.0</rate>
 		</unitregen>
 		<blocktrain>
-			<building>TownCenter</building>
-			<unit>Settler</unit>
-			<count>3</count>
-		</blocktrain>
-		<blocktrain>
 			<building>Blockhouse</building>
 			<unit>Axeman</unit>
 			<count>5</count>
@@ -1051,6 +1046,51 @@
 			<building>Blockhouse</building>
 			<unit>Musketeer</unit>
 			<count>5</count>
+		</blocktrain>
+		<blocktrain>
+			<building>Blockhouse</building>
+			<unit>Oprichnik</unit>
+			<count>2</count>
+		</blocktrain>
+		<blocktrain>
+			<building>Blockhouse</building>
+			<unit>CavalryArcher</unit>
+			<count>2</count>
+		</blocktrain>
+		<blocktrain>
+			<building>Blockhouse</building>
+			<unit>Cossack</unit>
+			<count>3</count>
+		</blocktrain>
+		<blocktrain>
+			<building>Galleon</building>
+			<unit>Strelet</unit>
+			<count>10</count>
+		</blocktrain>
+		<blocktrain>
+			<building>Galleon</building>
+			<unit>Halberdier</unit>
+			<count>4</count>
+		</blocktrain>
+		<blocktrain>
+			<building>Galleon</building>
+			<unit>Musketeer</unit>
+			<count>5</count>
+		</blocktrain>
+		<blocktrain>
+			<building>Galleon</building>
+			<unit>Oprichnik</unit>
+			<count>2</count>
+		</blocktrain>
+		<blocktrain>
+			<building>Galleon</building>
+			<unit>CavalryArcher</unit>
+			<count>2</count>
+		</blocktrain>
+		<blocktrain>
+			<building>Galleon</building>
+			<unit>Cossack</unit>
+			<count>3</count>
 		</blocktrain>
 		<unitregen>
 			<unittype>AbstractWall</unittype>

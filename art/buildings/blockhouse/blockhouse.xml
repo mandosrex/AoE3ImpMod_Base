@@ -102,7 +102,7 @@
 		</attachment>
 		<attachment>
 			flag
-			<include>buildings\blockhouse\flag.xml</include>
+			<include>buildings\blockhouse\pump2.xml</include>
 		</attachment>
 		<component>
 			lvl1
@@ -159,7 +159,6 @@
 				<width>8.00</width>
 				<height>8.00</height>
 			</decal>
-			<attach a="flag" frombone="ATACHPOINT" tobone="ATACHPOINT" syncanims="0"/>
 		</component>
 		<anim>
 			Idle
@@ -263,7 +262,7 @@
 		</attachment>
 		<attachment>
 			flag
-			<include>buildings\blockhouse\flag.xml</include>
+			<include>buildings\blockhouse\pump2.xml</include>
 		</attachment>
 		<component>
 			lvl2
@@ -320,7 +319,6 @@
 				<width>8.00</width>
 				<height>8.00</height>
 			</decal>
-			<attach a="flag" frombone="ATACHPOINT" tobone="ATACHPOINT" syncanims="0"/>
 		</component>
 		<anim>
 			Idle
@@ -424,7 +422,7 @@
 		</attachment>
 		<attachment>
 			flag
-			<include>buildings\blockhouse\flag.xml</include>
+			<include>buildings\blockhouse\pump2.xml</include>
 		</attachment>
 		<component>
 			lvl3
@@ -483,7 +481,6 @@
 				<height>8.25</height>
 				<zoffset>0.50</zoffset>
 			</decal>
-			<attach a="flag" frombone="ATACHPOINT" tobone="ATACHPOINT" syncanims="0"/>
 		</component>
 		<anim>
 			Idle

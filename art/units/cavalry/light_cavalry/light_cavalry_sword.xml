@@ -34,6 +34,11 @@
 					<file>units\cavalry\light_cavalry\light_cavalry_sword_age03</file>
 				</assetreference>
 			</imperialRoyalHussar>
+			<RGGardener>
+				<assetreference type="GrannyModel">
+					<file>units\cavalry\light_cavalry\light_cavalry_sword_age03</file>
+				</assetreference>
+			</RGGardener>
 		</logic>
 	</component>
 	<anim>
