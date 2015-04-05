@@ -2024,4 +2024,19 @@
 	<soundset name="CooperRansom" volume="0.7000" maxnum="1" distance="1.0000">
 		<sound filename="CooperRansom.mp3" volume="1.0000"/>
 	</soundset>
+	<soundset name="AxemanAttack" volume="0.6000" maxnum="4" distance="1.0000">
+		<sound filename="AxemanAttack1.wav" volume="1.0000"/>
+		<sound filename="AxemanAttack2.wav" volume="1.0000"/>
+		<sound filename="AxemanAttack3.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="AxemanSelect" volume="0.6000" maxnum="4" distance="1.0000">
+		<sound filename="AxemanSelect1.wav" volume="1.0000"/>
+		<sound filename="AxemanSelect2.wav" volume="1.0000"/>
+		<sound filename="AxemanSelect3.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="AxemanAcknowledge" volume="0.6000" maxnum="4" distance="1.0000">
+		<sound filename="AxemanMove1.wav" volume="1.0000"/>
+		<sound filename="AxemanMove2.wav" volume="1.0000"/>
+		<sound filename="AxemanMove3.wav" volume="1.0000"/>
+	</soundset>
 </soundsetdef>

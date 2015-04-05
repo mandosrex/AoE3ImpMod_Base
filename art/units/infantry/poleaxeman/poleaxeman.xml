@@ -21,6 +21,15 @@
 		<component>
 			hat
 			<logic type="Tech">
+				<none>
+					<assetreference type="GrannyModel">
+						<file>units\infantry_ranged\longbow\longbow_3age_hat</file>
+						<replacetexture>
+							<from>units\infantry_ranged\longbow\longbow_3age</from>
+							<to>units\infantry\poleaxeman\poleaxeman_4age_hat</to>
+						</replacetexture>
+					</assetreference>
+				</none>
 				<veteranpoleaxemen>
 					<assetreference type="GrannyModel">
 						<file>units\infantry_ranged\longbow\longbow_3age_hat</file>
@@ -53,6 +62,15 @@
 			<logic type="Tech">
 				<none>
 					<assetreference type="GrannyModel">
+						<file>units\infantry\redolero\redolero_sheild3</file>
+						<replacetexture>
+							<from>units\infantry\redolero\redolero_4age</from>
+							<to>units\infantry\poleaxeman\poleaxeman_4age_shield</to>
+						</replacetexture>
+					</assetreference>
+				</none>
+				<starting>
+					<assetreference type="GrannyModel">
 						<file>units\natives\attachment_eagle_shield</file>
 						<replacetexture>
 							<from>units\natives\eagle_warrior</from>
@@ -63,7 +81,7 @@
 							<to>units\infantry\poleaxeman\poleaxeman_2age_shield_b</to>
 						</replacetexture>
 					</assetreference>
-				</none>
+				</starting>
 				<veteranpoleaxemen>
 					<assetreference type="GrannyModel">
 						<file>units\infantry\redolero\redolero_sheild3</file>
@@ -92,7 +110,22 @@
 	<component>
 		ModelComp
 		<logic type="Tech">
-			<none>
+			<guardpoleaxemen>
+						<assetreference type="GrannyModel">
+							<file>units\infantry_ranged\grenadier\grenadier_age2</file>
+							<replacetexture>
+								<from>units\infantry_ranged\grenadier\grenadier_age2</from>
+								<to>units\infantry\poleaxeman\poleaxeman_4age</to>
+							</replacetexture>
+							<replacetexture>
+								<from>units\infantry_ranged\grenadier\grenadier_age2_b</from>
+								<to>units\infantry\poleaxeman\poleaxeman_4age_b</to>
+							</replacetexture>
+						</assetreference>
+						<attach a="attachment_shield" frombone="bone_shield" tobone="Bip01 L ForeArm" syncanims="0"/>
+						<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+			</guardpoleaxemen>
+			<starting>
 						<assetreference type="GrannyModel">
 							<file>units\infantry\redolero\redolero_2age</file>
 							<replacetexture>
@@ -105,7 +138,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="attachment_shield" frombone="bone_shield" tobone="Bip01 L ForeArm" syncanims="0"/>
-			</none>
+			</starting>
 			<veteranpoleaxemen>
 						<assetreference type="GrannyModel">
 							<file>units\infantry_ranged\grenadier\grenadier_age2</file>

@@ -11,7 +11,7 @@
 		<idleanim>Bombard_ranged_idle</idleanim>
 		<boredanim>Bombard_bored</boredanim>
 		<accuracy>1.0</accuracy>
-		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
 		<aimbonus>0</aimbonus>
 		<maxspread>5</maxspread>
 		<spreadfactor>0.25</spreadfactor>
@@ -57,7 +57,7 @@
 	</tactic>
 	<tactic>
 		Bombard
-		<speedmodifier>0.0</speedmodifier>
+		<speedmodifier>0.2</speedmodifier>
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<exclusive>1</exclusive>

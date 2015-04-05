@@ -707,28 +707,13 @@
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">ShipHowitzers</Effect>
-			<Effect type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="BasePercent">
-				<Target type="ProtoUnit">Axeman</Target>
-			</Effect>
-			<Effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="BasePercent">
-				<Target type="ProtoUnit">Axeman</Target>
-			</Effect>
-			<Effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Axeman</Target>
-			</Effect>
-			<Effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Axeman</Target>
-			</Effect>
-			<Effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">Axeman</Target>
-			</Effect>
-			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Cossack</Target>
 			</Effect>
-			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Oprichnik</Target>
 			</Effect>
-			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">CavalryArcher</Target>
 			</Effect>
 		</Effects>
@@ -16664,9 +16649,6 @@
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateSiegeFortress</Target>
 			</Effect>
-			<Effect type="Data" amount="60.00" subtype="PopulationCapExtra" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">LifespanUnit</Target>
 			</Effect>
@@ -16829,9 +16811,6 @@
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="50.00" subtype="Resource" resource="Fame" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="PopulationCapExtra" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
@@ -18675,9 +18654,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateSiegeIndustrial</Target>
-			</Effect>
-			<Effect type="Data" amount="100.00" subtype="PopulationCapExtra" relativity="Absolute">
-				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">LifespanUnit</Target>
@@ -21232,9 +21208,6 @@
 				<Target type="ProtoUnit">LifespanUnit</Target>
 			</Effect>
 			<Effect type="Data" amount="50.00" subtype="Resource" resource="Fame" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="40.00" subtype="PopulationCapExtra" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
@@ -25293,9 +25266,6 @@
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Dopplesoldner</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">Axeman</Target>
-			</Effect>
 			<Effect type="TextOutput">41852</Effect>
 			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
 				<Target type="Player"/>
@@ -25314,9 +25284,6 @@
 		<Effects>
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Dopplesoldner</Target>
-			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Axeman</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Pikeman</Target>
@@ -25342,12 +25309,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Dopplesoldner</Target>
-			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Axeman</Target>
-			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">Axeman</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Pikeman</Target>
@@ -25743,12 +25704,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Strelet</Target>
-			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">Axeman</Target>
-			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Axeman</Target>
 			</Effect>
 			<Effect type="TextOutput">41931</Effect>
 		</Effects>
@@ -42746,6 +42701,22 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypRepentantJaeger</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="SaloonAxeman" type="Normal">
+		<DBID>3295</DBID>
+		<DisplayNameID>78010</DisplayNameID>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\mercenaries\jaeger\hessian_jaeger_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Colonialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Axeman</Target>
 			</Effect>
 		</Effects>
 	</Tech>
