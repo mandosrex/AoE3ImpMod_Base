@@ -88,8 +88,6 @@
 		Walk
 		<assetreference type="GrannyAnim">
 			<file>units\asians\naval\catamaran\catamaran_walk00</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="SplashSmall">0.27</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="SplashSmall">0.76</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<simskeleton>

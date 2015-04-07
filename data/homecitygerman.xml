@@ -1466,15 +1466,13 @@
 		<displaynamestringid>24965</displaynamestringid>
 		<rolloverstringid>25533</rolloverstringid>
 		<obtainabletechs>
-			<tech x="0.0" y="1.0">HCShipAxemen</tech>
-			<tech x="0.0" y="2.0">HCShipAxemen2</tech>
-			<tech x="0.0" y="3.0">HCShipCrossbowmen2German</tech>
-			<tech x="0.0" y="4.0">HCShipCrossbowmen3German</tech>
-			<tech x="0.0" y="5.0">HCRangedInfantryHitpointsGerman</tech>
-			<tech x="1.0" y="1.0">HCShipSkirmishers1German</tech>
-			<tech x="1.0" y="2.0">HCShipSkirmishers2German</tech>
-			<tech x="1.0" y="3.0">HCShipSkirmishers3German</tech>
-			<tech x="1.0" y="4.0">HCShipSkirmishers4German</tech>
+			<tech x="1.0" y="1.0">HCShipCrossbowmen2German</tech>
+			<tech x="1.0" y="2.0">HCShipCrossbowmen3German</tech>
+			<tech x="1.0" y="3.0">HCRangedInfantryHitpointsGerman</tech>
+			<tech x="0.0" y="1.0">HCShipSkirmishers1German</tech>
+			<tech x="0.0" y="2.0">HCShipSkirmishers2German</tech>
+			<tech x="0.0" y="3.0">HCShipSkirmishers3German</tech>
+			<tech x="0.0" y="4.0">HCShipSkirmishers4German</tech>
 			<tech x="1.0" y="5.0">HCXPSolingenSteel</tech>
 			<tech x="2.3" y="1.0">HCShipDopplesoldners1</tech>
 			<tech x="2.3" y="2.0">HCShipDopplesoldners2</tech>

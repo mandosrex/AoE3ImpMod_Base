@@ -395,8 +395,8 @@
 		<card>
 			<name>HCStreletsCombatRussian</name>
 			<maxcount>1</maxcount>
-			<level>10</level>
-			<prereqtech>HCShipAxemenR2</prereqtech>
+			<level>25</level>
+			<prereqtech>HCSpawnStrelet</prereqtech>
 			<age>2</age>
 		</card>
 		<card>
@@ -1456,36 +1456,38 @@
 		<displaynamestringid>24965</displaynamestringid>
 		<rolloverstringid>25533</rolloverstringid>
 		<obtainabletechs>
-			<tech x="1.5" y="1.0">HCShipAxemenR</tech>
-			<tech x="1.5" y="2.0">HCShipAxemenR2</tech>
-			<tech x="1.5" y="4.0">HCStreletsCombatRussian</tech>
+			<tech x="0.2" y="6.0">HCStreletsCombatRussian</tech>
 			<tech x="0.7" y="1.0">HCShipStrelets1</tech>
 			<tech x="0.7" y="2.0">HCShipStrelets2</tech>
 			<tech x="0.7" y="3.0">HCShipStrelets3</tech>
 			<tech x="0.7" y="4.0">HCShipStrelets4</tech>
 			<tech x="0.7" y="5.0">HCSpawnStrelet</tech>
 			<tech x="0.7" y="7.0">HCXPSuvorovReforms</tech>
-			<tech x="2.6" y="1.0">HCShipHalberdiersRussian1</tech>
-			<tech x="2.6" y="2.0">HCShipHalberdiersRussian2</tech>
-			<tech x="2.6" y="3.0">HCShipHalberdiersRussian3</tech>
-			<tech x="2.6" y="5.0">HCRansack</tech>
-			<tech x="3.3" y="1.0">HCShipMusketeersRussian2</tech>
-			<tech x="3.3" y="2.0">HCShipMusketeersRussian3</tech>
-			<tech x="4.3" y="1.0">HCShipCossacks1</tech>
-			<tech x="4.3" y="2.0">HCShipCossacks2</tech>
-			<tech x="3.7" y="3.0">HCShipCossacks3</tech>
-			<tech x="3.3" y="4.0">HCShipCossacks4</tech>
-			<tech x="3.3" y="5.0">HCUniqueCombatRussian</tech>
-			<tech x="5.0" y="1.0">HCShipCavArchers1</tech>
-			<tech x="5.0" y="2.0">HCShipCavArchers2</tech>
-			<tech x="5.0" y="3.0">HCShipCavArchers3</tech>
-			<tech x="4.3" y="4.0">HCXPShipCavArchersRepeat</tech>
-			<tech x="5.0" y="4.0">HCCavalryCombatRussian</tech>
-			<tech x="5.7" y="1.0">HCCavalryLOSTeam</tech>
-			<tech x="5.7" y="2.0">HCShipOprichniks1</tech>
-			<tech x="5.7" y="3.0">HCShipOprichniks2</tech>
-			<tech x="5.7" y="4.0">HCShipOprichniks3</tech>
-			<tech x="5.7" y="7.0">HCXPShipOprichniks4</tech>
+			<tech x="1.8" y="1.0">HCShipHalberdiersRussian1</tech>
+			<tech x="1.8" y="2.0">HCShipHalberdiersRussian2</tech>
+			<tech x="1.8" y="3.0">HCShipHalberdiersRussian3</tech>
+			<tech x="1.8" y="5.0">HCRansack</tech>
+			<tech x="2.5" y="1.0">HCShipMusketeersRussian2</tech>
+			<tech x="2.5" y="2.0">HCShipMusketeersRussian3</tech>
+			<tech x="3.5" y="1.0">HCShipCossacks1</tech>
+			<tech x="3.5" y="2.0">HCShipCossacks2</tech>
+			<tech x="3.0" y="3.0">HCShipCossacks3</tech>
+			<tech x="2.5" y="4.0">HCShipCossacks4</tech>
+			<tech x="2.5" y="5.0">HCUniqueCombatRussian</tech>
+			<tech x="4.2" y="1.0">HCShipCavArchers1</tech>
+			<tech x="4.2" y="2.0">HCShipCavArchers2</tech>
+			<tech x="4.2" y="3.0">HCShipCavArchers3</tech>
+			<tech x="3.5" y="4.0">HCXPShipCavArchersRepeat</tech>
+			<tech x="4.2" y="4.0">HCCavalryCombatRussian</tech>
+			<tech x="4.9" y="1.0">HCCavalryLOSTeam</tech>
+			<tech x="4.9" y="2.0">HCShipOprichniks1</tech>
+			<tech x="4.9" y="3.0">HCShipOprichniks2</tech>
+			<tech x="4.9" y="4.0">HCShipOprichniks3</tech>
+			<tech x="4.9" y="7.0">HCXPShipOprichniks4</tech>
+			<tech x="6.0" y="1.0">HCShipGrenadiers1</tech>
+			<tech x="6.0" y="2.0">HCShipGrenadiers2</tech>
+			<tech x="6.0" y="3.0">HCShipGrenadiers3</tech>
+			<tech x="6.0" y="5.0">HCShipGrenadiers4</tech>
 			<tech x="6.7" y="1.0">HCShipFalconets1</tech>
 			<tech x="6.7" y="2.0">HCShipFalconets2</tech>
 			<tech x="6.7" y="3.0">HCShipFalconets3</tech>

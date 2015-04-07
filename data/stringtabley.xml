@@ -2498,10 +2498,10 @@
 		<String _locID="26059" symbol="cStringCivRolloverFrench">Home City gives support and bonuses through Decree cards. Villagers are Coureurs - expensive, but gather and fight better than Settlers. Gets extra Fame with each Age. Best units: Skirmisher, Cuirassier.</String>
 		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built. Gets a free General in the Conquest Age and extra early Docks. Best units: Musketeer, Hussar.</String>
 		<String _locID="26061" symbol="cStringCivRolloverSpanish">Home City gives support and bonuses through Decree cards. Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Conquest Age. Best units: Rodelero, Lancer.</String>
-		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Town Center limit. Biggest overall Fame production. Best units: Musketeer, Dragoon.</String>
+		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Settler limit. Best units: Musketeer, Dragoon.</String>
 		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets a free Bank Wagon with every Age and extra Envoys. Best units: Halberdier, Ruyter.</String>
 		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Shipments, and a free Supply Wagon with every Age. Best units: Skirmisher, Uhlan.</String>
-		<String _locID="26066" symbol="cStringCivRolloverRussians">Home City gives support and bonuses through Decree cards. Trains Settlers and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age. Best units: Grenadier, Cavalry Archer.</String>
+		<String _locID="26066" symbol="cStringCivRolloverRussians">Home City gives support and bonuses through Decree cards. Trains cavalry and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age. Best units: Grenadier, Cavalry Archer.</String>
 		<String _locID="26068" symbol="cStringCivRolloverOttomans">Home City gives support and bonuses through Decree cards. Town Centers produce Settlers for free. Mosques improve Settler production and generate experience. Best units: Abus Gun, Spahi.</String>
 		<String _locID="26071">Rubble</String>
 		<String _locID="26072">Underbrush Amazon</String>
@@ -3840,7 +3840,7 @@
 		<String _locID="29530">Steam Power</String>
 		<String _locID="29531" symbol="cStringUserExists">A user by that name already exists in the game. You can change your user name from the Main Menu by selecting Help and Tools / Options / Game Options.</String>
 		<String _locID="29532">Industrial Age</String>
-		<String _locID="29538">Increases the number of warships you can support.</String>
+		<String _locID="29538">All warships take up less population.</String>
 		<String _locID="29539">Admiralty</String>
 		<String _locID="29581" symbol="cStringPlacementFailedTradingPost">Too close to another Trading Post.</String>
 		<String _locID="29582" symbol="cStringFactoryFood">Configure this Factory to produce Food.</String>
@@ -7916,8 +7916,8 @@
 		<String _locID="37449" symbol="cStringMaximumGatherers">Maximum Gatherers: %d</String>
 		<String _locID="37450">15 Halberdiers</String>
 		<String _locID="37451" symbol="cStringMapSizeOutOfBounds">You have specified a map size that is either too small (less than 64) or too large (greater than 1024)</String>
-		<String _locID="37452">Blockhouse Cannon</String>
-		<String _locID="37453">Blockhouses can train Falconets and Mortars.</String>
+		<String _locID="37452">Blockhouse Engineering</String>
+		<String _locID="37453">Strelets ca now build Blockhouses. Also, increases Blockhouse build limit.</String>
 		<String _locID="37454">Joe fires this to be less lame.</String>
 		<String _locID="37455">Joe's Magic Tech</String>
 		<String _locID="37456">Playing a game on a higher speed increases the rates of gathering, movement, combat, training and researching improvements.</String>
@@ -12218,7 +12218,7 @@
 		<String _locID="41800">Bank of Amsterdam Shipment has arrived.</String>
 		<String _locID="41801">Bank of Rotterdam Shipment has arrived.</String>
 		<String _locID="41802">Tulip Speculation Shipment has arrived.</String>
-		<String _locID="41803">Blockhouse Cannon Shipment has arrived.</String>
+		<String _locID="41803">Blockhouse Engineering Shipment has arrived.</String>
 		<String _locID="41804">Caballeros Shipment has arrived.</String>
 		<String _locID="41805">Cavalry Combat Shipment has arrived.</String>
 		<String _locID="41806">Cavalry Combat Shipment has arrived.</String>
@@ -15082,7 +15082,7 @@
 		<String _locID="44666">18 Cheyenne Allies</String>
 		<String _locID="44667">10 Renegado Allies</String>
 		<String _locID="44668">10 Pistolero Allies</String>
-		<String _locID="44669">Hire 7 Dove Assassins</String>
+		<String _locID="44669">Hire 6 Hungarian Poleaxemen</String>
 		<String _locID="44670">Outlaw Band</String>
 		<String _locID="44671">A large force of outlaws joins your side, with 10 Renegados and 10 Pistoleros.</String>
 		<String _locID="44672">Dakota Support</String>
