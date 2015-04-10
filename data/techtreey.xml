@@ -558,9 +558,6 @@
 			<Effect type="TechStatus" status="obtainable">PoliticianNaturalist</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianWarMinisterRussian</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianEngineer</Effect>
-			<Effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="BasePercent">
-				<Target type="ProtoUnit">Settler</Target>
-			</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianAdventurerRussian</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianScoutRussian</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianBishop</Effect>
@@ -9234,6 +9231,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='25.00' subtype ='PopulationCapExtra' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type="TechStatus" status="obtainable">ImpImmigrantsAsian</Effect>
 			<Effect type="TechStatus" status="active">XPTrickle</Effect>
 			<Effect type="TechStatus" status="obtainable">Civilization</Effect>
@@ -10498,7 +10497,7 @@
 				<Target type="ProtoUnit">ypCaravanserai</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypCastleI</Target>
+				<Target type="ProtoUnit">ypCastle</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypConsulate</Target>
@@ -21872,12 +21871,6 @@
 				<Target type="ProtoUnit">ypCastle</Target>
 			</Effect>
 			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Lookout</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
@@ -27210,9 +27203,6 @@
 			</Effect>
 			<Effect type="Data" amount="0.70" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">ypCastle</Target>
-			</Effect>
-			<Effect type="Data" amount="0.70" subtype="Cost" resource="Wood" relativity="Percent">
-				<Target type="ProtoUnit">ypCastleI</Target>
 			</Effect>
 			<Effect type="Data" amount="0.70" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">Lookout</Target>
@@ -52177,15 +52167,6 @@
 			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypCastle</Target>
 			</Effect>
-			<Effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" action="CannonAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
 			<Effect type="TextOutput">69096</Effect>
 		</Effects>
 	</Tech>
@@ -52833,12 +52814,6 @@
 			<Effect type="TextOutput">62394</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypCastle</Target>
-			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
 			</Effect>
 			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypOutpostAsian</Target>
@@ -54189,12 +54164,6 @@
 			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypCastle</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
 			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypOutpostAsian</Target>
 			</Effect>
@@ -54251,15 +54220,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypCastle</Target>
-			</Effect>
-			<Effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" action="CannonAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
 			</Effect>
 			<Effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
 				<Target type="Player"/>
@@ -55522,7 +55482,7 @@
 			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="YPBarracksIndian" relativity="Absolute">
 				<Target type="ProtoUnit">ypSepoy</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="ypCastleI" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="ypCastle" relativity="Absolute">
 				<Target type="ProtoUnit">ypSepoy</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="ypCaravanserai" relativity="Absolute">
@@ -60821,24 +60781,11 @@
 			<Effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="ypCastle" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="SetName" proto="ypCastleI" culture="none" newName="66386"/>
-			<Effect type="Data" action="RangedAttack" amount="1.50" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="ypCastleI" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypCastle</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
 			<Effect type="Data" amount="0.30" subtype="DamageBonus" unittype="AbstractVillager" allactions="1" relativity="Absolute">
 				<Target type="ProtoUnit">ypCastle</Target>
-			</Effect>
-			<Effect type="Data" amount="0.30" subtype="DamageBonus" unittype="AbstractVillager" allactions="1" relativity="Absolute">
-				<Target type="ProtoUnit">ypCastleI</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -60871,24 +60818,8 @@
 			<Effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="ypCastle" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="SetName" proto="ypCastleI" culture="none" newName="66387"/>
-			<Effect type="Data" action="CannonAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" action="AntiShipAttack" amount="2.00" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="ypCastleI" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 			<Effect type="Data" amount="0.30" subtype="DamageBonus" unittype="AbstractVillager" allactions="1" relativity="Absolute">
 				<Target type="ProtoUnit">ypCastle</Target>
-			</Effect>
-			<Effect type="Data" amount="0.30" subtype="DamageBonus" unittype="AbstractVillager" allactions="1" relativity="Absolute">
-				<Target type="ProtoUnit">ypCastleI</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -61748,15 +61679,6 @@
 			<Effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">ypCastle</Target>
 			</Effect>
-			<Effect type="Data" action="RangedAttack" amount="6.00" subtype="MaximumRange" relativity="Absolute">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" action="CannonAttack" amount="6.00" subtype="MaximumRange" relativity="Absolute">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPHCExtensiveFortificationsIndians" type="Normal">
@@ -61779,12 +61701,6 @@
 			</Effect>
 			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypCastle</Target>
-			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypCastleI</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypCastleI</Target>
 			</Effect>
 			<Effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
 				<Target type="Player"/>
