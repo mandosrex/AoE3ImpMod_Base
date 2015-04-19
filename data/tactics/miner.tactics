@@ -84,7 +84,7 @@
 	<action>
 		<name stringid="38134">HandAttack</name>
 		<type>Attack</type>
-		<maxrange>2</maxrange>
+		<maxrange>1</maxrange>
 		<rate type="Unit">1.0 </rate>
 		<attackaction>1</attackaction>
 		<handlogic>1</handlogic>

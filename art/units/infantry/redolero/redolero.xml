@@ -34,13 +34,13 @@
 						<attach a="sword" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
 						<attach a="shield" frombone="bone_shield" tobone="Bip01 L ForeArm" syncanims="0"/>
 			</veteranrodeleros>
-			<guardrodeleros>
+			<RGEspadachins>
 						<assetreference type="GrannyModel">
 							<file>units\infantry\redolero\redolero_4age</file>
 						</assetreference>
 						<attach a="sword" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"/>
 						<attach a="shield" frombone="bone_shield" tobone="Bip01 L ForeArm" syncanims="0"/>
-			</guardrodeleros>
+			</RGEspadachins>
 			<imperialespada2>
 						<assetreference type="GrannyModel">
 							<file>units\infantry\redolero\redolero_4age</file>

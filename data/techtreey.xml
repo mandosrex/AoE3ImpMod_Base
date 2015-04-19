@@ -702,13 +702,13 @@
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">ShipHowitzers</Effect>
-			<Effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.95" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Cossack</Target>
 			</Effect>
-			<Effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.95" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Oprichnik</Target>
 			</Effect>
-			<Effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.95" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">CavalryArcher</Target>
 			</Effect>
 		</Effects>
@@ -776,6 +776,7 @@
 			<Effect type="TechStatus" status="obtainable">VeteranHussars</Effect>
 			<Effect type="TechStatus" status="obtainable">ChurchStandingArmy</Effect>
 			<Effect type="TechStatus" status="obtainable">ChurchThinRedLine</Effect>
+			<Effect type="TechStatus" status="obtainable">Slavery</Effect>
 			<Effect type="TechStatus" status="obtainable">RGLifeGuardHussars</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Mill</Target>
@@ -1657,6 +1658,7 @@
 			<Effect type="TechStatus" status="obtainable">ChurchTufanciCorps</Effect>
 			<Effect type="TechStatus" status="obtainable">ChurchHussars</Effect>
 			<Effect type="TechStatus" status="obtainable">ChurchMilletSystem</Effect>
+			<Effect type="TechStatus" status="obtainable">CannonPop</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Spahi</Target>
 			</Effect>
@@ -13134,10 +13136,10 @@
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="ypConsulateYoungGarde" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Grenadier</Target>
 			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Grenadier</Target>
 			</Effect>
 		</Effects>
@@ -13857,10 +13859,10 @@
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Janissary</Target>
 			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Janissary</Target>
 			</Effect>
 		</Effects>
@@ -14089,7 +14091,7 @@
 		<Cost resourcetype="Wood">1000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\quatrefage\quatrefage</Icon>
+		<Icon>ui\techs\spanish_square\spanish_square_icon_64x64</Icon>
 		<RolloverTextID>23848</RolloverTextID>
 		<Flag>UniqueTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -14099,14 +14101,11 @@
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="ypConsulateEspadachins" relativity="Absolute">
+			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="ypConsulateEspadachins" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Rodelero</Target>
-			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">Rodelero</Target>
+			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="ypConsulateTercio" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearer" relativity="Absolute">
 				<Target type="Player"/>
@@ -14387,10 +14386,10 @@
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Crossbowman</Target>
 			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Crossbowman</Target>
 			</Effect>
 		</Effects>
@@ -19140,33 +19139,6 @@
 			<Effect type="Data" amount="100.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Settler</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">FishingBoat</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Coureur</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">SettlerNative</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Pilgrim</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypSettlerAsian</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypSettlerIndian</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypFishingBoatAsian</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypSettlerJapanese</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImpLargeScaleAgriculture" type="Normal">
@@ -22958,7 +22930,7 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TextOutput">41786</Effect>
-			<Effect type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="Assign">
+			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="BasePercent">
 				<Target type="ProtoUnit">Market</Target>
 			</Effect>
 		</Effects>
@@ -28655,7 +28627,7 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TextOutput">41788</Effect>
-			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Assign">
+			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="BasePercent">
 				<Target type="ProtoUnit">Market</Target>
 			</Effect>
 		</Effects>
@@ -42318,33 +42290,6 @@
 			<Effect type="Data" amount="100.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Settler</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">FishingBoat</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Coureur</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">SettlerNative</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Pilgrim</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypSettlerAsian</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypSettlerIndian</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypFishingBoatAsian</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypSettlerJapanese</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImpImmigrantsAsian" type="Normal">
@@ -42363,33 +42308,6 @@
 		<Effects>
 			<Effect type="Data" amount="100.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Settler</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">FishingBoat</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Coureur</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">SettlerNative</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Pilgrim</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypSettlerAsian</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypSettlerIndian</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypFishingBoatAsian</Target>
-			</Effect>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">ypSettlerJapanese</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -68674,6 +68592,57 @@
 			</Effect>
 			<Effect type="Data" amount="0.90" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractWonder</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="MilitiaGatling" type="Normal">
+		<DBID>970072</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">xpColonialMilitia</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">xpGatlingGun</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="CannonPop" type="Normal">
+		<DBID>1081</DBID>
+		<DisplayNameID>780903</DisplayNameID>
+		<Cost resourcetype="Wood">500.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_block_house_cannon\hc_block_house_cannon</Icon>
+		<RolloverTextID>780904</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Industrialize</TechStatus>
+			<TechStatus status="Active">HCRoyalDecreeOttoman</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">AbstractArtillery</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="Slavery" type="Normal">
+		<DBID>1081</DBID>
+		<DisplayNameID>780905</DisplayNameID>
+		<Cost resourcetype="Food">500.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\indentured_labor\indentured_labor</Icon>
+		<RolloverTextID>780906</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Fortressize</TechStatus>
+			<TechStatus status="Active">HCRoyalDecreeBritish</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 		</Effects>
 	</Tech>

@@ -63,6 +63,24 @@
 				<choice name="XPSioux">
 					<soundset name="SPCMilitiaSelect"/>
 				</choice>
+				<choice name="Chinese">
+					<soundset name="BritishMusketeerSelect"/>
+				</choice>
+				<choice name="Indians">
+					<soundset name="BritishMusketeerSelect"/>
+				</choice>
+				<choice name="Japanese">
+					<soundset name="BritishMusketeerSelect"/>
+				</choice>
+				<choice name="SPCChinese">
+					<soundset name="BritishMusketeerSelect"/>
+				</choice>
+				<choice name="SPCIndians">
+					<soundset name="BritishMusketeerSelect"/>
+				</choice>
+				<choice name="SPCJapanese">
+					<soundset name="BritishMusketeerSelect"/>
+				</choice>
 			</civlogic>
 		</soundtype>
 		<soundtype name="Grunt">
@@ -248,13 +266,6 @@
 						<choice name="enemy">
 							<soundset name="SpanishMusketeerAttack"/>
 						</choice>
-						<choice name="build"/>
-						<choice name="Huntable"/>
-						<choice name="Tree"/>
-						<choice name="AbstractMine"/>
-						<choice name="AbstractFarm"/>
-						<choice name="AbstractResourceCrate"/>
-						<choice name="AbstractFruit"/>
 					</targetlogic>
 				</choice>
 				<choice name="SPCAct3">
@@ -265,13 +276,6 @@
 						<choice name="enemy">
 							<soundset name="SPCMilitiaAttack"/>
 						</choice>
-						<choice name="build"/>
-						<choice name="Huntable"/>
-						<choice name="Tree"/>
-						<choice name="AbstractMine"/>
-						<choice name="AbstractFarm"/>
-						<choice name="AbstractResourceCrate"/>
-						<choice name="AbstractFruit"/>
 					</targetlogic>
 				</choice>
 				<choice name="SPCAct2">
@@ -282,13 +286,6 @@
 						<choice name="enemy">
 							<soundset name="BritishMusketeerAttack"/>
 						</choice>
-						<choice name="build"/>
-						<choice name="Huntable"/>
-						<choice name="Tree"/>
-						<choice name="AbstractMine"/>
-						<choice name="AbstractFarm"/>
-						<choice name="AbstractResourceCrate"/>
-						<choice name="AbstractFruit"/>
 					</targetlogic>
 				</choice>
 				<choice name="USA">
@@ -299,13 +296,6 @@
 						<choice name="enemy">
 							<soundset name="SPCMilitiaAttack"/>
 						</choice>
-						<choice name="build"/>
-						<choice name="Huntable"/>
-						<choice name="Tree"/>
-						<choice name="AbstractMine"/>
-						<choice name="AbstractFarm"/>
-						<choice name="AbstractResourceCrate"/>
-						<choice name="AbstractFruit"/>
 					</targetlogic>
 				</choice>
 				<choice name="XPSPC">
@@ -316,13 +306,6 @@
 						<choice name="enemy">
 							<soundset name="SPCMilitiaAttack"/>
 						</choice>
-						<choice name="build"/>
-						<choice name="Huntable"/>
-						<choice name="Tree"/>
-						<choice name="AbstractMine"/>
-						<choice name="AbstractFarm"/>
-						<choice name="AbstractResourceCrate"/>
-						<choice name="AbstractFruit"/>
 					</targetlogic>
 				</choice>
 				<choice name="XPIroquois">
@@ -333,13 +316,6 @@
 						<choice name="enemy">
 							<soundset name="SPCMilitiaAttack"/>
 						</choice>
-						<choice name="build"/>
-						<choice name="Huntable"/>
-						<choice name="Tree"/>
-						<choice name="AbstractMine"/>
-						<choice name="AbstractFarm"/>
-						<choice name="AbstractResourceCrate"/>
-						<choice name="AbstractFruit"/>
 					</targetlogic>
 				</choice>
 				<choice name="XPSioux">
@@ -350,13 +326,66 @@
 						<choice name="enemy">
 							<soundset name="SPCMilitiaAttack"/>
 						</choice>
-						<choice name="build"/>
-						<choice name="Huntable"/>
-						<choice name="Tree"/>
-						<choice name="AbstractMine"/>
-						<choice name="AbstractFarm"/>
-						<choice name="AbstractResourceCrate"/>
-						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Chinese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishMusketeerAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishMusketeerAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="Indians">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishMusketeerAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishMusketeerAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="Japanese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishMusketeerAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishMusketeerAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="SPCChinese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishMusketeerAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishMusketeerAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="SPCIndians">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishMusketeerAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishMusketeerAttack"/>
+						</choice>
+					</targetlogic>
+				</choice>
+				<choice name="SPCJapanese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="BritishMusketeerAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="BritishMusketeerAttack"/>
+						</choice>
 					</targetlogic>
 				</choice>
 			</civlogic>

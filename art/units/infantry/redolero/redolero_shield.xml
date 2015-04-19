@@ -14,12 +14,12 @@
 							<file>units\infantry\redolero\redolero_sheild2</file>
 						</assetreference>
 			</veteranrodeleros>
-			<guardrodeleros>
+			<RGEspadachins>
 						<assetreference type="GrannyModel">
 							<file>units\infantry\redolero\redolero_sheild3</file>
 						</assetreference>
-			</guardrodeleros>
-			<imperialespada>
+			</RGEspadachins>
+			<imperialespada2>
 						<assetreference type="GrannyModel">
 							<file>units\infantry\redolero\redolero_sheild3</file>
 							<replacetexture>
@@ -27,7 +27,7 @@
 								<to>units\infantry\redolero\redolero_imperial</to>
 							</replacetexture>
 						</assetreference>
-			</imperialespada>
+			</imperialespada2>
 		</logic>
 	</component>
 	<anim>

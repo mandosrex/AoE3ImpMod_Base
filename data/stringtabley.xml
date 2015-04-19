@@ -1802,7 +1802,7 @@
 		<String _locID="23843">Corselet</String>
 		<String _locID="23845">Lancer attack and hitpoints greatly increased.</String>
 		<String _locID="23846">Garrochistas</String>
-		<String _locID="23848">Ships 13 skilled Espadachins from the homeland. Also improves all Rodeleros.</String>
+		<String _locID="23848">Ships an army of 14 Espadachins and Tercio from the homeland.</String>
 		<String _locID="23849">Quatrefage</String>
 		<String _locID="23857">Rodelero attack and hitpoints increased.</String>
 		<String _locID="23858">Veteran Rodeleros</String>
@@ -4330,7 +4330,7 @@
 		<String _locID="31518" symbol="cStringExplorerKnockoutTooltipText">Every moment I live... is agony.</String>
 		<String _locID="31522">Enables the Explorer to peer into the blackmap to temporarily see what is there. Explorer attack and hitpoints greatly increased.</String>
 		<String _locID="31523">Knighthood</String>
-		<String _locID="31527">Villager limit is increase by 20, also allows you to support 100 population without the need for Houses or Town Centers.</String>
+		<String _locID="31527">Allows you to support 100 population without the need for Houses or Town Centers (maximum population is not increased).</String>
 		<String _locID="31528">Immigrants</String>
 		<String _locID="31529">Villagers gather Food from Mills much faster.</String>
 		<String _locID="31530">Large Scale Agriculture</String>
@@ -16689,7 +16689,7 @@
 		<String _locID="46284" gamecharacter="Chayton" soundfilename="XCHAY8145" portraitfilename="units\spc\chayton\chayton_ind_igc_icon">You have to try.</String>
 		<String _locID="46285" gamecharacter="Holme" soundfilename="XHOLM8120" portraitfilename="units\spc\sheriff_holmes\sheriff_holmes_igc_icon">No, kid. I really don't.</String>
 		<String _locID="46286" gamecharacter="Holme" soundfilename="XHOLM8125" portraitfilename="units\spc\sheriff_holmes\sheriff_holmes_igc_icon">Aieeee!!</String>
-		<String _locID="46288">Supports 5 population. Provides a small hitpoint bonus to nearby units.</String>
+		<String _locID="46288">Provides a small hitpoint bonus to nearby units and good line of sight.</String>
 		<String _locID="46287">Support / Military building</String>
 		<String _locID="46289">Teepee</String>
 		<String _locID="46290">Teepee</String>
@@ -30251,7 +30251,7 @@
 		<String _locID="780833">Land Maps</String>
 		<String _locID="780834">Randomly selects from among all land standard maps.</String>
 		<String _locID="780835">Timariot Mamelukes</String>
-		<String _locID="780836">Ships 17 Timariot Mamelukes from the motherland.</String>
+		<String _locID="780836">Ships 5 Timariot Mamelukes from the motherland.</String>
 		<String _locID="780837">Timariot Mameluke</String>
 		<String _locID="780838">Imperial Pikemen</String>
 		<String _locID="780839">Imperial Crossbowman</String>
@@ -30308,5 +30308,9 @@
 		<String _locID="780900">Increases Bank limit by 2.</String>
 		<String _locID="780901">Powerful, defensive building that can also train units.</String>
 		<String _locID="780902">Fame</String>
+		<String _locID="780903">Imperial Armory</String>
+		<String _locID="780904">The Imperial Armory of Tophane regulates that all artillery units take up less population.</String>
+		<String _locID="780905">Slavery</String>
+		<String _locID="780906">Slavery regulations increase Settler limit by 10.</String>
 	</Language>
 </StringTable>
