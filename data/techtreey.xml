@@ -243,6 +243,7 @@
 			<Effect type="Data" amount="150.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="TechStatus" status="active">VeteranCraneq</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
 			<Effect type="TechStatus" status="active">Ranching</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -13107,7 +13108,6 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="TechStatus" status="active">GuardCuirassiers</Effect>
 			<Effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Cuirassier</Target>
 			</Effect>
@@ -14101,10 +14101,10 @@
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="ypConsulateEspadachins" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="ypConsulateEspadachins" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="ypConsulateTercio" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="ypConsulateTercio" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearer" relativity="Absolute">
@@ -15811,10 +15811,10 @@
 			<TechStatus status="Active">VeteranPikemen</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.45" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Pikeman</Target>
 			</Effect>
-			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Pikeman</Target>
 			</Effect>
 			<Effect type="SetName" proto="Pikeman" culture="none" newName="38288"/>
@@ -17082,12 +17082,6 @@
 			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="ypConsulateYoungGarde" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypConsulateYoungGarde</Target>
-			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypConsulateYoungGarde</Target>
-			</Effect>
 			<Effect type="SetName" proto="ypConsulateYoungGarde" culture="none" newName="42459"/>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearer" relativity="Absolute">
 				<Target type="Player"/>
@@ -17513,7 +17507,7 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
-			<TechStatus status="Active">GuardCuirassiers</TechStatus>
+			<TechStatus status="Active">RGGendarmes</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
@@ -68643,6 +68637,38 @@
 		<Effects>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCSlavery" type="Normal">
+		<DBID>1081</DBID>
+		<DisplayNameID>780905</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\indentured_labor\indentured_labor</Icon>
+		<RolloverTextID>780906</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
+				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
+			<Effect type="Data" amount="100.00" subtype="Cost" resource="Food" relativity="Absolute">
+				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="VeteranCraneq" type="Normal">
+		<DBID>2664</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">MountedCrossbowman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">MountedCrossbowman</Target>
 			</Effect>
 		</Effects>
 	</Tech>

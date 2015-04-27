@@ -828,6 +828,13 @@
 			<displayunitcount>1</displayunitcount>
 		</card>
 		<card>
+			<name>HCSlavery</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
 			<name>HCRobberBarons</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
@@ -1508,7 +1515,7 @@
 			<tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
 			<tech x="0.8" y="3.0">HCFencingSchool</tech>
 			<tech x="1.5" y="3.0">HCRidingSchool</tech>
-			<tech x="1.6" y="1.0">HCXPRanching</tech>
+			<tech x="1.5" y="1.0">HCXPRanching</tech>
 			<tech x="2.3" y="2.0">HCPioneers</tech>
 			<tech x="2.3" y="3.0">HCImprovedBuildings</tech>
 			<tech x="3.0" y="2.0">HCColonialMilitia</tech>
@@ -1534,6 +1541,7 @@
 			<tech x="6.5" y="3.0">HCAdvancedDock</tech>
 			<tech x="7.2" y="1.0">HCUnlockFactory</tech>
 			<tech x="7.2" y="3.0">HCRobberBarons</tech>
+			<tech x="1.5" y="6.0">HCSlavery</tech>
 		</obtainabletechs>
 		<activetechs>
 			<tech>HCCheapMarketsTeam</tech>
