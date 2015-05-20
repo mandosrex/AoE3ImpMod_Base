@@ -2308,6 +2308,12 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
 			<Effect type="SetName" proto="Stagecoach" culture="none" newName="780736"/>
 			<Effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Stagecoach" relativity="Absolute">
 				<Target type="ProtoUnit">ResourceWagon</Target>
@@ -2429,6 +2435,12 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
 			<Effect type="SetName" proto="Stagecoach" culture="none" newName="780736"/>
 			<Effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Stagecoach" relativity="Absolute">
 				<Target type="ProtoUnit">ResourceWagon</Target>
@@ -2677,6 +2689,12 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
 			<Effect type="SetName" proto="Stagecoach" culture="none" newName="780736"/>
 			<Effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Stagecoach" relativity="Absolute">
 				<Target type="ProtoUnit">ResourceWagon</Target>
@@ -2794,6 +2812,12 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
 			<Effect type="SetName" proto="Stagecoach" culture="none" newName="780736"/>
 			<Effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Stagecoach" relativity="Absolute">
 				<Target type="ProtoUnit">ResourceWagon</Target>
@@ -2915,6 +2939,12 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
 			<Effect type="SetName" proto="Stagecoach" culture="none" newName="780736"/>
 			<Effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Stagecoach" relativity="Absolute">
 				<Target type="ProtoUnit">ResourceWagon</Target>
@@ -6022,7 +6052,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="TechStatus" status="obtainable">ImpImmigrantsNative</Effect>
 			<Effect type="TechStatus" status="obtainable">BigDockCipactli</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">LivestockPen</Target>
@@ -6355,6 +6384,12 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
+			</Effect>
 			<Effect type="SetName" proto="Stagecoach" culture="none" newName="780736"/>
 			<Effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Stagecoach" relativity="Absolute">
 				<Target type="ProtoUnit">ResourceWagon</Target>
@@ -14451,9 +14486,31 @@
 			<TechStatus status="Active">HCRoyalDecreeGerman</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="0.85" subtype="Cost" resource="Gold" relativity="BasePercent">
+			<Effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="BasePercent">
 				<Target type="ProtoUnit">Mercenary</Target>
 			</Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='Tech'>HCMercsLandsknecht2German</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='Tech'>HCMercsHighlandGerman</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='Tech'>HCMercsBlackRidersGerman</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='Tech'>HCMercsMediterraneanGerman</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='Tech'>HCMercsLandsknecht1German</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='Tech'>HCMercsHolyRomanGerman</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='Tech'>HCMercsHessiansGerman</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='Tech'>HCMercsHackapellsGerman</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='Tech'>HCPrivateers</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='Tech'>HCXPMercsFusiliersGerman</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='Tech'>HCXPMercsElmetiGerman</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChurchStadholders" type="Normal">
@@ -18591,10 +18648,10 @@
 			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateSiegeIndustrial</Target>
 			</Effect>
-			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">LifespanUnit</Target>
 			</Effect>
-			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">LifespanUnit</Target>
 			</Effect>
 			<Effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="TownCenter" relativity="BasePercent">

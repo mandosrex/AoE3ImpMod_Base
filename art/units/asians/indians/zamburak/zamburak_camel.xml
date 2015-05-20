@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<definebone>HS Bone Hoof Frnt Lt</definebone>
+	<definebone>HS Bone Hoof Frnt Rt</definebone>
+	<definebone>HS Bone Hoof Back Lt</definebone>
+	<definebone>HS Bone Hoof Back Rt</definebone>
+	<attachment>
+		rider
+		<include>units\asians\indians\zamburak\zamburak_rider.xml</include>
+	</attachment>
+	<component>
+		ModelComp
+		<logic type="Tech">
+			<none>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\zamburak\zamburak_camel_basic</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\zamburak\zamburak_camel2_1_LP</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</none>
+			<ypdisciplinedcamelgun>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\zamburak\zamburak_camel_upgrade_01</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\zamburak\zamburak_camel2_0_LP</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</ypdisciplinedcamelgun>
+			<yphonoredcamelgun>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\zamburak\zamburak_camel_upgrade_02</file>
+						</assetreference>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\asians\indians\zamburak\zamburak_camel_Upgrade2_LP</file>
+						</assetreference>
+					</lowpoly>
+				</logic>
+			</yphonoredcamelgun>
+		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+			<width>2.00</width>
+			<height>3.00</height>
+			<zoffset>-0.10</zoffset>
+		</decal>
+		<attach a="rider" frombone="hotspot" tobone="ATTACHPOINT" syncanims="1"/>
+	</component>
+	<anim>
+		Walk
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_walk00</file>
+			<tag type="FootstepLeft" footprinttype="Horse" footprintbone="HS BONE HOOF FRNT LT">1.00</tag>
+			<tag type="FootstepLeft" footprinttype="Horse" footprintbone="HS BONE HOOF BACK LT">0.83</tag>
+			<tag type="FootstepRight" footprinttype="Horse" footprintbone="HS BONE HOOF FRNT RT">0.70</tag>
+			<tag type="FootstepRight" footprinttype="Horse" footprintbone="HS BONE HOOF BACK RT">0.50</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Jog
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_jog</file>
+			<tag type="FootstepLeft" footprinttype="Horse" footprintbone="HS BONE HOOF FRNT LT">0.80</tag>
+			<tag type="FootstepLeft" footprinttype="Horse" footprintbone="HS BONE HOOF BACK LT">0.50</tag>
+			<tag type="FootstepRight" footprinttype="Horse" footprintbone="HS BONE HOOF FRNT RT">0.95</tag>
+			<tag type="FootstepRight" footprinttype="Horse" footprintbone="HS BONE HOOF BACK RT">0.75</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_gallop</file>
+			<tag type="FootstepLeft" footprinttype="Horse" footprintbone="HS BONE HOOF FRNT LT">0.73</tag>
+			<tag type="FootstepLeft" footprinttype="Horse" footprintbone="HS BONE HOOF BACK LT">0.50</tag>
+			<tag type="FootstepRight" footprinttype="Horse" footprintbone="HS BONE HOOF FRNT RT">1.00</tag>
+			<tag type="FootstepRight" footprinttype="Horse" footprintbone="HS BONE HOOF BACK RT">0.70</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle00</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Attack_ranged
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_attackRanged01</file>
+			<weight>40</weight>
+			<tag type="Attack">0.43</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RifleShot">0.42</tag>
+			<tag type="Particles" particlename="pistolshot_right">0.42</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Attack_ranged_reload
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_reload</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Attack_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\Zamburak_Melee_Attack_1</file>
+			<weight>40</weight>
+			<tag type="Attack">0.53</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.49</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\Zamburak_Melee_Attack_2</file>
+			<weight>10</weight>
+			<tag type="Attack">0.47</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.38</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\Zamburak_Melee_Attack_3</file>
+			<weight>10</weight>
+			<tag type="Attack">0.54</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.48</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_melee
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\sowar\sowarCamel_death00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.62</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\sowar\sowarCamel_death01</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.62</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\sowar\sowarCamel_death02</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.62</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_range
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\sowar\sowarCamel_death00</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.62</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\sowar\sowarCamel_death01</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.62</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\sowar\sowarCamel_death02</file>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.62</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Death_by_havoc
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_death_front</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_death_behind</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_death_left</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_death_right</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_death_run</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Cheer
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle00</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle02</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle03</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle06</file>
+			<weight>10</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_idle
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle00</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle02</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle03</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle06</file>
+			<weight>10</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Raze_attack
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_razeAttack00</file>
+			<tag type="Attack">0.11</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.32</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Bored
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle02</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle03</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>units\asians\indians\zamburak\zamburak_camel_idle06</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+</animfile>

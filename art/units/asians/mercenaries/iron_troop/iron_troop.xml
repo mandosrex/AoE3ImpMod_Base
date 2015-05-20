@@ -352,6 +352,7 @@
 			<file>animation_library\range\defend\longbow_defend_combat_idle</file>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="staff" frombone="bone_staff" tobone="Bip01 Prop2" syncanims="0"/>
 	</anim>
 	<anim>
 		Defend_bored
@@ -359,6 +360,7 @@
 			<file>animation_library\range\defend\longbow_defend_combat_idle</file>
 		</assetreference>
 		<component>ModelComp</component>
+		<attach a="staff" frombone="bone_staff" tobone="Bip01 Prop2" syncanims="0"/>
 	</anim>
 	<anim>
 		Charge_idle
