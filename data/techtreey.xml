@@ -1597,6 +1597,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="active">VeteranSpahi</Effect>
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -11547,14 +11548,15 @@
 		<RolloverTextID>77884</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Spahi</Target>
 			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Spahi</Target>
 			</Effect>
 			<Effect type="SetName" proto="Spahi" culture="none" newName="77885"/>
@@ -11688,7 +11690,6 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="TechStatus" status="active">VeteranSpahi</Effect>
 			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Spahi</Target>
 			</Effect>
@@ -16738,10 +16739,61 @@
 		<RolloverTextID>29538</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
-				<Target type="ProtoUnit">AbstractWarShip</Target>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Galleon</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Caravel</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Galley</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Frigate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Monitor</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Fluyt</Target>
 			</Effect>
 			<Effect type="TextOutput">42171</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Canoe</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">xpTlalocCanoe</Target>
+			</Effect>
+			<Effect type="Data" amount="8.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">xpWarCanoe</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypAtakabune</Target>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypMarathanCatamaran</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypTekkousen</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypFune</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypWarJunk</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypFuchuan</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypWokouJunk</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypWokouJunkI</Target>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypFireship</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="Colonialize" type="Normal">
@@ -18672,9 +18724,6 @@
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">YPDockAsian</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">TownCenter</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperialManOWar" type="Normal">
@@ -18812,6 +18861,12 @@
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionBolivar</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionBonifacio</Effect>
 			<Effect type="TextOutput">780790</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CoveredWagon" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeRussian" type="Normal">
@@ -27613,6 +27668,9 @@
 		<Flag>TeamTech</Flag>
 		<Effects>
 			<Effect type="TextOutput">36919</Effect>
+			<Effect type="Data" amount="40.00" subtype="Cost" resource="Food" relativity="Assign">
+				<Target type="Tech">FrontierTraining</Target>
+			</Effect>
 			<Effect type="Data" amount="30.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">Blunderbuss</Target>
 			</Effect>
@@ -29382,8 +29440,17 @@
 		<RolloverTextID>36574</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
-				<Target type="ProtoUnit">AbstractWarShip</Target>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Galleon</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Caravel</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Frigate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Monitor</Target>
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
 				<Target type="Player"/>
@@ -63010,7 +63077,7 @@
 	<Tech name="MilitaryPromotionUS" type="Normal">
 		<DBID>8</DBID>
 		<DisplayNameID>78040</DisplayNameID>
-		<Cost resourcetype="Trade">2000.0000</Cost>
+		<Cost resourcetype="Trade">1500.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>buildings\spc\promotion</Icon>
@@ -63028,7 +63095,7 @@
 	<Tech name="MilitaryPromotion" type="Normal">
 		<DBID>8</DBID>
 		<DisplayNameID>78040</DisplayNameID>
-		<Cost resourcetype="Trade">2000.0000</Cost>
+		<Cost resourcetype="Trade">1500.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>buildings\spc\promotion</Icon>
@@ -66077,8 +66144,59 @@
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
-				<Target type="ProtoUnit">AbstractWarShip</Target>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Canoe</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">xpTlalocCanoe</Target>
+			</Effect>
+			<Effect type="Data" amount="8.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">xpWarCanoe</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypAtakabune</Target>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypMarathanCatamaran</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypTekkousen</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypFune</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypWarJunk</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypFuchuan</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypWokouJunk</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypWokouJunkI</Target>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypFireship</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Galleon</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Caravel</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Galley</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Frigate</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Monitor</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Fluyt</Target>
 			</Effect>
 			<Effect type="TextOutput">69664</Effect>
 			<Effect tech="ypFreeIndianSepoy" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
