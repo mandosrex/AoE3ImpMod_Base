@@ -1157,7 +1157,7 @@
 			<building>SPCFortCenter</building>
 			<multipleblockunit>ypConsulateArmyRussian33</multipleblockunit>
 			<units>
-				<unit>Dragoon</unit>
+				<unit>CavalryArcher</unit>
 			</units>
 			<units>
 				<unit>Culverin</unit>
@@ -2366,11 +2366,9 @@
 		<townstartingunit>SettlerNative</townstartingunit>
 		<townstartingunit>SettlerNative</townstartingunit>
 		<townstartingunit>SettlerNative</townstartingunit>
-		<townstartingunit>xpBuilderStart</townstartingunit>
 		<townstartingunit>CrateofFood</townstartingunit>
 		<townstartingunit>CrateofFood</townstartingunit>
 		<townstartingunit>CrateofFood</townstartingunit>
-		<townstartingunit>CrateofWood</townstartingunit>
 		<townstartingunit>CrateofWood</townstartingunit>
 		<homecityfilename>homecityxpsioux.xml</homecityfilename>
 		<homecityflagtexture>objects\flags\sioux</homecityflagtexture>
@@ -2462,7 +2460,6 @@
 		<townstartingunit>SettlerNative</townstartingunit>
 		<townstartingunit>SettlerNative</townstartingunit>
 		<townstartingunit>SettlerNative</townstartingunit>
-		<townstartingunit>xpBuilderStart</townstartingunit>
 		<townstartingunit>CrateofFood</townstartingunit>
 		<townstartingunit>CrateofFood</townstartingunit>
 		<townstartingunit>CrateofFood</townstartingunit>

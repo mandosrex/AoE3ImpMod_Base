@@ -15789,28 +15789,28 @@
 			<Effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
-			<Effect type="Data" action="Gather" amount="0.95" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+			<Effect type="Data" action="Gather" amount="0.90" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
-			<Effect type="Data" action="Gather" amount="0.95" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+			<Effect type="Data" action="Gather" amount="0.90" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
 			<Effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Plantation" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
-			<Effect type="Data" action="Gather" amount="0.95" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
+			<Effect type="Data" action="Gather" amount="0.90" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
-			<Effect type="Data" action="Gather" amount="0.95" subtype="WorkRate" unittype="BerryBush" relativity="BasePercent">
+			<Effect type="Data" action="Gather" amount="0.90" subtype="WorkRate" unittype="BerryBush" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
 			<Effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
-			<Effect type="Data" action="Gather" amount="0.95" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
+			<Effect type="Data" action="Gather" amount="0.90" subtype="WorkRate" unittype="ypBerryBuilding" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
-			<Effect type="Data" action="Gather" amount="0.95" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+			<Effect type="Data" action="Gather" amount="0.90" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
 		</Effects>
