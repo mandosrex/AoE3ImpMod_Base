@@ -8377,6 +8377,9 @@
 				<Target type="ProtoUnit">ypConsulateLifeGuard</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateLifeGuard2</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypConsulateHorseArtillery</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -16754,17 +16757,17 @@
 			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Monitor</Target>
 			</Effect>
-			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Fluyt</Target>
 			</Effect>
 			<Effect type="TextOutput">42171</Effect>
-			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Canoe</Target>
 			</Effect>
 			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">xpTlalocCanoe</Target>
 			</Effect>
-			<Effect type="Data" amount="8.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">xpWarCanoe</Target>
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
@@ -16804,6 +16807,9 @@
 		<RolloverTextID>780793</RolloverTextID>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="22.00" subtype="PopulationCapExtra" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="XP" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -38464,7 +38470,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\natives\comanche_lancer_icon</Icon>
+		<Icon>units\natives\horse_archer_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="NatMercHorseArcher" relativity="Absolute">
@@ -38479,7 +38485,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\natives\comanche_lancer_icon</Icon>
+		<Icon>units\natives\horse_archer_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="Data" amount="18.00" subtype="FreeHomeCityUnit" unittype="NatMercHorseArcher" relativity="Absolute">
@@ -66144,13 +66150,13 @@
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Canoe</Target>
 			</Effect>
 			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">xpTlalocCanoe</Target>
 			</Effect>
-			<Effect type="Data" amount="8.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">xpWarCanoe</Target>
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">

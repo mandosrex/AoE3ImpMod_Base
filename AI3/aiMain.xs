@@ -11471,7 +11471,7 @@ minInterval 20
    // Add a number of dancers equivalent to 1/5 of settler pop, rounded down
    // Make sure no more than 25 units are assigned in total
    int want = -1;
-   want = kbUnitCount(cMyID, gEconUnit, cUnitStateAlive) / 5;
+   want = kbUnitCount(cMyID, gEconUnit, cUnitStateAlive) / 10;
    if ((want*2 + numWarPriests) <= 25)
    {
       aiPlanAddUnitType(gNativeDancePlan, gEconUnit, want/2, want, want*2);
