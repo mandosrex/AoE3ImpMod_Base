@@ -112,7 +112,7 @@
 			<file>units\asians\indians\zamburak\zamburak_camel_attackRanged01</file>
 			<weight>40</weight>
 			<tag type="Attack">0.43</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="RifleShot">0.42</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.42</tag>
 			<tag type="Particles" particlename="pistolshot_right">0.42</tag>
 		</assetreference>
 		<component>ModelComp</component>

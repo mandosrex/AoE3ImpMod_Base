@@ -1379,7 +1379,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="20.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
