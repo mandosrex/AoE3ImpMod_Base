@@ -2790,6 +2790,50 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
+			<building>ypSPCJapaneseOutpost</building>
+			<multipleblockunit>LevyAsi</multipleblockunit>
+			<units>
+				<unit>ypIrregular</unit>
+			</units>
+			<units>
+				<unit>ypPeasant</unit>
+			</units>
+			<units>
+				<unit>LevyAsi</unit>
+			</units>
+			<unitcounts>
+				<count>3</count>
+			</unitcounts>
+			<unitcounts>
+				<count>3</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>SPCFortCenterJ</building>
+			<multipleblockunit>LevyAsi</multipleblockunit>
+			<units>
+				<unit>ypIrregular</unit>
+			</units>
+			<units>
+				<unit>ypPeasant</unit>
+			</units>
+			<units>
+				<unit>LevyAsi</unit>
+			</units>
+			<unitcounts>
+				<count>3</count>
+			</unitcounts>
+			<unitcounts>
+				<count>3</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
 			<building>ypDojo</building>
 			<multipleblockunit>ypDojoYumiArmy</multipleblockunit>
 			<units>
@@ -4648,6 +4692,36 @@
 			</units>
 			<unitcounts>
 				<count>2</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypConsulate</building>
+			<multipleblockunit>ypConsulateArmyItalians1</multipleblockunit>
+			<units>
+				<unit>MercSwissPikeman</unit>
+			</units>
+			<unitcounts>
+				<count>4</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypConsulate</building>
+			<multipleblockunit>ypConsulateArmyItalians2</multipleblockunit>
+			<units>
+				<unit>MercElmeti</unit>
+			</units>
+			<unitcounts>
+				<count>3</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypConsulate</building>
+			<multipleblockunit>ypConsulateArmyItalians3</multipleblockunit>
+			<units>
+				<unit>MercLandsknecht</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
 			</unitcounts>
 		</multipleblocktrain>
 		<key>I</key>
@@ -7465,6 +7539,14 @@
 		<name>XPirate</name>
 		<main>0</main>
 		<homecityflagtexture>objects\flags\pirate</homecityflagtexture>
+		<homecityflagbuttonset>oHigginsFlagBtn</homecityflagbuttonset>
+		<homecityflagbuttonsetlarge>oHigginsFlagBtnLarge</homecityflagbuttonsetlarge>
+		<postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_chilean</postgameflagtexture>
+	</civ>
+	<civ>
+		<name>Italians</name>
+		<main>0</main>
+		<homecityflagtexture>objects\flags\italians</homecityflagtexture>
 		<homecityflagbuttonset>oHigginsFlagBtn</homecityflagbuttonset>
 		<homecityflagbuttonsetlarge>oHigginsFlagBtnLarge</homecityflagbuttonsetlarge>
 		<postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_chilean</postgameflagtexture>

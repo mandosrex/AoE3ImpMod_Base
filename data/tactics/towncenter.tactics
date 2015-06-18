@@ -2,6 +2,14 @@
 
 <tactics>
 	<action>
+		<name stringid="69776">SpawnMissionary</name>
+		<type>Maintain</type>
+		<rate type="MissionaryIt">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
 		<name stringid="69158">Spawn</name>
 		<type>Spawn</type>
 		<rate type="Envoy">1.0 </rate>
@@ -190,6 +198,7 @@
 		<action priority="15">SpawnLivestock3</action>
 		<action priority="15">Spawn</action>
 		<action priority="15">SpawnFamer</action>
+		<action priority="15">SpawnMissionary</action>
 		<action>MaintainSettlersOttoman</action>
 		<action>EconomicAuraKM</action>
 		<action>AutoGather</action>

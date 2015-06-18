@@ -7266,8 +7266,8 @@
 		<String _locID="36705">Hire Hessian Jaegers</String>
 		<String _locID="36707">Ships a number of Balkan Stradiot mercenaries.</String>
 		<String _locID="36708">Hire Balkan Stradiots</String>
-		<String _locID="36710">Ships a number of Swiss Pikemen mercenaries.</String>
-		<String _locID="36711">Hire Swiss Pikemen</String>
+		<String _locID="36710">Ships a number of Swiss Guards mercenaries.</String>
+		<String _locID="36711">Hire Swiss Guards</String>
 		<String _locID="36712">Ships a number of Ronin Samurai mercenaries.</String>
 		<String _locID="36713">Passage to Nippon</String>
 		<String _locID="36714">Ships a number of German Black Rider mercenaries.</String>
@@ -23251,7 +23251,7 @@
 		<String _locID="63954">SPC YP Aztec temple</String>
 		<String _locID="63955">The Russians provide you with European siege and banner army shipments and technology.</String>
 		<String _locID="63956">Russian Allies</String>
-		<String _locID="63957">Trains:\nMusketeers\nFalconets\nHussars\n \nShipments:\nSupport units</String>
+		<String _locID="63957">Trains:\nMusketeers\nHussars\nFalconets\n \nShipments:\nSupport units</String>
 		<String _locID="63958">British Allies\n+10% Land Unit Hitpoints</String>
 		<String _locID="63959">The French provide you with European siege and cavalry shipments and technology.</String>
 		<String _locID="63960">French Allies</String>
@@ -30055,7 +30055,7 @@
 		<String _locID="78038">The Fabricator</String>
 		<String _locID="78039">The Colonel</String>
 		<String _locID="78040">Military Promotion</String>
-		<String _locID="78041">American units attack and hitpoints increased.</String>
+		<String _locID="78041">All Consulate units attack and hitpoints increased.</String>
 		<String _locID="78042">5 Yojimbo</String>
 		<String _locID="78043">8 Shinobi</String>
 		<String _locID="78044">American Marines Team</String>
@@ -30313,5 +30313,16 @@
 		<String _locID="780905">Slavery Abolition</String>
 		<String _locID="780906">Settler cost changed from Coin to Food.</String>
 		<String _locID="780907">An army of Russian Tartar Loyalists (Cavalry Archers) and Culverins.\n7 Tartar Loyalists: ranged cavalry, good against cavalry.\n3 Culverins: light artillery that is good against artillery.</String>
+		<String _locID="780908">Italian Allies\n+10% Building Hitpoints</String>
+		<String _locID="780909">Trains:\nSwiss Guards\nElmeti\nBlack Riders\nLandsknecht\n \nShipments:\nMercenaries</String>
+		<String _locID="780910">American Brigade</String>
+		<String _locID="780911">Ships a number of Gatling Guns.</String>
+		<String _locID="780912">Inquisition</String>
+		<String _locID="780913">A Missionary gathers at every Town Center.</String>
+		<String _locID="780914">Papal Decree</String>
+		<String _locID="780915">Hire Elmeti Mercenaries</String>
+		<String _locID="780916">An army of Swiss Pikemen Guards.\n4 Swiss Guards: elite mercenary armed with a pike. Good against cavalry.</String>
+		<String _locID="780917">An army of Italian Elmeti mercenaries.\n3 Elmeti: heavy cavalry armed with a lance. Good against infantry.</String>
+		<String _locID="780918">An army of German Landsknecht mercenaries.\n6 Landsknecht: flamboyant heavy infantry mercenary.</String>
 	</Language>
 </StringTable>
