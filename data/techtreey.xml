@@ -41576,6 +41576,9 @@
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="XPRevolutionWashington" type="Normal">
@@ -41593,6 +41596,9 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">WarCamp</Target>
 			</Effect>
@@ -41691,6 +41697,9 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">WarCamp</Target>
 			</Effect>
@@ -41793,6 +41802,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">WarCamp</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="GeneralBr" relativity="Absolute">
@@ -41894,6 +41906,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">WarCamp</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="GeneralBr" relativity="Absolute">
@@ -41991,6 +42006,9 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">WarCamp</Target>
 			</Effect>
@@ -42092,6 +42110,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">WarCamp</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="GeneralBr" relativity="Absolute">
@@ -42192,6 +42213,9 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">WarCamp</Target>
 			</Effect>
@@ -42297,6 +42321,9 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Resource" resource="Ships" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -68637,9 +68664,6 @@
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerB" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Surgeon" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateDutchBrigadeUS" type="Normal">
@@ -68662,9 +68686,6 @@
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerD" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Surgeon" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateFrenchBrigadeUS" type="Normal">
@@ -68682,9 +68703,6 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerF" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Surgeon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -68927,7 +68945,7 @@
 	<Tech name="ConsulateRomanMercs" type="Normal">
 		<DBID>462</DBID>
 		<DisplayNameID>24635</DisplayNameID>
-		<Cost resourcetype="Trade">1800.0000</Cost>
+		<Cost resourcetype="Trade">2600.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_hire_holy_roman_merc_army\hc_hire_holy_roman_merc_army</Icon>
@@ -68941,13 +68959,19 @@
 			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="MercJaeger" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="MercJaeger" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="MercBlackRider" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="MercBlackRider" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="MercLandsknecht" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="MercLandsknecht" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerIt" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="YPHCEnlistGurkhas" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypNatMercGurkha" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
