@@ -65,6 +65,9 @@
 		<musicset name="DidntSeeItComing">
 			<file volume="1.0" mood="normal">Music\Standard\DidntSeeItComing.mp3</file>
 		</musicset>
+		<musicset name="AoM">
+			<file volume="1.0" mood="normal">Music\Standard\aom.mp3</file>
+		</musicset>
 	</playlist>
 	<playlist name="battle">
 		<file volume="1.0">Music\Battle\BubbleChum.mp3</file>

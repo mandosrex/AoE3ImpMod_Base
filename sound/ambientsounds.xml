@@ -177,6 +177,9 @@
 	<sound type="ypMonastery" timemin="50" timemax="65" num="1" stereo="1">AmbienceMonastery</sound>
 	<sound type="Market" timemin="30" timemax="40" num="1" stereo="1">AmbienceSaloonDin</sound>
 	<sound type="ypTradeMarketAsian" timemin="30" timemax="40" num="1" stereo="1">AmbienceSaloonDin</sound>
+	<sound type="Beluga" timemin="40" timemax="50" num="1" stereo="1">whaleambient</sound>
+	<sound type="MinkeWhale" timemin="40" timemax="50" num="1" stereo="1">whaleambient</sound>
+	<sound type="HumpbackWhale" timemin="40" timemax="50" num="1" stereo="1">whaleambient</sound>
 	<sound maptype="Borneo" num="1" looping="1">AmbienceBorneo</sound>
 	<sound maptype="Deccan" num="1" looping="1">AmbienceDeccan</sound>
 	<sound maptype="Japan" num="1" looping="1">AmbienceHonshu</sound>

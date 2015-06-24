@@ -2039,4 +2039,7 @@
 		<sound filename="AxemanMove2.wav" volume="1.0000"/>
 		<sound filename="AxemanMove3.wav" volume="1.0000"/>
 	</soundset>
+	<soundset name="WhaleAmbient" volume="0.2000" maxnum="1" distance="1.0000">
+		<sound filename="whaleambient.wav" volume="0.2000"/>
+	</soundset>
 </soundsetdef>

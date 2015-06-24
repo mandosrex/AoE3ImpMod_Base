@@ -68949,7 +68949,7 @@
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_hire_holy_roman_merc_army\hc_hire_holy_roman_merc_army</Icon>
-		<RolloverTextID>24634</RolloverTextID>
+		<RolloverTextID>780919</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
@@ -68959,13 +68959,13 @@
 			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="MercJaeger" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="ypRepentantJaeger" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="MercBlackRider" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="ypRepentantBlackRider" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="MercLandsknecht" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="ypRepentantLandsknecht" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerIt" relativity="Absolute">

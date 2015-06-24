@@ -75,6 +75,13 @@
 			<component>Man</component>
 		</anim>
 		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
 			Death
 			<assetreference type="GrannyAnim">
 				<file>animation_library\naval\flat_boat\deathc</file>
@@ -111,6 +118,13 @@
 				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
 			</assetreference>
 			<component>Man3</component>
+		</anim>
+		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man</component>
 		</anim>
 		<anim>
 			Walk
@@ -187,6 +201,19 @@
 		Idle
 		<assetreference type="GrannyAnim">
 			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.65</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
@@ -287,6 +314,13 @@
 			<component>Man</component>
 		</anim>
 		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
 			Death
 			<assetreference type="GrannyAnim">
 				<file>animation_library\naval\flat_boat\deathc</file>
@@ -323,6 +357,13 @@
 				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
 			</assetreference>
 			<component>Man3</component>
+		</anim>
+		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man</component>
 		</anim>
 		<anim>
 			Walk
@@ -399,6 +440,19 @@
 		Idle
 		<assetreference type="GrannyAnim">
 			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.65</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
@@ -499,6 +553,13 @@
 			<component>Man</component>
 		</anim>
 		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
 			Death
 			<assetreference type="GrannyAnim">
 				<file>animation_library\naval\flat_boat\deathc</file>
@@ -535,6 +596,13 @@
 				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
 			</assetreference>
 			<component>Man3</component>
+		</anim>
+		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man</component>
 		</anim>
 		<anim>
 			Walk
@@ -611,6 +679,19 @@
 		Idle
 		<assetreference type="GrannyAnim">
 			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.65</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
@@ -711,6 +792,13 @@
 			<component>Man</component>
 		</anim>
 		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
 			Death
 			<assetreference type="GrannyAnim">
 				<file>animation_library\naval\flat_boat\deathc</file>
@@ -747,6 +835,13 @@
 				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
 			</assetreference>
 			<component>Man3</component>
+		</anim>
+		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man</component>
 		</anim>
 		<anim>
 			Walk
@@ -823,6 +918,19 @@
 		Idle
 		<assetreference type="GrannyAnim">
 			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.65</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
@@ -923,6 +1031,13 @@
 			<component>Man</component>
 		</anim>
 		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
 			Death
 			<assetreference type="GrannyAnim">
 				<file>animation_library\naval\flat_boat\deathc</file>
@@ -959,6 +1074,13 @@
 				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
 			</assetreference>
 			<component>Man3</component>
+		</anim>
+		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man</component>
 		</anim>
 		<anim>
 			Walk
@@ -1035,6 +1157,19 @@
 		Idle
 		<assetreference type="GrannyAnim">
 			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.65</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
@@ -1135,6 +1270,13 @@
 			<component>Man</component>
 		</anim>
 		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
 			Death
 			<assetreference type="GrannyAnim">
 				<file>animation_library\naval\flat_boat\deathc</file>
@@ -1171,6 +1313,13 @@
 				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
 			</assetreference>
 			<component>Man3</component>
+		</anim>
+		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man</component>
 		</anim>
 		<anim>
 			Walk
@@ -1247,6 +1396,19 @@
 		Idle
 		<assetreference type="GrannyAnim">
 			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.65</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
@@ -1347,6 +1509,13 @@
 			<component>Man</component>
 		</anim>
 		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatB</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
 			Death
 			<assetreference type="GrannyAnim">
 				<file>animation_library\naval\flat_boat\deathc</file>
@@ -1383,6 +1552,13 @@
 				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
 			</assetreference>
 			<component>Man3</component>
+		</anim>
+		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\IGC\naval\sitting_fishing_boatC_idle</file>
+			</assetreference>
+			<component>Man</component>
 		</anim>
 		<anim>
 			Walk
@@ -1459,6 +1635,19 @@
 		Idle
 		<assetreference type="GrannyAnim">
 			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>units\naval\fishing_ship\fishing_ship_idle</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.65</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
@@ -1559,6 +1748,13 @@
 			<component>Man</component>
 		</anim>
 		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\sitting_fishing_boat</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
 			Walk
 			<assetreference type="GrannyAnim">
 				<file>animation_library\naval\flat_boat\sitting_fishing_boat</file>
@@ -1634,6 +1830,18 @@
 		Idle
 		<assetreference type="GrannyAnim">
 			<file>units\naval\native_fishing_boat\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>units\naval\native_fishing_boat\idle</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.65</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
@@ -1726,6 +1934,13 @@
 			<component>Man</component>
 		</anim>
 		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>animation_library\naval\flat_boat\sitting_fishing_boat</file>
+			</assetreference>
+			<component>Man</component>
+		</anim>
+		<anim>
 			Walk
 			<assetreference type="GrannyAnim">
 				<file>animation_library\naval\flat_boat\sitting_fishing_boat</file>
@@ -1801,6 +2016,18 @@
 		Idle
 		<assetreference type="GrannyAnim">
 			<file>units\naval\native_fishing_boat\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="Man" frombone="" tobone="" syncanims="1"/>
+	</anim>
+	<anim>
+		Build
+		<assetreference type="GrannyAnim">
+			<file>units\naval\native_fishing_boat\idle</file>
+			<weight>90</weight>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.65</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>

@@ -2688,26 +2688,6 @@
 			<smallportraittexture>ui\singleplayer\cpai_avatar_japanese</smallportraittexture>
 			<smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
 		</matchmakingtextures>
-		<blocktrain>
-			<building>ypConsulate</building>
-			<unit>MarineJ</unit>
-			<count>4</count>
-		</blocktrain>
-		<blocktrain>
-			<building>ypConsulate</building>
-			<unit>RiflemanUSJ</unit>
-			<count>5</count>
-		</blocktrain>
-		<blocktrain>
-			<building>ypConsulate</building>
-			<unit>SaberJ</unit>
-			<count>3</count>
-		</blocktrain>
-		<blocktrain>
-			<building>ypConsulate</building>
-			<unit>xpGatlingGunJ</unit>
-			<count>2</count>
-		</blocktrain>
 		<unitregen>
 			<unittype>ypFireship</unittype>
 			<rate>-0.50</rate>
@@ -2910,7 +2890,7 @@
 				<unit>MarineJ</unit>
 			</units>
 			<unitcounts>
-				<count>6</count>
+				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
@@ -2920,7 +2900,7 @@
 				<unit>RiflemanUSJ</unit>
 			</units>
 			<unitcounts>
-				<count>8</count>
+				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
@@ -2930,7 +2910,7 @@
 				<unit>xpGatlingGunJ</unit>
 			</units>
 			<unitcounts>
-				<count>4</count>
+				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
@@ -2940,7 +2920,7 @@
 				<unit>SaberJ</unit>
 			</units>
 			<unitcounts>
-				<count>7</count>
+				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
@@ -4698,30 +4678,30 @@
 			<building>ypConsulate</building>
 			<multipleblockunit>ypConsulateArmyItalians1</multipleblockunit>
 			<units>
-				<unit>MercSwissPikeman</unit>
+				<unit>ypRepentantSwissPikeman</unit>
 			</units>
 			<unitcounts>
-				<count>4</count>
-			</unitcounts>
-		</multipleblocktrain>
-		<multipleblocktrain>
-			<building>ypConsulate</building>
-			<multipleblockunit>ypConsulateArmyItalians2</multipleblockunit>
-			<units>
-				<unit>MercElmeti</unit>
-			</units>
-			<unitcounts>
-				<count>2</count>
+				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>ypConsulate</building>
 			<multipleblockunit>ypConsulateArmyItalians3</multipleblockunit>
 			<units>
-				<unit>MercLandsknecht</unit>
+				<unit>ypRepentantElmeti</unit>
 			</units>
 			<unitcounts>
-				<count>6</count>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypConsulate</building>
+			<multipleblockunit>ypConsulateArmyItalians2</multipleblockunit>
+			<units>
+				<unit>ypRepentantLandsknecht</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
 		<key>I</key>

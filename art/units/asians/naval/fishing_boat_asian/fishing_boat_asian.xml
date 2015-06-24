@@ -112,6 +112,17 @@
 			<component>japanese</component>
 		</anim>
 		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>units\asians\naval\fishing_boat_asian\asian_fishing_boat_idle01</file>
+				<weight>90</weight>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.65</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
+			</assetreference>
+			<component>japanese</component>
+		</anim>
+		<anim>
 			Walk
 			<assetreference type="GrannyAnim">
 				<file>units\asians\naval\fishing_boat_asian\asian_fishing_boat_walk</file>
@@ -277,6 +288,17 @@
 			Idle
 			<assetreference type="GrannyAnim">
 				<file>units\asians\naval\fishing_boat_asian\india_fishing_boat_idle00</file>
+			</assetreference>
+			<component>Indian</component>
+		</anim>
+		<anim>
+			Build
+			<assetreference type="GrannyAnim">
+				<file>units\asians\naval\fishing_boat_asian\india_fishing_boat_idle00</file>
+				<weight>90</weight>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.36</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Build">0.65</tag>
+				<tag type="SpecificSoundSet" checkvisible="1" set="Build">1.00</tag>
 			</assetreference>
 			<component>Indian</component>
 		</anim>
