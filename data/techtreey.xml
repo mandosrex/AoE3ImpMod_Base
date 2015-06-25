@@ -50128,6 +50128,8 @@
 			<Effect type="Data" action="sweepDamage" amount="20.00" subtype="Damage" relativity="Assign">
 				<Target type="ProtoUnit">AbstractIndianMonk</Target>
 			</Effect>
+			<Effect type="TechStatus" status="active">ConsulateItaliansAge</Effect>
+			<Effect type="TechStatus" status="unobtainable">ConsulateItaliansAge</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypImperializeJapanese" type="Normal">
@@ -50148,8 +50150,6 @@
 			<Effect type="Data" action="SabotageAttack" amount="1500.00" subtype="Damage" relativity="Assign">
 				<Target type="ProtoUnit">AbstractJapaneseMonk</Target>
 			</Effect>
-			<Effect type="TechStatus" status="active">ypConsulateJapaneseMeijiRestoration</Effect>
-			<Effect type="TechStatus" status="unobtainable">ypConsulateJapaneseMeijiRestoration</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPHCShinobi2" type="Normal">
@@ -68853,7 +68853,7 @@
 	<Tech name="ypConsulateUSABrigade" type="Normal">
 		<DBID>4903</DBID>
 		<DisplayNameID>780910</DisplayNameID>
-		<Cost resourcetype="Trade">800.0000</Cost>
+		<Cost resourcetype="Trade">2600.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\Units\gatling_gun_icon</Icon>
@@ -68868,6 +68868,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGunJ" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerUS" relativity="Absolute">
