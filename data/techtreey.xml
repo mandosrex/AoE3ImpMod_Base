@@ -5793,7 +5793,6 @@
 			<Effect type="TechStatus" status="active">EliteHorsemen</Effect>
 			<Effect type="TechStatus" status="active">EliteAennas</Effect>
 			<Effect type="TechStatus" status="active">FieldCannon</Effect>
-			<Effect type="TechStatus" status="active">ImprovedWallsNative</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostImperialXPIroquois" type="Normal">
@@ -6079,7 +6078,6 @@
 			<Effect type="TechStatus" status="obtainable">ChampionRams</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpLegendaryRams</Effect>
 			<Effect type="TechStatus" status="obtainable">TownGuard</Effect>
-			<Effect type="TechStatus" status="obtainable">ImprovedWallsNativeSx</Effect>
 			<Effect type="TechStatus" status="obtainable">Civilization</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCCherokeeWarHutD</Target>
@@ -6334,7 +6332,6 @@
 			<Effect type="TechStatus" status="active">EliteMacehualtins</Effect>
 			<Effect type="TechStatus" status="active">ElitePumaMen</Effect>
 			<Effect type="TechStatus" status="active">EliteCoyotemen</Effect>
-			<Effect type="TechStatus" status="active">ImprovedWallsNative</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostImperialXPAztec" type="Normal">
@@ -21949,13 +21946,13 @@
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypCastle</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Lookout</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Lookout</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypOutpostAsian</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
@@ -36571,7 +36568,7 @@
 			<Effect type="Data" amount="6.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">WarHut</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Lookout</Target>
 			</Effect>
 		</Effects>
@@ -44070,6 +44067,15 @@
 				<Target type="ProtoUnit">NativeEmbassyN</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="SettlerNative" relativity="Absolute">
+				<Target type="ProtoUnit">NativeEmbassyI</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">NativeEmbassy</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">NativeEmbassyN</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">NativeEmbassyI</Target>
 			</Effect>
 			<Effect type="TextOutput">49042</Effect>
@@ -52888,7 +52894,7 @@
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypCastle</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypOutpostAsian</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
@@ -54237,7 +54243,7 @@
 			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypCastle</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypOutpostAsian</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
@@ -56238,7 +56244,7 @@
 		<Cost resourcetype="Trade">700.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\asians\portuguese_expiditionary_fleet_icon_64</Icon>
+		<Icon>ui\units\ironclad_icon</Icon>
 		<RolloverTextID>64245</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>CheckWaterHCGatherPoint</Flag>
@@ -56263,7 +56269,7 @@
 		<Cost resourcetype="Trade">425.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\asians\portuguese_exploration_fleet_icon_64</Icon>
+		<Icon>units\naval\caravel_ship\caravel_ship_icon</Icon>
 		<RolloverTextID>64249</RolloverTextID>
 		<Flag>YPConsulateImprovement</Flag>
 		<Flag>YPCheckPopCap</Flag>
@@ -61780,7 +61786,7 @@
 			<Effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypOutpostAsian</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
@@ -66930,13 +66936,13 @@
 			<Effect type="Data" amount="6.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Lookout</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Lookout</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypOutpostAsian</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
