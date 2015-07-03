@@ -14454,7 +14454,7 @@
 		<String _locID="44038">War Houses</String>
 		<String _locID="44039">TEAM Docks cheaper.</String>
 		<String _locID="44040">TEAM Houses cheaper.</String>
-		<String _locID="44041">War Hut build limit and hitpoints increased.</String>
+		<String _locID="44041">War Hut and Lookout build limit and hitpoints increased.</String>
 		<String _locID="44042">Extensive Fortifications 2</String>
 		<String _locID="44043">Extensive Fortifications Shipment has arrived.</String>
 		<String _locID="44044">Extensive Fortifications II Shipment has arrived.</String>
@@ -14687,7 +14687,7 @@
 		<String _locID="44271">5 Skull Knights</String>
 		<String _locID="44272">4 Skull Knights</String>
 		<String _locID="44273">7 Skull Knights</String>
-		<String _locID="44274">Lookout, War Hut and Nobles' Hut build limit increased.</String>
+		<String _locID="44274">War Hut, Nobles' Hut and Lookout build limit increased.</String>
 		<String _locID="44275">Aztec Fortifications</String>
 		<String _locID="44276">Extensive Fortifications Shipment has arrived.</String>
 		<String _locID="44277">Nobles' Hut attack and hitpoints increased.</String>
@@ -17218,7 +17218,7 @@
 		<String _locID="46816">Ranching Shipment has arrived.</String>
 		<String _locID="46817">Great House</String>
 		<String _locID="46818">Grear House shipment has arrived.</String>
-		<String _locID="46819">Bonds between you and minor Native tribes let you train Native Villagers out of your Embassy. Also increases Embassy limit.</String>
+		<String _locID="46819">Bonds between you and minor Native tribes let you train Native Villagers out of your Embassy. Also increases Embassy build limit.</String>
 		<String _locID="46820">Kinship Ties</String>
 		<String _locID="46821">Ranching Shipment has arrived.</String>
 		<String _locID="46822">5 Spies</String>
@@ -17576,7 +17576,7 @@
 		<String _locID="47174">Silent Strike</String>
 		<String _locID="47175">Onikare Shipment has arrived.</String>
 		<String _locID="47176">Silent Strike Shipment has arrived.</String>
-		<String _locID="47177">Line of sight and range of War Huts and Nobles' Huts increased.</String>
+		<String _locID="47177">Line of sight and range of War Huts, Nobles' Huts and Lookouts increased.</String>
 		<String _locID="47178">Stone Towers</String>
 		<String _locID="47179">Silent Strike Shipment has arrived.</String>
 		<String _locID="47180">Looming Towers Shipment has arrived.</String>
@@ -25672,7 +25672,7 @@
 		<String _locID="66385">Ships 2 Castle Rickshaws that can transform into Castles. Grants the Mountain Castle upgrade.</String>
 		<String _locID="66386">Hill Castle</String>
 		<String _locID="66387">Mountain Castle</String>
-		<String _locID="66388">Line of sight and range of Castles increased.</String>
+		<String _locID="66388">Line of sight and range of Castles and Towers increased.</String>
 		<String _locID="66389">Yamashiro</String>
 		<String _locID="66390">Stone Castles Shipment has arrived.</String>
 		<String _locID="66391">Tower and Castle build limit and hitpoints increased, +1 Villager.</String>
@@ -28158,7 +28158,7 @@
 		<String _locID="68876">TEAM 2 Mongol Scouts</String>
 		<String _locID="68877">TEAM Dutch player sent everyone an Envoy.</String>
 		<String _locID="68878">TEAM Chinese player sent everyone Mongol Scouts.</String>
-		<String _locID="68879">TEAM Ships 1 Castle Rickshaw that can transform into a Castle.</String>
+		<String _locID="68879">TEAM Ships 1 Castle Rickshaw that can transform into a Castle (Outposts or War Huts).</String>
 		<String _locID="68880">TEAM 1 Castle Rickshaw</String>
 		<String _locID="68881">TEAM Rice Paddies, Farms, Mills, Livestock Pens, Villages, and Plantations are cheaper, and build much more quickly.</String>
 		<String _locID="68882">TEAM Land Grab</String>
@@ -29784,7 +29784,7 @@
 		<String _locID="70505">Besteiro</String>
 		<String _locID="70506" symbol="cStringJoinRequestDifferentContent">Error Joining: Content mismatch.</String>
 		<String _locID="70507">TEAM 2 Castle Rickshaws</String>
-		<String _locID="70508">TEAM Ships 2 Castle Rickshaw that can transform into a Castle.</String>
+		<String _locID="70508">TEAM Ships 2 Castle Rickshaw that can transform into a Castle (Outposts or War Huts).</String>
 		<String _locID="70509">Advances you to Imperial Age.</String>
 		<String _locID="70510">Meiji Restoration</String>
 		<String _locID="70511">TEAM increased all Crates to 115 resources.</String>
@@ -30241,7 +30241,7 @@
 		<String _locID="780823">French Support</String>
 		<String _locID="780824">Ships a large number of Gendarmes (Cuirassiers) and Culverins.</String>
 		<String _locID="780825">Ships a large number of Garrochistas (Lancers), Espadachins (Rodeleros) and Sakers.</String>
-		<String _locID="780826">Ships a large number of Riflemen and Gatling Guns.</String>
+		<String _locID="780826">Ships a large number of Gatling Guns and Patriot Militia.</String>
 		<String _locID="780827">Total Villagers: {numUnits(AbstractVillager)}\nTotal Fishing Boats: {numUnits(AbstractFishingBoat)}\nTotal Town Centers: {numUnits(TownCenter)}</String>
 		<String _locID="780828">Send collected resources as Tribute</String>
 		<String _locID="780829" symbol="cStringxpIroquoisWarChiefKnockoutTooltipText">I will join the spirits... soon.</String>
@@ -30316,7 +30316,7 @@
 		<String _locID="780908">Italian Allies\n+10% Building Hitpoints</String>
 		<String _locID="780909">Trains:\nSwiss Guards\nElmeti\nBlack Riders\nLandsknecht\n \nShipments:\nMercenaries</String>
 		<String _locID="780910">American Brigade</String>
-		<String _locID="780911">Ships a large number of Patriot Militia and Gatling Guns.</String>
+		<String _locID="780911">Ships a large number of Gatling Guns and Patriot Militia.</String>
 		<String _locID="780912">Inquisition</String>
 		<String _locID="780913">A Missionary gathers at every Town Center.</String>
 		<String _locID="780914">Papal Decree</String>
@@ -30325,5 +30325,7 @@
 		<String _locID="780917">An army of Italian Elmeti mercenaries.\n2 Elmeti: heavy cavalry armed with a lance. Good against infantry.</String>
 		<String _locID="780918">An army of German Landsknecht mercenaries.\n6 Landsknecht: flamboyant heavy infantry mercenary.</String>
 		<String _locID="780919">Ships an army of repentant Holy Roman mercenaries: Landsknecht, Black Riders and Jaegers.</String>
+		<String _locID="780920">Bonds between you and minor Native tribes let your Explorer to build a Native Embassy.</String>
+		<String _locID="780921">Native Ties</String>
 	</Language>
 </StringTable>

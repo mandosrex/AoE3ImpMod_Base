@@ -394,14 +394,14 @@
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\volley\volley_standing_fire</file>
 			<tag type="Attack">0.45</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="MusketShot">0.45</tag>
-			<tag type="Particles" particlename="musketshot">0.45</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.45</tag>
+			<tag type="Particles" particlename="pistolshot_right">0.45</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\volley\volley_kneeling_fire</file>
 			<tag type="Attack">0.45</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="MusketShot">0.45</tag>
-			<tag type="Particles" particlename="musketshot">0.45</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="PistolShot">0.45</tag>
+			<tag type="Particles" particlename="pistolshot_right">0.45</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="musket" frombone="bone_gun" tobone="bip01 prop1" syncanims="0"/>

@@ -238,6 +238,10 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">NativeScoutF</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">ChurchTies</Effect>
 			<Effect type="SetName" proto="Halberdier" culture="none" newName="28292"/>
 			<Effect type="SetName" proto="Cuirassier" culture="none" newName="780888"/>
 			<Effect type="Data" amount="150.00" subtype="Resource" resource="Fame" relativity="Absolute">
@@ -9271,8 +9275,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='25.00' subtype ='PopulationCapExtra' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 			<Effect type="TechStatus" status="obtainable">ImpImmigrantsAsian</Effect>
 			<Effect type="TechStatus" status="active">XPTrickle</Effect>
 			<Effect type="TechStatus" status="obtainable">Civilization</Effect>
@@ -35088,6 +35090,9 @@
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">WarHut</Target>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Lookout</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCXPShipCanoes1" type="Normal">
@@ -46440,6 +46445,12 @@
 			<Effect type="Data" action="RangedAttack" amount="6.00" subtype="MaximumRange" relativity="Absolute">
 				<Target type="ProtoUnit">NoblesHut</Target>
 			</Effect>
+			<Effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">Lookout</Target>
+			</Effect>
+			<Effect type="Data" action="RangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">Lookout</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCXPReligiousUnity" type="Normal">
@@ -49827,6 +49838,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
+			<Effect type="Data" amount="44.00" subtype="PopulationCapExtra" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="TechStatus" status="active">Colonialize</Effect>
 			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractMonk</Target>
@@ -61760,6 +61774,12 @@
 			<Effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">ypCastle</Target>
 			</Effect>
+			<Effect type="Data" action="RangedAttack" amount="4.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">ypOutpostAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">ypOutpostAsian</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPHCExtensiveFortificationsIndians" type="Normal">
@@ -62184,10 +62204,10 @@
 			<TechStatus status="Active">ConSupport</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="RiflemanUSJ" relativity="Absolute">
+			<Effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGunJ" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGunJ" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerUS" relativity="Absolute">
@@ -62299,7 +62319,7 @@
 			<TechStatus status="Active">ConSupport</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="ypConsulateGendarmes" relativity="Absolute">
+			<Effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="ypConsulateGendarmes" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="ypConsulateCulverin" relativity="Absolute">
@@ -68876,7 +68896,7 @@
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGunJ" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
+			<Effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerUS" relativity="Absolute">
@@ -68982,6 +69002,25 @@
 			</Effect>
 			<Effect tech="YPHCEnlistGurkhas" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypNatMercGurkha" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ChurchTies" type="Normal">
+		<DBID>172</DBID>
+		<DisplayNameID>780921</DisplayNameID>
+		<Cost resourcetype="Wood">200.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Kinship_Ties</Icon>
+		<RolloverTextID>780920</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>UniqueTech</Flag>
+		<Prereqs>
+			<TechStatus status="Active">HCRoyalDecreeFrench</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">NativeEmbassyN</Target>
 			</Effect>
 		</Effects>
 	</Tech>
