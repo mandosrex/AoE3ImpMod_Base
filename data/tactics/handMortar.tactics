@@ -17,12 +17,12 @@
 		<spreadfactor>0.25</spreadfactor>
 		<trackrating>12</trackrating>
 		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
-		<impacteffect>effects\impacts\grenade</impacteffect>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<projectile>MortarShell</projectile>
 		<areasortmode>Radial</areasortmode>
 		<perfectaccuracy>0</perfectaccuracy>
 		<targetground>1</targetground>
 		<basedamagecap>1</basedamagecap>
-		<projectile>Grenade</projectile>
 		<minrange>4</minrange>
 		<rate type="all">1.0 </rate>
 		<throw>1</throw>

@@ -185,7 +185,6 @@
 		Bombard_reload
 		<assetreference type="GrannyAnim">
 			<file>units\asians\chinese\hand_mortar\handMortar_load_unlimber01</file>
-			<tag type="SpecificSoundSet" checkvisible="1" set="GrenadeLight">0.55</tag>
 		</assetreference>
 		<component>mortar</component>
 	</anim>

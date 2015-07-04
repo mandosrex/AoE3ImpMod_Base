@@ -500,7 +500,7 @@
 		</civ>
 		<civ>
 			USA
-			<title>USS Ironclad</title>
+			<title>Ironclad</title>
 		</civ>
 	</protounit>
 	<protounit>
@@ -1486,7 +1486,7 @@
 			<title>Charger</title>
 		</civ>
 		<civ>
-			xpLakota
+			XPSioux
 			<title>Two Moons</title>
 			<title>Good Thunder</title>
 			<title>Finds Buffalo</title>
@@ -1756,40 +1756,6 @@
 		WarDog
 		<civ>
 			Default
-			<title>Agave</title>
-			<title>Boca Chica</title>
-			<title>Bonito</title>
-			<title>Boracho</title>
-			<title>Camarone</title>
-			<title>Cantina</title>
-			<title>Cerveza</title>
-			<title>Ceviche</title>
-			<title>Don Gato</title>
-			<title>Dorado</title>
-			<title>El Paso</title>
-			<title>Fiesta</title>
-			<title>Flan</title>
-			<title>Frijole</title>
-			<title>Gordo</title>
-			<title>Guajolete</title>
-			<title>Guapo</title>
-			<title>Tio Julio</title>
-			<title>Laredo</title>
-			<title>Largo</title>
-			<title>Loco</title>
-			<title>Margarita</title>
-			<title>Mariposa</title>
-			<title>Nacho</title>
-			<title>Pablo</title>
-			<title>Paco</title>
-			<title>Pinata</title>
-			<title>Pinto</title>
-			<title>Pollo</title>
-			<title>Queso</title>
-			<title>Reynosa</title>
-		</civ>
-		<civ>
-			USA
 			<title>Bobby</title>
 			<title>Sparky</title>
 			<title>Rex</title>
@@ -1966,6 +1932,40 @@
 			<title>Wryly</title>
 			<title>Xantippe</title>
 			<title>Zuzu</title>
+		</civ>
+		<civ>
+			Spanish
+			<title>Agave</title>
+			<title>Boca Chica</title>
+			<title>Bonito</title>
+			<title>Boracho</title>
+			<title>Camarone</title>
+			<title>Cantina</title>
+			<title>Cerveza</title>
+			<title>Ceviche</title>
+			<title>Don Gato</title>
+			<title>Dorado</title>
+			<title>El Paso</title>
+			<title>Fiesta</title>
+			<title>Flan</title>
+			<title>Frijole</title>
+			<title>Gordo</title>
+			<title>Guajolete</title>
+			<title>Guapo</title>
+			<title>Tio Julio</title>
+			<title>Laredo</title>
+			<title>Largo</title>
+			<title>Loco</title>
+			<title>Margarita</title>
+			<title>Mariposa</title>
+			<title>Nacho</title>
+			<title>Pablo</title>
+			<title>Paco</title>
+			<title>Pinata</title>
+			<title>Pinto</title>
+			<title>Pollo</title>
+			<title>Queso</title>
+			<title>Reynosa</title>
 		</civ>
 	</protounit>
 	<protounit>
@@ -2956,6 +2956,613 @@
 			<title>Bonaventura Moreno</title>
 			<title>Jose Solano y Bote</title>
 			<title>Martin Alvarez de Sotomayor</title>
+		</civ>
+	</protounit>
+	<protounit>
+		Church
+		<civ>
+			Default
+			<title>Church</title>
+		</civ>
+		<civ>
+			British
+			<title>Church St. Patrick</title>
+			<title>Church St. John the Baptist</title>
+			<title>Church Tree of Life</title>
+			<title>Church York Minster</title>
+			<title>Church Whitby Abbey</title>
+			<title>Church Mary the Virgin</title>
+		</civ>
+		<civ>
+			Spanish
+			<title>Church Sagrada Familia</title>
+			<title>Church San Francisco el Grande</title>
+			<title>Church San Isidro el Real</title>
+			<title>Church El Escorial</title>
+			<title>Church Capilla Real</title>
+			<title>Church Santa Maria del Mar</title>
+		</civ>
+		<civ>
+			French
+			<title>Church Saint-Etienne</title>
+			<title>Church Pantheon</title>
+			<title>Church Madeleine</title>
+			<title>Church Sacre-Coeur</title>
+			<title>Church Saint-Louis</title>
+			<title>Church Saint-Pierre</title>
+		</civ>
+		<civ>
+			Portuguese
+			<title>Church Mosteiro dos Jeronimos</title>
+			<title>Church Nossa Senhora de Fatima</title>
+			<title>Church Madonna del Pascolo</title>
+			<title>Church Santa Maria ai Monti</title>
+			<title>Church Santi Sergio e Bacco</title>
+		</civ>
+		<civ>
+			Germans
+			<title>Church Gedaechtniskirche</title>
+			<title>Church Aachen</title>
+			<title>Church Wieskirche</title>
+			<title>Church Bernhardiner</title>
+			<title>Church Frauenkirche</title>
+			<title>Church Asamkirche</title>
+		</civ>
+		<civ>
+			Russians
+			<title>Church Vasiliy Blazhennyy</title>
+			<title>Church Pokrovsk</title>
+			<title>Church Khristos Spasitel'</title>
+			<title>Church Isaakiyevskiy</title>
+			<title>Church Nasha Spas na Krovi</title>
+		</civ>
+		<civ>
+			Dutch
+			<title>Church Onze Lieve Heer op Solder</title>
+			<title>Church Mozes and Aaron</title>
+			<title>Church Oude</title>
+			<title>Church Amstelkring</title>
+			<title>Church Nieuwe</title>
+		</civ>
+		<civ>
+			Ottomans
+			<title>Mosque Sultanahmet</title>
+			<title>Mosque Masjid al-Haram</title>
+			<title>Mosque Suleymaniye</title>
+			<title>Mosque Yeni Cami</title>
+			<title>Mosque Eyup</title>
+			<title>Mosque Sehzade</title>
+		</civ>
+	</protounit>
+	<protounit>
+		ypChurch
+		<civ>
+			Default
+			<title>Church Onze Lieve Heer op Solder</title>
+			<title>Church Mozes and Aaron</title>
+			<title>Church Oude</title>
+			<title>Church Amstelkring</title>
+			<title>Church Nieuwe</title>
+		</civ>
+	</protounit>
+	<protounit>
+		ypMonastery
+		<civ>
+			Default
+			<title>Monastery</title>
+		</civ>
+		<civ>
+			Indians
+			<title>Monastery Maya Devi</title>
+			<title>Monastery Mahabodhi</title>
+			<title>Monastery Parinirvana</title>
+			<title>Monastery Namdroling</title>
+			<title>Monastery Tawang</title>
+			<title>Monastery Nalanda</title>
+		</civ>
+		<civ>
+			Chinese
+			<title>Monastery Tsing Shan</title>
+			<title>Monastery Po Lin</title>
+			<title>Monastery Daxiangguo</title>
+			<title>Monastery Huacheng</title>
+			<title>Monastery Longxing</title>
+			<title>Monastery Guiyuan</title>
+		</civ>
+		<civ>
+			Japanese
+			<title>Monastery Eihei-ji</title>
+			<title>Monastery Nishi-Honganji</title>
+			<title>Monastery Sagami-ji</title>
+			<title>Monastery Daitoku-ji</title>
+			<title>Monastery Kuon-ji</title>
+			<title>Monastery Asuka-dera</title>
+		</civ>
+		<civ>
+			SPCIndians
+			<title>Monastery Maya Devi</title>
+			<title>Monastery Mahabodhi</title>
+			<title>Monastery Parinirvana</title>
+			<title>Monastery Namdroling</title>
+			<title>Monastery Tawang</title>
+			<title>Monastery Nalanda</title>
+		</civ>
+		<civ>
+			SPCChinese
+			<title>Monastery Tsing Shan</title>
+			<title>Monastery Po Lin</title>
+			<title>Monastery Daxiangguo</title>
+			<title>Monastery Huacheng</title>
+			<title>Monastery Longxing</title>
+			<title>Monastery Guiyuan</title>
+		</civ>
+		<civ>
+			SPCJapanese
+			<title>Monastery Eihei-ji</title>
+			<title>Monastery Nishi-Honganji</title>
+			<title>Monastery Sagami-ji</title>
+			<title>Monastery Daitoku-ji</title>
+			<title>Monastery Kuon-ji</title>
+			<title>Monastery Asuka-dera</title>
+		</civ>
+	</protounit>
+	<protounit>
+		Firepit
+		<civ>
+			Default
+			<title>Fire Pit</title>
+		</civ>
+		<civ>
+			XPAztec
+			<title>Firepit of Xiuhtecuhtli</title>
+			<title>Firepit of Mixcoatl</title>
+			<title>Firepit of Tlaltecuhtli</title>
+			<title>Firepit of Xipe Totec</title>
+			<title>Firepit of Atlacoya</title>
+		</civ>
+		<civ>
+			XPSioux
+			<title>Firepit of Takuskanskan</title>
+			<title>Firepit of Wohpe</title>
+			<title>Firepit of Inktomi</title>
+			<title>Firepit of Tokahe</title>
+			<title>Firepit of Paha Sapa</title>
+		</civ>
+		<civ>
+			XPIroquois
+			<title>Firepit of Doendzowes</title>
+			<title>Firepit of Otgoe</title>
+			<title>Firepit of Gendenwitha</title>
+			<title>Firepit of Hawenneyu</title>
+			<title>Firepit of Doyadastethe</title>
+		</civ>
+	</protounit>
+	<protounit>
+		PetJaguar
+		<civ>
+			Default
+			<title>Rock</title>
+			<title>Stick</title>
+			<title>River</title>
+			<title>Hope</title>
+			<title>Sky</title>
+			<title>Winter</title>
+			<title>Summer</title>
+			<title>Spring</title>
+			<title>Autumn</title>
+			<title>Leaf</title>
+			<title>Spear</title>
+			<title>Smoke</title>
+			<title>Ghost</title>
+			<title>Spirit</title>
+			<title>Drum</title>
+			<title>Flower</title>
+			<title>Dust</title>
+			<title>Moon</title>
+		</civ>
+	</protounit>
+	<protounit>
+		PetWolf
+		<civ>
+			Default
+			<title>Rock</title>
+			<title>Stick</title>
+			<title>River</title>
+			<title>Hope</title>
+			<title>Sky</title>
+			<title>Winter</title>
+			<title>Summer</title>
+			<title>Spring</title>
+			<title>Autumn</title>
+			<title>Leaf</title>
+			<title>Spear</title>
+			<title>Smoke</title>
+			<title>Ghost</title>
+			<title>Spirit</title>
+			<title>Drum</title>
+			<title>Flower</title>
+			<title>Dust</title>
+			<title>Moon</title>
+		</civ>
+	</protounit>
+	<protounit>
+		PetCoyote
+		<civ>
+			Default
+			<title>Rock</title>
+			<title>Stick</title>
+			<title>River</title>
+			<title>Hope</title>
+			<title>Sky</title>
+			<title>Winter</title>
+			<title>Summer</title>
+			<title>Spring</title>
+			<title>Autumn</title>
+			<title>Leaf</title>
+			<title>Spear</title>
+			<title>Smoke</title>
+			<title>Ghost</title>
+			<title>Spirit</title>
+			<title>Drum</title>
+			<title>Flower</title>
+			<title>Dust</title>
+			<title>Moon</title>
+		</civ>
+	</protounit>
+	<protounit>
+		PetBear
+		<civ>
+			Default
+			<title>Bobby</title>
+			<title>Abbey</title>
+			<title>Allie</title>
+			<title>Ally</title>
+			<title>Angel</title>
+			<title>Anger</title>
+			<title>April</title>
+			<title>Atlas</title>
+			<title>Bandit</title>
+			<title>Barkley</title>
+			<title>Barney</title>
+			<title>Beatrice</title>
+			<title>Bella</title>
+			<title>Belle</title>
+			<title>Ben</title>
+			<title>Bentley</title>
+			<title>Berkely</title>
+			<title>Blackie</title>
+			<title>Bobo</title>
+			<title>Boofred</title>
+			<title>Bowser</title>
+			<title>Brooks</title>
+			<title>Brute</title>
+			<title>Buck</title>
+			<title>Bucky</title>
+			<title>Buffer</title>
+			<title>Buffy</title>
+			<title>Butler</title>
+			<title>Buttercup</title>
+			<title>Caleb</title>
+			<title>Capi</title>
+			<title>Casey</title>
+			<title>Charlie</title>
+			<title>Chauncey</title>
+			<title>Chloe</title>
+			<title>Chopper</title>
+			<title>Chunky</title>
+			<title>Cindy</title>
+			<title>Coco</title>
+			<title>Co-Co</title>
+			<title>Cutter</title>
+			<title>Daisy</title>
+			<title>Dal</title>
+			<title>Diana</title>
+			<title>Ditto</title>
+			<title>Dog</title>
+			<title>Dub</title>
+			<title>Duke</title>
+			<title>Dusty</title>
+			<title>Dutch</title>
+			<title>Eimsteim</title>
+			<title>Elly</title>
+			<title>Ember</title>
+			<title>Enzo</title>
+			<title>Euclid</title>
+			<title>Fluffy</title>
+			<title>Frejole Negro</title>
+			<title>Fritzi</title>
+			<title>Fritzy</title>
+			<title>Gargoyle</title>
+			<title>Gary</title>
+			<title>General</title>
+			<title>Goldie</title>
+			<title>Gretel</title>
+			<title>Harold</title>
+			<title>Harvard Mulligan</title>
+			<title>Harvey</title>
+			<title>Indy</title>
+			<title>Jake</title>
+			<title>Jerk</title>
+			<title>Jersey</title>
+			<title>Jet</title>
+			<title>Joe</title>
+			<title>Josh</title>
+			<title>Kelsey</title>
+			<title>Kissa</title>
+			<title>Lady</title>
+			<title>Leena</title>
+			<title>Leoncico</title>
+			<title>Loki</title>
+			<title>Lucy</title>
+			<title>Lucy Lulu</title>
+			<title>Lulu</title>
+			<title>Mabel</title>
+			<title>Maddie</title>
+			<title>Maddy</title>
+			<title>Magnus</title>
+			<title>Marcie</title>
+			<title>Mario</title>
+			<title>Marius</title>
+			<title>Max</title>
+			<title>Maia</title>
+			<title>Midnight</title>
+			<title>Mudslide</title>
+			<title>Muffin</title>
+			<title>Murphy</title>
+			<title>Naomi</title>
+			<title>Nona</title>
+			<title>Oscar</title>
+			<title>Owen</title>
+			<title>Patatrack</title>
+			<title>Peanut</title>
+			<title>Penny</title>
+			<title>Pepper</title>
+			<title>Petunia</title>
+			<title>Pizza</title>
+			<title>Polarbear</title>
+			<title>Princess</title>
+			<title>Punkin</title>
+			<title>Reno</title>
+			<title>Rigel</title>
+			<title>Rio</title>
+			<title>Ripley</title>
+			<title>Rocco</title>
+			<title>Rocky</title>
+			<title>Rusty</title>
+			<title>Sabre</title>
+			<title>Sadie</title>
+			<title>Sage</title>
+			<title>Sammy</title>
+			<title>Sammy</title>
+			<title>Samson</title>
+			<title>Sandy</title>
+			<title>Sandy</title>
+			<title>Savannah</title>
+			<title>Savvy</title>
+			<title>Scamp</title>
+			<title>Scamper</title>
+			<title>Schatzi</title>
+			<title>Scout</title>
+			<title>Scrappy</title>
+			<title>Screech</title>
+			<title>Scruffy</title>
+			<title>Shadow</title>
+			<title>Shady</title>
+			<title>Shady Lady</title>
+			<title>Sheba</title>
+			<title>Sierra</title>
+			<title>Simi</title>
+			<title>Simone</title>
+			<title>Snickers</title>
+			<title>Socks</title>
+			<title>Sophie</title>
+			<title>Speckles</title>
+			<title>Spenser</title>
+			<title>Spike</title>
+			<title>Spike</title>
+			<title>Spitz</title>
+			<title>Spot</title>
+			<title>Spuds</title>
+			<title>Stormy</title>
+			<title>Stormy the Wonder Dog</title>
+			<title>Sugar</title>
+			<title>Sunny</title>
+			<title>Sweetie</title>
+			<title>Sydney the Puppy</title>
+			<title>Tab</title>
+			<title>Tater</title>
+			<title>Teddy</title>
+			<title>Teddy</title>
+			<title>Tess</title>
+			<title>Tovarisch</title>
+			<title>Topper</title>
+			<title>Tovar</title>
+			<title>Tux the Conqueror</title>
+			<title>Tyson</title>
+			<title>Waggles</title>
+			<title>Winter</title>
+			<title>Wolfie</title>
+			<title>Wryly</title>
+			<title>Xantippe</title>
+			<title>Zuzu</title>
+		</civ>
+	</protounit>
+	<protounit>
+		PetCougar
+		<civ>
+			Default
+			<title>Bobby</title>
+			<title>Abbey</title>
+			<title>Allie</title>
+			<title>Ally</title>
+			<title>Angel</title>
+			<title>Anger</title>
+			<title>April</title>
+			<title>Atlas</title>
+			<title>Bandit</title>
+			<title>Barkley</title>
+			<title>Barney</title>
+			<title>Beatrice</title>
+			<title>Bella</title>
+			<title>Belle</title>
+			<title>Ben</title>
+			<title>Bentley</title>
+			<title>Berkely</title>
+			<title>Blackie</title>
+			<title>Bobo</title>
+			<title>Boofred</title>
+			<title>Bowser</title>
+			<title>Brooks</title>
+			<title>Brute</title>
+			<title>Buck</title>
+			<title>Bucky</title>
+			<title>Buffer</title>
+			<title>Buffy</title>
+			<title>Butler</title>
+			<title>Buttercup</title>
+			<title>Caleb</title>
+			<title>Capi</title>
+			<title>Casey</title>
+			<title>Charlie</title>
+			<title>Chauncey</title>
+			<title>Chloe</title>
+			<title>Chopper</title>
+			<title>Chunky</title>
+			<title>Cindy</title>
+			<title>Coco</title>
+			<title>Co-Co</title>
+			<title>Cutter</title>
+			<title>Daisy</title>
+			<title>Dal</title>
+			<title>Diana</title>
+			<title>Ditto</title>
+			<title>Dog</title>
+			<title>Dub</title>
+			<title>Duke</title>
+			<title>Dusty</title>
+			<title>Dutch</title>
+			<title>Eimsteim</title>
+			<title>Elly</title>
+			<title>Ember</title>
+			<title>Enzo</title>
+			<title>Euclid</title>
+			<title>Fluffy</title>
+			<title>Frejole Negro</title>
+			<title>Fritzi</title>
+			<title>Fritzy</title>
+			<title>Gargoyle</title>
+			<title>Gary</title>
+			<title>General</title>
+			<title>Goldie</title>
+			<title>Gretel</title>
+			<title>Harold</title>
+			<title>Harvard Mulligan</title>
+			<title>Harvey</title>
+			<title>Indy</title>
+			<title>Jake</title>
+			<title>Jerk</title>
+			<title>Jersey</title>
+			<title>Jet</title>
+			<title>Joe</title>
+			<title>Josh</title>
+			<title>Kelsey</title>
+			<title>Kissa</title>
+			<title>Lady</title>
+			<title>Leena</title>
+			<title>Leoncico</title>
+			<title>Loki</title>
+			<title>Lucy</title>
+			<title>Lucy Lulu</title>
+			<title>Lulu</title>
+			<title>Mabel</title>
+			<title>Maddie</title>
+			<title>Maddy</title>
+			<title>Magnus</title>
+			<title>Marcie</title>
+			<title>Mario</title>
+			<title>Marius</title>
+			<title>Max</title>
+			<title>Maia</title>
+			<title>Midnight</title>
+			<title>Mudslide</title>
+			<title>Muffin</title>
+			<title>Murphy</title>
+			<title>Naomi</title>
+			<title>Nona</title>
+			<title>Oscar</title>
+			<title>Owen</title>
+			<title>Patatrack</title>
+			<title>Peanut</title>
+			<title>Penny</title>
+			<title>Pepper</title>
+			<title>Petunia</title>
+			<title>Pizza</title>
+			<title>Polarbear</title>
+			<title>Princess</title>
+			<title>Punkin</title>
+			<title>Reno</title>
+			<title>Rigel</title>
+			<title>Rio</title>
+			<title>Ripley</title>
+			<title>Rocco</title>
+			<title>Rocky</title>
+			<title>Rusty</title>
+			<title>Sabre</title>
+			<title>Sadie</title>
+			<title>Sage</title>
+			<title>Sammy</title>
+			<title>Sammy</title>
+			<title>Samson</title>
+			<title>Sandy</title>
+			<title>Sandy</title>
+			<title>Savannah</title>
+			<title>Savvy</title>
+			<title>Scamp</title>
+			<title>Scamper</title>
+			<title>Schatzi</title>
+			<title>Scout</title>
+			<title>Scrappy</title>
+			<title>Screech</title>
+			<title>Scruffy</title>
+			<title>Shadow</title>
+			<title>Shady</title>
+			<title>Shady Lady</title>
+			<title>Sheba</title>
+			<title>Sierra</title>
+			<title>Simi</title>
+			<title>Simone</title>
+			<title>Snickers</title>
+			<title>Socks</title>
+			<title>Sophie</title>
+			<title>Speckles</title>
+			<title>Spenser</title>
+			<title>Spike</title>
+			<title>Spike</title>
+			<title>Spitz</title>
+			<title>Spot</title>
+			<title>Spuds</title>
+			<title>Stormy</title>
+			<title>Stormy the Wonder Dog</title>
+			<title>Sugar</title>
+			<title>Sunny</title>
+			<title>Sweetie</title>
+			<title>Sydney the Puppy</title>
+			<title>Tab</title>
+			<title>Tater</title>
+			<title>Teddy</title>
+			<title>Teddy</title>
+			<title>Tess</title>
+			<title>Tovarisch</title>
+			<title>Topper</title>
+			<title>Tovar</title>
+			<title>Tux the Conqueror</title>
+			<title>Tyson</title>
+			<title>Waggles</title>
+			<title>Winter</title>
+			<title>Wolfie</title>
+			<title>Wryly</title>
+			<title>Xantippe</title>
+			<title>Zuzu</title>
 		</civ>
 	</protounit>
 </names>
