@@ -227,7 +227,7 @@
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
 		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish
@@ -466,7 +466,7 @@
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
 		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish
@@ -705,7 +705,7 @@
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
 		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish
@@ -944,7 +944,7 @@
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
 		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish
@@ -1183,7 +1183,7 @@
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
 		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish
@@ -1422,7 +1422,7 @@
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
 		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish
@@ -1661,7 +1661,7 @@
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
 		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish
@@ -1853,7 +1853,7 @@
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish
@@ -2039,7 +2039,7 @@
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Man" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish

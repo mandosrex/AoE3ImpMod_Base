@@ -301,7 +301,7 @@
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_04" syncanims="0"/>
 		<attach a="Pirate_flag_back" frombone="ATTACHPOINT" tobone="bone_f_rear_left" syncanims="0"/>
 		<attach a="Pirate_flag_back" frombone="ATTACHPOINT" tobone="bone_f_rear_right" syncanims="0"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		Death

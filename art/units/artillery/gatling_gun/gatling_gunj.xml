@@ -125,7 +125,6 @@
 			<file>animation_library\artillery\gatling_gun\bombard_walk</file>
 		</assetreference>
 		<component>gatling_gun</component>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
 	</anim>
 	<anim>
 		Jog

@@ -647,7 +647,7 @@
 		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
 		<attach a="barel" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="1"/>
 		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		Death
@@ -1330,7 +1330,7 @@
 		<attach a="Man" frombone="hotspot" tobone="bone_man1" syncanims="1"/>
 		<attach a="barel" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="1"/>
 		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		Death

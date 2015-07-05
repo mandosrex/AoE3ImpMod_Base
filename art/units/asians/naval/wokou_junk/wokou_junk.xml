@@ -203,7 +203,7 @@
 		</simskeleton>
 		<attach a="Pirate_flag" frombone="ATTACHPOINT" tobone="bone_RF" syncanims="0"/>
 		<attach a="Pirate_flag2" frombone="ATTACHPOINT" tobone="bone_LF" syncanims="0"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		Death

@@ -68,7 +68,6 @@
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="gun" frombone="bone_gun" tobone="PROP1" syncanims="0"/>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
 	</anim>
 	<anim>
 		Jog

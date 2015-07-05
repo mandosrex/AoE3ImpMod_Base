@@ -246,7 +246,7 @@
 			<model>units\asians\naval\fune\fune_mesh_damaged</model>
 			<damagetemplate>units\asians\naval\fune\fune_mesh_damage.dmg</damagetemplate>
 		</simskeleton>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 		<attach a="flag" frombone="ATTACHPOINT" tobone="GARRISONFLAG" syncanims="0"/>
 	</anim>
 	<anim>

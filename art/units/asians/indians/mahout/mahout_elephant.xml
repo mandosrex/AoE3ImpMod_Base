@@ -93,7 +93,6 @@
 			<tag type="FootstepRight" footprinttype="Elephant" footprintbone="BipElephant01 R Foot">0.40</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
 	</anim>
 	<anim>
 		Jog

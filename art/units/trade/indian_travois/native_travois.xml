@@ -189,9 +189,7 @@
 			</assetreference>
 			<component>sio_travois</component>
 			<attach a="Horse_Debris" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
-			<attach a="Horse_Debris" frombone="HS Bone Master" tobone="HS Bone Hoof Back Rt" syncanims="0"/>
 			<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
-			<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Rt" syncanims="0"/>
 		</anim>
 		<anim>
 			Idle

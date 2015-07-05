@@ -139,8 +139,7 @@
 			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.03</tag>
 		</assetreference>
 		<component>great_bombard</component>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Rt" syncanims="0"/>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="ATTACHMENT" syncanims="0"/>
 	</anim>
 	<anim>
 		Jog
@@ -156,8 +155,7 @@
 			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.03</tag>
 		</assetreference>
 		<component>great_bombard</component>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Rt" syncanims="0"/>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="ATTACHMENT" syncanims="0"/>
 	</anim>
 	<anim>
 		Run
@@ -173,8 +171,7 @@
 			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.03</tag>
 		</assetreference>
 		<component>great_bombard</component>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Rt" syncanims="0"/>
+		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="ATTACHMENT" syncanims="0"/>
 	</anim>
 	<anim>
 		idle

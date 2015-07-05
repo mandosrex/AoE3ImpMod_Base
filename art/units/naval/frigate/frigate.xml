@@ -462,6 +462,6 @@
 			<model>units\naval\frigate\frigate_damaged</model>
 			<damagetemplate>units\naval\frigate\frigate.dmg</damagetemplate>
 		</simskeleton>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 </animfile>

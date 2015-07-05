@@ -229,7 +229,7 @@
 			<model>units\naval\caravel_ship\caravel_ship_damaged</model>
 			<damagetemplate>units\naval\caravel_ship\caravel.dmg</damagetemplate>
 		</simskeleton>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish

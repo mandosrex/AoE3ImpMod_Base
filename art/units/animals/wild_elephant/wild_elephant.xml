@@ -54,7 +54,6 @@
 				<tag type="FootstepRight">0.80</tag>
 			</assetreference>
 			<component>male</component>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
 		</anim>
 		<anim>
 			Death
@@ -72,7 +71,7 @@
 				<tag type="FootstepRight">0.80</tag>
 			</assetreference>
 			<component>male</component>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
+			<attach a="Horse_Dust" frombone="HS Bone Master" tobone="ATTACHEMENT" syncanims="0"/>
 		</anim>
 	</submodel>
 	<submodel>
@@ -132,6 +131,7 @@
 				<tag type="FootstepRight">0.80</tag>
 			</assetreference>
 			<component>female</component>
+			<attach a="Horse_Dust" frombone="HS Bone Master" tobone="ATTACHEMENT" syncanims="0"/>
 		</anim>
 	</submodel>
 	<component>

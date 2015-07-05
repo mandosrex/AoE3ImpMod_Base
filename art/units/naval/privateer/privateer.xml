@@ -183,7 +183,7 @@
 			<damagetemplate>units\naval\privateer\privateer.dmg</damagetemplate>
 		</simskeleton>
 		<attach a="Pirate_flag" frombone="ATTACHPOINT" tobone="bone_banner" syncanims="0"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		Death

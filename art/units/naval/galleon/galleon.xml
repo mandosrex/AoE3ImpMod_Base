@@ -291,7 +291,7 @@
 			<model>units\naval\galleon\galleon_damaged</model>
 			<damagetemplate>units\naval\galleon\galleon.dmg</damagetemplate>
 		</simskeleton>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		Death

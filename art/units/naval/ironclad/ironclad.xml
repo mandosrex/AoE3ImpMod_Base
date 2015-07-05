@@ -352,7 +352,7 @@
 		<attach a="smoke_A" frombone="MASTER" tobone="bone_smoke_01" syncanims="0"/>
 		<attach a="smoke_A" frombone="MASTER" tobone="bone_smoke_02" syncanims="0"/>
 		<attach a="train_smoke_plume1" frombone="MASTER" tobone="bone_smoke_01" syncanims="0"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		Death

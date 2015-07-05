@@ -84,7 +84,7 @@
 			<tag type="SpecificSoundSet" checkvisible="1" set="SplashSmall">0.43</tag>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish

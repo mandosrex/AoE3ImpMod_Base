@@ -253,7 +253,7 @@
 		</simskeleton>
 		<attach a="Flag_R" frombone="ATTACHPOINT" tobone="bone_R_fl" syncanims="0"/>
 		<attach a="Flag_L" frombone="ATTACHPOINT" tobone="bone_L_fl" syncanims="0"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 		<attach a="flag" frombone="ATTACHPOINT" tobone="GARRISONFLAG" syncanims="0"/>
 	</anim>
 	<anim>

@@ -257,7 +257,6 @@
 			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof4">0.03</tag>
 		</assetreference>
 		<component>cannon</component>
-		<attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"/>
 	</anim>
 	<anim>
 		Jog

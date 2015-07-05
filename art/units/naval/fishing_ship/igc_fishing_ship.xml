@@ -178,7 +178,7 @@
 		<attach a="Man" frombone="" tobone="" syncanims="0"/>
 		<attach a="Man2" frombone="" tobone="" syncanims="0"/>
 		<attach a="Man3" frombone="" tobone="" syncanims="1"/>
-		<attach a="boat_wake" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
+		<attach a="boat_wake2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>
 		GatherFish
