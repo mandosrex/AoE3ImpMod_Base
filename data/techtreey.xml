@@ -66007,6 +66007,9 @@
 			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
 				<Target type="ProtoUnit">ypRepentantDacoit</Target>
 			</Effect>
+			<Effect type="Data" action="Heal" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonastery</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPHCAtonementChinese" type="Normal">
@@ -66019,6 +66022,9 @@
 		<RolloverTextID>69654</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type="Data" action="Heal" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonastery</Target>
+			</Effect>
 			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
 				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
 			</Effect>
@@ -66097,6 +66103,9 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
+			<Effect type="Data" action="Heal" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonastery</Target>
+			</Effect>
 			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
 				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
 			</Effect>

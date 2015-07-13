@@ -1530,7 +1530,7 @@
 		<String _locID="22922">Artillery Foundry</String>
 		<String _locID="22923">Provides military improvements.</String>
 		<String _locID="22924">Arsenal</String>
-		<String _locID="22927">Trains healers and provides colony improvements. Also heals nearby units.</String>
+		<String _locID="22927">Trains healers and provides colony improvements.</String>
 		<String _locID="22928">Church</String>
 		<String _locID="22934">Fast-moving sword and buckler infantry.</String>
 		<String _locID="22935">Rodelero</String>
@@ -2324,7 +2324,7 @@
 		<String _locID="25617">Exploration canoe</String>
 		<String _locID="25618">Caravel. Exploration ship</String>
 		<String _locID="25619">Ranged cavalry</String>
-		<String _locID="25620">Improvement building / Healing building</String>
+		<String _locID="25620">Improvement building</String>
 		<String _locID="25623">French villager</String>
 		<String _locID="25624">Archer</String>
 		<String _locID="25625">Heavy cavalry</String>
@@ -16382,7 +16382,7 @@
 		<String _locID="45976" symbol="cStringChooseAge3">Select a Conquest Age</String>
 		<String _locID="45977" symbol="cStringChooseAge4">Select an Industrial Age</String>
 		<String _locID="45978" symbol="cStringChooseAge5">Select an Imperial Age</String>
-		<String _locID="45979" symbol="cStringCouncilMember">Council Member (Fire Pit)</String>
+		<String _locID="45979" symbol="cStringCouncilMember">Council Member</String>
 		<String _locID="45981" gamecharacter="Nathaniel" soundfilename="XNATH9240">Good work. Two more forts and we'll control the battlefield.</String>
 		<String _locID="45982" gamecharacter="Nathaniel" soundfilename="XNATH9245">One more fort and we'll win the battle. Look sharp!</String>
 		<String _locID="45983">Kuechler's Army</String>
@@ -19650,8 +19650,8 @@
 		<String _locID="60202">Food building / Coin building</String>
 		<String _locID="60203">Slow, infinite source of Food or Coin. Limited to 10 gatherers.</String>
 		<String _locID="60204">Rice Paddy</String>
-		<String _locID="60205">Mercenary building / improvement building / Healing building</String>
-		<String _locID="60206">Trains repentant outlaws and mercenaries. Provides Monk improvements and heals nearby units.</String>
+		<String _locID="60205">Mercenary building / improvement building</String>
+		<String _locID="60206">Trains repentant outlaws and mercenaries. Provides powerful Monk improvements.</String>
 		<String _locID="60207">Monastery</String>
 		<String _locID="60208">Cavalry building</String>
 		<String _locID="60209">Trains and upgrades hand and ranged cavalry.</String>
@@ -22855,8 +22855,8 @@
 		<String _locID="63519">Mechanized Rice Cultivation</String>
 		<String _locID="63520">Villagers gather Coin from all sources much faster.</String>
 		<String _locID="63521">Collective Economy</String>
-		<String _locID="63522">A central fort dominates the map. Capture and hold it for victory. \nNot recommended on Regicide maps.</String>
-		<String _locID="63523" symbol="cStringKOTHMapVictoryTimer">You Have the Fort</String>
+		<String _locID="63522">A central monument dominates the map. Capture and hold it for victory. \nNot recommended on Regicide maps.</String>
+		<String _locID="63523" symbol="cStringKOTHMapVictoryTimer">You Have the Hill</String>
 		<String _locID="63524">Villagers gather Wood extremely fast.</String>
 		<String _locID="63525">Circular Saw</String>
 		<String _locID="63526">Villagers gather Wood much faster.</String>
@@ -28664,7 +28664,7 @@
 		<String _locID="69383">Ships 7 Samurai and increases their attack and hitpoints.</String>
 		<String _locID="69384" symbol="cStringypSPCStolenGoods" comment="1 - amount, 2 - resource">Stolen goods worth %1d %2s.</String>
 		<String _locID="69385" symbol="cStringypSPCStolenGoodsActivate" comment="1 - player, 2 - amount, 3 - resource">%1s has recovered stolen goods worth %2d %3s.</String>
-		<String _locID="69386" symbol="cStringWonderChoice">Wonder (Villagers)</String>
+		<String _locID="69386" symbol="cStringWonderChoice">Wonder</String>
 		<String _locID="69387" symbol="cStringCeaseFireTimeRemaining">Cease Fire Time Remaining</String>
 		<String _locID="69388" symbol="cStringCeaseFireWarning1">One minute until end of Cease Fire!</String>
 		<String _locID="69389">Export Rate</String>
@@ -28927,16 +28927,16 @@
 		<String _locID="69646">A pet monkey that likes to wash his food and is good against guardians.</String>
 		<String _locID="69647">Duber the Pet Monkey</String>
 		<String _locID="69648">Pet Snow Monkey</String>
-		<String _locID="69649">Train Yojimbo mercenaries from the Monastery, and outlaw-type units cost less population.</String>
+		<String _locID="69649">Enables the Monastery to heal nearby units and train special mercenaries, and outlaw-type units cost less population.</String>
 		<String _locID="69650">Atonement</String>
 		<String _locID="69651">Dance Hall</String>
 		<String _locID="69652">Dance Hall Shipment has arrived.</String>
 		<String _locID="69653">Atonement Shipment has arrived.</String>
-		<String _locID="69654">Train Iron Troop mercenaries from the Monastery, and outlaw-type units cost less population.</String>
+		<String _locID="69654">Enables the Monastery to heal nearby units and train special mercenaries, and outlaw-type units cost less population.</String>
 		<String _locID="69655">Atonement</String>
 		<String _locID="69656">Dance Hall</String>
 		<String _locID="69657">Atonement Shipment has arrived.</String>
-		<String _locID="69658">Train Jat Lancer mercenaries from the Monastery, and outlaw-type units cost less population, +1 Villager.</String>
+		<String _locID="69658">Enables the Monastery to heal nearby units and train special mercenaries, and outlaw-type units cost less population, +1 Villager.</String>
 		<String _locID="69659">Atonement</String>
 		<String _locID="69660">Dance Hall</String>
 		<String _locID="69661">Atonement Shipment has arrived.</String>
