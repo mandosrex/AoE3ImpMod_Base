@@ -189,6 +189,10 @@
 						<from>units\asians\naval\wokou_junk\wokou_junk_color</from>
 						<to>units\asians\naval\wokou_junk\wokou_junk_color2</to>
 					</replacetexture>
+					<replacetexture>
+						<from>units\asians\naval\wokou_junk\wokou_sail_color</from>
+						<to>units\asians\naval\wokou_junk\wokou_sail_color2</to>
+					</replacetexture>
 				</assetreference>
 			</p1>
 			<p99>
@@ -197,6 +201,10 @@
 					<replacetexture>
 						<from>units\asians\naval\wokou_junk\wokou_junk_color</from>
 						<to>units\asians\naval\wokou_junk\wokou_junk_color2</to>
+					</replacetexture>
+					<replacetexture>
+						<from>units\asians\naval\wokou_junk\wokou_sail_color</from>
+						<to>units\asians\naval\wokou_junk\wokou_sail_color2</to>
 					</replacetexture>
 				</assetreference>
 			</p99>
@@ -215,6 +223,10 @@
 			<replacetexture>
 				<from>units\asians\naval\wokou_junk\wokou_junk_color</from>
 				<to>units\asians\naval\wokou_junk\wokou_junk_color2</to>
+			</replacetexture>
+			<replacetexture>
+				<from>units\asians\naval\wokou_junk\wokou_sail_color</from>
+				<to>units\asians\naval\wokou_junk\wokou_sail_color2</to>
 			</replacetexture>
 		</assetreference>
 		<decal>

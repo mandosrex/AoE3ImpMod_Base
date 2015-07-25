@@ -1538,7 +1538,7 @@
 		<String _locID="22938">Crossbowman</String>
 		<String _locID="22939">Light cavalry that sacrifices hitpoints for attack.</String>
 		<String _locID="22940">Uhlan</String>
-		<String _locID="22942">Heavy Cannon</String>
+		<String _locID="22942">Basilisk Cannon</String>
 		<String _locID="22943">Slow, heavy infantry with a large attack.</String>
 		<String _locID="22944">Halberdier</String>
 		<String _locID="22945">Ranged cavalry. Good against cavalry.</String>
@@ -1669,7 +1669,7 @@
 		<String _locID="23476">Voltigeurs</String>
 		<String _locID="23478">Cuirassier attack and hitpoints greatly increased.</String>
 		<String _locID="23479">Gendarmes</String>
-		<String _locID="23481">Ships 6 Young Guard Grenadiers from the motherland. Also improves all Grenadiers.</String>
+		<String _locID="23481">Ships 6 Young Guard Grenadiers from the motherland and a General to boost your units in combat.</String>
 		<String _locID="23482">Garde Imperial 1</String>
 		<String _locID="23489">Progressive law causes your villagers to gather all resources more quickly. However, the additional bureaucracy increases building cost.</String>
 		<String _locID="23490">Code Napoleon</String>
@@ -5845,7 +5845,7 @@
 		<String _locID="34566">All Mercenaries gain custom weapons. Mercenary attack increased. But, all your buildings now cost significantly more to construct.</String>
 		<String _locID="34567">Customized Merc Weapons</String>
 		<String _locID="34569" gamecharacter="Kanyenke" soundfilename="KANY5038">Now we must lead the great white buffalo to the Lakota village near where we first arrived.</String>
-		<String _locID="34572">Imperial upgrade for Heavy Cannon.</String>
+		<String _locID="34572">Imperial upgrade for Basilisk Cannon.</String>
 		<String _locID="34573">Imperial Cannon</String>
 		<String _locID="34575">Imperial Cannon</String>
 		<String _locID="34576">Alain Magnan's Army</String>
@@ -6482,7 +6482,7 @@
 		<String _locID="35741">2 Falconets</String>
 		<String _locID="35742">2 Mortars</String>
 		<String _locID="35743">3 Mortars</String>
-		<String _locID="35744">2 Heavy Cannons</String>
+		<String _locID="35744">2 Basilisk Cannons</String>
 		<String _locID="35745" symbol="cStringHomeCityHarbor">Harbor</String>
 		<String _locID="35746" symbol="cStringHomeCityHarborRollove">Naval units, naval upgrades, and mercenaries</String>
 		<String _locID="35747" gamecharacter="Morgan" soundfilename="MORG2040">I'm told the Caribs have cut off Havana's trade from the rest of Cuba.</String>
@@ -7037,7 +7037,7 @@
 		<String _locID="36444" gamecharacter="Kanyenke" soundfilename="KANY2005">That takes care of the war huts.</String>
 		<String _locID="36445" gamecharacter="John" soundfilename="JOHN2025">Let's see if they're ready to call off these attacks.</String>
 		<String _locID="36446">3 Mortars +4 Uhlans</String>
-		<String _locID="36447">2 Heavy Cannons +4 Uhlans</String>
+		<String _locID="36447">2 Basilisk Cannons +4 Uhlans</String>
 		<String _locID="36448">All Native lore improvements at Trading Posts cost no Coin, +2 Uhlans.</String>
 		<String _locID="36449">Native Lore</String>
 		<String _locID="36450">With this upgrade, you are able to research new technologies at the Trading Post, which differ depending on which Native Ally you have.</String>
@@ -7746,7 +7746,7 @@
 		<String _locID="37266">Each Blockhouse will do a one-time muster of 5 Strelets. In addition, all Strelets get a HP boost.</String>
 		<String _locID="37267">Strelet Horde</String>
 		<String _locID="37268">Mortar training cost decreased, train rate and attack increased.</String>
-		<String _locID="37269">Unicorne Mortars</String>
+		<String _locID="37269">Bombardment Artillery</String>
 		<String _locID="37270">20 Sheep</String>
 		<String _locID="37271">Infantry attack versus buildings increased.</String>
 		<String _locID="37272">Ransack</String>
@@ -12354,7 +12354,7 @@
 		<String _locID="41936">Treaty of Tordesillas has arrived.</String>
 		<String _locID="41937">Lipizzaner Cavalry Shipment has arrived.</String>
 		<String _locID="41938">Treaty of Tordesillas Shipment has arrived.</String>
-		<String _locID="41939">Unicorne Mortars Shipment has arrived.</String>
+		<String _locID="41939">Bombardment Artillery Shipment has arrived.</String>
 		<String _locID="41940">Boyars Shipment has arrived.</String>
 		<String _locID="41941">Wilderness Warfare Shipment has arrived.</String>
 		<String _locID="41942">1 Settler Wagon</String>
@@ -12576,7 +12576,7 @@
 		<String _locID="42158">Advanced Frontier Defenses</String>
 		<String _locID="42159">6 Spahis</String>
 		<String _locID="42160">TEAM Native Warriors are cheaper.</String>
-		<String _locID="42161">2 Heavy Cannons.</String>
+		<String _locID="42161">2 Basilisk Cannons.</String>
 		<String _locID="42162">TEAM Coin source.</String>
 		<String _locID="42163">TEAM Coin source.</String>
 		<String _locID="42164">TEAM Wood source</String>
@@ -13711,7 +13711,7 @@
 		<String _locID="43294">Auto Gather Coin</String>
 		<String _locID="43295">Auto Gather Food</String>
 		<String _locID="43296">Auto Gather Wood</String>
-		<String _locID="43297">Spawn Heavy Cannon</String>
+		<String _locID="43297">Spawn Basilisk Cannon</String>
 		<String _locID="43298">Spawn Rocket</String>
 		<String _locID="43299">Spawn Great Bombard</String>
 		<String _locID="43300" symbol="cStringXPFirewallDetected">The windows firewall is blocking the game. Would you like to allow the game to use your network resources?</String>
@@ -16031,7 +16031,7 @@
 		<String _locID="45617">PROP XP Mortar</String>
 		<String _locID="45618">Artillery</String>
 		<String _locID="45619">A cannon that doesn't belong to you - yet.</String>
-		<String _locID="45620">Heavy Cannon</String>
+		<String _locID="45620">Basilisk Cannon</String>
 		<String _locID="45621">PROP XP Mortar</String>
 		<String _locID="45622">PROP XP Heavy Cannon</String>
 		<String _locID="45623">Artillery</String>
@@ -16363,19 +16363,19 @@
 		<String _locID="45956">Grand Canyon: description goes here.</String>
 		<String _locID="45957">Colonial Militia have more hitpoints.</String>
 		<String _locID="45958">Louverture</String>
-		<String _locID="45959">Gatling Guns have more hitpoints.</String>
+		<String _locID="45959">Grants 2 Gatling Guns and increases their hitpoints.</String>
 		<String _locID="45960">Washington</String>
-		<String _locID="45961">10 Outlaws rally to your cause.</String>
+		<String _locID="45961">Grants 20 Outlaws. Wild West is researched for free.</String>
 		<String _locID="45962">Hidalgo</String>
-		<String _locID="45963">Grants Tupi warriors. All Natives are Legendary.</String>
+		<String _locID="45963">Grants 20 Tupi warriors. All Natives are Legendary.</String>
 		<String _locID="45964">Bonifacio</String>
 		<String _locID="45965">All units gain slightly more hitpoints.</String>
 		<String _locID="45966">Bolivar</String>
-		<String _locID="45967">Grants 4 Imperial Howitzers.</String>
+		<String _locID="45967">Grants 4 Mortars and increases their range.</String>
 		<String _locID="45968">San Martin</String>
 		<String _locID="45969">Grants 3 Ironclads.</String>
 		<String _locID="45970">Santander</String>
-		<String _locID="45971">Grants 10 Hussars and their Imperial upgrade.</String>
+		<String _locID="45971">Grants 10 Hussars and increases their hitpoints.</String>
 		<String _locID="45972">OHiggins</String>
 		<String _locID="45973" symbol="cStringRevoltButton">Revolution!</String>
 		<String _locID="45975" symbol="cStringChooseAge2">Select an Expansion Age</String>
@@ -17307,7 +17307,7 @@
 		<String _locID="46905">Nitroglycerine Petard</String>
 		<String _locID="46906">ART Petard Nitro</String>
 		<String _locID="46907">Demolition Squad</String>
-		<String _locID="46908">Ships four Nitro Petards, capable of destroying an entire building with a single blast. +4 Uhlans</String>
+		<String _locID="46908">Ships four powerful Nitro Petards, also enables Petards to be trained from the Artillery Foundry. +4 Uhlans</String>
 		<String _locID="46909" symbol="cStringHCNoteTitle6">Deck Building</String>
 		<String _locID="46910" symbol="cStringHCNoteText6">You have just earned your 21st Card! In the Fire and Shadow campaign, your Deck is limited to twenty Cards, but you are allowed to have multiple Decks. If you're having trouble winning a scenario, try building a different Deck!</String>
 		<String _locID="46911">Champion Arrow Knights</String>
@@ -17367,7 +17367,7 @@
 		<String _locID="46965">Friendly Territory Shipment has arrived.</String>
 		<String _locID="46966">2 Horse Artillery</String>
 		<String _locID="46967">3 Horse Artillery</String>
-		<String _locID="46968">1 Heavy Cannon +4 Uhlans</String>
+		<String _locID="46968">1 Basilisk Cannon +4 Uhlans</String>
 		<String _locID="46969">10 Rodeleros</String>
 		<String _locID="46970">6 Grenadiers</String>
 		<String _locID="46971">8 Halberdiers</String>
@@ -19292,11 +19292,11 @@
 		<String _locID="48893">Imperial upgrade for Horse Artillery.</String>
 		<String _locID="48894">Imperial Horse Artillery</String>
 		<String _locID="48895">Imperial Howitzer</String>
-		<String _locID="48896">Imperial Horse Gun</String>
+		<String _locID="48896">Imperial Horse Artillery</String>
 		<String _locID="48897">Horse Artillery attack and hitpoints increased.</String>
-		<String _locID="48898">Heavy Horse Guns</String>
+		<String _locID="48898">Heavy Horse Artillery</String>
 		<String _locID="48899">Field Gun</String>
-		<String _locID="48900">Heavy Horse Gun</String>
+		<String _locID="48900">Heavy Horse Artillery</String>
 		<String _locID="48901">Hole in the Wall Gang</String>
 		<String _locID="48902">Railroad Town</String>
 		<String _locID="48903">Show statistics for Age of Empires III</String>
@@ -20756,8 +20756,8 @@
 		<String _locID="61308">3 Fluyts</String>
 		<String _locID="61309">Ships 6 Fusiliers.</String>
 		<String _locID="61310">6 Fusiliers</String>
-		<String _locID="61311">Ships 3 Heavy Cannons.</String>
-		<String _locID="61312">3 Heavy Cannons</String>
+		<String _locID="61311">Ships 3 Basilisk Cannons.</String>
+		<String _locID="61312">3 Basilisk Cannons</String>
 		<String _locID="61313">Ships 12 Musketeers.</String>
 		<String _locID="61314">12 Musketeers</String>
 		<String _locID="61315">Ships 8 Dragoons.</String>
@@ -20774,8 +20774,8 @@
 		<String _locID="61326">8 Sowars</String>
 		<String _locID="61327">Ships 12 Gurkhas.</String>
 		<String _locID="61328">12 Gurkhas</String>
-		<String _locID="61329">Ships 3 Heavy Cannons.</String>
-		<String _locID="61330">3 Heavy Cannons</String>
+		<String _locID="61329">Ships 3 Basilisk Cannons.</String>
+		<String _locID="61330">3 Basilisk Cannons</String>
 		<String _locID="61331">Ships a Monitor.</String>
 		<String _locID="61332">1 Monitor</String>
 		<String _locID="61333">Ships a Frigate.</String>
@@ -20788,16 +20788,16 @@
 		<String _locID="61340">6 Organ Guns</String>
 		<String _locID="61341">Ships 6 Elmeti.</String>
 		<String _locID="61342">6 Elmeti</String>
-		<String _locID="61343">Ships 3 Heavy Cannons.</String>
-		<String _locID="61344">3 Heavy Cannons</String>
+		<String _locID="61343">Ships 3 Basilisk Cannons.</String>
+		<String _locID="61344">3 Basilisk Cannons</String>
 		<String _locID="61345">Ships 3 Dutch Grenadiers.</String>
 		<String _locID="61346">3 Dutch Grenadiers</String>
 		<String _locID="61347">Ships a Dutch Culverin.</String>
 		<String _locID="61348">1 Dutch Culverin</String>
 		<String _locID="61349">Ships a Dutch Mortar.</String>
 		<String _locID="61350">1 Dutch Mortar</String>
-		<String _locID="61351">Ships 3 Heavy Cannons.</String>
-		<String _locID="61352">3 Heavy Cannons</String>
+		<String _locID="61351">Ships 3 Basilisk Cannons.</String>
+		<String _locID="61352">3 Basilisk Cannons</String>
 		<String _locID="61353">Ships 6 Abus Guns.</String>
 		<String _locID="61354">6 Abus Guns</String>
 		<String _locID="61355">Ships 6 Mamelukes.</String>
@@ -22303,13 +22303,13 @@
 		<String _locID="62922">2 Spanish Outpost Wagons</String>
 		<String _locID="62923">Ships 2 Falconets and makes enables continued Falconet shipments.</String>
 		<String _locID="62924">2 Spanish Falconets</String>
-		<String _locID="62925">Ships 1 Heavy Cannon and 10 Tercios and enables continued Heavy Cannon shipments.</String>
-		<String _locID="62926">1 Heavy Cannon + 10 Tercios</String>
+		<String _locID="62925">Ships 1 Basilisk Cannon and 10 Tercios and enables continued Heavy Cannon shipments.</String>
+		<String _locID="62926">1 Basilisk Cannon + 10 Tercios</String>
 		<String _locID="62927">Ships an Outpost Wagon</String>
 		<String _locID="62928">Merchant Marine</String>
 		<String _locID="62929">Ships Tercios and a Falconet. Allows training of the Tercio Army at the Consulate.</String>
 		<String _locID="62930">Bullionism</String>
-		<String _locID="62931">Ships Garrochistas and a Heavy Cannon. Allows training of Heavy Cannons at the Consulate.</String>
+		<String _locID="62931">Ships Garrochistas and a Basilisk Cannon. Allows training of Heavy Cannons at the Consulate.</String>
 		<String _locID="62932">Nanban Trade</String>
 		<String _locID="62933">Ships 3 British Grenadiers.</String>
 		<String _locID="62934">3 British Grenadiers</String>
@@ -23044,8 +23044,8 @@
 		<String _locID="63714">CON Baratcu Corps</String>
 		<String _locID="63715">Ships Life Guard Hussars.</String>
 		<String _locID="63716">5 Life Guard</String>
-		<String _locID="63717">Upgrades Heavy Cannons into Imperial Heavy Cannons.</String>
-		<String _locID="63718">Imperial Heavy Cannon</String>
+		<String _locID="63717">Upgrades Basilisk Cannons into Imperial Basilisk Cannons.</String>
+		<String _locID="63718">Imperial Basilisk Cannon</String>
 		<String _locID="63719">Ships Guerreiros Musketeers.</String>
 		<String _locID="63720">5 Guerreiros</String>
 		<String _locID="63721">Upgrades the attack and hitpoints of Falconets and Culverins.</String>
@@ -23437,7 +23437,7 @@
 		<String _locID="64142">Imperial upgrade for Falconets.</String>
 		<String _locID="64143">Imperial Field Guns</String>
 		<String _locID="64144">Imperial Field Gun</String>
-		<String _locID="64145">Imperial upgrade for Heavy Cannon.</String>
+		<String _locID="64145">Imperial upgrade for Basilisk Cannon.</String>
 		<String _locID="64146">Imperial Cannon</String>
 		<String _locID="64147">Imperial Cannon</String>
 		<String _locID="64148">Imperial upgrade for Culverins.</String>
@@ -25129,7 +25129,7 @@
 		<String _locID="65842">British Expeditionary Army</String>
 		<String _locID="65843">British Expeditionary Army</String>
 		<String _locID="65844">Hand infantry, good against cavalry / light artillery, good against infantry</String>
-		<String _locID="65845">An army of Spanish Tercios (Pikemen) and a Saker.\n10 Tercios: archaic hand infantry that is good against cavalry.\n1 Saker: light artillery that is better against infantry and artillery.</String>
+		<String _locID="65845">An army of Spanish Tercios (Pikemen) and a Field Gun (Falconet).\n10 Tercios: archaic hand infantry that is good against cavalry.\n1 Field Gun: light artillery that is better against infantry than buildings.</String>
 		<String _locID="65846">Spanish Expeditionary Force</String>
 		<String _locID="65847">Spanish Expeditionary Force</String>
 		<String _locID="65848">Fast hand infantry, good against cavalry / light artillery, good against infantry</String>
@@ -25153,12 +25153,12 @@
 		<String _locID="65866">German Expeditionary Force</String>
 		<String _locID="65867">German Expeditionary Force</String>
 		<String _locID="65868">Rifle infantry, good against heavy infantry / heavy artillery, good against infantry and buildings</String>
-		<String _locID="65869">An army of German Prussian Needle Guns (Skirmishers) and Heavy Cannons.\n11 Prussian Needle Guns: riflemen armed with a long-ranged attack but low hitpoints.\n2 Heavy Cannons: heavy artillery, good against infantry and buildings.</String>
+		<String _locID="65869">An army of German Prussian Needle Guns (Skirmishers) and Basilisk Cannons.\n11 Prussian Needle Guns: riflemen armed with a long-ranged attack but low hitpoints.\n2 Basilisk Cannons: heavy artillery, good against infantry and buildings.</String>
 		<String _locID="65870">German Expeditionary Army</String>
 		<String _locID="65871">German Expeditionary Army</String>
 		<String _locID="65872">Heavy artillery</String>
 		<String _locID="65873">Heavy artillery. Good against infantry or buildings.</String>
-		<String _locID="65874">Heavy Cannon</String>
+		<String _locID="65874">Basilisk Cannon</String>
 		<String _locID="65875">CON Heavy Cannon</String>
 		<String _locID="65876" symbol="cStringGuardians">Guardians:</String>
 		<String _locID="65877" symbol="cStringTreasure">Treasure:</String>
@@ -25188,7 +25188,7 @@
 		<String _locID="65901">CON Young Garde</String>
 		<String _locID="65902">Ships Black Watch.</String>
 		<String _locID="65903">Ships Black Watch.</String>
-		<String _locID="65904">Trains:\nDoppelsoldners\nSkirmishers\nHeavy Cannons\n \nShipments:\nResource trickles</String>
+		<String _locID="65904">Trains:\nDoppelsoldners\nSkirmishers\nBasilisk Cannons\n \nShipments:\nResource trickles</String>
 		<String _locID="65905">German Allies\n-30 to Banner Army Cost</String>
 		<String _locID="65906">Kick out your ally so that you can choose a new one.</String>
 		<String _locID="65907">End Relations</String>
@@ -25522,7 +25522,7 @@
 		<String _locID="66235">Shinobi-iri Shipment has arrived.</String>
 		<String _locID="66236">Trains:\nHorse Artillery\nFalconets\nMortars\n \nShipments:\nEconomic buildings</String>
 		<String _locID="66237">Dutch Allies\n+0.8 Coin Trickle Rate</String>
-		<String _locID="66238">Trains:\nCulverin\nFalconets\nHeavy Cannon\n \nShipments:\nBoats</String>
+		<String _locID="66238">Trains:\nCulverin\nFalconets\nBasilisk Cannon\n \nShipments:\nBoats</String>
 		<String _locID="66239">Portuguese Allies\n-15% Faster Training Settlers</String>
 		<String _locID="66240">Culverin Army</String>
 		<String _locID="66241">An army of 2 Culverin.</String>
@@ -25532,8 +25532,8 @@
 		<String _locID="66245">An army of 1 Falconet and 2 Culverin.</String>
 		<String _locID="66246">Portuguese Expeditionary Force</String>
 		<String _locID="66247">Portuguese Expeditionary Force</String>
-		<String _locID="66248">Heavy Cannon/Mortar Army</String>
-		<String _locID="66249">An army of 3 Heavy Cannon and 3 Culverin.</String>
+		<String _locID="66248">Basilisk Cannon/Mortar Army</String>
+		<String _locID="66249">An army of 3 Basilisk Cannon and 3 Culverin.</String>
 		<String _locID="66250">Portuguese Expeditionary Army</String>
 		<String _locID="66251">Portuguese Expeditionary Army</String>
 		<String _locID="66252">Horse Artillery Army</String>
@@ -25583,7 +25583,7 @@
 		<String _locID="66296">Imperial Culverin</String>
 		<String _locID="66297">Imperial Horse Artillery</String>
 		<String _locID="66298">Imperial Great Bombard</String>
-		<String _locID="66299">Imperial Heavy Cannon</String>
+		<String _locID="66299">Imperial Basilisk Cannon</String>
 		<String _locID="66300">Imperial Field Gun</String>
 		<String _locID="66301">Imperial Howitzer</String>
 		<String _locID="66302">Build a Trading Post here</String>
@@ -30081,7 +30081,7 @@
 		<String _locID="78064">Veteran Fencible</String>
 		<String _locID="78065">Veteran Fencibles</String>
 		<String _locID="78066">Improved Bows</String>
-		<String _locID="78067">Soldiers armed with bows have their attack increased.</String>
+		<String _locID="78067">Archer cavalry and infantry have their attack increased.</String>
 		<String _locID="78068">Lumber Camp Wagon</String>
 		<String _locID="78069">Transforms into a Lumber Camp.</String>
 		<String _locID="780670">Transforms into a Lumber Camp</String>
@@ -30226,7 +30226,7 @@
 		<String _locID="780809">%1s has recovered a navigation chart worth 200 XP.</String>
 		<String _locID="780810">Aid Tent</String>
 		<String _locID="780811">Blackbeard</String>
-		<String _locID="780812">Raise the black flag and show your support against oppression. Grants Outlaw Pirates and a pirate fleet.</String>
+		<String _locID="780812">Raising the black flag will enable Spies and Blockade to be researched by your colony. Grants Outlaw Pirates and a pirate fleet.</String>
 		<String _locID="780813">Queen Anne's Revenge</String>
 		<String _locID="780814">Flagship of Edward "Blackbeard" Teach.</String>
 		<String _locID="780815">Piracy</String>
@@ -30240,7 +30240,7 @@
 		<String _locID="780822">American Support</String>
 		<String _locID="780823">French Support</String>
 		<String _locID="780824">Ships a large number of Gendarmes (Cuirassiers) and Culverins.</String>
-		<String _locID="780825">Ships a large number of Garrochistas (Lancers), Espadachins (Rodeleros) and Sakers.</String>
+		<String _locID="780825">Ships a large number of Garrochistas (Lancers) and Espadachins (Rodeleros).</String>
 		<String _locID="780826">Ships a large number of Gatling Guns and Patriot Militia.</String>
 		<String _locID="780827">Total Villagers: {numUnits(AbstractVillager)}\nTotal Fishing Boats: {numUnits(AbstractFishingBoat)}\nTotal Town Centers: {numUnits(TownCenter)}</String>
 		<String _locID="780828">Send collected resources as Tribute</String>
@@ -30329,5 +30329,24 @@
 		<String _locID="780921">Native Ties</String>
 		<String _locID="780922">Indian Allies\n</String>
 		<String _locID="780923">Trains:\nMahout\nHowdah\nFlail Elephants\nSiege Elephants\n \nShipments:\nElephants</String>
+		<String _locID="780924">Brig</String>
+		<String _locID="780925">Brig. Good at exploring, fishing or transport.</String>
+		<String _locID="780926">Brig. Exploration ship</String>
+		<String _locID="780927">Heavy Culverins</String>
+		<String _locID="780928">Heavy Culverin</String>
+		<String _locID="780929">Heavy Falconets</String>
+		<String _locID="780930">Heavy Falconet</String>
+		<String _locID="780931">Heavy Mortars</String>
+		<String _locID="780932">Heavy Mortar</String>
+		<String _locID="780933">Unicorn Artillery</String>
+		<String _locID="780934">Heavy Frigates</String>
+		<String _locID="780935">Heavy Frigate</String>
+		<String _locID="780936">Imperial Unicorn Artillery</String>
+		<String _locID="780937">Imperial Ship-of-the-Line</String>
+		<String _locID="780938">Imperial Ships-of-the-Line</String>
+		<String _locID="780939">Imperial Falconets</String>
+		<String _locID="780940">Imperial Falconet</String>
+		<String _locID="780941">Imperial Culverins</String>
+		<String _locID="780942">Imperial Culverin</String>
 	</Language>
 </StringTable>

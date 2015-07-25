@@ -584,11 +584,11 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
-			<name>HCShipSaker</name>
+			<name>HCShipFalconets1</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
-			<age>1</age>
+			<age>2</age>
 			<displayunitcount>2</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
@@ -596,7 +596,7 @@
 			<name>HCShipFalconets2</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
-			<prereqtech>HCShipSaker</prereqtech>
+			<prereqtech>HCShipFalconets1</prereqtech>
 			<age>3</age>
 			<displayunitcount>2</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
@@ -1306,7 +1306,7 @@
 				<card>HCCheapBarracksTeam</card>
 				<card>HCShipLancers1</card>
 				<card>HCShipLancers2</card>
-				<card>HCShipSaker</card>
+				<card>HCShipFalconets1</card>
 				<card>HCShipMortars1</card>
 				<card>HCAdvancedArtillery</card>
 				<card>HCUnlockFort</card>
@@ -1328,7 +1328,7 @@
 				<card>HCCheapBarracksTeam</card>
 				<card>HCShipLancers1</card>
 				<card>HCShipLancers2</card>
-				<card>HCShipSaker</card>
+				<card>HCShipFalconets1</card>
 				<card>HCShipMortars1</card>
 				<card>HCAdvancedArtillery</card>
 				<card>HCUnlockFort</card>
@@ -1466,7 +1466,7 @@
 			<tech x="6.0" y="4.0">HCCaballeros</tech>
 			<tech x="5.3" y="4.0">HCShipLancers4</tech>
 			<tech x="5.3" y="5.0">HCShipLancers5</tech>
-			<tech x="6.7" y="1.0">HCShipSaker</tech>
+			<tech x="6.7" y="1.0">HCShipFalconets1</tech>
 			<tech x="6.7" y="2.0">HCShipFalconets2</tech>
 			<tech x="6.7" y="3.0">HCShipFalconets3</tech>
 			<tech x="6.7" y="7.0">HCXPShipCulverins2</tech>
@@ -1482,7 +1482,7 @@
 			<tech>HCShipRodeleros2</tech>
 			<tech>HCShipLancers1</tech>
 			<tech>HCShipLancers2</tech>
-			<tech>HCShipSaker</tech>
+			<tech>HCShipFalconets1</tech>
 			<tech>HCShipMortars1</tech>
 			<tech>HCAdvancedArtillery</tech>
 		</activetechs>

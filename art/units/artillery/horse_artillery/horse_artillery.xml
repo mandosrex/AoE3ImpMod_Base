@@ -106,7 +106,7 @@
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 					</HCArtilleryCombatFrench>
-					<ImperialHorseArtillery2>
+					<HeavyHorseArtillerynew>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\horse_artillery\horse_artillery</file>
 							<replacetexture>
@@ -115,7 +115,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-					</ImperialHorseArtillery2>
+					</HeavyHorseArtillerynew>
 					<ImperialHorseArtilleryUS2>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\horse_artillery\horse_artillery</file>
@@ -191,7 +191,7 @@
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
 					</HCArtilleryCombatFrench>
-					<ImperialHorseArtillery>
+					<HeavyHorseArtillerynew>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\horse_artillery\horse_artillery_stripped</file>
 							<replacetexture>
@@ -200,7 +200,7 @@
 							</replacetexture>
 						</assetreference>
 						<attach a="hats" frombone="bone_hat" tobone="Bip01 Head" syncanims="0"/>
-					</ImperialHorseArtillery>
+					</HeavyHorseArtillerynew>
 					<ImperialHorseArtilleryUS>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\horse_artillery\horse_artillery_stripped</file>

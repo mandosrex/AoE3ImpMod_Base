@@ -682,7 +682,7 @@
 		<card>
 			<name>HCXPShipDemolitionSquadGerman</name>
 			<maxcount>1</maxcount>
-			<level>40</level>
+			<level>10</level>
 			<prereqtech>-1</prereqtech>
 			<age>3</age>
 			<displayunitcount>4</displayunitcount>
@@ -1494,7 +1494,8 @@
 			<tech x="5.2" y="4.0">HCShipUhlans4</tech>
 			<tech x="4.9" y="5.0">HCShipUhlans5</tech>
 			<tech x="5.6" y="5.0">HCUhlanCombatGerman</tech>
-			<tech x="5.6" y="7.0">HCXPShipDemolitionSquadGerman</tech>
+			<tech x="5.6" y="7.0">HCXPShipCannonsRepeat</tech>
+			<tech x="5.7" y="1.0">HCXPShipDemolitionSquadGerman</tech>
 			<tech x="6.4" y="1.0">HCShipFalconets1German</tech>
 			<tech x="6.4" y="2.0">HCShipFalconets2German</tech>
 			<tech x="6.4" y="3.0">HCShipCulverins1German</tech>

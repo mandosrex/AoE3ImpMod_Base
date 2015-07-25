@@ -80,7 +80,7 @@
 						<attach a="hats" frombone="bone_hat" tobone="Bip04 Head" syncanims="0"/>
 						<attach a="hats" frombone="bone_hat" tobone="Bip05 Head" syncanims="0"/>
 					</howitzer>
-					<imperialhowitzer2>
+					<howitzernew>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\mortar\mortar</file>
 							<replacetexture>
@@ -91,7 +91,7 @@
 						<attach a="hats" frombone="bone_hat" tobone="Bip03 Head" syncanims="0"/>
 						<attach a="hats" frombone="bone_hat" tobone="Bip04 Head" syncanims="0"/>
 						<attach a="hats" frombone="bone_hat" tobone="Bip05 Head" syncanims="0"/>
-					</imperialhowitzer2>
+					</howitzernew>
 					<howitzerus>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\mortar\mortar</file>
