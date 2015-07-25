@@ -790,6 +790,7 @@
 			<prereqtech>-1</prereqtech>
 			<age>1</age>
 			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCAdvancedArsenal</name>
@@ -805,6 +806,7 @@
 			<prereqtech>-1</prereqtech>
 			<age>2</age>
 			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCExtensiveFortifications</name>
@@ -891,6 +893,7 @@
 			<prereqtech>-1</prereqtech>
 			<age>3</age>
 			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCRobberBaronsGerman</name>

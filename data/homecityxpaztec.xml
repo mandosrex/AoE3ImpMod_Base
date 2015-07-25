@@ -711,6 +711,7 @@
 			<prereqtech>HCPioneers</prereqtech>
 			<age>2</age>
 			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCXPShipNoblesHutTravois2</name>
@@ -719,6 +720,7 @@
 			<prereqtech>HCXPShipNoblesHutTravois1</prereqtech>
 			<age>3</age>
 			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCXPShipNoblesHutTravois3</name>
@@ -727,6 +729,7 @@
 			<prereqtech>HCXPShipNoblesHutTravois2</prereqtech>
 			<age>3</age>
 			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCXPTownDance</name>

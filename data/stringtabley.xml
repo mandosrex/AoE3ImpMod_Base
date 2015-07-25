@@ -6195,7 +6195,7 @@
 		<String _locID="35285">Passenger Car</String>
 		<String _locID="35296">Virginia Company</String>
 		<String _locID="35297">Manors are cheaper.</String>
-		<String _locID="35298">Upgrades Falconets to Field Guns and Mortars to Howitzers for free.</String>
+		<String _locID="35298">All Heavy and Royal artillery upgrades are now cheaper.</String>
 		<String _locID="35299">Advanced Artillery</String>
 		<String _locID="35307">Yeomen</String>
 		<String _locID="35308">Longbowman range increased and Imperial upgrade enabled.</String>
@@ -8742,7 +8742,7 @@
 		<String _locID="38276" symbol="cStringESORejected">Host Rejected</String>
 		<String _locID="38277" symbol="cStringESOUnknown">Unknown</String>
 		<String _locID="38280">Advanced Artillery shipment has arrived.</String>
-		<String _locID="38281">Upgrades Falconets to Field Guns and Mortars to Howitzers for free, +4 Uhlans.</String>
+		<String _locID="38281">All Heavy and Royal artillery upgrades are now cheaper, +4 Uhlans.</String>
 		<String _locID="38282">Advanced Artillery</String>
 		<String _locID="38283">Advanced Artillery Shipment has arrived.</String>
 		<String _locID="38284">Leave Chat Room</String>
@@ -30348,5 +30348,8 @@
 		<String _locID="780940">Imperial Falconet</String>
 		<String _locID="780941">Imperial Culverins</String>
 		<String _locID="780942">Imperial Culverin</String>
+		<String _locID="780943">1 Dhow +1 Villager</String>
+		<String _locID="780944">2 Dhow +1 Villager</String>
+		<String _locID="780945">3 Dhow +1 Villager</String>
 	</Language>
 </StringTable>

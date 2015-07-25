@@ -809,6 +809,7 @@
 			<prereqtech>-1</prereqtech>
 			<age>0</age>
 			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCXPShipTravois2</name>
@@ -817,6 +818,7 @@
 			<prereqtech>HCXPShipTravois1</prereqtech>
 			<age>1</age>
 			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCXPShipTravois3</name>
@@ -825,6 +827,7 @@
 			<prereqtech>HCXPShipTravois2</prereqtech>
 			<age>2</age>
 			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCFishMarket</name>

@@ -707,6 +707,7 @@
 			<prereqtech>-1</prereqtech>
 			<age>1</age>
 			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCHeavyFortifications</name>
@@ -729,6 +730,7 @@
 			<prereqtech>-1</prereqtech>
 			<age>2</age>
 			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCXPUnlockFort2</name>
@@ -808,6 +810,7 @@
 			<prereqtech>-1</prereqtech>
 			<age>3</age>
 			<displayunitcount>1</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
 			<name>HCRobberBarons</name>
@@ -1442,7 +1445,7 @@
 			<tech x="0.7" y="2.0">HCShipLongbowmen2</tech>
 			<tech x="0.7" y="3.0">HCShipLongbowmen3</tech>
 			<tech x="0.7" y="4.0">HCShipLongbowmen4</tech>
-			<tech x="1.2" y="7.0">HCShipLongbowmen5</tech>
+			<tech x="0.7" y="7.0">HCShipLongbowmen5</tech>
 			<tech x="2.0" y="1.0">HCShipMusketeers1</tech>
 			<tech x="2.0" y="2.0">HCShipMusketeers2</tech>
 			<tech x="1.7" y="3.0">HCShipMusketeers3</tech>
