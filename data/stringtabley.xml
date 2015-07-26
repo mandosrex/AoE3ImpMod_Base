@@ -1832,7 +1832,7 @@
 		<String _locID="23956">Gardeners</String>
 		<String _locID="23958">Settlers are produced faster.</String>
 		<String _locID="23959">Millet System</String>
-		<String _locID="23977">Better contracts make all mercenaries and mercenary shipments cheaper.</String>
+		<String _locID="23977">Better contracts make all mercenary shipments free.</String>
 		<String _locID="23978">Wallenstein's Contracts</String>
 		<String _locID="23980">Ships 25 powerful Stadhouders (Musketeers) from the homeland.</String>
 		<String _locID="23981">Stadhouders</String>
@@ -6195,7 +6195,7 @@
 		<String _locID="35285">Passenger Car</String>
 		<String _locID="35296">Virginia Company</String>
 		<String _locID="35297">Manors are cheaper.</String>
-		<String _locID="35298">All Heavy and Royal artillery upgrades are now cheaper.</String>
+		<String _locID="35298">Heavy and Royal upgrades for Falconets and Culverins are researched for free.</String>
 		<String _locID="35299">Advanced Artillery</String>
 		<String _locID="35307">Yeomen</String>
 		<String _locID="35308">Longbowman range increased and Imperial upgrade enabled.</String>
@@ -6237,7 +6237,7 @@
 		<String _locID="35361">Food Silos</String>
 		<String _locID="35362">Villagers gather Food from Mills, Farms, and Rice Paddies faster.</String>
 		<String _locID="35363">Sustainable Agriculture</String>
-		<String _locID="35364">Mills are cheaper and stronger.</String>
+		<String _locID="35364">Mills are cheaper, stronger and faster to build.</String>
 		<String _locID="35365">Advanced Mill</String>
 		<String _locID="35366">Advanced Mill</String>
 		<String _locID="35369">Villagers gather Food from hunted animals, berries, and Cherry Orchards faster.</String>
@@ -6755,7 +6755,7 @@
 		<String _locID="36082">8 Dragoons</String>
 		<String _locID="36083">Dragoon and Cavalier attack and hitpoints increased.</String>
 		<String _locID="36084">Dragoon Combat</String>
-		<String _locID="36085">Upgrades Organ Guns to Rabaulds and Mortars to Howitzers for free.</String>
+		<String _locID="36085">Heavy and Royal upgrades for Organ Guns and Culverins are researched for free.</String>
 		<String _locID="36086">Advanced Artillery</String>
 		<String _locID="36087">TEAM Artillery hitpoints increased.</String>
 		<String _locID="36088">TEAM Artillery Hitpoints</String>
@@ -8742,7 +8742,7 @@
 		<String _locID="38276" symbol="cStringESORejected">Host Rejected</String>
 		<String _locID="38277" symbol="cStringESOUnknown">Unknown</String>
 		<String _locID="38280">Advanced Artillery shipment has arrived.</String>
-		<String _locID="38281">All Heavy and Royal artillery upgrades are now cheaper, +4 Uhlans.</String>
+		<String _locID="38281">Heavy and Royal upgrades for Falconets and Culverins are researched for free, +4 Uhlans.</String>
 		<String _locID="38282">Advanced Artillery</String>
 		<String _locID="38283">Advanced Artillery Shipment has arrived.</String>
 		<String _locID="38284">Leave Chat Room</String>
@@ -17268,7 +17268,7 @@
 		<String _locID="46866">Economic Theory</String>
 		<String _locID="46867">Furrier Shipment has arrived.</String>
 		<String _locID="46868">Economic Theory Shipment has arrived.</String>
-		<String _locID="46869">Rice Paddies, Farms, Mills, Sacred Fields, Villages, Plantations, and Houses are cheaper, and build much more quickly.</String>
+		<String _locID="46869">Rice Paddies, Farms, Mills, Sacred Fields, Villages, Plantations, and Houses (with livestock) are cheaper, and build much more quickly.</String>
 		<String _locID="46870">Land Grab</String>
 		<String _locID="46871">Virginia Company Shipment has arrived.</String>
 		<String _locID="46872">Land Grab Shipment has arrived.</String>
@@ -21046,7 +21046,7 @@
 		<String _locID="61598">Advanced Market</String>
 		<String _locID="61599">Advanced Market</String>
 		<String _locID="61600">Advanced Market Shipment has arrived.</String>
-		<String _locID="61601">Rice Paddies are cheaper and stronger.</String>
+		<String _locID="61601">Rice Paddies are cheaper, stronger and build faster.</String>
 		<String _locID="61602">Advanced Rice Paddy</String>
 		<String _locID="61603">Advanced Mill</String>
 		<String _locID="61604">Advanced Mill Shipment has arrived.</String>
@@ -30155,7 +30155,7 @@
 		<String _locID="780738">Fishery</String>
 		<String _locID="780739">Pirate fishery worth 300 Food.</String>
 		<String _locID="780740">Native Confederacy Support</String>
-		<String _locID="780741">Joining the Native Confederacy increases the amount of warriors you can train from minor tribes and allows military units to train in larger blocks. Also grants 1 Shipment.</String>
+		<String _locID="780741">Joining the Native Confederacy increases the amount of warriors you can train from minor tribes and allows military units to train in larger blocks. Also grants 1 Shipment and enables Black Powder Boats.</String>
 		<String _locID="780742">You have joined the Native Confederacy!</String>
 		<String _locID="780743">Patriot Militia</String>
 		<String _locID="780744">Fisheries must be built near Fish.</String>

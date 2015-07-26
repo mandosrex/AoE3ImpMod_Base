@@ -6432,9 +6432,6 @@
 				<Target type="ProtoUnit">Fishery</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">BlackBoat</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">FieldHospital</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">ConSupport</Effect>
@@ -14511,7 +14508,7 @@
 	<Tech name="ChurchWallensteinsContracts" type="Normal">
 		<DBID>357</DBID>
 		<DisplayNameID>23978</DisplayNameID>
-		<Cost resourcetype="Gold">2000.0000</Cost>
+		<Cost resourcetype="Gold">4000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\wallenstein_contracts\wallenstein_contracts_64x64</Icon>
@@ -14519,34 +14516,31 @@
 		<Flag>UniqueTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status="Active">Industrialize</TechStatus>
+			<TechStatus status="Active">Fortressize</TechStatus>
 			<TechStatus status="Active">HCRoyalDecreeGerman</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="BasePercent">
-				<Target type="ProtoUnit">Mercenary</Target>
-			</Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCMercsLandsknecht2German</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCMercsHighlandGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCMercsBlackRidersGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCMercsMediterraneanGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCMercsLandsknecht1German</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCMercsHolyRomanGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCMercsHessiansGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCMercsHackapellsGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCPrivateers</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPMercsFusiliersGerman</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPMercsElmetiGerman</Target></Effect>
 		</Effects>
 	</Tech>
@@ -15505,7 +15499,7 @@
 		<RolloverTextID>24664</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="0.70" subtype="Cost" resource="Wood" relativity="BasePercent">
+			<Effect type="Data" amount="0.65" subtype="Cost" resource="Wood" relativity="BasePercent">
 				<Target type="ProtoUnit">Plantation</Target>
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
@@ -15711,6 +15705,7 @@
 		<RolloverTextID>25511</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
@@ -17054,6 +17049,7 @@
 		<Icon>ui\town_guard</Icon>
 		<RolloverTextID>77796</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
@@ -19133,6 +19129,7 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Flag>OrPrereqs</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
@@ -19212,10 +19209,10 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">OrganGun</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">OrganGun</Target>
 			</Effect>
 			<Effect type="SetName" proto="OrganGun" culture="none" newName="31288"/>
@@ -22669,42 +22666,8 @@
 		<RolloverTextID>35298</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShot</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShotNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGun</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGunNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>Howitzer</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>HowitzerNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtillery</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtilleryNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>Rabauld</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShot</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShotNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGun</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGunNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>Howitzer</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>HowitzerNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtillery</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtilleryNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>Rabauld</Target></Effect>
+			<Effect type="TechStatus" status="active">FieldGun</Effect>
+			<Effect type="TechStatus" status="active">GrapeShot</Effect>
 			<Effect type="TextOutput">37238</Effect>
 		</Effects>
 	</Tech>
@@ -22715,11 +22678,11 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\field_gun\shot_tower</Icon>
-		<RolloverTextID>78061</RolloverTextID>
+		<RolloverTextID>35298</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="TechStatus" status="active">HowitzerUS</Effect>
-			<Effect type="TechStatus" status="active">HeavyGatlingGun</Effect>
+			<Effect type="TechStatus" status="active">FieldGunUS</Effect>
+			<Effect type="TechStatus" status="active">GrapeShotUS</Effect>
 			<Effect type="TextOutput">37238</Effect>
 		</Effects>
 	</Tech>
@@ -23038,6 +23001,9 @@
 			</Effect>
 			<Effect type="SetName" proto="Mill" culture="none" newName="35366"/>
 			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Mill</Target>
+			</Effect>
+			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Mill</Target>
 			</Effect>
 			<Effect type="TextOutput">41789</Effect>
@@ -27319,45 +27285,11 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\field_gun\shot_tower</Icon>
-		<RolloverTextID>35298</RolloverTextID>
+		<RolloverTextID>36085</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShot</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShotNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGun</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGunNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>Howitzer</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>HowitzerNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtillery</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtilleryNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>Rabauld</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShot</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShotNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGun</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGunNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>Howitzer</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>HowitzerNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtillery</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtilleryNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>Rabauld</Target></Effect>
+			<Effect type="TechStatus" status="active">GrapeShot</Effect>
+			<Effect type="TechStatus" status="active">Rabauld</Effect>
 			<Effect type="TextOutput">37243</Effect>
 		</Effects>
 	</Tech>
@@ -32031,42 +31963,8 @@
 		<RolloverTextID>38281</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShot</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShotNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGun</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGunNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>Howitzer</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>HowitzerNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtillery</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtilleryNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='Tech'>Rabauld</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShot</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>GrapeShotNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGun</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>FieldGunNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>Howitzer</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>HowitzerNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtillery</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>HeavyHorseArtilleryNew</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='Tech'>Rabauld</Target></Effect>
+			<Effect type="TechStatus" status="active">FieldGun</Effect>
+			<Effect type="TechStatus" status="active">GrapeShot</Effect>
 			<Effect type="TextOutput">38283</Effect>
 			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
 				<Target type="Player"/>
@@ -32913,6 +32811,9 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Resource" resource="Ships" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">BlackBoat</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -44688,13 +44589,7 @@
 			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">Farm</Target>
 			</Effect>
-			<Effect type="Data" amount="0.25" subtype="BuildPoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Longhouse</Target>
-			</Effect>
-			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
-				<Target type="ProtoUnit">Longhouse</Target>
-			</Effect>
-			<Effect type="Data" amount="0.25" subtype="BuildPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypRicePaddy</Target>
 			</Effect>
 			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
@@ -44712,35 +44607,29 @@
 			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">ypSacredField</Target>
 			</Effect>
-			<Effect type="Data" amount="0.25" subtype="BuildPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">House</Target>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">House</Target>
 			</Effect>
-			<Effect type="Data" amount="0.25" subtype="BuildPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">HouseEast</Target>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">HouseEast</Target>
 			</Effect>
-			<Effect type="Data" amount="0.25" subtype="BuildPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">HouseMed</Target>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">HouseMed</Target>
 			</Effect>
-			<Effect type="Data" amount="0.25" subtype="BuildPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Manor</Target>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">Manor</Target>
-			</Effect>
-			<Effect type="Data" amount="0.25" subtype="BuildPoints" relativity="BasePercent">
-				<Target type="ProtoUnit">HouseAztec</Target>
-			</Effect>
-			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
-				<Target type="ProtoUnit">HouseAztec</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -51391,6 +51280,9 @@
 			</Effect>
 			<Effect type="SetName" proto="ypRicePaddy" culture="none" newName="61605"/>
 			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">ypRicePaddy</Target>
+			</Effect>
+			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypRicePaddy</Target>
 			</Effect>
 			<Effect type="TextOutput">61606</Effect>
@@ -65623,6 +65515,7 @@ Indians" type="Normal">
 		<Flag>UpgradeTech</Flag>
 		<Flag>OrPrereqs</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
