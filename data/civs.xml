@@ -193,6 +193,22 @@
 				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypOutpostAsian</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
 	</civ>
 	<civ>
 		<name>British</name>
@@ -394,6 +410,22 @@
 				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypOutpostAsian</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
 	</civ>
 	<civ>
 		<name>French</name>
@@ -563,6 +595,22 @@
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>Outpost</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypOutpostAsian</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -766,6 +814,22 @@
 				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypOutpostAsian</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
 	</civ>
 	<civ>
 		<name>Dutch</name>
@@ -937,6 +1001,22 @@
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>Outpost</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypOutpostAsian</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -1201,6 +1281,22 @@
 				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypOutpostAsian</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
 	</civ>
 	<civ>
 		<name>Germans</name>
@@ -1387,6 +1483,22 @@
 				<count>1</count>
 			</unitcounts>
 		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypOutpostAsian</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
 	</civ>
 	<civ>
 		<name>Ottomans</name>
@@ -1557,6 +1669,22 @@
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>Outpost</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypOutpostAsian</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -3149,6 +3277,28 @@
 				<count>3</count>
 			</unitcounts>
 		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Outpost</building>
+			<multipleblockunit>LevyAsi</multipleblockunit>
+			<units>
+				<unit>ypIrregular</unit>
+			</units>
+			<units>
+				<unit>ypPeasant</unit>
+			</units>
+			<units>
+				<unit>LevyAsi</unit>
+			</units>
+			<unitcounts>
+				<count>3</count>
+			</unitcounts>
+			<unitcounts>
+				<count>3</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
 		<key>J</key>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
@@ -4325,6 +4475,28 @@
 				<count>3</count>
 			</unitcounts>
 		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Outpost</building>
+			<multipleblockunit>LevyAsi</multipleblockunit>
+			<units>
+				<unit>ypIrregular</unit>
+			</units>
+			<units>
+				<unit>ypPeasant</unit>
+			</units>
+			<units>
+				<unit>LevyAsi</unit>
+			</units>
+			<unitcounts>
+				<count>3</count>
+			</unitcounts>
+			<unitcounts>
+				<count>3</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
 		<key>C</key>
 		<unitregen>
 			<unittype>HealerUnit</unittype>
@@ -4700,6 +4872,28 @@
 			<units>
 				<unit>ypRepentantLandsknecht</unit>
 			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Outpost</building>
+			<multipleblockunit>LevyAsi</multipleblockunit>
+			<units>
+				<unit>ypIrregular</unit>
+			</units>
+			<units>
+				<unit>ypPeasant</unit>
+			</units>
+			<units>
+				<unit>LevyAsi</unit>
+			</units>
+			<unitcounts>
+				<count>3</count>
+			</unitcounts>
+			<unitcounts>
+				<count>3</count>
+			</unitcounts>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>

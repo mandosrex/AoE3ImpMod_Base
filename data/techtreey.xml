@@ -19785,7 +19785,6 @@
 		<RolloverTextID>32722</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="TechStatus" status="active">StarFort</Effect>
 			<Effect type="TechStatus" status="active">FrontierBlockhouse</Effect>
 			<Effect type="TechStatus" status="active">FrontierOutpost</Effect>
 			<Effect type="TechStatus" status="active">FortifiedOutpost</Effect>
@@ -28841,7 +28840,7 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_advanced_mill\hc_advanced_mill</Icon>
-		<RolloverTextID>780855</RolloverTextID>
+		<RolloverTextID>35364</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
@@ -28851,7 +28850,7 @@
 			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Mill</Target>
 			</Effect>
-			<Effect type="Data" amount="2.00" subtype="GathererLimit" relativity="Absolute">
+			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Mill</Target>
 			</Effect>
 			<Effect type="TextOutput">41790</Effect>
@@ -68148,7 +68147,6 @@ Indians" type="Normal">
 		<RolloverTextID>32722</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="TechStatus" status="active">StarFort</Effect>
 			<Effect type="TechStatus" status="active">FrontierBlockhouse</Effect>
 			<Effect type="TechStatus" status="active">FrontierOutpost</Effect>
 			<Effect type="TechStatus" status="active">FortifiedOutpost</Effect>
