@@ -227,7 +227,7 @@
 	<anim>
 		Cover_ranged_idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\human_idle_generic_A</file>
+			<file>animation_library\natives\warrior_priest\idle</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
@@ -235,7 +235,7 @@
 	<anim>
 		Cover_bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\human_bored_generic_A</file>
+			<file>animation_library\natives\warrior_priest\idle</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
@@ -243,7 +243,7 @@
 	<anim>
 		Cover_walk
 		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\human_walk_generic_A</file>
+			<file>animation_library\natives\priest\walk</file>
 			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
 			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
 		</assetreference>
@@ -273,7 +273,7 @@
 	<anim>
 		Volley_standing_idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\human_idle_generic_A</file>
+			<file>animation_library\natives\warrior_priest\idle</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
@@ -301,7 +301,7 @@
 	<anim>
 		Volley_standing_bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\human_bored_generic_A</file>
+			<file>animation_library\natives\warrior_priest\idle</file>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="sword" frombone="ROOT" tobone="Bip01 Prop1" syncanims="0"/>
@@ -309,7 +309,7 @@
 	<anim>
 		Volley_walk
 		<assetreference type="GrannyAnim">
-			<file>animation_library\shared\human_walk_generic_A</file>
+			<file>animation_library\natives\priest\walk</file>
 			<tag type="FootstepLeft" footprinttype="HumanLeft">0.65</tag>
 			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
 		</assetreference>

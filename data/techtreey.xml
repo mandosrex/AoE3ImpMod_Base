@@ -5567,7 +5567,7 @@
 			</Effect>
 			<Effect type="TechStatus" status="active">AANativeStartingTechs</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Cow</Target>
+				<Target type="ProtoUnit">Sheep</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Longhouse</Target>
@@ -6099,7 +6099,7 @@
 			<Effect type="TechStatus" status="active">AANativeStartingTechs</Effect>
 			<Effect type="TechStatus" status="obtainable">ChampionRifleRiders</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Sheep</Target>
+				<Target type="ProtoUnit">Cow</Target>
 			</Effect>
 			<Effect type="Data" amount="200.00" subtype="PopulationCap" relativity="Absolute">
 				<Target type="Player"/>
@@ -18612,7 +18612,7 @@
 	</Tech>
 	<Tech name="ImperialHowitzer" type="Normal">
 		<DBID>1330</DBID>
-		<DisplayNameID>780931</DisplayNameID>
+		<DisplayNameID>780946</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -18633,7 +18633,7 @@
 			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Mortar</Target>
 			</Effect>
-			<Effect type="SetName" proto="Mortar" culture="none" newName="780932"/>
+			<Effect type="SetName" proto="Mortar" culture="none" newName="780947"/>
 		</Effects>
 	</Tech>
 	<Tech name="ImperialHowitzerNew" type="Normal">
@@ -22124,6 +22124,9 @@
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FactoryWagon" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">FactoryWagon</Target>
 			</Effect>
 			<Effect type="TextOutput">41904</Effect>
 		</Effects>
@@ -34656,7 +34659,7 @@
 			</Effect>
 			<Effect type="SetName" proto="Farm" culture="none" newName="43797"/>
 			<Effect type="TextOutput">48870</Effect>
-			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.70" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">Herdable</Target>
 			</Effect>
 		</Effects>
@@ -40919,7 +40922,7 @@
 		<Effects>
 			<Effect type="TechStatus" status="obtainable">SelectiveBreeding</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypGoat</Target>
+				<Target type="ProtoUnit">Sheep</Target>
 			</Effect>
 			<Effect type="Data" action="GatherHouse" amount="1.00" subtype="ActionEnable" relativity="Absolute">
 				<Target type="ProtoUnit">Herdable</Target>
@@ -40938,7 +40941,7 @@
 		<Effects>
 			<Effect type="TechStatus" status="obtainable">SelectiveBreeding</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Cow</Target>
+				<Target type="ProtoUnit">Sheep</Target>
 			</Effect>
 			<Effect type="Data" action="GatherHouse" amount="1.00" subtype="ActionEnable" relativity="Absolute">
 				<Target type="ProtoUnit">Herdable</Target>
@@ -41651,10 +41654,10 @@
 				<Target type="ProtoUnit">Sapper</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">Piracy</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Blockhouse</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -41759,10 +41762,10 @@
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">Piracy</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Blockhouse</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -41857,10 +41860,10 @@
 			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Blockhouse</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">Piracy</Effect>
@@ -41960,10 +41963,10 @@
 			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Blockhouse</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">Piracy</Effect>
@@ -42060,10 +42063,10 @@
 			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Blockhouse</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">Piracy</Effect>
@@ -42162,10 +42165,10 @@
 			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Blockhouse</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">Piracy</Effect>
@@ -42261,10 +42264,10 @@
 			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Blockhouse</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">Piracy</Effect>
@@ -42366,10 +42369,10 @@
 			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Blockhouse</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">Piracy</Effect>
@@ -42463,10 +42466,10 @@
 			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
-			<Effect type="Data" amount="4.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Blockhouse</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">Piracy</Effect>
@@ -43686,6 +43689,9 @@
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FactoryWagon" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">FactoryWagon</Target>
 			</Effect>
 			<Effect type="TextOutput">46501</Effect>
 		</Effects>

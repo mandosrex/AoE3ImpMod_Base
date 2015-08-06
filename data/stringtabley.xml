@@ -5846,8 +5846,8 @@
 		<String _locID="34567">Customized Merc Weapons</String>
 		<String _locID="34569" gamecharacter="Kanyenke" soundfilename="KANY5038">Now we must lead the great white buffalo to the Lakota village near where we first arrived.</String>
 		<String _locID="34572">Imperial upgrade for Basilisk Cannon.</String>
-		<String _locID="34573">Imperial Cannon</String>
-		<String _locID="34575">Imperial Cannon</String>
+		<String _locID="34573">Imperial Basilisk Cannon</String>
+		<String _locID="34575">Imperial Basilisk Cannon</String>
 		<String _locID="34576">Alain Magnan's Army</String>
 		<String _locID="34577" symbol="cStringNuggetKev1" comment="1 - amount, 2 - resource">A carob plant worth %1d %2s.</String>
 		<String _locID="34578" symbol="cStringNuggetKev1Activate" comment="1 - player, 2 - amount, 3 - resource">%1s has discovered a carob plant worth %2d %3s.</String>
@@ -6116,7 +6116,7 @@
 		<String _locID="35132">Extensive Fortifications</String>
 		<String _locID="35133">Outpost, War Hut, Lookout, Tower, Blockhouse, and Castle build limit and hitpoints increased.</String>
 		<String _locID="35134">Robber Barons</String>
-		<String _locID="35135">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery.</String>
+		<String _locID="35135">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery. Permits you to have an extra Factory.</String>
 		<String _locID="35136">Villagers gather Food from hunted animals, berries, and Cherry Orchards faster.</String>
 		<String _locID="35137">Furrier</String>
 		<String _locID="35138">Villagers gather Food from Farms, Mills, and Rice Paddies faster.</String>
@@ -16898,7 +16898,7 @@
 		<String _locID="46496" gamecharacter="Holme" soundfilename="XHOLM9055">We should put those workers on the mines so we have more coin coming in.</String>
 		<String _locID="46497">Ships a Fort Wagon to your colony, allowing you to construct a mighty Fort. Permits you to have an extra Fort.</String>
 		<String _locID="46498">Castrametation</String>
-		<String _locID="46499">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery.</String>
+		<String _locID="46499">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery. Permits you to have an extra Factory.</String>
 		<String _locID="46500">Industrial Revolution</String>
 		<String _locID="46501">Industrial Revolution Shipment has arrived.</String>
 		<String _locID="46502">Save 20 Railroad Workers from the Sioux.</String>
@@ -30351,5 +30351,7 @@
 		<String _locID="780943">1 Dhow +1 Villager</String>
 		<String _locID="780944">2 Dhow +1 Villager</String>
 		<String _locID="780945">3 Dhow +1 Villager</String>
+		<String _locID="780946">Imperial Mortars</String>
+		<String _locID="780947">Imperial Mortar</String>
 	</Language>
 </StringTable>
