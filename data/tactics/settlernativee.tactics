@@ -112,7 +112,7 @@
 		<attackaction>1</attackaction>
 		<handlogic>1</handlogic>
 		<anim>HandAttack</anim>
-		<maxrange>2</maxrange>
+		<maxrange>1.75</maxrange>
 		<rate type="Military">1.0</rate>
 		<rate type="Huntable">1.0</rate>
 		<rate type="Economic">1.0</rate>

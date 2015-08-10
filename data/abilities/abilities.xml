@@ -323,6 +323,11 @@
 			<tech>YPHCJapaneseMonkRangeAura</tech>
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
 		</ability>
+		<ability>
+			PowerHeal
+			<tech>ypMonasteryJapaneseHealing</tech>
+			<rof>120</rof>
+		</ability>
 	</ypmonkjapanese>
 	<ypmonkjapanese2>
 		<ability>
@@ -353,6 +358,11 @@
 			ypUnitScareAura
 			<tech>YPHCJapaneseMonkRangeAura</tech>
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+		<ability>
+			PowerHeal
+			<tech>ypMonasteryJapaneseHealing</tech>
+			<rof>120</rof>
 		</ability>
 	</ypmonkjapanese2>
 	<ypmonkindian>
@@ -385,6 +395,11 @@
 			<tech>YPMonasteryIndianSpeed</tech>
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
 		</ability>
+		<ability>
+			PowerHeal
+			<tech>ypColonializeIndians</tech>
+			<rof>120</rof>
+		</ability>
 	</ypmonkindian>
 	<ypmonkindian2>
 		<ability>
@@ -415,6 +430,11 @@
 			ypUnitElephantSpeed
 			<tech>YPMonasteryIndianSpeed</tech>
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+		<ability>
+			PowerHeal
+			<tech>ypColonializeIndians</tech>
+			<rof>120</rof>
 		</ability>
 	</ypmonkindian2>
 	<ypmonkdisciple>
@@ -457,6 +477,26 @@
 			<tech>ypMonasteryDiscipleAura</tech>
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
 		</ability>
+		<ability>
+			PowerHeal
+			<tech>YPWonderChineseTempleOfHeaven2</tech>
+			<rof>120</rof>
+		</ability>
+		<ability>
+			PowerHeal
+			<tech>YPWonderChineseTempleOfHeaven3</tech>
+			<rof>120</rof>
+		</ability>
+		<ability>
+			PowerHeal
+			<tech>YPWonderChineseTempleOfHeaven4</tech>
+			<rof>120</rof>
+		</ability>
+		<ability>
+			PowerHeal
+			<tech>YPWonderChineseTempleOfHeaven5</tech>
+			<rof>120</rof>
+		</ability>
 	</ypmonkchinese>
 	<ypmonkchinese2>
 		<ability>
@@ -486,6 +526,26 @@
 			ypUnitDiscipleAura
 			<tech>ypMonasteryDiscipleAura</tech>
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+		<ability>
+			PowerHeal
+			<tech>YPWonderChineseTempleOfHeaven2</tech>
+			<rof>120</rof>
+		</ability>
+		<ability>
+			PowerHeal
+			<tech>YPWonderChineseTempleOfHeaven3</tech>
+			<rof>120</rof>
+		</ability>
+		<ability>
+			PowerHeal
+			<tech>YPWonderChineseTempleOfHeaven4</tech>
+			<rof>120</rof>
+		</ability>
+		<ability>
+			PowerHeal
+			<tech>YPWonderChineseTempleOfHeaven5</tech>
+			<rof>120</rof>
 		</ability>
 	</ypmonkchinese2>
 	<ypwctempleofheaven2>
@@ -623,17 +683,17 @@
 		</ability>
 		<ability>
 			PowerCrackshot
-			<tech>Crackshot</tech>
+			<tech>Fortressize</tech>
 			<rof>90</rof>
 		</ability>
 		<ability>
 			PowerLOS
-			<tech>SpyglassE</tech>
+			<tech>ColonializePortuguese</tech>
 			<rof>120</rof>
 		</ability>
 		<ability>
 			PowerHeal
-			<tech>HCExplorerFrench</tech>
+			<tech>ImpKnighthood</tech>
 			<rof>120</rof>
 		</ability>
 		<ability>
@@ -655,8 +715,7 @@
 		</ability>
 		<ability>
 			PowerEagleEye
-			<tech>BigFirepitEagleEye</tech>
-			<rof>50</rof>
+			<rof>60</rof>
 		</ability>
 		<ability>
 			PowerConvertGuardian
@@ -677,12 +736,12 @@
 		</ability>
 		<ability>
 			PowerHeal
-			<tech>BigFirepitSecretSociety</tech>
+			<tech>HCWarLeader</tech>
 			<rof>120</rof>
 		</ability>
 		<ability>
 			PowerSwashbuckler
-			<tech>HCXPWarchiefSioux2</tech>
+			<tech>ColonializeXPSioux</tech>
 			<rof>90</rof>
 		</ability>
 	</xplakotawarchief>
@@ -693,27 +752,13 @@
 		</ability>
 		<ability>
 			PowerSwashbuckler
-			<tech>TribalAztecChief2</tech>
+			<tech>ColonializeXPAztec</tech>
 			<rof>90</rof>
 		</ability>
 		<ability>
-			PowerSwashbuckler
-			<tech>TribalAztecChief3</tech>
-			<rof>90</rof>
-		</ability>
-		<ability>
-			PowerSwashbuckler
-			<tech>TribalAztecChief4</tech>
-			<rof>90</rof>
-		</ability>
-		<ability>
-			PowerSwashbuckler
-			<tech>TribalAztecChief5</tech>
-			<rof>90</rof>
-		</ability>
-		<ability>
-			ypPowerCriticalAttack
-			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+			PowerHeal
+			<tech>BigFirepitFounder</tech>
+			<rof>120</rof>
 		</ability>
 	</xpaztecwarchief>
 	<spcsahin>
@@ -1008,6 +1053,12 @@
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
 		</ability>
 	</warleader>
+	<ypWokouJunk>
+		<ability>
+			PowerBroadside
+			<rof>60</rof>
+		</ability>
+	</ypWokouJunk>
 	<ypWokouJunkI>
 		<ability>
 			PowerBroadside
@@ -1048,8 +1099,8 @@
 	</xpspy>
 	<xpMedicineManAztec>
 		<ability>
-			ypPowerCriticalAttack
-			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+			PowerHeal
+			<rof>120</rof>
 		</ability>
 	</xpMedicineManAztec>
 	<ypDaimyoRegicide>

@@ -5596,7 +5596,7 @@
 		<keymapdata>
 			<name>Cover Mode</name>
 			<displayname>$$66068$$Cover</displayname>
-			<event>alt-c</event>
+			<event>alt-x</event>
 			<context>game</context>
 			<command>setSquadMode("Cover")</command>
 		</keymapdata>

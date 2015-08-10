@@ -2,6 +2,13 @@
 
 <tactics>
 	<action>
+		<name stringid="46491">Stealth</name>
+		<type>Stealth</type>
+		<maxrange>20.0</maxrange>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
 		<name stringid="69148">Discover</name>
 		<type>Discover</type>
 		<anim>Pickup</anim>
@@ -141,10 +148,21 @@
 		<action>Build</action>
 		<action>Discover</action>
 		<action>Heal</action>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
 		<runaway>0</runaway>
+		<idleanim>Volley_standing_idle</idleanim>
+		<boredanim>Volley_standing_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Volley_walk</walkanim>
+		<joganim>Volley_jog</joganim>
+		<runanim>Volley_run</runanim>
 	</tactic>
 	<tactic>
 		Melee
@@ -156,11 +174,22 @@
 		<action>Build</action>
 		<action>Discover</action>
 		<action>Heal</action>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
 		<runaway>0</runaway>
 		<autoretarget>1</autoretarget>
+		<idleanim>Charge_idle</idleanim>
+		<boredanim>Charge_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Charge_walk</walkanim>
+		<joganim>Charge_jog</joganim>
+		<runanim>Charge_run</runanim>
 	</tactic>
 	<tactic>
 		Defend
@@ -173,6 +202,11 @@
 		<action>Build</action>
 		<action>Discover</action>
 		<action>Heal</action>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
@@ -196,11 +230,59 @@
 		<action>Build</action>
 		<action>Discover</action>
 		<action>Heal</action>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<exit>1</exit>
+		</transition>
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
 		<runaway>0</runaway>
 		<autoretarget>1</autoretarget>
+		<idleanim>Cover_ranged_idle</idleanim>
+		<boredanim>Cover_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Cover_walk</walkanim>
+		<joganim>Cover_jog</joganim>
+		<runanim>Cover_run</runanim>
+	</tactic>
+	<tactic>
+		Stealth
+		<action>Stealth</action>
+		<transition>
+			<tactic>Volley</tactic>
+			<length>0.8</length>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<transition>
+			<tactic>Melee</tactic>
+			<length>0.8</length>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<transition>
+			<tactic>Defend</tactic>
+			<length>0.8</length>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<transition>
+			<tactic>Stagger</tactic>
+			<length>0.8</length>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<checkifcanstealth range="20.0">1</checkifcanstealth>
+		<speedmodifier>0.5</speedmodifier>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<active>0</active>
+		<autoretarget>0</autoretarget>
 		<idleanim>Cover_ranged_idle</idleanim>
 		<boredanim>Cover_bored</boredanim>
 		<deathanim>Death_by_melee</deathanim>

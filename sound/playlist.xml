@@ -2,8 +2,32 @@
 
 <playlists>
 	<playlist name="Primary">
-		<musicset name="AoEO">
-			<file volume="1.0" mood="normal">Music\Standard\AoEO.mp3</file>
+		<musicset name="TWC1" culture="Sioux">
+			<file volume="1.0" mood="normal">Music\Standard\TWC.mp3</file>
+		</musicset>
+		<musicset name="TWC2" culture="Aztec">
+			<file volume="1.0" mood="normal">Music\Standard\TWC.mp3</file>
+		</musicset>
+		<musicset name="TWC3" culture="Iroquois">
+			<file volume="1.0" mood="normal">Music\Standard\TWC.mp3</file>
+		</musicset>
+		<musicset name="AoE1" culture="WesternEurope">
+			<file volume="1.0" mood="normal">Music\Standard\AoE3.mp3</file>
+		</musicset>
+		<musicset name="AoE2" culture="EasternEurope">
+			<file volume="1.0" mood="normal">Music\Standard\AoE3.mp3</file>
+		</musicset>
+		<musicset name="AoE3" culture="Mediterranean">
+			<file volume="1.0" mood="normal">Music\Standard\AoE3.mp3</file>
+		</musicset>
+		<musicset name="TAD1" culture="Japanese">
+			<file volume="1.0" mood="normal">Music\Standard\TAD.mp3</file>
+		</musicset>
+		<musicset name="TAD2" culture="Chinese">
+			<file volume="1.0" mood="normal">Music\Standard\TAD.mp3</file>
+		</musicset>
+		<musicset name="TAD3" culture="Indian">
+			<file volume="1.0" mood="normal">Music\Standard\TAD.mp3</file>
 		</musicset>
 		<musicset name="GetYeSum">
 			<file volume="1.0" mood="normal">Music\Standard\GetYeSum.mp3</file>

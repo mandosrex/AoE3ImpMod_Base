@@ -245,8 +245,16 @@
 			<name>HCXPMorningStar</name>
 			<maxcount>1</maxcount>
 			<level>40</level>
-			<prereqtech>HCXPCommandSkill</prereqtech>
+			<prereqtech>HCWarLeader</prereqtech>
 			<age>1</age>
+		</card>
+		<card>
+			<name>HCWarLeader</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>1</displayunitcount>
 		</card>
 		<card>
 			<name>HCXPShipCoyotes</name>
@@ -315,7 +323,7 @@
 			<name>HCXPEveningStar</name>
 			<maxcount>1</maxcount>
 			<level>25</level>
-			<prereqtech>HCConestogaWagonsTeam</prereqtech>
+			<prereqtech>HCWarLeader</prereqtech>
 			<age>1</age>
 		</card>
 		<card>
@@ -1347,10 +1355,11 @@
 			<tech x="4.4" y="3.0">HCXPWarChiefSioux2</tech>
 			<tech x="4.4" y="4.0">HCXPWarChiefSioux3</tech>
 			<tech x="4.4" y="5.0">HCXPCommandSkill</tech>
-			<tech x="4.4" y="7.0">HCXPMorningStar</tech>
-			<tech x="6.0" y="1.0">HCShipCoveredWagons</tech>
-			<tech x="6.0" y="3.0">HCConestogaWagonsTeam</tech>
-			<tech x="6.0" y="5.0">HCXPEveningStar</tech>
+			<tech x="5.7" y="4.0">HCShipCoveredWagons</tech>
+			<tech x="5.7" y="6.0">HCConestogaWagonsTeam</tech>
+			<tech x="6.1" y="2.0">HCXPEveningStar</tech>
+			<tech x="5.3" y="2.0">HCXPMorningStar</tech>
+			<tech x="5.7" y="1.0">HCWarLeader</tech>
 			<tech x="7.0" y="1.0">HCXPShipCoyotes</tech>
 			<tech x="7.0" y="3.0">HCXPShipWolves</tech>
 			<tech x="7.0" y="4.0">HCXPShipCougars</tech>

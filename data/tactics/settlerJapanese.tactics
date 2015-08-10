@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69149">AutoGatherTrade</name>
+		<type>AutoGather</type>
+		<active>0</active>
+		<donotautogatherunlessgathering>1</donotautogatherunlessgathering>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="69148">Discover</name>
+		<type>Discover</type>
+		<anim>Pickup</anim>
+		<maxrange>0.2</maxrange>
+		<rate type="AbstractNuggetLand">1.0</rate>
+	</action>
+	<action>
+		<name stringid="24102">Build</name>
+		<type>Build</type>
+		<anim>Build</anim>
+		<maxrange>0.2</maxrange>
+		<rate type="AbstractWonder">1.0</rate>
+		<rate type="Building">1.0</rate>
+		<typedmaxrange type="YPDockAsian">2.0</typedmaxrange>
+		<typedmaxrange type="Dock">2.0</typedmaxrange>
+	</action>
+	<action>
+		<name stringid="42178">Gather</name>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="Plantation">1.0</rate>
+		<rate type="AbstractMine">1.0</rate>
+		<rate type="SPCSpanishShipRuins">1.0</rate>
+		<rate type="Farm">1.0</rate>
+		<rate type="Mill">1.0</rate>
+		<rate type="FirePit">1.0</rate>
+		<rate type="BerryBush">1.0</rate>
+		<rate type="Tree">1.0</rate>
+		<rate type="ypBerryBuilding">1.0</rate>
+		<rate type="ypGroveBuilding">1.0</rate>
+		<rate type="ypRicePaddy">1.0</rate>
+	</action>
+	<action>
+		<name stringid="69151">Hunting</name>
+		<type>Hunting</type>
+		<maxrange>10</maxrange>
+		<rate type="Tree">1.0</rate>
+		<typedmaxrange type="Tree">0</typedmaxrange>
+	</action>
+	<action>
+		<name stringid="69183">NoWork</name>
+		<type>NoWork</type>
+		<maxrange>10</maxrange>
+		<rate type="Herdable">1.0</rate>
+		<rate type="Huntable">1.0</rate>
+		<typedmaxrange type="Herdable">0</typedmaxrange>
+		<typedmaxrange type="Huntable">10</typedmaxrange>
+	</action>
+	<action>
+		<name stringid="69150">CrateGather</name>
+		<anim>GatherCrate</anim>
+		<type>Gather</type>
+		<maxrange>0.5</maxrange>
+		<rate type="AbstractResourceCrate">1.0</rate>
+	</action>
+	<action>
+		<name stringid="38133">BlunderbussAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>1.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+		<projectile>Arrow</projectile>
+		<impacteffect>effects\impacts\arrow</impacteffect>
+		<maxrange>10</maxrange>
+		<rate type="Military">1.0 </rate>
+		<rate type="Economic">1.0 </rate>
+		<rate type="Guardian">1.0 </rate>
+		<instantballistics>0</instantballistics>
+		<perfectaccuracy>1</perfectaccuracy>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Raze_Attack</anim>
+		<idleanim>Raze_Idle</idleanim>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<projectile>TorchProjectile</projectile>
+	</action>
+	<action>
+		<name stringid="38134">HandAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>HandAttack</anim>
+		<maxrange>1.75</maxrange>
+		<rate type="Military">1.0 </rate>
+		<rate type="Economic">1.0 </rate>
+		<rate type="Guardian">1.0 </rate>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="42136">ChopAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>GatherChop</anim>
+		<maxrange>2</maxrange>
+		<rate type="Tree">1.0 </rate>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action>Build</action>
+		<action>Gather</action>
+		<action>Discover</action>
+		<action>NoWork</action>
+		<action>Hunting</action>
+		<action>CrateGather</action>
+		<action>AutoGatherTrade</action>
+		<action priority="100">BuildingAttack</action>
+		<action priority="90">ChopAttack</action>
+		<action priority="50">BlunderbussAttack</action>
+		<action priority="25">HandAttack</action>
+		<attacktype>LogicalTypeVillagersAttack</attacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+	</tactic>
+</tactics>

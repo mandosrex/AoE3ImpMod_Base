@@ -545,4 +545,213 @@
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
+	<anim>
+		Charge_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\iroquois\idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\volley_boredA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\volley_boredB</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\iroquois\attack1</file>
+			<tag type="Attack">0.33</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.29</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_melee_attackB</file>
+			<tag type="Attack">0.47</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.43</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\iroquois\attack2</file>
+			<tag type="Attack">0.32</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.30</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.61</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.11</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.69</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\tomahawk\charge_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.69</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop1" syncanims="0"/>
+		<attach a="sword" frombone="ROOT" tobone="bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_ranged_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\riflemen\volley_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\riflemen\volley_idle2</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\riflemen\volley_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.12</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\riflemen\volley_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.09</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.57</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Cover_Run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\riflemen\volley_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="L FOOT">0.11</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight" footprintbone="R FOOT">0.58</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\idle_rifleman_A</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\volley\volley_standing_fire</file>
+			<tag type="Attack">0.39</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="RifleShot">0.38</tag>
+			<tag type="Particles" particlename="musketshot">0.39</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_reload
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\volley\volley_standing_reload</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_standing_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\bored_rifleman_A</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\bored_rifleman_B</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\bored_rifleman_C</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\walk_crossbow_upper</file>
+			<file>animation_library\shared\walk_generic_lower</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.14</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.61</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\jog_rifleman_A</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.04</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.54</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Volley_run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\run_rifleman_A</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.13</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.60</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\riflemen\volley_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Defend_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\natives\riflemen\volley_idle2</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="muskets" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"/>
+	</anim>
 </animfile>

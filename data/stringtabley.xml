@@ -4328,7 +4328,7 @@
 		<String _locID="31513" symbol="cStringSpiesEnemy">%s has infiltrated your ranks with spies and now knows all that you do.</String>
 		<String _locID="31514" symbol="cStringSpiesTeammate">%s has sent out spies.</String>
 		<String _locID="31518" symbol="cStringExplorerKnockoutTooltipText">Every moment I live... is agony.</String>
-		<String _locID="31522">Enables the Explorer to peer into the blackmap to temporarily see what is there. Explorer attack and hitpoints greatly increased.</String>
+		<String _locID="31522">Enables the Explorer to heal units and his attack and hitpoints are greatly increased.</String>
 		<String _locID="31523">Knighthood</String>
 		<String _locID="31527">Allows you to support 100 population without the need for Houses or Town Centers (maximum population is not increased).</String>
 		<String _locID="31528">Immigrants</String>
@@ -6154,7 +6154,7 @@
 		<String _locID="35207">Native Warrior Combat</String>
 		<String _locID="35224">All cavalry attack and hitpoints increased.</String>
 		<String _locID="35225">Cavalry Combat</String>
-		<String _locID="35228">Improves your French Explorer in combat, allows him to heal units and gives him a powerful canine companion.</String>
+		<String _locID="35228">Improves your French Explorer in combat, allows him to go stealth and gives him a powerful canine companion.</String>
 		<String _locID="35233">Falconet, Mortar, Culverin and Cannon attack and hitpoints increased.</String>
 		<String _locID="35234">Artillery Combat</String>
 		<String _locID="35235">Coureurs move faster and do more damage to Treasure guardians.</String>
@@ -6502,7 +6502,7 @@
 		<String _locID="35763">10 Crossbowmen</String>
 		<String _locID="35764">Crossbowman and Skirmisher hitpoints increased.</String>
 		<String _locID="35765">Long-range Infantry Hitpoints</String>
-		<String _locID="35766">TEAM Ranged infantry attack increased.</String>
+		<String _locID="35766">TEAM Ranged gunpowder infantry attack increased.</String>
 		<String _locID="35767">TEAM Ranged Infantry Attack</String>
 		<String _locID="35768">8 Musketeers</String>
 		<String _locID="35769">7 Skirmishers</String>
@@ -6635,7 +6635,7 @@
 		<String _locID="35916">9 Musketeers</String>
 		<String _locID="35917">Musketeer and Grenadier attack increased.</String>
 		<String _locID="35918">Musketeer / Grenadier Damage</String>
-		<String _locID="35919">TEAM Musketeer and Grenadier hitpoints increased. For Indian and Japanese allies, Sepoy and Ashigaru hitpoints increased.</String>
+		<String _locID="35919">TEAM Musketeer and Grenadier hitpoints increased. Fencible, Janissary, Sepoy and Ashigaru hitpoints are also increased.</String>
 		<String _locID="35920">TEAM Musketeer / Grenadier Hitpoints</String>
 		<String _locID="35922">7 Hussars</String>
 		<String _locID="35923">5 Hussars</String>
@@ -12617,7 +12617,7 @@
 		<String _locID="42199">Disable</String>
 		<String _locID="42200">10 Longbowmen</String>
 		<String _locID="42201">24 Crossbowmen</String>
-		<String _locID="42202">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery, +4 Uhlans.</String>
+		<String _locID="42202">Ships a Factory Wagon to your colony, allowing you to construct a powerful Factory to produce resources or heavy artillery. Permits you to have an extra Factory, +4 Uhlans.</String>
 		<String _locID="42203">Robber Barons</String>
 		<String _locID="42204">Robber Barons Shipment has arrived.</String>
 		<String _locID="42205">Ships a number of German Black Rider Mercenaries. Instead of Uhlans, you get extra Riders.</String>
@@ -14106,7 +14106,7 @@
 		<String _locID="43689">War Chief gains the healing ability.</String>
 		<String _locID="43690">Secret Society</String>
 		<String _locID="43691">Veteran Musketeer</String>
-		<String _locID="43692">Doubles the effectiveness of the War Chief's XP bounty aura.</String>
+		<String _locID="43692">Doubles the effectiveness of the War Chief's XP bounty aura and enables him to heal units.</String>
 		<String _locID="43693">Founder</String>
 		<String _locID="43694">Veteran Musketeer</String>
 		<String _locID="43695">War Chief now does greatly increased damage vs. artillery.</String>
@@ -14239,7 +14239,7 @@
 		<String _locID="43822">VIL Farm Travois</String>
 		<String _locID="43823">1 Travois</String>
 		<String _locID="43824">2 War Hut Travois</String>
-		<String _locID="43825">6 Wolves</String>
+		<String _locID="43825">7 Wolves</String>
 		<String _locID="43826">5 Pet Bears</String>
 		<String _locID="43827">Healer</String>
 		<String _locID="43828">Heals injured units. Can dance at the Fire Pit.</String>
@@ -14852,7 +14852,7 @@
 		<String _locID="44436">Increases War Chief area damage.</String>
 		<String _locID="44437">Counting Coup</String>
 		<String _locID="44438"/>
-		<String _locID="44439">6 Coyotes</String>
+		<String _locID="44439">8 Coyotes</String>
 		<String _locID="44440">9 Deer</String>
 		<String _locID="44441">TEAM 6 Bison</String>
 		<String _locID="44442"/>
@@ -15053,8 +15053,8 @@
 		<String _locID="44637">Now your War Chief is able to be stealthy.</String>
 		<String _locID="44638">Center of Power</String>
 		<String _locID="44639">War Chief!</String>
-		<String _locID="44640">4 Cougars</String>
-		<String _locID="44641">3 Grizzlies</String>
+		<String _locID="44640">5 Cougars</String>
+		<String _locID="44641">4 Grizzlies</String>
 		<String _locID="44642">4 Rifle Riders</String>
 		<String _locID="44643">6 Rifle Riders</String>
 		<String _locID="44644">5 Rifle Riders</String>
@@ -15493,13 +15493,13 @@
 		<String _locID="45079">The Hessians are camped in Trenton. Their patrol from tent to tent. Watch where the patrol goes and avoid it, then sneak in and destroy the tents.</String>
 		<String _locID="45080">Use Nathaniel to build a signal fire at each of the flagged locations. The fires will fool Cornwallis into thinking your army has camped and lure him out of Princeton.</String>
 		<String _locID="45081">Your group of colonial militia is too small to take on Cornwallis' army. You can, however, flank the main group heading for Trenton and strike at the smaller rear guard still stationed in Princeton.</String>
-		<String _locID="45082">Better War Chief Strike attack and improves the War Chief's hitpoints by 20%.</String>
+		<String _locID="45082">Improves the War Chief's hitpoints by 20%.</String>
 		<String _locID="45083">The Chief</String>
-		<String _locID="45084">Better War Chief Strike attack and improves the War Chief's hitpoints by 30%.</String>
+		<String _locID="45084">Improves the War Chief's hitpoints by 30%.</String>
 		<String _locID="45085">The Chief</String>
-		<String _locID="45086">Better War Chief Strike attack and improves the War Chief's hitpoints by 40%.</String>
+		<String _locID="45086">Improves the War Chief's hitpoints by 40%.</String>
 		<String _locID="45087">The Chief</String>
-		<String _locID="45088">Best War Chief Strike attack and improves the War Chief's hitpoints by 50%.</String>
+		<String _locID="45088">Improves the War Chief's hitpoints by 50%.</String>
 		<String _locID="45089">The Chief</String>
 		<String _locID="45090">+10% War/Nobles' Hut att/hp and 1 War Hut Travois.</String>
 		<String _locID="45091">The Shaman</String>
@@ -17636,7 +17636,7 @@
 		<String _locID="47234">Wind Runner</String>
 		<String _locID="47235">Mustangs Shipment has arrived.</String>
 		<String _locID="47236">TEAM 8 Cheyenne Allies</String>
-		<String _locID="47237">Your War Chief's aura now also boosts your units' attack. Also ships the powerful War Leader and enables him at the Embassy.</String>
+		<String _locID="47237">Your War Chief's aura now also boosts your units' attack.</String>
 		<String _locID="47238">Command Skill</String>
 		<String _locID="47239">Uprising shipment has arrived.</String>
 		<String _locID="47240">Command Skill Shipment has arrived.</String>
@@ -24349,13 +24349,13 @@
 		<String _locID="65059">Shipment: 800 Food, 800 Wood, 800 Coin\n \nPower: Nearby gathering enhanced.</String>
 		<String _locID="65060">Karni Mata</String>
 		<String _locID="65061">Underbrush Coastal Japan</String>
-		<String _locID="65062">Shipment: 4 Disciples\n \nPower: Increases Monk attack and hitpoints and Disciple build limit. Also heals nearby units and revive is free.</String>
+		<String _locID="65062">Shipment: 4 Disciples\n \nPower: Increases Monk attack and hitpoints and Disciple build limit. Monk revive is free.</String>
 		<String _locID="65063">White Pagoda</String>
-		<String _locID="65064">Shipment: 6 Disciples\n \nPower: Increases Monk attack and hitpoints and Disciple build limit. Also heals nearby units and revive is free.</String>
+		<String _locID="65064">Shipment: 6 Disciples\n \nPower: Increases Monk attack and hitpoints and Disciple build limit. Monk revive is free.</String>
 		<String _locID="65065">White Pagoda</String>
-		<String _locID="65066">Shipment: 10 Disciples\n \nPower: Increases Monk attack and hitpoints and Disciple build limit. Also heals nearby units and revive is free.</String>
+		<String _locID="65066">Shipment: 10 Disciples\n \nPower: Increases Monk attack and hitpoints and Disciple build limit. Monk revive is free.</String>
 		<String _locID="65067">White Pagoda</String>
-		<String _locID="65068">Shipment: 16 Disciples\n \nPower: Increases Monk attack and hitpoints and Disciple build limit. Also heals nearby units and revive is free.</String>
+		<String _locID="65068">Shipment: 16 Disciples\n \nPower: Increases Monk attack and hitpoints and Disciple build limit. Monk revive is free.</String>
 		<String _locID="65069">White Pagoda</String>
 		<String _locID="65070">Shipment: 400 Food\n \nPower: Produces Banner Armies</String>
 		<String _locID="65071">Summer Palace</String>
@@ -30353,5 +30353,9 @@
 		<String _locID="780945">3 Dhow +1 Villager</String>
 		<String _locID="780946">Imperial Mortars</String>
 		<String _locID="780947">Imperial Mortar</String>
+		<String _locID="780948">5 Sheep</String>
+		<String _locID="780949">War Leader</String>
+		<String _locID="780950">Ships the powerful War Leader and enables him in the Embassy. Also your War Chief can now heal units.</String>
+		<String _locID="780951">War Leader Shipment has arrived.</String>
 	</Language>
 </StringTable>
