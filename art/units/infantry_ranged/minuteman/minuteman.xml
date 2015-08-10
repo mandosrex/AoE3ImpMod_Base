@@ -365,22 +365,8 @@
 	<anim>
 		Charge_attack
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\cacadore_charge_attackA</file>
-			<tag type="Attack">0.51</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.40</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\cacadore_charge_attackB</file>
-			<tag type="Attack">0.52</tag>
-			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.34</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\charge_attackA</file>
 			<tag type="Attack">0.52</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_attackB</file>
-			<tag type="Attack">0.70</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\charge_attackC</file>

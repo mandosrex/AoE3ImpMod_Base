@@ -10,7 +10,16 @@
 	</attachment>
 	<attachment>
 		guns
-		<include>units\infantry_ranged\skirmisher\skirmisher_guns.xml</include>
+		<component>
+			gun
+			<assetreference type="GrannyModel">
+				<file>units\attachments\blunderbuss_villager</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>gun</component>
+		</anim>
 	</attachment>
 	<attachment>
 		hats
@@ -385,10 +394,6 @@
 			<file>animation_library\range\charge\cacadore_charge_attackB</file>
 			<tag type="Attack">0.52</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.34</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_attackA</file>
-			<tag type="Attack">0.52</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\charge_attackB</file>

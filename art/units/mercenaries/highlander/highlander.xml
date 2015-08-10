@@ -335,10 +335,6 @@
 			<tag type="Attack">0.52</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_attackB</file>
-			<tag type="Attack">0.67</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\charge_attackC</file>
 			<tag type="Attack">0.50</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.41</tag>

@@ -463,4 +463,68 @@
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
+	<anim>
+		Charge_idle
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\charge\longbow_charge_idle</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="ROOT" tobone="Bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_bored
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\volley\longbow_volley_standing_boredA</file>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\volley\longbow_volley_standing_boredB</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="ROOT" tobone="Bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_attack
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\defend\longbow_defend_melee_A</file>
+			<tag type="Attack">0.52</tag>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\defend\longbow_defend_melee_B</file>
+			<tag type="Attack">0.27</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.21</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.56</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="ROOT" tobone="Bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_walk
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\charge\longbow_charge_walk</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.60</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.08</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="ROOT" tobone="Bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_jog
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\charge\longbow_charge_jog</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.69</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.15</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="ROOT" tobone="Bip01 Prop2" syncanims="0"/>
+	</anim>
+	<anim>
+		Charge_run
+		<assetreference type="GrannyAnim">
+			<file>animation_library\range\charge\longbow_charge_run</file>
+			<tag type="FootstepLeft" footprinttype="HumanLeft">0.68</tag>
+			<tag type="FootstepRight" footprinttype="HumanRight">0.13</tag>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="club" frombone="ROOT" tobone="Bip01 Prop2" syncanims="0"/>
+	</anim>
 </animfile>

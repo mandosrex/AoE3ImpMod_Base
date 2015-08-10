@@ -379,7 +379,7 @@
 	<anim>
 		Volley_standing_reload
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\volley\volley_kneeling_reload</file>
+			<file>units\asians\chinese\chu_ko_nu\chokonu_volley_standing_reload</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
@@ -466,10 +466,6 @@
 			<file>animation_library\range\charge\cacadore_charge_attackB</file>
 			<tag type="Attack">0.52</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Swoosh">0.34</tag>
-		</assetreference>
-		<assetreference type="GrannyAnim">
-			<file>animation_library\range\charge\charge_attackA</file>
-			<tag type="Attack">0.52</tag>
 		</assetreference>
 		<assetreference type="GrannyAnim">
 			<file>animation_library\range\charge\charge_attackB</file>

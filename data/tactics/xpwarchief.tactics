@@ -159,7 +159,7 @@
 		<runaway>0</runaway>
 		<idleanim>Volley_standing_idle</idleanim>
 		<boredanim>Volley_standing_bored</boredanim>
-		<deathanim>Death_by_melee</deathanim>
+		<deathanim>Death</deathanim>
 		<walkanim>Volley_walk</walkanim>
 		<joganim>Volley_jog</joganim>
 		<runanim>Volley_run</runanim>
@@ -182,7 +182,7 @@
 		<autoretarget>1</autoretarget>
 		<idleanim>Charge_idle</idleanim>
 		<boredanim>Charge_bored</boredanim>
-		<deathanim>Death_by_melee</deathanim>
+		<deathanim>Death</deathanim>
 		<walkanim>Charge_walk</walkanim>
 		<joganim>Charge_jog</joganim>
 		<runanim>Charge_run</runanim>
@@ -206,7 +206,7 @@
 		<autoretarget>1</autoretarget>
 		<idleanim>Defend_idle</idleanim>
 		<boredanim>Defend_bored</boredanim>
-		<deathanim>Death_by_melee</deathanim>
+		<deathanim>Death</deathanim>
 		<walkanim>Cover_walk</walkanim>
 		<joganim>Cover_jog</joganim>
 		<runanim>Cover_run</runanim>
@@ -230,7 +230,7 @@
 		<autoretarget>1</autoretarget>
 		<idleanim>Cover_ranged_idle</idleanim>
 		<boredanim>Cover_bored</boredanim>
-		<deathanim>Death_by_melee</deathanim>
+		<deathanim>Death</deathanim>
 		<walkanim>Cover_walk</walkanim>
 		<joganim>Cover_jog</joganim>
 		<runanim>Cover_run</runanim>
