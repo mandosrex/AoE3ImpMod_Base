@@ -136,10 +136,10 @@
 				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
 				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
-				<width>18.00</width>
-				<height>16.00</height>
+				<width>15.00</width>
+				<height>10.00</height>
 				<xoffset>0.00</xoffset>
-				<zoffset>0.50</zoffset>
+				<zoffset>0.00</zoffset>
 			</decal>
 		</component>
 		<component>
@@ -161,9 +161,10 @@
 				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
 				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
-				<width>18.00</width>
-				<height>16.00</height>
-				<zoffset>0.50</zoffset>
+				<width>15.00</width>
+				<height>10.00</height>
+				<xoffset>0.00</xoffset>
+				<zoffset>0.00</zoffset>
 			</decal>
 		</component>
 		<anim>
@@ -307,8 +308,8 @@
 				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
 				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
-				<width>18.00</width>
-				<height>17.00</height>
+				<width>15.00</width>
+				<height>10.00</height>
 				<xoffset>0.00</xoffset>
 				<zoffset>0.00</zoffset>
 			</decal>
@@ -332,8 +333,8 @@
 				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
 				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
-				<width>18.00</width>
-				<height>17.00</height>
+				<width>15.00</width>
+				<height>10.00</height>
 				<zoffset>0.00</zoffset>
 			</decal>
 		</component>
@@ -436,8 +437,8 @@
 				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
 				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
-				<width>18.00</width>
-				<height>16.00</height>
+				<width>15.00</width>
+				<height>10.00</height>
 				<xoffset>0.00</xoffset>
 				<zoffset>0.00</zoffset>
 			</decal>
@@ -461,8 +462,8 @@
 				<texture>buildings\capitol\MED\AGE_3\med_capitol_age3_ground</texture>
 				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
 				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
-				<width>18.00</width>
-				<height>16.00</height>
+				<width>15.00</width>
+				<height>10.00</height>
 				<zoffset>0.00</zoffset>
 			</decal>
 		</component>

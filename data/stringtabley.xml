@@ -1752,7 +1752,7 @@
 		<String _locID="23672">Kalmucks</String>
 		<String _locID="23674">Ships 17 Bashkirs (Hussar-like cavalry) from the motherland. Upgrades all Hussars to Guard.</String>
 		<String _locID="23675">Bashkir Ponies</String>
-		<String _locID="23677">Improves all Russian infantry units and brings them in line with other European troops.</String>
+		<String _locID="23677">Improves all Russian infantry units and brings them in line with other European troops (Russian infantry is by default weaker and cheaper for block training).</String>
 		<String _locID="23678">Westernization</String>
 		<String _locID="23679">Raises all your troops to Guards if they are not already.</String>
 		<String _locID="23680">Petrine Reforms</String>
@@ -2971,7 +2971,7 @@
 		<String _locID="27218" gamecharacter="Sailor" soundfilename="GENR5025">Canoes are approaching!</String>
 		<String _locID="27219" gamecharacter="Sailor" soundfilename="GENR5030">Thanks to that pirate, we'll need some new ships.</String>
 		<String _locID="27221">Royal Decree to Claim the New World</String>
-		<String _locID="27222">Provides your Church with unique Spanish improvements.</String>
+		<String _locID="27222">Provides your Church with unique Spanish improvements. Also moves the Capitol to the Conquest Age.</String>
 		<String _locID="27224">Warships attack increased.</String>
 		<String _locID="27225">Warships Broadside attack increased.</String>
 		<String _locID="27226" gamecharacter="Sailor" soundfilename="GENR5035">Native warriors have landed!</String>
@@ -7061,7 +7061,7 @@
 		<String _locID="36470">Fencing School</String>
 		<String _locID="36471">All cavalry train faster, +2 Uhlans.</String>
 		<String _locID="36472">Riding School</String>
-		<String _locID="36473">Provides your Church with unique German improvements, +2 Uhlans.</String>
+		<String _locID="36473">Provides your Church with unique German improvements.  Also moves the Capitol to the Conquest Age, +2 Uhlans.</String>
 		<String _locID="36474">Treaty of Westphalia</String>
 		<String _locID="36475">Mills are cheaper and stronger.</String>
 		<String _locID="36476">Advanced Mill</String>
@@ -7991,7 +7991,7 @@
 		<String _locID="37524" symbol="cStringESOFailedChatConnection">Failed to connect to ESO and retrieve Chat Channel List.</String>
 		<String _locID="37525" symbol="cStringESOTBD">TBD</String>
 		<String _locID="37527">12 Skirmishers +4 Uhlans</String>
-		<String _locID="37528">Provides your Mosque with unique Ottoman improvements.</String>
+		<String _locID="37528">Provides your Mosque with unique Ottoman improvements. Also moves the Capitol to the Conquest Age.</String>
 		<String _locID="37529">Palace Intrigue</String>
 		<String _locID="37530" symbol="cStringESOJoined">%s has joined channel %s</String>
 		<String _locID="37531" symbol="cStringESOLeft">%s has left channel %s</String>
@@ -8006,15 +8006,15 @@
 		<String _locID="37540" symbol="cStringTellAbbr">t</String>
 		<String _locID="37541" symbol="cStringWhisper">whisper</String>
 		<String _locID="37542" symbol="cStringTell">tell</String>
-		<String _locID="37543">Provides your Church with unique British improvements.</String>
+		<String _locID="37543">Provides your Church with unique British improvements. Also moves the Capitol to the Conquest Age.</String>
 		<String _locID="37544">The Glorious Revolution</String>
-		<String _locID="37545">Provides your Church with unique French improvements.</String>
+		<String _locID="37545">Provides your Church with unique French improvements. Also moves the Capitol to the Conquest Age.</String>
 		<String _locID="37546">Edict of Nantes</String>
-		<String _locID="37547">Provides your Church with unique Dutch improvements.</String>
+		<String _locID="37547">Provides your Church with unique Dutch improvements. Also moves the Capitol to the Conquest Age.</String>
 		<String _locID="37548">Religious Freedom</String>
-		<String _locID="37549">Provides your Church with unique Russian improvements.</String>
+		<String _locID="37549">Provides your Church with unique Russian improvements. Also moves the Capitol to the Conquest Age.</String>
 		<String _locID="37550">Reformist Tsar</String>
-		<String _locID="37551">Provides your Church with unique Portuguese improvements.</String>
+		<String _locID="37551">Provides your Church with unique Portuguese improvements. Also moves the Capitol to the Conquest Age.</String>
 		<String _locID="37552">Treaty of Tordesillas</String>
 		<String _locID="37553" symbol="cStringESOFailedClanRoster">Failed to retrieve Clan roster.</String>
 		<String _locID="37554" symbol="cStringESOFailedClanAbbr">Cannot use this name/abbreviation for a Clan.</String>
@@ -30159,7 +30159,7 @@
 		<String _locID="780742">You have joined the Native Confederacy!</String>
 		<String _locID="780743">Patriot Militia</String>
 		<String _locID="780744">Fisheries must be built near Fish.</String>
-		<String _locID="780745">Fame Collected (Town Centers generate Fame over time; spend it on armies and techs)</String>
+		<String _locID="780745">Fame Collected (Town Centers generate Fame automatically; spend it at the Capitol)</String>
 		<String _locID="780746">Messenger</String>
 		<String _locID="780747">Town Centers cannot be built too close to any starting Town Center.</String>
 		<String _locID="780748">Repentant Miner</String>
@@ -30283,7 +30283,7 @@
 		<String _locID="780865">Use Fame to get 4 Shipments from your Home City.</String>
 		<String _locID="780866">Large California</String>
 		<String _locID="780867">Large Mongolia</String>
-		<String _locID="780868">Builder Wagon</String>
+		<String _locID="780868">Economy Wagon</String>
 		<String _locID="780869">Builds economic buildings.</String>
 		<String _locID="780880">You can now have double the amount of livestock and livestock trains instantly.</String>
 		<String _locID="780881">Royal Hussar</String>
@@ -30357,5 +30357,13 @@
 		<String _locID="780949">War Leader</String>
 		<String _locID="780950">Ships the powerful War Leader and enables him in the Embassy. Also your War Chief can now heal units.</String>
 		<String _locID="780951">War Leader Shipment has arrived.</String>
+		<String _locID="780952">The Economic Agreement</String>
+		<String _locID="780953">The Military Alliance</String>
+		<String _locID="780954">Joining the Economic Agreement grants the following benefits:\nSettler limit increased by 10;\nShips 10 free Settlers;\nEnables training of Resource Wagons.</String>
+		<String _locID="780955">Joining the Military Alliance grants the following benefits:\nShips a free Brigade of soldiers;\nEnables training of Brigades.</String>
+		<String _locID="780956">Military Wagon</String>
+		<String _locID="780957">Builds military buildings.</String>
+		<String _locID="780958">Spend Fame here on armies, support wagons and powerful alliances.</String>
+		<String _locID="780959">Homeland troops / improvement building (costs Fame)</String>
 	</Language>
 </StringTable>

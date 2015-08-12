@@ -120,7 +120,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmySpanish11</multipleblockunit>
 			<units>
 				<unit>Pikeman</unit>
@@ -130,7 +130,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmySpanish22</multipleblockunit>
 			<units>
 				<unit>Pikeman</unit>
@@ -146,7 +146,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmySpanish33</multipleblockunit>
 			<units>
 				<unit>Rodelero</unit>
@@ -163,6 +163,22 @@
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>TownCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -205,6 +221,46 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
@@ -321,7 +377,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyBritish11</multipleblockunit>
 			<units>
 				<unit>Musketeer</unit>
@@ -331,7 +387,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyBritish22</multipleblockunit>
 			<units>
 				<unit>Musketeer</unit>
@@ -347,7 +403,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyBritish33</multipleblockunit>
 			<units>
 				<unit>Hussar</unit>
@@ -422,6 +478,46 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
@@ -536,7 +632,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyFrench11</multipleblockunit>
 			<units>
 				<unit>Grenadier</unit>
@@ -546,7 +642,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyFrench22</multipleblockunit>
 			<units>
 				<unit>Grenadier</unit>
@@ -562,7 +658,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyFrench33</multipleblockunit>
 			<units>
 				<unit>xpHorseArtillery</unit>
@@ -579,6 +675,22 @@
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>TownCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -621,6 +733,46 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
@@ -741,7 +893,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyPortuguese11</multipleblockunit>
 			<units>
 				<unit>Crossbowman</unit>
@@ -751,7 +903,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyPortuguese22</multipleblockunit>
 			<units>
 				<unit>Culverin</unit>
@@ -767,7 +919,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyPortuguese33</multipleblockunit>
 			<units>
 				<unit>Cacadore</unit>
@@ -784,6 +936,22 @@
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>TownCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -826,6 +994,46 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
@@ -942,7 +1150,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyDutch11</multipleblockunit>
 			<units>
 				<unit>Schutze</unit>
@@ -952,7 +1160,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyDutch22</multipleblockunit>
 			<units>
 				<unit>Ruyter</unit>
@@ -968,7 +1176,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyDutch33</multipleblockunit>
 			<units>
 				<unit>Ruyter</unit>
@@ -985,6 +1193,22 @@
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>TownCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -1027,6 +1251,46 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
@@ -1208,7 +1472,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyRussian11</multipleblockunit>
 			<units>
 				<unit>Cossack</unit>
@@ -1218,7 +1482,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyRussian22</multipleblockunit>
 			<units>
 				<unit>Cossack</unit>
@@ -1234,7 +1498,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyRussian33</multipleblockunit>
 			<units>
 				<unit>CavalryArcher</unit>
@@ -1251,6 +1515,22 @@
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>TownCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -1293,6 +1573,46 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
@@ -1410,7 +1730,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyGerman11</multipleblockunit>
 			<units>
 				<unit>Dopplesoldner</unit>
@@ -1420,7 +1740,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyGerman22</multipleblockunit>
 			<units>
 				<unit>Skirmisher</unit>
@@ -1436,7 +1756,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyGerman33</multipleblockunit>
 			<units>
 				<unit>Skirmisher</unit>
@@ -1453,6 +1773,22 @@
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>TownCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -1495,6 +1831,46 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
@@ -1610,7 +1986,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyOttoman11</multipleblockunit>
 			<units>
 				<unit>Hussar</unit>
@@ -1620,7 +1996,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyOttoman22</multipleblockunit>
 			<units>
 				<unit>Spahi</unit>
@@ -1636,7 +2012,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>Capitol</building>
 			<multipleblockunit>ypConsulateArmyOttoman33</multipleblockunit>
 			<units>
 				<unit>Janissary</unit>
@@ -1653,6 +2029,22 @@
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>TownCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -1695,6 +2087,46 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
@@ -1798,6 +2230,22 @@
 		</unitregen>
 		<multipleblocktrain>
 			<building>TownCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>SPCFortCenter</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
@@ -1941,6 +2389,22 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
+			<building>SPCFortCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
 			<building>Outpost</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
@@ -1952,6 +2416,46 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
@@ -2045,7 +2549,7 @@
 			<count>3</count>
 		</blocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>SPCFortCenterUS</building>
 			<multipleblockunit>ypConsulateArmyBritish1US</multipleblockunit>
 			<units>
 				<unit>ypConsulateRedcoat</unit>
@@ -2055,7 +2559,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>SPCFortCenterUS</building>
 			<multipleblockunit>ypConsulateArmyFrench3US</multipleblockunit>
 			<units>
 				<unit>ypConsulateHorseArtillery</unit>
@@ -2071,7 +2575,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>SPCFortCenterUS</building>
 			<multipleblockunit>ypConsulateArmyDutch2US</multipleblockunit>
 			<units>
 				<unit>ypConsulateCarabineer</unit>
@@ -2103,6 +2607,22 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
+			<building>SPCFortCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
 			<building>Outpost</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
@@ -2114,6 +2634,46 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
@@ -2209,6 +2769,22 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
+			<building>SPCFortCenter</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
 			<building>Outpost</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
@@ -2220,6 +2796,46 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
@@ -7828,7 +8444,7 @@
 			<count>3</count>
 		</blocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>SPCFortCenterUS</building>
 			<multipleblockunit>ypConsulateArmyBritish1US</multipleblockunit>
 			<units>
 				<unit>ypConsulateRedcoat</unit>
@@ -7838,7 +8454,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>SPCFortCenterUS</building>
 			<multipleblockunit>ypConsulateArmyFrench3US</multipleblockunit>
 			<units>
 				<unit>ypConsulateHorseArtillery</unit>
@@ -7854,7 +8470,7 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
-			<building>SPCFortCenter</building>
+			<building>SPCFortCenterUS</building>
 			<multipleblockunit>ypConsulateArmyDutch2US</multipleblockunit>
 			<units>
 				<unit>ypConsulateCarabineer</unit>
@@ -7886,6 +8502,22 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
+			<building>SPCFortCenterUS</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
 			<building>Outpost</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
@@ -7897,6 +8529,62 @@
 			<unitcounts>
 				<count>6</count>
 			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>ypOutpostAsian</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>CoveredWagonFame</multipleblockunit>
+			<units>
+				<unit>CoveredWagon</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>WagonBuildings2Fame</multipleblockunit>
+			<units>
+				<unit>WagonBuildings2</unit>
+			</units>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
+			<building>Capitol</building>
+			<multipleblockunit>ResourceWagonFame</multipleblockunit>
+			<units>
+				<unit>ResourceWagon</unit>
+			</units>
 			<unitcounts>
 				<count>1</count>
 			</unitcounts>
