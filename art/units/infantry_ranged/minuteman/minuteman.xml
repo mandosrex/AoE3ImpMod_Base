@@ -410,7 +410,7 @@
 		<component>
 			hat
 			<assetreference type="GrannyModel">
-				<file>units\asians\shared\peasant\Hat2_Irr</file>
+				<file>units\priests\ottoman_priest_hat</file>
 			</assetreference>
 		</component>
 		<anim>
@@ -453,17 +453,17 @@
 		<logic type="LowPoly">
 			<normal>
 				<assetreference type="GrannyModel">
-					<file>units\spc\Sahin\sahin_spc</file>
+					<file>units\infantry_ranged\minuteman\minuteman</file>
 				</assetreference>
 				<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-				<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="1"/>
+				<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
 			</normal>
 			<lowpoly>
 				<assetreference type="GrannyModel">
-					<file>units\spc\Sahin\sahin_l_b</file>
+					<file>units\infantry_ranged\minuteman\lp_minuteman</file>
 				</assetreference>
 				<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
-				<attach a="gun" frombone="bone_gun" tobone="bip01 Prop1" syncanims="1"/>
+				<attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="1"/>
 			</lowpoly>
 		</logic>
 		<decal>
@@ -816,10 +816,10 @@
 				<submodelref ref="Minuteman"/>
 			</british>
 			<ottomans>
-				<submodelref ref="Minuteman"/>
+				<submodelref ref="MinutemanOT"/>
 			</ottomans>
 			<indians>
-				<submodelref ref="Minuteman"/>
+				<submodelref ref="MinutemanOT"/>
 			</indians>
 		</logic>
 	</component>
