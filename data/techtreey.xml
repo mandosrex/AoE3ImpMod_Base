@@ -268,7 +268,7 @@
 				<Target type="ProtoUnit">NativeScoutF</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">ChurchTies</Effect>
-			<Effect type="Data" amount="150.00" subtype="Resource" resource="Fame" relativity="Absolute">
+			<Effect type="Data" amount="100.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="active">VeteranCraneq</Effect>
@@ -1259,7 +1259,7 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
-			<Effect type="Data" amount="100.00" subtype="Resource" resource="Fame" relativity="Absolute">
+			<Effect type="Data" amount="200.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
@@ -1477,9 +1477,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
-			</Effect>
-			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">WarCamp</Target>
@@ -9388,6 +9385,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypSettlerAsian</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpImmigrantsAsian</Effect>
 			<Effect type="TechStatus" status="active">XPTrickle</Effect>
 			<Effect type="TechStatus" status="obtainable">Civilization</Effect>
@@ -17433,9 +17433,6 @@
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
 			<Effect type="TechStatus" status="active">Colonialize</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ResourceWagon" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 			<Effect type="TextOutput">780790</Effect>
 		</Effects>
 	</Tech>
@@ -17446,9 +17443,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Industrialize</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ResourceWagon" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 			<Effect type="TechStatus" status="active">Crackshot</Effect>
 			<Effect type="TextOutput">780790</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionSanMartin</Effect>
@@ -19123,9 +19117,6 @@
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionSanMartin</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionHidalgo</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ResourceWagon" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 			<Effect type="TextOutput">780790</Effect>
 		</Effects>
 	</Tech>
@@ -21606,9 +21597,6 @@
 			<Effect type="TechStatus" status="active">Fortressize</Effect>
 			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ResourceWagon" relativity="Absolute">
-				<Target type="Player"/>
 			</Effect>
 			<Effect type="TextOutput">780790</Effect>
 		</Effects>
@@ -69523,8 +69511,8 @@ Indians" type="Normal">
 	<Tech name="EconomicAlliance" type="Normal">
 		<DBID>172</DBID>
 		<DisplayNameID>780952</DisplayNameID>
-		<Cost resourcetype="Fame">200.0000</Cost>
-		<ResearchPoints>15.0000</ResearchPoints>
+		<Cost resourcetype="Fame">400.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\militaryalliance</Icon>
 		<RolloverTextID>780954</RolloverTextID>
@@ -69549,8 +69537,8 @@ Indians" type="Normal">
 	<Tech name="MilitaryAlliance" type="Normal">
 		<DBID>172</DBID>
 		<DisplayNameID>780953</DisplayNameID>
-		<Cost resourcetype="Fame">200.0000</Cost>
-		<ResearchPoints>15.0000</ResearchPoints>
+		<Cost resourcetype="Fame">400.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\economicalliance</Icon>
 		<RolloverTextID>780955</RolloverTextID>

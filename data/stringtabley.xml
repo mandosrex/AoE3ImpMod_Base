@@ -354,7 +354,7 @@
 		<String _locID="19141" symbol="cStringPauseRestriction">Restrict Number of Pauses</String>
 		<String _locID="19142" symbol="cStringGenericTechMessage">%s improvement complete.</String>
 		<String _locID="19144" symbol="cStringCursorUngarrisonHelp">Left-click to unload.</String>
-		<String _locID="19156">II: Expansion Age</String>
+		<String _locID="19156">II: Colonial Age</String>
 		<String _locID="19159" symbol="cStringBuilding">Building</String>
 		<String _locID="19160" symbol="cStringAbstractUnit">Unit</String>
 		<String _locID="19161">Improvement</String>
@@ -1520,8 +1520,8 @@
 		<String _locID="22885">Projectile</String>
 		<String _locID="22888">Cannonball</String>
 		<String _locID="22890">Projectile</String>
-		<String _locID="22896">Word of your discovery has spread. Villagers from your home city arrive to usher in the Expansion Age.</String>
-		<String _locID="22900" symbol="cStringAge1">II: Expansion Age</String>
+		<String _locID="22896">Word of your discovery has spread. Villagers from your home city arrive to usher in the Colonial Age.</String>
+		<String _locID="22900" symbol="cStringAge1">II: Colonial Age</String>
 		<String _locID="22910">Train Track</String>
 		<String _locID="22914">Dock</String>
 		<String _locID="22918">Trains and upgrades hand and ranged cavalry.</String>
@@ -1608,7 +1608,7 @@
 		<String _locID="23230">Guard War Wagons</String>
 		<String _locID="23232">Dragoon attack and hitpoints increased.</String>
 		<String _locID="23233">Guard Dragoons</String>
-		<String _locID="23238" symbol="cStringAge2Active">EXPANSION AGE! You can now train units in the New World.</String>
+		<String _locID="23238" symbol="cStringAge2Active">COLONIAL AGE! You can now train units in the New World.</String>
 		<String _locID="23240" symbol="cStringAge4Active">INDUSTRIAL AGE! Railroads and Factories can empower your economy.</String>
 		<String _locID="23244">Jimmy Villager</String>
 		<String _locID="23254">Cuirassier attack and hitpoints increased.</String>
@@ -2496,11 +2496,11 @@
 		<String _locID="26057">River Props Amazon</String>
 		<String _locID="26058">PROP River Amazon River</String>
 		<String _locID="26059" symbol="cStringCivRolloverFrench">Home City gives support and bonuses through Decree cards. Villagers are Coureurs - expensive, but gather and fight better than Settlers. Gets extra Fame with each Age. Best units: Skirmisher, Cuirassier.</String>
-		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built. Gets a free General in the Conquest Age and extra early Docks. Best units: Musketeer, Hussar.</String>
-		<String _locID="26061" symbol="cStringCivRolloverSpanish">Home City gives support and bonuses through Decree cards. Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Conquest Age. Best units: Rodelero, Lancer.</String>
-		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Settler limit. Best units: Musketeer, Dragoon.</String>
+		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built. Gets a free General in the Enlightenment Age and extra early Docks. Best units: Musketeer, Hussar.</String>
+		<String _locID="26061" symbol="cStringCivRolloverSpanish">Home City gives support and bonuses through Decree cards. Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Enlightenment Age. Best units: Rodelero, Lancer.</String>
+		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Town Center limit. Best units: Musketeer, Dragoon.</String>
 		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets a free Bank Wagon with every Age and extra Envoys. Best units: Halberdier, Ruyter.</String>
-		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Shipments, and a free Supply Wagon with every Age. Best units: Skirmisher, Uhlan.</String>
+		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Shipments and extra starting Fame. Best units: Skirmisher, Uhlan.</String>
 		<String _locID="26066" symbol="cStringCivRolloverRussians">Home City gives support and bonuses through Decree cards. Trains cavalry and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age. Best units: Grenadier, Cavalry Archer.</String>
 		<String _locID="26068" symbol="cStringCivRolloverOttomans">Home City gives support and bonuses through Decree cards. Town Centers produce Settlers for free. Mosques improve Settler production and generate experience. Best units: Abus Gun, Spahi.</String>
 		<String _locID="26071">Rubble</String>
@@ -2971,7 +2971,7 @@
 		<String _locID="27218" gamecharacter="Sailor" soundfilename="GENR5025">Canoes are approaching!</String>
 		<String _locID="27219" gamecharacter="Sailor" soundfilename="GENR5030">Thanks to that pirate, we'll need some new ships.</String>
 		<String _locID="27221">Royal Decree to Claim the New World</String>
-		<String _locID="27222">Provides your Church with unique Spanish improvements. Also moves the Capitol to the Conquest Age.</String>
+		<String _locID="27222">Provides your Church with unique Spanish improvements. Also moves the Capitol to the Enlightenment Age.</String>
 		<String _locID="27224">Warships attack increased.</String>
 		<String _locID="27225">Warships Broadside attack increased.</String>
 		<String _locID="27226" gamecharacter="Sailor" soundfilename="GENR5035">Native warriors have landed!</String>
@@ -3057,7 +3057,7 @@
 		<String _locID="27326" gamecharacter="Kanyenke" soundfilename="KANY5025">The British white men will pay at the hands of those Iroquois warriors.</String>
 		<String _locID="27327" gamecharacter="John" soundfilename="JOHN5065">Captain, once we are through the walls, help the Iroquois destroy the entire British camp.</String>
 		<String _locID="27328">Transforms into a Town Center</String>
-		<String _locID="27329">Starts a new colony by transforming into a Town Center. Most civilizations can only have 1 Town Center until the Expansion Age.</String>
+		<String _locID="27329">Starts a new colony by transforming into a Town Center.</String>
 		<String _locID="27330">Covered Wagon</String>
 		<String _locID="27332" gamecharacter="Kanyenke" soundfilename="KANY5030">For what the British have done to my sister's village, every building must be destroyed.</String>
 		<String _locID="27333" gamecharacter="John" soundfilename="JOHN5070">It looks like the French could use our help.</String>
@@ -3853,7 +3853,7 @@
 		<String _locID="29591">Hot Air Balloon</String>
 		<String _locID="29592">Recon unit</String>
 		<String _locID="29594">Mercenaries are cheaper.</String>
-		<String _locID="29620">Expansion Age</String>
+		<String _locID="29620">Colonial Age</String>
 		<String _locID="29629">Ground Decal Great Plains</String>
 		<String _locID="29630">PROP Great Plains Decal</String>
 		<String _locID="29632">Defensive building</String>
@@ -4084,8 +4084,8 @@
 		<String _locID="30457">Find Native American allies.</String>
 		<String _locID="30458">Blockade</String>
 		<String _locID="30459">Set up a blockade on enemy Home Cities, preventing them from getting any shipments!</String>
-		<String _locID="30509" symbol="cStringReachedAge2">You have reached the Expansion Age!</String>
-		<String _locID="30510" symbol="cStringReachedAge3">You have reached the Conquest Age!</String>
+		<String _locID="30509" symbol="cStringReachedAge2">You have reached the Colonial Age!</String>
+		<String _locID="30510" symbol="cStringReachedAge3">You have reached the Enlightenment Age!</String>
 		<String _locID="30524">Increases the build limit on all warships such as Caravels, Frigates and Monitors.</String>
 		<String _locID="30525">Balloons can be produced from the Town Center and sent aloft to provide a huge line of sight. They cannot move once deployed and have no attack.</String>
 		<String _locID="30554">Mercenaries are elite troops that can be sent from the Home City for a Coin cost. Once a group of Mercenaries is hired, by any player in the game, those Mercenaries are unavailable for the rest of the game.</String>
@@ -4620,8 +4620,8 @@
 		<String _locID="32562">You can train Mantlets out of the Trading Post in the Iroquois village. Mantlets are excellent unit for taking down buildings.</String>
 		<String _locID="32564">Imperial King's Life Guard</String>
 		<String _locID="32565">Royal Guard Musketeer</String>
-		<String _locID="32566">Advance to the Conquest Age and build an Artillery Foundry.</String>
-		<String _locID="32567">Remember you will need a reserve of Food and Coin to advance to Conquest Age.</String>
+		<String _locID="32566">Advance to the Enlightenment Age and build an Artillery Foundry.</String>
+		<String _locID="32567">Remember you will need a reserve of Food and Coin to advance to Enlightenment Age.</String>
 		<String _locID="32568">Lakota chief's daughter</String>
 		<String _locID="32569">This is the only remaining daughter of the Lakota Chief. She has a great personality.</String>
 		<String _locID="32570">Greta</String>
@@ -4811,7 +4811,7 @@
 		<String _locID="32886" symbol="cStringCurrentXP">XP %s</String>
 		<String _locID="32887" symbol="cStringGrandConquestLabel">Grand Conquest</String>
 		<String _locID="32893">Tech Status Equals</String>
-		<String _locID="32897">%s's colony has reached the EXPANSION AGE!</String>
+		<String _locID="32897">%s's colony has reached the COLONIAL AGE!</String>
 		<String _locID="32899" gamecharacter="John" soundfilename="JOHN5036">The only way to your sister's village is through the British.</String>
 		<String _locID="32900" gamecharacter="Kanyenke" soundfilename="KANY5016">The British are attacking the village. We should attack from our side now!</String>
 		<String _locID="32901" gamecharacter="Soldier" soundfilename="GENR5131">Sir, one of our scouts has spotted a British fort.</String>
@@ -4912,9 +4912,9 @@
 		<String _locID="33011" gamecharacter="Narrator" soundfilename="TUTO1175">That sound, and the flashing Shipment icon, indicate that you may now send a Shipment from the Home City.</String>
 		<String _locID="33012" gamecharacter="Narrator" soundfilename="TUTO1180">Click on the flashing Home City button now.</String>
 		<String _locID="33013" gamecharacter="Narrator" soundfilename="TUTO1185">During a game of Age of Empires III, visit the Home City now and then to send Shipments of resources, Settlers, or soldiers.</String>
-		<String _locID="33019" gamecharacter="Narrator" soundfilename="TUTO1215">The timer above the Mini Map at the lower left of the screen shows how long it will take until you advance to the Expansion Age.</String>
-		<String _locID="33020" gamecharacter="Narrator" soundfilename="TUTO1220">While you're waiting to advance to the Expansion Age, click the flashing button to return to the New World, and continue gathering resources and exploring.</String>
-		<String _locID="33021" gamecharacter="Narrator" soundfilename="TUTO1225">You have reached the Expansion Age!</String>
+		<String _locID="33019" gamecharacter="Narrator" soundfilename="TUTO1215">The timer above the Mini Map at the lower left of the screen shows how long it will take until you advance to the Colonial Age.</String>
+		<String _locID="33020" gamecharacter="Narrator" soundfilename="TUTO1220">While you're waiting to advance to the Colonial Age, click the flashing button to return to the New World, and continue gathering resources and exploring.</String>
+		<String _locID="33021" gamecharacter="Narrator" soundfilename="TUTO1225">You have reached the Colonial Age!</String>
 		<String _locID="33022" gamecharacter="Narrator" soundfilename="TUTO1230">Build a Barracks to help defend your colony.</String>
 		<String _locID="33023" gamecharacter="Narrator" soundfilename="TUTO1235">Select a Settler.</String>
 		<String _locID="33024" gamecharacter="Narrator" soundfilename="TUTO1240">Click the flashing Barracks button.</String>
@@ -4957,27 +4957,27 @@
 		<String _locID="33076">Player Set HC Access</String>
 		<String _locID="33077">HC Access On</String>
 		<String _locID="33113" gamecharacter="Kanyenke" soundfilename="KANY0081" portraitfilename="units\spc\kanyenke\kanyenke_igc_icon">But she decides who she loves, and I will not come between you.</String>
-		<String _locID="33116">Allows you to send the Adventurer, who advances you to Expansion Age and improves your Explorer's hitpoints and the line of sight of cavalry and infantry.</String>
+		<String _locID="33116">Allows you to send the Adventurer, who advances you to Colonial Age and improves your Explorer's hitpoints and the line of sight of cavalry and infantry.</String>
 		<String _locID="33117">British</String>
 		<String _locID="33122">Allows you to send the Gentleman Pirate, who advances you to Industrial Age and increases Mercenary hitpoints.</String>
 		<String _locID="33123">British</String>
 		<String _locID="33126">Allows you to send the Exiled Prince, who advances you to Industrial Age and refunds 500 Coin.</String>
 		<String _locID="33127">French</String>
-		<String _locID="33128">Allows you to send the Master Farmer, who advances you to Expansion Age and improves your Mill gathering rate.</String>
+		<String _locID="33128">Allows you to send the Master Farmer, who advances you to Colonial Age and improves your Mill gathering rate.</String>
 		<String _locID="33129">French</String>
 		<String _locID="33130">blah</String>
-		<String _locID="33131">Allows you to send the Master Miner, who advances you to Expansion Age and improves your Mine gathering rate.</String>
+		<String _locID="33131">Allows you to send the Master Miner, who advances you to Colonial Age and improves your Mine gathering rate.</String>
 		<String _locID="33132">French</String>
 		<String _locID="33151">The Lakota Dog Soldier Society arrives at your Town Center to help fight your enemies. You get 1 Dog Soldier for every 3 minutes of game length.</String>
 		<String _locID="33152">Lakota Dog Soldiers</String>
-		<String _locID="33155">Allows you to send the Philosopher Prince, who advances you to Expansion Age and makes archaic units (longbows and pikemen) better.</String>
+		<String _locID="33155">Allows you to send the Philosopher Prince, who advances you to Colonial Age and makes archaic units (longbows and pikemen) better.</String>
 		<String _locID="33156">British</String>
 		<String _locID="33157" symbol="cStringESOLeaveGame">Leave Game</String>
 		<String _locID="33161">Stuart's Head</String>
 		<String _locID="33162">IGC Stuart's Head</String>
-		<String _locID="33163">Allows you to send the Adventurer, who advances you to Expansion Age and improves your Explorer's hitpoints and the line of sight of cavalry and infantry.</String>
+		<String _locID="33163">Allows you to send the Adventurer, who advances you to Colonial Age and improves your Explorer's hitpoints and the line of sight of cavalry and infantry.</String>
 		<String _locID="33164">Dutch</String>
-		<String _locID="33165">Allows you to send the Cavalier, who advances you to Expansion Age and increase cavalry hitpoints.</String>
+		<String _locID="33165">Allows you to send the Cavalier, who advances you to Colonial Age and increase cavalry hitpoints.</String>
 		<String _locID="33166">Dutch</String>
 		<String _locID="33167">Allows you to send the Gentleman Pirate, who advances you to Industrial Age and increases Mercenary hitpoints.</String>
 		<String _locID="33168">Dutch</String>
@@ -4993,7 +4993,7 @@
 		<String _locID="33178">Delete the selected herd.</String>
 		<String _locID="33179">Create Herd</String>
 		<String _locID="33180">Delete Herd</String>
-		<String _locID="33186">Allows you to send the Master Farmer, who advances you to Expansion Age and improves your Mill gathering rate.</String>
+		<String _locID="33186">Allows you to send the Master Farmer, who advances you to Colonial Age and improves your Mill gathering rate.</String>
 		<String _locID="33187">German</String>
 		<String _locID="33192">Allows you to send the Exiled Prince, who advances you to Industrial Age and refunds 500 Coin.</String>
 		<String _locID="33193">German</String>
@@ -5007,32 +5007,32 @@
 		<String _locID="33201">Ottoman</String>
 		<String _locID="33202">Allows you to send the Exiled Prince, who advances you to Industrial Age and refunds 500 Coin.</String>
 		<String _locID="33203">Ottoman</String>
-		<String _locID="33204">Allows you to send the Master Farmer, who advances you to Expansion Age and improves your Mill gathering rate.</String>
+		<String _locID="33204">Allows you to send the Master Farmer, who advances you to Colonial Age and improves your Mill gathering rate.</String>
 		<String _locID="33205">Ottoman</String>
-		<String _locID="33208">Allows you to send the Cavalier, who advances you to Expansion Age and increase cavalry hitpoints.</String>
+		<String _locID="33208">Allows you to send the Cavalier, who advances you to Colonial Age and increase cavalry hitpoints.</String>
 		<String _locID="33209">Ottoman</String>
 		<String _locID="33214">Lighting Set Helper</String>
 		<String _locID="33218">Allows you to send the War Minister, who advances you to Industrial Age and increases the hitpoints of unique Spanish units.</String>
 		<String _locID="33219">Spanish</String>
-		<String _locID="33220">Allows you to send the Master Miner, who advances you to Expansion Age and improves your Mine gathering rate.</String>
+		<String _locID="33220">Allows you to send the Master Miner, who advances you to Colonial Age and improves your Mine gathering rate.</String>
 		<String _locID="33221">Spanish</String>
 		<String _locID="33222">Allows you to send the Engineer, who advances you to Industrial Age and increases artillery hitpoints.</String>
 		<String _locID="33223">Spanish</String>
-		<String _locID="33224">Allows you to send the King's Musketeer, who advances you to Expansion Age and improves your infantry's hitpoints.</String>
+		<String _locID="33224">Allows you to send the King's Musketeer, who advances you to Colonial Age and improves your infantry's hitpoints.</String>
 		<String _locID="33225">Spanish</String>
-		<String _locID="33226">Allows you to send the Naturalist, who advances you to Expansion Age and improves your hunting and livestock gathering rate.</String>
+		<String _locID="33226">Allows you to send the Naturalist, who advances you to Colonial Age and improves your hunting and livestock gathering rate.</String>
 		<String _locID="33227">Spanish</String>
-		<String _locID="33232">Allows you to send the Master Miner, who advances you to Expansion Age and improves your Mine gathering rate.</String>
+		<String _locID="33232">Allows you to send the Master Miner, who advances you to Colonial Age and improves your Mine gathering rate.</String>
 		<String _locID="33233">Russian</String>
-		<String _locID="33236">Allows you to send the Cavalier, who advances you to Expansion Age and increase cavalry hitpoints.</String>
+		<String _locID="33236">Allows you to send the Cavalier, who advances you to Colonial Age and increase cavalry hitpoints.</String>
 		<String _locID="33237">Russian</String>
 		<String _locID="33240">Allows you to send the Gentleman Pirate, who advances you to Industrial Age and increases Mercenary hitpoints.</String>
 		<String _locID="33241">Russian</String>
 		<String _locID="33244">Allows you to send the Tycoon, who advances you to Industrial Age and improves your Crates and Factories.</String>
 		<String _locID="33245">Portuguese</String>
-		<String _locID="33248">Allows you to send the Bishop, who advances you to Expansion Age and makes Priests free.</String>
+		<String _locID="33248">Allows you to send the Bishop, who advances you to Colonial Age and makes Priests free.</String>
 		<String _locID="33249">Portuguese</String>
-		<String _locID="33252">Allows you to send the Master Miner, who advances you to Expansion Age and improves your Mine gathering rate.</String>
+		<String _locID="33252">Allows you to send the Master Miner, who advances you to Colonial Age and improves your Mine gathering rate.</String>
 		<String _locID="33253">Portuguese</String>
 		<String _locID="33254" symbol="cStringTradeRouteTitle">Trade Route Tool</String>
 		<String _locID="33255" symbol="cStringTradeRouteCreate">Create Trade Route</String>
@@ -5181,8 +5181,8 @@
 		<String _locID="33471" symbol="cStringRMSFastRandomDesc">Randomly selects from among all American standard maps.</String>
 		<String _locID="33472" gamecharacter="Morgan" soundfilename="MORG7021">Build a Trading Post near the natives and they will ally with us.</String>
 		<String _locID="33473" gamecharacter="Morgan" soundfilename="MORG7022">Send out a few scouts to see if there are any more natives in the area.</String>
-		<String _locID="33474">There are many Native Americans in this area. Find them and build Trading Posts near them to make an alliance. In the Expansion Age you can train their warriors to help you fight.</String>
-		<String _locID="33475">The Ottoman Fort is very strong. Getting to the Conquest Age and training Mortars at your Artillery Foundry will greatly help with this task.</String>
+		<String _locID="33474">There are many Native Americans in this area. Find them and build Trading Posts near them to make an alliance. In the Colonial Age you can train their warriors to help you fight.</String>
+		<String _locID="33475">The Ottoman Fort is very strong. Getting to the Enlightenment Age and training Mortars at your Artillery Foundry will greatly help with this task.</String>
 		<String _locID="33476">Light artillery</String>
 		<String _locID="33477">Knight of Malta that throws flaming hoops.</String>
 		<String _locID="33478">Hoop Thrower</String>
@@ -5259,8 +5259,8 @@
 		<String _locID="33664" gamecharacter="Soldier" soundfilename="GENR5023">The Ottomans have found us!</String>
 		<String _locID="33665" gamecharacter="Soldier" soundfilename="GENR5024">We've found a weapons cache.</String>
 		<String _locID="33666" symbol="cStringQuitESO">Do you want to quit ESO and return to the Main menu?</String>
-		<String _locID="33667" symbol="cStringPlayersColonyReachedAge3">%s's colony has reached the CONQUEST AGE!</String>
-		<String _locID="33668" symbol="cStringPlayersColonyReachedAge2">%s's colony has reached the EXPANSION AGE!</String>
+		<String _locID="33667" symbol="cStringPlayersColonyReachedAge3">%s's colony has reached the ENLIGHTENMENT AGE!</String>
+		<String _locID="33668" symbol="cStringPlayersColonyReachedAge2">%s's colony has reached the COLONIAL AGE!</String>
 		<String _locID="33669" symbol="cStringPlayersColonyReachedAge4">%s's colony has reached the INDUSTRIAL AGE!</String>
 		<String _locID="33670">Duck Family</String>
 		<String _locID="33671">PROP Duck Family</String>
@@ -5434,10 +5434,10 @@
 		<String _locID="33900" gamecharacter="Narrator" soundfilename="TUTO5060">If you build Trading Posts at the Trading Post sites along the route, you will earn extra Experience.</String>
 		<String _locID="33901" gamecharacter="Narrator" soundfilename="TUTO5065">A Shipment is ready in the Home City!</String>
 		<String _locID="33902" gamecharacter="Narrator" soundfilename="TUTO5070">Return to the Home City and use your Shipments to send additional Settlers, soldiers, or resources.</String>
-		<String _locID="33903" gamecharacter="Narrator" soundfilename="TUTO5075">You should gather more Food so you can advance to the Expansion Age.</String>
-		<String _locID="33904" gamecharacter="Narrator" soundfilename="TUTO5080">It would be wise to advance to the Expansion Age as soon as you have enough Food.</String>
-		<String _locID="33905" gamecharacter="Narrator" soundfilename="TUTO5085">If you advance to the Expansion Age, you will be able to build additional buildings, train soldiers, and purchase new improvements.</String>
-		<String _locID="33906" gamecharacter="Narrator" soundfilename="TUTO5090">You have reached the Expansion Age! Consider building a Barracks so you can defend your colony.</String>
+		<String _locID="33903" gamecharacter="Narrator" soundfilename="TUTO5075">You should gather more Food so you can advance to the Colonial Age.</String>
+		<String _locID="33904" gamecharacter="Narrator" soundfilename="TUTO5080">It would be wise to advance to the Colonial Age as soon as you have enough Food.</String>
+		<String _locID="33905" gamecharacter="Narrator" soundfilename="TUTO5085">If you advance to the Colonial Age, you will be able to build additional buildings, train soldiers, and purchase new improvements.</String>
+		<String _locID="33906" gamecharacter="Narrator" soundfilename="TUTO5090">You have reached the Colonial Age! Consider building a Barracks so you can defend your colony.</String>
 		<String _locID="33907" gamecharacter="Narrator" soundfilename="TUTO5095">Building a Barracks will let you train Musketeers and other soldiers.</String>
 		<String _locID="33908" gamecharacter="Narrator" soundfilename="TUTO5100">Consider training Musketeers in your Barracks to defend your colony.</String>
 		<String _locID="33909" gamecharacter="Narrator" soundfilename="TUTO5105">If you build a Stable, you can train cavalry to fight alongside your other soldiers.</String>
@@ -5563,12 +5563,12 @@
 		<String _locID="34059">Request Wood deliveries at this Trading Post.</String>
 		<String _locID="34060">Request Experience generation at this Trading Post.</String>
 		<String _locID="34061">Train two additional Settlers while exploring the New World.</String>
-		<String _locID="34062">Advance to the Expansion Age</String>
-		<String _locID="34063">Advance to the Conquest Age</String>
+		<String _locID="34062">Advance to the Colonial Age</String>
+		<String _locID="34063">Advance to the Enlightenment Age</String>
 		<String _locID="34064">Destroy the Enemy Colony</String>
 		<String _locID="34065">You can train more Settlers at your Town Center, if you have enough Food. You will need eight Settlers to complete the objective. Hunt animals for Food, or send Food from your Home City.</String>
-		<String _locID="34066">To advance to the Expansion Age, select the Town Center, left-click the Age Advancement button, and then choose a politician. To advance, you will need 500 Food. Food may be gathered from animals or Mills.</String>
-		<String _locID="34067">To advance to the Conquest Age, you need 500 Food and 250 Coin. Keep training Settlers at your Town Center. Don't forget to build more Manors to support your population.</String>
+		<String _locID="34066">To advance to the Colonial Age, select the Town Center, left-click the Age Advancement button, and then choose a politician. To advance, you will need 500 Food. Food may be gathered from animals or Mills.</String>
+		<String _locID="34067">To advance to the Enlightenment Age, you need 500 Food and 250 Coin. Keep training Settlers at your Town Center. Don't forget to build more Manors to support your population.</String>
 		<String _locID="34068">Build an Artillery Foundry to train Mortars. Mortars are good at destroying buildings but they need to be protected with other units. When you have a large army, attack!</String>
 		<String _locID="34076" symbol="cStringESOCustomGameInvite" comment="1 - inviting player, 2- game name">%1s has invited you to Custom Game: %2s. Would you like to join?</String>
 		<String _locID="34077">Eagles on Rocks</String>
@@ -5738,8 +5738,8 @@
 		<String _locID="34326" gamecharacter="Soldier" soundfilename="GENR2035">Pirate ships dead ahead captain!</String>
 		<String _locID="34331" gamecharacter="Narrator" soundfilename="TUTO1201">For your first Shipment, it's probably best to send additional Settlers to help your economy grow faster.</String>
 		<String _locID="34332" gamecharacter="Narrator" soundfilename="TUTO1202">Send a Shipment now by selecting the Settler.</String>
-		<String _locID="34333" gamecharacter="Narrator" soundfilename="TUTO1206">Advancing to the Expansion Age would allow you to construct new buildings and train soldiers.</String>
-		<String _locID="34334" gamecharacter="Narrator" soundfilename="TUTO1207">You have been given enough resources to advance to the Expansion Age. Select the Town Center.</String>
+		<String _locID="34333" gamecharacter="Narrator" soundfilename="TUTO1206">Advancing to the Colonial Age would allow you to construct new buildings and train soldiers.</String>
+		<String _locID="34334" gamecharacter="Narrator" soundfilename="TUTO1207">You have been given enough resources to advance to the Colonial Age. Select the Town Center.</String>
 		<String _locID="34336" gamecharacter="Narrator" soundfilename="TUTO1211">Left-click the flashing button to return to the New World.</String>
 		<String _locID="34337" gamecharacter="Narrator" soundfilename="TUTO5205">At the end of a game, you may also return to the Home City and spend your earned Experience to unlock new Shipment types.</String>
 		<String _locID="34338" gamecharacter="Narrator" soundfilename="TUTO5215">Every civilization in the game has a different set of Shipments it can unlock - try them all!</String>
@@ -5750,12 +5750,12 @@
 		<String _locID="34343" gamecharacter="Narrator" soundfilename="TUTO5220">Congratulations! You're now ready to play the Campaign, try a Skirmish against computer opponents, or go online and compete in multiplayer!</String>
 		<String _locID="34344" gamecharacter="Narrator" soundfilename="TUTO5190">Your Caravel can also be used to fish. With the Caravel selected, right-click on Fish to gather Food.</String>
 		<String _locID="34345" gamecharacter="Narrator" soundfilename="TUTO5180">The enemy Town Center has been destroyed!</String>
-		<String _locID="34346">Advance to the Expansion Age.</String>
-		<String _locID="34347">Select the Town Center, click the gold Advance to Expansion Age button, then choose a politician to send. It will take some time for the politician to arrive.</String>
+		<String _locID="34346">Advance to the Colonial Age.</String>
+		<String _locID="34347">Select the Town Center, click the gold Advance to Colonial Age button, then choose a politician to send. It will take some time for the politician to arrive.</String>
 		<String _locID="34349" symbol="cStringGCCmdLine2">turn.</String>
 		<String _locID="34350">St. Louis Rail Co.</String>
-		<String _locID="34351">Conquest Age</String>
-		<String _locID="34352" symbol="cStringAge2">III: Conquest Age</String>
+		<String _locID="34351">Enlightenment Age</String>
+		<String _locID="34352" symbol="cStringAge2">III: Enlightenment Age</String>
 		<String _locID="34353">Set HC</String>
 		<String _locID="34354">Reset HC</String>
 		<String _locID="34356">Dutch</String>
@@ -5767,7 +5767,7 @@
 		<String _locID="34370" symbol="cStringObjectiveFormatXPValueRecurring">(%d XP each)</String>
 		<String _locID="34372">Russian</String>
 		<String _locID="34374">Russian</String>
-		<String _locID="34375">Allows you to send the King's Musketeer, who advances you to Expansion Age and improves your infantry's hitpoints.</String>
+		<String _locID="34375">Allows you to send the King's Musketeer, who advances you to Colonial Age and improves your infantry's hitpoints.</String>
 		<String _locID="34376">Russian</String>
 		<String _locID="34377">Stop Beaumont and his theft of the Spanish gold.</String>
 		<String _locID="34378">Destroy the three Outposts guarding the ruined treasure ships.</String>
@@ -5804,14 +5804,14 @@
 		<String _locID="34445" symbol="cStringESOMakeLeader">Make New Leader</String>
 		<String _locID="34446" symbol="cStringESOPromptNewLeader">There can only be one leader of a Clan. Are you sure you wish to make %s the new leader of your Clan?</String>
 		<String _locID="34447" symbol="cStringUICostLabel">Cost:</String>
-		<String _locID="34448" symbol="cStringChoosePoliticianAge2">Select an Expansion Age politician</String>
-		<String _locID="34449" symbol="cStringChoosePoliticianAge3">Select a Conquest Age politician</String>
+		<String _locID="34448" symbol="cStringChoosePoliticianAge2">Select a Colonial Age politician</String>
+		<String _locID="34449" symbol="cStringChoosePoliticianAge3">Select an Enlightenment Age politician</String>
 		<String _locID="34450" symbol="cStringChoosePoliticianAge4">Select an Industrial Age politician</String>
 		<String _locID="34451" symbol="cStringChoosePoliticianAge5">Select an Imperial Age political party</String>
 		<String _locID="34452">Double-barrel Attack</String>
 		<String _locID="34453">Fire with both shotgun barrels for heavy damage to infantry, cavalry or guardians.</String>
-		<String _locID="34454" symbol="cStringAdvanceAge2">Advance to the Expansion Age</String>
-		<String _locID="34455" symbol="cStringAdvanceAge3">Advance to the Conquest Age</String>
+		<String _locID="34454" symbol="cStringAdvanceAge2">Advance to the Colonial Age</String>
+		<String _locID="34455" symbol="cStringAdvanceAge3">Advance to the Enlightenment Age</String>
 		<String _locID="34456" symbol="cStringAdvanceAge4">Advance to the Industrial Age</String>
 		<String _locID="34457" symbol="cStringAdvanceAge5">Advance to the Imperial Age</String>
 		<String _locID="34466">Mohawk hero</String>
@@ -5914,7 +5914,7 @@
 		<String _locID="34686">This building has crops around it. You need to allow more space.</String>
 		<String _locID="34687">Prop Grass Short</String>
 		<String _locID="34688">PROP Grass Short</String>
-		<String _locID="34689">Moves the Arsenal to the Expansion Age and enables more powerful Arsenal improvements.</String>
+		<String _locID="34689">Moves the Arsenal to the Colonial Age and enables more powerful Arsenal improvements.</String>
 		<String _locID="34690">Advanced Arsenal</String>
 		<String _locID="34691">Props Dead Tree</String>
 		<String _locID="34692">PROP Dead Tree</String>
@@ -5949,9 +5949,9 @@
 		<String _locID="34729" soundfilename="AMEL4525">Uncle Kanyenke said we shouldn't profit from the Circle's blood money, but most of the gold came from those Spanish treasure ships Morgan and Lizzie sank.</String>
 		<String _locID="34730" soundfilename="AMEL4530">The way I figured it, the Circle of Ossus owed the Black family a little something. Don't you agree?</String>
 		<String _locID="34731" gamecharacter="Narrator" soundfilename="TUTO1001">During this tutorial, if you're ever confused about what to do next, click on the flashing Objectives button.</String>
-		<String _locID="34732" gamecharacter="Narrator" soundfilename="TUTO5225">If you advance to the Conquest Age, you can build Falconets, which are excellent at killing enemy infantry.</String>
-		<String _locID="34733" gamecharacter="Narrator" soundfilename="TUTO5230">You will need more Food and Gold if you are going to advance to the Conquest Age.</String>
-		<String _locID="34734" gamecharacter="Narrator" soundfilename="TUTO5235">You have enough resources to advance to the Conquest Age.</String>
+		<String _locID="34732" gamecharacter="Narrator" soundfilename="TUTO5225">If you advance to the Enlightenment Age, you can build Falconets, which are excellent at killing enemy infantry.</String>
+		<String _locID="34733" gamecharacter="Narrator" soundfilename="TUTO5230">You will need more Food and Gold if you are going to advance to the Enlightenment Age.</String>
+		<String _locID="34734" gamecharacter="Narrator" soundfilename="TUTO5235">You have enough resources to advance to the Enlightenment Age.</String>
 		<String _locID="34735" gamecharacter="Narrator" soundfilename="TUTO5240">Consider building an Artillery Foundry and training Falconets to fight the enemy infantry.</String>
 		<String _locID="34736" gamecharacter="Narrator" soundfilename="TUTO5245">You have trained your first Falconet.</String>
 		<String _locID="34737" gamecharacter="Narrator" soundfilename="TUTO5250">Falconets are expensive and vulnerable to enemy cavalry. Consider protecting them with infantry.</String>
@@ -6798,8 +6798,8 @@
 		<String _locID="36127">7 Players</String>
 		<String _locID="36128">8 Players</String>
 		<String _locID="36129" symbol="cStringExplorationAge">Discovery Age</String>
-		<String _locID="36130" symbol="cStringColonialAge">Expansion Age</String>
-		<String _locID="36131" symbol="cStringFortressAge">Conquest Age</String>
+		<String _locID="36130" symbol="cStringColonialAge">Colonial Age</String>
+		<String _locID="36131" symbol="cStringFortressAge">Enlightenment Age</String>
 		<String _locID="36132" symbol="cStringIndustrialAge">Industrial Age</String>
 		<String _locID="36133" symbol="cStringPostIndustrialAge">Post-Industrial Age</String>
 		<String _locID="36134" symbol="cStringImperialAge">Imperial Age</String>
@@ -6826,7 +6826,7 @@
 		<String _locID="36157">7.</String>
 		<String _locID="36158">8.</String>
 		<String _locID="36159" gamecharacter="Old Coot" soundfilename="MORG0201" portraitfilename="units\spc\old_coot\old_coot_igc_icon">Ran rails all the way from Kansas City to the West Coast.</String>
-		<String _locID="36160" gamecharacter="Narrator" soundfilename="TUTO1210">Now click on the gold button, then select a politician to advance to the Expansion Age.</String>
+		<String _locID="36160" gamecharacter="Narrator" soundfilename="TUTO1210">Now click on the gold button, then select a politician to advance to the Colonial Age.</String>
 		<String _locID="36161">Havana</String>
 		<String _locID="36169" symbol="cStringWatermark"/>
 		<String _locID="36170">3 Settlers and 4 Rodoleroes</String>
@@ -6943,9 +6943,9 @@
 		<String _locID="36331">Young Carib Native American. This boy has fighting skills against infantry.</String>
 		<String _locID="36332">Native Boy</String>
 		<String _locID="36333">SPC Native Boy</String>
-		<String _locID="36334">TEAM Dragoons can be trained in the Expansion Age. (Also works on Ruyters, Rangers, Cavalry Archers, Rifle Riders, Musket Riders, and Yabusame. For Indian and Chinese allies, it makes Zamburak and the Ming Army train slightly faster.)</String>
+		<String _locID="36334">TEAM Dragoons can be trained in the Colonial Age. (Also works on Ruyters, Rangers, Cavalry Archers, Rifle Riders, Musket Riders, and Yabusame. For Indian and Chinese allies, it makes Zamburak and the Ming Army train slightly faster.)</String>
 		<String _locID="36335">TEAM Early Dragoons</String>
-		<String _locID="36337">TEAM allows Dragoons in Expansion Age.</String>
+		<String _locID="36337">TEAM allows Dragoons in Colonial Age.</String>
 		<String _locID="36338">TEAM The Wood cost for Docks and Dock improvements is lower.</String>
 		<String _locID="36339">TEAM Cheap Docks</String>
 		<String _locID="36341">TEAM Docks cheaper.</String>
@@ -6958,9 +6958,9 @@
 		<String _locID="36350">TEAM Warships are cheaper.</String>
 		<String _locID="36351">TEAM Cold Water Port</String>
 		<String _locID="36353">TEAM Warships cheaper.</String>
-		<String _locID="36354">TEAM Skirmishers, Gurkhas, Riflemen, Wakina Rifles, Forest Prowlers, and the Black Flag Army can be trained in the Expansion Age. (Strelets, Longbowmen, Macehualtins, and Yumi Archers train slightly faster.)</String>
+		<String _locID="36354">TEAM Skirmishers, Gurkhas, Riflemen, Wakina Rifles, Forest Prowlers, and the Black Flag Army can be trained in the Colonial Age. (Strelets, Longbowmen, Macehualtins, and Yumi Archers train slightly faster.)</String>
 		<String _locID="36355">TEAM Early Skirmishers</String>
-		<String _locID="36357">TEAM allows Skirmishers in Expansion Age.</String>
+		<String _locID="36357">TEAM allows Skirmishers in Colonial Age.</String>
 		<String _locID="36358">TEAM ranged infantry damage increased.</String>
 		<String _locID="36359">TEAM Churches, Mosques, and Field Hospitals are much cheaper and their non-advanced improvements are also cheaper. Monastaries are somewhat cheaper and Native Fire Pits become free.</String>
 		<String _locID="36360">TEAM Cheap Church</String>
@@ -7053,7 +7053,7 @@
 		<String _locID="36460">Pioneers</String>
 		<String _locID="36461">Building hitpoints increased.</String>
 		<String _locID="36462">Improved Buildings</String>
-		<String _locID="36465">Moves the Arsenal to the Expansion Age and enables more powerful Arsenal improvements, +2 Uhlans.</String>
+		<String _locID="36465">Moves the Arsenal to the Colonial Age and enables more powerful Arsenal improvements, +2 Uhlans.</String>
 		<String _locID="36466">Advanced Arsenal</String>
 		<String _locID="36467">Ships a Fort Wagon to your colony, allowing you to construct a mighty Fort, +3 Uhlans.</String>
 		<String _locID="36468">Fort</String>
@@ -7061,7 +7061,7 @@
 		<String _locID="36470">Fencing School</String>
 		<String _locID="36471">All cavalry train faster, +2 Uhlans.</String>
 		<String _locID="36472">Riding School</String>
-		<String _locID="36473">Provides your Church with unique German improvements.  Also moves the Capitol to the Conquest Age, +2 Uhlans.</String>
+		<String _locID="36473">Provides your Church with unique German improvements.  Also moves the Capitol to the Enlightenment Age, +2 Uhlans.</String>
 		<String _locID="36474">Treaty of Westphalia</String>
 		<String _locID="36475">Mills are cheaper and stronger.</String>
 		<String _locID="36476">Advanced Mill</String>
@@ -7991,7 +7991,7 @@
 		<String _locID="37524" symbol="cStringESOFailedChatConnection">Failed to connect to ESO and retrieve Chat Channel List.</String>
 		<String _locID="37525" symbol="cStringESOTBD">TBD</String>
 		<String _locID="37527">12 Skirmishers +4 Uhlans</String>
-		<String _locID="37528">Provides your Mosque with unique Ottoman improvements. Also moves the Capitol to the Conquest Age.</String>
+		<String _locID="37528">Provides your Mosque with unique Ottoman improvements. Also moves the Capitol to the Enlightenment Age.</String>
 		<String _locID="37529">Palace Intrigue</String>
 		<String _locID="37530" symbol="cStringESOJoined">%s has joined channel %s</String>
 		<String _locID="37531" symbol="cStringESOLeft">%s has left channel %s</String>
@@ -8006,15 +8006,15 @@
 		<String _locID="37540" symbol="cStringTellAbbr">t</String>
 		<String _locID="37541" symbol="cStringWhisper">whisper</String>
 		<String _locID="37542" symbol="cStringTell">tell</String>
-		<String _locID="37543">Provides your Church with unique British improvements. Also moves the Capitol to the Conquest Age.</String>
+		<String _locID="37543">Provides your Church with unique British improvements. Also moves the Capitol to the Enlightenment Age.</String>
 		<String _locID="37544">The Glorious Revolution</String>
-		<String _locID="37545">Provides your Church with unique French improvements. Also moves the Capitol to the Conquest Age.</String>
+		<String _locID="37545">Provides your Church with unique French improvements. Also moves the Capitol to the Enlightenment Age.</String>
 		<String _locID="37546">Edict of Nantes</String>
-		<String _locID="37547">Provides your Church with unique Dutch improvements. Also moves the Capitol to the Conquest Age.</String>
+		<String _locID="37547">Provides your Church with unique Dutch improvements. Also moves the Capitol to the Enlightenment Age.</String>
 		<String _locID="37548">Religious Freedom</String>
-		<String _locID="37549">Provides your Church with unique Russian improvements. Also moves the Capitol to the Conquest Age.</String>
+		<String _locID="37549">Provides your Church with unique Russian improvements. Also moves the Capitol to the Enlightenment Age.</String>
 		<String _locID="37550">Reformist Tsar</String>
-		<String _locID="37551">Provides your Church with unique Portuguese improvements. Also moves the Capitol to the Conquest Age.</String>
+		<String _locID="37551">Provides your Church with unique Portuguese improvements. Also moves the Capitol to the Enlightenment Age.</String>
 		<String _locID="37552">Treaty of Tordesillas</String>
 		<String _locID="37553" symbol="cStringESOFailedClanRoster">Failed to retrieve Clan roster.</String>
 		<String _locID="37554" symbol="cStringESOFailedClanAbbr">Cannot use this name/abbreviation for a Clan.</String>
@@ -9115,12 +9115,12 @@
 		<String _locID="38662">A paltry treasure here or there makes no difference in the long run.</String>
 		<String _locID="38663">You are so backward! What will your soldiers use to fight mine? Clubs?</String>
 		<String _locID="38664">You are so nice, to choose to fight me while you are an Age inferior. How sweet.</String>
-		<String _locID="38665">Yes, you have reached Expansion Age first. I suppose I should congratulate you.</String>
+		<String _locID="38665">Yes, you have reached Colonial Age first. I suppose I should congratulate you.</String>
 		<String _locID="38666">So soon? I must marshal my forces.</String>
-		<String _locID="38667">At last you have joined the rest of us in the Expansion Age.</String>
+		<String _locID="38667">At last you have joined the rest of us in the Colonial Age.</String>
 		<String _locID="38668">You are Colonial at last? How quaint. We are all moving on to the next Age.</String>
 		<String _locID="38669">Native warriors are brave and resourceful.</String>
-		<String _locID="38670">Are you aware that it is possible to advance to the Expansion Age?</String>
+		<String _locID="38670">Are you aware that it is possible to advance to the Colonial Age?</String>
 		<String _locID="38671">Still back in the Discovery Age?! How delightful.</String>
 		<String _locID="38672">This wealth will go straight into my war chest.</String>
 		<String _locID="38673">See how my explorer makes good use of his time? You can learn by my example.</String>
@@ -9281,11 +9281,11 @@
 		<String _locID="38828">I suggest you follow my lead and advance to the next Age as soon as possible.</String>
 		<String _locID="38829">Exploring the New World is fine, but if you do not advance to the next Age soon, you may find your explorer fighting the enemy single-handed.</String>
 		<String _locID="38830">Remarkable work. Continue to use your resources as wisely as I do, and we shall be assured victory.</String>
-		<String _locID="38831">Excellent. You have reached the Expansion Age quickly.</String>
+		<String _locID="38831">Excellent. You have reached the Colonial Age quickly.</String>
 		<String _locID="38832">Your advancement to the next Age is an inspiration to my men.</String>
 		<String _locID="38833">Although I advanced an Age before you, I expect your assistance in this war may still contribute to our eventual victory.</String>
-		<String _locID="38834">Do not be discouraged by your slow progress to the Expansion Age. Not everyone is Frederick the Great.</String>
-		<String _locID="38835">Even though you have reached the Expansion Age last, you may still fight by my side.</String>
+		<String _locID="38834">Do not be discouraged by your slow progress to the Colonial Age. Not everyone is Frederick the Great.</String>
+		<String _locID="38835">Even though you have reached the Colonial Age last, you may still fight by my side.</String>
 		<String _locID="38836">To express my gratitude for rescuing our explorer I shall have a new sapling planted in the Black Forest.</String>
 		<String _locID="38837">My troops have destroyed a trading post. We are no longer threatened by defeat in that manner.</String>
 		<String _locID="38838">The natives in this realm have been freed by my decisive action.</String>
@@ -9456,19 +9456,19 @@
 		<String _locID="39003">A kindergartener could have seen that attack coming.</String>
 		<String _locID="39004">Do you think destroying that trade site will lead to your victory? You probably also claim to see poltergeists.</String>
 		<String _locID="39005">You are like a lammergeier, a cowardly vulture attacking my trade sites when I am not prepared to defend them.</String>
-		<String _locID="39006">Are you waiting until I arrive with the army of the apocalypse before advancing to the Expansion Age?</String>
-		<String _locID="39007">Do you plan to advance to the Expansion Age after your kaffeeklatsch?</String>
-		<String _locID="39008">Apparently Oktoberfest will come and go before you reach the Expansion Age.</String>
+		<String _locID="39006">Are you waiting until I arrive with the army of the apocalypse before advancing to the Colonial Age?</String>
+		<String _locID="39007">Do you plan to advance to the Colonial Age after your kaffeeklatsch?</String>
+		<String _locID="39008">Apparently Oktoberfest will come and go before you reach the Colonial Age.</String>
 		<String _locID="39009">My schnauzer could dog paddle to the New World faster than you advance through the Ages.</String>
 		<String _locID="39010">Your empire is advancing so slowly you might have more luck if you sent settlers to the front lines with rakes.</String>
 		<String _locID="39011">You are taking so long to advance, perhaps you should just pack your whole town up in a wagon and send it back to the old world.</String>
-		<String _locID="39012">It does not take an ubermensch to take an empire to the Expansion Age!</String>
-		<String _locID="39013">Among all combatants, you have reached the Expansion Age first. Surely you do not expect that move alone to save you.</String>
-		<String _locID="39014">Your quick advancement to the Expansion Age fills me with weltschmerz.</String>
+		<String _locID="39012">It does not take an ubermensch to take an empire to the Colonial Age!</String>
+		<String _locID="39013">Among all combatants, you have reached the Colonial Age first. Surely you do not expect that move alone to save you.</String>
+		<String _locID="39014">Your quick advancement to the Colonial Age fills me with weltschmerz.</String>
 		<String _locID="39015">If your strategy is to advance your empire as slowly as possible so as to weaken us with laughter, you are succeeding.</String>
 		<String _locID="39016">Is your empire hitched to a slug?</String>
 		<String _locID="39017">Your slow rise to the second Age indicates you have little wille zur macht.</String>
-		<String _locID="39018">I see you have finally joined the rest of us in the Expansion Age.</String>
+		<String _locID="39018">I see you have finally joined the rest of us in the Colonial Age.</String>
 		<String _locID="39019">You are rather separated from your allies. Perhaps you better begin shouting for help now.</String>
 		<String _locID="39020">Do you expect the poor placement of your town center to allow you more time to practice your harpsichord?</String>
 		<String _locID="39021">It is helpful that your towns are closely packed. We will raze them all as one.</String>
@@ -9662,7 +9662,7 @@
 		<String _locID="39217">Excellent work my friend. Now we must recruit an army.</String>
 		<String _locID="39218">You're off to a great start. Keep at it.</String>
 		<String _locID="39219">Savoring the flavor of the Age would be dandy if we didn't have a war on our hands!</String>
-		<String _locID="39220">Glad to see you made it to the Expansion Age.</String>
+		<String _locID="39220">Glad to see you made it to the Colonial Age.</String>
 		<String _locID="39221">Thank you for rescuing my explorer.</String>
 		<String _locID="39222">My explorer is thankful. Let me know if I can return the favor.</String>
 		<String _locID="39223">Nice to see you've rescued my explorer. I'll put him back to exploring immediately.</String>
@@ -9842,8 +9842,8 @@
 		<String _locID="39400">Cutting off my trade routes will not save you from the wrath of my army.</String>
 		<String _locID="39401">Technological advancements are marvelous things. You should try them sometime.</String>
 		<String _locID="39402">I feel so sorry for your poor technological advancements I'm almost tempted to send you some resources. Heh, almost.</String>
-		<String _locID="39403">I will tell them to put 'First to reach Expansion Age' on your tombstone.</String>
-		<String _locID="39404">How is it the saying goes? Last to Expansion Age, first to die?</String>
+		<String _locID="39403">I will tell them to put 'First to reach Colonial Age' on your tombstone.</String>
+		<String _locID="39404">How is it the saying goes? Last to Colonial Age, first to die?</String>
 		<String _locID="39405">Your town is so far from your allies. They won't be able to hear your screams as your town is being burned to cinders.</String>
 		<String _locID="39406">Cowards of a feather flock together. I suppose that's why you and your ally built next to each other.</String>
 		<String _locID="39407">Nice try. Try again.</String>
@@ -10820,7 +10820,7 @@
 		<String _locID="40385">Do you need some kind of help? You are STILL not Colonial!</String>
 		<String _locID="40386">What is the problem? You cannot build a good army in the Discovery Age!</String>
 		<String _locID="40387">I see you're still in the previous Age from me. Have you even discovered gunpowder yet?</String>
-		<String _locID="40388">Speed in advancement to Expansion Age will not matter in the long run.</String>
+		<String _locID="40388">Speed in advancement to Colonial Age will not matter in the long run.</String>
 		<String _locID="40389">It's about time you reached Colonial. Now you can train a few troops before I devastate your countryside.</String>
 		<String _locID="40390">It is astounding that anyone could advance through the Ages so slowly!</String>
 		<String _locID="40391">Your luck will not hold. Yes, you have acquired the first treasure, but the bulk of the rest will fall to me.</String>
@@ -11443,7 +11443,7 @@
 		<String _locID="41015">When I capture this base, it will unravel the enemy's position.</String>
 		<String _locID="41016">I see you run your economy effectively. I am confident you will prove as good at warfare, no?</String>
 		<String _locID="41017">That was fast! I suspect it bodes well for the future of our alliance.</String>
-		<String _locID="41018">It's about time you managed to reach the Expansion Age with the rest of us.</String>
+		<String _locID="41018">It's about time you managed to reach the Colonial Age with the rest of us.</String>
 		<String _locID="41019">Finally! It took you long enough to get here to Colonial.</String>
 		<String _locID="41020">I see your colony is still in the early stages of construction. Will you be able to withstand more-advanced enemy armies?</String>
 		<String _locID="41021">The enemy will not wait for you to get to Colonial. They'll attack when THEY are ready, not when YOU are ready.</String>
@@ -16245,7 +16245,7 @@
 		<String _locID="45831">Find Kuechler's bridge.</String>
 		<String _locID="45832">Destroy the Bridge of Boats to delay Kuechler's arrival.</String>
 		<String _locID="45833">The British Fort Wagons travel along the Trade Route stopping at the Trading Posts as they move south. It is safest to attack the wagons as they travel between these posts, but watch out for British patrols.</String>
-		<String _locID="45834">After you reach the Conquest Age, you can train Fort Wagons from your Town Center. The British will also be getting wagons. Forts are strong and have a lot of hitpoints, but Fort Wagons and Fort foundations are very fragile and much more easily destroyed, attack these whenever you can.</String>
+		<String _locID="45834">After you reach the Enlightenment Age, you can train Fort Wagons from your Town Center. The British will also be getting wagons. Forts are strong and have a lot of hitpoints, but Fort Wagons and Fort foundations are very fragile and much more easily destroyed, attack these whenever you can.</String>
 		<String _locID="45835">The Bridge of Boats can be found near one of the British Trading Posts.</String>
 		<String _locID="45836">When this bridge is destroyed Kuechler's soldiers will be delayed while they secure another way across the Hudson River.</String>
 		<String _locID="45837">Wagon trains destroyed: 0/3</String>
@@ -16261,7 +16261,7 @@
 		<String _locID="45850" gamecharacter="Nathaniel" soundfilename="XNATH9170">Too bad for him - we've already destroyed his bridge.</String>
 		<String _locID="45851" gamecharacter="Nathaniel" soundfilename="XNATH9175">Watch out - a patrol!</String>
 		<String _locID="45852" gamecharacter="Nathaniel" soundfilename="XNATH9180">One more wagon to go. Send for the reinforcements!</String>
-		<String _locID="45853" gamecharacter="Nathaniel" soundfilename="XNATH9185">When we reach the Conquest Age we will be able to train fort wagons from our town center. It will be expensive, but my family's money can help.</String>
+		<String _locID="45853" gamecharacter="Nathaniel" soundfilename="XNATH9185">When we reach the Enlightenment Age we will be able to train fort wagons from our town center. It will be expensive, but my family's money can help.</String>
 		<String _locID="45854" gamecharacter="Nathaniel" soundfilename="XNATH9190">I can't do this alone...</String>
 		<String _locID="45855" gamecharacter="Nathaniel" soundfilename="XNATH9195">Reinforcements! You couldn't have arrived at a better time.</String>
 		<String _locID="45856" gamecharacter="Nathaniel" soundfilename="XNATH9200">It'll be enough. The British will be building up to claim this territory. Let's build some forts of our own.</String>
@@ -16378,8 +16378,8 @@
 		<String _locID="45971">Grants 10 Hussars and increases their hitpoints.</String>
 		<String _locID="45972">OHiggins</String>
 		<String _locID="45973" symbol="cStringRevoltButton">Revolution!</String>
-		<String _locID="45975" symbol="cStringChooseAge2">Select an Expansion Age</String>
-		<String _locID="45976" symbol="cStringChooseAge3">Select a Conquest Age</String>
+		<String _locID="45975" symbol="cStringChooseAge2">Select a Colonial Age</String>
+		<String _locID="45976" symbol="cStringChooseAge3">Select an Enlightenment Age</String>
 		<String _locID="45977" symbol="cStringChooseAge4">Select an Industrial Age</String>
 		<String _locID="45978" symbol="cStringChooseAge5">Select an Imperial Age</String>
 		<String _locID="45979" symbol="cStringCouncilMember">Council Member</String>
@@ -18429,14 +18429,14 @@
 		<String _locID="48030">You have climbed the great tree of time, advancing well before I could.</String>
 		<String _locID="48031">Our enemy claims the rights of guest and stranger in these lands, taking a Native settlement.</String>
 		<String _locID="48032">Our enemy has gone like fog off the water, and claimed a Native ally.</String>
-		<String _locID="48033">You are late in your arrival to the Expansion Age, my ally.</String>
+		<String _locID="48033">You are late in your arrival to the Colonial Age, my ally.</String>
 		<String _locID="48034">Are you waiting for the ducks to return for the summer? Advance to Colonial soon.</String>
 		<String _locID="48035">Do not weep in the silent midnight, instead make haste and advance to the next age.</String>
 		<String _locID="48036">Stop drifting on the stream of time and advance to the next age.</String>
-		<String _locID="48037">You have pushed aside the deerskin curtain, walking into the Expansion Age before anyone else.</String>
-		<String _locID="48038">You have landed first on the shore of the Expansion Age.</String>
-		<String _locID="48039">Has perchance my ally grown old, waiting to advance to the Expansion Age?</String>
-		<String _locID="48040">It is good you have joined us in the Expansion Age, o slow one.</String>
+		<String _locID="48037">You have pushed aside the deerskin curtain, walking into the Colonial Age before anyone else.</String>
+		<String _locID="48038">You have landed first on the shore of the Colonial Age.</String>
+		<String _locID="48039">Has perchance my ally grown old, waiting to advance to the Colonial Age?</String>
+		<String _locID="48040">It is good you have joined us in the Colonial Age, o slow one.</String>
 		<String _locID="48041">Henceforward and forever, I shall speak to the winds my thanks to you.</String>
 		<String _locID="48042">I cry aloud and speak like sunlight: you have rescued my war chief.</String>
 		<String _locID="48043">I have moved heavily upon their trading post in time.</String>
@@ -18709,10 +18709,10 @@
 		<String _locID="48310">Your mischief is unwanted; my trade site has fallen by your hand.</String>
 		<String _locID="48311">With the destruction of that trade site, you have caused my anger to burn.</String>
 		<String _locID="48312">I submit that your time of wild adventure is over; will you ever advance from the Discovery Age?</String>
-		<String _locID="48313">Hurry and advance to the Expansion Age, and join the fray.</String>
+		<String _locID="48313">Hurry and advance to the Colonial Age, and join the fray.</String>
 		<String _locID="48314">Where are your tricks and gambles now? Or are you too upset to advance in age?</String>
 		<String _locID="48315">Are you so confident that you think you can defeat me from the lowly age you rest in now?</String>
-		<String _locID="48316">You are first to the Expansion Age, but the tempest of my wrath shall overtake you.</String>
+		<String _locID="48316">You are first to the Colonial Age, but the tempest of my wrath shall overtake you.</String>
 		<String _locID="48317">What good is advancing an age, when your army's bones will soon be nourishing the grass?</String>
 		<String _locID="48318">Welcome to the Industrial Age, oh chief of flying leaves and swirling dust.</String>
 		<String _locID="48319">If your plan is to watch my empire advance beyond yours, it is working.</String>
@@ -19744,7 +19744,7 @@
 		<String _locID="60296">Torii Gates</String>
 		<String _locID="60297">WON Torii Gates</String>
 		<String _locID="60298">National Wonder</String>
-		<String _locID="60299">National Wonder: Skip the Conquest Age and go directly to the Industrial Age. Builds slowly. Produces Yojimbo or Trade.</String>
+		<String _locID="60299">National Wonder: Skip the Enlightenment Age and go directly to the Industrial Age. Builds slowly. Produces Yojimbo or Trade.</String>
 		<String _locID="60300">Imperial Palace</String>
 		<String _locID="60301">WON Imperial Palace</String>
 		<String _locID="60302">National Wonder</String>
@@ -19840,7 +19840,7 @@
 		<String _locID="60392">Watch Tower</String>
 		<String _locID="60393">Watch Tower</String>
 		<String _locID="60394">Transforms into a Town Center</String>
-		<String _locID="60395">Starts a new colony by transforming into a Town Center. Most civilizations can only have 1 Town Center until the Conquest Age.</String>
+		<String _locID="60395">Starts a new colony by transforming into a Town Center.</String>
 		<String _locID="60396">Covered Wagon</String>
 		<String _locID="60397">VIL Covered Wagon Asian</String>
 		<String _locID="60398">Ships 1 Covered Wagon</String>
@@ -21237,7 +21237,7 @@
 		<String _locID="61789">Kendo Dojo</String>
 		<String _locID="61790">Howdah, Mahouts, and Siege Elephants can be trained an Age early, +1 Villager.</String>
 		<String _locID="61791">Early Elephants</String>
-		<String _locID="61792">TEAM allows Skirmishers in Expansion Age.</String>
+		<String _locID="61792">TEAM allows Skirmishers in Colonial Age.</String>
 		<String _locID="61793">Kendo Dojo</String>
 		<String _locID="61794">Early Elephants has arrived.</String>
 		<String _locID="61795">Upgrades to Hombu Dojo, increasing Dojo hitpoints and decreasing Dojo unit train time.</String>
@@ -22254,7 +22254,7 @@
 		<String _locID="62873">Osaka Castle</String>
 		<String _locID="62874">SPC WON Osaka Castle</String>
 		<String _locID="62875">National Wonder</String>
-		<String _locID="62876">National Wonder: Skip the Conquest Age and go directly to the Industrial Age. Builds slowly.</String>
+		<String _locID="62876">National Wonder: Skip the Enlightenment Age and go directly to the Industrial Age. Builds slowly.</String>
 		<String _locID="62877">Imperial Palace</String>
 		<String _locID="62878">SPC WON Imperial Palace</String>
 		<String _locID="62879">Military Wonder</String>
@@ -23204,9 +23204,9 @@
 		<String _locID="63906">Legendary Native Warriors</String>
 		<String _locID="63907">Build Wonders with Villagers to Advance to the next age.</String>
 		<String _locID="63908">Use your Villagers to build Wonders to advance to the next age.</String>
-		<String _locID="63909">Expansion Age</String>
+		<String _locID="63909">Colonial Age</String>
 		<String _locID="63910">Use your Villagers to build Wonders to advance to the next age.</String>
-		<String _locID="63911">Conquest Age</String>
+		<String _locID="63911">Enlightenment Age</String>
 		<String _locID="63912">Use your Villagers to build Wonders to advance to the next age.</String>
 		<String _locID="63913">Industrial Age</String>
 		<String _locID="63914">Use your Villagers to build Wonders to advance to the next age.</String>
@@ -23264,9 +23264,9 @@
 		<String _locID="63967">Deadfall</String>
 		<String _locID="63968">SPC YP Deadfall</String>
 		<String _locID="63969">Advance in Age with a Villager.</String>
-		<String _locID="63970">Expansion Age</String>
+		<String _locID="63970">Colonial Age</String>
 		<String _locID="63971">Use your Villagers to build a Wonder to go to the next age.</String>
-		<String _locID="63972">Expansion Age</String>
+		<String _locID="63972">Colonial Age</String>
 		<String _locID="63973" symbol="cStringTcGrantYP">The Emperor has honored you with a grant of provisions from the Imperial City.</String>
 		<String _locID="63974" symbol="cStringTcGrantXP">The Council has provided you with supplies to found a new village.</String>
 		<String _locID="63975">Villagers gather Food from hunted animals faster.</String>
@@ -23292,7 +23292,7 @@
 		<String _locID="63995">Rebuild all of the Trading Posts along the Trade Route.</String>
 		<String _locID="63996">Uesugi Kagekatsu hopes to lure your army into a trap. Take advantage of nearby villages to build an army strong enough to withstand Uesugi's attack. Then find and destroy his command post.</String>
 		<String _locID="63997">Advance in Age with a Villager.</String>
-		<String _locID="63998">Conquest Age</String>
+		<String _locID="63998">Enlightenment Age</String>
 		<String _locID="63999">Help the refugee Villagers reestablish their Trade Route by rebuilding all of their Trading Posts. After that, they will consider becoming your allies.</String>
 		<String _locID="64000">Destroy the disgraced Barracks.</String>
 		<String _locID="64001">The enemy to the northeast will fiercely defend their stolen Barracks, so you will need a strong force. However, when you strike, be sure not to leave your home village defenseless.</String>
@@ -28974,8 +28974,8 @@
 		<String _locID="69693" gamecharacter="Lieutenant Nanib" soundfilename="YNANI5034">Look at these villagers. My own people gaze on me with such distrust. I will never get used to it.</String>
 		<String _locID="69694">Food Silos Shipment has arrived.</String>
 		<String _locID="69695">Sustainable Agriculture Shipment has arrived.</String>
-		<String _locID="69696" symbol="cStringWondersColonial">Expansion Age Wonders</String>
-		<String _locID="69697" symbol="cStringWondersFortress">Conquest Age Wonders</String>
+		<String _locID="69696" symbol="cStringWondersColonial">Colonial Age Wonders</String>
+		<String _locID="69697" symbol="cStringWondersFortress">Enlightenment Age Wonders</String>
 		<String _locID="69698" symbol="cStringWondersIndustrial">Industrial Age Wonders</String>
 		<String _locID="69699" symbol="cStringWondersImperial">Imperial Age Wonders</String>
 		<String _locID="69700">Mercenaries are cheaper.</String>
@@ -29484,7 +29484,7 @@
 		<String _locID="70205">Build near Native settlements or Trade Routes. Provides experience points and other benefits.</String>
 		<String _locID="70206">Trading Post</String>
 		<String _locID="70207">Transforms into a Town Center</String>
-		<String _locID="70208">Starts a new colony by transforming into a Town Center. Most civilizations can only have 1 Town Center until the Conquest Age.</String>
+		<String _locID="70208">Starts a new colony by transforming into a Town Center.</String>
 		<String _locID="70209">Covered Wagon</String>
 		<String _locID="70210">VIL Covered Wagon Asian</String>
 		<String _locID="70211">Coin source.</String>
@@ -30268,7 +30268,7 @@
 		<String _locID="780850">Ships an army of 10 unique native units currently available at the Embassy.</String>
 		<String _locID="780851">Market Wagon</String>
 		<String _locID="780852">Markets become cheaper and have better resource exchange rates.</String>
-		<String _locID="780853">Ships a Arsenal Wagon and moves the Arsenal to the Expansion Age, enabling more powerful Arsenal improvements.</String>
+		<String _locID="780853">Ships a Arsenal Wagon and moves the Arsenal to the Colonial Age, enabling more powerful Arsenal improvements.</String>
 		<String _locID="780854">Mill Wagon</String>
 		<String _locID="780855">Mills can now support two more gatherers and become cheaper and stronger.</String>
 		<String _locID="780856">Transforms into a Mill</String>
@@ -30360,7 +30360,7 @@
 		<String _locID="780952">The Economic Agreement</String>
 		<String _locID="780953">The Military Alliance</String>
 		<String _locID="780954">Joining the Economic Agreement grants the following benefits:\nSettler limit increased by 10;\nShips 10 free Settlers;\nEnables training of Resource Wagons.</String>
-		<String _locID="780955">Joining the Military Alliance grants the following benefits:\nShips a free Brigade of soldiers;\nEnables training of Brigades.</String>
+		<String _locID="780955">Joining the Military Alliance grants the following benefits:\nShips a free Brigade of soldiers;\nEnables another Brigade shipment.</String>
 		<String _locID="780956">Military Wagon</String>
 		<String _locID="780957">Builds military buildings.</String>
 		<String _locID="780958">Spend Fame here on armies, support wagons and powerful alliances.</String>
