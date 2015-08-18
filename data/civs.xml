@@ -229,7 +229,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -239,7 +239,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -451,6 +451,22 @@
 			</unitcounts>
 		</multipleblocktrain>
 		<multipleblocktrain>
+			<building>Explorer</building>
+			<multipleblockunit>LevyMin</multipleblockunit>
+			<units>
+				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin</unit>
+			</units>
+			<unitcounts>
+				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
+			</unitcounts>
+		</multipleblocktrain>
+		<multipleblocktrain>
 			<building>Outpost</building>
 			<multipleblockunit>LevyMin</multipleblockunit>
 			<units>
@@ -486,7 +502,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -496,7 +512,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -741,7 +757,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -751,7 +767,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -1002,7 +1018,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -1012,7 +1028,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -1259,7 +1275,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -1269,7 +1285,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -1581,7 +1597,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -1591,7 +1607,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -1839,7 +1855,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -1849,7 +1865,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -2095,7 +2111,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -2105,7 +2121,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -2424,7 +2440,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -2434,7 +2450,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -2642,7 +2658,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -2652,7 +2668,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -2804,7 +2820,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -2814,7 +2830,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -8553,7 +8569,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>CoveredWagonFame</multipleblockunit>
 			<units>
-				<unit>CoveredWagon</unit>
+				<unit>CoveredWagonPlus</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>
@@ -8563,7 +8579,7 @@
 			<building>Capitol</building>
 			<multipleblockunit>WagonBuildingsFame</multipleblockunit>
 			<units>
-				<unit>WagonBuildings</unit>
+				<unit>Surgeon</unit>
 			</units>
 			<unitcounts>
 				<count>1</count>

@@ -16233,7 +16233,7 @@
 		<String _locID="45819">SPC Barn</String>
 		<String _locID="45820">Builds buildings</String>
 		<String _locID="45821">Transforms into a Farm.</String>
-		<String _locID="45822">Travois</String>
+		<String _locID="45822">Builder Travois</String>
 		<String _locID="45823">VIL Builder Travois</String>
 		<String _locID="45824">Builds Native American Buildings.</String>
 		<String _locID="45825">Wood source</String>
@@ -30359,11 +30359,15 @@
 		<String _locID="780951">War Leader Shipment has arrived.</String>
 		<String _locID="780952">The Economic Agreement</String>
 		<String _locID="780953">The Military Alliance</String>
-		<String _locID="780954">Joining the Economic Agreement grants the following benefits:\nSettler limit increased by 10;\nShips 10 free Settlers;\nEnables training of Resource Wagons.</String>
-		<String _locID="780955">Joining the Military Alliance grants the following benefits:\nShips a free Brigade of soldiers;\nEnables another Brigade shipment.</String>
+		<String _locID="780954">Joining the Economic Agreement grants the following benefits:\nSettler limit increased by 10;\nShips 10 free Settlers;\nEnables training of Supply Wagons.</String>
+		<String _locID="780955">Joining the Military Alliance grants the following benefits:\nFame generation increased by 10%;\nShips a free Brigade of soldiers;\nEnables another Brigade shipment.</String>
 		<String _locID="780956">Military Wagon</String>
 		<String _locID="780957">Builds military buildings.</String>
 		<String _locID="780958">Spend Fame here on armies, support wagons and powerful alliances.</String>
 		<String _locID="780959">Homeland troops / improvement building (costs Fame)</String>
+		<String _locID="780960">Can transform into a Town Center or Trading Post.</String>
+		<String _locID="780961">Builder Wagon</String>
+		<String _locID="780962">Transforms into a Town Center or Trading Post</String>
+		<String _locID="780963">Mobile resource. This wagon is carrying all resources and can switch between them.</String>
 	</Language>
 </StringTable>

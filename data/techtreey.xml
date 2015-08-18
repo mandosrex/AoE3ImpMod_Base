@@ -8985,19 +8985,20 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypBankAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypArsenalAsian</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">FortFrontier</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">ypBigConsulateSPCDutch</Effect>
-			<Effect type="TechStatus" status="obtainable">ypBigConsulateSPCPortuguese</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulateDutch</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulatePortuguese</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulateSpanish</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulateJapanese</Effect>
 			<Effect type="TechStatus" status="obtainable">ypPickConsulateTech</Effect>
-			<Effect type="TechStatus" status="unobtainable">ypBigConsulateJapanese</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPAAConsulateBoats</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypBankAsian</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPAge4ConsulateUpdates" type="Normal">
@@ -9705,32 +9706,11 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="TechStatus" status="obtainable">ypBigConsulateSPCIndia</Effect>
-			<Effect type="TechStatus" status="obtainable">ypBigConsulateSPCChina</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulateRussians</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulateBritish</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulateFrench</Effect>
 			<Effect type="TechStatus" status="obtainable">ypPickConsulateTech</Effect>
-			<Effect type="TechStatus" status="obtainable">ypBigConsulateSPCJapan</Effect>
-			<Effect type="TechStatus" status="unobtainable">ypBigConsulateRussians</Effect>
-			<Effect type="TechStatus" status="unobtainable">ypBigConsulateBritish</Effect>
-			<Effect type="TechStatus" status="unobtainable">ypBigConsulateFrench</Effect>
-			<Effect type="TechStatus" status="unobtainable">ypBigConsulateGermans</Effect>
-			<Effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Absolute">
-				<Target type="ProtoUnit">ypNatMercChakram</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Absolute">
-				<Target type="ProtoUnit">ypNatMercRattanShield</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Absolute">
-				<Target type="ProtoUnit">ypBlindMonk</Target>
-			</Effect>
-			<Effect type="Data" amount="3.00" subtype="PopulationCount" relativity="Absolute">
-				<Target type="ProtoUnit">ypNatMercWarElephant</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Absolute">
-				<Target type="ProtoUnit">ypNatMercTigerClaw</Target>
-			</Effect>
-			<Effect type="Data" amount="-3.00" subtype="PopulationCount" relativity="Absolute">
-				<Target type="ProtoUnit">MercNinja</Target>
-			</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulateGermans</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateRelationsBritish" type="Normal">
@@ -10766,13 +10746,11 @@
 	<Tech name="ypAge0IndiansSPCConsulate" type="Normal">
 		<DBID>5182</DBID>
 		<Effects>
-			<Effect type="TechStatus" status="obtainable">ypBigConsulateSPCFrench</Effect>
-			<Effect type="TechStatus" status="obtainable">ypBigConsulateSPCOttomans</Effect>
-			<Effect type="TechStatus" status="obtainable">ypPickConsulateTech</Effect>
 			<Effect type="TechStatus" status="obtainable">ypBigConsulateBritish</Effect>
-			<Effect type="TechStatus" status="unobtainable">ypBigConsulateFrench</Effect>
-			<Effect type="TechStatus" status="unobtainable">ypBigConsulateOttomans</Effect>
-			<Effect type="TechStatus" status="unobtainable">ypBigConsulatePortuguese</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulateFrench</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulateOttomans</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulateSPCChina</Effect>
+			<Effect type="TechStatus" status="obtainable">ypPickConsulateTech</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPSPCBarracksTrainArsonists" type="Normal">
@@ -69522,6 +69500,7 @@ Indians" type="Normal">
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="TechStatus" status="unobtainable">MilitaryAlliance</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ResourceWagonFame</Target>
 			</Effect>
@@ -69531,7 +69510,6 @@ Indians" type="Normal">
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
-			<Effect type="TechStatus" status="unobtainable">MilitaryAlliance</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="MilitaryAlliance" type="Normal">
@@ -69549,6 +69527,9 @@ Indians" type="Normal">
 		</Prereqs>
 		<Effects>
 			<Effect type="TechStatus" status="unobtainable">EconomicAlliance</Effect>
+			<Effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="TownCenter" relativity="BasePercent">
+				<Target type="ProtoUnit">Famer</Target>
+			</Effect>
 			<Effect tech="Age0British" type="Data" amount="16.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Musketeer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
