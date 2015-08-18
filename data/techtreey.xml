@@ -759,6 +759,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">LevyMin2</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">ypConsulateBritishBrigadeFame</Effect>

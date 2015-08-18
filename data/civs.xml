@@ -427,8 +427,14 @@
 			<units>
 				<unit>LevyMin</unit>
 			</units>
+			<units>
+				<unit>LevyMin2</unit>
+			</units>
 			<unitcounts>
 				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
 			</unitcounts>
 			<unitcounts>
 				<count>1</count>
@@ -443,8 +449,14 @@
 			<units>
 				<unit>LevyMin</unit>
 			</units>
+			<units>
+				<unit>LevyMin2</unit>
+			</units>
 			<unitcounts>
 				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
 			</unitcounts>
 			<unitcounts>
 				<count>1</count>
@@ -452,15 +464,21 @@
 		</multipleblocktrain>
 		<multipleblocktrain>
 			<building>Explorer</building>
-			<multipleblockunit>LevyMin</multipleblockunit>
+			<multipleblockunit>LevyMin2</multipleblockunit>
 			<units>
 				<unit>Minuteman</unit>
+			</units>
+			<units>
+				<unit>LevyMin2</unit>
 			</units>
 			<units>
 				<unit>LevyMin</unit>
 			</units>
 			<unitcounts>
 				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
 			</unitcounts>
 			<unitcounts>
 				<count>1</count>
@@ -475,8 +493,14 @@
 			<units>
 				<unit>LevyMin</unit>
 			</units>
+			<units>
+				<unit>LevyMin2</unit>
+			</units>
 			<unitcounts>
 				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
 			</unitcounts>
 			<unitcounts>
 				<count>1</count>
@@ -491,8 +515,14 @@
 			<units>
 				<unit>LevyMin</unit>
 			</units>
+			<units>
+				<unit>LevyMin2</unit>
+			</units>
 			<unitcounts>
 				<count>6</count>
+			</unitcounts>
+			<unitcounts>
+				<count>1</count>
 			</unitcounts>
 			<unitcounts>
 				<count>1</count>
