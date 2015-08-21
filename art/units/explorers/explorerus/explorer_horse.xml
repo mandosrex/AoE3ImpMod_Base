@@ -30,10 +30,11 @@
 						</assetreference>
 		<decal>
 			<effecttype>default</effecttype>
-			<texture isfakeshadow="1">shadows_selections\shadow_hero_64x64</texture>
+			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
 			<selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture>
-			<width>1.50</width>
-			<height>3.00</height>
+			<noncinematictexture>shadows_selections\shadow_hero_64x64</noncinematictexture>
+			<width>2.50</width>
+			<height>2.50</height>
 		</decal>
 		<attach a="Rider" frombone="hotspot" tobone="ATTACHPOINT" syncanims="1"/>
 	</component>

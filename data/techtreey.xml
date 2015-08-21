@@ -6,16 +6,14 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
-			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagonFame</Target>
+				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildingsFame</Target>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Surgeon" relativity="Absolute">
+				<Target type="ProtoUnit">Church</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildings2Fame</Target>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="xpSpy" relativity="Absolute">
+				<Target type="ProtoUnit">Church</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">GeneralBr</Target>
@@ -53,7 +51,7 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Halberdier</Target>
 			</Effect>
-			<Effect type="TechStatus" status="active">Ranching</Effect>
+			<Effect type="TechStatus" status="obtainable">Ranching</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Envoy</Target>
 			</Effect>
@@ -249,17 +247,26 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="100.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="150.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">ypConsulateFrenchBrigadeFame</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagonFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildingsFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildings2Fame</Target>
+				<Target type="ProtoUnit">CoveredWagonPlus</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
@@ -273,7 +280,7 @@
 			</Effect>
 			<Effect type="TechStatus" status="active">VeteranCraneq</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
-			<Effect type="TechStatus" status="active">Ranching</Effect>
+			<Effect type="TechStatus" status="obtainable">Ranching</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">MercArmyF</Target>
 			</Effect>
@@ -488,17 +495,26 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="100.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="150.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">ypConsulateRussianBrigadeFame</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagonFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildingsFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildings2Fame</Target>
+				<Target type="ProtoUnit">CoveredWagonPlus</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
@@ -517,7 +533,7 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
-			<Effect type="TechStatus" status="active">RanchingE</Effect>
+			<Effect type="TechStatus" status="obtainable">Ranching</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">MercArmyR</Target>
 			</Effect>
@@ -759,6 +775,21 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="100.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="150.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">LevyMin2</Target>
 			</Effect>
@@ -766,13 +797,7 @@
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">ypConsulateBritishBrigadeFame</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagonFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildingsFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildings2Fame</Target>
+				<Target type="ProtoUnit">CoveredWagonPlus</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
@@ -787,7 +812,7 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
-			<Effect type="TechStatus" status="active">Ranching</Effect>
+			<Effect type="TechStatus" status="obtainable">Ranching</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">MercArmyB</Target>
 			</Effect>
@@ -998,17 +1023,26 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="100.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="150.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">ypConsulateDutchBrigadeFame</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagonFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildingsFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildings2Fame</Target>
+				<Target type="ProtoUnit">CoveredWagonPlus</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
@@ -1026,7 +1060,7 @@
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
-			<Effect type="TechStatus" status="active">Ranching</Effect>
+			<Effect type="TechStatus" status="obtainable">Ranching</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">MercArmyD</Target>
 			</Effect>
@@ -1247,17 +1281,26 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="100.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="150.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">ypConsulateGermansBrigadeFame</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagonFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildingsFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildings2Fame</Target>
+				<Target type="ProtoUnit">CoveredWagonPlus</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
@@ -1266,7 +1309,7 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
-			<Effect type="TechStatus" status="active">RanchingE</Effect>
+			<Effect type="TechStatus" status="obtainable">Ranching</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">MercArmyG</Target>
 			</Effect>
@@ -1466,17 +1509,26 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="100.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="150.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">ypConsulatePortugueseBrigadeFame</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagonFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildingsFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildings2Fame</Target>
+				<Target type="ProtoUnit">CoveredWagonPlus</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
@@ -1496,7 +1548,7 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="active">SpyglassE</Effect>
-			<Effect type="TechStatus" status="active">RanchingM</Effect>
+			<Effect type="TechStatus" status="obtainable">Ranching</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">MercArmyP</Target>
 			</Effect>
@@ -1695,17 +1747,26 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="100.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="150.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">ypConsulateOttomansBrigadeFame</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagonFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildingsFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildings2Fame</Target>
+				<Target type="ProtoUnit">CoveredWagonPlus</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
@@ -1722,7 +1783,7 @@
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranHussars</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
-			<Effect type="TechStatus" status="active">RanchingM</Effect>
+			<Effect type="TechStatus" status="obtainable">Ranching</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">MercArmyO</Target>
 			</Effect>
@@ -1940,17 +2001,26 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="100.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="150.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">ypConsulateSpanishBrigadeFame</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CoveredWagonFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildingsFame</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WagonBuildings2Fame</Target>
+				<Target type="ProtoUnit">CoveredWagonPlus</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
@@ -1962,7 +2032,7 @@
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
-			<Effect type="TechStatus" status="active">RanchingM</Effect>
+			<Effect type="TechStatus" status="obtainable">Ranching</Effect>
 			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
 				<Target type="ProtoUnit">ArtilleryDepot</Target>
 			</Effect>
@@ -2432,6 +2502,9 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Sheep</Target>
+			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
 			</Effect>
@@ -2559,6 +2632,9 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Sheep</Target>
+			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
 			</Effect>
@@ -2682,6 +2758,9 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Sheep</Target>
+			</Effect>
 			<Effect type="SetName" proto="Stagecoach" culture="none" newName="780736"/>
 			<Effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Stagecoach" relativity="Absolute">
 				<Target type="ProtoUnit">ResourceWagon</Target>
@@ -2813,6 +2892,9 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Sheep</Target>
+			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
 			</Effect>
@@ -2936,6 +3018,9 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Sheep</Target>
+			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
 			</Effect>
@@ -3063,6 +3148,9 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Sheep</Target>
+			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
 			</Effect>
@@ -3854,7 +3942,7 @@
 				<Target type="ProtoUnit">SPCBuccaneer</Target>
 			</Effect>
 			<Effect type="TechStatus" status="active">XPTrickle</Effect>
-			<Effect type="TechStatus" status="active">RanchingM</Effect>
+			<Effect type="TechStatus" status="active">Ranching</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Church</Target>
 			</Effect>
@@ -17303,9 +17391,6 @@
 			<Effect type="TechStatus" status="obtainable">XPRevolutionWashington</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
 				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -41055,15 +41140,36 @@
 		<DBID>3367</DBID>
 		<DisplayNameID>780756</DisplayNameID>
 		<Cost resourcetype="Wood">100.0000</Cost>
-		<ResearchPoints>5.0000</ResearchPoints>
+		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Ranching</Icon>
 		<RolloverTextID>780757</RolloverTextID>
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="obtainable">SelectiveBreeding</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Sheep</Target>
+			<Effect type="Data" amount="4.00" subtype="GathererLimit" relativity="Assign">
+				<Target type="ProtoUnit">HouseMed</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="GathererLimit" relativity="Assign">
+				<Target type="ProtoUnit">HouseEast</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="GathererLimit" relativity="Assign">
+				<Target type="ProtoUnit">House</Target>
+			</Effect>
+			<Effect type="Data" amount="4.00" subtype="GathererLimit" relativity="Assign">
+				<Target type="ProtoUnit">Manor</Target>
+			</Effect>
+			<Effect type="Data" amount="500.00" subtype="InventoryAmount" resource="Food" relativity="Assign">
+				<Target type="ProtoUnit">HouseMed</Target>
+			</Effect>
+			<Effect type="Data" amount="500.00" subtype="InventoryAmount" resource="Food" relativity="Assign">
+				<Target type="ProtoUnit">HouseEast</Target>
+			</Effect>
+			<Effect type="Data" amount="500.00" subtype="InventoryAmount" resource="Food" relativity="Assign">
+				<Target type="ProtoUnit">House</Target>
+			</Effect>
+			<Effect type="Data" amount="500.00" subtype="InventoryAmount" resource="Food" relativity="Assign">
+				<Target type="ProtoUnit">Manor</Target>
 			</Effect>
 			<Effect type="Data" action="GatherHouse" amount="1.00" subtype="ActionEnable" relativity="Absolute">
 				<Target type="ProtoUnit">Herdable</Target>
@@ -69505,7 +69611,7 @@ Indians" type="Normal">
 		<Effects>
 			<Effect type="TechStatus" status="unobtainable">MilitaryAlliance</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ResourceWagonFame</Target>
+				<Target type="ProtoUnit">ResourceWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
 				<Target type="Player"/>
