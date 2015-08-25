@@ -10,7 +10,16 @@
 	</attachment>
 	<attachment>
 		gun
-		<include>units\infantry_ranged\janissary\janissary_gun.xml</include>
+		<component>
+			gun
+			<assetreference type="GrannyModel">
+				<file>units\natives\ally\navajo_rifleman\navajo_rifleman_gun</file>
+			</assetreference>
+		</component>
+		<anim>
+			Idle
+			<component>gun</component>
+		</anim>
 	</attachment>
 	<attachment>
 		hat

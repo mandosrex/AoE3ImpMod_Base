@@ -1412,6 +1412,9 @@
 		<displaynamestringid>24970</displaynamestringid>
 		<rolloverstringid>25536</rolloverstringid>
 		<obtainabletechs>
+			<tech x="0.7" y="1.0">HCShipSettlerWagons1</tech>
+			<tech x="0.7" y="2.0">HCShipSettlerWagons2</tech>
+			<tech x="0.3" y="3.0">HCShipSettlerWagons3</tech>
 			<tech x="1.0" y="3.0">HCShipSettlerWagonsTeam</tech>
 			<tech x="0.3" y="4.0">HCShipSettlerWagons4</tech>
 			<tech x="0.3" y="7.0">HCXPShipSettlerWagons5</tech>
@@ -1439,9 +1442,6 @@
 			<tech x="7.0" y="4.0">HCShipBalloons</tech>
 			<tech x="7.0" y="6.0">HCXPAdvancedBalloon</tech>
 			<tech x="3.4" y="7.0">TreasurySup</tech>
-			<tech x="2.0" y="5.0">HCFoodWagon</tech>
-			<tech x="2.7" y="5.0">HCWoodWagon</tech>
-			<tech x="3.4" y="5.0">HCCoinWagon</tech>
 		</obtainabletechs>
 		<activetechs>
 			<tech>HCShipSettlerWagons1</tech>

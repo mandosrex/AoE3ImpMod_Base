@@ -7983,7 +7983,7 @@
 		<String _locID="37516" symbol="cStringUsers">Users</String>
 		<String _locID="37517">TEAM Germans send allies Covered Wagons.</String>
 		<String _locID="37518">All cavalry are faster, +4 Uhlans.</String>
-		<String _locID="37519">Spanish Riding School</String>
+		<String _locID="37519">Polish Riding School</String>
 		<String _locID="37520">Polish Winged Knights</String>
 		<String _locID="37521">Ships a squadron of 5 Winged Hussar Knights and enables them at the Command Post.</String>
 		<String _locID="37522">Uhlan attack and hitpoints increased, +4 Uhlans.</String>
@@ -25097,7 +25097,7 @@
 		<String _locID="65810">Portuguese Expeditionary Force</String>
 		<String _locID="65811">Portuguese Expeditionary Force</String>
 		<String _locID="65812">Heavy ranged infantry, good against cavalry and hand infantry / light artillery, good against artillery</String>
-		<String _locID="65813">An army of Portuguese Cassadores and Culverins.\n13 Cassadores: skirmishers with low hitpoints, but a strong attack which are good against infantry.\n3 Culverins: light artillery that is good against other artillery.</String>
+		<String _locID="65813">An army of Portuguese Cassadores and Culverins.\n13 Cassadores: skirmishers with low hitpoints, but a strong attack which are good against infantry.\n3 Culverins: light artillery that is good against other artillery and ships.</String>
 		<String _locID="65814">Portuguese Expeditionary Army</String>
 		<String _locID="65815">Portuguese Expeditionary Army</String>
 		<String _locID="65816">Heavy ranged infantry, good against cavalry and hand infantry / ranged cavalry, good against cavalry</String>
@@ -25113,7 +25113,7 @@
 		<String _locID="65826">Russian Expeditionary Force</String>
 		<String _locID="65827">Russian Expeditionary Force</String>
 		<String _locID="65828">Ranged cavalry, good against cavalry / light artillery, good against artillery</String>
-		<String _locID="65829">An army of Russian Kalmucks (Dragoons) and Culverins.\n7 Kalmucks: ranged cavalry, good against cavalry.\n3 Culverins: light artillery that is good against artillery.</String>
+		<String _locID="65829">An army of Russian Kalmucks (Dragoons) and Culverins.\n7 Kalmucks: ranged cavalry, good against cavalry.\n3 Culverins: light artillery that is good against other artillery and ships.</String>
 		<String _locID="65830">Russian Expeditionary Army</String>
 		<String _locID="65831">Russian Expeditionary Army</String>
 		<String _locID="65832">Heavy ranged infantry, good against cavalry and hand infantry</String>
@@ -30164,8 +30164,8 @@
 		<String _locID="780747">Town Centers cannot be built too close to any starting Town Center.</String>
 		<String _locID="780748">Repentant Miner</String>
 		<String _locID="780749">You have used Fame to get 5 Shipments from your Home City.</String>
-		<String _locID="780750">An army of French Grenadiers.\n4 Grenadiers: light artillery that throws grenades to defeat infantry or buildings.</String>
-		<String _locID="780751">An army of French Grenadiers and Gendarmes (Cuirassiers).\n3 Grenadiers: light artillery that throws grenades to defeat infantry or buildings.\n3 Gendarmes: heavy cavalry with a trample attack, good against archers, skirmishers, and artillery.</String>
+		<String _locID="780750">An army of French Culverins Royale.\n2 Culverins: light artillery that is good against other artillery and ships.</String>
+		<String _locID="780751">An army of French Culverins Royale and Gendarmes (Cuirassiers).\n2 Culverins: light artillery that is good against other artillery and ships.\n3 Gendarmes: heavy cavalry with a trample attack, good against archers, skirmishers, and artillery.</String>
 		<String _locID="780752">Imperial Gendarmes</String>
 		<String _locID="780753">Imperial Gendarme</String>
 		<String _locID="780754">Imperial Age Rush</String>
@@ -30175,9 +30175,9 @@
 		<String _locID="780758">Renegade Spanish Brigade</String>
 		<String _locID="780759">Renegade French Brigade</String>
 		<String _locID="780760">Renegade British Brigade</String>
-		<String _locID="780761">Expeditionary Force</String>
-		<String _locID="780762">Expeditionary Company</String>
-		<String _locID="780763">Expeditionary Army</String>
+		<String _locID="780761">Royal Force</String>
+		<String _locID="780762">Royal Company</String>
+		<String _locID="780763">Royal Army</String>
 		<String _locID="780764">Enables the Explorer to peer into the blackmap to temporarily see what is there.</String>
 		<String _locID="780765">Cavalier attack and hitpoints greatly increased.</String>
 		<String _locID="780766">Imperial Lancers</String>
@@ -30312,7 +30312,7 @@
 		<String _locID="780904">The Imperial Armory of Tophane regulates that all artillery units take up less population.</String>
 		<String _locID="780905">Slavery Abolition</String>
 		<String _locID="780906">Settler cost changed from Coin to Food.</String>
-		<String _locID="780907">An army of Russian Tartar Loyalists (Cavalry Archers) and Culverins.\n7 Tartar Loyalists: ranged cavalry, good against cavalry.\n3 Culverins: light artillery that is good against artillery.</String>
+		<String _locID="780907">An army of Russian Tartar Loyalists (Cavalry Archers) and Culverins.\n7 Tartar Loyalists: ranged cavalry, good against cavalry.\n3 Culverins: light artillery that is good against other artillery and ships.</String>
 		<String _locID="780908">Italian Allies\n+10% Building Hitpoints</String>
 		<String _locID="780909">Trains:\nSwiss Guards\nLandsknecht\nElmeti\nBlack Riders\n \nShipments:\nMercenaries</String>
 		<String _locID="780910">American Brigade</String>
@@ -30369,5 +30369,8 @@
 		<String _locID="780961">Builder Wagon</String>
 		<String _locID="780962">Transforms into a Town Center or Trading Post</String>
 		<String _locID="780963">Mobile resource. This wagon is carrying all resources and can switch between them.</String>
+		<String _locID="780964">Ranged Attack (auto)</String>
+		<String _locID="780965">Capitol Hotkeys</String>
+		<String _locID="780966">Command Post Hotkeys</String>
 	</Language>
 </StringTable>

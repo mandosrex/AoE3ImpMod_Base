@@ -1593,6 +1593,21 @@
 			<command>tis("ypAshigaru",5)</command>
 		</keymapdata>
 		<keymapdata>
+			<name>Sohei</name>
+			<displayname>$$63619$$Sohei</displayname>
+			<event>s</event>
+			<context>BarracksAccel</context>
+			<command>tis("ypNatSohei")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Sohei</name>
+			<displayname>$$63619$$Sohei</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-s</event>
+			<context>BarracksAccel</context>
+			<command>tis("ypNatSohei",5)</command>
+		</keymapdata>
+		<keymapdata>
 			<name>Samurai</name>
 			<displayname>$$63606$$Samurai</displayname>
 			<event>e</event>
@@ -3453,19 +3468,19 @@
 			<command>tis("MercFusilier",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Lil Bombard</name>
-			<displayname>$$46341$$Lil Bombard</displayname>
+			<name>Hoop Thrower</name>
+			<displayname>$$33478$$Hoop Thrower</displayname>
 			<event>g</event>
-			<context>SaloonAccel</context>
-			<command>tis("MercGreatCannon")</command>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercHoopThrowers")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Lil Bombard</name>
-			<displayname>$$46341$$Lil Bombard</displayname>
+			<name>Multiple Hoop Throwers</name>
+			<displayname>$$33478$$Hoop Thrower</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-g</event>
-			<context>SaloonAccel</context>
-			<command>tis("MercGreatCannon",5)</command>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercHoopThrowers",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Pirate</name>
@@ -3724,6 +3739,7 @@
 		<keymapdata>
 			<name>Wokou Monk</name>
 			<displayname>$$61700$$Wokou Monk</displayname>
+			<event>w</event>
 			<context>SaloonAccel</context>
 			<command>tis("ypWokouBlindMonk")</command>
 		</keymapdata>
@@ -3731,12 +3747,14 @@
 			<name>Multiple Wokou Monk</name>
 			<displayname>$$61700$$Wokou Monk</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-w</event>
 			<context>SaloonAccel</context>
 			<command>tis("ypWokouBlindMonk",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Wokou Pirate</name>
 			<displayname>$$62056$$Wokou Pirate</displayname>
+			<event>x</event>
 			<context>SaloonAccel</context>
 			<command>tis("ypWokouPirate")</command>
 		</keymapdata>
@@ -3744,12 +3762,14 @@
 			<name>Multiple Wokou Pirate</name>
 			<displayname>$$62056$$Wokou Pirate</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-x</event>
 			<context>SaloonAccel</context>
 			<command>tis("ypWokouPirate",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Wokou Horseman</name>
 			<displayname>$$61680$$Wokou Horseman</displayname>
+			<event>z</event>
 			<context>SaloonAccel</context>
 			<command>tis("ypWokouWanderingHorseman")</command>
 		</keymapdata>
@@ -3757,12 +3777,14 @@
 			<name>Multiple Wokou Horseman</name>
 			<displayname>$$61680$$Wokou Horseman</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-z</event>
 			<context>SaloonAccel</context>
 			<command>tis("ypWokouWanderingHorseman",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Wokou Ronin</name>
 			<displayname>$$62781$$Wokou Ronin</displayname>
+			<event>y</event>
 			<context>SaloonAccel</context>
 			<command>tis("ypWokouWaywardRonin")</command>
 		</keymapdata>
@@ -3770,421 +3792,456 @@
 			<name>Multiple Wokou Ronin</name>
 			<displayname>$$62781$$Wokou Ronin</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-y</event>
 			<context>SaloonAccel</context>
 			<command>tis("ypWokouWaywardRonin",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Poleaxeman</name>
+			<displayname>$$78010$$Poleaxeman</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("Axeman")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Poleaxemen</name>
+			<displayname>$$78010$$Poleaxeman</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("Axeman",5)</command>
 		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="Monastery Hotkeys" displayname="$$69955$$Monastery Hotkeys">
 		<keymapdata>
-			<name>Repentant Mameluke</name>
-			<displayname>$$69485$$Repentant Mameluke</displayname>
+			<name>Mameluke</name>
+			<displayname>$$25140$$Mameluke</displayname>
 			<event>a</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantMameluke")</command>
+			<command>tis("MercMameluke")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Mameluke</name>
-			<displayname>$$69485$$Repentant Mameluke</displayname>
+			<name>Multiple Mameluke</name>
+			<displayname>$$25140$$Mameluke</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-a</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantMameluke",5)</command>
+			<command>tis("MercMameluke",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Black Rider</name>
-			<displayname>$$69457$$Repentant Black Rider</displayname>
+			<name>Black Rider</name>
+			<displayname>$$25150$$Black Rider</displayname>
 			<event>b</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantBlackRider")</command>
+			<command>tis("MercBlackRider")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Black Rider</name>
-			<displayname>$$69457$$Repentant Black Rider</displayname>
+			<name>Multiple Black Rider</name>
+			<displayname>$$25150$$Black Rider</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-b</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantBlackRider",5)</command>
+			<command>tis("MercBlackRider",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Comanchero</name>
-			<displayname>$$69573$$Repentant Comanchero</displayname>
+			<name>Comanchero</name>
+			<displayname>$$44657$$Comanchero</displayname>
 			<event>c</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantOutlawRider")</command>
+			<command>tis("SaloonOutlawRider")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Comanchero</name>
-			<displayname>$$69573$$Repentant Comanchero</displayname>
+			<name>Multiple Comanchero</name>
+			<displayname>$$44657$$Comanchero</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-c</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantOutlawRider",5)</command>
+			<command>tis("SaloonOutlawRider",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Highlander</name>
-			<displayname>$$69475$$Repentant Highlander</displayname>
+			<name>Highlander</name>
+			<displayname>$$24867$$Highlander</displayname>
 			<event>d</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantHighlander")</command>
+			<command>tis("MercHighlander")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Highlander</name>
-			<displayname>$$69475$$Repentant Highlander</displayname>
+			<name>Multiple Highlander</name>
+			<displayname>$$24867$$Highlander</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-d</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantHighlander",5)</command>
+			<command>tis("MercHighlander",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Elmeti</name>
-			<displayname>$$69463$$Repentant Elmeti</displayname>
+			<name>Elmeti</name>
+			<displayname>$$29512$$Elmeti</displayname>
 			<event>e</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantElmeti")</command>
+			<command>tis("MercElmeti")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Elmeti</name>
-			<displayname>$$69463$$Repentant Elmeti</displayname>
+			<name>Multiple Elmeti</name>
+			<displayname>$$29512$$Elmeti</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-e</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantElmeti",5)</command>
+			<command>tis("MercElmeti",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Fusilier</name>
-			<displayname>$$69466$$Repentant Fusilier</displayname>
+			<name>Fusilier</name>
+			<displayname>$$44368$$Fusilier</displayname>
 			<event>f</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantFusilier")</command>
+			<command>tis("MercFusilier")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Fusilier</name>
-			<displayname>$$69466$$Repentant Fusilier</displayname>
+			<name>Multiple Fusilier</name>
+			<displayname>$$44368$$Fusilier</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-f</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantFusilier",5)</command>
+			<command>tis("MercFusilier",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Lil Bombard</name>
-			<displayname>$$69469$$Repentant Lil Bombard</displayname>
+			<name>Hoop Thrower</name>
+			<displayname>$$33478$$Hoop Thrower</displayname>
 			<event>g</event>
-			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantGreatCannon")</command>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercHoopThrowers")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Lil Bombard</name>
-			<displayname>$$69469$$Repentant Lil Bombard</displayname>
+			<name>Multiple Hoop Throwers</name>
+			<displayname>$$33478$$Hoop Thrower</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-g</event>
-			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantGreatCannon",5)</command>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercHoopThrowers",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Pirate</name>
-			<displayname>$$69581$$Repentant Pirate</displayname>
+			<name>Pirate</name>
+			<displayname>$$29650$$Pirate</displayname>
 			<event>i</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantPirate")</command>
+			<command>tis("SaloonPirate")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Pirate</name>
-			<displayname>$$69581$$Repentant Pirate</displayname>
+			<name>Multiple Pirate</name>
+			<displayname>$$29650$$Pirate</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-i</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantPirate",5)</command>
+			<command>tis("SaloonPirate",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Jaeger</name>
-			<displayname>$$69478$$Repentant Jaeger</displayname>
+			<name>Jaeger</name>
+			<displayname>$$25174$$Jaeger</displayname>
 			<event>j</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantJaeger")</command>
+			<command>tis("MercJaeger")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Jaeger</name>
-			<displayname>$$69478$$Repentant Jaeger</displayname>
+			<name>Multiple Jaeger</name>
+			<displayname>$$25174$$Jaeger</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-j</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantJaeger",5)</command>
+			<command>tis("MercJaeger",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Landsknecht</name>
-			<displayname>$$69482$$Repentant Landsknecht</displayname>
+			<name>Landsknecht</name>
+			<displayname>$$24820$$Landsknecht</displayname>
 			<event>l</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantLandsknecht")</command>
+			<command>tis("MercLandsknecht")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Landsknecht</name>
-			<displayname>$$69482$$Repentant Landsknecht</displayname>
+			<name>Multiple Landsknecht</name>
+			<displayname>$$24820$$Landsknecht</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-l</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantLandsknecht",5)</command>
+			<command>tis("MercLandsknecht",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Manchu</name>
-			<displayname>$$69533$$Repentant Manchu</displayname>
+			<name>Manchu</name>
+			<displayname>$$25160$$Manchu</displayname>
 			<event>m</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantManchu")</command>
+			<command>tis("MercManchu")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Manchu</name>
-			<displayname>$$69533$$Repentant Manchu</displayname>
+			<name>Multiple Manchu</name>
+			<displayname>$$25160$$Manchu</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-m</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantManchu",5)</command>
+			<command>tis("MercManchu",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Ninja</name>
-			<displayname>$$69537$$Repentant Ninja</displayname>
+			<name>Ninja</name>
+			<displayname>$$43874$$Ninja</displayname>
 			<event>n</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantNinja")</command>
+			<command>tis("MercNinja")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Ninja</name>
-			<displayname>$$69537$$Repentant Ninja</displayname>
+			<name>Multiple Ninja</name>
+			<displayname>$$43874$$Ninja</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-n</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantNinja",5)</command>
+			<command>tis("MercNinja",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Ronin</name>
-			<displayname>$$69541$$Repentant Ronin</displayname>
+			<name>Ronin</name>
+			<displayname>$$25165$$Ronin</displayname>
 			<event>o</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantRonin")</command>
+			<command>tis("MercRonin")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Ronin</name>
-			<displayname>$$69541$$Repentant Ronin</displayname>
+			<name>Multiple Ronin</name>
+			<displayname>$$25165$$Ronin</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-o</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantRonin",5)</command>
+			<command>tis("MercRonin",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Pistolero</name>
-			<displayname>$$69569$$Repentant Pistolero</displayname>
+			<name>Pistolero</name>
+			<displayname>$$46118$$Pistolero</displayname>
 			<event>p</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantOutlawPistol")</command>
+			<command>tis("SaloonOutlawPistol")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Pistolero</name>
-			<displayname>$$69569$$Repentant Pistolero</displayname>
+			<name>Multiple Pistolero</name>
+			<displayname>$$46118$$Pistolero</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-p</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantOutlawPistol",5)</command>
+			<command>tis("SaloonOutlawPistol",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Renegado</name>
-			<displayname>$$69577$$Repentant Renegado</displayname>
+			<name>Renegado</name>
+			<displayname>$$44653$$Renegado</displayname>
 			<event>r</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantOutlawRifleman")</command>
+			<command>tis("SaloonOutlawRifleman")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Renegado</name>
-			<displayname>$$69577$$Repentant Renegado</displayname>
+			<name>Multiple Renegado</name>
+			<displayname>$$44653$$Renegado</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-r</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantOutlawRifleman",5)</command>
+			<command>tis("SaloonOutlawRifleman",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Stradiot</name>
-			<displayname>$$69545$$Repentant Stradiot</displayname>
+			<name>Stradiot</name>
+			<displayname>$$25145$$Stradiot</displayname>
 			<event>s</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantStradiot")</command>
+			<command>tis("MercStradiot")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Stradiot</name>
-			<displayname>$$69545$$Repentant Stradiot</displayname>
+			<name>Multiple Stradiot</name>
+			<displayname>$$25145$$Stradiot</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-s</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantStradiot",5)</command>
+			<command>tis("MercStradiot",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Hackapell</name>
-			<displayname>$$69472$$Repentant Hackapell</displayname>
+			<name>Hackapell</name>
+			<displayname>$$25179$$Hackapell</displayname>
 			<event>v</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantHackapell")</command>
+			<command>tis("MercHackapell")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Hackapell</name>
-			<displayname>$$69472$$Repentant Hackapell</displayname>
+			<name>Multiple Hackapell</name>
+			<displayname>$$25179$$Hackapell</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-v</event>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantHackapell",5)</command>
+			<command>tis("MercHackapell",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Dacoit</name>
-			<displayname>$$69585$$Repentant Dacoit</displayname>
+			<name>Swiss Pikeman</name>
+			<displayname>$$24824$$Swiss Pikeman</displayname>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantDacoit")</command>
+			<command>tis("MercSwissPikeman")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Marathan Dacoit</name>
-			<displayname>$$69585$$Repentant Dacoit</displayname>
+			<name>Multiple Swiss Pikeman</name>
+			<displayname>$$24824$$Swiss Pikeman</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantDacoit",5)</command>
+			<command>tis("MercSwissPikeman",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Iron Troop</name>
-			<displayname>$$69557$$Repentant Iron Troop</displayname>
+			<name>Barbary Corsair</name>
+			<displayname>$$27311$$Barbary Corsair</displayname>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantIronTroop")</command>
+			<command>tis("MercBarbaryCorsair")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Iron Troop</name>
-			<displayname>$$69557$$Repentant Iron Troop</displayname>
+			<name>Multiple Barbary Corsair</name>
+			<displayname>$$27311$$Barbary Corsair</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantIronTroop",5)</command>
+			<command>tis("MercBarbaryCorsair",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Swiss Pikeman</name>
-			<displayname>$$69549$$Repentant Swiss Pikeman</displayname>
+			<name>Marathan Dacoit</name>
+			<displayname>$$62193$$Marathan Dacoit</displayname>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantSwissPikeman")</command>
+			<command>tis("ypDacoit")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Swiss Pikeman</name>
-			<displayname>$$69549$$Repentant Swiss Pikeman</displayname>
+			<name>Multiple Marathan Dacoit</name>
+			<displayname>$$62193$$Marathan Dacoit</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantSwissPikeman",5)</command>
+			<command>tis("ypDacoit",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Barbary Corsair</name>
-			<displayname>$$69460$$Repentant Barbary Corsair</displayname>
+			<name>Iron Troop</name>
+			<displayname>$$60771$$ron Troop</displayname>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantBarbaryCorsair")</command>
+			<command>tis("ypMercIronTroop")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Barbary Corsair</name>
-			<displayname>$$69460$$Repentant Barbary Corsair</displayname>
+			<name>Multiple Iron Troop</name>
+			<displayname>$$60771$$ron Troop</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantBarbaryCorsair",5)</command>
+			<command>tis("ypMercIronTroop",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Arsonist</name>
-			<displayname>$$69553$$Repentant Arsonist</displayname>
+			<name>Arsonist</name>
+			<displayname>$$63556$$Arsonist</displayname>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantArsonist")</command>
+			<command>tis("ypMercArsonist")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Arsonist</name>
-			<displayname>$$69553$$Repentant Arsonist</displayname>
+			<name>Multiple Arsonist</name>
+			<displayname>$$63556$$Arsonist</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantArsonist",5)</command>
+			<command>tis("ypMercArsonist",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Jat Lancer</name>
-			<displayname>$$69561$$Repentant Jat Lancer</displayname>
+			<name>Jat Lancer</name>
+			<displayname>$$62185$$Jat Lancer</displayname>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantJatLancer")</command>
+			<command>tis("ypMercJatLancer")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Jat Lancer</name>
-			<displayname>$$69561$$Repentant Jat Lancer</displayname>
+			<name>Multiple Jat Lancer</name>
+			<displayname>$$62185$$Jat Lancer</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantJatLancer",5)</command>
+			<command>tis("ypMercJatLancer",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Yojimbo</name>
-			<displayname>$$69565$$Repentant Yojimbo</displayname>
+			<name>Yojimbo</name>
+			<displayname>$$60779$$Yojimbo</displayname>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantYojimbo")</command>
+			<command>tis("ypMercYojimbo")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Yojimbo</name>
-			<displayname>$$69565$$Repentant Yojimbo</displayname>
+			<name>Multiple Yojimbo</name>
+			<displayname>$$60779$$Yojimbo</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantYojimbo",5)</command>
+			<command>tis("ypMercYojimbo",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Thuggee</name>
-			<displayname>$$69589$$Repentant Thuggee</displayname>
+			<name>Marathan Thuggee</name>
+			<displayname>$$64364$$Marathan Thuggee</displayname>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantThuggee")</command>
+			<command>tis("ypThuggee")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Marathan Thuggee</name>
-			<displayname>$$69589$$Repentant Thuggee</displayname>
+			<name>Multiple Marathan Thuggee</name>
+			<displayname>$$64364$$Marathan Thuggee</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantThuggee",5)</command>
+			<command>tis("ypThuggee",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Repentant Monk</name>
-			<displayname>$$69593$$Repentant Monk</displayname>
+			<name>Wokou Monk</name>
+			<displayname>$$61700$$Wokou Monk</displayname>
+			<event>w</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouBlindMonk")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Monk</name>
+			<displayname>$$61700$$Wokou Monk</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-w</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouBlindMonk",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wokou Pirate</name>
+			<displayname>$$62056$$Wokou Pirate</displayname>
+			<event>x</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouPirate")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Pirate</name>
+			<displayname>$$62056$$Wokou Pirate</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-x</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouPirate",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wokou Horseman</name>
+			<displayname>$$61680$$Wokou Horseman</displayname>
+			<event>z</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWanderingHorseman")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Horseman</name>
+			<displayname>$$61680$$Wokou Horseman</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-z</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWanderingHorseman",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wokou Ronin</name>
+			<displayname>$$62781$$Wokou Ronin</displayname>
+			<event>y</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWaywardRonin")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Ronin</name>
+			<displayname>$$62781$$Wokou Ronin</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-y</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWaywardRonin",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Poleaxeman</name>
+			<displayname>$$78010$$Poleaxeman</displayname>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantBlindMonk")</command>
+			<command>tis("Axeman")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Repentant Monk</name>
-			<displayname>$$69593$$Repentant Monk</displayname>
+			<name>Multiple Poleaxemen</name>
+			<displayname>$$78010$$Poleaxeman</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantBlindMonk",5)</command>
-		</keymapdata>
-		<keymapdata>
-			<name>Repentant Wokou Pirate</name>
-			<displayname>$$69597$$Repentant Wokou Pirate</displayname>
-			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantSmuggler")</command>
-		</keymapdata>
-		<keymapdata>
-			<name>Multiple Repentant Wokou Pirate</name>
-			<displayname>$$69597$$Repentant Wokou Pirate</displayname>
-			<displayformat>$$43376$$Multiple %s</displayformat>
-			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantSmuggler",5)</command>
-		</keymapdata>
-		<keymapdata>
-			<name>Repentant Horseman</name>
-			<displayname>$$69601$$Repentant Horseman</displayname>
-			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantWanderingHorseman")</command>
-		</keymapdata>
-		<keymapdata>
-			<name>Multiple Repentant Horseman</name>
-			<displayname>$$69601$$Repentant Horseman</displayname>
-			<displayformat>$$43376$$Multiple %s</displayformat>
-			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantWanderingHorseman",5)</command>
-		</keymapdata>
-		<keymapdata>
-			<name>Repentant Wokou Ronin</name>
-			<displayname>$$69605$$Repentant Wokou Ronin</displayname>
-			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantWaywardRonin")</command>
-		</keymapdata>
-		<keymapdata>
-			<name>Multiple Repentant Wokou Ronin</name>
-			<displayname>$$69605$$Repentant Wokou Ronin</displayname>
-			<displayformat>$$43376$$Multiple %s</displayformat>
-			<context>MonasteryAccel</context>
-			<command>tis("ypRepentantWaywardRonin",5)</command>
+			<command>tis("Axeman",5)</command>
 		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="War Academy Hotkeys" displayname="$$68763$$War Academy Hotkeys">
@@ -4670,6 +4727,149 @@
 			<context>NativeEmbassyAccel</context>
 			<command>tis("ypNatRattanShield",5)</command>
 		</keymapdata>
+		<keymapdata>
+			<name>Comanchero</name>
+			<displayname>$$44657$$Comanchero</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("SaloonOutlawRider")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Comanchero</name>
+			<displayname>$$44657$$Comanchero</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("SaloonOutlawRider",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Pirate</name>
+			<displayname>$$29650$$Pirate</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("SaloonPirate")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Pirate</name>
+			<displayname>$$29650$$Pirate</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("SaloonPirate",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Barbary Corsair</name>
+			<displayname>$$27311$$Barbary Corsair</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("MercBarbaryCorsair")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Barbary Corsair</name>
+			<displayname>$$27311$$Barbary Corsair</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("MercBarbaryCorsair",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Pistolero</name>
+			<displayname>$$46118$$Pistolero</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("SaloonOutlawPistol")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Pistolero</name>
+			<displayname>$$46118$$Pistolero</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("SaloonOutlawPistol",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Renegado</name>
+			<displayname>$$44653$$Renegado</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("SaloonOutlawRifleman")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Renegado</name>
+			<displayname>$$44653$$Renegado</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("SaloonOutlawRifleman",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Marathan Dacoit</name>
+			<displayname>$$62193$$Marathan Dacoit</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("ypDacoit")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Marathan Dacoit</name>
+			<displayname>$$62193$$Marathan Dacoit</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("ypDacoit",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Marathan Thuggee</name>
+			<displayname>$$64364$$Marathan Thuggee</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("ypThuggee")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Marathan Thuggee</name>
+			<displayname>$$64364$$Marathan Thuggee</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("ypThuggee",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wokou Monk</name>
+			<displayname>$$61700$$Wokou Monk</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouBlindMonk")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Monk</name>
+			<displayname>$$61700$$Wokou Monk</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouBlindMonk",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wokou Pirate</name>
+			<displayname>$$62056$$Wokou Pirate</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouPirate")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Pirate</name>
+			<displayname>$$62056$$Wokou Pirate</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouPirate",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wokou Horseman</name>
+			<displayname>$$61680$$Wokou Horseman</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWanderingHorseman")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Horseman</name>
+			<displayname>$$61680$$Wokou Horseman</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWanderingHorseman",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wokou Ronin</name>
+			<displayname>$$62781$$Wokou Ronin</displayname>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWaywardRonin")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Ronin</name>
+			<displayname>$$62781$$Wokou Ronin</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWaywardRonin",5)</command>
+		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="Fire Pit Hotkeys" displayname="$$48924$$Fire Pit Hotkeys">
 		<keymapdata>
@@ -4823,6 +5023,21 @@
 			<event>shift-p</event>
 			<context>ChurchAccel</context>
 			<command>tis("Priest",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Surgeon</name>
+			<displayname>$$26218$$Surgeon</displayname>
+			<event>g</event>
+			<context>ChurchAccel</context>
+			<command>tis("Surgeon")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Surgeons</name>
+			<displayname>$$26218$$Surgeon</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-g</event>
+			<context>ChurchAccel</context>
+			<command>tis("Surgeon",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Spy</name>
@@ -5725,6 +5940,21 @@
 			<command>tis("WarDog")</command>
 		</keymapdata>
 		<keymapdata>
+			<name>Pet Bear</name>
+			<displayname>$$24950$$Pet Bear</displayname>
+			<event>b</event>
+			<context>BuildAccel</context>
+			<command>tis("PetBear")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Pet Bears</name>
+			<displayname>$$24950$$Pet Bears</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-b</event>
+			<context>BuildAccel</context>
+			<command>tis("PetBear",5)</command>
+		</keymapdata>
+		<keymapdata>
 			<name>Multiple War Dog</name>
 			<displayname>$$25043$$War Dog</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
@@ -5956,6 +6186,487 @@
 			<event>shift-r</event>
 			<context>BuildAccel</context>
 			<command>tis("ypMorutaru",5)</command>
+		</keymapdata>
+	</keymapgroup>
+	<keymapgroup name="Capitol Hotkeys" displayname="$$780965$$Capitol Hotkeys">
+		<keymapdata>
+			<name>Builder Wagon</name>
+			<displayname>$$780961$$Builder Wagon</displayname>
+			<event>b</event>
+			<context>CapitolAccel</context>
+			<command>tis("CoveredWagonPlus")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Builder Wagons</name>
+			<displayname>$$780961$$Builder Wagon</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-b</event>
+			<context>CapitolAccel</context>
+			<command>tis("CoveredWagonPlus",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Surgeon</name>
+			<displayname>$$26218$$Surgeon</displayname>
+			<event>g</event>
+			<context>CapitolAccel</context>
+			<command>tis("Surgeon")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Surgeons</name>
+			<displayname>$$26218$$Surgeon</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-g</event>
+			<context>CapitolAccel</context>
+			<command>tis("Surgeon",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Spy</name>
+			<displayname>$$46322$$Spy</displayname>
+			<event>s</event>
+			<context>CapitolAccel</context>
+			<command>tis("xpSpy")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Spys</name>
+			<displayname>$$46322$$Spy</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-s</event>
+			<context>CapitolAccel</context>
+			<command>tis("xpSpy",5)</command>
+		</keymapdata>
+	</keymapgroup>
+	<keymapgroup name="Command Post Hotkeys" displayname="$$780966$$Command Post Hotkeys">
+		<keymapdata>
+			<name>Mameluke</name>
+			<displayname>$$25140$$Mameluke</displayname>
+			<event>a</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercMameluke")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Mameluke</name>
+			<displayname>$$25140$$Mameluke</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-a</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercMameluke",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Black Rider</name>
+			<displayname>$$25150$$Black Rider</displayname>
+			<event>b</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercBlackRider")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Black Rider</name>
+			<displayname>$$25150$$Black Rider</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-b</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercBlackRider",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Comanchero</name>
+			<displayname>$$44657$$Comanchero</displayname>
+			<event>c</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("SaloonOutlawRider")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Comanchero</name>
+			<displayname>$$44657$$Comanchero</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-c</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("SaloonOutlawRider",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Highlander</name>
+			<displayname>$$24867$$Highlander</displayname>
+			<event>d</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercHighlander")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Highlander</name>
+			<displayname>$$24867$$Highlander</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-d</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercHighlander",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Elmeti</name>
+			<displayname>$$29512$$Elmeti</displayname>
+			<event>e</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercElmeti")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Elmeti</name>
+			<displayname>$$29512$$Elmeti</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-e</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercElmeti",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Fusilier</name>
+			<displayname>$$44368$$Fusilier</displayname>
+			<event>f</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercFusilier")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Fusilier</name>
+			<displayname>$$44368$$Fusilier</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-f</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercFusilier",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Hoop Thrower</name>
+			<displayname>$$33478$$Hoop Thrower</displayname>
+			<event>g</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercHoopThrowers")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Hoop Throwers</name>
+			<displayname>$$33478$$Hoop Thrower</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-g</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercHoopThrowers",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Pirate</name>
+			<displayname>$$29650$$Pirate</displayname>
+			<event>i</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("SaloonPirate")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Pirate</name>
+			<displayname>$$29650$$Pirate</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-i</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("SaloonPirate",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Jaeger</name>
+			<displayname>$$25174$$Jaeger</displayname>
+			<event>j</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercJaeger")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Jaeger</name>
+			<displayname>$$25174$$Jaeger</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-j</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercJaeger",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Landsknecht</name>
+			<displayname>$$24820$$Landsknecht</displayname>
+			<event>l</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercLandsknecht")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Landsknecht</name>
+			<displayname>$$24820$$Landsknecht</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-l</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercLandsknecht",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Manchu</name>
+			<displayname>$$25160$$Manchu</displayname>
+			<event>m</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercManchu")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Manchu</name>
+			<displayname>$$25160$$Manchu</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-m</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercManchu",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Ninja</name>
+			<displayname>$$43874$$Ninja</displayname>
+			<event>n</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercNinja")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Ninja</name>
+			<displayname>$$43874$$Ninja</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-n</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercNinja",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Ronin</name>
+			<displayname>$$25165$$Ronin</displayname>
+			<event>o</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercRonin")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Ronin</name>
+			<displayname>$$25165$$Ronin</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-o</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercRonin",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Pistolero</name>
+			<displayname>$$46118$$Pistolero</displayname>
+			<event>p</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("SaloonOutlawPistol")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Pistolero</name>
+			<displayname>$$46118$$Pistolero</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-p</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("SaloonOutlawPistol",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Renegado</name>
+			<displayname>$$44653$$Renegado</displayname>
+			<event>r</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("SaloonOutlawRifleman")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Renegado</name>
+			<displayname>$$44653$$Renegado</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-r</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("SaloonOutlawRifleman",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Stradiot</name>
+			<displayname>$$25145$$Stradiot</displayname>
+			<event>s</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercStradiot")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Stradiot</name>
+			<displayname>$$25145$$Stradiot</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-s</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercStradiot",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Hackapell</name>
+			<displayname>$$25179$$Hackapell</displayname>
+			<event>v</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercHackapell")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Hackapell</name>
+			<displayname>$$25179$$Hackapell</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-v</event>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercHackapell",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Swiss Pikeman</name>
+			<displayname>$$24824$$Swiss Pikeman</displayname>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercSwissPikeman")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Swiss Pikeman</name>
+			<displayname>$$24824$$Swiss Pikeman</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercSwissPikeman",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Barbary Corsair</name>
+			<displayname>$$27311$$Barbary Corsair</displayname>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercBarbaryCorsair")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Barbary Corsair</name>
+			<displayname>$$27311$$Barbary Corsair</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("MercBarbaryCorsair",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Marathan Dacoit</name>
+			<displayname>$$62193$$Marathan Dacoit</displayname>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypDacoit")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Marathan Dacoit</name>
+			<displayname>$$62193$$Marathan Dacoit</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypDacoit",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Iron Troop</name>
+			<displayname>$$60771$$ron Troop</displayname>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypMercIronTroop")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Iron Troop</name>
+			<displayname>$$60771$$ron Troop</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypMercIronTroop",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Arsonist</name>
+			<displayname>$$63556$$Arsonist</displayname>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypMercArsonist")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Arsonist</name>
+			<displayname>$$63556$$Arsonist</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypMercArsonist",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Jat Lancer</name>
+			<displayname>$$62185$$Jat Lancer</displayname>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypMercJatLancer")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Jat Lancer</name>
+			<displayname>$$62185$$Jat Lancer</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypMercJatLancer",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Yojimbo</name>
+			<displayname>$$60779$$Yojimbo</displayname>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypMercYojimbo")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Yojimbo</name>
+			<displayname>$$60779$$Yojimbo</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypMercYojimbo",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Marathan Thuggee</name>
+			<displayname>$$64364$$Marathan Thuggee</displayname>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypThuggee")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Marathan Thuggee</name>
+			<displayname>$$64364$$Marathan Thuggee</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("ypThuggee",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wokou Monk</name>
+			<displayname>$$61700$$Wokou Monk</displayname>
+			<event>w</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouBlindMonk")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Monk</name>
+			<displayname>$$61700$$Wokou Monk</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-w</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouBlindMonk",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wokou Pirate</name>
+			<displayname>$$62056$$Wokou Pirate</displayname>
+			<event>x</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouPirate")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Pirate</name>
+			<displayname>$$62056$$Wokou Pirate</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-x</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouPirate",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wokou Horseman</name>
+			<displayname>$$61680$$Wokou Horseman</displayname>
+			<event>z</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWanderingHorseman")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Horseman</name>
+			<displayname>$$61680$$Wokou Horseman</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-z</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWanderingHorseman",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Wokou Ronin</name>
+			<displayname>$$62781$$Wokou Ronin</displayname>
+			<event>y</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWaywardRonin")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Wokou Ronin</name>
+			<displayname>$$62781$$Wokou Ronin</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-y</event>
+			<context>SaloonAccel</context>
+			<command>tis("ypWokouWaywardRonin",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Poleaxeman</name>
+			<displayname>$$78010$$Poleaxeman</displayname>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("Axeman")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Poleaxemen</name>
+			<displayname>$$78010$$Poleaxeman</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<context>SPCFortCenterAccel</context>
+			<command>tis("Axeman",5)</command>
 		</keymapdata>
 	</keymapgroup>
 </defaultkeymapy>
