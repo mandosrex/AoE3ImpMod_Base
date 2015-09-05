@@ -99,8 +99,6 @@
 			<component>twinkle07</component>
 		</anim>
 	</attachment>
-	<attachment>
-		ship
 	<component>
 		ModelComp
 		<logic type="Variation">
@@ -126,28 +124,15 @@
 				<attach a="GoldShimmer07" frombone="ATTACHPOINT" tobone="bone_FX07" syncanims="0"/>
 			</data>
 		</logic>
+		<decal>
+			<effecttype>bump</effecttype>
+			<texture>buildings\gold_mine\gold_mine_wetground</texture>
+			<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+			<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+			<width>0.01</width>
+			<height>0.01</height>
+		</decal>
 	</component>
-	<anim>
-		Idle
-		<component>ModelComp</component>
-	</anim>
-	</attachment>
-		<component>
-			ModelComp
-			<logic type="LowPoly">
-				<normal>
-					<assetreference type="GrannyModel">
-						<file>units\villagers\we_villager_male</file>
-					</assetreference>
-				</normal>
-				<lowpoly>
-					<assetreference type="GrannyModel">
-						<file>units\villagers\lp_we_villager_male</file>
-					</assetreference>
-				</lowpoly>
-			</logic>
-		<attach a="ship" frombone="BONE" tobone="HEAD" syncanims="0"/>
-		</component>
 	<anim>
 		Idle
 		<component>ModelComp</component>

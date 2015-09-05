@@ -51,7 +51,7 @@
       <Setting Name="optiontooltipenableworld">true</Setting>
       <Setting Name="optiontooltipworlddisptime">500.0</Setting>
       <Setting Name="optiontooltipgameuidisptime">500.0</Setting>
-      <Setting Name="optiontooltipbackgroundalpha">0.0</Setting>
+      <Setting Name="optiontooltipbackgroundalpha">0.7</Setting>
       <Setting Name="optionshowhponrollover">true</Setting>
       <Setting Name="OptionUIShowTraining">true</Setting>
       <Setting Name="OptionUIShowFame">true</Setting>
@@ -85,7 +85,7 @@
       <Setting Name="OptionGrfxCliffShader">true</Setting>
       <Setting Name="OptionEnableMixObjects">true</Setting>
       <Setting Name="optionsoundparameqonoff">true</Setting>
-      <Setting Name="OptionCameraZoom">2</Setting>
+      <Setting Name="OptionCameraZoom">3</Setting>
       <Setting Name="OptionAmbientSoundLevel">1.000000</Setting>
       <Setting Name="OptionAdvancedFormationUI">true</Setting>
       <Setting Name="OptionAdvancedUnitTypeInfo">true</Setting>
@@ -100,6 +100,7 @@
       <Setting Name="OptionSoundChatVolume">1.0</Setting>
       <Setting Name="OptionMinimizedUI">true</Setting>
       <Setting Name="OptionShowChatNotifications">true</Setting>
+      <Setting Name="OptionAllowHotkeyConflicts">true</Setting>
     </Settings>
   </GameSettings>
   <GameSettings Name="RandomMapGameSettings" Def="cDefGameModeSettings">

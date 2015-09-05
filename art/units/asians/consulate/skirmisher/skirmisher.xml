@@ -247,7 +247,7 @@
 	<anim>
 		Volley_standing_reload
 		<assetreference type="GrannyAnim">
-			<file>units\asians\chinese\chu_ko_nu\chokonu_volley_standing_reload</file>
+			<file>animation_library\range\volley\volley_standing_reload</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

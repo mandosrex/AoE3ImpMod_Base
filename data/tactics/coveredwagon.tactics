@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="69147">Build</name>
+		<type>Build</type>
+		<anim>Build</anim>
+		<maxrange>0.2</maxrange>
+		<rate type="Building">1.0</rate>
+		<singleuse>1</singleuse>
+	</action>
+	<action>
+		<name stringid="69776">SpawnCoveredWagon</name>
+		<type>Spawn</type>
+		<rate type="CoveredWagon">1</rate>
+		<active>1</active>
+		<persistent>0</persistent>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action>Build</action>
+		<action>SpawnCoveredWagon</action>
+	</tactic>
+</tactics>

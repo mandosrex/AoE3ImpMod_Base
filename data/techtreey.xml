@@ -2238,6 +2238,26 @@
 			<Effect type="TechStatus" status="obtainable">ShipHowitzers</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="HCBlockadeRev" type="Normal">
+		<DBID>3516</DBID>
+		<ResearchPoints>1.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect type="Data" action="SpawnCoveredWagon" amount="1.00" subtype="ActionAdd" unittype="TownCenter" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" action="SpawnCoveredWagon" amount="1.00" subtype="ActionAdd" unittype="CoveredWagon" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="TechStatus" status="unobtainable">HCBlockade</Effect>
+			<Effect type="TechStatus" status="unobtainable">HCBlockadeNative</Effect>
+			<Effect type="Blockade" delay="10.00"/>
+		</Effects>
+	</Tech>
 	<Tech name="HCBlockade" type="Normal">
 		<DBID>1219</DBID>
 		<DisplayNameID>30458</DisplayNameID>
@@ -5776,7 +5796,7 @@
 				<Target type="ProtoUnit">SPCCherokeeWarHutD</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">NativeEmbassyI</Target>
+				<Target type="ProtoUnit">NativeEmbassy</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">CampfireNative</Target>
@@ -8778,6 +8798,9 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypSacredCow</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -9578,6 +9601,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypMongolScout</Target>
 			</Effect>
@@ -10450,6 +10476,9 @@
 	<Tech name="ypAge0IndiansUnits" type="Normal">
 		<DBID>5170</DBID>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">xpPetard</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">LevyIre</Target>
 			</Effect>
@@ -21212,13 +21241,19 @@
 		<RolloverTextID>33758</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="Data" amount="0.85" subtype="Cost" resource="Food" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="Data" amount="0.85" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">Bank</Target>
+			</Effect>
+			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Bank</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="1.05" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="TextOutput">41825</Effect>
@@ -27768,7 +27803,7 @@
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Halberdier</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Schutze</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
@@ -27810,10 +27845,10 @@
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Halberdier</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Pikeman</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Pikeman</Target>
 			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
@@ -27822,10 +27857,10 @@
 			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Schutze</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Skirmisher</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Skirmisher</Target>
 			</Effect>
 			<Effect type="TextOutput">41863</Effect>
@@ -33732,9 +33767,6 @@
 			<Effect type="Data" action="SwashbucklerAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
 				<Target type="ProtoUnit">xpAztecWarchief</Target>
 			</Effect>
-			<Effect type="Data" action="SwashbucklerAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
-				<Target type="ProtoUnit">xpAztecWarchief</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="FortressizeXPSioux" type="Normal">
@@ -33781,9 +33813,6 @@
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" action="SwashbucklerAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
-				<Target type="ProtoUnit">xpAztecWarchief</Target>
-			</Effect>
-			<Effect type="Data" action="SwashbucklerAttack" amount="1.00" subtype="DamageArea" relativity="Absolute">
 				<Target type="ProtoUnit">xpAztecWarchief</Target>
 			</Effect>
 		</Effects>
@@ -69792,7 +69821,7 @@ Indians" type="Normal">
 			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Culverin" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="Hussar" relativity="Absolute">
+			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="Cossack" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerR" relativity="Absolute">

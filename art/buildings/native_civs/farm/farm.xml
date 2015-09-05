@@ -130,10 +130,6 @@
 	</submodel>
 	<submodel>
 		farm
-	<attachment>
-		skulls
-		<include>objects\skulls\skulls.xml</include>
-	</attachment>
 		<attachment>
 			base smoke
 			<component>
@@ -191,7 +187,6 @@
 				<width>16.00</width>
 				<height>16.00</height>
 			</decal>
-		<attach a="skulls" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 		</component>
 		<component>
 			DEAD
@@ -215,7 +210,6 @@
 				<width>16.00</width>
 				<height>16.00</height>
 			</decal>
-		<attach a="skulls" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 		</component>
 		<anim>
 			Idle

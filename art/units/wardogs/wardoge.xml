@@ -94,4 +94,11 @@
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
+	<anim>
+		Pickup
+		<assetreference type="GrannyAnim">
+			<file>animation_library\quads\wolf_boredb</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
 </animfile>

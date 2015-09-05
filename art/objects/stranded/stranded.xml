@@ -43,10 +43,9 @@
 			<texture>buildings\gold_mine\gold_mine_wetground</texture>
 			<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
 			<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
-			<width>1.00</width>
-			<height>1.00</height>
+			<width>0.01</width>
+			<height>0.01</height>
 		</decal>
-		<attach a="man" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="1"/>
 		<attach a="ship" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="1"/>
 		<attach a="junk1" frombone="ATTACHPOINT" tobone="Bone_fruit9" syncanims="1"/>
 		<attach a="junk3" frombone="ATTACHPOINT" tobone="Bone_fruit2" syncanims="1"/>

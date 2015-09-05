@@ -596,9 +596,9 @@
 	<anim>
 		Heal
 		<assetreference type="GrannyAnim">
-			<file>units\explorers\f_explorer_heal_anim</file>
+			<file>animation_library\villager\villager_male_gatherfarmsow</file>
 		</assetreference>
-		<component>f_explorer_heal</component>
+		<component>ModelComp</component>
 		<attach a="HealRays" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 	</anim>
 	<anim>

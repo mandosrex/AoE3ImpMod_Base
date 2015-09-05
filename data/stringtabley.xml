@@ -5323,7 +5323,7 @@
 		<String _locID="33755">SPC Graves</String>
 		<String _locID="33756" symbol="cStringESOLeaveConv">Leave Conversation</String>
 		<String _locID="33757">Mine Silver</String>
-		<String _locID="33758">Banks cost less and have more hitpoints.</String>
+		<String _locID="33758">Banks cost less, have more hitpoints and build faster. Coin production is slightly increased.</String>
 		<String _locID="33759">Dutch East India Company</String>
 		<String _locID="33760">Interchangeable Parts</String>
 		<String _locID="33761">Factory build limit increased by +1.</String>
@@ -6964,7 +6964,7 @@
 		<String _locID="36358">TEAM ranged infantry damage increased.</String>
 		<String _locID="36359">TEAM Churches, Mosques, and Field Hospitals are much cheaper and their non-advanced improvements are also cheaper. Monastaries are somewhat cheaper and Native Fire Pits become free.</String>
 		<String _locID="36360">TEAM Cheap Church</String>
-		<String _locID="36361">TEAM Churches and Mosques cheaper and build faster.</String>
+		<String _locID="36361">TEAM Churches and Mosques are cheaper and build faster.</String>
 		<String _locID="36362">TEAM Villagers gather Coin from Plantations and Rice Paddies faster.</String>
 		<String _locID="36363">TEAM Rum Distillery</String>
 		<String _locID="36364">TEAM Plantations gather faster.</String>
@@ -17010,13 +17010,13 @@
 		<String _locID="46608">Cavalry general.</String>
 		<String _locID="46609">Custer</String>
 		<String _locID="46610">SPC XP Custer</String>
-		<String _locID="46611">Standard</String>
+		<String _locID="46611">Domination</String>
 		<String _locID="46612">Treaty - 10 min.</String>
 		<String _locID="46613">Treaty - 20 min.</String>
 		<String _locID="46614">Treaty - 30 min.</String>
 		<String _locID="46615">Treaty - 40 min.</String>
 		<String _locID="46616" symbol="cStringNoRushWarning1">One minute until end of treaty!</String>
-		<String _locID="46617" symbol="cStringNoRushEnded">The treaty has ended!  Fighting may begin!</String>
+		<String _locID="46617" symbol="cStringNoRushEnded">The treaty has ended! Fighting may begin!</String>
 		<String _locID="46618">Light artillery</String>
 		<String _locID="46619">Quick moving artillery. Strong against infantry.</String>
 		<String _locID="46620">Horse Artillery</String>
@@ -17060,7 +17060,7 @@
 		<String _locID="46658">20 minute Treaty period in which no one can attack and building is restricted.\nThe Trade Monopoly victory condition is not allowed.</String>
 		<String _locID="46659">30 minute Treaty period in which no one can attack and building is restricted.\nThe Trade Monopoly victory condition is not allowed.</String>
 		<String _locID="46660">40 minute Treaty period in which no one can attack and building is restricted.\nThe Trade Monopoly victory condition is not allowed.</String>
-		<String _locID="46661">Classic</String>
+		<String _locID="46661">Conquest</String>
 		<String _locID="46662">A baker's shop.</String>
 		<String _locID="46663">A baker's shop.</String>
 		<String _locID="46664">Feed Store</String>
@@ -25592,7 +25592,7 @@
 		<String _locID="66305">Socket Silk Route</String>
 		<String _locID="66306">Capture this post by defeating the guardians and moving into the area</String>
 		<String _locID="66307">Trading Post. Defeat the Guardians to capture the Trading Post. Undefended Trading Posts will convert to whomever moves units into the area.</String>
-		<String _locID="66308">Silk Road Trading Site</String>
+		<String _locID="66308">Silk Road Trading Post</String>
 		<String _locID="66309">Villager</String>
 		<String _locID="66310">Villager that constructs buildings and gathers resources.</String>
 		<String _locID="66311">Chinese Farmer</String>
@@ -25888,7 +25888,7 @@
 		<String _locID="66601">Ships a large number of Roger's Rangers (Skirmishers) and Falconets.</String>
 		<String _locID="66602">Ships a large number of Prussian Needle Guns (Skirmishers) and Czapka Uhlans.</String>
 		<String _locID="66603">German Brigade</String>
-		<String _locID="66604">Ships a large number of Bashkir Ponies (Hussars) and Culverins.</String>
+		<String _locID="66604">Ships a large number of Cossacks and Culverins.</String>
 		<String _locID="66605">Russian Brigade</String>
 		<String _locID="66606">Ships a large number of Gendarmes (Cuirassiers).</String>
 		<String _locID="66607">French Brigade</String>
@@ -30210,7 +30210,7 @@
 		<String _locID="780793">Advance in Age to unlock new technologies, units, and to increase population cap.</String>
 		<String _locID="780794">Enables the Academy and University to generate Export over time.</String>
 		<String _locID="780795">Import</String>
-		<String _locID="780796">Trains sinister outlaws and mercenaries. Recruit armies for Fame.</String>
+		<String _locID="780796">Trains sinister outlaws and mercenaries.</String>
 		<String _locID="780797">Control Flag</String>
 		<String _locID="780798">Capture Control Flags to gain a small experience trickle and line of sight in the area. Military units move faster around flags.</String>
 		<String _locID="780799">Strategic point</String>
