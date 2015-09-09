@@ -1218,9 +1218,9 @@
 			<rate>-2.0</rate>
 		</unitregen>
 		<blocktrain>
-			<building>Blockhouse</building>
-			<unit>Axeman</unit>
-			<count>5</count>
+			<building>TownCenter</building>
+			<unit>Settler</unit>
+			<count>3</count>
 		</blocktrain>
 		<blocktrain>
 			<building>Blockhouse</building>
@@ -1239,18 +1239,8 @@
 		</blocktrain>
 		<blocktrain>
 			<building>Blockhouse</building>
-			<unit>Oprichnik</unit>
-			<count>2</count>
-		</blocktrain>
-		<blocktrain>
-			<building>Blockhouse</building>
-			<unit>CavalryArcher</unit>
-			<count>2</count>
-		</blocktrain>
-		<blocktrain>
-			<building>Blockhouse</building>
-			<unit>Cossack</unit>
-			<count>3</count>
+			<unit>Pikeman</unit>
+			<count>6</count>
 		</blocktrain>
 		<blocktrain>
 			<building>Galleon</building>
@@ -1269,18 +1259,28 @@
 		</blocktrain>
 		<blocktrain>
 			<building>Galleon</building>
-			<unit>Oprichnik</unit>
-			<count>2</count>
+			<unit>Pikeman</unit>
+			<count>6</count>
 		</blocktrain>
 		<blocktrain>
-			<building>Galleon</building>
-			<unit>CavalryArcher</unit>
-			<count>2</count>
+			<building>FortFrontier</building>
+			<unit>Strelet</unit>
+			<count>10</count>
 		</blocktrain>
 		<blocktrain>
-			<building>Galleon</building>
-			<unit>Cossack</unit>
-			<count>3</count>
+			<building>FortFrontier</building>
+			<unit>Halberdier</unit>
+			<count>4</count>
+		</blocktrain>
+		<blocktrain>
+			<building>FortFrontier</building>
+			<unit>Musketeer</unit>
+			<count>5</count>
+		</blocktrain>
+		<blocktrain>
+			<building>FortFrontier</building>
+			<unit>Pikeman</unit>
+			<count>6</count>
 		</blocktrain>
 		<unitregen>
 			<unittype>AbstractWall</unittype>
@@ -2621,12 +2621,12 @@
 		<startingunit>xpIroquoisWarchief</startingunit>
 		<startingunit>ControlFlag</startingunit>
 		<startingunit>NativeScout</startingunit>
+		<startingunit>xpBuilderStart</startingunit>
 		<townstartingunit>SettlerNative</townstartingunit>
 		<townstartingunit>SettlerNative</townstartingunit>
 		<townstartingunit>SettlerNative</townstartingunit>
 		<townstartingunit>SettlerNative</townstartingunit>
 		<townstartingunit>SettlerNative</townstartingunit>
-		<townstartingunit>xpBuilderStart</townstartingunit>
 		<townstartingunit>CrateofFood</townstartingunit>
 		<townstartingunit>CrateofFood</townstartingunit>
 		<townstartingunit>CrateofWood</townstartingunit>

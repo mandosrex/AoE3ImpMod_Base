@@ -9,8 +9,8 @@
 	<watervisual>revolution\revolution_homecity_water.xml</watervisual>
 	<backgroundvisual>revolution\revolution_background.xml</backgroundvisual>
 	<pathdata>revolution\pathable_area.gr2</pathdata>
-	<camera>revolution\revolution_homecity_camera.cam</camera>
-	<widescreencamera>revolution\revolution_homecity_camera.cam</widescreencamera>
+	<camera>spc\xspc_homecity_camera.cam</camera>
+	<widescreencamera>spc\xspc_homecity_widescreencamera.cam</widescreencamera>
 	<transportroundtriptime>1</transportroundtriptime>
 	<transportactivationtime>0</transportactivationtime>
 	<level>10</level>
@@ -86,27 +86,36 @@
 			<displayunitcount>2</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
+		<card>
+			<name>HCREVShipPrivateers</name>
+			<maxcount>-1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>0</age>
+			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
 	</cards>
 	<decks>
 		<deck>
 			<name>$$41681$$</name>
 			<cards>
+				<card>HCREVShipFortWagon</card>
+				<card>HCREVShipFactory</card>
 				<card>HCREVShipColonialMilitia</card>
 				<card>HCREVShipGatlingGuns</card>
-				<card>HCREVShipFortWagon</card>
 				<card>HCREVShipIronclads</card>
-				<card>HCREVShipFactory</card>
 			</cards>
 		</deck>
 		<deck>
 			<name>$$41682$$</name>
 			<default/>
 			<cards>
+				<card>HCREVShipFortWagon</card>
+				<card>HCREVShipFactory</card>
 				<card>HCREVShipColonialMilitia</card>
 				<card>HCREVShipGatlingGuns</card>
-				<card>HCREVShipFortWagon</card>
 				<card>HCREVShipIronclads</card>
-				<card>HCREVShipFactory</card>
 			</cards>
 		</deck>
 	</decks>
@@ -118,8 +127,8 @@
 		</visual>
 		<uix>150</uix>
 		<uiy>200</uiy>
-		<camera>spanish\spanish_homecity_estate_camera.cam</camera>
-		<widescreencamera>spanish\spanish_homecity_estate_camera.cam</widescreencamera>
+		<camera>british\british_homecity_estate_camera.cam</camera>
+		<widescreencamera>british\british_homecity_estate_camera.cam</widescreencamera>
 		<unlocklevel>0</unlocklevel>
 		<portrait>homecity\buildings_west\estate_icon</portrait>
 		<displaynamestringid>24968</displaynamestringid>
@@ -134,23 +143,23 @@
 	<building>
 		<name>Market</name>
 		<visual>
-			<file>spc\xspc_market.xml</file>
+			<file>revolution\revolution_hall.xml</file>
 			<bone>bone_market</bone>
 		</visual>
 		<uix>250</uix>
 		<uiy>375</uiy>
-		<camera>spc\xspc_market_camera.cam</camera>
-		<widescreencamera>spc\xspc_market_widescreencamera.cam</widescreencamera>
+		<camera>revolution\revolution_market_camera.cam</camera>
+		<widescreencamera>revolution\revolution_market_camera.cam</widescreencamera>
 		<unlocklevel>0</unlocklevel>
 		<portrait>homecity\buildings_west\market_icon</portrait>
 		<displaynamestringid>47185</displaynamestringid>
 		<rolloverstringid>25536</rolloverstringid>
 		<obtainabletechs>
 			<tech x="1.0" y="1.0">HCREVShipColonialMilitia</tech>
-			<tech x="3.0" y="1.0">HCREVShipGatlingGuns</tech>
-			<tech x="5.0" y="1.0">HCREVShipFortWagon</tech>
-			<tech x="7.0" y="1.0">HCREVShipIronclads</tech>
-			<tech x="9.0" y="1.0">HCREVShipFactory</tech>
+			<tech x="2.0" y="1.0">HCREVShipGatlingGuns</tech>
+			<tech x="3.0" y="1.0">HCREVShipFortWagon</tech>
+			<tech x="4.0" y="1.0">HCREVShipIronclads</tech>
+			<tech x="5.0" y="1.0">HCREVShipFactory</tech>
 		</obtainabletechs>
 		<activetechs>
 			<tech>HCREVShipColonialMilitia</tech>
@@ -171,8 +180,8 @@
 		</visual>
 		<uix>460</uix>
 		<uiy>125</uiy>
-		<camera>spc\xpsc_academy_camera.cam</camera>
-		<widescreencamera>spc\xpsc_academy_widescreencamera.cam</widescreencamera>
+		<camera>revolution\revolution_market_camera.cam</camera>
+		<widescreencamera>revolution\revolution_market_camera.cam</widescreencamera>
 		<unlocklevel>0</unlocklevel>
 		<portrait>homecity\buildings_west\academy_icon</portrait>
 		<displaynamestringid>47186</displaynamestringid>
@@ -191,8 +200,8 @@
 		</visual>
 		<uix>80</uix>
 		<uiy>475</uiy>
-		<camera>spc\xspc_cathedral_camera.cam</camera>
-		<widescreencamera>spc\xspc_cathedral_widescreencamera.cam</widescreencamera>
+		<camera>revolution\revolution_market_camera.cam</camera>
+		<widescreencamera>revolution\revolution_market_camera.cam</widescreencamera>
 		<unlocklevel>0</unlocklevel>
 		<portrait>homecity\buildings_west\cathedral_icon</portrait>
 		<displaynamestringid>47187</displaynamestringid>
@@ -211,8 +220,8 @@
 		</visual>
 		<uix>450</uix>
 		<uiy>275</uiy>
-		<camera>st_louis\st_louis_homecity_cathedral_camera.cam</camera>
-		<widescreencamera>st_louis\st_louis_homecity_cathedral_widescreencamera.cam</widescreencamera>
+		<camera>revolution\revolution_market_camera.cam</camera>
+		<widescreencamera>revolution\revolution_market_camera.cam</widescreencamera>
 		<unlocklevel>0</unlocklevel>
 		<portrait>ui\home_city\manufacturing_plant_icon</portrait>
 		<displaynamestringid>24972</displaynamestringid>
@@ -230,8 +239,8 @@
 		</visual>
 		<uix>200</uix>
 		<uiy>250</uiy>
-		<camera>british\british_homecity_dock_camera.cam</camera>
-		<widescreencamera>british\british_homecity_dock_widescreencamera.cam</widescreencamera>
+		<camera>revolution\revolution_market_camera.cam</camera>
+		<widescreencamera>revolution\revolution_market_camera.cam</widescreencamera>
 		<unlocklevel>0</unlocklevel>
 		<portrait>ui\home_city\harbor_icon</portrait>
 		<displaynamestringid>35745</displaynamestringid>

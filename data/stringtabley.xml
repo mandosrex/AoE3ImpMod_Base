@@ -2495,13 +2495,13 @@
 		<String _locID="26053">Capybara</String>
 		<String _locID="26057">River Props Amazon</String>
 		<String _locID="26058">PROP River Amazon River</String>
-		<String _locID="26059" symbol="cStringCivRolloverFrench">Home City gives support and bonuses through Decree cards. Villagers are Coureurs - expensive, but gather and fight better than Settlers. Gets extra Fame with each Age. Best units: Skirmisher, Cuirassier.</String>
+		<String _locID="26059" symbol="cStringCivRolloverFrench">Home City gives support and bonuses through Decree cards. Villagers are Coureurs - expensive, but gather and fight better than Settlers. Walls are cheaper and can be upgraded to Fortified Walls. Best units: Skirmisher, Cuirassier.</String>
 		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built. Gets a free General in the Enlightenment Age and extra early Docks. Best units: Musketeer, Hussar.</String>
 		<String _locID="26061" symbol="cStringCivRolloverSpanish">Home City gives support and bonuses through Decree cards. Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Enlightenment Age. Best units: Rodelero, Lancer.</String>
-		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Town Center limit. Best units: Musketeer, Dragoon.</String>
-		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets a free Bank Wagon with every Age and extra Envoys. Best units: Halberdier, Ruyter.</String>
-		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Shipments and extra starting Fame. Best units: Skirmisher, Uhlan.</String>
-		<String _locID="26066" symbol="cStringCivRolloverRussians">Home City gives support and bonuses through Decree cards. Trains cavalry and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age. Best units: Grenadier, Cavalry Archer.</String>
+		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Town Center limit. Home City Shipments arrive faster. Best units: Musketeer, Dragoon.</String>
+		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets free and extra Envoys. Best units: Halberdier, Ruyter.</String>
+		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Home City Shipments. Gets extra Fame at start and with each Age. Best units: Skirmisher, Uhlan.</String>
+		<String _locID="26066" symbol="cStringCivRolloverRussians">Home City gives support and bonuses through Decree cards. Trains Settlers and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age. Best units: Grenadier, Cavalry Archer.</String>
 		<String _locID="26068" symbol="cStringCivRolloverOttomans">Home City gives support and bonuses through Decree cards. Town Centers produce Settlers for free. Mosques improve Settler production and generate experience. Best units: Abus Gun, Spahi.</String>
 		<String _locID="26071">Rubble</String>
 		<String _locID="26072">Underbrush Amazon</String>
@@ -5160,7 +5160,7 @@
 		<String _locID="33443">Protect the Aztec Temples.</String>
 		<String _locID="33444" symbol="cStringESOPasswordWarning">* Passwords are case sensitive.</String>
 		<String _locID="33445">Months later ...</String>
-		<String _locID="33450">TEAM Livestock fatten faster. (For Indian allies, livestock generate more experience points. For Japanese allies, livestock generate more resources when tasked to Shrines.)</String>
+		<String _locID="33450">TEAM Livestock fatten faster. (For Indian allies, livestock generate more passive experience points. For Japanese allies, livestock generate more resources when tasked to Shrines.)</String>
 		<String _locID="33451">TEAM Wool Staple Ports</String>
 		<String _locID="33452">Remove Water</String>
 		<String _locID="33453">Frigate. Heavy warship</String>
@@ -6908,8 +6908,8 @@
 		<String _locID="36285">TEAM Coehorn Mortars</String>
 		<String _locID="36287">TEAM improved Mortar damage.</String>
 		<String _locID="36288">Bank of Amsterdam</String>
-		<String _locID="36289">Bank build limit increased by 1.</String>
-		<String _locID="36290">Bank build limit increased by 1.</String>
+		<String _locID="36289">Bank build limit increased by 1. Also ships a Bank Wagon.</String>
+		<String _locID="36290">Bank build limit increased by 1. Also ships a Bank Wagon.</String>
 		<String _locID="36291">Bank of Rotterdam</String>
 		<String _locID="36292">Nassau Halberdier</String>
 		<String _locID="36293">TEAM Villagers gather Food from hunted animals, berries, and Cherry Orchards faster.</String>
@@ -7778,7 +7778,7 @@
 		<String _locID="37302">From: The Grand Master</String>
 		<String _locID="37303">It would appear you are having trouble with the orders you have been given. You may wish to return to the Main menu and revisit the tutorial or lower your difficulty setting.</String>
 		<String _locID="37304">It would appear you are having trouble with the orders you have been given. You may wish to return to the Main menu and revisit the tutorial.</String>
-		<String _locID="37305">Fishing Boats are cheaper.</String>
+		<String _locID="37305">Fishing Boats are cheaper and faster.</String>
 		<String _locID="37306">Schooners</String>
 		<String _locID="37307">Livestock fattens more quickly.</String>
 		<String _locID="37308">Stockyards</String>
@@ -17288,7 +17288,7 @@
 		<String _locID="46886">Rangefinding</String>
 		<String _locID="46887">Mortars get increased range and line of sight.</String>
 		<String _locID="46888">Rangefinding Shipment has arrived.</String>
-		<String _locID="46889">Sends a Bank Wagon that can build a Bank. Alternatively, if you are at your Bank limit it can also build a Plantation.</String>
+		<String _locID="46889">Ships 2 Bank Wagons that can build Banks. Alternatively, if you are at your Bank limit they can also build Plantations.</String>
 		<String _locID="46890">Bank Wagon</String>
 		<String _locID="46891">TEAM Crossbows, Longbows and Pikemen train faster.</String>
 		<String _locID="46892">Doppelsoldner attack and hitpoints increase greatly, but speed drops drastically.</String>
@@ -17504,7 +17504,7 @@
 		<String _locID="47102">All Native American allies are improved to Champion level. + 4 Uhlans.</String>
 		<String _locID="47103">Blood Brothers</String>
 		<String _locID="47104">Blood Brothers Shipment has arrived.</String>
-		<String _locID="47105">All your pikemen transform into redoleros.</String>
+		<String _locID="47105">All your pikemen transform into rodeleros.</String>
 		<String _locID="47106">FieldPromotion</String>
 		<String _locID="47107">Tercio Tactics Shipment has arrived.</String>
 		<String _locID="47108">Field Promotion Shipment has arrived.</String>
@@ -17541,7 +17541,7 @@
 		<String _locID="47139">Agrarian Ways</String>
 		<String _locID="47140">Land Grab Shipment has arrived.</String>
 		<String _locID="47141">Agrarian Ways Shipment has arrived.</String>
-		<String _locID="47142">All your pikemen transform into redoleros.</String>
+		<String _locID="47142">All your pikemen transform into rodeleros.</String>
 		<String _locID="47143">Tercio Tactics</String>
 		<String _locID="47144">Tercio Tactics Shipment has arrived.</String>
 		<String _locID="47145">Champion Tashunke Prowler</String>
@@ -22653,7 +22653,7 @@
 		<String _locID="63299">Boats gather Food and Coin faster, +1 Villager.</String>
 		<String _locID="63300">Rendering Plant</String>
 		<String _locID="63301">Rendering Plant Shipment has arrived.</String>
-		<String _locID="63302">Ships a Dock Rickshaw and Docks become stronger, also Fishing Boats are cheaper, +1 Villager.</String>
+		<String _locID="63302">Ships a Dock Rickshaw and Docks become stronger. Also Fishing Boats are cheaper, +1 Villager.</String>
 		<String _locID="63303">East Indiamen</String>
 		<String _locID="63304">Schooners Shipment has arrived.</String>
 		<String _locID="63305">Villagers gather all Wood faster, +1 Villager.</String>

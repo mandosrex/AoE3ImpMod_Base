@@ -100,7 +100,9 @@
 						<choice name="enemy">
 							<soundset name="JohnBlackAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="JohnBlackAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -117,7 +119,9 @@
 						<choice name="enemy">
 							<soundset name="SpanishSettlerMaleAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="SpanishSettlerMaleAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -134,7 +138,9 @@
 						<choice name="enemy">
 							<soundset name="BritishSettlerMaleAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="BritishSettlerMaleAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -151,7 +157,9 @@
 						<choice name="enemy">
 							<soundset name="FrenchSettlerMaleAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="FrenchSettlerMaleAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -168,7 +176,9 @@
 						<choice name="enemy">
 							<soundset name="PortugueseSettlerMaleAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="PortugueseSettlerMaleAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -185,7 +195,9 @@
 						<choice name="enemy">
 							<soundset name="DutchSettlerMaleAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="DutchSettlerMaleAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -202,7 +214,9 @@
 						<choice name="enemy">
 							<soundset name="RussianSettlerMaleAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="RussianSettlerMaleAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -219,7 +233,9 @@
 						<choice name="enemy">
 							<soundset name="GermanSettlerMaleAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="GermanSettlerMaleAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -236,7 +252,9 @@
 						<choice name="enemy">
 							<soundset name="OttomanSettlerMaleAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="OttomanSettlerMaleAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -266,7 +284,9 @@
 						<choice name="enemy">
 							<soundset name="BritishSettlerMaleAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="BritishSettlerMaleAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -277,9 +297,15 @@
 				</choice>
 				<choice name="SPCAct3">
 					<targetlogic>
-						<choice name="default"/>
-						<choice name="enemy"/>
-						<choice name="build"/>
+						<choice name="default">
+							<soundset name="SPCMilitiaAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="SPCMilitiaAttack"/>
+						</choice>
+						<choice name="build">
+							<soundset name="SPCMilitiaAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -290,9 +316,15 @@
 				</choice>
 				<choice name="Pirate">
 					<targetlogic>
-						<choice name="default"/>
-						<choice name="enemy"/>
-						<choice name="build"/>
+						<choice name="default">
+							<soundset name="SPCMilitiaAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="SPCMilitiaAttack"/>
+						</choice>
+						<choice name="build">
+							<soundset name="SPCMilitiaAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -374,7 +406,9 @@
 						<choice name="enemy">
 							<soundset name="SPCMilitiaAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="SPCMilitiaAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>

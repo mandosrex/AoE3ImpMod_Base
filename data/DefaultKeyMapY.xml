@@ -819,14 +819,14 @@
 		<keymapdata>
 			<name>Find Home City</name>
 			<displayname>$$26088$$Find Home City</displayname>
-			<event>m</event>
+			<event>f1</event>
 			<context>game</context>
 			<command>toggleHomeCityView</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Find Town Center</name>
 			<displayname>$$20861$$Find Town Center</displayname>
-			<event>control-q</event>
+			<event>tab</event>
 			<context>game</context>
 			<command>uiFindType("TownCenter")</command>
 		</keymapdata>
@@ -1250,7 +1250,7 @@
 			<displayname>$$22973$$Envoy</displayname>
 			<event>w</event>
 			<context>TownCenterAccel</context>
-			<command>tis("Envoy")</command>
+			<command>tis("Envoy") tis("NativeScout") tis("ypMongolScout")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Multiple Envoy</name>
@@ -1258,7 +1258,7 @@
 			<displayformat>$$43376$$Multiple %s</displayformat>
 			<event>shift-w</event>
 			<context>TownCenterAccel</context>
-			<command>tis("Envoy",5)</command>
+			<command>tis("Envoy",5) tis("NativeScout",5) tis("ypMongolScout",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Train Villager</name>
@@ -1761,9 +1761,24 @@
 	</keymapgroup>
 	<keymapgroup name="Blockhouse Hotkeys" displayname="$$43362$$Blockhouse Hotkeys">
 		<keymapdata>
+			<name>Pikeman</name>
+			<displayname>$$29477$$Pikeman</displayname>
+			<event>w</event>
+			<context>BlockhouseAccel</context>
+			<command>tis("Pikeman")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Pikemen</name>
+			<displayname>$$29477$$Pikeman</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-w</event>
+			<context>BlockhouseAccel</context>
+			<command>tis("Pikeman",5)</command>
+		</keymapdata>
+		<keymapdata>
 			<name>Musketeer</name>
 			<displayname>$$29479$$Musketeer</displayname>
-			<event>m</event>
+			<event>r</event>
 			<context>BlockhouseAccel</context>
 			<command>tis("Musketeer")</command>
 		</keymapdata>
@@ -1771,14 +1786,14 @@
 			<name>Multiple Musketeers</name>
 			<displayname>$$29479$$Musketeer</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-m</event>
+			<event>shift-r</event>
 			<context>BlockhouseAccel</context>
 			<command>tis("Musketeer",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Halberdier</name>
 			<displayname>$$29475$$Halberdier</displayname>
-			<event>b</event>
+			<event>e</event>
 			<context>BlockhouseAccel</context>
 			<command>tis("Halberdier")</command>
 		</keymapdata>
@@ -1786,24 +1801,24 @@
 			<name>Multiple Halberdiers</name>
 			<displayname>$$29475$$Halberdier</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-b</event>
+			<event>shift-e</event>
 			<context>BlockhouseAccel</context>
 			<command>tis("Halberdier",5)</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Axeman</name>
-			<displayname>Axeman</displayname>
-			<event>r</event>
-			<context>BarracksAccel</context>
-			<command>tis("Axeman")</command>
+			<name>Strelet</name>
+			<displayname>$$23658$$Strelet</displayname>
+			<event>q</event>
+			<context>BlockhouseAccel</context>
+			<command>tis("Strelet")</command>
 		</keymapdata>
 		<keymapdata>
-			<name>Multiple Axemen</name>
-			<displayname>Axeman</displayname>
+			<name>Multiple Strelet</name>
+			<displayname>$$23658$$Strelet</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-r</event>
-			<context>BarracksAccel</context>
-			<command>tis("Axeman",5)</command>
+			<event>shift-q</event>
+			<context>BlockhouseAccel</context>
+			<command>tis("Strelet",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Cree Tracker</name>
@@ -1819,21 +1834,6 @@
 			<event>shift-k</event>
 			<context>BlockhouseAccel</context>
 			<command>tis("NatTracker",5)</command>
-		</keymapdata>
-		<keymapdata>
-			<name>Strelet</name>
-			<displayname>$$23658$$Strelet</displayname>
-			<event>s</event>
-			<context>BlockhouseAccel</context>
-			<command>tis("Strelet")</command>
-		</keymapdata>
-		<keymapdata>
-			<name>Multiple Strelet</name>
-			<displayname>$$23658$$Strelet</displayname>
-			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-s</event>
-			<context>BlockhouseAccel</context>
-			<command>tis("Strelet",5)</command>
 		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="War Hut Hotkeys" displayname="$$48892$$War Hut Hotkeys">
@@ -3159,7 +3159,7 @@
 		<keymapdata>
 			<name>Petard</name>
 			<displayname>$$45003$$Petard</displayname>
-			<event>t</event>
+			<event>u</event>
 			<context>CastleAccel</context>
 			<command>tis("xpPetard")</command>
 		</keymapdata>
@@ -3167,12 +3167,54 @@
 			<name>Multiple Petards</name>
 			<displayname>$$45003$$Petard</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-t</event>
+			<event>shift-u</event>
 			<context>CastleAccel</context>
 			<command>tis("xpPetard",5)</command>
 		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="Consulate Hotkeys" displayname="$$68762$$Consulate">
+		<keymapdata>
+			<name>US Colonial Marines</name>
+			<displayname>$$77916$$US Colonial Marines</displayname>
+			<event>q</event>
+			<context>ConsulateAccel</context>
+			<command>tis("USColonialMarines")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>US Saber Squad</name>
+			<displayname>$$77956$$US Saber Squad</displayname>
+			<event>w</event>
+			<context>ConsulateAccel</context>
+			<command>tis("USSaberSquad")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>US Riflemen Regiment</name>
+			<displayname>$$29487$$US Riflemen Regiment</displayname>
+			<event>e</event>
+			<context>ConsulateAccel</context>
+			<command>tis("USRiflemenRegiment")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Italian Swiss Pikeman</name>
+			<displayname>$$24824$$Italian Swiss Pikeman</displayname>
+			<event>q</event>
+			<context>ConsulateAccel</context>
+			<command>tis("ypConsulateArmyItalians1")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Italian Landsknecht</name>
+			<displayname>$$24820$$Italian Landsknecht</displayname>
+			<event>w</event>
+			<context>ConsulateAccel</context>
+			<command>tis("ypConsulateArmyItalians2")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Italian Elmeti</name>
+			<displayname>$$29512$$Italian Elmeti</displayname>
+			<event>e</event>
+			<context>ConsulateAccel</context>
+			<command>tis("ypConsulateArmyItalians3")</command>
+		</keymapdata>
 		<keymapdata>
 			<name>Konsha Yamabushi</name>
 			<displayname>$$68261$$Healer-Warrior</displayname>
@@ -3204,254 +3246,205 @@
 		<keymapdata>
 			<name>Portuguese Expeditionary Party</name>
 			<displayname>$$65438$$Portuguese Expeditionary Party</displayname>
-			<event>q</event>
+			<event>a</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyPortuguese1")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Portuguese Expeditionary Company</name>
 			<displayname>$$65810$$Portuguese Expeditionary Company</displayname>
-			<event>w</event>
+			<event>s</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyPortuguese2")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Portuguese Expeditionary Army</name>
 			<displayname>$$65814$$Portuguese Expeditionary Army</displayname>
-			<event>e</event>
+			<event>d</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyPortuguese3")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>British Expeditionary Party</name>
 			<displayname>$$65834$$British Expeditionary Party</displayname>
-			<event>q</event>
+			<event>a</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyBritish1")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>British Expeditionary Company</name>
 			<displayname>$$65838$$British Expeditionary Company</displayname>
-			<event>w</event>
+			<event>s</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyBritish2")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>British Expeditionary Army</name>
 			<displayname>$$65842$$British Expeditionary Army</displayname>
-			<event>e</event>
+			<event>d</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyBritish3")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>French Expeditionary Party</name>
 			<displayname>$$65430$$French Expeditionary Party</displayname>
-			<event>q</event>
+			<event>a</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyFrench1")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>French Expeditionary Company</name>
 			<displayname>$$65854$$French Expeditionary Company</displayname>
-			<event>w</event>
+			<event>s</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyFrench2")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>French Expeditionary Army</name>
 			<displayname>$$65858$$French Expeditionary Army</displayname>
-			<event>e</event>
+			<event>d</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyFrench3")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Spanish Expeditionary Party</name>
 			<displayname>$$64343$$Spanish Expeditionary Party</displayname>
-			<event>q</event>
+			<event>a</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmySpanish1")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Spanish Expeditionary Company</name>
 			<displayname>$$65846$$Spanish Expeditionary Company</displayname>
-			<event>w</event>
+			<event>s</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmySpanish2")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Spanish Expeditionary Army</name>
 			<displayname>$$65850$$Spanish Expeditionary Army</displayname>
-			<event>e</event>
+			<event>d</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmySpanish3")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Dutch Expeditionary Party</name>
 			<displayname>$$65418$$Dutch Expeditionary Party</displayname>
-			<event>q</event>
+			<event>a</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyDutch1")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Dutch Expeditionary Company</name>
 			<displayname>$$65818$$Dutch Expeditionary Company</displayname>
-			<event>w</event>
+			<event>s</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyDutch2")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Dutch Expeditionary Army</name>
 			<displayname>$$65822$$Dutch Expeditionary Army</displayname>
-			<event>e</event>
+			<event>d</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyDutch3")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>German Expeditionary Party</name>
 			<displayname>$$65862$$German Expeditionary Party</displayname>
-			<event>q</event>
+			<event>a</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyGerman1")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>German Expeditionary Company</name>
 			<displayname>$$65866$$German Expeditionary Company</displayname>
-			<event>w</event>
+			<event>s</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyGerman2")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>German Expeditionary Army</name>
 			<displayname>$$65870$$German Expeditionary Army</displayname>
-			<event>e</event>
+			<event>d</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyGerman3")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Russian Expeditionary Party</name>
 			<displayname>$$65422$$Russian Expeditionary Party</displayname>
-			<event>q</event>
+			<event>a</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyRussian1")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Russian Expeditionary Company</name>
 			<displayname>$$65826$$Russian Expeditionary Company</displayname>
-			<event>w</event>
+			<event>s</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyRussian2")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Russian Expeditionary Army</name>
 			<displayname>$$65830$$Russian Expeditionary Army</displayname>
-			<event>e</event>
+			<event>d</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyRussian3")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Ottoman Expeditionary Party</name>
 			<displayname>$$65410$$Ottoman Expeditionary Party</displayname>
-			<event>q</event>
+			<event>a</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyOttoman1")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Ottoman Expeditionary Company</name>
 			<displayname>$$65802$$Ottoman Expeditionary Company</displayname>
-			<event>w</event>
+			<event>s</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyOttoman2")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Ottoman Expeditionary Army</name>
 			<displayname>$$65806$$Ottoman Expeditionary Army</displayname>
-			<event>e</event>
+			<event>d</event>
 			<context>ConsulateAccel</context>
 			<command>tis("ypConsulateArmyOttoman3")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>End Relations</name>
 			<displayname>$$68848$$End Relations</displayname>
-			<event>c</event>
+			<event>t</event>
 			<context>ConsulateAccel</context>
 			<command>researchTechInSelected("ypBigSequesterBritish")researchTechInSelected("ypBigSequesterDutch")researchTechInSelected("ypBigSequesterFrench")researchTechInSelected("ypBigSequesterOttomans")researchTechInSelected("ypBigSequesterPortuguese")researchTechInSelected("ypBigSequesterRussians")researchTechInSelected("ypBigSequesterSpanish")researchTechInSelected("ypBigSequesterGermans")researchTechInSelected("ypBigSequesterJapanese")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Open Relations</name>
 			<displayname>$$68849$$Open Relations</displayname>
-			<event>o</event>
+			<event>r</event>
 			<context>ConsulateAccel</context>
 			<command>uiConsulateUIInSelected()</command>
 		</keymapdata>
 		<keymapdata>
 			<name>tax 0</name>
 			<displayname>$$68849$$Open Relations</displayname>
-			<event>v</event>
+			<event>q</event>
 			<context>ConsulateAccel</context>
 			<command>unitSetTactic("Tax0")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>tax 5</name>
 			<displayname>$$68849$$Open Relations</displayname>
-			<event>b</event>
+			<event>w</event>
 			<context>ConsulateAccel</context>
 			<command>unitSetTactic("Tax5")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>tax 10</name>
 			<displayname>$$68849$$Open Relations</displayname>
-			<event>n</event>
+			<event>e</event>
 			<context>ConsulateAccel</context>
 			<command>unitSetTactic("Tax10")</command>
-		</keymapdata>
-		<keymapdata>
-			<name>US Colonial Marines</name>
-			<displayname>$$77916$$US Colonial Marines</displayname>
-			<event>q</event>
-			<context>ConsulateAccel</context>
-			<command>tis("USColonialMarines")</command>
-		</keymapdata>
-		<keymapdata>
-			<name>US Saber Squad</name>
-			<displayname>$$77956$$US Saber Squad</displayname>
-			<event>w</event>
-			<context>ConsulateAccel</context>
-			<command>tis("USSaberSquad")</command>
-		</keymapdata>
-		<keymapdata>
-			<name>US Riflemen Regiment</name>
-			<displayname>$$29487$$US Riflemen Regiment</displayname>
-			<event>e</event>
-			<context>ConsulateAccel</context>
-			<command>tis("USRiflemenRegiment")</command>
-		</keymapdata>
-		<keymapdata>
-			<name>US Gatling Guns</name>
-			<displayname>$$45211$$US Gatling Guns</displayname>
-			<event>r</event>
-			<context>ConsulateAccel</context>
-			<command>tis("USGatlingGuns")</command>
-		</keymapdata>
-		<keymapdata>
-			<name>Italian Swiss Pikeman</name>
-			<displayname>$$24824$$Italian Swiss Pikeman</displayname>
-			<event>q</event>
-			<context>ConsulateAccel</context>
-			<command>tis("ypConsulateArmyItalians1")</command>
-		</keymapdata>
-		<keymapdata>
-			<name>Italian Landsknecht</name>
-			<displayname>$$24820$$Italian Landsknecht</displayname>
-			<event>w</event>
-			<context>ConsulateAccel</context>
-			<command>tis("ypConsulateArmyItalians2")</command>
-		</keymapdata>
-		<keymapdata>
-			<name>Italian Elmeti</name>
-			<displayname>$$29512$$Italian Elmeti</displayname>
-			<event>e</event>
-			<context>ConsulateAccel</context>
-			<command>tis("ypConsulateArmyItalians3")</command>
 		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="Saloon Hotkeys" displayname="$$48889$$Saloon Hotkeys">
@@ -5280,7 +5273,7 @@
 		<keymapdata>
 			<name>Imam</name>
 			<displayname>$$26226$$Imam</displayname>
-			<event>i</event>
+			<event>q</event>
 			<context>ChurchAccel</context>
 			<command>tis("Imam")</command>
 		</keymapdata>
@@ -5288,14 +5281,14 @@
 			<name>Multiple Imams</name>
 			<displayname>$$26226$$Imam</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-i</event>
+			<event>shift-q</event>
 			<context>ChurchAccel</context>
 			<command>tis("Imam",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Missionary</name>
 			<displayname>$$25340$$Missionary</displayname>
-			<event>m</event>
+			<event>q</event>
 			<context>ChurchAccel</context>
 			<command>tis("Missionary")</command>
 		</keymapdata>
@@ -5303,14 +5296,14 @@
 			<name>Multiple Missionaries</name>
 			<displayname>$$25340$$Missionary</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-m</event>
+			<event>shift-q</event>
 			<context>ChurchAccel</context>
 			<command>tis("Missionary",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Priest</name>
 			<displayname>$$22954$$Priest</displayname>
-			<event>p</event>
+			<event>q</event>
 			<context>ChurchAccel</context>
 			<command>tis("Priest")</command>
 		</keymapdata>
@@ -5318,14 +5311,14 @@
 			<name>Multiple Priests</name>
 			<displayname>$$22954$$Priest</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-p</event>
+			<event>shift-q</event>
 			<context>ChurchAccel</context>
 			<command>tis("Priest",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Surgeon</name>
 			<displayname>$$26218$$Surgeon</displayname>
-			<event>g</event>
+			<event>w</event>
 			<context>ChurchAccel</context>
 			<command>tis("Surgeon")</command>
 		</keymapdata>
@@ -5333,14 +5326,14 @@
 			<name>Multiple Surgeons</name>
 			<displayname>$$26218$$Surgeon</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-g</event>
+			<event>shift-w</event>
 			<context>ChurchAccel</context>
 			<command>tis("Surgeon",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Spy</name>
 			<displayname>$$46322$$Spy</displayname>
-			<event>s</event>
+			<event>e</event>
 			<context>ChurchAccel</context>
 			<command>tis("xpSpy")</command>
 		</keymapdata>
@@ -5348,7 +5341,7 @@
 			<name>Multiple Spys</name>
 			<displayname>$$46322$$Spy</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-s</event>
+			<event>shift-e</event>
 			<context>ChurchAccel</context>
 			<command>tis("xpSpy",5)</command>
 		</keymapdata>
@@ -5357,7 +5350,7 @@
 		<keymapdata>
 			<name>Cow</name>
 			<displayname>$$28186$$Cow</displayname>
-			<event>c</event>
+			<event>w</event>
 			<context>LivestockPenAccel</context>
 			<command>tis("Cow")</command>
 		</keymapdata>
@@ -5365,14 +5358,14 @@
 			<name>Multiple Cows</name>
 			<displayname>$$28186$$Cows</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-c</event>
+			<event>shift-w</event>
 			<context>LivestockPenAccel</context>
 			<command>tis("Cow",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Sheep</name>
 			<displayname>$$22829$$Sheep</displayname>
-			<event>s</event>
+			<event>q</event>
 			<context>LivestockPenAccel</context>
 			<command>tis("Sheep")</command>
 		</keymapdata>
@@ -5380,16 +5373,31 @@
 			<name>Multiple Sheep</name>
 			<displayname>$$22829$$Sheep</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-s</event>
+			<event>shift-q</event>
 			<context>LivestockPenAccel</context>
 			<command>tis("Sheep",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Llama</name>
+			<displayname>$$35085$$Llama</displayname>
+			<event>q</event>
+			<context>LivestockPenAccel</context>
+			<command>tis("Llama")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Llama</name>
+			<displayname>$$35085$$Llama</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-q</event>
+			<context>LivestockPenAccel</context>
+			<command>tis("Llama",5)</command>
 		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="Native Farm Hotkeys" displayname="$$48923$$Native Farm Hotkeys">
 		<keymapdata>
 			<name>Cow</name>
 			<displayname>$$28186$$Cow</displayname>
-			<event>c</event>
+			<event>w</event>
 			<context>FarmAccel</context>
 			<command>tis("Cow")</command>
 		</keymapdata>
@@ -5397,14 +5405,14 @@
 			<name>Multiple Cows</name>
 			<displayname>$$28186$$Cows</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-c</event>
+			<event>shift-w</event>
 			<context>FarmAccel</context>
 			<command>tis("Cow",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Sheep</name>
 			<displayname>$$22829$$Sheep</displayname>
-			<event>s</event>
+			<event>q</event>
 			<context>FarmAccel</context>
 			<command>tis("Sheep")</command>
 		</keymapdata>
@@ -5412,9 +5420,24 @@
 			<name>Multiple Sheep</name>
 			<displayname>$$22829$$Sheep</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-s</event>
+			<event>shift-q</event>
 			<context>FarmAccel</context>
 			<command>tis("Sheep",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Llama</name>
+			<displayname>$$35085$$Llama</displayname>
+			<event>q</event>
+			<context>LivestockPenAccel</context>
+			<command>tis("Llama")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Llama</name>
+			<displayname>$$35085$$Llama</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-q</event>
+			<context>LivestockPenAccel</context>
+			<command>tis("Llama",5)</command>
 		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="Trading Post Hotkeys" displayname="$$43371$$Trading Post Hotkeys">
@@ -5798,42 +5821,42 @@
 		<keymapdata>
 			<name>Yumi</name>
 			<displayname>$$60084$$Yumi</displayname>
-			<event>w</event>
+			<event>q</event>
 			<context>AutogatherersAccel</context>
 			<command>unitSetTactic("Yumi")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Ashigaru</name>
 			<displayname>$$60096$$Ashigaru</displayname>
-			<event>e</event>
+			<event>w</event>
 			<context>AutogatherersAccel</context>
 			<command>unitSetTactic("Ashigaru")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Samurai</name>
 			<displayname>$$63606$$Samurai</displayname>
-			<event>r</event>
+			<event>e</event>
 			<context>AutogatherersAccel</context>
 			<command>unitSetTactic("Samurai")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Naginata Rider</name>
 			<displayname>$$60092$$Naginata Rider</displayname>
-			<event>s</event>
+			<event>r</event>
 			<context>AutogatherersAccel</context>
 			<command>unitSetTactic("NaginataRider")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Yabusame</name>
 			<displayname>$$60080$$Yabusame</displayname>
-			<event>d</event>
+			<event>t</event>
 			<context>AutogatherersAccel</context>
 			<command>unitSetTactic("Yabusame")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Sohei</name>
 			<displayname>$$60100$$Sohei</displayname>
-			<event>f</event>
+			<event>y</event>
 			<context>AutogatherersAccel</context>
 			<command>unitSetTactic("Sohei")</command>
 		</keymapdata>
@@ -5888,56 +5911,56 @@
 		<keymapdata>
 			<name>Sharp Shooter</name>
 			<displayname>$$32908$$Sharp Shooter</displayname>
-			<event>d</event>
+			<event>a</event>
 			<context>game</context>
 			<command>doAbilityInSelected("PowerSharpshooter")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Eagle Eye</name>
 			<displayname>$$45462$$Eagle Eye</displayname>
-			<event>e</event>
+			<event>s</event>
 			<context>game</context>
 			<command>doAbilityInSelected("PowerEagleEye")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Broadside Attack</name>
 			<displayname>$$32910$$Broadside Attack</displayname>
-			<event>b</event>
+			<event>a</event>
 			<context>game</context>
 			<command>doAbilityInSelected("PowerBroadside")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Crackshot</name>
 			<displayname>$$37366$$Crackshot</displayname>
-			<event>q</event>
+			<event>d</event>
 			<context>game</context>
 			<command>doAbilityInSelected("PowerCrackshot")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Swashbuckler</name>
 			<displayname>$$34135$$Swashbuckler</displayname>
-			<event>w</event>
+			<event>f</event>
 			<context>game</context>
 			<command>doAbilityInSelected("PowerSwashbuckler")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Spy Glass</name>
 			<displayname>$$25568$$Spy Glass</displayname>
-			<event>r</event>
+			<event>g</event>
 			<context>game</context>
 			<command>doAbilityInSelected("PowerLOS")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Befriend Animal</name>
 			<displayname>$$48957$$Befriend Animal</displayname>
-			<event>f</event>
+			<event>j</event>
 			<context>game</context>
 			<command>doAbilityInSelected("PowerConvertGuardian")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Heal</name>
 			<displayname>$$22953$$Heal</displayname>
-			<event>v</event>
+			<event>h</event>
 			<context>game</context>
 			<command>doAbilityInSelected("PowerHeal")</command>
 		</keymapdata>
@@ -5951,91 +5974,91 @@
 		<keymapdata>
 			<name>Round House</name>
 			<displayname>$$60416$$Round House</displayname>
-			<event>x</event>
+			<event>a</event>
 			<context>game</context>
 			<command>doAbilityInSelected("ypPowerRoundhouse")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Monitor Long Range</name>
 			<displayname>$$38122$$Monitor Long Range</displayname>
-			<event>l</event>
+			<event>a</event>
 			<context>game</context>
 			<command>doAbilityInSelected("PowerLongRange")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Smoke Screen</name>
 			<displayname>$$64300$$Smoke Screen</displayname>
-			<event>n</event>
+			<event>s</event>
 			<context>game</context>
 			<command>doAbilityInSelected("ypPowerSmokeBomb")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Battle Alchemy</name>
 			<displayname>$$65733$$Battle Alchemy</displayname>
-			<event>w</event>
+			<event>d</event>
 			<context>game</context>
 			<command>doAbilityInSelected("ypPowerBattleShadow")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Seven Spears</name>
 			<displayname>$$65735$$Seven Spears</displayname>
-			<event>w</event>
+			<event>f</event>
 			<context>game</context>
 			<command>doAbilityInSelected("ypPowerSwordFury")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Way of the Warrior</name>
 			<displayname>$$65737$$Way of the Warrior</displayname>
-			<event>w</event>
+			<event>g</event>
 			<context>game</context>
 			<command>doAbilityInSelected("ypPowerDivineRight")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Heavenly Fire Bomb</name>
 			<displayname>$$65741$$Heavenly Fire Bomb</displayname>
-			<event>w</event>
+			<event>j</event>
 			<context>game</context>
 			<command>doAbilityInSelected("ypPowerHeavenlyFireBomb")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Anchor Fist</name>
 			<displayname>$$65739$$Anchor Fist</displayname>
-			<event>w</event>
+			<event>k</event>
 			<context>game</context>
 			<command>doAbilityInSelected("ypPowerBloodSmash")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Fire Command</name>
 			<displayname>$$66041$$Smoke Screen</displayname>
-			<event>w</event>
+			<event>l</event>
 			<context>game</context>
 			<command>doAbilityInSelected("ypPowerFireCommand")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Cease Fire</name>
 			<displayname>$$60252$$Cease Fire</displayname>
-			<event>c</event>
+			<event>a</event>
 			<context>game</context>
 			<command>doAbilityInType("ypPowerCeaseFire")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Transcendence</name>
 			<displayname>$$62455$$Transcendence</displayname>
-			<event>x</event>
+			<event>s</event>
 			<context>game</context>
 			<command>doAbilityInType("ypPowerGoodFortune")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Informers</name>
 			<displayname>$$60258$$Informers</displayname>
-			<event>i</event>
+			<event>d</event>
 			<context>game</context>
 			<command>doAbilityInType("ypPowerInformers", "ypWJShogunate2")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Inspiration</name>
 			<displayname>$$68847$$Inspiration</displayname>
-			<event>i</event>
+			<event>f</event>
 			<context>game</context>
 			<command>doAbilityInType("ypPowerAttackBlessing")</command>
 		</keymapdata>
@@ -6067,7 +6090,7 @@
 		<keymapdata>
 			<name>Toggle Stealth</name>
 			<displayname>$$49016$$Toggle Stealth</displayname>
-			<event>backspace</event>
+			<event>alt-a</event>
 			<context>world</context>
 			<command>unitToggleStealth</command>
 		</keymapdata>
@@ -6490,7 +6513,7 @@
 		<keymapdata>
 			<name>Builder Wagon</name>
 			<displayname>$$780961$$Builder Wagon</displayname>
-			<event>v</event>
+			<event>q</event>
 			<context>game</context>
 			<command>tis("CoveredWagonPlus")</command>
 		</keymapdata>
@@ -6498,14 +6521,14 @@
 			<name>Multiple Builder Wagons</name>
 			<displayname>$$780961$$Builder Wagon</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-v</event>
+			<event>shift-q</event>
 			<context>game</context>
 			<command>tis("CoveredWagonPlus",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Surgeon</name>
 			<displayname>$$26218$$Surgeon</displayname>
-			<event>g</event>
+			<event>w</event>
 			<context>game</context>
 			<command>tis("Surgeon")</command>
 		</keymapdata>
@@ -6513,14 +6536,14 @@
 			<name>Multiple Surgeons</name>
 			<displayname>$$26218$$Surgeon</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-g</event>
+			<event>shift-w</event>
 			<context>game</context>
 			<command>tis("Surgeon",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Spy</name>
 			<displayname>$$46322$$Spy</displayname>
-			<event>s</event>
+			<event>e</event>
 			<context>game</context>
 			<command>tis("xpSpy")</command>
 		</keymapdata>
@@ -6528,9 +6551,177 @@
 			<name>Multiple Spys</name>
 			<displayname>$$46322$$Spy</displayname>
 			<displayformat>$$43376$$Multiple %s</displayformat>
-			<event>shift-s</event>
+			<event>shift-e</event>
 			<context>game</context>
 			<command>tis("xpSpy",5)</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Portuguese Expeditionary Party</name>
+			<displayname>$$65438$$Portuguese Expeditionary Party</displayname>
+			<event>a</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyPortuguese11")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Portuguese Expeditionary Company</name>
+			<displayname>$$65810$$Portuguese Expeditionary Company</displayname>
+			<event>s</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyPortuguese22")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Portuguese Expeditionary Army</name>
+			<displayname>$$65814$$Portuguese Expeditionary Army</displayname>
+			<event>d</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyPortuguese33")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>British Expeditionary Party</name>
+			<displayname>$$65834$$British Expeditionary Party</displayname>
+			<event>a</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyBritish11")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>British Expeditionary Company</name>
+			<displayname>$$65838$$British Expeditionary Company</displayname>
+			<event>s</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyBritish22")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>British Expeditionary Army</name>
+			<displayname>$$65842$$British Expeditionary Army</displayname>
+			<event>d</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyBritish33")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>French Expeditionary Party</name>
+			<displayname>$$65430$$French Expeditionary Party</displayname>
+			<event>a</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyFrench11")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>French Expeditionary Company</name>
+			<displayname>$$65854$$French Expeditionary Company</displayname>
+			<event>s</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyFrench22")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>French Expeditionary Army</name>
+			<displayname>$$65858$$French Expeditionary Army</displayname>
+			<event>d</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyFrench33")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Spanish Expeditionary Party</name>
+			<displayname>$$64343$$Spanish Expeditionary Party</displayname>
+			<event>a</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmySpanish11")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Spanish Expeditionary Company</name>
+			<displayname>$$65846$$Spanish Expeditionary Company</displayname>
+			<event>s</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmySpanish22")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Spanish Expeditionary Army</name>
+			<displayname>$$65850$$Spanish Expeditionary Army</displayname>
+			<event>d</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmySpanish33")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Dutch Expeditionary Party</name>
+			<displayname>$$65418$$Dutch Expeditionary Party</displayname>
+			<event>a</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyDutch11")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Dutch Expeditionary Company</name>
+			<displayname>$$65818$$Dutch Expeditionary Company</displayname>
+			<event>s</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyDutch22")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Dutch Expeditionary Army</name>
+			<displayname>$$65822$$Dutch Expeditionary Army</displayname>
+			<event>d</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyDutch33")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>German Expeditionary Party</name>
+			<displayname>$$65862$$German Expeditionary Party</displayname>
+			<event>a</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyGerman11")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>German Expeditionary Company</name>
+			<displayname>$$65866$$German Expeditionary Company</displayname>
+			<event>s</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyGerman22")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>German Expeditionary Army</name>
+			<displayname>$$65870$$German Expeditionary Army</displayname>
+			<event>d</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyGerman33")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Russian Expeditionary Party</name>
+			<displayname>$$65422$$Russian Expeditionary Party</displayname>
+			<event>a</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyRussian11")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Russian Expeditionary Company</name>
+			<displayname>$$65826$$Russian Expeditionary Company</displayname>
+			<event>s</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyRussian22")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Russian Expeditionary Army</name>
+			<displayname>$$65830$$Russian Expeditionary Army</displayname>
+			<event>d</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyRussian33")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Ottoman Expeditionary Party</name>
+			<displayname>$$65410$$Ottoman Expeditionary Party</displayname>
+			<event>a</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyOttoman11")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Ottoman Expeditionary Company</name>
+			<displayname>$$65802$$Ottoman Expeditionary Company</displayname>
+			<event>s</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyOttoman22")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Ottoman Expeditionary Army</name>
+			<displayname>$$65806$$Ottoman Expeditionary Army</displayname>
+			<event>d</event>
+			<context>game</context>
+			<command>tis("ypConsulateArmyOttoman33")</command>
 		</keymapdata>
 	</keymapgroup>
 	<keymapgroup name="Command Post Hotkeys" displayname="$$780966$$Command Post Hotkeys">

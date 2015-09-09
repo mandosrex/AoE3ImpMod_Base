@@ -247,6 +247,10 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="obtainable">StoneFortifiedWalls</Effect>
+			<Effect type="Data" amount="5.00" subtype="Cost" resource="Wood" relativity="Assign">
+				<Target type="ProtoUnit">AbstractWall</Target>
+			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -495,6 +499,15 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Stable</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Pikeman</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">VeteranPikemen</Effect>
+			<Effect type="TechStatus" status="obtainable">GuardPikemen</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialPikemen</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -608,9 +621,6 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ArtilleryDepot</Target>
 			</Effect>
-			<Effect type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="BasePercent">
-				<Target type="ProtoUnit">Strelet</Target>
-			</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianPresidenteEU</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianGeneral</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianNaturalist</Effect>
@@ -698,15 +708,6 @@
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">FortifiedBlockhouse</Effect>
 			<Effect type="TechStatus" status="obtainable">Bayonet</Effect>
-			<Effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="BasePercent">
-				<Target type="ProtoUnit">Musketeer</Target>
-			</Effect>
-			<Effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Musketeer</Target>
-			</Effect>
-			<Effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">Strelet</Target>
-			</Effect>
 			<Effect type="TechStatus" status="active">Levy</Effect>
 			<Effect type="Data" action="SpawnGreatCannon" amount="1.00" subtype="ActionEnable" relativity="Absolute">
 				<Target type="ProtoUnit">Factory</Target>
@@ -716,11 +717,47 @@
 			<Effect type="TechStatus" status="obtainable">FieldGun</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialManOWar</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialMonitors</Effect>
+			<Effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">Musketeer</Target>
+			</Effect>
+			<Effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Musketeer</Target>
+			</Effect>
 			<Effect type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="BasePercent">
 				<Target type="ProtoUnit">Musketeer</Target>
 			</Effect>
+			<Effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Musketeer</Target>
+			</Effect>
+			<Effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Musketeer</Target>
+			</Effect>
+			<Effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Strelet</Target>
+			</Effect>
 			<Effect type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="BasePercent">
 				<Target type="ProtoUnit">Strelet</Target>
+			</Effect>
+			<Effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Strelet</Target>
+			</Effect>
+			<Effect type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">Strelet</Target>
+			</Effect>
+			<Effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Pikeman</Target>
+			</Effect>
+			<Effect type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">Pikeman</Target>
+			</Effect>
+			<Effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Pikeman</Target>
+			</Effect>
+			<Effect type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">Pikeman</Target>
+			</Effect>
+			<Effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Pikeman</Target>
 			</Effect>
 			<Effect type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="BasePercent">
 				<Target type="ProtoUnit">Halberdier</Target>
@@ -729,19 +766,10 @@
 				<Target type="ProtoUnit">Halberdier</Target>
 			</Effect>
 			<Effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Musketeer</Target>
-			</Effect>
-			<Effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Halberdier</Target>
 			</Effect>
 			<Effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Strelet</Target>
-			</Effect>
-			<Effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Halberdier</Target>
-			</Effect>
-			<Effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">Musketeer</Target>
 			</Effect>
 			<Effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Halberdier</Target>
@@ -757,16 +785,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpSpy</Target>
-			</Effect>
-			<Effect type="TechStatus" status="obtainable">ShipHowitzers</Effect>
-			<Effect type="Data" amount="0.95" subtype="TrainPoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Cossack</Target>
-			</Effect>
-			<Effect type="Data" amount="0.95" subtype="TrainPoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Oprichnik</Target>
-			</Effect>
-			<Effect type="Data" amount="0.95" subtype="TrainPoints" relativity="BasePercent">
-				<Target type="ProtoUnit">CavalryArcher</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -1305,7 +1323,7 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
-			<Effect type="Data" amount="200.00" subtype="Resource" resource="Fame" relativity="Absolute">
+			<Effect type="Data" amount="150.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
@@ -1509,6 +1527,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="85.00" subtype="ResearchPoints" relativity="Percent">
+				<Target type="techWithFlag">HomeCity</Target>
+			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -2653,7 +2674,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Sheep</Target>
+				<Target type="ProtoUnit">Cow</Target>
 			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
@@ -2779,7 +2800,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Sheep</Target>
+				<Target type="ProtoUnit">Cow</Target>
 			</Effect>
 			<Effect type="SetName" proto="Stagecoach" culture="none" newName="780736"/>
 			<Effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Stagecoach" relativity="Absolute">
@@ -4018,7 +4039,7 @@
 			<Effect type="TechStatus" status="active">AAStandardStartingTechs</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranHussars</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Sheep</Target>
+				<Target type="ProtoUnit">Cow</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">RGLifeGuardHussars</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -5119,10 +5140,8 @@
 			<Effect type="TechStatus" status="active">AAStandardNativeTechsPI</Effect>
 			<Effect type="TechStatus" status="active">HeavyHorseArtilleryNew</Effect>
 			<Effect type="TechStatus" status="active">ShipHowitzers</Effect>
+			<Effect type="TechStatus" status="active">VeteranPikemen</Effect>
 			<Effect type="TechStatus" status="active">GuardPikemen</Effect>
-			<Effect type="TechStatus" status="active">GuardCrossbowmen</Effect>
-			<Effect type="TechStatus" status="active">VeteranPoleaxemen</Effect>
-			<Effect type="TechStatus" status="active">GuardPoleaxemen</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostImperialUSA" type="Normal">
@@ -5368,9 +5387,7 @@
 			<Effect type="TechStatus" status="active">ImperialMonitors</Effect>
 			<Effect type="TechStatus" status="active">ImpLegendaryNatives</Effect>
 			<Effect type="TechStatus" status="active">ImperialHorseArtilleryNew</Effect>
-			<Effect type="TechStatus" status="active">ImperialPoleaxemen</Effect>
 			<Effect type="TechStatus" status="active">ImperialPikemen</Effect>
-			<Effect type="TechStatus" status="active">ImperialCrossbowmen</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostImperialSpanish" type="Normal">
@@ -6901,7 +6918,7 @@
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Sheep</Target>
+				<Target type="ProtoUnit">Cow</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SettlerNative</Target>
@@ -7318,7 +7335,7 @@
 			</Effect>
 			<Effect type="TechStatus" status="active">AANativeStartingTechs</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Sheep</Target>
+				<Target type="ProtoUnit">Cow</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Longhouse</Target>
@@ -7456,7 +7473,7 @@
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Sheep</Target>
+				<Target type="ProtoUnit">Cow</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Longhouse</Target>
@@ -7540,7 +7557,7 @@
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Sheep</Target>
+				<Target type="ProtoUnit">Cow</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">EliteTomahawks</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -7629,7 +7646,7 @@
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Sheep</Target>
+				<Target type="ProtoUnit">Cow</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SettlerNative</Target>
@@ -7730,7 +7747,7 @@
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Sheep</Target>
+				<Target type="ProtoUnit">Cow</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SettlerNative</Target>
@@ -12501,6 +12518,7 @@
 		<Icon>ui\techs\paper_cartridge\paper_cartridge</Icon>
 		<RolloverTextID>23297</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
@@ -13972,6 +13990,12 @@
 			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Halberdier</Target>
 			</Effect>
+			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Pikeman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Pikeman</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChurchPetrineReforms" type="Normal">
@@ -14545,6 +14569,9 @@
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Unit</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Assign">
+				<Target type="ProtoUnit">AbstractWall</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -17091,6 +17118,9 @@
 			<Effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Assign">
+				<Target type="ProtoUnit">AbstractWall</Target>
+			</Effect>
 			<Effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
@@ -17172,9 +17202,6 @@
 		<Effects>
 			<Effect type="TechStatus" status="active">Colonialize</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ColonializeOttoman" type="Normal">
@@ -17193,9 +17220,6 @@
 		<Effects>
 			<Effect type="TechStatus" status="active">Colonialize</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect type="Data" amount="20.00" subtype="Resource" resource="Fame" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="VeteranStrelets" type="Normal">
@@ -17387,9 +17411,6 @@
 			<Effect type="TechStatus" status="active">Industrialize</Effect>
 			<Effect type="TechStatus" status="active">Crackshot</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect type="Data" amount="50.00" subtype="Resource" resource="Fame" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionLouverture</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionSantander</Effect>
 		</Effects>
@@ -17418,9 +17439,6 @@
 			<Effect type="TextOutput">780790</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionBonifacio</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionWashington</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChurchGardeImperial2" type="Normal">
@@ -17529,6 +17547,9 @@
 		<Effects>
 			<Effect type="TechStatus" status="active">Colonialize</Effect>
 			<Effect type="TextOutput">780790</Effect>
+			<Effect type="Data" amount="50.00" subtype="Resource" resource="Fame" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="IndustrializeGerman" type="Normal">
@@ -17542,6 +17563,9 @@
 			<Effect type="TextOutput">780790</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionSanMartin</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionBolivar</Effect>
+			<Effect type="Data" amount="50.00" subtype="Resource" resource="Fame" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="IndustrializePortuguese" type="Normal">
@@ -18984,6 +19008,7 @@
 		<RolloverTextID>31085</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
+		<Flag>UpgradeTech</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Imperialize</TechStatus>
 			<TechStatus status="Active">Rabauld</TechStatus>
@@ -19183,9 +19208,6 @@
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionBonifacio</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionWashington</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeFrench" type="Normal">
@@ -19198,9 +19220,6 @@
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionLouverture</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionSantander</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect type="Data" amount="50.00" subtype="Resource" resource="Fame" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeGerman" type="Normal">
@@ -19213,6 +19232,9 @@
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionSanMartin</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionHidalgo</Effect>
 			<Effect type="TextOutput">780790</Effect>
+			<Effect type="Data" amount="50.00" subtype="Resource" resource="Fame" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeOttoman" type="Normal">
@@ -20072,7 +20094,7 @@
 		<DisplayNameID>34147</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>34174</RolloverTextID>
@@ -20369,7 +20391,7 @@
 		<DisplayNameID>34160</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>34178</RolloverTextID>
@@ -20410,7 +20432,7 @@
 		<DisplayNameID>34161</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>34176</RolloverTextID>
@@ -20450,7 +20472,7 @@
 		<DisplayNameID>34153</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>34165</RolloverTextID>
@@ -21200,6 +21222,9 @@
 			<Effect type="Data" amount="670.00" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="Tech">ChurchTufanciCorps</Target>
 			</Effect>
+			<Effect type="Data" amount="335.00" subtype="Cost" resource="Wood" relativity="Assign">
+				<Target type="Tech">CannonPop</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ColonializeSPCAct1" type="Normal">
@@ -21452,7 +21477,7 @@
 		<DisplayNameID>34183</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>34182</RolloverTextID>
@@ -21575,6 +21600,9 @@
 			<Effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Assign">
+				<Target type="ProtoUnit">AbstractWall</Target>
+			</Effect>
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
@@ -21663,9 +21691,6 @@
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="FortressizeFrench" type="Normal">
@@ -21684,9 +21709,6 @@
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect type="Data" amount="50.00" subtype="Resource" resource="Fame" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="FortressizeGerman" type="Normal">
@@ -21698,6 +21720,9 @@
 			<Effect type="TechStatus" status="active">Fortressize</Effect>
 			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect type="Data" amount="50.00" subtype="Resource" resource="Fame" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
 			<Effect type="TextOutput">780790</Effect>
 		</Effects>
@@ -21807,7 +21832,7 @@
 		<DisplayNameID>34405</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>34404</RolloverTextID>
@@ -21826,7 +21851,7 @@
 		<DisplayNameID>34405</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>78052</RolloverTextID>
@@ -23461,7 +23486,7 @@
 		<DisplayNameID>35466</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>35465</RolloverTextID>
@@ -23495,7 +23520,7 @@
 		<DisplayNameID>35470</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>35469</RolloverTextID>
@@ -23554,7 +23579,7 @@
 		<DisplayNameID>35476</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>35475</RolloverTextID>
@@ -23611,7 +23636,7 @@
 		<DisplayNameID>35486</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>35485</RolloverTextID>
@@ -23630,7 +23655,7 @@
 		<DisplayNameID>35489</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>35488</RolloverTextID>
@@ -23705,7 +23730,7 @@
 		<DisplayNameID>35503</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>35502</RolloverTextID>
@@ -23950,7 +23975,7 @@
 		<DisplayNameID>35637</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>35636</RolloverTextID>
@@ -24267,7 +24292,7 @@
 		<DisplayNameID>35684</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>35683</RolloverTextID>
@@ -24361,7 +24386,7 @@
 		<DisplayNameID>35707</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>35706</RolloverTextID>
@@ -27718,7 +27743,7 @@
 	<Tech name="ChurchMassCavalry" type="Normal">
 		<DBID>2397</DBID>
 		<DisplayNameID>36207</DisplayNameID>
-		<Cost resourcetype="Gold">750.0000</Cost>
+		<Cost resourcetype="Gold">650.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\mass_cavalry\mass_cavalry</Icon>
@@ -27729,7 +27754,7 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractCavalry</Target>
 			</Effect>
 		</Effects>
@@ -27980,6 +28005,9 @@
 			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="TextOutput">41800</Effect>
 		</Effects>
 	</Tech>
@@ -27995,6 +28023,9 @@
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Bank</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
 			<Effect type="TextOutput">41801</Effect>
 		</Effects>
@@ -28395,7 +28426,7 @@
 			<Effect type="Data" amount="100.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">ChurchTownWatch</Target>
 			</Effect>
-			<Effect type="Data" amount="375.00" subtype="Cost" resource="Gold" relativity="Assign">
+			<Effect type="Data" amount="325.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">ChurchMassCavalry</Target>
 			</Effect>
 			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="BasePercent">
@@ -31162,7 +31193,7 @@
 			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Mortar</Target>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Mortar</Target>
 			</Effect>
 			<Effect type="TextOutput">41939</Effect>
@@ -31452,11 +31483,17 @@
 		<RolloverTextID>37305</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="0.40" subtype="Cost" resource="Wood" relativity="BasePercent">
+			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="BasePercent">
 				<Target type="ProtoUnit">FishingBoat</Target>
 			</Effect>
 			<Effect type="TextOutput">41920</Effect>
-			<Effect type="Data" amount="0.40" subtype="Cost" resource="Wood" relativity="BasePercent">
+			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<Target type="ProtoUnit">ypFishingBoatAsian</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
+				<Target type="ProtoUnit">FishingBoat</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">ypFishingBoatAsian</Target>
 			</Effect>
 		</Effects>
@@ -31541,7 +31578,7 @@
 		<RolloverTextID>37313</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" action="AutoGather" amount="1.15" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+			<Effect type="Data" action="AutoGather" amount="1.20" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="TextOutput">41802</Effect>
@@ -34023,7 +34060,7 @@
 		<DisplayNameID>43707</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>43706</RolloverTextID>
@@ -34117,7 +34154,7 @@
 		<DisplayNameID>43715</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>43714</RolloverTextID>
@@ -34290,7 +34327,7 @@
 		<DisplayNameID>43731</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>43730</RolloverTextID>
@@ -34393,7 +34430,7 @@
 		<DisplayNameID>43739</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>43738</RolloverTextID>
@@ -37099,11 +37136,11 @@
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
 		<Effects>
-			<Effect type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="BasePercent">
+			<Effect type="Data" amount="0.70" subtype="Cost" resource="Wood" relativity="BasePercent">
 				<Target type="ProtoUnit">FishingBoat</Target>
 			</Effect>
 			<Effect type="TextOutput">48991</Effect>
-			<Effect type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="BasePercent">
+			<Effect type="Data" amount="0.70" subtype="Cost" resource="Wood" relativity="BasePercent">
 				<Target type="ProtoUnit">ypFishingBoatAsian</Target>
 			</Effect>
 		</Effects>
@@ -39495,7 +39532,7 @@
 		<DisplayNameID>45085</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>45084</RolloverTextID>
@@ -39614,7 +39651,7 @@
 		<DisplayNameID>45101</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>45100</RolloverTextID>
@@ -39702,7 +39739,7 @@
 		<DisplayNameID>45109</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>45108</RolloverTextID>
@@ -39872,7 +39909,7 @@
 		<DisplayNameID>45126</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>45125</RolloverTextID>
@@ -39993,7 +40030,7 @@
 		<DisplayNameID>45134</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>45133</RolloverTextID>
@@ -40084,7 +40121,7 @@
 		<DisplayNameID>45142</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>45141</RolloverTextID>
@@ -40172,7 +40209,7 @@
 		<DisplayNameID>45150</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>45149</RolloverTextID>
@@ -40260,7 +40297,7 @@
 		<DisplayNameID>45158</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
-		<ResearchPoints>110.0000</ResearchPoints>
+		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>45157</RolloverTextID>
@@ -40827,6 +40864,12 @@
 			<Effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractCavalry" allactions="1" relativity="Assign">
 				<Target type="ProtoUnit">NatMercCheyenneRider</Target>
 			</Effect>
+			<Effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractLightInfantry" allactions="1" relativity="Assign">
+				<Target type="ProtoUnit">NatCheyenneRider</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractLightInfantry" allactions="1" relativity="Assign">
+				<Target type="ProtoUnit">NatMercCheyenneRider</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="NatXPApacheEndurance" type="Normal">
@@ -40983,7 +41026,7 @@
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="-0.65" subtype="FreeHomeCityUnit" unittype="CrateofFood" relativity="Absolute">
+			<Effect type="Data" amount="-0.67" subtype="FreeHomeCityUnit" unittype="CrateofFood" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="CrateofFood" relativity="Absolute">
@@ -45009,8 +45052,11 @@
 		<RolloverTextID>46889</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Plantation" relativity="Absolute">
+				<Target type="ProtoUnit">BankWagon</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -51629,19 +51675,19 @@
 		<Effects>
 			<Effect type="SetName" proto="ypConsulate" culture="none" newName="61618"/>
 			<Effect type="TextOutput">70363</Effect>
-			<Effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+			<Effect type="Data" amount="0.60" subtype="ResearchPoints" relativity="Percent">
 				<Target type="techWithFlag">YPConsulateImprovement</Target>
 			</Effect>
 			<Effect type="Data" amount="0.60" subtype="Cost" resource="Trade" relativity="Percent">
 				<Target type="techWithFlag">YPConsulateImprovement</Target>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateSiegeFortress</Target>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateSiegeIndustrial</Target>
 			</Effect>
 			<Effect type="Data" amount="2000.00" subtype="Cost" resource="Trade" relativity="Assign">
@@ -52071,7 +52117,16 @@ Indians" type="Normal">
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
-				<Target type="ProtoUnit">AbstractElephant</Target>
+				<Target type="ProtoUnit">AbstractMahout</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">AbstractHowdah</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">AbstractMercFlailiphant</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">AbstractSiegeElephant</Target>
 			</Effect>
 			<Effect type="TextOutput">69861</Effect>
 			<Effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
@@ -52524,6 +52579,18 @@ Indians" type="Normal">
 				<Target type="ProtoUnit">ypAshigaru</Target>
 			</Effect>
 			<Effect type="Data" action="DefendHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Absolute">
+				<Target type="ProtoUnit">ypAshigaru</Target>
+			</Effect>
+			<Effect type="Data" action="MeleeHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
+				<Target type="ProtoUnit">ypAshigaru</Target>
+			</Effect>
+			<Effect type="Data" action="VolleyHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
+				<Target type="ProtoUnit">ypAshigaru</Target>
+			</Effect>
+			<Effect type="Data" action="StaggerHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
+				<Target type="ProtoUnit">ypAshigaru</Target>
+			</Effect>
+			<Effect type="Data" action="DefendHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
 				<Target type="ProtoUnit">ypAshigaru</Target>
 			</Effect>
 		</Effects>
@@ -54998,7 +55065,7 @@ Indians" type="Normal">
 		<Effects>
 			<Effect type="SetName" proto="ypConsulate" culture="none" newName="63271"/>
 			<Effect type="TextOutput">70364</Effect>
-			<Effect type="Data" amount="0.50" subtype="ResearchPoints" relativity="Percent">
+			<Effect type="Data" amount="0.60" subtype="ResearchPoints" relativity="Percent">
 				<Target type="techWithFlag">YPConsulateImprovement</Target>
 			</Effect>
 			<Effect type="Data" amount="0.60" subtype="Cost" resource="Trade" relativity="Percent">
@@ -55010,13 +55077,13 @@ Indians" type="Normal">
 			<Effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateUnit</Target>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateSiegeIndustrial</Target>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractConsulateSiegeFortress</Target>
 			</Effect>
 			<Effect type="Data" amount="2000.00" subtype="Cost" resource="Trade" relativity="Assign">
@@ -59204,6 +59271,9 @@ Indians" type="Normal">
 			<Effect type="Data" amount="10.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Assign">
+				<Target type="ProtoUnit">AbstractWall</Target>
+			</Effect>
 			<Effect type="Data" amount="10.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
@@ -59719,6 +59789,9 @@ Indians" type="Normal">
 			<Effect type="TechStatus" status="unobtainable">ypConsulateRelationsOttomans</Effect>
 			<Effect type="Data" amount="-10.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Building</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Assign">
+				<Target type="ProtoUnit">AbstractWall</Target>
 			</Effect>
 			<Effect type="Data" amount="-10.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">AbstractArtillery</Target>
@@ -69972,6 +70045,20 @@ Indians" type="Normal">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerO" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCREVShipPrivateers" type="Normal">
+		<DBID>3459</DBID>
+		<DisplayNameID>47078</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>50.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\infinite_privateers</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Privateer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>

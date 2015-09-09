@@ -22,7 +22,6 @@
 				<choice name="enemy">
 					<soundset name="JohnBlackAttack"/>
 				</choice>
-				<choice name="Tree"/>
 				<choice name="build">
 					<soundset name="JohnBlackAcknowledge"/>
 				</choice>

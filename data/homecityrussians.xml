@@ -102,7 +102,7 @@
 			<age>1</age>
 		</card>
 		<card>
-			<name>HCShipSettlers1</name>
+			<name>HCShipSettlers3</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
@@ -114,7 +114,7 @@
 			<name>HCShipSettlers2</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
-			<prereqtech>HCShipSettlers1</prereqtech>
+			<prereqtech>HCShipSettlers3</prereqtech>
 			<age>1</age>
 			<displayunitcount>4</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
@@ -1361,11 +1361,12 @@
 		<revoltdeck>
 			<name>$$45518$$</name>
 			<cards>
-				<card>HCREVShipGatlingGuns</card>
-				<card>HCREVShipColonialMilitia</card>
-				<card>HCREVShipIronclads</card>
 				<card>HCREVShipFortWagon</card>
 				<card>HCREVShipFactory</card>
+				<card>HCREVShipColonialMilitia</card>
+				<card>HCREVShipGatlingGuns</card>
+				<card>HCREVShipIronclads</card>
+				<card>HCREVShipPrivateers</card>
 			</cards>
 		</revoltdeck>
 	</decks>
@@ -1405,7 +1406,7 @@
 		<displaynamestringid>24970</displaynamestringid>
 		<rolloverstringid>25536</rolloverstringid>
 		<obtainabletechs>
-			<tech x="0.1" y="1.0">HCShipSettlers1</tech>
+			<tech x="0.1" y="1.0">HCShipSettlers3</tech>
 			<tech x="0.1" y="2.0">HCShipSettlers2</tech>
 			<tech x="1.0" y="1.0">HCShipFoodCrates1</tech>
 			<tech x="1.7" y="1.0">HCShipWoodCrates1</tech>
