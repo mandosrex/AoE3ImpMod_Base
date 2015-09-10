@@ -774,6 +774,12 @@
 			<Effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Halberdier</Target>
 			</Effect>
+			<Effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
+			<Effect type="Data" amount="2.12" subtype="TrainPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
 			<Effect type="TechStatus" status="active">VeteranCavalryArchersShadow</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCFortCenter</Target>
@@ -1527,7 +1533,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="85.00" subtype="ResearchPoints" relativity="Percent">
+			<Effect type="Data" amount="0.85" subtype="ResearchPoints" relativity="Percent">
 				<Target type="techWithFlag">HomeCity</Target>
 			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
@@ -6676,6 +6682,7 @@
 			<Effect type="TechStatus" status="obtainable">SelectiveBreeding</Effect>
 			<Effect type="TechStatus" status="obtainable">PlacerMines</Effect>
 			<Effect type="TechStatus" status="obtainable">WarGathering</Effect>
+			<Effect type="TechStatus" status="obtainable">SteelTraps</Effect>
 			<Effect type="Data" amount="0.80" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">Guardian</Target>
 			</Effect>
@@ -16963,6 +16970,9 @@
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="XP" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="TownCenter" relativity="BasePercent">
+				<Target type="ProtoUnit">Famer</Target>
+			</Effect>
 			<Effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
@@ -17111,6 +17121,9 @@
 			</Effect>
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="XP" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="TownCenter" relativity="BasePercent">
+				<Target type="ProtoUnit">Famer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="UpdateVisual" unittype="Building" relativity="Absolute">
 				<Target type="Player"/>
@@ -19033,6 +19046,9 @@
 		<Effects>
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="XP" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="TownCenter" relativity="BasePercent">
+				<Target type="ProtoUnit">Famer</Target>
 			</Effect>
 			<Effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Building</Target>
@@ -21596,6 +21612,9 @@
 		<Effects>
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="XP" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="TownCenter" relativity="BasePercent">
+				<Target type="ProtoUnit">Famer</Target>
 			</Effect>
 			<Effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Building</Target>
@@ -69700,7 +69719,7 @@ Indians" type="Normal">
 	<Tech name="EconomicAlliance" type="Normal">
 		<DBID>172</DBID>
 		<DisplayNameID>780952</DisplayNameID>
-		<Cost resourcetype="Fame">400.0000</Cost>
+		<Cost resourcetype="Fame">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\militaryalliance</Icon>
@@ -69726,7 +69745,7 @@ Indians" type="Normal">
 	<Tech name="MilitaryAlliance" type="Normal">
 		<DBID>172</DBID>
 		<DisplayNameID>780953</DisplayNameID>
-		<Cost resourcetype="Fame">400.0000</Cost>
+		<Cost resourcetype="Fame">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\economicalliance</Icon>
