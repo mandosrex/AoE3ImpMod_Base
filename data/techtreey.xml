@@ -6682,7 +6682,6 @@
 			<Effect type="TechStatus" status="obtainable">SelectiveBreeding</Effect>
 			<Effect type="TechStatus" status="obtainable">PlacerMines</Effect>
 			<Effect type="TechStatus" status="obtainable">WarGathering</Effect>
-			<Effect type="TechStatus" status="obtainable">SteelTraps</Effect>
 			<Effect type="Data" amount="0.80" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">Guardian</Target>
 			</Effect>
@@ -38121,7 +38120,10 @@
 		<RolloverTextID>44451</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractVillager</Target>
+			</Effect>
+			<Effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
 			<Effect type="TextOutput">44454</Effect>

@@ -14864,7 +14864,7 @@
 		<String _locID="44448">Villagers gather Food from hunted animals and berries faster.</String>
 		<String _locID="44449">Great Hunter</String>
 		<String _locID="44450">Furrier Shipment has arrived.</String>
-		<String _locID="44451">Villagers train faster.</String>
+		<String _locID="44451">Villagers train and move faster.</String>
 		<String _locID="44452">Adoption</String>
 		<String _locID="44453">Medicine Shipment has arrived.</String>
 		<String _locID="44454">Adoption Shipment has arrived.</String>
@@ -15010,11 +15010,11 @@
 		<String _locID="44594">Legendary Light Cannon</String>
 		<String _locID="44595">Nature Friendship</String>
 		<String _locID="44596">Converts treasure guardians.</String>
-		<String _locID="44597">Villagers gather Food faster.</String>
+		<String _locID="44597">Villagers gather all Food faster.</String>
 		<String _locID="44598">Great Feast</String>
-		<String _locID="44599">Villagers gather Food faster.</String>
+		<String _locID="44599">Villagers gather all Food faster.</String>
 		<String _locID="44600">Harvest Ceremony</String>
-		<String _locID="44601">Villagers gather Food faster.</String>
+		<String _locID="44601">Villagers gather all Food faster.</String>
 		<String _locID="44602">Green Corn Ceremony</String>
 		<String _locID="44603">Villager attack and hitpoints increased.</String>
 		<String _locID="44604">Spirit Medicine</String>
@@ -15024,9 +15024,9 @@
 		<String _locID="44608">Forest People Ceremony</String>
 		<String _locID="44609">Villagers gather Wood faster.</String>
 		<String _locID="44610">Lumber Ceremony</String>
-		<String _locID="44611">Villagers gather Coin faster.</String>
+		<String _locID="44611">Villagers gather all Coin faster.</String>
 		<String _locID="44612">Earth Ceremony</String>
-		<String _locID="44613">Villagers gather Coin faster.</String>
+		<String _locID="44613">Villagers gather all Coin faster.</String>
 		<String _locID="44614">Earth Gift Ceremony</String>
 		<String _locID="44615">Boats gather Food from Fish and Coin from Whales faster.</String>
 		<String _locID="44616">Fishing Dance</String>
@@ -30372,5 +30372,6 @@
 		<String _locID="780964">Ranged Attack (auto)</String>
 		<String _locID="780965">Capitol Hotkeys</String>
 		<String _locID="780966">Command Post Hotkeys</String>
+		<String _locID="780967">Tracking</String>
 	</Language>
 </StringTable>
