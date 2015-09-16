@@ -60,7 +60,7 @@
 		<spreadfactor>0.25</spreadfactor>
 		<trackrating>12</trackrating>
 		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
-		<projectile>Arrow</projectile>
+		<projectile>ArrowFlaming</projectile>
 		<minrange>2</minrange>
 		<rate type="Unit">1.0</rate>
 	</action>
@@ -106,7 +106,7 @@
 		<spreadfactor>0.25</spreadfactor>
 		<trackrating>12</trackrating>
 		<unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
-		<projectile>Arrow</projectile>
+		<projectile>ArrowFlaming</projectile>
 		<minrange>2</minrange>
 		<rate type="Unit">1.0</rate>
 	</action>

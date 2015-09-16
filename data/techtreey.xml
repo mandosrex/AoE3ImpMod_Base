@@ -11524,6 +11524,9 @@
 			<Effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
 				<Target type="ProtoUnit">Longbowman</Target>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">Longbowman</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="VeteranUhlans" type="Normal">
@@ -16559,6 +16562,9 @@
 			<Effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
 				<Target type="ProtoUnit">Longbowman</Target>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">Longbowman</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCNativeTreaties" type="Normal">
@@ -18649,6 +18655,9 @@
 			<Effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
 				<Target type="ProtoUnit">Longbowman</Target>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">Longbowman</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperialDopplesoldner" type="Normal">
@@ -19881,6 +19890,18 @@
 			<Effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="AbusGun" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" action="StaggerRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
+			<Effect type="Data" action="DefendRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
+			<Effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperialAbusGun" type="Normal">
@@ -19905,6 +19926,18 @@
 				<Target type="ProtoUnit">AbusGun</Target>
 			</Effect>
 			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
+			<Effect type="Data" action="StaggerRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
+			<Effect type="Data" action="DefendRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
+			<Effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">AbusGun</Target>
 			</Effect>
 		</Effects>
@@ -30395,6 +30428,18 @@
 			<Effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="AbusGun" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
+			<Effect type="Data" action="StaggerRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
+			<Effect type="Data" action="DefendRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
+			<Effect type="Data" action="VolleyRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">AbusGun</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCShipLancers4" type="Normal">
@@ -35003,7 +35048,7 @@
 			</Effect>
 			<Effect type="SetName" proto="Farm" culture="none" newName="43797"/>
 			<Effect type="TextOutput">48870</Effect>
-			<Effect type="Data" amount="0.70" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="Percent">
 				<Target type="ProtoUnit">Herdable</Target>
 			</Effect>
 		</Effects>
@@ -44965,7 +45010,7 @@
 			<Effect type="Data" amount="0.70" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">ypVillage</Target>
 			</Effect>
-			<Effect type="Data" amount="0.25" subtype="BuildPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSacredField</Target>
 			</Effect>
 			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
@@ -44974,25 +45019,25 @@
 			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">House</Target>
 			</Effect>
-			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">House</Target>
 			</Effect>
 			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">HouseEast</Target>
 			</Effect>
-			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">HouseEast</Target>
 			</Effect>
 			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">HouseMed</Target>
 			</Effect>
-			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">HouseMed</Target>
 			</Effect>
 			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Manor</Target>
 			</Effect>
-			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">Manor</Target>
 			</Effect>
 		</Effects>
