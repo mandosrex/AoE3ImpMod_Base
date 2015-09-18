@@ -247,10 +247,10 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="TechStatus" status="obtainable">StoneFortifiedWalls</Effect>
-			<Effect type="Data" amount="5.00" subtype="Cost" resource="Wood" relativity="Assign">
+			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">AbstractWall</Target>
 			</Effect>
+			<Effect type="TechStatus" status="obtainable">StoneFortifiedWalls</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -69828,7 +69828,7 @@ Indians" type="Normal">
 			<Effect tech="Age0Russian" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Culverin" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect tech="Age0Russian" type="Data" amount="15.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Hussar" relativity="Absolute">
+			<Effect tech="Age0Russian" type="Data" amount="15.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Cossack" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect tech="Age0Russian" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="FlagBearerR" relativity="Absolute">

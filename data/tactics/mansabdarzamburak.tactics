@@ -138,6 +138,26 @@
 		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
 	</action>
 	<tactic>
+		Volley
+		<action>GreatHeart</action>
+		<action>ExtraDamage</action>
+		<action>AutoGatherFood</action>
+		<action priority="75">BuildingAttack</action>
+		<action priority="100">StaggerRangedAttack</action>
+		<action priority="25">MeleeHandAttack</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Jog</joganim>
+		<runanim>Run</runanim>
+	</tactic>
+	<tactic>
 		Stagger
 		<action>GreatHeart</action>
 		<action>ExtraDamage</action>
@@ -168,7 +188,7 @@
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
-		<runaway>1</runaway>
+		<runaway>0</runaway>
 		<autoretarget>1</autoretarget>
 		<idleanim>Idle</idleanim>
 		<boredanim>Bored</boredanim>

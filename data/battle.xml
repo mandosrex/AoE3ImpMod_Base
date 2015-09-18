@@ -22,7 +22,7 @@
 		<stance>StandGround</stance>
 		<formationtype>Circle</formationtype>
 		<formationcirclelinespacing>1.1</formationcirclelinespacing>
-		<formationcirclesubgroupspacing>0.5</formationcirclesubgroupspacing>
+		<formationcirclesubgroupspacing>0.6</formationcirclesubgroupspacing>
 		<randomspacingoffset>0.30</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
@@ -55,8 +55,8 @@
 		<targetunittype>All</targetunittype>
 		<stance>Passive</stance>
 		<formationtype>Line</formationtype>
-		<formationlinelinespacing>1.2</formationlinelinespacing>
-		<formationlinecolumnspacing>1.4</formationlinecolumnspacing>
+		<formationlinelinespacing>1.0</formationlinelinespacing>
+		<formationlinecolumnspacing>1.0</formationlinecolumnspacing>
 		<randomspacingoffset>0.35</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
@@ -72,8 +72,28 @@
 		<targetunittype>All</targetunittype>
 		<stance>Defensive</stance>
 		<formationtype>Line</formationtype>
-		<formationlinelinespacing>0.8</formationlinelinespacing>
-		<formationlinecolumnspacing>0.8</formationlinecolumnspacing>
+		<formationlinelinespacing>1.0</formationlinelinespacing>
+		<formationlinecolumnspacing>1.0</formationlinecolumnspacing>
+		<randomspacingoffset>0.35</randomspacingoffset>
+		<cooldowntime>5000</cooldowntime>
+		<transitiontimein>500</transitiontimein>
+		<activeicon>art\ui\command\tactics_volley_cur</activeicon>
+		<availableicon>art\ui\command\tactics_volley_avl</availableicon>
+		<unavailableicon>art\ui\command\tactics_volley_un_avl</unavailableicon>
+		<rolloverstringid>31348</rolloverstringid>
+		<battlecrysmall>BattlecrySmall</battlecrysmall>
+		<battlecrymedium>BattlecryMedium</battlecrymedium>
+		<battlecrylarge>BattlecryLarge</battlecrylarge>
+	</squadmode>
+	<squadmode>
+		<name>CavalryVolley</name>
+		<tactic>Volley</tactic>
+		<unittype>AbstractRangedCavalry</unittype>
+		<targetunittype>All</targetunittype>
+		<stance>Defensive</stance>
+		<formationtype>Line</formationtype>
+		<formationlinelinespacing>1.0</formationlinelinespacing>
+		<formationlinecolumnspacing>1.0</formationlinecolumnspacing>
 		<randomspacingoffset>0.35</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
@@ -118,8 +138,8 @@
 		<canbreakformation>0</canbreakformation>
 		<canrotateinformation>1</canrotateinformation>
 		<maxnumberformationlines>3</maxnumberformationlines>
-		<formationlinelinespacing>1.2</formationlinelinespacing>
-		<formationlinecolumnspacing>1.4</formationlinecolumnspacing>
+		<formationlinelinespacing>1.6</formationlinelinespacing>
+		<formationlinecolumnspacing>1.6</formationlinecolumnspacing>
 		<randomspacingoffset>0.5</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
@@ -140,8 +160,8 @@
 		<targetunittype>All</targetunittype>
 		<stance>Defensive</stance>
 		<formationtype>Line</formationtype>
-		<formationlinelinespacing>0.8</formationlinelinespacing>
-		<formationlinecolumnspacing>0.8</formationlinecolumnspacing>
+		<formationlinelinespacing>1.0</formationlinelinespacing>
+		<formationlinecolumnspacing>1.0</formationlinecolumnspacing>
 		<randomspacingoffset>0.35</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
@@ -214,7 +234,7 @@
 		<stance>Defensive</stance>
 		<formationtype>Circle</formationtype>
 		<formationcirclelinespacing>1.1</formationcirclelinespacing>
-		<formationcirclesubgroupspacing>0.5</formationcirclesubgroupspacing>
+		<formationcirclesubgroupspacing>0.6</formationcirclesubgroupspacing>
 		<randomspacingoffset>0.35</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>
@@ -277,7 +297,7 @@
 		<targetunittype>All</targetunittype>
 		<stance>StandGround</stance>
 		<formationtype>Circle</formationtype>
-		<formationcirclelinespacing>1.2</formationcirclelinespacing>
+		<formationcirclelinespacing>1.0</formationcirclelinespacing>
 		<formationcirclesubgroupspacing>1.0</formationcirclesubgroupspacing>
 		<randomspacingoffset>0.35</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
@@ -333,8 +353,8 @@
 		<targetunittype>All</targetunittype>
 		<stance>Defensive</stance>
 		<formationtype>Line</formationtype>
-		<formationlinelinespacing>1.2</formationlinelinespacing>
-		<formationlinecolumnspacing>1.4</formationlinecolumnspacing>
+		<formationlinelinespacing>1.0</formationlinelinespacing>
+		<formationlinecolumnspacing>1.0</formationlinecolumnspacing>
 		<randomspacingoffset>0.5</randomspacingoffset>
 		<cooldowntime>5000</cooldowntime>
 		<transitiontimein>500</transitiontimein>

@@ -48,6 +48,23 @@
 		<targetspeedboost>1</targetspeedboost>
 	</action>
 	<tactic>
+		Volley
+		<action priority="75">BuildingAttack</action>
+		<action priority="100">BowAttack</action>
+		<action priority="25">ChargeAttack</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Jog</joganim>
+		<runanim>Run</runanim>
+	</tactic>
+	<tactic>
 		Stagger
 		<action priority="75">BuildingAttack</action>
 		<action priority="100">BowAttack</action>
@@ -72,7 +89,7 @@
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
-		<runaway>1</runaway>
+		<runaway>0</runaway>
 		<autoretarget>1</autoretarget>
 		<idleanim>Idle</idleanim>
 		<boredanim>Bored</boredanim>
