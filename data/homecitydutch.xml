@@ -630,7 +630,7 @@
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
-			<age>0</age>
+			<age>1</age>
 			<displayunitcount>1</displayunitcount>
 		</card>
 		<card>
@@ -638,7 +638,7 @@
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>HCBanks1</prereqtech>
-			<age>0</age>
+			<age>1</age>
 			<displayunitcount>1</displayunitcount>
 		</card>
 		<card>
@@ -653,7 +653,7 @@
 			<maxcount>1</maxcount>
 			<level>40</level>
 			<prereqtech>HCBetterBanks</prereqtech>
-			<age>1</age>
+			<age>2</age>
 			<displayunitcount>2</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>

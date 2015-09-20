@@ -125,6 +125,42 @@
 		<component>ModelComp</component>
 	</anim>
 	<anim>
+		Idle_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_idle_A</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_idle_B</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_idle_C</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_idle_D</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_idle_F</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_idle_G</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_idle_H</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_idle_I</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
 		Bored
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\horse_bored_A</file>

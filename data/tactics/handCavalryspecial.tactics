@@ -113,7 +113,7 @@
 		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
 		<action>IncreaseHPWithLikeUnits</action>
 		<action>IncreaseDamageWithLikeUnits</action>
-		<runaway>0</runaway>
+		<runaway>1</runaway>
 		<autoretarget>1</autoretarget>
 		<idleanim>Idle</idleanim>
 		<boredanim>Bored</boredanim>

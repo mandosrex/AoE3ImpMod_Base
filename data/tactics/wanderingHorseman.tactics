@@ -29,7 +29,7 @@
 		<handlogic>1</handlogic>
 		<speedboost>1</speedboost>
 		<anim>Attack_melee</anim>
-		<idleanim>Idle</idleanim>
+		<idleanim>Idle_melee</idleanim>
 		<impacteffect>effects\impacts\melee</impacteffect>
 		<damage>6.5</damage>
 		<rof>1.0</rof>

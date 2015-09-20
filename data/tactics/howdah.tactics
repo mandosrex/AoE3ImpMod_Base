@@ -32,7 +32,7 @@
 		<handlogic>1</handlogic>
 		<speedboost>1</speedboost>
 		<anim>Attack_melee</anim>
-		<idleanim>Idle</idleanim>
+		<idleanim>Idle_melee</idleanim>
 		<impacteffect>effects\impacts\melee</impacteffect>
 		<damage>6.5</damage>
 		<rof>1.0</rof>
@@ -47,7 +47,7 @@
 		<handlogic>1</handlogic>
 		<speedboost>1</speedboost>
 		<anim>Attack_melee</anim>
-		<idleanim>Idle</idleanim>
+		<idleanim>Idle_melee</idleanim>
 		<impacteffect>effects\impacts\melee</impacteffect>
 		<damage>6.5</damage>
 		<rof>1.0</rof>
@@ -89,7 +89,7 @@
 		<handlogic>1</handlogic>
 		<speedboost>1</speedboost>
 		<anim>Attack_melee</anim>
-		<idleanim>Idle</idleanim>
+		<idleanim>Idle_melee</idleanim>
 		<impacteffect>effects\impacts\melee</impacteffect>
 		<damage>6.5</damage>
 		<rof>1.0</rof>
@@ -176,9 +176,9 @@
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
-		<runaway>0</runaway>
+		<runaway>1</runaway>
 		<autoretarget>1</autoretarget>
-		<idleanim>Idle</idleanim>
+		<idleanim>Idle_melee</idleanim>
 		<boredanim>Bored</boredanim>
 		<deathanim>Death_by_melee</deathanim>
 		<walkanim>Walk</walkanim>

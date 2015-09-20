@@ -46,6 +46,19 @@
 		<component>ModelComp</component>
 	</anim>
 	<anim>
+		Walk_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\horse_canter</file>
+			<tag type="FootstepLeft" footprinttype="Horse" footprintbone="HS BONE HOOF FRNT LT">1.00</tag>
+			<tag type="FootstepLeft" footprinttype="Horse" footprintbone="HS BONE HOOF BACK LT">0.83</tag>
+			<tag type="FootstepRight" footprinttype="Horse" footprintbone="HS BONE HOOF FRNT RT">0.70</tag>
+			<tag type="FootstepRight" footprinttype="Horse" footprintbone="HS BONE HOOF BACK RT">0.50</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof2">0.10</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="HorseHoof3">0.40</tag>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
 		Jog
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\horse_jog</file>

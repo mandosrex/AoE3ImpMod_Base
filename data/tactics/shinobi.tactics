@@ -287,7 +287,7 @@
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
-		<runaway>0</runaway>
+		<runaway>1</runaway>
 		<autoretarget>1</autoretarget>
 		<idleanim>Charge_idle</idleanim>
 		<boredanim>Charge_bored</boredanim>
@@ -375,7 +375,7 @@
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
-		<runaway>0</runaway>
+		<runaway>1</runaway>
 		<autoretarget>1</autoretarget>
 		<idleanim>Horse_idle</idleanim>
 		<boredanim>Horse_bored</boredanim>

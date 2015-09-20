@@ -126,12 +126,12 @@
 			<anim>Cover_idle</anim>
 			<exit>1</exit>
 		</transition>
-		<idleanim>Cover_idle</idleanim>
-		<boredanim>Cover_bored</boredanim>
+		<idleanim>Volley_standing_idle</idleanim>
+		<boredanim>Volley_standing_bored</boredanim>
 		<deathanim>Death_by_melee</deathanim>
-		<walkanim>Cover_walk</walkanim>
-		<joganim>Cover_jog</joganim>
-		<runanim>Cover_run</runanim>
+		<walkanim>Volley_walk</walkanim>
+		<joganim>Volley_jog</joganim>
+		<runanim>Volley_run</runanim>
 	</tactic>
 	<tactic>
 		Melee
@@ -140,7 +140,7 @@
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
-		<runaway>0</runaway>
+		<runaway>1</runaway>
 		<autoretarget>1</autoretarget>
 		<transition>
 			<tactic>Stealth</tactic>
@@ -148,12 +148,12 @@
 			<anim>Cover_idle</anim>
 			<exit>1</exit>
 		</transition>
-		<idleanim>Charge_idle</idleanim>
-		<boredanim>Charge_bored</boredanim>
+		<idleanim>Cover_idle</idleanim>
+		<boredanim>Cover_bored</boredanim>
 		<deathanim>Death_by_melee</deathanim>
-		<walkanim>Charge_walk</walkanim>
-		<joganim>Charge_jog</joganim>
-		<runanim>Charge_run</runanim>
+		<walkanim>Cover_walk</walkanim>
+		<joganim>Cover_jog</joganim>
+		<runanim>Cover_run</runanim>
 	</tactic>
 	<tactic>
 		Stealth

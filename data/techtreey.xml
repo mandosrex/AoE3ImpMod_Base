@@ -13317,7 +13317,7 @@
 	<Tech name="StoneFortifiedWalls" type="Normal">
 		<DBID>5274</DBID>
 		<DisplayNameID>77793</DisplayNameID>
-		<Cost resourcetype="Wood">800.0000</Cost>
+		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
 		<ResearchPoints>80.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -13342,7 +13342,7 @@
 	<Tech name="AsianFortifiedWalls" type="Normal">
 		<DBID>5274</DBID>
 		<DisplayNameID>77793</DisplayNameID>
-		<Cost resourcetype="Wood">800.0000</Cost>
+		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
 		<ResearchPoints>80.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>

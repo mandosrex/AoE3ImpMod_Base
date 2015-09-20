@@ -103,7 +103,7 @@
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
-		<runaway>0</runaway>
+		<runaway>1</runaway>
 		<autoretarget>1</autoretarget>
 		<idleanim>Idle</idleanim>
 		<boredanim>Bored</boredanim>

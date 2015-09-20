@@ -89,7 +89,7 @@
 		<keymapdata>
 			<name>Attack Move</name>
 			<displayname>$$18986$$Attack Move</displayname>
-			<event>z</event>
+			<event>alt-z</event>
 			<context>game</context>
 			<command>editMode("attackMove")</command>
 		</keymapdata>

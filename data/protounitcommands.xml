@@ -840,11 +840,11 @@
 		<command>SquadWheel(0.39269908169875, -1)</command>
 	</protounitcommand>
 	<protounitcommand>
-        <name>SquadLock</name>
-        <icon>art\ui\gate\Lgate_icon_64x64</icon>
-        <rollovertextid>77792</rollovertextid>
-        <disabledrollovertextid/>
-        <command>uiTransformSelectedUnit("CWallGateL")</command>
+		<name>SquadLock</name>
+		<icon>art\ui\gate\Lgate_icon_64x64</icon>
+		<rollovertextid>77792</rollovertextid>
+		<disabledrollovertextid/>
+		<command>uiTransformSelectedUnit("CWallGateL")</command>
 	</protounitcommand>
 	<protounitcommand>
 		<name>SquadUnlock</name>

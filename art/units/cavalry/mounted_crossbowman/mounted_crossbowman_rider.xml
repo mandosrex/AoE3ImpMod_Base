@@ -131,6 +131,43 @@
 		<attach a="crossbow" frombone="Bip 01 master" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
+		Idle_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_A</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_B</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_C</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_D</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_F</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_G</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_H</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_I</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
 		Bored
 		<assetreference type="GrannyAnim">
 			<file>animation_library\natives\apache_cavalry\bored_A</file>

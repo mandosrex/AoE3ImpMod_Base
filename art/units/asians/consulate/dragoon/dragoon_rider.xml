@@ -43,6 +43,14 @@
 		<attach a="dragoon_gun" frombone="Bip 01 master" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
+		Walk_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_canter</file>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
 		Jog
 		<assetreference type="GrannyAnim">
 			<file>animation_library\cavalry\sword_jog</file>
@@ -94,6 +102,43 @@
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="dragoon_gun" frombone="Bip 01 master" tobone="Bip01 Prop1" syncanims="0"/>
+	</anim>
+	<anim>
+		Idle_melee
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_A</file>
+			<weight>40</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_B</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_C</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_D</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_F</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_G</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_H</file>
+			<weight>10</weight>
+		</assetreference>
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_idle_I</file>
+			<weight>40</weight>
+		</assetreference>
+		<component>ModelComp</component>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Bored
@@ -148,23 +193,23 @@
 	<anim>
 		Attack_melee
 		<assetreference type="GrannyAnim">
-			<file>animation_library\natives\apache_cavalry\axe_attack1</file>
+			<file>animation_library\cavalry\sword_attack_A</file>
 			<weight>40</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\natives\apache_cavalry\axe_attack2</file>
+			<file>animation_library\cavalry\sword_attack_B</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\natives\apache_cavalry\axe_attack3</file>
+			<file>animation_library\cavalry\sword_attack_C</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\natives\apache_cavalry\axe_attack4</file>
+			<file>animation_library\cavalry\sword_attack_D</file>
 			<weight>10</weight>
 		</assetreference>
 		<component>ModelComp</component>
-		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop2" syncanims="0"/>
+		<attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"/>
 	</anim>
 	<anim>
 		Death_by_melee
