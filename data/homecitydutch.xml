@@ -56,6 +56,13 @@
 			<age>3</age>
 		</card>
 		<card>
+			<name>HCEngineeringSchool</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
 			<name>HCShipSkirmishers3</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
@@ -1026,7 +1033,7 @@
 			<maxcount>1</maxcount>
 			<level>25</level>
 			<prereqtech>-1</prereqtech>
-			<age>1</age>
+			<age>0</age>
 		</card>
 		<card>
 			<name>HCShipCaravels1</name>
@@ -1547,7 +1554,8 @@
 			<tech x="6.5" y="3.0">HCAdvancedDock</tech>
 			<tech x="7.2" y="1.0">HCUnlockFactory</tech>
 			<tech x="7.2" y="3.0">HCRobberBarons</tech>
-			<tech x="1.5" y="6.0">HCSlavery</tech>
+			<tech x="2.3" y="6.0">HCSlavery</tech>
+			<tech x="1.5" y="4.0">HCEngineeringSchool</tech>
 		</obtainabletechs>
 		<activetechs>
 			<tech>HCCheapMarketsTeam</tech>

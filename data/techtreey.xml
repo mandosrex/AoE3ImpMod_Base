@@ -10625,9 +10625,6 @@
 			<Effect type="TechStatus" status="obtainable">ypMarketWheelbarrow</Effect>
 			<Effect type="TechStatus" status="obtainable">ypMarketWheelbarrow2</Effect>
 			<Effect type="SetName" proto="Cow" culture="none" newName="70076"/>
-			<Effect type="Data" amount="45.00" subtype="Cost" resource="Food" relativity="Absolute">
-				<Target type="ProtoUnit">ypSacredCow</Target>
-			</Effect>
 			<Effect type="Data" amount="1.00" subtype="CopyUnitPortraitAndIcon" unittype="YPCastleWagon" relativity="Absolute">
 				<Target type="ProtoUnit">YPCastleWagonIndians</Target>
 			</Effect>
@@ -28145,49 +28142,49 @@
 		<Flag>TeamTech</Flag>
 		<Effects>
 			<Effect type="TextOutput">36919</Effect>
-			<Effect type="Data" amount="40.00" subtype="Cost" resource="Food" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">FrontierTraining</Target>
 			</Effect>
-			<Effect type="Data" amount="30.00" subtype="Cost" resource="Food" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">Blunderbuss</Target>
 			</Effect>
-			<Effect type="Data" amount="20.00" subtype="Cost" resource="Wood" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="Tech">PlacerMines</Target>
 			</Effect>
-			<Effect type="Data" amount="20.00" subtype="Cost" resource="Food" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">PlacerMines</Target>
 			</Effect>
-			<Effect type="Data" amount="25.00" subtype="Cost" resource="Food" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">Gangsaw</Target>
 			</Effect>
-			<Effect type="Data" amount="25.00" subtype="Cost" resource="Wood" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="Tech">HuntingDogs</Target>
 			</Effect>
-			<Effect type="Data" amount="20.00" subtype="Cost" resource="Food" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">GreatCoat</Target>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="Cost" resource="Wood" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="Tech">ypMarketBerryDogs</Target>
 			</Effect>
-			<Effect type="Data" amount="40.00" subtype="Cost" resource="Food" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">ypMarketSpiritMedicine</Target>
 			</Effect>
-			<Effect type="Data" amount="15.00" subtype="Cost" resource="Wood" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="Tech">ypMarketWheelbarrow</Target>
 			</Effect>
-			<Effect type="Data" amount="15.00" subtype="Cost" resource="Food" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">ypMarketWheelbarrow</Target>
 			</Effect>
-			<Effect type="Data" amount="10.00" subtype="Cost" resource="Food" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">ypMarketGangsaw</Target>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="Cost" resource="Wood" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="Tech">ypMarketHuntingDogs</Target>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="Cost" resource="Food" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">ypMarketPlacerMines</Target>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="Cost" resource="Wood" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="Tech">ypMarketPlacerMines</Target>
 			</Effect>
 		</Effects>
@@ -45016,28 +45013,28 @@
 			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">ypSacredField</Target>
 			</Effect>
-			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">House</Target>
 			</Effect>
-			<Effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.85" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">House</Target>
 			</Effect>
-			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">HouseEast</Target>
 			</Effect>
-			<Effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.85" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">HouseEast</Target>
 			</Effect>
-			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">HouseMed</Target>
 			</Effect>
-			<Effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.85" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">HouseMed</Target>
 			</Effect>
-			<Effect type="Data" amount="0.40" subtype="BuildPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Manor</Target>
 			</Effect>
-			<Effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+			<Effect type="Data" amount="0.85" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">Manor</Target>
 			</Effect>
 		</Effects>
@@ -46049,7 +46046,7 @@
 		<DBID>3437</DBID>
 		<DisplayNameID>47002</DisplayNameID>
 		<Cost resourcetype="Food">400.0000</Cost>
-		<Cost resourcetype="Wood">500.0000</Cost>
+		<Cost resourcetype="Wood">400.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\wildwest</Icon>
@@ -67003,7 +67000,7 @@ Indians" type="Normal">
 		<DBID>5187</DBID>
 		<DisplayNameID>69796</DisplayNameID>
 		<Cost resourcetype="Food">400.0000</Cost>
-		<Cost resourcetype="Wood">500.0000</Cost>
+		<Cost resourcetype="Wood">400.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\home_city\hc_Atonement</Icon>
@@ -69593,7 +69590,7 @@ Indians" type="Normal">
 		<RolloverTextID>780906</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
 			<Effect type="Data" amount="100.00" subtype="Cost" resource="Food" relativity="Absolute">
@@ -69702,11 +69699,11 @@ Indians" type="Normal">
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='SetAge'>Age4</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseGoldenPavillion5</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseGiantBuddha5</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseShogunate5</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToshoguShrine5</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToriiGates5</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianTajMahal5</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianKarniMata5</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianAgra5</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianTowerOfVictory5</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>YPWonderIndianCharminar5</Effect>
 			<Effect type="Sound">AgeAdvanceY</Effect>
 		</Effects>
 	</Tech>
@@ -69960,7 +69957,7 @@ Indians" type="Normal">
 			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Culverin" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="Cossack" relativity="Absolute">
+			<Effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="Cossack" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerR" relativity="Absolute">
