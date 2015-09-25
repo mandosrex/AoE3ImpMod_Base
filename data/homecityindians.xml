@@ -42,6 +42,15 @@
 	</coffers>
 	<cards>
 		<card>
+			<name>HCMercsHighlandersIndia</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
 			<name>HCXPShipSurgeons2</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
@@ -1564,12 +1573,13 @@
 			<tech x="3.5" y="1">YPHCAtonementIndians</tech>
 			<tech x="5.9" y="3">YPHCMercsJatLancer1</tech>
 			<tech x="5.9" y="7">YPHCMercsWarElephant1</tech>
-			<tech x="6.7" y="4">YPHCMercsArsonist1</tech>
-			<tech x="6.7" y="5">YPHCMercsIndianArmy</tech>
+			<tech x="5.9" y="4">YPHCMercsArsonist1</tech>
+			<tech x="5.9" y="5">YPHCMercsIndianArmy</tech>
 			<tech x="3.5" y="6">YPHCMercenaryLoyaltyIndians</tech>
 			<tech x="7.5" y="2">YPHCWokouIndians1</tech>
 			<tech x="7.5" y="4">YPHCWokouIndians2</tech>
 			<tech x="7.5" y="6">YPHCWokouIndians3Double</tech>
+			<tech x="6.7" y="4">HCMercsHighlandersIndia</tech>
 		</obtainabletechs>
 		<activetechs/>
 		<validunits/>

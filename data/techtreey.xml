@@ -4752,7 +4752,7 @@
 			<Effect type="TechStatus" status="active">HeavyHorseArtillery</Effect>
 			<Effect type="TechStatus" status="active">ShipHowitzers</Effect>
 			<Effect type="TechStatus" status="active">GuardPikemen</Effect>
-			<Effect type="TechStatus" status="active">GuardLancers</Effect>
+			<Effect type="TechStatus" status="active">ImpExcessiveTaxationD</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostIndustrialSpanish" type="Normal">
@@ -5223,7 +5223,6 @@
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">ImpExcessiveTaxationD</Effect>
 			<Effect type="TechStatus" status="active">PostIndustrialDutch</Effect>
 			<Effect type="TechStatus" status="active">ImperialSchutzens</Effect>
 			<Effect type="TechStatus" status="active">ImperialSkirmishers</Effect>
@@ -15449,6 +15448,9 @@
 			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">HCMercsHighlanders</Target>
 			</Effect>
+			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="Tech">HCMercsHighlandersIndia</Target>
+			</Effect>
 			<Effect type="Data" amount="1500.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">HCMercsHighland</Target>
 			</Effect>
@@ -15613,7 +15615,13 @@
 				<Target type="Tech">YPHCMercsArsonist1</Target>
 			</Effect>
 			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="Tech">YPHCMercsArsonist1Br</Target>
+			</Effect>
+			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">YPHCMercsJatLancer1</Target>
+			</Effect>
+			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="Tech">YPHCMercsJatLancer1Ot</Target>
 			</Effect>
 			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">YPHCWokouIndians3Double</Target>
@@ -19627,20 +19635,19 @@
 		<DBID>1384</DBID>
 		<DisplayNameID>31534</DisplayNameID>
 		<Cost resourcetype="Food">1000.0000</Cost>
-		<Cost resourcetype="Fame">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\imperial_peerage\imp_peerage</Icon>
 		<RolloverTextID>31522</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="2.00" subtype="Hitpoints" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
-			<Effect type="Data" amount="2.00" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 			<Effect type="Data" amount="0.30" subtype="DamageBonus" unittype="AbstractVillager" allactions="1" relativity="Absolute">
@@ -20031,11 +20038,11 @@
 		<Cost resourcetype="Wood">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\imperial_excessive_taxation\imp_excessive_taxation</Icon>
+		<Icon>ui\techs\hc_coin_coffers\hc_coin_coffers</Icon>
 		<RolloverTextID>780900</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
@@ -30220,6 +30227,28 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="HCMercsHighlandersIndia" type="Normal">
+		<DBID>2544</DBID>
+		<DisplayNameID>36702</DisplayNameID>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\mercenaries\highlander\highlander_icon</Icon>
+		<RolloverTextID>780973</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="MercHighlander" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="ypFreeIndianVillager" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSettlerIndian" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="HCMercsHessians" type="Normal">
 		<DBID>2545</DBID>
 		<DisplayNameID>36705</DisplayNameID>
@@ -37461,7 +37490,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\natives\conquistador\conquistador_icon_64</Icon>
+		<Icon>units\cavalry\lancer\lancer_icon</Icon>
 		<RolloverTextID>46948</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -45123,6 +45152,24 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="HCXPBankWagon2" type="Normal">
+		<DBID>3394</DBID>
+		<DisplayNameID>46890</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>buildings\bank\bank_icon</Icon>
+		<RolloverTextID>780973</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Plantation" relativity="Absolute">
+				<Target type="ProtoUnit">BankWagon</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="HCXPSolingenSteel" type="Normal">
 		<DBID>3395</DBID>
 		<DisplayNameID>46893</DisplayNameID>
@@ -52394,7 +52441,7 @@ Indians" type="Normal">
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\mercenaries\jat_lancer\jat_lancer_icon_64</Icon>
-		<RolloverTextID>61837</RolloverTextID>
+		<RolloverTextID>61839</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
@@ -52405,6 +52452,23 @@ Indians" type="Normal">
 				<Target type="Player"/>
 			</Effect>
 			<Effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="YPHCMercsJatLancer1Ot" type="Normal">
+		<DBID>4013</DBID>
+		<DisplayNameID>61838</DisplayNameID>
+		<Cost resourcetype="Gold">1500.0000</Cost>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\mercenaries\jat_lancer\jat_lancer_icon_64</Icon>
+		<RolloverTextID>61837</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="ypMercJatLancer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -63532,6 +63596,23 @@ Indians" type="Normal">
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="YPHCMercsArsonist1Br" type="Normal">
+		<DBID>4934</DBID>
+		<DisplayNameID>67702</DisplayNameID>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\spc\arsonist\arsonist_icon_64</Icon>
+		<RolloverTextID>780974</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="ypMercArsonist" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="ypConsulateFrenchHotAirBalloonsPreq" type="Normal">
 		<DBID>4935</DBID>
 		<ResearchPoints>0.0000</ResearchPoints>
@@ -66133,6 +66214,9 @@ Indians" type="Normal">
 			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">HCMercsHighlanders</Target>
 			</Effect>
+			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="Tech">HCMercsHighlandersIndia</Target>
+			</Effect>
 			<Effect type="Data" amount="1500.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">HCMercsHighland</Target>
 			</Effect>
@@ -66262,6 +66346,9 @@ Indians" type="Normal">
 			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">YPHCMercsJatLancer1</Target>
 			</Effect>
+			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="Tech">YPHCMercsJatLancer1Ot</Target>
+			</Effect>
 			<Effect type="Data" amount="1500.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">YPHCMercsJapaneseArmy</Target>
 			</Effect>
@@ -66276,6 +66363,9 @@ Indians" type="Normal">
 			</Effect>
 			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">YPHCMercsArsonist1</Target>
+			</Effect>
+			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="Tech">YPHCMercsArsonist1Br</Target>
 			</Effect>
 			<Effect type="Data" amount="750.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">YPHCMercsChakram2</Target>
@@ -69778,11 +69868,35 @@ Indians" type="Normal">
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ResourceWagon</Target>
 			</Effect>
-			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
+			</Effect>
+			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Coureur</Target>
+			</Effect>
+			<Effect tech="Age0British" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Settler" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="Age0German" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Settler" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="Age0Russian" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Settler" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="Age0French" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Coureur" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="Age0Dutch" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Settler" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="Age0Spanish" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Settler" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="Age0Portuguese" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Settler" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="Age0Ottoman" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Settler" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -69825,7 +69939,7 @@ Indians" type="Normal">
 			<Effect tech="Age0Russian" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Culverin" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect tech="Age0Russian" type="Data" amount="15.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Cossack" relativity="Absolute">
+			<Effect tech="Age0Russian" type="Data" amount="18.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Cossack" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect tech="Age0Russian" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="FlagBearerR" relativity="Absolute">
@@ -69957,7 +70071,7 @@ Indians" type="Normal">
 			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Culverin" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="Cossack" relativity="Absolute">
+			<Effect type="Data" amount="18.00" subtype="FreeHomeCityUnit" unittype="Cossack" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerR" relativity="Absolute">

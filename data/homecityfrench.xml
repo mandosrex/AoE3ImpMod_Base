@@ -1180,7 +1180,7 @@
 			<age>2</age>
 		</card>
 		<card>
-			<name>HCXPMercsGreatCannon</name>
+			<name>HCXPMercsGreatCannon11</name>
 			<maxcount>1</maxcount>
 			<level>25</level>
 			<prereqtech>-1</prereqtech>
@@ -1621,7 +1621,6 @@
 			<tech x="5.1" y="5.0">HCMercsMediterranean</tech>
 			<tech x="6.5" y="1.0">HCPrivateers</tech>
 			<tech x="6.5" y="3.0">HCPrivateers2</tech>
-			<tech x="5.8" y="6.0">HCXPMercsGreatCannon</tech>
 			<tech x="2.6" y="1.0">HCXPDanceHallFr</tech>
 			<tech x="2.6" y="6.0">HCMercenaryLoyalty</tech>
 		</obtainabletechs>

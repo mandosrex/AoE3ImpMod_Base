@@ -1208,7 +1208,7 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
-			<name>HCXPComancheroAllies</name>
+			<name>HCXPComancheroAllies11</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
 			<prereqtech>HCXPPistoleroAllies</prereqtech>
@@ -1220,7 +1220,7 @@
 			<name>HCXPBanditGang</name>
 			<maxcount>1</maxcount>
 			<level>25</level>
-			<prereqtech>HCXPComancheroAllies</prereqtech>
+			<prereqtech>HCXPPistoleroAllies</prereqtech>
 			<age>3</age>
 			<displayunitcount>19</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
@@ -1555,32 +1555,31 @@
 		<rolloverstringid>35746</rolloverstringid>
 		<obtainabletechs>
 			<tech x="0.0" y="1.0">HCXPShipFishingBoats</tech>
-			<tech x="0.0" y="2.0">HCXPShipCanoes1</tech>
-			<tech x="0.0" y="3.0">HCXPShipWarCanoes1</tech>
-			<tech x="0.0" y="4.0">HCXPShipWarCanoes2</tech>
+			<tech x="0.0" y="3.0">HCXPShipCanoes1</tech>
+			<tech x="0.0" y="4.0">HCXPShipWarCanoes1</tech>
+			<tech x="0.0" y="5.0">HCXPShipWarCanoes2</tech>
 			<tech x="0.7" y="1.0">HCAdmirality</tech>
-			<tech x="0.7" y="3.0">HCXPBirchbarkTeam</tech>
-			<tech x="1.4" y="4.0">HCXPComancheAllies1</tech>
-			<tech x="1.4" y="5.0">HCXPComancheAllies2</tech>
-			<tech x="2.1" y="3.0">HCXPSiouxNakotaSupport</tech>
-			<tech x="2.1" y="4.0">HCXPCheyenneAllies1</tech>
-			<tech x="2.1" y="5.0">HCXPCheyenneAllies2</tech>
-			<tech x="2.1" y="7.0">HCXPCheyenneAlliesTeam</tech>
-			<tech x="2.8" y="4.0">HCXPCreeAllies1</tech>
-			<tech x="2.8" y="5.0">HCXPCreeAllies2</tech>
-			<tech x="2.8" y="7.0">HCXPCreeAlliesTeam</tech>
-			<tech x="3.5" y="3.0">HCXPSiouxSansArcSupport</tech>
-			<tech x="3.5" y="4.0">HCXPSiouxHunkpapaSupport</tech>
-			<tech x="4.2" y="1.0">HCXPSiouxLakotaSupport</tech>
-			<tech x="4.9" y="3.0">HCXPSiouxBurntThighSupport</tech>
-			<tech x="4.9" y="4.0">HCXPSiouxOglalaSupport</tech>
-			<tech x="5.6" y="1.0">HCXPSiouxDakotaSupport</tech>
-			<tech x="5.6" y="3.0">HCXPSiouxSanteeSupport</tech>
-			<tech x="5.6" y="4.0">HCXPSiouxYanktonSupport</tech>
-			<tech x="5.6" y="5.0">HCXPSiouxTwoKettleSupport</tech>
+			<tech x="0.7" y="4.0">HCXPBirchbarkTeam</tech>
+			<tech x="4.0" y="3.0">HCXPComancheAllies1</tech>
+			<tech x="4.0" y="4.0">HCXPComancheAllies2</tech>
+			<tech x="4.0" y="1.0">HCXPSiouxNakotaSupport</tech>
+			<tech x="4.7" y="3.0">HCXPCheyenneAllies1</tech>
+			<tech x="4.7" y="4.0">HCXPCheyenneAllies2</tech>
+			<tech x="4.7" y="7.0">HCXPCheyenneAlliesTeam</tech>
+			<tech x="5.6" y="3.0">HCXPCreeAllies1</tech>
+			<tech x="5.6" y="5.0">HCXPCreeAllies2</tech>
+			<tech x="5.6" y="7.0">HCXPCreeAlliesTeam</tech>
+			<tech x="1.7" y="3.0">HCXPSiouxSansArcSupport</tech>
+			<tech x="1.7" y="4.0">HCXPSiouxHunkpapaSupport</tech>
+			<tech x="2.4" y="1.0">HCXPSiouxLakotaSupport</tech>
+			<tech x="2.4" y="3.0">HCXPSiouxBurntThighSupport</tech>
+			<tech x="2.4" y="4.0">HCXPSiouxOglalaSupport</tech>
+			<tech x="3.2" y="1.0">HCXPSiouxDakotaSupport</tech>
+			<tech x="3.2" y="3.0">HCXPSiouxSanteeSupport</tech>
+			<tech x="3.2" y="4.0">HCXPSiouxYanktonSupport</tech>
+			<tech x="3.2" y="5.0">HCXPSiouxTwoKettleSupport</tech>
 			<tech x="6.3" y="1.0">HCXPRenegadoAllies</tech>
 			<tech x="6.3" y="3.0">HCXPPistoleroAllies</tech>
-			<tech x="6.3" y="4.0">HCXPComancheroAllies</tech>
 			<tech x="6.3" y="5.0">HCXPBanditGang</tech>
 			<tech x="6.3" y="7.0">HCXPBanditGangRepeat</tech>
 			<tech x="7.0" y="3.0">HCXPBuccaneers</tech>

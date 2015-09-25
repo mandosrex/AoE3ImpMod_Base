@@ -42,6 +42,15 @@
 	</coffers>
 	<cards>
 		<card>
+			<name>YPHCMercsArsonist1Br</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
 			<name>HCBritishHero</name>
 			<maxcount>1</maxcount>
 			<level>40</level>
@@ -1209,7 +1218,7 @@
 			<age>1</age>
 		</card>
 		<card>
-			<name>HCXPComancheroAllies</name>
+			<name>HCXPComancheroAllies11</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
 			<prereqtech>-1</prereqtech>
@@ -1614,12 +1623,12 @@
 			<tech x="1.4" y="4.0">HCMonitorCombatTeam</tech>
 			<tech x="2.1" y="1.0">HCAdmirality</tech>
 			<tech x="2.1" y="5.0">HCNavalGunners</tech>
-			<tech x="4.1" y="3.0">HCXPComancheroAllies</tech>
+			<tech x="4.1" y="3.0">YPHCMercsArsonist1Br</tech>
 			<tech x="4.1" y="4.0">HCMercsHighlanders</tech>
 			<tech x="5.5" y="3.0">HCMercsHessians</tech>
 			<tech x="5.5" y="4.0">HCMercsHessians2</tech>
 			<tech x="4.8" y="3.0">HCMercsCorsairs</tech>
-			<tech x="4.1" y="5.0">HCMercsHighland</tech>
+			<tech x="4.1" y="6.0">HCMercsHighland</tech>
 			<tech x="4.8" y="5.0">HCMercsMediterranean</tech>
 			<tech x="5.5" y="6.0">HCXPMercsGreatCannon</tech>
 			<tech x="6.3" y="3.0">HCXPCherokeeAllies1</tech>

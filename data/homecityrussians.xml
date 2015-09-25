@@ -43,6 +43,15 @@
 	</coffers>
 	<cards>
 		<card>
+			<name>HCXPComancheroAllies</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>7</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
 			<name>HCREVShipFactory</name>
 			<maxcount>-1</maxcount>
 			<level>0</level>
@@ -1647,6 +1656,7 @@
 			<tech x="3.1" y="1.0">HCAdmirality</tech>
 			<tech x="3.1" y="3.0">HCColdWaterPortTeam</tech>
 			<tech x="4.4" y="4.0">HCXPMercsFusiliers</tech>
+			<tech x="4.4" y="5.0">HCXPComancheroAllies</tech>
 			<tech x="5.1" y="3.0">HCMercsManchu</tech>
 			<tech x="5.1" y="4.0">HCXPMercsNinja</tech>
 			<tech x="5.8" y="3.0">HCMercsHighlanders</tech>

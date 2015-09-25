@@ -1170,10 +1170,10 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
-			<name>YPHCMercsJatLancer1</name>
+			<name>YPHCMercsJatLancer1Ot</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
-			<prereqtech>HCMercsMamelukes</prereqtech>
+			<prereqtech>-1</prereqtech>
 			<age>3</age>
 			<displayunitcount>8</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
@@ -1586,15 +1586,15 @@
 			<tech x="1.7" y="4.0">HCShipMonitors</tech>
 			<tech x="2.4" y="7.0">HCXPShipMonitorsTeam</tech>
 			<tech x="3.1" y="1.0">HCAdmirality</tech>
-			<tech x="3.1" y="4.0">YPHCMercsJatLancer1</tech>
+			<tech x="3.1" y="4.0">YPHCMercsJatLancer1Ot</tech>
 			<tech x="3.9" y="3.0">HCMercsMamelukes</tech>
 			<tech x="3.9" y="4.0">HCMercsCorsairs</tech>
 			<tech x="3.9" y="7.0">HCXPMercsCorsairsRepeat</tech>
 			<tech x="3.1" y="5.0">HCMercsMediterranean</tech>
 			<tech x="6.1" y="4.0">HCXPMercsNinja</tech>
-			<tech x="5.4" y="3.0">HCMercsManchu</tech>
-			<tech x="5.4" y="4.0">HCMercsAsian</tech>
-			<tech x="6.1" y="3.0">HCXPComancheroAllies</tech>
+			<tech x="5.3" y="3.0">HCMercsManchu</tech>
+			<tech x="5.3" y="4.0">HCMercsAsian</tech>
+			<tech x="6.1" y="5.0">HCXPComancheroAllies</tech>
 			<tech x="6.8" y="1.0">HCPrivateers</tech>
 			<tech x="6.8" y="3.0">HCPrivateers2</tech>
 			<tech x="4.6" y="1.0">HCXPDanceHallOt</tech>

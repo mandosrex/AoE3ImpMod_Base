@@ -124,9 +124,10 @@
 				<file>buildings\asian_civs\spc\war_tent\Asian_war_tent\asian_war_tent_01</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\spc\tents\largetent_decal01</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>5.00</width>
 				<height>5.00</height>
 			</decal>
@@ -146,9 +147,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\spc\tents\largetent_decal01</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>5.00</width>
 				<height>5.00</height>
 			</decal>
@@ -187,9 +189,10 @@
 				<file>buildings\asian_civs\spc\war_tent\Asian_war_tent\asian_war_tent_02</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\spc\tents\largetent_decal01</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>5.00</width>
 				<height>5.00</height>
 			</decal>
@@ -209,9 +212,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\spc\tents\largetent_decal01</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>5.00</width>
 				<height>5.00</height>
 			</decal>
@@ -250,9 +254,10 @@
 				<file>buildings\asian_civs\spc\war_tent\Asian_war_tent\asian_war_tent_03</file>
 			</assetreference>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\spc\tents\largetent_decal01</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>5.00</width>
 				<height>5.00</height>
 			</decal>
@@ -272,9 +277,10 @@
 				</lowpoly>
 			</logic>
 			<decal>
-				<effecttype>default</effecttype>
+				<effecttype>bump</effecttype>
 				<texture>buildings\spc\tents\largetent_decal01</texture>
 				<selectedtexture>shadows_selections\selection_square_64x64</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
 				<width>5.00</width>
 				<height>5.00</height>
 			</decal>
