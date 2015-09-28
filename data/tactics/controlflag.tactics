@@ -7,6 +7,7 @@
 		<active>1</active>
 		<maxrange>16</maxrange>
 		<persistent>1</persistent>
+		<modifyabstracttype>Unit</modifyabstracttype>
 		<modifytype>Speed</modifytype>
 		<modifymultiplier>1.2</modifymultiplier>
 		<modelattachment></modelattachment>

@@ -37,6 +37,18 @@
 		<component>
 			hat
 			<assetreference type="GrannyModel">
+				<file>units\asians\natives\sepoy\sepoy_01_hat</file>
+			</assetreference>
+		</component>
+		<anim>
+			<component>hat</component>
+		</anim>
+	</attachment>
+	<attachment>
+		hat2
+		<component>
+			hat
+			<assetreference type="GrannyModel">
 				<file>units\asians\spc\arsonist\arsonist_lp_hat</file>
 			</assetreference>
 		</component>

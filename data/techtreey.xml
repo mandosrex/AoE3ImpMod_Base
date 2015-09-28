@@ -3252,6 +3252,7 @@
 			<Effect type="TechStatus" status="obtainable">OreRefining</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpExcessiveTaxationD</Effect>
+			<Effect type="TechStatus" status="obtainable">ImpExcessiveTaxationD2</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpLargeScaleAgriculture</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="obtainable">Spies</Effect>
@@ -20038,7 +20039,7 @@
 		<Cost resourcetype="Wood">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_coin_coffers\hc_coin_coffers</Icon>
+		<Icon>ui\techs\hc_trade_route_coin\hc_trade_route_coin</Icon>
 		<RolloverTextID>780900</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
@@ -44581,16 +44582,16 @@
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Percent">
 				<Target type="ProtoUnit">Herdable</Target>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="GathererLimit" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="GathererLimit" relativity="Assign">
 				<Target type="ProtoUnit">HouseEast</Target>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="GathererLimit" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="GathererLimit" relativity="Assign">
 				<Target type="ProtoUnit">House</Target>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="GathererLimit" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="GathererLimit" relativity="Assign">
 				<Target type="ProtoUnit">HouseMed</Target>
 			</Effect>
-			<Effect type="Data" amount="5.00" subtype="GathererLimit" relativity="Absolute">
+			<Effect type="Data" amount="5.00" subtype="GathererLimit" relativity="Assign">
 				<Target type="ProtoUnit">Manor</Target>
 			</Effect>
 		</Effects>
@@ -51770,6 +51771,9 @@
 			<Effect type="TextOutput">61613</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypWaterBuffalo</Target>
+			</Effect>
+			<Effect type="Data" amount="6.00" subtype="GathererLimit" relativity="Assign">
+				<Target type="ProtoUnit">ypVillage</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -70236,6 +70240,25 @@ Indians" type="Normal">
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Privateer" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ImpExcessiveTaxationD2" type="Normal">
+		<DBID>1674</DBID>
+		<DisplayNameID>780975</DisplayNameID>
+		<Cost resourcetype="Fame">500.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_coin_coffers\hc_coin_coffers</Icon>
+		<RolloverTextID>780976</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">ImpExcessiveTaxationD</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1000.00" subtype="Resource" resource="Gold" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>

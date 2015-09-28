@@ -2598,7 +2598,7 @@
 		<String _locID="26331">Find Tower</String>
 		<String _locID="26355" symbol="cStringPlaceTradeRoute">Place Trade Route</String>
 		<String _locID="26444" symbol="cStringNativePreAlly">"These are our lands, but we will permit you to build a Trading Post here to forge an alliance between our people."</String>
-		<String _locID="26445" symbol="cStringNativeNotAlly">"We are allied with another European ... for now."</String>
+		<String _locID="26445" symbol="cStringNativeNotAlly">"We are allied with another empire ... for now."</String>
 		<String _locID="26446" symbol="cStringNativePostAlly">"My ally, do you request warriors or knowledge this year?"</String>
 		<String _locID="26451">Surgeons are now available at the Cathedral.</String>
 		<String _locID="26494">Priests are now available at the Cathedral.</String>
@@ -3697,7 +3697,7 @@
 		<String _locID="29183">Outlaw Blowgunner</String>
 		<String _locID="29188">Treasure guardian</String>
 		<String _locID="29189">Defeat this guardian to collect its Treasure.</String>
-		<String _locID="29190">Outlaw Rifleman</String>
+		<String _locID="29190">Outlaw Renegade</String>
 		<String _locID="29195">GRD Outlaw Rider</String>
 		<String _locID="29196">GRD Outlaw Blowgunner</String>
 		<String _locID="29198">GRD Outlaw Rifleman</String>
@@ -3864,8 +3864,8 @@
 		<String _locID="29646">Alligator</String>
 		<String _locID="29648">Treasure Guardian</String>
 		<String _locID="29649">Defeat this Guardian to collect its Treasure.</String>
-		<String _locID="29650">Pirate</String>
-		<String _locID="29651">GRD Pirate</String>
+		<String _locID="29650">Outlaw Buccaneer</String>
+		<String _locID="29651">GRD Buccaneer</String>
 		<String _locID="29662">Native American scout</String>
 		<String _locID="29663">A Native American scout. Good for exploration, but has a weak attack.</String>
 		<String _locID="29664">Native Scout</String>
@@ -6271,7 +6271,7 @@
 		<String _locID="35412">Treasure</String>
 		<String _locID="35419">Treasure guardian</String>
 		<String _locID="35420">Defeat this guardian to collect its Treasure.</String>
-		<String _locID="35421">Outlaw Pistolero</String>
+		<String _locID="35421">Outlaw Gunslinger</String>
 		<String _locID="35422">GRD Outlaw Pistol</String>
 		<String _locID="35465">1 Galley and Cords of 400 Wood</String>
 		<String _locID="35466">The Admiral of the Ocean Sea</String>
@@ -15065,26 +15065,26 @@
 		<String _locID="44649">Adoption Shipment has arrived.</String>
 		<String _locID="44650">Black Arrow Shipment has arrived.</String>
 		<String _locID="44651">Ranged infantry Mercenary</String>
-		<String _locID="44652">Rifleman for hire.</String>
-		<String _locID="44653">Renegado</String>
-		<String _locID="44654">MERC Renegado</String>
+		<String _locID="44652">Outlaw Rifleman for hire.</String>
+		<String _locID="44653">Renegade</String>
+		<String _locID="44654">MERC Renegade</String>
 		<String _locID="44655">Ranged cavalry Mercenary</String>
 		<String _locID="44656">Mounted gunman for hire.</String>
 		<String _locID="44657">Comanchero</String>
 		<String _locID="44658">Merc Comanchero</String>
 		<String _locID="44659">Ranged infantry Mercenary</String>
-		<String _locID="44660">Skilled pistolero for hire.</String>
+		<String _locID="44660">Skilled outlaw for hire.</String>
 		<String _locID="44661">Gunslinger</String>
 		<String _locID="44662">Merc Gunslinger</String>
 		<String _locID="44663">6 Comanche Allies</String>
 		<String _locID="44664">18 Comanche Allies</String>
 		<String _locID="44665">6 Cheyenne Allies</String>
 		<String _locID="44666">18 Cheyenne Allies</String>
-		<String _locID="44667">10 Renegado Allies</String>
-		<String _locID="44668">10 Pistolero Allies</String>
+		<String _locID="44667">10 Renegade Allies</String>
+		<String _locID="44668">10 Gunslinger Allies</String>
 		<String _locID="44669">Hire Hungarian Poleaxemen</String>
 		<String _locID="44670">Outlaw Band</String>
-		<String _locID="44671">A large force of outlaws joins your side, with 10 Renegados and 10 Pistoleros.</String>
+		<String _locID="44671">A large force of outlaws joins your side, with 10 Renegades and 10 Gunslingers.</String>
 		<String _locID="44672">Dakota Support</String>
 		<String _locID="44673">The Dakota Nation sends its support.</String>
 		<String _locID="44674">The Dakota Nation sends 5 Tashunke Prowlers and increases the hitpoints of all Tashunke Prowlers.</String>
@@ -16087,7 +16087,7 @@
 		<String _locID="45673">Aenna attack and hitpoints increased.</String>
 		<String _locID="45674">Elite Aenna</String>
 		<String _locID="45675">Elite Aenna</String>
-		<String _locID="45676">Elite Oneida Rider</String>
+		<String _locID="45676">Elite Axe Rider</String>
 		<String _locID="45677">Axe Rider attack and hitpoints increased.</String>
 		<String _locID="45678">Champion Axe Riders</String>
 		<String _locID="45679">Champion Aenna</String>
@@ -16520,20 +16520,20 @@
 		<String _locID="46115">Colonials</String>
 		<String _locID="46116">An outlaw.</String>
 		<String _locID="46117">A dangerous outlaw with a pistol. Can mount and dismount his horse.</String>
-		<String _locID="46118">Pistolero</String>
-		<String _locID="46119">SALOON Pistolero</String>
+		<String _locID="46118">Gunslinger</String>
+		<String _locID="46119">SALOON Gunslinger</String>
 		<String _locID="46120">An outlaw.</String>
 		<String _locID="46121">A dangerous outlaw on horseback.</String>
 		<String _locID="46122">Comanchero</String>
 		<String _locID="46123">SALOON Comanchero</String>
 		<String _locID="46124">An outlaw.</String>
 		<String _locID="46125">A dangerous outlaw with a rifle.</String>
-		<String _locID="46126">Renegado</String>
-		<String _locID="46127">SALOON Renegado</String>
+		<String _locID="46126">Renegade</String>
+		<String _locID="46127">SALOON Renegade</String>
 		<String _locID="46128">A Pirate.</String>
-		<String _locID="46129">A dangerous Pirate.</String>
-		<String _locID="46130">Pirate</String>
-		<String _locID="46131">SALOON Pirate</String>
+		<String _locID="46129">A dangerous pirate.</String>
+		<String _locID="46130">Buccaneer</String>
+		<String _locID="46131">SALOON Buccaneer</String>
 		<String _locID="46132">Saloon Tech Outlaw Pistol</String>
 		<String _locID="46133">Saloon Tech Outlaw Rider</String>
 		<String _locID="46134">Saloon Tech Pirate</String>
@@ -17398,7 +17398,7 @@
 		<String _locID="46996">Sends Zapotec warriors and also upgrades them to Elite.</String>
 		<String _locID="46997">30 Zapotec Allies</String>
 		<String _locID="46998">TEAM 10 Cree Allies</String>
-		<String _locID="46999">A large force of outlaws joins your side, with 10 Renegados and 10 Pistoleros.</String>
+		<String _locID="46999">A large force of outlaws joins your side, with 10 Renegades and 10 Gunslingers.</String>
 		<String _locID="47000">Bandit Gang</String>
 		<String _locID="47001">Outlaw, Wokou, and Maratha attack and hitpoints increased.</String>
 		<String _locID="47002">Wild West</String>
@@ -19981,7 +19981,7 @@
 		<String _locID="60533">Exalted Siege Elephant</String>
 		<String _locID="60534">Treasure guardian</String>
 		<String _locID="60535">Defeat this guardian to collect its Treasure.</String>
-		<String _locID="60536">Smuggler</String>
+		<String _locID="60536">Wokou Smuggler</String>
 		<String _locID="60537">GRD Smuggler</String>
 		<String _locID="60538">Monk attack and hitpoints increased and 2 Wokou</String>
 		<String _locID="60539">Monk HP</String>
@@ -21055,7 +21055,7 @@
 		<String _locID="61607">{E^Fattening Food source^}{J^Enhances nearby Shrines^}{I^Generates experience points^}</String>
 		<String _locID="61608">{E^Herd animal. Fattens over time. Fattens faster if tasked on a Livestock Pen, Farm, Village, or House.^}{J^Herd animal. Enhances resources generated by Shrines when tasked to them.^}{I^Herd animal. Generates experience points. Increased experience points generation when tasked to a Sacred Field.^}</String>
 		<String _locID="61609">Water Buffalo</String>
-		<String _locID="61610">You can now train Water Buffalo from Villages.</String>
+		<String _locID="61610">You can now train Water Buffalos from Villages and each Village can herd one more animal.</String>
 		<String _locID="61611">Water Buffalo Ranching</String>
 		<String _locID="61612">Ranching Shipment has arrived.</String>
 		<String _locID="61613">Water Buffalo Ranching Shipment has arrived.</String>
@@ -21113,7 +21113,7 @@
 		<String _locID="61665">Wokou Dhow. Mercenary warship.</String>
 		<String _locID="61666">Wokou Dhow</String>
 		<String _locID="61667">SHP Wokou Dhow</String>
-		<String _locID="61668">Ships a Wokou Dhow containing Wokou Ronin outlaws.</String>
+		<String _locID="61668">Ships a Wokou Dhow containing Wokou Samurai outlaws.</String>
 		<String _locID="61669">Recruit Wokou +2 Ronin</String>
 		<String _locID="61670">Ships a Wokou Dhow containing Ronin Samurai mercenaries.</String>
 		<String _locID="61671">Recruit Wokou +4 Ronin</String>
@@ -21124,8 +21124,8 @@
 		<String _locID="61676">Ships 1 Wokou Dhow containing 12 Blind Monks.</String>
 		<String _locID="61677">Recruit Wokou +12 Blind Monks</String>
 		<String _locID="61678">Ranged cavalry, good against cavalry</String>
-		<String _locID="61679">Mongolian nomadic horseman. Good against cavalry.</String>
-		<String _locID="61680">Wokou Horseman</String>
+		<String _locID="61679">Wokou Mongolian nomadic horseman. Good against cavalry.</String>
+		<String _locID="61680">Mangudai</String>
 		<String _locID="61681">CAV Wokou Horseman</String>
 		<String _locID="61682">An outlaw.</String>
 		<String _locID="61683">A dangerous outlaw with a rifle.</String>
@@ -21133,7 +21133,7 @@
 		<String _locID="61685">WOKOU Exiled Rifleman</String>
 		<String _locID="61686">Treasure guardian</String>
 		<String _locID="61687">Defeat this guardian to collect its Treasure.</String>
-		<String _locID="61688">Mongol Rider</String>
+		<String _locID="61688">Wokou Mangudai</String>
 		<String _locID="61689">GRD Mongol Rider</String>
 		<String _locID="61690">Treasure guardian</String>
 		<String _locID="61691">Defeat this guardian to collect its Treasure.</String>
@@ -21141,7 +21141,7 @@
 		<String _locID="61693">GRD Exiled Rifleman</String>
 		<String _locID="61694">Treasure guardian</String>
 		<String _locID="61695">Defeat this guardian to collect its Treasure.</String>
-		<String _locID="61696">Blind Monk</String>
+		<String _locID="61696">Wokou Monk</String>
 		<String _locID="61697">GRD Blind Monk</String>
 		<String _locID="61698">Archer with a lucky shot, good against heavy infantry</String>
 		<String _locID="61699">A Monk with keen senses. Good against infantry.</String>
@@ -21466,7 +21466,7 @@
 		<String _locID="62018">TEAM Advanced Market Shipment has arrived.</String>
 		<String _locID="62019">Advanced Export Market Shipment has arrived.</String>
 		<String _locID="62020">1 Wokou Dhow +4 Wayward Ronin</String>
-		<String _locID="62021">1 Wokou Dhow +7 Wokou Pirates</String>
+		<String _locID="62021">1 Wokou Dhow +7 Wokou Smugglers</String>
 		<String _locID="62022">Fishing Squadron</String>
 		<String _locID="62023">5 Fishing Boats</String>
 		<String _locID="62024">TEAM 3 Fishing Boats</String>
@@ -21500,9 +21500,9 @@
 		<String _locID="62052">Factory Food production increased.</String>
 		<String _locID="62053">Food Donation</String>
 		<String _locID="62054">Asian pirate, good against cavalry and buildings</String>
-		<String _locID="62055">An Eastern pirate in search of booty. Good against cavalry and buildings.</String>
-		<String _locID="62056">Wokou Pirate</String>
-		<String _locID="62057">INF Wokou Pirate</String>
+		<String _locID="62055">An Eastern Wokou pirate in search of booty. Good against cavalry and buildings.</String>
+		<String _locID="62056">Smuggler</String>
+		<String _locID="62057">INF Wokou Smuggler</String>
 		<String _locID="62058">Sepoy attack and hitpoints increased.</String>
 		<String _locID="62059">Disciplined Sepoy</String>
 		<String _locID="62060">Disciplined Ashigaru</String>
@@ -21966,10 +21966,10 @@
 		<String _locID="62547">VIL Shrine Wagon</String>
 		<String _locID="62548">2 Shrine Wagons</String>
 		<String _locID="62549">Heavenly Kami</String>
-		<String _locID="62550">4 Wokou Pirates</String>
-		<String _locID="62551">8 Wokou Pirates</String>
+		<String _locID="62550">4 Wokou Smugglers</String>
+		<String _locID="62551">8 Wokou Smugglers</String>
 		<String _locID="62552">Underworld Wokou</String>
-		<String _locID="62553">Increases Wokou Pirates attack and hitpoints. Allows you to train them from your Docks.</String>
+		<String _locID="62553">Increases Wokou Smugglers attack and hitpoints. Allows you to train them from your Docks.</String>
 		<String _locID="62554">Underworld Wokou</String>
 		<String _locID="62555">Sohei Hitpoints Shipment has arrived.</String>
 		<String _locID="62556">Sohei Regeneration Shipment has arrived.</String>
@@ -22170,12 +22170,12 @@
 		<String _locID="62777">Spawns Yojimbos</String>
 		<String _locID="62778">Osaka Castle</String>
 		<String _locID="62779">Masterless Samurai, good against cavalry and buildings</String>
-		<String _locID="62780">A Japanese swordsman with no master. Good against cavalry and buildings.</String>
-		<String _locID="62781">Wokou Ronin</String>
+		<String _locID="62780">A Japanese Wokou swordsman with no master. Good against cavalry and buildings.</String>
+		<String _locID="62781">Masterless Samurai</String>
 		<String _locID="62782">INF Wokou Ronin</String>
 		<String _locID="62783">Treasure guardian</String>
 		<String _locID="62784">Defeat this guardian to collect its Treasure.</String>
-		<String _locID="62785">Masterless Samurai</String>
+		<String _locID="62785">Wokou Samurai</String>
 		<String _locID="62786">GRD Masterless Samurai</String>
 		<String _locID="62787">1 Pet Panda</String>
 		<String _locID="62788">Villages shoot when garrisoned. Can call small packs of Irregulars and Sentries.</String>
@@ -22195,7 +22195,7 @@
 		<String _locID="62802">Advanced Irrigation Shipment has arrived.</String>
 		<String _locID="62803">Trading House Shipment has arrived.</String>
 		<String _locID="62804">Archer, good against heavy infantry / hand infantry, good against cavalry</String>
-		<String _locID="62805">A Wokou force of archers and swordsmen, good for raiding enemy ports.\n3 Wokou Monk: archer with a lucky shot, good against infantry.\n3 Wokou Pirate: swordsman that is good against cavalry.</String>
+		<String _locID="62805">A Wokou force of archers and swordsmen, good for raiding enemy ports.\n3 Blind Monk: archer with a lucky shot, good against infantry.\n3 Smuggler: swordsman that is good against cavalry.</String>
 		<String _locID="62806">Wokou Army</String>
 		<String _locID="62807">WOKOU Blind Monk</String>
 		<String _locID="62808">Hand infantry mercenary, powerful area damage in hand-to-hand combat</String>
@@ -22221,9 +22221,9 @@
 		<String _locID="62840">TEAM Improved Warships</String>
 		<String _locID="62841">Improved Warships Shipment has arrived.</String>
 		<String _locID="62842">TEAM Improved Warships Shipment has arrived.</String>
-		<String _locID="62843">4 Wokou Pirates</String>
+		<String _locID="62843">4 Wokou Smugglers</String>
 		<String _locID="62844">Ships a Wokou Dhow containing Wokou Horseman outlaws.</String>
-		<String _locID="62845">Recruit Wokou +3 Wokou Horsemen</String>
+		<String _locID="62845">Recruit Wokou +3 Mangudai</String>
 		<String _locID="62846">Ships a Wokou Dhow containing Blind Monks.</String>
 		<String _locID="62847">Recruit Wokou +4 Blind Monks</String>
 		<String _locID="62848">Ships a Wokou Dhow containing Petards.</String>
@@ -22241,7 +22241,7 @@
 		<String _locID="62860">Mercenary Banner Army</String>
 		<String _locID="62861">Mandarin Banner Army Shipment has arrived.</String>
 		<String _locID="62862">Mercenary Banner Army Shipment has arrived.</String>
-		<String _locID="62863">Enables Wokou Banner Army at the Village, composed of Wokou Pirates and Blind Monks.</String>
+		<String _locID="62863">Enables Wokou Banner Army at the Village, composed of Smugglers and Blind Monks.</String>
 		<String _locID="62864">Wokou Banner Army</String>
 		<String _locID="62865">Mercenary Banner Army Shipment has arrived.</String>
 		<String _locID="62866">Wokou Banner Army Shipment has arrived.</String>
@@ -23403,7 +23403,7 @@
 		<String _locID="64108" comment="purple unit">Refugees</String>
 		<String _locID="64109" comment="red units">Allies of Uesugi</String>
 		<String _locID="64110">Army of Daimyo Uesugi</String>
-		<String _locID="64111" comment="purple units">Wokou Pirates</String>
+		<String _locID="64111" comment="purple units">Wokou Smugglers</String>
 		<String _locID="64112" comment="green units">Owari Village</String>
 		<String _locID="64113" comment="1 of the red fort armies">Gifu Castle Garrison</String>
 		<String _locID="64114" comment="1 of the red fort armies">Kiyosu Castle Garrison</String>
@@ -27614,8 +27614,8 @@
 		<String _locID="68327">CON Blind Monk</String>
 		<String _locID="68328">Elite Pirate Treasure Guardian</String>
 		<String _locID="68329">Defeat this guardian to collect its Treasure.</String>
-		<String _locID="68330">Wokou Pirate</String>
-		<String _locID="68331">CON Wokou Pirate</String>
+		<String _locID="68330">Wokou Smuggler</String>
+		<String _locID="68331">CON Wokou Smuggler</String>
 		<String _locID="68332">Military units can train in larger blocks.</String>
 		<String _locID="68333">Threshold used on Snap to Unit</String>
 		<String _locID="68334">Allied Daimyo</String>
@@ -27681,7 +27681,7 @@
 		<String _locID="68398">Saloon Blind Monk</String>
 		<String _locID="68399">Saloon Wayward Ronin</String>
 		<String _locID="68400">Saloon Horseman</String>
-		<String _locID="68401">Saloon Wokou Pirate</String>
+		<String _locID="68401">Saloon Wokou Cutthroat</String>
 		<String _locID="68402">Hand infantry, good against cavalry / rifle infantry, good against heavy infantry</String>
 		<String _locID="68403">An elite offensive army of swordsmen and ranged infantry.\n3 Changdao: Heavy swordsmen that are good against infantry.\n3 Arquebusier: Riflemen that are good against infantry.</String>
 		<String _locID="68404">Territorial Army</String>
@@ -28074,7 +28074,7 @@
 		<String _locID="68792" gamecharacter="Captain Huang" soundfilename="YHUAN5007">Let us build a great wonder in honor of the Emperor. It will raise morale and strengthen our army.</String>
 		<String _locID="68793" gamecharacter="Captain Huang">Otherwise, we will not stand a chance, and our dead will litter the beaches.</String>
 		<String _locID="68794" comment="blue">Imperial Fleet</String>
-		<String _locID="68795" comment="red">Wokou Pirates</String>
+		<String _locID="68795" comment="red">Wokou Cutthroats</String>
 		<String _locID="68796">Imperial Shipbuilder</String>
 		<String _locID="68797">Army of the Zamorin</String>
 		<String _locID="68798">Hostile Natives</String>
@@ -28847,20 +28847,20 @@
 		<String _locID="69566">REP Yojimbo</String>
 		<String _locID="69567">An outlaw.</String>
 		<String _locID="69568">A dangerous outlaw with a pistol.</String>
-		<String _locID="69569">Repentant Pistolero</String>
-		<String _locID="69570">REP Pistolero</String>
+		<String _locID="69569">Repentant Gunslinger</String>
+		<String _locID="69570">REP Gunslinger</String>
 		<String _locID="69571">An outlaw.</String>
 		<String _locID="69572">A dangerous outlaw on horseback.</String>
 		<String _locID="69573">Repentant Comanchero</String>
 		<String _locID="69574">REP Comanchero</String>
 		<String _locID="69575">An outlaw.</String>
 		<String _locID="69576">A dangerous outlaw with a rifle.</String>
-		<String _locID="69577">Repentant Renegado</String>
-		<String _locID="69578">REP Renegado</String>
+		<String _locID="69577">Repentant Renegade</String>
+		<String _locID="69578">REP Renegade</String>
 		<String _locID="69579">A Pirate.</String>
-		<String _locID="69580">A dangerous Pirate.</String>
-		<String _locID="69581">Repentant Pirate</String>
-		<String _locID="69582">REP Pirate</String>
+		<String _locID="69580">A dangerous pirate.</String>
+		<String _locID="69581">Repentant Buccaneer</String>
+		<String _locID="69582">REP Buccaneer</String>
 		<String _locID="69583">Highwayman, good against heavy infantry</String>
 		<String _locID="69584">A dangerous Indian highwayman armed with a pistol.</String>
 		<String _locID="69585">Repentant Dacoit</String>
@@ -28875,15 +28875,15 @@
 		<String _locID="69594">REP Monk</String>
 		<String _locID="69595">Asian pirate, good against cavalry and buildings</String>
 		<String _locID="69596">An Eastern pirate in search of booty. Good against cavalry and buildings.</String>
-		<String _locID="69597">Repentant Wokou Pirate</String>
-		<String _locID="69598">REP Wokou Pirate</String>
+		<String _locID="69597">Repentant Cutthroat</String>
+		<String _locID="69598">REP Wokou Cutthroat</String>
 		<String _locID="69599">Ranged cavalry, good against cavalry</String>
 		<String _locID="69600">Mongolian nomadic horseman. Good against cavalry.</String>
 		<String _locID="69601">Repentant Horseman</String>
 		<String _locID="69602">REP Horseman</String>
 		<String _locID="69603">Masterless Samurai</String>
 		<String _locID="69604">An Eastern swordsman with no master.</String>
-		<String _locID="69605">Repentant Wokou Ronin</String>
+		<String _locID="69605">Repentant Wokou Samurai</String>
 		<String _locID="69606">REP Wokou Ronin</String>
 		<String _locID="69607">Saloon Dacoit</String>
 		<String _locID="69608">Saloon Thuggee</String>
@@ -30226,7 +30226,7 @@
 		<String _locID="780809">%1s has recovered a navigation chart worth 200 XP.</String>
 		<String _locID="780810">Aid Tent</String>
 		<String _locID="780811">Blackbeard</String>
-		<String _locID="780812">Raising the black flag will enable Spies and Blockade to be researched by your colony. Grants Outlaw Pirates and a pirate fleet.</String>
+		<String _locID="780812">Raising the black flag will enable Spies and Blockade to be researched by your colony. Grants Outlaw Buccaneers and a pirate fleet.</String>
 		<String _locID="780813">Queen Anne's Revenge</String>
 		<String _locID="780814">Flagship of Edward "Blackbeard" Teach.</String>
 		<String _locID="780815">Piracy</String>
@@ -30304,7 +30304,7 @@
 		<String _locID="780896">War Camp</String>
 		<String _locID="780897">Trains hand and ranged infantry.</String>
 		<String _locID="780898">Solid general-purpose infantry.</String>
-		<String _locID="780899">Excessive Banking</String>
+		<String _locID="780899">Professional Banking</String>
 		<String _locID="780900">Increases Bank limit by 2.</String>
 		<String _locID="780901">Powerful, defensive building that can also train units.</String>
 		<String _locID="780902">Fame</String>
@@ -30380,5 +30380,8 @@
 		<String _locID="780972">All mercenaries train faster.</String>
 		<String _locID="780973">Ships a number of Scottish Highlander mercenaries, +1 Villager.</String>
 		<String _locID="780974">Ships a number of Indian Arsonist mercenaries that are good against infantry and buildings.</String>
+		<String _locID="780975">Excessive Loans</String>
+		<String _locID="780976">Use Fame to get 1000 Coin from your Banks.</String>
+		<String _locID="780977">Elmaya</String>
 	</Language>
 </StringTable>
