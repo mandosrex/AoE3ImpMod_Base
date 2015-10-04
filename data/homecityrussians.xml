@@ -111,7 +111,7 @@
 			<age>1</age>
 		</card>
 		<card>
-			<name>HCShipSettlers3</name>
+			<name>HCShipSettlers1</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
@@ -120,12 +120,12 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
-			<name>HCShipSettlers2</name>
+			<name>HCShipSettlers3</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
-			<prereqtech>HCShipSettlers3</prereqtech>
+			<prereqtech>HCShipSettlers1</prereqtech>
 			<age>1</age>
-			<displayunitcount>4</displayunitcount>
+			<displayunitcount>3</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
@@ -1415,8 +1415,8 @@
 		<displaynamestringid>24970</displaynamestringid>
 		<rolloverstringid>25536</rolloverstringid>
 		<obtainabletechs>
-			<tech x="0.1" y="1.0">HCShipSettlers3</tech>
-			<tech x="0.1" y="2.0">HCShipSettlers2</tech>
+			<tech x="0.1" y="1.0">HCShipSettlers1</tech>
+			<tech x="0.1" y="2.0">HCShipSettlers3</tech>
 			<tech x="1.0" y="1.0">HCShipFoodCrates1</tech>
 			<tech x="1.7" y="1.0">HCShipWoodCrates1</tech>
 			<tech x="2.4" y="1.0">HCShipCoinCrates1</tech>

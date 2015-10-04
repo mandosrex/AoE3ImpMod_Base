@@ -282,7 +282,6 @@
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="TechStatus" status="active">VeteranCraneq</Effect>
 			<Effect type="TechStatus" status="obtainable">SpyglassE</Effect>
 			<Effect type="TechStatus" status="obtainable">Ranching</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -10460,12 +10459,10 @@
 		<Effects>
 			<Effect type="TechStatus" status="obtainable">ShipHowitzers</Effect>
 			<Effect type="TechStatus" status="obtainable">ypImperialMonitors</Effect>
-			<Effect type="TechStatus" status="active">YPDisciplinedGurkha</Effect>
 			<Effect type="TechStatus" status="obtainable">TownGuard</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedCamel</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedCamelGun</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedRajput</Effect>
-			<Effect type="TechStatus" status="obtainable">YPDisciplinedGurkha</Effect>
 			<Effect type="TechStatus" status="obtainable">YPDisciplinedSepoy</Effect>
 			<Effect type="TechStatus" status="obtainable">YPExaltedCamel</Effect>
 			<Effect type="TechStatus" status="obtainable">YPExaltedCamelGun</Effect>
@@ -14764,8 +14761,7 @@
 	<Tech name="ChurchMilletSystem" type="Normal">
 		<DBID>352</DBID>
 		<DisplayNameID>23959</DisplayNameID>
-		<Cost resourcetype="Food">100.0000</Cost>
-		<Cost resourcetype="Fame">50.0000</Cost>
+		<Cost resourcetype="Wood">100.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\millet_system\millet_system_64x64</Icon>
@@ -15428,6 +15424,9 @@
 		<RolloverTextID>24637</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">Mercenary</Target>
+			</Effect>
 			<Effect type="Data" amount="1800.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">HCXPCaribAlliesRepeat</Target>
 			</Effect>
@@ -19972,8 +19971,7 @@
 	<Tech name="ChurchAbbassidMarket" type="Normal">
 		<DBID>1669</DBID>
 		<DisplayNameID>32343</DisplayNameID>
-		<Cost resourcetype="Food">600.0000</Cost>
-		<Cost resourcetype="Fame">50.0000</Cost>
+		<Cost resourcetype="Wood">600.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\abbasid_common_market\abbasid_common_market_64x64</Icon>
@@ -21331,7 +21329,7 @@
 			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
-			<Effect type="Data" action="AutoGather" amount="1.05" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="TextOutput">41825</Effect>
@@ -21764,6 +21762,7 @@
 			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
+			<Effect type="TechStatus" status="active">VeteranCraneq</Effect>
 			<Effect type="TextOutput">780790</Effect>
 		</Effects>
 	</Tech>
@@ -29959,6 +29958,9 @@
 		<RolloverTextID>36577</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">Mercenary</Target>
+			</Effect>
 			<Effect type="Data" amount="375.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">HCPrivateers</Target>
 			</Effect>
@@ -32605,8 +32607,7 @@
 	<Tech name="ChurchKopruluViziers" type="Normal">
 		<DBID>2666</DBID>
 		<DisplayNameID>41958</DisplayNameID>
-		<Cost resourcetype="Food">250.0000</Cost>
-		<Cost resourcetype="Fame">50.0000</Cost>
+		<Cost resourcetype="Wood">250.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\koprulu_viziers\koprulu_viziers_icon_64x64</Icon>
@@ -50617,6 +50618,7 @@
 			<Effect type="Data" action="sweepDamage" amount="11.00" subtype="Damage" relativity="Assign">
 				<Target type="ProtoUnit">AbstractIndianMonk</Target>
 			</Effect>
+			<Effect type="TechStatus" status="active">YPDisciplinedGurkha</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ypFortressizeJapanese" type="Normal">
@@ -58920,9 +58922,6 @@ Indians" type="Normal">
 			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="ypSepoy" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
-				<Target type="ProtoUnit">ypNatMercGurkha</Target>
-			</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianCharminar2</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianTowerOfVictory2</Effect>
 			<Effect type="TechStatus" status="unobtainable">YPWonderIndianTajMahal2</Effect>
@@ -66143,6 +66142,9 @@ Indians" type="Normal">
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">Mercenary</Target>
+			</Effect>
 			<Effect type="Data" amount="1800.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="Tech">HCXPCaribAlliesRepeat</Target>
 			</Effect>
@@ -67239,6 +67241,7 @@ Indians" type="Normal">
 		<RolloverTextID>69797</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
