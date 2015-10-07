@@ -1024,7 +1024,7 @@
 			<Effect type="TechStatus" status="obtainable">ImperialFieldGun</Effect>
 			<Effect type="TechStatus" status="obtainable">FieldGun</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranDragoonsShadow</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialManOWar</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialManOWarNew</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialMonitors</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCFortCenter</Target>
@@ -1142,9 +1142,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Ruyter</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
@@ -2249,7 +2246,7 @@
 			<Effect type="TechStatus" status="obtainable">VeteranDragoonsShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranSkirmishersShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialManOWar</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialMonitors</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialMonitorsNew</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCFortCenter</Target>
 			</Effect>
@@ -2653,7 +2650,6 @@
 				<Target type="ProtoUnit">FortFrontier</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpLegendaryNatives</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialMonitors</Effect>
 			<Effect type="TechStatus" status="obtainable">EliteDogSoldierShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">LegendaryDogSoldierShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">ChampionDogSoldierShadow</Effect>
@@ -3042,7 +3038,6 @@
 				<Target type="ProtoUnit">ExplorerDog</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpLegendaryNatives</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialMonitors</Effect>
 			<Effect type="TechStatus" status="obtainable">EliteDogSoldierShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">LegendaryDogSoldierShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">ChampionDogSoldierShadow</Effect>
@@ -3169,7 +3164,6 @@
 				<Target type="ProtoUnit">ExplorerDog</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpLegendaryNatives</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialMonitors</Effect>
 			<Effect type="TechStatus" status="obtainable">EliteDogSoldierShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">LegendaryDogSoldierShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">ChampionDogSoldierShadow</Effect>
@@ -3300,7 +3294,6 @@
 				<Target type="ProtoUnit">ExplorerDog</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpLegendaryNatives</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialMonitors</Effect>
 			<Effect type="TechStatus" status="obtainable">EliteDogSoldierShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">LegendaryDogSoldierShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">ChampionDogSoldierShadow</Effect>
@@ -5202,7 +5195,7 @@
 			<Effect type="TechStatus" status="active">ImperialRocket</Effect>
 			<Effect type="TechStatus" status="active">ImperialHowitzer</Effect>
 			<Effect type="TechStatus" status="active">ImperialFieldGun</Effect>
-			<Effect type="TechStatus" status="active">ImperialManOWar</Effect>
+			<Effect type="TechStatus" status="active">ImperialManOWarNew</Effect>
 			<Effect type="TechStatus" status="active">ImperialHussars</Effect>
 			<Effect type="TechStatus" status="active">ImperialLongbowmen</Effect>
 			<Effect type="TechStatus" status="active">ImperialMonitors</Effect>
@@ -5419,7 +5412,7 @@
 			<Effect type="TechStatus" status="active">ImperialCannon</Effect>
 			<Effect type="TechStatus" status="active">ImperialHowitzer</Effect>
 			<Effect type="TechStatus" status="active">ImperialFieldGun</Effect>
-			<Effect type="TechStatus" status="active">ImperialMonitors</Effect>
+			<Effect type="TechStatus" status="active">ImperialMonitorsNew</Effect>
 			<Effect type="TechStatus" status="active">ImperialManOWar</Effect>
 			<Effect type="TechStatus" status="active">ImpLegendaryNatives</Effect>
 			<Effect type="TechStatus" status="active">ImperialHorseArtillery</Effect>
@@ -19181,6 +19174,15 @@
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Frigate</Target>
 			</Effect>
+			<Effect type="Data" action="BroadsideAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">Frigate</Target>
+			</Effect>
+			<Effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">Frigate</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">Frigate</Target>
+			</Effect>
 			<Effect type="SetName" proto="Frigate" culture="none" newName="47118"/>
 		</Effects>
 	</Tech>
@@ -19422,6 +19424,41 @@
 				<Target type="ProtoUnit">Monitor</Target>
 			</Effect>
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Monitor</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ImperialMonitorsNew" type="Normal">
+		<DBID>1354</DBID>
+		<DisplayNameID>780938</DisplayNameID>
+		<Cost resourcetype="Wood">1500.0000</Cost>
+		<Cost resourcetype="Gold">1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_navy\imperial_navy</Icon>
+		<RolloverTextID>31185</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Flag>OrPrereqs</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Imperialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="SetName" proto="Monitor" culture="none" newName="780937"/>
+			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Monitor</Target>
+			</Effect>
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Monitor</Target>
+			</Effect>
+			<Effect type="Data" action="LongRangeAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">Monitor</Target>
+			</Effect>
+			<Effect type="Data" action="MortarAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">Monitor</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Monitor</Target>
 			</Effect>
 		</Effects>
