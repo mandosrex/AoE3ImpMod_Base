@@ -183,7 +183,7 @@
 							</ottomans>
 						</logic>
 			</none>
-			<imperialmanowar2>
+			<imperialmanowarnew>
 						<logic type="Civ">
 							<none>
 								<logic type="Destruction">
@@ -246,7 +246,7 @@
 								</logic>
 							</ottomans>
 						</logic>
-			</imperialmanowar2>
+			</imperialmanowarnew>
 			<imperialmanowarus>
 						<logic type="Civ">
 							<none>
@@ -359,7 +359,7 @@
 					</ottomans>
 				</logic>
 			</none>
-			<imperialmanowar>
+			<imperialmanowarnew>
 				<logic type="Civ">
 					<none>
 						<assetreference type="GrannyModel">
@@ -388,7 +388,7 @@
 						</assetreference>
 					</ottomans>
 				</logic>
-			</imperialmanowar>
+			</imperialmanowarnew>
 			<imperialmanowarus>
 				<logic type="Civ">
 					<none>

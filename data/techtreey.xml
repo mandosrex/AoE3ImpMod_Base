@@ -1046,6 +1046,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Pikeman</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">VeteranPikemen</Effect>
+			<Effect type="TechStatus" status="obtainable">GuardPikemen</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialPikemen</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -1108,7 +1114,6 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Skirmisher</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">GuardPikemen</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCTent</Target>
 			</Effect>
@@ -1162,7 +1167,6 @@
 				<Target type="ProtoUnit">Schutze</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">RGNassausLinearTactics</Effect>
-			<Effect type="TechStatus" status="obtainable">VeteranPikemen</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranGrenadiers</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialCarabineer</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialSchutzens</Effect>
@@ -1240,12 +1244,8 @@
 				<Target type="ProtoUnit">Halberdier</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Pikeman</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Grenadier</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialPikemen</Effect>
 			<Effect type="TechStatus" status="obtainable">UnlockPoliticianCavalierDutch</Effect>
 			<Effect type="TechStatus" status="obtainable">UnlockPoliticianViceroyDutch</Effect>
 			<Effect type="TechStatus" status="obtainable">UnlockPoliticianAdmiralDutch</Effect>
@@ -4723,7 +4723,6 @@
 			<Effect type="TechStatus" status="active">FortifiedOutpost</Effect>
 			<Effect type="TechStatus" status="active">ChurchMassCavalry</Effect>
 			<Effect type="TechStatus" status="active">VeteranSchutze</Effect>
-			<Effect type="TechStatus" status="active">VeteranPikemen</Effect>
 			<Effect type="TechStatus" status="active">VeteranHussars</Effect>
 			<Effect type="TechStatus" status="active">VeteranGrenadiers</Effect>
 			<Effect type="TechStatus" status="active">RGNassausLinearTactics</Effect>
@@ -4747,8 +4746,9 @@
 			<Effect type="TechStatus" status="active">AAStandardNativeTechsPI</Effect>
 			<Effect type="TechStatus" status="active">HeavyHorseArtillery</Effect>
 			<Effect type="TechStatus" status="active">ShipHowitzers</Effect>
-			<Effect type="TechStatus" status="active">GuardPikemen</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxationD</Effect>
+			<Effect type="TechStatus" status="active">VeteranPikemen</Effect>
+			<Effect type="TechStatus" status="active">GuardPikemen</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostIndustrialSpanish" type="Normal">
@@ -5236,7 +5236,6 @@
 			<Effect type="TechStatus" status="active">ImperialHorseArtillery</Effect>
 			<Effect type="TechStatus" status="active">ImperialLancers</Effect>
 			<Effect type="TechStatus" status="active">ImperialPikemen</Effect>
-			<Effect type="TechStatus" status="active">ImperialCrossbowmen</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostImperialFrench" type="Normal">
@@ -21307,7 +21306,7 @@
 			<Effect type="Data" amount="172.00" subtype="Cost" resource="Wood" relativity="Assign">
 				<Target type="Tech">ChurchKopruluViziers</Target>
 			</Effect>
-			<Effect type="Data" amount="1000.00" subtype="Cost" resource="Food" relativity="Assign">
+			<Effect type="Data" amount="1340.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="Tech">ChurchTopcuCorps</Target>
 			</Effect>
 			<Effect type="Data" amount="670.00" subtype="Cost" resource="Wood" relativity="Assign">
@@ -31710,7 +31709,7 @@
 		<RolloverTextID>37313</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" action="AutoGather" amount="1.20" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+			<Effect type="Data" action="AutoGather" amount="1.25" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="TextOutput">41802</Effect>
@@ -69918,8 +69917,11 @@ Indians" type="Normal">
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Settler</Target>
 			</Effect>
-			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="8.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Coureur</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">SettlerWagon</Target>
 			</Effect>
 			<Effect tech="Age0British" type="Data" amount="10.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Settler" relativity="Absolute">
 				<Target type="Player"/>

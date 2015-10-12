@@ -180,7 +180,7 @@
 							</ottomans>
 						</logic>
 			</none>
-			<imperialmonitors2>
+			<imperialmonitorsnew>
 						<logic type="Civ">
 							<none>
 								<logic type="Destruction">
@@ -243,7 +243,7 @@
 								</logic>
 							</ottomans>
 						</logic>
-			</imperialmonitors2>
+			</imperialmonitorsnew>
 			<imperialmonitorsus>
 						<logic type="Civ">
 							<none>
@@ -419,7 +419,7 @@
 					</ottomans>
 				</logic>
 			</none>
-			<imperialmonitors>
+			<imperialmonitorsnew>
 				<logic type="Civ">
 					<none>
 						<assetreference type="GrannyModel">
@@ -448,7 +448,7 @@
 						</assetreference>
 					</ottomans>
 				</logic>
-			</imperialmonitors>
+			</imperialmonitorsnew>
 			<imperialmonitorsus>
 				<logic type="Civ">
 					<none>
@@ -479,7 +479,7 @@
 					</ottomans>
 				</logic>
 			</imperialmonitorsus>
-			<ypimperialmonitors>
+			<ypimperialmonitors2>
 				<logic type="Civ">
 					<none>
 						<assetreference type="GrannyModel">
@@ -508,7 +508,7 @@
 						</assetreference>
 					</ottomans>
 				</logic>
-			</ypimperialmonitors>
+			</ypimperialmonitors2>
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
