@@ -2042,4 +2042,19 @@
 	<soundset name="WhaleAmbient" volume="0.2000" maxnum="1" distance="1.0000">
 		<sound filename="whaleambient.wav" volume="0.2000"/>
 	</soundset>
+	<soundset name="SwedishAttack" volume="0.6000" maxnum="4" distance="1.0000">
+		<sound filename="SwedishAttack1.wav" volume="1.0000"/>
+		<sound filename="SwedishAttack2.wav" volume="1.0000"/>
+		<sound filename="SwedishAttack3.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="SwedishSelect" volume="0.6000" maxnum="4" distance="1.0000">
+		<sound filename="SwedishSelect1.wav" volume="1.0000"/>
+		<sound filename="SwedishSelect2.wav" volume="1.0000"/>
+		<sound filename="SwedishSelect3.wav" volume="1.0000"/>
+	</soundset>
+	<soundset name="SwedishAcknowledge" volume="0.6000" maxnum="4" distance="1.0000">
+		<sound filename="SwedishMove1.wav" volume="1.0000"/>
+		<sound filename="SwedishMove2.wav" volume="1.0000"/>
+		<sound filename="SwedishMove3.wav" volume="1.0000"/>
+	</soundset>
 </soundsetdef>

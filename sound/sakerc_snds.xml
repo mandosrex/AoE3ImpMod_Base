@@ -3,7 +3,7 @@
 <protounitsounddef>
 	<protounit name="SakerC">
 		<soundtype name="Select">
-			<soundset name="DelgadoSelect"/>
+			<soundset name="SwedishFusilierSelect"/>
 		</soundtype>
 		<soundtype name="Grunt">
 			<soundset name="GenericMaleGrunt"/>
@@ -17,10 +17,10 @@
 		<soundtype name="Acknowledge">
 			<targetlogic>
 				<choice name="default">
-					<soundset name="DelgadoAcknowledge"/>
+					<soundset name="SwedishFusilierAcknowledge"/>
 				</choice>
 				<choice name="enemy">
-					<soundset name="DelgadoAttack"/>
+					<soundset name="SwedishFusilierAttack"/>
 				</choice>
 				<choice name="build"/>
 				<choice name="Huntable"/>

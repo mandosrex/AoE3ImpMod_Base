@@ -6526,6 +6526,21 @@
 			<command>tis("CoveredWagonPlus",5)</command>
 		</keymapdata>
 		<keymapdata>
+			<name>Miner</name>
+			<displayname>$$31145$$Miner</displayname>
+			<event>q</event>
+			<context>game</context>
+			<command>tis("GoldMiner")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Multiple Miners</name>
+			<displayname>$$31145$$Miner</displayname>
+			<displayformat>$$43376$$Multiple %s</displayformat>
+			<event>shift-q</event>
+			<context>game</context>
+			<command>tis("GoldMiner",5)</command>
+		</keymapdata>
+		<keymapdata>
 			<name>Surgeon</name>
 			<displayname>$$26218$$Surgeon</displayname>
 			<event>w</event>

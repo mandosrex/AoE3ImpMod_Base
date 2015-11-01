@@ -1301,6 +1301,45 @@
 		<component>model</component>
 	</anim>
 	</attachment>
+	<attachment>
+	model96
+	<component>
+		model
+		<assetreference type="GrannyModel">
+			<file>units\naval\privateer\privateer</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>model</component>
+	</anim>
+	</attachment>
+	<attachment>
+	model97
+	<component>
+		model
+		<assetreference type="GrannyModel">
+			<file>units\naval\privateer\privateer_damaged</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>model</component>
+	</anim>
+	</attachment>
+	<attachment>
+	model98
+	<component>
+		model
+		<assetreference type="GrannyModel">
+			<file>units\naval\privateer\privateer_deathModel</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>model</component>
+	</anim>
+	</attachment>
 	<component>
 		Modelfix
 		<assetreference type="GrannyModel">
@@ -1401,6 +1440,9 @@
 		<attach a="model93" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 		<attach a="model94" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 		<attach a="model95" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
+		<attach a="model96" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
+		<attach a="model97" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
+		<attach a="model98" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 	</component>
 	<anim>
 		Idle

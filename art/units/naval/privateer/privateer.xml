@@ -126,11 +126,19 @@
 					<p1>
 						<assetreference type="GrannyModel" shape="ship_privateer">
 							<file>units\naval\privateer\privateer_damaged</file>
+							<replacetexture>
+								<from>units\naval\privateer\privateer_ship</from>
+								<to>units\naval\privateer\privateer_ship2</to>
+							</replacetexture>
 						</assetreference>
 					</p1>
 					<p99>
 						<assetreference type="GrannyModel" shape="ship_privateer">
 							<file>units\naval\privateer\privateer</file>
+							<replacetexture>
+								<from>units\naval\privateer\privateer_ship</from>
+								<to>units\naval\privateer\privateer_ship2</to>
+							</replacetexture>
 						</assetreference>
 					</p99>
 				</logic>
@@ -152,6 +160,10 @@
 		death
 		<assetreference type="GrannyModel">
 			<file>units\naval\privateer\privateer_deathModel</file>
+			<replacetexture>
+				<from>units\naval\privateer\privateer_ship</from>
+				<to>units\naval\privateer\privateer_ship2</to>
+			</replacetexture>
 		</assetreference>
 		<decal>
 			<effecttype>default</effecttype>

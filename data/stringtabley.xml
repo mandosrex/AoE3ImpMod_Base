@@ -16394,7 +16394,7 @@
 		<String _locID="45989">Kuechler arrives in</String>
 		<String _locID="45990">Kuechler delayed by</String>
 		<String _locID="45991">Wood production building</String>
-		<String _locID="45992">Building that produces Wood.</String>
+		<String _locID="45992">Building that produces Wood and increases gather rate of nearby units.</String>
 		<String _locID="45993">Lumber Camp</String>
 		<String _locID="45994">Lumber Camp</String>
 		<String _locID="45995" symbol="cStringChooseRevolutionary">Select a Revolutionary Leader</String>
@@ -19467,7 +19467,7 @@
 		<String _locID="60019">Show games where WarChiefs civilizations allowed</String>
 		<String _locID="60020" symbol="cStringLANNeedYPackHomeCityType">You must first create an Asian Dynasties %s Home City before you can enter the game.</String>
 		<String _locID="60021">Settler</String>
-		<String _locID="60022">Hardy settler that constructs buildings and gathers resources.</String>
+		<String _locID="60022">Fithful pilgrim that works faster than normal villagers and doesn't take up population.</String>
 		<String _locID="60023">Pilgrim</String>
 		<String _locID="60024">VIL Pilgrim</String>
 		<String _locID="60025">Food source</String>
@@ -21269,7 +21269,7 @@
 		<String _locID="61821">1 Frigate +1 Villager</String>
 		<String _locID="61822">1 Monitor +1 Villager</String>
 		<String _locID="61823">1 Caravel +1 Villager</String>
-		<String _locID="61824">All military boats train faster and give more experience points upon construction, +1 Villager.</String>
+		<String _locID="61824">All military ships train faster and give more experience points upon construction, +1 Villager.</String>
 		<String _locID="61825">Bombay Marine</String>
 		<String _locID="61826">Fencing School Shipment has arrived.</String>
 		<String _locID="61827">Bombay Marine Shipment has arrived.</String>
@@ -24725,7 +24725,7 @@
 		<String _locID="65438">Portuguese Expeditionary Company</String>
 		<String _locID="65439">Portuguese Expeditionary Company</String>
 		<String _locID="65440" symbol="cStringFreeHomeCityUnitEffectShipped">Delivers %d %s with %d %s in it</String>
-		<String _locID="65441">Trains:\nSpahis\nJanissaries\nGreat Bombards\n \nShipments:\nEconomic units</String>
+		<String _locID="65441">Trains:\nJanissaries\nSpahis\nGreat Bombards\n \nShipments:\nEconomic units</String>
 		<String _locID="65442">Ottoman Allies\n+10 Land Unit / Building LOS</String>
 		<String _locID="65443" symbol="cStringypEggplant">Succulent eggplant worth %2d %3s.</String>
 		<String _locID="65444" symbol="cStringypEggplantActivate">%1s has recovered succulent eggplant worth %2d %3s.</String>
@@ -28407,7 +28407,7 @@
 		<String _locID="69126">VIL Trading Post Rickshaw</String>
 		<String _locID="69127">Expanded Trading Post Shipment has arrived.</String>
 		<String _locID="69128">Expanded Trading Post Shipment has arrived.</String>
-		<String _locID="69129">Sepoy, Gurkha, and Sowar hitpoints and attack increased, +1 Villager.</String>
+		<String _locID="69129">Sepoy, Gurkha, and Sowar hitpoints, attack and line of sight increased, +1 Villager.</String>
 		<String _locID="69130">British East India Company</String>
 		<String _locID="69131">Noble Combat Shipment has arrived.</String>
 		<String _locID="69132">East India Company Shipment has arrived.</String>
@@ -29834,7 +29834,7 @@
 		<String _locID="77816">Buy 3 Ironclads</String>
 		<String _locID="77817">Ironclad</String>
 		<String _locID="77818">Gathers Coin faster than any Villager and has a powerful ranged attack.</String>
-		<String _locID="77819">Hire Skilled Miners</String>
+		<String _locID="77819">Hire American Miners</String>
 		<String _locID="77820">Guard Crossbowmen</String>
 		<String _locID="77821">Guard Crossbowman</String>
 		<String _locID="77822">Guard Pikeman</String>
@@ -30313,8 +30313,8 @@
 		<String _locID="780905">Slavery Abolition</String>
 		<String _locID="780906">Settler cost changed from Coin to Food.</String>
 		<String _locID="780907">An army of Russian Tartar Loyalists (Cavalry Archers) and Culverins.\n7 Tartar Loyalists: ranged cavalry, good against cavalry.\n3 Culverins: light artillery that is good against other artillery and ships.</String>
-		<String _locID="780908">Italian Allies\n+10% Building Hitpoints</String>
-		<String _locID="780909">Trains:\nSwiss Guards\nLandsknecht\nElmeti\nBlack Riders\n \nShipments:\nMercenaries</String>
+		<String _locID="780908">Italian Allies\n+0.5 Export Trickle Rate</String>
+		<String _locID="780909">Trains:\nSwiss Guards\nLandsknecht\nElmeti\nBlack Riders\n \nShipments:\nReligious units</String>
 		<String _locID="780910">American Brigade</String>
 		<String _locID="780911">Ships a large number of Gatling Guns and Patriot Militia.</String>
 		<String _locID="780912">Inquisition</String>
@@ -30383,5 +30383,12 @@
 		<String _locID="780975">Excessive Loans</String>
 		<String _locID="780976">Use Fame to get 1000 Coin from your Banks.</String>
 		<String _locID="780977">Elmaya</String>
+		<String _locID="780978">Pilgrimage</String>
+		<String _locID="780979">Ships 10 Pilgrims that work faster than normal villagers and don't take up population.</String>
+		<String _locID="780980">Swedish Allies\n+10% Building Hitpoints</String>
+		<String _locID="780981">Trains:\nMinutemen\nLoyalist Militia\nSakers\nBrigs\n \nShipments:\nTown improvements</String>
+		<String _locID="780982">Loyalist Militia</String>
+		<String _locID="780983">Bakery Wagon</String>
+		<String _locID="780984">Transforms into a Bakery.</String>
 	</Language>
 </StringTable>

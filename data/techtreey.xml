@@ -266,6 +266,9 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">GoldMiner</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">ypConsulateFrenchBrigadeFame</Effect>
@@ -521,6 +524,9 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">GoldMiner</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
@@ -814,6 +820,9 @@
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">GoldMiner</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">LevyMin2</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
@@ -1046,6 +1055,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">GoldMiner</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Pikeman</Target>
 			</Effect>
@@ -1304,6 +1316,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">GoldMiner</Target>
+			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -1532,6 +1547,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">GoldMiner</Target>
+			</Effect>
 			<Effect type="Data" amount="0.85" subtype="ResearchPoints" relativity="Percent">
 				<Target type="techWithFlag">HomeCity</Target>
 			</Effect>
@@ -1773,6 +1791,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">GoldMiner</Target>
+			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -2027,6 +2048,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">GoldMiner</Target>
+			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -9431,6 +9455,9 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">LumberCamp</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">UniversityAD</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -9490,9 +9517,9 @@
 		<Effects>
 			<Effect type="TechStatus" status="obtainable">ypBigConsulateRussians</Effect>
 			<Effect type="TechStatus" status="obtainable">ypBigConsulateBritish</Effect>
-			<Effect type="TechStatus" status="obtainable">ypBigConsulateFrench</Effect>
 			<Effect type="TechStatus" status="obtainable">ypPickConsulateTech</Effect>
 			<Effect type="TechStatus" status="obtainable">ypBigConsulateGermans</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigConsulateSPCIndia</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPAge0ChineseMonks" type="Normal">
@@ -9517,6 +9544,15 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.01" subtype="MinimumResourceTrickleRate" resource="Trade" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="MaximumResourceTrickleRate" resource="Trade" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="0.00" subtype="ResourceTrickleRate" resource="Trade" relativity="Assign">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypSettlerAsian</Target>
 			</Effect>
@@ -10335,7 +10371,7 @@
 			<TechStatus status="Active">ypHCConsulateRelations</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="MercNinja" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="unobtainable">ypHCConsulateRelations</Effect>
@@ -10367,7 +10403,7 @@
 			<TechStatus status="Active">ypHCConsulateRelations</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="MercManchu" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="ypRepentantJaeger" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="unobtainable">ypHCConsulateRelations</Effect>
@@ -23008,7 +23044,7 @@
 		<RolloverTextID>35297</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="0.65" subtype="Cost" resource="Wood" relativity="BasePercent">
+			<Effect type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="BasePercent">
 				<Target type="ProtoUnit">Manor</Target>
 			</Effect>
 			<Effect type="TextOutput">41819</Effect>
@@ -57018,19 +57054,19 @@ Indians" type="Normal">
 	</Tech>
 	<Tech name="ypConsulateLumberWagon" type="Normal">
 		<DBID>4499</DBID>
-		<DisplayNameID>78068</DisplayNameID>
+		<DisplayNameID>32645</DisplayNameID>
 		<Cost resourcetype="Trade">400.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_lumber_market\hc_lumber_market</Icon>
+		<Icon>units\trade\spc_wagon_icon_64x64</Icon>
 		<Flag>YPConsulateImprovement</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
-		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="LumberWagon" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ResourceWagon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect tech="YPHCEnlistGurkhas" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypNatMercGurkha" relativity="Absolute">
@@ -57132,7 +57168,7 @@ Indians" type="Normal">
 			<Effect tech="YPHCEnlistGurkhas" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypNatMercGurkha" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Minuteman" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Minuteman" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -57283,7 +57319,6 @@ Indians" type="Normal">
 		<Icon>ui\techs\hc_wood_crate\hc_wood_crate_128</Icon>
 		<RolloverTextID>64276</RolloverTextID>
 		<Flag>YPConsulateImprovement</Flag>
-		<Flag>YPInfiniteTech</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
@@ -57484,7 +57519,6 @@ Indians" type="Normal">
 		<Icon>ui\techs\hc_coin_crate\hc_coin_crate</Icon>
 		<RolloverTextID>64359</RolloverTextID>
 		<Flag>YPCheckPopCap</Flag>
-		<Flag>YPInfiniteTech</Flag>
 		<Flag>YPConsulateImprovement</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
@@ -57509,7 +57543,6 @@ Indians" type="Normal">
 		<RolloverTextID>64360</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>YPConsulateImprovement</Flag>
-		<Flag>YPInfiniteTech</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Prereqs>
@@ -59518,7 +59551,7 @@ Indians" type="Normal">
 		<Cost resourcetype="Trade">850.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\artillery\great_bombard\great_bombard_icon_64x64</Icon>
+		<Icon>ui\conbomb</Icon>
 		<Flag>YPConsulateImprovement</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
@@ -63041,7 +63074,7 @@ Indians" type="Normal">
 			<TechStatus status="Active">ConSupport</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
+			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGunJ" relativity="Absolute">
@@ -63731,7 +63764,7 @@ Indians" type="Normal">
 		<Flag>YPInfiniteTech</Flag>
 		<Flag>YPSequesterTech</Flag>
 		<Effects>
-			<Effect type="TechStatus" status="obtainable">ypConsulateUSABrigade</Effect>
+			<Effect type="TechStatus" status="unobtainable">ypConsulateUSABrigade</Effect>
 			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">USRiflemenRegiment</Target>
 			</Effect>
@@ -64524,11 +64557,11 @@ Indians" type="Normal">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">ypConsulateRelationsSPCChina</Effect>
-			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Building</Target>
+			<Effect type="Data" amount="0.50" subtype="ResourceTrickleRate" resource="Trade" relativity="Assign">
+				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">ConsulateItaliansInquisition</Effect>
-			<Effect type="TechStatus" status="obtainable">ConsulateFortifiedWalls</Effect>
+			<Effect type="TechStatus" status="obtainable">ConsulatePilgrims</Effect>
 			<Effect type="TechStatus" status="obtainable">ConsulateItaliansAge</Effect>
 			<Effect type="TechStatus" status="obtainable">ConsulateRomanMercs</Effect>
 		</Effects>
@@ -64651,6 +64684,46 @@ Indians" type="Normal">
 	</Tech>
 	<Tech name="ypBigConsulateSPCIndia" type="Normal">
 		<DBID>5014</DBID>
+		<DisplayNameID>780980</DisplayNameID>
+		<Cost resourcetype="Trade">100.0000</Cost>
+		<ResearchPoints>10.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\swedish</Icon>
+		<RolloverTextID>780981</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>NativeDance</Flag>
+		<Flag>YPConsulateTech</Flag>
+		<Flag>YPInfiniteTech</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateArmySPCIndian3</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateArmySPCIndian1</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateArmySPCIndian2</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SakerC</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">ypConsulateRelationsSPCIndia</Effect>
+			<Effect type="TechStatus" status="active">ypBigSequesterRemove</Effect>
+			<Effect type="TechStatus" status="obtainable">ypBigSequesterSPCIndia</Effect>
+			<Effect type="TechStatus" status="active">ypBigTradeTaxEnable</Effect>
+			<Effect civ="Swedish" type="Data" amount="0.00" subtype="SetCivRelation" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Building</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">ConsulateFortifiedWalls</Effect>
+			<Effect type="TechStatus" status="obtainable">ypConsulateOttomansSettlerCombat</Effect>
+			<Effect type="TechStatus" status="obtainable">ConsulateLumberWagon</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ypBigConsulateSPCIndia2" type="Normal">
+		<DBID>5014</DBID>
 		<DisplayNameID>68627</DisplayNameID>
 		<Cost resourcetype="Trade">100.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
@@ -64749,6 +64822,46 @@ Indians" type="Normal">
 			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypConsulateArmySPCIndian3</Target>
 			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">SakerC</Target>
+			</Effect>
+			<Effect type="Data" amount="0.90" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Building</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">ypPickConsulateTech</Effect>
+			<Effect type="TechStatus" status="active">ypBigTradeTaxRemove</Effect>
+			<Effect civ="none" type="Data" amount="0.00" subtype="SetCivRelation" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="TechStatus" status="unobtainable">ConsulateFortifiedWalls</Effect>
+			<Effect type="TechStatus" status="unobtainable">ypConsulateOttomansSettlerCombat</Effect>
+			<Effect type="TechStatus" status="unobtainable">ConsulateLumberWagon</Effect>
+			<Effect type="TechStatus" status="unobtainable">ypConsulateRelationsSPCIndia</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ypBigSequesterSPCIndia2" type="Normal">
+		<DBID>5016</DBID>
+		<DisplayNameID>68631</DisplayNameID>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Cost resourcetype="Trade">100.0000</Cost>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
+		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
+		<RolloverTextID>68630</RolloverTextID>
+		<Flag>YPSequesterTech</Flag>
+		<Flag>NativeDance</Flag>
+		<Flag>YPInfiniteTech</Flag>
+		<Effects>
+			<Effect type="TechStatus" status="active">ypBigSequesterInitial</Effect>
+			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateArmySPCIndian2</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateArmySPCIndian1</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypConsulateArmySPCIndian3</Target>
+			</Effect>
 			<Effect type="Data" amount="0.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
@@ -64789,11 +64902,11 @@ Indians" type="Normal">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="unobtainable">ypConsulateRelationsSPCChina</Effect>
-			<Effect type="Data" amount="0.90" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Building</Target>
+			<Effect type="Data" amount="0.00" subtype="ResourceTrickleRate" resource="Trade" relativity="Assign">
+				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="unobtainable">ConsulateItaliansInquisition</Effect>
-			<Effect type="TechStatus" status="unobtainable">ConsulateFortifiedWalls</Effect>
+			<Effect type="TechStatus" status="unobtainable">ConsulatePilgrims</Effect>
 			<Effect type="TechStatus" status="unobtainable">ConsulateItaliansAge</Effect>
 			<Effect type="TechStatus" status="unobtainable">ConsulateRomanMercs</Effect>
 		</Effects>
@@ -66043,6 +66156,15 @@ Indians" type="Normal">
 				<Target type="ProtoUnit">AbstractGurkha</Target>
 			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractGurkha</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">AbstractSepoy</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">AbstractSowar</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">AbstractGurkha</Target>
 			</Effect>
 			<Effect tech="ypFreeIndianSepoy" type="Data" amount="2.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSepoy" relativity="Absolute">
@@ -69768,7 +69890,7 @@ Indians" type="Normal">
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGunJ" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
+			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerUS" relativity="Absolute">
@@ -69785,7 +69907,7 @@ Indians" type="Normal">
 		<Icon>ui\inquisition</Icon>
 		<RolloverTextID>780913</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
-		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPCheckPopCap</Flag>
 		<Flag>YPConsulateImprovement</Flag>
@@ -69806,7 +69928,7 @@ Indians" type="Normal">
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\bastion\bastion</Icon>
 		<RolloverTextID>23451</RolloverTextID>
-		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPConsulateImprovement</Flag>
 		<Prereqs>
@@ -70304,6 +70426,52 @@ Indians" type="Normal">
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1000.00" subtype="Resource" resource="Gold" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ConsulatePilgrims" type="Normal">
+		<DBID>462</DBID>
+		<DisplayNameID>780978</DisplayNameID>
+		<Cost resourcetype="Trade">600.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\conpilgrims</Icon>
+		<RolloverTextID>780979</RolloverTextID>
+		<Flag>CheckLandHCGatherPoint</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
+		<Flag>YPConsulateImprovement</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Colonialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Pilgrim" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="YPHCEnlistGurkhas" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypNatMercGurkha" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ConsulateLumberWagon" type="Normal">
+		<DBID>4499</DBID>
+		<DisplayNameID>78068</DisplayNameID>
+		<Cost resourcetype="Trade">300.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>buildings\spc\tents\largetent_icon_64x64</Icon>
+		<Flag>YPConsulateImprovement</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Colonialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="LumberWagon" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="YPHCEnlistGurkhas" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypNatMercGurkha" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>

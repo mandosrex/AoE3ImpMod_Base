@@ -2,10 +2,10 @@
 
 <placementrules>
 	<distanceatleastfromtype player="any" foundation="any" distance="35" errorstringid="69985">ypKingsHill</distanceatleastfromtype>
-	<distanceatleastfromtype player="any" foundation="any" distance="35" errorstringid="780747">ControlFlag</distanceatleastfromtype>
+	<distanceatleastfromtype player="any" foundation="any" distance="55" errorstringid="780747">ControlFlag</distanceatleastfromtype>
 	<distanceatleastfromtype player="any" foundation="any" distance="5" errorstringid="25521">FirstTC</distanceatleastfromtype>
 	<distanceatleastfromtype player="any" foundation="any" distance="10" errorstringid="25521">Fish</distanceatleastfromtype>
-	<distanceatleastfromcliff distance="6" errorstringid="25529"/>
+	<distanceatleastfromcliff distance="10" errorstringid="25529"/>
 	<distanceatleastfromwater distance="10" errorstringid="25529"/>
 	<distanceatleastfromriver distance="10" errorstringid="25529"/>
 </placementrules>

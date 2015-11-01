@@ -54,19 +54,19 @@
 					<soundset name="NathanielBlackEnglishSelect"/>
 				</choice>
 				<choice name="Japanese">
-					<soundset name="OttomanSettlerMaleSelect"/>
+					<soundset name="SwedishSelect"/>
 				</choice>
 				<choice name="Chinese">
-					<soundset name="OttomanSettlerMaleSelect"/>
+					<soundset name="SwedishSelect"/>
 				</choice>
 				<choice name="Indians">
 					<soundset name="OttomanSettlerMaleSelect"/>
 				</choice>
 				<choice name="SPCJapanese">
-					<soundset name="OttomanSettlerMaleSelect"/>
+					<soundset name="SwedishSelect"/>
 				</choice>
 				<choice name="SPCChinese">
-					<soundset name="OttomanSettlerMaleSelect"/>
+					<soundset name="SwedishSelect"/>
 				</choice>
 				<choice name="SPCIndians">
 					<soundset name="OttomanSettlerMaleSelect"/>
@@ -312,10 +312,10 @@
 				<choice name="Japanese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="OttomanSettlerMaleAcknowledge"/>
+							<soundset name="SwedishAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="OttomanSettlerMaleAttack"/>
+							<soundset name="SwedishAttack"/>
 						</choice>
 					</targetlogic>
 				</choice>
@@ -356,10 +356,10 @@
 				<choice name="Chinese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="OttomanSettlerMaleAcknowledge"/>
+							<soundset name="SwedishAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="OttomanSettlerMaleAttack"/>
+							<soundset name="SwedishAttack"/>
 						</choice>
 					</targetlogic>
 				</choice>
@@ -376,20 +376,20 @@
 				<choice name="SPCJapanese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="OttomanSettlerMaleAcknowledge"/>
+							<soundset name="SwedishAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="OttomanSettlerMaleAttack"/>
+							<soundset name="SwedishAttack"/>
 						</choice>
 					</targetlogic>
 				</choice>
 				<choice name="SPCChinese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="OttomanSettlerMaleAcknowledge"/>
+							<soundset name="SwedishAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="OttomanSettlerMaleAttack"/>
+							<soundset name="SwedishAttack"/>
 						</choice>
 					</targetlogic>
 				</choice>
