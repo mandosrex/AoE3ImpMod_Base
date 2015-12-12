@@ -16527,7 +16527,7 @@
 		<String _locID="46122">Comanchero</String>
 		<String _locID="46123">SALOON Comanchero</String>
 		<String _locID="46124">An outlaw.</String>
-		<String _locID="46125">A dangerous outlaw with a rifle.</String>
+		<String _locID="46125">A dangerous outlaw with a double barrel rifle.</String>
 		<String _locID="46126">Hombre</String>
 		<String _locID="46127">SALOON Hombre</String>
 		<String _locID="46128">A Pirate.</String>
@@ -28854,7 +28854,7 @@
 		<String _locID="69573">Repentant Comanchero</String>
 		<String _locID="69574">REP Comanchero</String>
 		<String _locID="69575">An outlaw.</String>
-		<String _locID="69576">A dangerous outlaw with a rifle.</String>
+		<String _locID="69576">A dangerous outlaw with a double barrel rifle.</String>
 		<String _locID="69577">Repentant Hombre</String>
 		<String _locID="69578">REP Hombre</String>
 		<String _locID="69579">A Pirate.</String>
@@ -30299,8 +30299,8 @@
 		<String _locID="780891">Guard Cassadores</String>
 		<String _locID="780892">Portuguese Cassador attack and hitpoints greatly increased.</String>
 		<String _locID="780893">Spawn Gifts</String>
-		<String _locID="780894">Capture the Christmas tree (Fort) by moving military troops into the area</String>
-		<String _locID="780895">Christmas is close, capture this tree (Fort) to receive presents and win the holidays war!</String>
+		<String _locID="780894">Capture the Christmas tree (Hill) by moving military troops into the area</String>
+		<String _locID="780895">Christmas is close, capture this tree (Hill) to receive presents and win the holidays war!</String>
 		<String _locID="780896">War Camp</String>
 		<String _locID="780897">Trains hand and ranged infantry.</String>
 		<String _locID="780898">Solid general-purpose infantry.</String>
@@ -30386,9 +30386,12 @@
 		<String _locID="780978">Pilgrimage</String>
 		<String _locID="780979">Ships 10 Pilgrims that work faster than normal villagers and don't take up population.</String>
 		<String _locID="780980">Swedish Allies\n+10% Building Hitpoints</String>
-		<String _locID="780981">Trains:\nMinutemen\nLoyalist Militia\nSakers\nBrigs\n \nShipments:\nTown improvements</String>
+		<String _locID="780981">Trains:\nMilitia\nSakers\nAdmirals\nBrigs\n \nShipments:\nTown improvements</String>
 		<String _locID="780982">Loyalist Militia</String>
 		<String _locID="780983">Bakery Wagon</String>
 		<String _locID="780984">Transforms into a Bakery.</String>
+		<String _locID="780985">Allows Pilgrims to be trained from Churches.</String>
+		<String _locID="780986">Northern Logging</String>
+		<String _locID="780987">Villagers gather Wood faster and ships a Lumber Camp Wagon.</String>
 	</Language>
 </StringTable>

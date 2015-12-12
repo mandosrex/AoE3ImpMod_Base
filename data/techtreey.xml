@@ -6,6 +6,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="66.00" subtype="BuildLimit" relativity="Assign">
+				<Target type="ProtoUnit">Pilgrim</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
@@ -9556,6 +9559,7 @@
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">ypSettlerAsian</Target>
 			</Effect>
+			<Effect type="SetName" proto="USColonialMilitia2" culture="none" newName="780982"/>
 			<Effect type="TechStatus" status="obtainable">ImpImmigrantsAsian</Effect>
 			<Effect type="TechStatus" status="active">XPTrickle</Effect>
 			<Effect type="TechStatus" status="obtainable">Civilization</Effect>
@@ -46358,16 +46362,13 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\native\Unction</Icon>
-		<RolloverTextID>47024</RolloverTextID>
+		<Icon>ui\conpilgrims</Icon>
+		<RolloverTextID>780985</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="TextOutput">47027</Effect>
-			<Effect type="Data" action="Heal" amount="1.20" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
-				<Target type="ProtoUnit">Missionary</Target>
-			</Effect>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Missionary" relativity="Absolute">
-				<Target type="Player"/>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Pilgrim</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -63074,7 +63075,7 @@ Indians" type="Normal">
 			<TechStatus status="Active">ConSupport</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
+			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia2" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGunJ" relativity="Absolute">
@@ -64696,13 +64697,7 @@ Indians" type="Normal">
 		<Flag>YPInfiniteTech</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmySPCIndian3</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmySPCIndian1</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmySPCIndian2</Target>
+				<Target type="ProtoUnit">USColonialMilitia2</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SakerC</Target>
@@ -64814,13 +64809,7 @@ Indians" type="Normal">
 		<Effects>
 			<Effect type="TechStatus" status="active">ypBigSequesterInitial</Effect>
 			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmySPCIndian2</Target>
-			</Effect>
-			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmySPCIndian1</Target>
-			</Effect>
-			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmySPCIndian3</Target>
+				<Target type="ProtoUnit">USColonialMilitia2</Target>
 			</Effect>
 			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SakerC</Target>
@@ -69890,7 +69879,7 @@ Indians" type="Normal">
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGunJ" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
+			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia2" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerUS" relativity="Absolute">
@@ -70456,11 +70445,12 @@ Indians" type="Normal">
 	</Tech>
 	<Tech name="ConsulateLumberWagon" type="Normal">
 		<DBID>4499</DBID>
-		<DisplayNameID>78068</DisplayNameID>
+		<DisplayNameID>780986</DisplayNameID>
 		<Cost resourcetype="Trade">300.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>buildings\spc\tents\largetent_icon_64x64</Icon>
+		<Icon>ui\techs\hc_wood_crate0\hc_wood_crate0</Icon>
+		<RolloverTextID>780987</RolloverTextID>
 		<Flag>YPConsulateImprovement</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
@@ -70468,10 +70458,13 @@ Indians" type="Normal">
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="LumberWagon" relativity="Absolute">
-				<Target type="Player"/>
+			<Effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>
-			<Effect tech="YPHCEnlistGurkhas" type="Data" amount="3.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypNatMercGurkha" relativity="Absolute">
+			<Effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="ypGroveBuilding" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractVillager</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="LumberWagon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
