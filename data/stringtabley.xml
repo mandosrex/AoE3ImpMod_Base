@@ -2500,7 +2500,7 @@
 		<String _locID="26061" symbol="cStringCivRolloverSpanish">Home City gives support and bonuses through Decree cards. Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Enlightenment Age. Best units: Rodelero, Lancer.</String>
 		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Town Center limit. Home City Shipments arrive faster. Best units: Musketeer, Dragoon.</String>
 		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets extra Envoys and early Plantations. Best units: Halberdier, Ruyter.</String>
-		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Home City Shipments. Gets extra Fame at start and with each Age. Best units: Skirmisher, Uhlan.</String>
+		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Home City Shipments. Gets extra Fame at the start and with each Age. Best units: Skirmisher, Uhlan.</String>
 		<String _locID="26066" symbol="cStringCivRolloverRussians">Home City gives support and bonuses through Decree cards. Trains Settlers and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age. Best units: Grenadier, Cavalry Archer.</String>
 		<String _locID="26068" symbol="cStringCivRolloverOttomans">Home City gives support and bonuses through Decree cards. Town Centers produce Settlers for free. Mosques improve Settler production and generate experience. Best units: Abus Gun, Spahi.</String>
 		<String _locID="26071">Rubble</String>
@@ -30386,12 +30386,17 @@
 		<String _locID="780978">Pilgrimage</String>
 		<String _locID="780979">Ships 10 Pilgrims that work faster than normal villagers and don't take up population.</String>
 		<String _locID="780980">Swedish Allies\n+10% Building Hitpoints</String>
-		<String _locID="780981">Trains:\nMilitia\nSakers\nAdmirals\nBrigs\n \nShipments:\nTown improvements</String>
+		<String _locID="780981">Trains:\nGrenadiers\nSakers\nHorse Artillery\nBrigs\n \nShipments:\nTown improvements</String>
 		<String _locID="780982">Loyalist Militia</String>
 		<String _locID="780983">Bakery Wagon</String>
 		<String _locID="780984">Transforms into a Bakery.</String>
 		<String _locID="780985">Allows Pilgrims to be trained from Churches.</String>
 		<String _locID="780986">Northern Logging</String>
 		<String _locID="780987">Villagers gather Wood faster and ships a Lumber Camp Wagon.</String>
+		<String _locID="780988">Ships a large number of Brigs and Loyalist Militia led by a General.</String>
+		<String _locID="780989">Swedish Brigade</String>
+		<String _locID="780990">Indelta Grenadier</String>
+		<String _locID="780991">Geshwinda Artillery</String>
+		<String _locID="780992">Svealand Saker</String>
 	</Language>
 </StringTable>

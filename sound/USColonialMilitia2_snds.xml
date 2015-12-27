@@ -48,10 +48,10 @@
 					<soundset name="SPCMilitiaSelect"/>
 				</choice>
 				<choice name="Chinese">
-					<soundset name="SwedishFusilierSelect"/>
+					<soundset name="SwedishSelect"/>
 				</choice>
 				<choice name="SPCChinese">
-					<soundset name="SwedishFusilierSelect"/>
+					<soundset name="SwedishSelect"/>
 				</choice>
 				<choice name="Aztecs"/>
 				<choice name="Caribs"/>
@@ -272,13 +272,13 @@
 				<choice name="SPCChinese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="SwedishFusilierAcknowledge"/>
+							<soundset name="SwedishAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="SwedishFusilierAttack"/>
+							<soundset name="SwedishAttack"/>
 						</choice>
 						<choice name="build">
-							<soundset name="SwedishFusilierAcknowledge"/>
+							<soundset name="SwedishAcknowledge"/>
 						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
@@ -291,13 +291,13 @@
 				<choice name="Chinese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="SwedishFusilierAcknowledge"/>
+							<soundset name="SwedishAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="SwedishFusilierAttack"/>
+							<soundset name="SwedishAttack"/>
 						</choice>
 						<choice name="build">
-							<soundset name="SwedishFusilierAcknowledge"/>
+							<soundset name="SwedishAcknowledge"/>
 						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>

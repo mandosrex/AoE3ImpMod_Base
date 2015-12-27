@@ -163,6 +163,7 @@
 		<assetreference type="GrannyAnim">
 			<file>units\asians\japanese\yumi\yumi_attackRanged00</file>
 			<tag type="Attack">0.14</tag>
+			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.14</tag>
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="yumi_bow" frombone="bone_bow" tobone="Bip01 Prop1" syncanims="0"/>

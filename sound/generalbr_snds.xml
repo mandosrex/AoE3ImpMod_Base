@@ -65,6 +65,12 @@
 				<choice name="XPSioux">
 					<soundset name="SPCMilitiaSelect"/>
 				</choice>
+				<choice name="Chinese">
+					<soundset name="SwedishFusilierSelect"/>
+				</choice>
+				<choice name="SPCChinese">
+					<soundset name="SwedishFusilierSelect"/>
+				</choice>
 			</civlogic>
 		</soundtype>
 		<soundtype name="Grunt">
@@ -92,6 +98,9 @@
 						<choice name="enemy">
 							<soundset name="FrenchGrenadierAttack"/>
 						</choice>
+						<choice name="build">
+							<soundset name="FrenchGrenadierAcknowledge"/>
+						</choice>
 					</targetlogic>
 				</choice>
 				<choice name="British">
@@ -101,6 +110,9 @@
 						</choice>
 						<choice name="enemy">
 							<soundset name="BritishLightCavalryAttack"/>
+						</choice>
+						<choice name="build">
+							<soundset name="BritishLightCavalryAcknowledge"/>
 						</choice>
 					</targetlogic>
 				</choice>
@@ -112,6 +124,9 @@
 						<choice name="enemy">
 							<soundset name="RussianCossackAttack"/>
 						</choice>
+						<choice name="build">
+							<soundset name="RussianCossackAcknowledge"/>
+						</choice>
 					</targetlogic>
 				</choice>
 				<choice name="Portuguese">
@@ -121,6 +136,9 @@
 						</choice>
 						<choice name="enemy">
 							<soundset name="PortugueseLightCavalryAttack"/>
+						</choice>
+						<choice name="build">
+							<soundset name="PortugueseLightCavalryAcknowledge"/>
 						</choice>
 					</targetlogic>
 				</choice>
@@ -132,6 +150,9 @@
 						<choice name="enemy">
 							<soundset name="OttomanLightCavalryAttack"/>
 						</choice>
+						<choice name="build">
+							<soundset name="OttomanLightCavalryAcknowledge"/>
+						</choice>
 					</targetlogic>
 				</choice>
 				<choice name="Spanish">
@@ -141,6 +162,9 @@
 						</choice>
 						<choice name="enemy">
 							<soundset name="SpanishLightCavalryAttack"/>
+						</choice>
+						<choice name="build">
+							<soundset name="SpanishLightCavalryAcknowledge"/>
 						</choice>
 					</targetlogic>
 				</choice>
@@ -152,6 +176,9 @@
 						<choice name="enemy">
 							<soundset name="SpanishLightCavalryAttack"/>
 						</choice>
+						<choice name="build">
+							<soundset name="SpanishLightCavalryAcknowledge"/>
+						</choice>
 					</targetlogic>
 				</choice>
 				<choice name="Dutch">
@@ -162,6 +189,9 @@
 						<choice name="enemy">
 							<soundset name="DutchHussarAttack"/>
 						</choice>
+						<choice name="build">
+							<soundset name="DutchHussarAcknowledge"/>
+						</choice>
 					</targetlogic>
 				</choice>
 				<choice name="Germans">
@@ -171,6 +201,9 @@
 						</choice>
 						<choice name="enemy">
 							<soundset name="GermanHussarAttack"/>
+						</choice>
+						<choice name="build">
+							<soundset name="GermanHussarAcknowledge"/>
 						</choice>
 					</targetlogic>
 				</choice>
@@ -254,7 +287,9 @@
 						<choice name="enemy">
 							<soundset name="SpanishLightCavalryAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="SpanishLightCavalryAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -271,6 +306,9 @@
 						<choice name="enemy">
 							<soundset name="BritishLightCavalryAttack"/>
 						</choice>
+						<choice name="build">
+							<soundset name="BritishLightCavalryAcknowledge"/>
+						</choice>
 					</targetlogic>
 				</choice>
 				<choice name="SPCAct3">
@@ -281,7 +319,9 @@
 						<choice name="enemy">
 							<soundset name="GeorgeWashingtonAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="GeorgeWashingtonAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -298,7 +338,9 @@
 						<choice name="enemy">
 							<soundset name="GeorgeWashingtonAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="GeorgeWashingtonAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -315,7 +357,9 @@
 						<choice name="enemy">
 							<soundset name="SPCMilitiaAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="SPCMilitiaAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -332,7 +376,9 @@
 						<choice name="enemy">
 							<soundset name="SPCMilitiaAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="SPCMilitiaAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>
@@ -349,7 +395,47 @@
 						<choice name="enemy">
 							<soundset name="SPCMilitiaAttack"/>
 						</choice>
-						<choice name="build"/>
+						<choice name="build">
+							<soundset name="SPCMilitiaAcknowledge"/>
+						</choice>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="SPCChinese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="SwedishFusilierAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="SwedishFusilierAttack"/>
+						</choice>
+						<choice name="build">
+							<soundset name="SwedishFusilierAcknowledge"/>
+						</choice>
+						<choice name="Huntable"/>
+						<choice name="Tree"/>
+						<choice name="AbstractMine"/>
+						<choice name="AbstractFarm"/>
+						<choice name="AbstractResourceCrate"/>
+						<choice name="AbstractFruit"/>
+					</targetlogic>
+				</choice>
+				<choice name="Chinese">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="SwedishFusilierAcknowledge"/>
+						</choice>
+						<choice name="enemy">
+							<soundset name="SwedishFusilierAttack"/>
+						</choice>
+						<choice name="build">
+							<soundset name="SwedishFusilierAcknowledge"/>
+						</choice>
 						<choice name="Huntable"/>
 						<choice name="Tree"/>
 						<choice name="AbstractMine"/>

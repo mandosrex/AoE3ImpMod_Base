@@ -14,7 +14,7 @@
 					<soundset name="FrenchGrenadierSelect"/>
 				</choice>
 				<choice name="Chinese">
-					<soundset name="FrenchGrenadierSelect"/>
+					<soundset name="SwedishSelect"/>
 				</choice>
 				<choice name="Japanese">
 					<soundset name="FrenchGrenadierSelect"/>
@@ -23,7 +23,7 @@
 					<soundset name="FrenchGrenadierSelect"/>
 				</choice>
 				<choice name="SPCChinese">
-					<soundset name="FrenchGrenadierSelect"/>
+					<soundset name="SwedishSelect"/>
 				</choice>
 				<choice name="SPCJapanese">
 					<soundset name="FrenchGrenadierSelect"/>
@@ -54,10 +54,10 @@
 				<choice name="Chinese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="FrenchGrenadierAcknowledge"/>
+							<soundset name="SwedishAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="FrenchGrenadierAttack"/>
+							<soundset name="SwedishAttack"/>
 						</choice>
 					</targetlogic>
 				</choice>
@@ -84,10 +84,10 @@
 				<choice name="SPCChinese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="FrenchGrenadierAcknowledge"/>
+							<soundset name="SwedishAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="FrenchGrenadierAttack"/>
+							<soundset name="SwedishAttack"/>
 						</choice>
 					</targetlogic>
 				</choice>

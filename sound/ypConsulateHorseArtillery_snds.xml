@@ -11,7 +11,7 @@
 		<soundtype name="Select">
 			<civlogic>
 				<choice name="Chinese">
-					<soundset name="FrenchFalconetSelect"/>
+					<soundset name="SwedishFusilierSelect"/>
 				</choice>
 				<choice name="Indians">
 					<soundset name="FrenchFalconetSelect"/>
@@ -20,7 +20,7 @@
 					<soundset name="PortugueseFalconetSelect"/>
 				</choice>
 				<choice name="SPCChinese">
-					<soundset name="FrenchFalconetSelect"/>
+					<soundset name="SwedishFusilierSelect"/>
 				</choice>
 				<choice name="SPCIndians">
 					<soundset name="FrenchFalconetSelect"/>
@@ -38,10 +38,10 @@
 				<choice name="Chinese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="FrenchFalconetAcknowledge"/>
+							<soundset name="SwedishFusilierAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="FrenchFalconetAttack"/>
+							<soundset name="SwedishFusilierAttack"/>
 						</choice>
 						<choice name="build"/>
 						<choice name="Huntable"/>
@@ -89,10 +89,10 @@
 				<choice name="SPCChinese">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="FrenchFalconetAcknowledge"/>
+							<soundset name="SwedishFusilierAcknowledge"/>
 						</choice>
 						<choice name="enemy">
-							<soundset name="FrenchFalconetAttack"/>
+							<soundset name="SwedishFusilierAttack"/>
 						</choice>
 						<choice name="build"/>
 						<choice name="Huntable"/>

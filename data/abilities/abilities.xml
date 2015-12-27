@@ -1168,10 +1168,4 @@
 			<rof>200</rof>
 		</ability>
 	</MissionaryIt>
-	<LumberCamp>
-		<ability>
-			ypPowerEconAura
-			<alwaysdisabledingrid>true</alwaysdisabledingrid>
-		</ability>
-	</LumberCamp>
 </abilities>
