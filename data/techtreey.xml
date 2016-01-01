@@ -31457,9 +31457,6 @@
 			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Skirmisher</Target>
 			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Coutelier</Target>
-			</Effect>
 			<Effect type="TextOutput">41941</Effect>
 		</Effects>
 	</Tech>

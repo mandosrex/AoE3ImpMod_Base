@@ -369,7 +369,7 @@
 	</tactic>
 	<tactic>
 		Horse
-		<speedmodifier>1.75</speedmodifier>
+		<speedmodifier>1.65</speedmodifier>
 		<action priority="100">HorseRangedAttack</action>
 		<action priority="75">HorseBuildingAttack</action>
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
