@@ -4328,14 +4328,14 @@
 		<String _locID="31513" symbol="cStringSpiesEnemy">%s has infiltrated your ranks with spies and now knows all that you do.</String>
 		<String _locID="31514" symbol="cStringSpiesTeammate">%s has sent out spies.</String>
 		<String _locID="31518" symbol="cStringExplorerKnockoutTooltipText">Every moment I live... is agony.</String>
-		<String _locID="31522">Enables the Explorer to heal units and his attack and hitpoints are greatly increased.</String>
+		<String _locID="31522">Explorer attack and hitpoints are greatly increased.</String>
 		<String _locID="31523">Knighthood</String>
 		<String _locID="31527">Allows you to support 100 population without the need for Houses or Town Centers (maximum population is not increased).</String>
 		<String _locID="31528">Immigrants</String>
 		<String _locID="31529">Villagers gather Food from Mills much faster.</String>
 		<String _locID="31530">Large Scale Agriculture</String>
-		<String _locID="31533">Explorer attack and hitpoints greatly increased.</String>
-		<String _locID="31534">Aristocracy</String>
+		<String _locID="31533">Enables the Explorer to heal units and his speed is greatly increased.</String>
+		<String _locID="31534">Peerage</String>
 		<String _locID="31536" symbol="cStringTcGrant">Your Home City has sent provisions to help establish your colony.</String>
 		<String _locID="31541">Purchases all remaining improvements for Artillery.</String>
 		<String _locID="31542">Artillery Regiments</String>
@@ -5517,7 +5517,7 @@
 		<String _locID="34001">TEAM Unit line of sight greatly increased.</String>
 		<String _locID="34002">TEAM Inquisition</String>
 		<String _locID="34003">Conquistador</String>
-		<String _locID="34004">Improves your Spanish Explorer and his war dogs in combat.</String>
+		<String _locID="34004">Improves your Spanish Explorer, his loyal companion and his war dogs in combat.</String>
 		<String _locID="34011">TEAM Hand infantry attack increased.</String>
 		<String _locID="34012">TEAM Hand Infantry Attack</String>
 		<String _locID="34013">Mercenary attack and hitpoints increased, +3 Uhlans.</String>
@@ -6348,7 +6348,7 @@
 		<String _locID="35568">Run</String>
 		<String _locID="35573">All cavalry attack and hitpoints increased.</String>
 		<String _locID="35574">Cavalry Combat</String>
-		<String _locID="35579">Improves your Russian Explorer in combat, improves his damage against guardians, and enables him to train Bears.</String>
+		<String _locID="35579">Improves your Russian Explorer and his pet bears in combat, and improves his damage against guardians.</String>
 		<String _locID="35580">Polar Explorer</String>
 		<String _locID="35581">Strelet, Cossack and Oprichnik attack and hitpoints increased.</String>
 		<String _locID="35582">Boyars</String>
@@ -17376,11 +17376,11 @@
 		<String _locID="46974">4 Cuirassiers</String>
 		<String _locID="46975">Resources.</String>
 		<String _locID="46976">Crates of 500 Food, 500 Wood, and 500 Coin</String>
-		<String _locID="46977">Healers (surgeons and holy men) have increased speed and hitpoints.</String>
+		<String _locID="46977">Healers (surgeons and Holy Men) have increased speed and hitpoints.</String>
 		<String _locID="46978">State Religion</String>
 		<String _locID="46979">Healers (Surgeons and Holy Men) have increased speed and hitpoints.</String>
 		<String _locID="46980">Mission Fervor</String>
-		<String _locID="46981">Healers (Surgeons and Holy Men) have increased hitpoints and can heal faster.</String>
+		<String _locID="46981">Healers (Surgeons and Holy Men) have increased line of sight and can heal faster.</String>
 		<String _locID="46982">State Religion</String>
 		<String _locID="46983">Grenadiers have an increased burst radius and do more damage to buildings.</String>
 		<String _locID="46984">Incendiary Grenades</String>
@@ -29864,9 +29864,9 @@
 		<String _locID="77846">Provides any type of resources + 1 Villager.</String>
 		<String _locID="77847">4 Pilgrims</String>
 		<String _locID="77848">Military Might</String>
-		<String _locID="77849">Ships a General that can boost hitpoints and attack of nearby units. Also enables the General at the Command Post.</String>
+		<String _locID="77849">Ships a General that can boost the hitpoints and attack of nearby units. Also enables the General at the Command Post.</String>
 		<String _locID="77850">General</String>
-		<String _locID="77851">Ships a General that can boost hitpoints and attack of nearby units. Also enables the General at the Command Post.</String>
+		<String _locID="77851">Ships a General that can boost the hitpoints and attack of nearby units. Also enables the General at the Command Post.</String>
 		<String _locID="77852">War Leader who can train all Sioux infantry and boost hitpoints of nearby units.</String>
 		<String _locID="77854">War Leader</String>
 		<String _locID="77855">Ranger</String>

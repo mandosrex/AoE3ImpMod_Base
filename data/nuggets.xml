@@ -5451,7 +5451,7 @@
 			</guardianunit>
 			<guardianunit>
 				<unit>ypWanderingHorseman</unit>
-				<idleanim>Nugget_Idle01		</idleanim>
+				<idleanim>Nugget_Idle01</idleanim>
 				<attachdummy>bone_nuggetC</attachdummy>
 			</guardianunit>
 			<difficulty>4</difficulty>
@@ -7591,19 +7591,19 @@
 			<guardianunit>
 				<unit>ypWaywardRonin</unit>
 				<idleanim>NuggetRonin_Idle01</idleanim>
-				<exitanim>NuggetRonin_Exit01		</exitanim>
+				<exitanim>NuggetRonin_Exit01</exitanim>
 				<attachdummy>bone_nuggetA</attachdummy>
 			</guardianunit>
 			<guardianunit>
 				<unit>ypWaywardRonin</unit>
 				<idleanim>NuggetRonin_Idle01</idleanim>
-				<exitanim>NuggetRonin_Exit01		</exitanim>
+				<exitanim>NuggetRonin_Exit01</exitanim>
 				<attachdummy>bone_nuggetB</attachdummy>
 			</guardianunit>
 			<guardianunit>
 				<unit>ypWaywardRonin</unit>
 				<idleanim>NuggetRonin_Idle01</idleanim>
-				<exitanim>NuggetRonin_Exit01		</exitanim>
+				<exitanim>NuggetRonin_Exit01</exitanim>
 				<attachdummy>bone_nuggetC</attachdummy>
 			</guardianunit>
 			<guardianunit>

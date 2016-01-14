@@ -42,7 +42,6 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypConsulateArmyDutch2US</Target>
 			</Effect>
-			<Effect type="SetName" proto="Halberdier" culture="none" newName="28292"/>
 			<Effect type="Data" amount="150.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -504,6 +503,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">PetBear</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Stable</Target>
 			</Effect>
@@ -1821,7 +1823,6 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
-			<Effect type="TechStatus" status="active">VeteranSpahi</Effect>
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -2637,6 +2638,7 @@
 			<Effect type="TechStatus" status="obtainable">Spies</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="obtainable">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="obtainable">HCBlockade</Effect>
 			<Effect type="TechStatus" status="obtainable">ArmorPlating</Effect>
 			<Effect type="TechStatus" status="obtainable">Carronade</Effect>
@@ -2761,6 +2763,7 @@
 			<Effect type="TechStatus" status="obtainable">Spies</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="obtainable">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="obtainable">HCBlockade</Effect>
 			<Effect type="TechStatus" status="obtainable">MercArmy</Effect>
 			<Effect type="TechStatus" status="obtainable">ArmorPlating</Effect>
@@ -2897,6 +2900,7 @@
 			<Effect type="TechStatus" status="obtainable">Spies</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="obtainable">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="obtainable">HCBlockade</Effect>
 			<Effect type="TechStatus" status="obtainable">ArmorPlating</Effect>
 			<Effect type="TechStatus" status="obtainable">Carronade</Effect>
@@ -3025,6 +3029,7 @@
 			<Effect type="TechStatus" status="obtainable">Spies</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="obtainable">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="obtainable">HCBlockade</Effect>
 			<Effect type="TechStatus" status="obtainable">ArmorPlating</Effect>
 			<Effect type="TechStatus" status="obtainable">Carronade</Effect>
@@ -3151,6 +3156,7 @@
 			<Effect type="TechStatus" status="obtainable">Spies</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="obtainable">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="obtainable">HCBlockade</Effect>
 			<Effect type="TechStatus" status="obtainable">ArmorPlating</Effect>
 			<Effect type="TechStatus" status="obtainable">Carronade</Effect>
@@ -3281,6 +3287,7 @@
 			<Effect type="TechStatus" status="obtainable">Spies</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="obtainable">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="obtainable">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="obtainable">HCBlockade</Effect>
 			<Effect type="TechStatus" status="obtainable">ArmorPlating</Effect>
 			<Effect type="TechStatus" status="obtainable">Carronade</Effect>
@@ -5184,6 +5191,7 @@
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="active">PostIndustrialUSA</Effect>
 			<Effect type="TechStatus" status="active">ImperialRiflemenUS</Effect>
@@ -5214,6 +5222,7 @@
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="active">PostIndustrialBritish</Effect>
 			<Effect type="TechStatus" status="active">ImperialHalberdiers</Effect>
@@ -5245,6 +5254,7 @@
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="active">PostIndustrialDutch</Effect>
 			<Effect type="TechStatus" status="active">ImperialSchutzens</Effect>
@@ -5276,6 +5286,7 @@
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="active">PostIndustrialFrench</Effect>
 			<Effect type="TechStatus" status="active">ImperialGendarme</Effect>
@@ -5308,6 +5319,7 @@
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="active">PostIndustrialGerman</Effect>
 			<Effect type="TechStatus" status="active">ImperialWarWagons</Effect>
@@ -5338,6 +5350,7 @@
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="active">PostIndustrialOttoman</Effect>
 			<Effect type="TechStatus" status="active">ImperialAzaps</Effect>
@@ -5368,6 +5381,7 @@
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="active">PostIndustrialPortuguese</Effect>
 			<Effect type="TechStatus" status="active">ImperialCacadores</Effect>
@@ -5398,6 +5412,7 @@
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="active">PostIndustrialRussian</Effect>
 			<Effect type="TechStatus" status="active">ImperialTartarLoyalist</Effect>
@@ -5428,6 +5443,7 @@
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
 			<Effect type="TechStatus" status="active">PostIndustrialSpanish</Effect>
 			<Effect type="TechStatus" status="active">ImperialDragoons</Effect>
@@ -17163,7 +17179,7 @@
 		<RolloverTextID>780793</RolloverTextID>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="22.00" subtype="PopulationCapExtra" relativity="Absolute">
+			<Effect type="Data" amount="25.00" subtype="PopulationCapExtra" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="XP" relativity="Absolute">
@@ -19714,11 +19730,11 @@
 	</Tech>
 	<Tech name="ImpKnighthood" type="Normal">
 		<DBID>1384</DBID>
-		<DisplayNameID>31534</DisplayNameID>
+		<DisplayNameID>31523</DisplayNameID>
 		<Cost resourcetype="Food">1000.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\imperial_peerage\imp_peerage</Icon>
+		<Icon>ui\techs\imperial_knighthood\imp_knighthood</Icon>
 		<RolloverTextID>31522</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
@@ -19784,20 +19800,17 @@
 	<Tech name="ImpPeerage" type="Normal">
 		<DBID>1388</DBID>
 		<DisplayNameID>31534</DisplayNameID>
-		<Cost resourcetype="Food">1000.0000</Cost>
+		<Cost resourcetype="Wood">1000.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\imperial_peerage\imp_peerage</Icon>
 		<RolloverTextID>31533</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status="Active">ImpKnighthood2</TechStatus>
+			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1000.00" subtype="Hitpoints" relativity="Absolute">
-				<Target type="ProtoUnit">Hero</Target>
-			</Effect>
-			<Effect type="Data" amount="2.00" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">Hero</Target>
 			</Effect>
 		</Effects>
@@ -21562,6 +21575,12 @@
 			</Effect>
 			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">WarDog</Target>
+			</Effect>
+			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">ExplorerDog</Target>
+			</Effect>
+			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">ExplorerDog</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -24033,7 +24052,10 @@
 			<Effect type="Data" amount="2.00" subtype="DamageBonus" unittype="Guardian" allactions="1" relativity="Absolute">
 				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">PetBear</Target>
+			</Effect>
+			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">PetBear</Target>
 			</Effect>
 			<Effect type="TextOutput">41836</Effect>
@@ -45846,8 +45868,8 @@
 	<Tech name="ChurchMissionFervor" type="Normal">
 		<DBID>3424</DBID>
 		<DisplayNameID>46980</DisplayNameID>
-		<Cost resourcetype="Food">200.0000</Cost>
-		<Cost resourcetype="Wood">200.0000</Cost>
+		<Cost resourcetype="Food">250.0000</Cost>
+		<Cost resourcetype="Wood">250.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Unction</Icon>
@@ -45858,40 +45880,40 @@
 			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">Priest</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">Missionary</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">NatMedicineMan</Target>
 			</Effect>
-			<Effect type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">xpMedicineMan</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">Imam</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Imam</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Priest</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Missionary</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">xpMedicineMan</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">NatMedicineMan</Target>
 			</Effect>
 		</Effects>
@@ -45909,43 +45931,42 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Fortressize</TechStatus>
-			<TechStatus status="Active">ChurchMissionFervor</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" action="Heal" amount="1.20" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
+			<Effect type="Data" action="Heal" amount="1.35" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
 				<Target type="ProtoUnit">Priest</Target>
 			</Effect>
-			<Effect type="Data" action="Heal" amount="1.20" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
+			<Effect type="Data" action="Heal" amount="1.35" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
 				<Target type="ProtoUnit">Missionary</Target>
 			</Effect>
-			<Effect type="Data" action="Heal" amount="1.20" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
+			<Effect type="Data" action="Heal" amount="1.35" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
 				<Target type="ProtoUnit">NatMedicineMan</Target>
 			</Effect>
-			<Effect type="Data" action="Heal" amount="1.20" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
+			<Effect type="Data" action="Heal" amount="1.35" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
 				<Target type="ProtoUnit">xpMedicineMan</Target>
 			</Effect>
-			<Effect type="Data" action="Heal" amount="1.20" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
+			<Effect type="Data" action="Heal" amount="1.35" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
 				<Target type="ProtoUnit">Imam</Target>
 			</Effect>
-			<Effect type="Data" action="Heal" amount="1.10" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
+			<Effect type="Data" action="Heal" amount="1.15" subtype="WorkRate" unittype="LogicalTypeHealed" relativity="BasePercent">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
-			<Effect type="Data" amount="1.65" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Imam</Target>
 			</Effect>
-			<Effect type="Data" amount="1.65" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Surgeon</Target>
 			</Effect>
-			<Effect type="Data" amount="1.65" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Priest</Target>
 			</Effect>
-			<Effect type="Data" amount="1.65" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">Missionary</Target>
 			</Effect>
-			<Effect type="Data" amount="1.65" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">xpMedicineMan</Target>
 			</Effect>
-			<Effect type="Data" amount="1.65" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
 				<Target type="ProtoUnit">NatMedicineMan</Target>
 			</Effect>
 		</Effects>
@@ -50579,7 +50600,7 @@
 			<Effect type="Data" action="DefendHandAttack" amount="0.00" subtype="HitPercentType" relativity="Absolute" hitpercenttype="CriticalDisciple">
 				<Target type="ProtoUnit">ypMonkDisciple</Target>
 			</Effect>
-			<Effect type="Data" amount="44.00" subtype="PopulationCapExtra" relativity="Absolute">
+			<Effect type="Data" amount="50.00" subtype="PopulationCapExtra" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -59795,7 +59816,7 @@ Indians" type="Normal">
 		<DBID>4691</DBID>
 		<DisplayNameID>65603</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -59845,7 +59866,7 @@ Indians" type="Normal">
 		<DBID>4692</DBID>
 		<DisplayNameID>65605</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -59882,7 +59903,7 @@ Indians" type="Normal">
 		<DBID>4693</DBID>
 		<DisplayNameID>65607</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -59960,7 +59981,7 @@ Indians" type="Normal">
 		<DBID>4694</DBID>
 		<DisplayNameID>65609</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -60013,7 +60034,7 @@ Indians" type="Normal">
 		<DBID>4695</DBID>
 		<DisplayNameID>65611</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -60078,7 +60099,7 @@ Indians" type="Normal">
 		<DBID>4696</DBID>
 		<DisplayNameID>65613</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -60116,7 +60137,7 @@ Indians" type="Normal">
 		<DBID>4697</DBID>
 		<DisplayNameID>65615</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -61102,7 +61123,7 @@ Indians" type="Normal">
 		<DBID>4767</DBID>
 		<DisplayNameID>65907</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -62951,7 +62972,7 @@ Indians" type="Normal">
 		<DBID>4901</DBID>
 		<DisplayNameID>66530</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -62993,7 +63014,7 @@ Indians" type="Normal">
 		<DBID>4902</DBID>
 		<DisplayNameID>66532</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -63758,7 +63779,7 @@ Indians" type="Normal">
 		<DBID>4938</DBID>
 		<DisplayNameID>65603</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -63858,7 +63879,7 @@ Indians" type="Normal">
 		<DBID>4938</DBID>
 		<DisplayNameID>68233</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endisolation</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -64761,7 +64782,7 @@ Indians" type="Normal">
 		<DBID>5015</DBID>
 		<DisplayNameID>68629</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -64804,7 +64825,7 @@ Indians" type="Normal">
 		<DBID>5016</DBID>
 		<DisplayNameID>68631</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -64842,7 +64863,7 @@ Indians" type="Normal">
 		<DBID>5016</DBID>
 		<DisplayNameID>68631</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
@@ -64876,7 +64897,7 @@ Indians" type="Normal">
 		<DBID>5017</DBID>
 		<DisplayNameID>68633</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
-		<Cost resourcetype="Trade">100.0000</Cost>
+		<Cost resourcetype="Trade">50.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\politicians\consulate_endrelations</Icon>
 		<IconTextureCoords>.001953125 .001953125 .7890625 .6015625</IconTextureCoords>
