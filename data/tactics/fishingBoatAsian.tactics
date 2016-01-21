@@ -2,6 +2,13 @@
 
 <tactics>
 	<action>
+		<name stringid="69149">AutoGatherTrade</name>
+		<type>AutoGather</type>
+		<donotautogatherunlessgathering>1</donotautogatherunlessgathering>
+		<active>0</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
 		<name stringid="69147">Build</name>
 		<type>Build</type>
 		<anim>Build</anim>
@@ -106,6 +113,7 @@
 		<action priority="75">RangedAttack</action>
 		<action priority="75">RangedAttack2</action>
 		<action priority="75">FlamingAttack</action>
+		<action>AutoGatherTrade</action>
 		<action>Discover</action>
 		<action>Gather</action>
 		<action>Build</action>

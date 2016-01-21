@@ -1011,10 +1011,6 @@
 			<rof>60</rof>
 		</ability>
 		<ability>
-			ypPowerCriticalAttack
-			<alwaysdisabledingrid>true</alwaysdisabledingrid>
-		</ability>
-		<ability>
 			UnitGeneralAura
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
 		</ability>
@@ -1025,19 +1021,11 @@
 			<rof>60</rof>
 		</ability>
 		<ability>
-			ypPowerCriticalAttack
-			<alwaysdisabledingrid>true</alwaysdisabledingrid>
-		</ability>
-		<ability>
 			UnitGeneralAura
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
 		</ability>
 	</generalg>
 	<generalbr>
-		<ability>
-			ypPowerCriticalAttack
-			<alwaysdisabledingrid>true</alwaysdisabledingrid>
-		</ability>
 		<ability>
 			UnitGeneralAura
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
@@ -1046,10 +1034,6 @@
 	<warleader>
 		<ability>
 			UnitGeneralAura
-			<alwaysdisabledingrid>true</alwaysdisabledingrid>
-		</ability>
-		<ability>
-			ypPowerCriticalAttack
 			<alwaysdisabledingrid>true</alwaysdisabledingrid>
 		</ability>
 	</warleader>

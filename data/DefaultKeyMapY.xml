@@ -578,10 +578,17 @@
 		</keymapdata>
 		<keymapdata>
 			<name>Build Fort</name>
-			<displayname>$$48981$$Build Fort or Firepit</displayname>
+			<displayname>$$48981$$Build Fort</displayname>
 			<event>q</event>
 			<context>BuildAccel</context>
-			<command>tis("FortFrontier") tis("FirePit")</command>
+			<command>tis("FortFrontier")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Build Firepit</name>
+			<displayname>$$48981$$Build Firepit</displayname>
+			<event>e</event>
+			<context>BuildAccel</context>
+			<command>tis("FirePit")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Build TownCenter</name>
@@ -651,7 +658,7 @@
 			<displayname>Build Outpost or Tower</displayname>
 			<event>b</event>
 			<context>BuildAccel</context>
-			<command>tis("Outpost") tis("ypOutpostAsian") tis("ypOutpostJapanese") tis("Lookout") tis("GuardTower") tis("HuariStronghold")</command>
+			<command>tis("Outpost") tis("ypOutpostAsian") tis("Lookout") tis("GuardTower") tis("HuariStronghold")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Build Trading Post</name>
@@ -902,10 +909,17 @@
 		</keymapdata>
 		<keymapdata>
 			<name>Find Fort</name>
-			<displayname>$$48980$$Find Fort or FirePit</displayname>
+			<displayname>$$48980$$Find Fort</displayname>
 			<event>control-j</event>
 			<context>game</context>
-			<command>uiFindType("FortFrontier") uiFindType("FirePit") </command>
+			<command>uiFindType("FortFrontier")</command>
+		</keymapdata>
+		<keymapdata>
+			<name>Find FirePit</name>
+			<displayname>$$48980$$Find FirePit</displayname>
+			<event>control-j</event>
+			<context>game</context>
+			<command>uiFindType("FirePit")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Find Mill</name>
@@ -961,7 +975,7 @@
 			<displayname>Find Outpost or Tower</displayname>
 			<event>control-b</event>
 			<context>game</context>
-			<command>uiFindType("Outpost") uiFindType("ypOutpostAsian") uiFindType("ypOutpostJapanese") uiFindType("GuardTower") uiFindType("HuariStronghold") uiFindType("Lookout")</command>
+			<command>uiFindType("Outpost") uiFindType("ypOutpostAsian") uiFindType("GuardTower") uiFindType("HuariStronghold") uiFindType("Lookout")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Find Trading Post</name>
@@ -1059,7 +1073,7 @@
 			<displayname>$$68822$$Find Caravanserai</displayname>
 			<event>control-x</event>
 			<context>game</context>
-			<command>uiFindType("ypCaravanserai") </command>
+			<command>uiFindType("ypCaravanserai")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Find War Academy</name>
@@ -1177,7 +1191,7 @@
 			<name>Find All Stables</name>
 			<displayname>$$68932$$Find All Stables-type Buildings</displayname>
 			<context>game</context>
-			<command>uiFindAllOfType("AbstractStables") </command>
+			<command>uiFindAllOfType("AbstractStables")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Find All Artillery Foundries</name>

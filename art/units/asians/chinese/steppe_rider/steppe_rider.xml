@@ -81,62 +81,63 @@
 	<anim>
 		Walk
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_canter</file>
-			<tag type="FootstepLeft" footprinttype="Horse">1.00</tag>
-			<tag type="FootstepRight" footprinttype="Horse">0.70</tag>
+			<file>animation_library\cavalry\sword_canter</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Jog
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_jog</file>
-			<tag type="FootstepLeft" footprinttype="Horse">0.80</tag>
-			<tag type="FootstepRight" footprinttype="Horse">0.94</tag>
+			<file>animation_library\cavalry\sword_jog</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Run
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_gallop</file>
-			<tag type="FootstepLeft" footprinttype="Horse">0.80</tag>
-			<tag type="FootstepRight" footprinttype="Horse">0.94</tag>
+			<file>animation_library\cavalry\sword_gallop</file>
+		</assetreference>
+		<component>ModelComp</component>
+	</anim>
+	<anim>
+		Highstep
+		<assetreference type="GrannyAnim">
+			<file>animation_library\cavalry\sword_highstep</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_idle1</file>
+			<file>animation_library\cavalry\sword_idle_A</file>
 			<weight>40</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_idle2</file>
+			<file>animation_library\cavalry\sword_idle_B</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_idle03</file>
+			<file>animation_library\cavalry\sword_idle_C</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_idle4</file>
+			<file>animation_library\cavalry\sword_idle_D</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_idle5</file>
+			<file>animation_library\cavalry\sword_idle_F</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_idle6</file>
+			<file>animation_library\cavalry\sword_idle_G</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_idle7</file>
+			<file>animation_library\cavalry\sword_idle_H</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_idle8</file>
+			<file>animation_library\cavalry\sword_idle_I</file>
 			<weight>40</weight>
 		</assetreference>
 		<component>ModelComp</component>
@@ -144,19 +145,19 @@
 	<anim>
 		Bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_bored_A</file>
+			<file>animation_library\cavalry\sword_bored_A</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_idle5</file>
+			<file>animation_library\cavalry\sword_idle_E</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_idle1</file>
+			<file>animation_library\cavalry\sword_idle_A</file>
 			<weight>50</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_idle8</file>
+			<file>animation_library\cavalry\sword_idle_I</file>
 			<weight>50</weight>
 		</assetreference>
 		<component>ModelComp</component>
@@ -164,19 +165,19 @@
 	<anim>
 		Attack_melee
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_attack_A</file>
+			<file>animation_library\cavalry\sword_attack_A</file>
 			<weight>40</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_attack_B</file>
+			<file>animation_library\cavalry\sword_attack_B</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_attack_C</file>
+			<file>animation_library\cavalry\sword_attack_C</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_attack_D</file>
+			<file>animation_library\cavalry\sword_attack_D</file>
 			<weight>10</weight>
 		</assetreference>
 		<assetreference type="GrannyAnim">
@@ -200,26 +201,26 @@
 	<anim>
 		Death_by_melee
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_deathA</file>
+			<file>animation_library\cavalry\sword_deathA</file>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_deathB</file>
+			<file>animation_library\cavalry\sword_deathB</file>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_deathC</file>
+			<file>animation_library\cavalry\sword_deathC</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Death_by_range
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_deathA</file>
+			<file>animation_library\cavalry\sword_deathA</file>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_deathB</file>
+			<file>animation_library\cavalry\sword_deathB</file>
 		</assetreference>
 		<assetreference type="GrannyAnim">
-			<file>animation_library\cavalry\oprichnik_deathC</file>
+			<file>animation_library\cavalry\sword_deathC</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

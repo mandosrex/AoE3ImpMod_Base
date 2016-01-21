@@ -373,14 +373,14 @@
 	<anim>
 		Defend_idle
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\defend\jannisary_defend_idle</file>
+			<file>animation_library\range\defend\defend_idle</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>
 	<anim>
 		Defend_bored
 		<assetreference type="GrannyAnim">
-			<file>animation_library\range\defend\jannisary_defend_bored</file>
+			<file>animation_library\range\defend\defend_boredA</file>
 		</assetreference>
 		<component>ModelComp</component>
 	</anim>

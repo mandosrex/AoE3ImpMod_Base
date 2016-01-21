@@ -316,7 +316,7 @@
 	<anim>
 		Defend_attack
 		<assetreference type="GrannyAnim">
-			<file>animation_library\natives\range\volley\longbow_volley_kneeling_fire</file>
+			<file>animation_library\range\volley\longbow_volley_kneeling_fire</file>
 			<tag type="Attack">0.98</tag>
 			<tag type="SpecificSoundSet" checkvisible="1" set="Arrows">0.98</tag>
 		</assetreference>

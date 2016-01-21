@@ -121,7 +121,7 @@
 			<gadget name="CampaignSubMenu-Top" type="gadget" size1024="496 507 752 523" background="ui\pregame\dropdown_top_ypack" clampbackground="" z="10"/>
 			<gadget name="OriginalCampaignButton" type="stateButton" size1024="496 523 752 555" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35546$$Play the main AOEIII campaign">
 				$$36936$$BloodIceSteel
-				<command>gadgetUnReal("CampaignSubMenu") startCampaign("campaign\war chief\warchief.xml")</command>
+				<command>gadgetUnReal("CampaignSubMenu") startCampaign("campaign\blood ice steel\bloodicesteel.xml")</command>
 				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
 				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
 				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
@@ -141,7 +141,7 @@
 			<gadget name="CampaignSubMenu-WithXPack" type="gadget" size1024="496 555 752 637" z="10">
 				<gadget name="XPackCampaignButton" type="stateButton" size1024="496 555 752 587" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$43994$$Play the AOEIII xpack campaign">
 					$$43995$$WarChief
-					<command>gadgetUnReal("CampaignSubMenu") startCampaign("campaign\Blood Ice Steel\BloodIceSteel.xml")</command>
+					<command>gadgetUnReal("CampaignSubMenu") startCampaign("campaign\war chief\warchief.xml")</command>
 					<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
 					<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
 					<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>

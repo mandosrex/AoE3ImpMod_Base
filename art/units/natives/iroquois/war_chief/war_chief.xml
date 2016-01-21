@@ -12,6 +12,7 @@
 	<definebone>bone_gun</definebone>
 	<definebone>HITPOINTBAR</definebone>
 	<definebone>bone_chief_aura</definebone>
+	<definebone>bone hitpointbar</definebone>
 	<attachment>
 		torch
 		<include>effects\projectiles\torch.xml</include>
@@ -130,7 +131,7 @@
 			power_ring
 			<notshadowcaster/>
 			<assetreference type="GrannyModel">
-				<file>units\natives\iroquois\war_chief\chief_aura</file>
+				<file>units\natives\aztec\war_chief\az_chief_aura</file>
 			</assetreference>
 		</component>
 		<anim>
@@ -165,7 +166,7 @@
 			<height>1.50</height>
 		</decal>
 		<attach a="chief_home_iroquois" frombone="ATTACHPOINT" tobone="Bip01 Head" syncanims="0"/>
-		<attach a="chief_power_effect" frombone="bone_chief_aura" tobone="HITPOINTBAR" syncanims="0"/>
+		<attach a="chief_power_effect" frombone="bone_chief_aura" tobone="bone hitpointbar" syncanims="0"/>
 	</component>
 	<anim>
 		Walk
