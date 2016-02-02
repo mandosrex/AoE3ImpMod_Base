@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+	<gadget name="MainMenu" type="gadget" size1024="0 0 1024 768" background="" z="30">
+		<gadget name="BackgroundMainButtons" type="gadget" background="ui\pregame\pregame_menu_main_ypack" size1024="9 332 265 844" clampbackground="" z="30"/>
+		<gadget name="MainMenuOptions" type="gadget" size1024="21 456 253 725" z="40">
+			<gadget name="LearnToPlayButton" type="stateButton" size1024="40 515 233 547" bevelbutton="" z="14" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1">
+				$$20622$$Learn To Play
+				<command>gadgetReal("LearnSubMenu") gadgetUnReal("SinglePlayerSubMenu") gadgetUnReal("CampaignSubMenu") gadgetUnReal("CreditsSubMenu") gadgetUnReal("MultiplayerSubMenu") gadgetUnReal("GrandConquestSubMenu") gadgetUnReal("HelpAndToolsSubMenu") </command>
+				<stateentry background="ui\core_ui\button_pregame_menu_normal_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_clicked_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_active_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="SinglePlayerButton" type="stateButton" size1024="40 555 233 587" bevelbutton="" z="13" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1">
+				$$19827$$Single Player
+				<command>gadgetReal("SinglePlayerSubMenu") gadgetUnReal("CampaignSubMenu") gadgetUnReal("CreditsSubMenu") gadgetUnReal("MultiplayerSubMenu") gadgetUnReal("LearnSubMenu") gadgetUnReal("GrandConquestSubMenu") gadgetUnReal("HelpAndToolsSubMenu") </command>
+				<stateentry background="ui\core_ui\button_pregame_menu_normal_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_clicked_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_active_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="MultiplayerButton" type="stateButton" size1024="40 595 233 627" bevelbutton="" z="11" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1">
+				$$19828$$Multiplayer
+				<command>gadgetReal("MultiplayerSubMenu")gadgetUnReal("SinglePlayerSubMenu") gadgetUnReal("CampaignSubMenu") gadgetUnReal("CreditsSubMenu") gadgetUnReal("LearnSubMenu") gadgetUnReal("GrandConquestSubMenu") gadgetUnReal("HelpAndToolsSubMenu") </command>
+				<stateentry background="ui\core_ui\button_pregame_menu_normal_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_clicked_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_active_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="HelpAndToolsButton" type="stateButton" size1024="40 635 233 667" bevelbutton="" z="11" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1">
+				$$35538$$Help and Tools
+				<command>gadgetReal("HelpAndToolsSubMenu") gadgetUnReal("SinglePlayerSubMenu") gadgetUnReal("CampaignSubMenu") gadgetUnReal("CreditsSubMenu") gadgetUnReal("GrandConquestSubMenu") gadgetUnReal("MultiplayerSubMenu") gadgetUnReal("LearnSubMenu") </command>
+				<stateentry background="ui\core_ui\button_pregame_menu_normal_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_clicked_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_active_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="ExitButton" type="stateButton" size1024="40 689 233 721" bevelbutton="" z="16" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1">
+				$$19831$$Exit        
+				<command>exit(true)</command>
+				<stateentry background="ui\core_ui\button_pregame_menu_normal_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_clicked_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_active_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+		</gadget>
+		<gadget name="LearnSubMenu" type="gadget" size1024="240 312 496 475" hidden="" z="20">
+			<gadget name="LearnToPlayButton" type="stateButton" size1024="40 515 233 547" bevelbutton="" z="5" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1" mouseovertext="$$35535$$Learn basic and advanced features of the game">
+				$$20622$$Learn To Play
+				<command>gadgetUnReal("LearnSubMenu")</command>
+				<stateentry background="ui\core_ui\button_pregame_menu_normal_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_clicked_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_active_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="LearnSubMenu-Top" type="gadget" size1024="240 507 496 523" background="ui\pregame\dropdown_top_ypack" clampbackground="" z="10"/>
+			<gadget name="Learn-TutorialButton" type="stateButton" size1024="240 523 496 555" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35543$$Learn the basics of a Realtime Strategy Game">
+				$$19825$$Learn the Basics
+				<command>loadTutorial("age 3 tutorial\age3tutorial1", 0, "master_basics_load", 43013, true)</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="Learn-CustomButton" type="stateButton" size1024="240 555 496 587" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35545$$You are familiar with RTS games, and just want to see what's new in AOEIII.">
+				$$35544$$Try a Game
+				<command>loadTutorial("age 3 tutorial\age3tutorial2", 0, "try_game_load", 43014, true)</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="LearnSubMenu-Bottom" type="gadget" size1024="240 587 496 603" background="ui\pregame\dropdown_bottom_ypack" clampbackground="" z="10"/>
+		</gadget>
+		<gadget name="SinglePlayerSubMenu" type="gadget" size1024="240 513 496 613" hidden="" z="10">
+			<gadget name="SinglePlayerButton" type="stateButton" size1024="40 555 233 587" bevelbutton="" z="5" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1" mouseovertext="$$35536$$Play a story-driven series of scenarios or play a random map game against computer opponents">
+				$$19827$$Single Player
+				<command>gadgetUnReal("SinglePlayerSubMenu") gadgetUnReal("CampaignSubMenu")</command>
+				<stateentry background="ui\core_ui\button_pregame_menu_normal_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_clicked_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_active_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="SinglePlayerSubMenu-Top" type="gadget" size1024="240 507 496 523" background="ui\pregame\dropdown_top_ypack" clampbackground="" z="10"/>
+			<gadget name="CampaignButton" type="stateButton" size1024="240 523 496 555" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$48823$$Play an AOEIII Campaign">
+				$$19826$$Campaign
+				<command>gadgetReal("CampaignSubMenu")</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="Practice-CustomButton" type="stateButton" size1024="240 555 496 587" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35547$$Play a random map game against computer opponents">
+				$$21088$$Skirmish
+				<command>doSPSetup()</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="CustomScenario-CustomButton" type="stateButton" size1024="240 587 496 619" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35549$$Load a Custom Scenario">
+				$$35548$$Custom Scenario
+				<command>gadgetUnReal("SinglePlayerSubMenu") gadgetUnReal("CampaignSubMenu") uiOpenScenarioBrowser</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="LoadSaved-CustomButton" type="stateButton" size1024="240 619 496 651" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35550$$Load a Game that was Saved Previously">
+				$$19837$$Load Saved Game
+				<command>gadgetUnReal("SinglePlayerSubMenu") gadgetUnReal("CampaignSubMenu") uiOpenSavedGameBrowser</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="SinglePlayerSubMenu-Bottom" type="gadget" size1024="240 651 496 667" background="ui\pregame\dropdown_bottom_ypack" clampbackground="" z="10"/>
+		</gadget>
+		<gadget name="CampaignSubMenu" type="gadget" size1024="496 513 752 613" hidden="" z="10">
+			<gadget name="CampaignSubMenu-Top" type="gadget" size1024="496 507 752 523" background="ui\pregame\dropdown_top_ypack" clampbackground="" z="10"/>
+			<gadget name="OriginalCampaignButton" type="stateButton" size1024="496 523 752 555" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35546$$Play the main AOEIII campaign">
+				$$36936$$BloodIceSteel
+				<command>gadgetUnReal("CampaignSubMenu") startCampaign("campaign\blood ice steel\bloodicesteel.xml")</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="CampaignSubMenu-NoXPack" type="gadget" size1024="496 555 752 603" z="10">
+				<gadget name="YPackCampaignButton1" type="stateButton" size1024="496 555 752 587" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$60005$$Play the AOEIII ypack campaign">
+					$$60006$$YPack
+					<command>gadgetUnReal("CampaignSubMenu") startCampaign("campaign\wonders\ChinaIndiaJapan.xml")</command>
+					<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="CampaignSubMenu-Bottom1" type="gadget" size1024="496 587 752 603" background="ui\pregame\dropdown_bottom_ypack" clampbackground="" z="10"/>
+			</gadget>
+			<gadget name="CampaignSubMenu-WithXPack" type="gadget" size1024="496 555 752 637" z="10">
+				<gadget name="XPackCampaignButton" type="stateButton" size1024="496 555 752 587" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$43994$$Play the AOEIII xpack campaign">
+					$$43995$$WarChief
+					<command>gadgetUnReal("CampaignSubMenu") startCampaign("campaign\war chief\warchief.xml")</command>
+					<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="YPackCampaignButton2" type="stateButton" size1024="496 587 752 619" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$60005$$Play the AOEIII ypack campaign">
+					$$60006$$YPack
+					<command>gadgetUnReal("CampaignSubMenu") startCampaign("campaign\wonders\ChinaIndiaJapan.xml")</command>
+					<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="CampaignSubMenu-Bottom2" type="gadget" size1024="496 619 752 637" background="ui\pregame\dropdown_bottom_ypack" clampbackground="" z="10"/>
+			</gadget>
+		</gadget>
+		<gadget name="GrandConquestSubMenu" type="gadget" size1024="427 550 639 653" hidden="" z="20">
+			<gadget name="GrandConquestButton" type="stateButton" size1024="255 561 447 593" bevelbutton="" z="12" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1">
+				Grand Conquest
+				<command>gadgetUnReal("GrandConquestSubMenu")</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="GrandConquestSubMenu-Top" type="gadget" size1024="447 561 639 577" background="ui\pregame\dropdown_top_ypack" clampbackground="" z="10" texturecoords="0 0 .75 1"/>
+			<gadget name="GrandConquest-CreateSPGame" type="stateButton" size1024="447 577 639 609" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1" mouseovertext="Create a new single player Grand Conquest game">
+				New Game
+				<command>modeEnter("GCSettings")</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="GrandConquest-LoadSPGame" type="stateButton" size1024="447 609 639 641" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1" mouseovertext="Load a previously saved Grand Conquest game">
+				Load Saved Game
+				<command>uiOpenGrandConquestBrowser</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="GrandConquest-HostMPGame" type="stateButton" size1024="447 641 639 673" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1" mouseovertext="Host a multiplayer game to be played over a LAN or through a direct IP connection">
+				Host LAN Game
+				<command/>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="GrandConquest-JoinMPGame" type="stateButton" size1024="447 673 639 705" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1" mouseovertext="Join a multiplayer game to be played over a LAN or through a direct IP connection">
+				Join LAN Game
+				<command/>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="GrandConquest-ESOGame" type="stateButton" size1024="447 705 639 737" bevelbutton="" z="12" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1" mouseovertext="Log into Ensemble's Online Service and play against total noobtards over the internet.">
+				Play Online
+				<command/>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="GrandConquestSubMenu-Bottom" type="gadget" size1024="447 737 639 753" background="ui\pregame\dropdown_bottom_ypack" clampbackground="" z="12" texturecoords="0 0 .75 1"/>
+		</gadget>
+		<gadget name="MultiplayerSubMenu" type="gadget" size1024="240 587 496 684" hidden="" z="20">
+			<gadget name="MultiplayerSubMenu-MultiplayerButton" type="stateButton" size1024="40 595 233 627" bevelbutton="" z="5" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1" mouseovertext="$$35537$$Play a random map game with human players">
+				$$19828$$Multiplayer
+				<command>gadgetUnReal("MultiplayerSubMenu")</command>
+				<stateentry background="ui\core_ui\button_pregame_menu_normal_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_clicked_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_active_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="MultiplayerSubMenu-Top" type="gadget" size1024="240 544 496 560" background="ui\pregame\dropdown_top_ypack" clampbackground="" z="10"/>
+			<gadget name="Multiplayer-SinglePlayerButton" type="stateButton" size1024="240 560 496 592" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35551$$Play over the Internet using Ensemble Studios Online">
+				$$43301$$ES Online
+				<command>gadgetUnReal("MultiplayerSubMenu") doMPSetup(true)</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="Multiplayer-MultiPlayerButton" type="stateButton" size1024="240 592 496 624" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35552$$Play over a Local Area Network">
+				$$19024$$LAN
+				<command>gadgetUnReal("MultiplayerSubMenu") doMPSetup(false)</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="MultiplayerSubMenu-Bottom" type="gadget" size1024="240 624 496 640" background="ui\pregame\dropdown_bottom_ypack" clampbackground="" z="10"/>
+		</gadget>
+		<gadget name="HelpAndToolsSubMenu" type="gadget" size1024="240 433 496 724" hidden="" z="20">
+			<gadget name="HelpAndToolsSubMenu-HelpAndToolsButton" type="stateButton" size1024="40 635 233 667" bevelbutton="" z="5" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1" mouseovertext="$$35539$$Age III Tools">
+				$$35538$$Help and Tools
+				<command>gadgetUnReal("HelpAndToolsSubMenu") gadgetUnReal("CreditsSubMenu")</command>
+				<stateentry background="ui\core_ui\button_pregame_menu_normal_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_clicked_ypack"/>
+				<stateentry background="ui\core_ui\button_pregame_menu_active_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="HelpAndToolsSubMenu-Top" type="gadget" size1024="240 427 496 443" background="ui\pregame\dropdown_top_ypack" clampbackground="" z="10"/>
+			<gadget name="HelpAndTools-UpdateGameButton" type="stateButton" size1024="240 443 496 475" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35554$$Check if there are any game updates available">
+				$$35553$$Update Game
+				<command>gadgetUnReal("HelpAndToolsSubMenu") gadgetUnReal("CreditsSubMenu") startAutoPatcher(true)</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="HelpAndTools-EditorButton" type="stateButton" size1024="240 475 496 507" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35556$$Design your own scenarios">
+				$$35555$$Scenario Editor
+				<command>startRandomGame(true)</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="HelpAndTools-ReplayButton" type="stateButton" size1024="240 507 496 539" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$41755$$Replay previously recorded games">
+				$$41754$$Recorded Games
+				<command>gadgetUnReal("HelpAndToolsSubMenu") gadgetUnReal("CreditsSubMenu") uiOpenRecordGameBrowser</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="HelpAndTools-OptionsButton" type="stateButton" size1024="240 539 496 571" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35557$$Change your game options">
+				$$19829$$Options
+				<command>gadgetUnReal("HelpAndToolsSubMenu") gadgetUnReal("CreditsSubMenu") modeEnter("Options")</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="HelpAndTools-HistoryButton" type="stateButton" size1024="240 571 496 603" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35560$$View the History of the AOEIII time-period">
+				$$19789$$History
+				<command>gadgetUnReal("CreditsSubMenu") modeEnter("History")</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="HelpAndTools-CreditsButton" type="stateButton" size1024="240 603 496 635" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$49030$$View the Credits">
+				$$19841$$Credits
+				<command>gadgetReal("CreditsSubMenu")</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="HelpAndTools-AboutButton" type="stateButton" size1024="240 635 496 667" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$18447$$About AOEIII">
+				$$35562$$About
+				<command>gadgetUnReal("HelpAndToolsSubMenu") gadgetUnReal("CreditsSubMenu") gadgetReal("AboutBox")</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="HelpAndToolsSubMenu-Bottom" type="gadget" size1024="240 667 496 683" background="ui\pregame\dropdown_bottom_ypack" clampbackground="" z="10"/>
+		</gadget>
+		<gadget name="CreditsSubMenu" type="gadget" size1024="496 593 752 693" hidden="" z="10">
+			<gadget name="CreditsSubMenu-Top" type="gadget" size1024="496 587 752 603" background="ui\pregame\dropdown_top_ypack" clampbackground="" z="10"/>
+			<gadget name="OriginalCreditsButton" type="stateButton" size1024="496 603 752 635" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$35561$$View the credits for Age of Empires III">
+				$$49031$$Age III
+				<command>gadgetUnReal("CreditsSubMenu") modeEnter("Credits")</command>
+				<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+				<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+				<stateentry background=""/>
+			</gadget>
+			<gadget name="CreditsSubMenu-NoXPack" type="gadget" size1024="496 635 752 717" z="10">
+				<gadget name="YPackCreditsButton1" type="stateButton" size1024="496 635 752 667" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$60066$$View the credits for Age of Empires III: The YPack">
+					$$60065$$YPackTitle
+					<command>gadgetUnReal("CreditsSubMenu") modeEnter("CreditsY")</command>
+					<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="CreditsSubMenu-Bottom1" type="gadget" size1024="496 667 752 683" background="ui\pregame\dropdown_bottom_ypack" clampbackground="" z="10"/>
+			</gadget>
+			<gadget name="CreditsSubMenu-WithXPack" type="gadget" size1024="496 635 752 717" z="10">
+				<gadget name="XPackCreditsButton" type="stateButton" size1024="496 635 752 667" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$49033$$View the credits for Age of Empires III: The WarChiefs">
+					$$49032$$WarChiefs
+					<command>gadgetUnReal("CreditsSubMenu") modeEnter("CreditsX")</command>
+					<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="YPackCreditsButton2" type="stateButton" size1024="496 667 752 699" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$60066$$View the credits for Age of Empires III: The YPack">
+					$$60065$$YPackTitle
+					<command>gadgetUnReal("CreditsSubMenu") modeEnter("CreditsY")</command>
+					<stateentry background="ui\pregame\dropdown_middle_normal_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_clicked_ypack"/>
+					<stateentry background="ui\pregame\dropdown_middle_rollover_ypack"/>
+					<stateentry background=""/>
+				</gadget>
+				<gadget name="CreditsSubMenu-Bottom2" type="gadget" size1024="496 699 752 715" background="ui\pregame\dropdown_bottom_ypack" clampbackground="" z="10"/>
+			</gadget>
+		</gadget>
+		<gadget name="Login" type="dialog" size1024="284 277 607 452" background="Egypt God Background" hidden="">
+			<gadget name="UserName" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="256 256 256" textcenterhoriz="" textcentervert="" size1024="304 307 587 327">User Name:</gadget>
+			<gadget name="Password" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="256 256 256" textcenterhoriz="" textcentervert="" size1024="304 337 587 357">Password:</gadget>
+			<gadget name="LoginButton" type="button" foreground="Egypt Button Background" textfont="Arial nobold nodrop" textfontsize="12" textcolor="256 256 256" textcenterhoriz="" textcentervert="" bevelbutton="" size1024="395 427 495 447">
+				Log In
+				<command>gadgetUnReal("Login")</command>
+			</gadget>
+		</gadget>
+	</gadget>
+	<gadget name="AboutBox" type="dialog" windowzstyle="" size1024="0 0 1024 768" backgroundcolor="0 0 0" backgroundalpha="0.5" hidden="" dialogdefaultbuttonindex="0" dialogescapebuttonindex="0">
+		<gadget name="AboutBox-Background" type="gadget" size1024="162 64 880 696" background="ui\ingame\ingame_ui_parch" tilebackground="" z="1">
+			<gadget tilebackgroundhoriz="" name="objectivesdialog-BordersTop" type="gadget" background="ui\ingame\ui_postgame_heavyborder_top" size1024="248 32 784 96"/>
+			<gadget tilebackgroundhoriz="" name="objectivesdialog-BordersBottom" type="gadget" background="ui\ingame\ui_postgame_heavyborder_bottom" size1024="248 664 784 728"/>
+			<gadget tilebackgroundvert="" name="objectivesdialog-BordersLeft" type="gadget" background="ui\ingame\ui_postgame_heavyborder_left" size1024="120 160 184 672"/>
+			<gadget tilebackgroundvert="" name="objectivesdialog-BordersRight" type="gadget" background="ui\ingame\ui_postgame_heavyborder_right" size1024="848 160 912 672"/>
+			<gadget name="objectivesdialog-BordersLeftTop" type="gadget" background="ui\ingame\ui_postgame_heavyborder_topleft" size1024="120 32 248 160" z="11"/>
+			<gadget name="objectivesdialog-BordersLeftBottom" type="gadget" background="ui\ingame\ui_postgame_heavyborder_bottomleft" size1024="120 600 248 728" z="12"/>
+			<gadget name="objectivesdialog-BordersRightBottom" type="gadget" background="ui\ingame\ui_postgame_heavyborder_bottomright" size1024="784 600 912 728" z="12"/>
+			<gadget name="objectivesdialog-BordersRightTop" type="gadget" background="ui\ingame\ui_postgame_heavyborder_topright" size1024="784 32 912 160" z="12"/>
+		</gadget>
+		<gadget name="AboutBox-Close" type="stateButton" size1024="436 646 596 678" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 0.627450980392157 1">
+			$$18457$$Close
+			<command>gadgetUnReal("AboutBox")</command>
+			<stateentry background="ui\core_ui\button_large_normal"/>
+			<stateentry background="ui\core_ui\button_large_clicked"/>
+			<stateentry background="ui\core_ui\button_large_high"/>
+			<stateentry background="ui\core_ui\button_large_disable"/>
+		</gadget>
+		<gadget name="AboutBox-versiontext" type="formatText" textfont="AboutBoxVersion" textfontsize="18" textcolor="0 0 0" size1024="183 86 836 114" textwrapon="" formattextusedatareplace="">$$18459$$Age of Mythology, version {gameVersion}</gadget>
+		<gadget name="AboutBox-copyrighttext" textwrapon="" type="formatText" textfont="AboutBoxCopyright" textfontsize="18" textcolor="0 0 0" size1024="183 120 836 147">$$18460$$</gadget>
+		<gadget name="AboutBox-warningtext" textwrapon="" type="formatText" textfont="AboutBoxWarning" textfontsize="16" textcolor="0 0 0" size1024="183 248 837 338">$$19290$$Warning:  This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.</gadget>
+		<gadget name="AboutBox-longlegaltext" textwrapon="" type="formatText" textfont="AboutBoxWarning" textfontsize="16" textcolor="0 0 0" size1024="183 151 839 241">$$42279$$Microsoft, Age of Empires, DirectX, Ensemble Studios, the Microsoft Game Studios logo, and Windows are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries.</gadget>
+		<gadget name="AboutBox-Grannytext" textwrapon="" type="formatText" textfont="AboutBoxEntry" textfontsize="14" textcolor="0 0 0" size1024="183 372 836 409">$$18463$$</gadget>
+		<gadget name="AboutBox-Divxtext" textwrapon="" type="formatText" textfont="AboutBoxEntry" textfontsize="14" textcolor="0 0 0" size1024="183 410 836 447">$$18462$$Uses Bink Video. Copyright (C) 1997-2002 by RAD Game Tools, Inc.</gadget>
+		<gadget name="AboutBox-libjpegtext" textwrapon="" type="formatText" textfont="AboutBoxEntry" textfontsize="14" textcolor="0 0 0" size1024="183 531 836 583">$$20113$$This software is based in part on the work of the Independent JPEG Group.</gadget>
+		<gadget name="AboutBox-Havok" textwrapon="" type="formatText" textfont="AboutBoxEntry" textfontsize="14" textcolor="0 0 0" size1024="183 448 836 530">$$37435$$Uses Havok</gadget>
+		<gadget name="AboutBox-PID" textwrapon="" type="formatText" textfont="AboutBoxPID" textfontsize="14" textcolor="0 0 0" size1024="183 589 836 641" formattextusedatareplace="">$$20116$$Product ID {ProductID}</gadget>
+		<gadget name="AboutBox-ScreenSeparator" type="gadget" size1024="178 587 846 588" background="ui\core_ui\metal_trim_bottom" z="11"/>
+		<gadget name="AboutBox-ScreenSeparator2" type="gadget" size1024="181 352 849 353" background="ui\core_ui\metal_trim_bottom" z="11"/>
+	</gadget>
+	<gadget name="VersionString" type="gadget" size1024="45 743 230 767" textcolor="255 255 255" textfont="AboutBoxEntry" textfontsize="14" z="100"/>
+	<gadget name="RegisteredString" type="gadget" size1024="22 201 400 228" textcolor="255 255 255" textfont="AboutBoxEntry" textfontsize="14" z="100"/>
+</layout>

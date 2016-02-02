@@ -1340,6 +1340,19 @@
 		<component>model</component>
 	</anim>
 	</attachment>
+	<attachment>
+	model99
+	<component>
+		model
+		<assetreference type="GrannyModel">
+			<file>units\asians\indians\sowar\sowarCamel_2</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>model</component>
+	</anim>
+	</attachment>
 	<component>
 		Modelfix
 		<assetreference type="GrannyModel">
@@ -1443,6 +1456,7 @@
 		<attach a="model96" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 		<attach a="model97" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 		<attach a="model98" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
+		<attach a="model99" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 	</component>
 	<anim>
 		Idle

@@ -1431,13 +1431,6 @@
 				<Target type="ProtoUnit">WarCamp</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranCacadoresShadow</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Grenadier</Target>
-			</Effect>
-			<Effect type="TechStatus" status="obtainable">IncendiaryGrenades</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialGrenadiers</Effect>
-			<Effect type="TechStatus" status="obtainable">GuardGrenadiers</Effect>
-			<Effect type="TechStatus" status="obtainable">VeteranGrenadiers</Effect>
 			<Effect type="Data" amount="50.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -16655,7 +16648,7 @@
 	</Tech>
 	<Tech name="ImpLegendaryNatives" type="Normal">
 		<DBID>1392</DBID>
-		<DisplayNameID>31555</DisplayNameID>
+		<DisplayNameID>44728</DisplayNameID>
 		<Cost resourcetype="Food">1500.0000</Cost>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -17506,6 +17499,7 @@
 		<RolloverTextID>33314</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type="SetName" proto="TradingPost" culture="none" newName="33315"/>
 			<Effect type="Data" amount="0.70" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">TradingPost</Target>
 			</Effect>
@@ -18892,6 +18886,7 @@
 			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
 				<Target type="ProtoUnit">Arsenal</Target>
 			</Effect>
+			<Effect type="SetName" proto="Arsenal" culture="none" newName="34690"/>
 			<Effect type="TextOutput">37236</Effect>
 		</Effects>
 	</Tech>
@@ -24986,9 +24981,7 @@
 			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ypArsenalWagon" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
+			<Effect type="SetName" proto="Arsenal" culture="none" newName="36466"/>
 			<Effect type="TextOutput">37237</Effect>
 		</Effects>
 	</Tech>
@@ -42662,7 +42655,7 @@
 	</Tech>
 	<Tech name="ImpLegendaryNativesNatives" type="Normal">
 		<DBID>3515</DBID>
-		<DisplayNameID>31555</DisplayNameID>
+		<DisplayNameID>44728</DisplayNameID>
 		<Cost resourcetype="Food">1500.0000</Cost>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -48140,14 +48133,12 @@
 		<RolloverTextID>63695</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="ypKeshik" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="ypKeshik" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="ypSteppeRider" relativity="Absolute">
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="ypSteppeRider" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="TechStatus" status="active">YPDisciplinedSteppeRider</Effect>
-			<Effect type="TechStatus" status="active">YPDisciplinedKeshik</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="YPHCSpiceTradeAsia" type="Normal">

@@ -29,12 +29,28 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\asians\indians\sowar\Sowar_Mansabdar</file>
+							<file>units\asians\indians\sowar\sowarCamel_2</file>
+								<replacetexture>
+									<from>units\asians\indians\sowar\sowarCamel_2_color</from>
+									<to>units\mercenaries\mameluke\camel_color_4</to>
+								</replacetexture>
+								<replacetexture>
+									<from>units\asians\indians\sowar\sowarCamel_2_alpha</from>
+									<to>units\mercenaries\mameluke\camel_alpha_4</to>
+								</replacetexture>
 						</assetreference>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
-							<file>units\asians\indians\sowar\Sowar_Mansabdar</file>
+							<file>units\asians\indians\sowar\sowarCamel_2</file>
+								<replacetexture>
+									<from>units\asians\indians\sowar\sowarCamel_2_color</from>
+									<to>units\mercenaries\mameluke\camel_color_4</to>
+								</replacetexture>
+								<replacetexture>
+									<from>units\asians\indians\sowar\sowarCamel_2_alpha</from>
+									<to>units\mercenaries\mameluke\camel_alpha_4</to>
+								</replacetexture>
 						</assetreference>
 					</lowpoly>
 				</logic>

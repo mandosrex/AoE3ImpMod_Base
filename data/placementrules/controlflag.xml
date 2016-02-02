@@ -5,6 +5,8 @@
 	<distanceatleastfromtype player="any" foundation="any" distance="55" errorstringid="780747">ControlFlag</distanceatleastfromtype>
 	<distanceatleastfromtype player="any" foundation="any" distance="5" errorstringid="25521">FirstTC</distanceatleastfromtype>
 	<distanceatleastfromtype player="any" foundation="any" distance="10" errorstringid="25521">Fish</distanceatleastfromtype>
+	<distanceatleastfromtype player="any" foundation="any" distance="10" errorstringid="25521">Tree</distanceatleastfromtype>
+	<distanceatleastfromtype player="any" foundation="any" distance="10" errorstringid="25521">AbstractMine</distanceatleastfromtype>
 	<distanceatleastfromcliff distance="10" errorstringid="25529"/>
 	<distanceatleastfromwater distance="10" errorstringid="25529"/>
 	<distanceatleastfromriver distance="10" errorstringid="25529"/>

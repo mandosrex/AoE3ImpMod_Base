@@ -125,7 +125,7 @@
 		<type>Heal</type>
 		<active>0</active>
 		<maxrange>12</maxrange>
-		<rate type="LogicalTypeHealed">50.0 </rate>
+		<rate type="LogicalTypeHealed">20.0</rate>
 		<anim>Heal</anim>
 	</action>
 	<action>

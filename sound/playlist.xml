@@ -38,8 +38,8 @@
 		<musicset name="Muptop">
 			<file volume="1.0" mood="normal">Music\Standard\Muptop.mp3</file>
 		</musicset>
-		<musicset name="AoEO1">
-			<file volume="1.0" mood="normal">Music\Standard\AoEO1.mp3</file>
+		<musicset name="BlackFamily2">
+			<file volume="1.0" mood="normal">Music\Standard\black1.mp3</file>
 		</musicset>
 		<musicset name="FeloniousJunk">
 			<file volume="1.0" mood="normal">Music\Standard\FeloniousJunk.mp3</file>
@@ -50,8 +50,8 @@
 		<musicset name="HappyToYou">
 			<file volume="1.0" mood="normal">Music\Standard\HappyToYou.mp3</file>
 		</musicset>
-		<musicset name="AoEO2">
-			<file volume="1.0" mood="normal">Music\Standard\AoEO2.mp3</file>
+		<musicset name="TADMusic5">
+			<file volume="1.0" mood="normal">Music\Standard\asian5.mp3</file>
 		</musicset>
 		<musicset name="GetOffMyBand">
 			<file volume="1.0" mood="normal">Music\Standard\GetOffMyBand.mp3</file>
@@ -61,9 +61,6 @@
 		</musicset>
 		<musicset name="MajorRewriteGeneralChunks">
 			<file volume="1.0" mood="normal">Music\Standard\MajorRewriteGeneralChunks.mp3</file>
-		</musicset>
-		<musicset name="AoEO3">
-			<file volume="1.0" mood="normal">Music\Standard\AoEO3.mp3</file>
 		</musicset>
 		<musicset name="IMenevero">
 			<file volume="1.0" mood="normal">Music\Standard\IMenevero.mp3</file>
@@ -97,8 +94,8 @@
 		<file volume="1.0">Music\Battle\BubbleChum.mp3</file>
 		<file volume="1.0">Music\Battle\Ruinion.mp3</file>
 		<file volume="1.0">Music\Battle\CamelsStrawsAndBacks.mp3</file>
-		<file volume="1.0">Music\Battle\Avenger.mp3</file>
-		<file volume="1.0">Music\Battle\AoEOBattle.mp3</file>
+		<file volume="1.0">Music\Battle\Battling.mp3</file>
+		<file volume="1.0">Music\Battle\AoE3War.mp3</file>
 	</playlist>
 	<playlist name="WonGame">
 		<file volume="1.0" mood="normal">Music\Interface\OldTimer.mp3</file>
