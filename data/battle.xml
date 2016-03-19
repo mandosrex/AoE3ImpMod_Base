@@ -332,7 +332,7 @@
 		<unittype>Ship</unittype>
 		<targetunittype>All</targetunittype>
 		<stance>StandGround</stance>
-		<formationtype>Line</formationtype>
+		<formationtype>Box</formationtype>
 		<canbreakformation>1</canbreakformation>
 		<canrotateinformation>1</canrotateinformation>
 		<cooldowntime>5000</cooldowntime>

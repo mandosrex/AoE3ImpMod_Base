@@ -48,7 +48,7 @@
 	</tactic>
 	<tactic>
 		Bombard
-		<speedmodifier>0.4</speedmodifier>
+		<speedmodifier>0.5</speedmodifier>
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>

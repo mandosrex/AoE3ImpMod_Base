@@ -63,13 +63,13 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\strelet\strelet_age2</file>
+							<file>units\infantry_ranged\strelet\strelet_age1</file>
 						</assetreference>
 						<attach a="musket" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\strelet\lp_strelet_2age</file>
+							<file>units\infantry_ranged\strelet\lp_strelet_1age</file>
 						</assetreference>
 					</lowpoly>
 				</logic>
@@ -78,13 +78,13 @@
 				<logic type="LowPoly">
 					<normal>
 						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\strelet\strelet_age3</file>
+							<file>units\infantry_ranged\strelet\strelet_age2</file>
 						</assetreference>
 						<attach a="musket" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"/>
 					</normal>
 					<lowpoly>
 						<assetreference type="GrannyModel">
-							<file>units\infantry_ranged\strelet\lp_strelet_3age</file>
+							<file>units\infantry_ranged\strelet\lp_strelet_2age</file>
 						</assetreference>
 					</lowpoly>
 				</logic>

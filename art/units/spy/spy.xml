@@ -63,10 +63,10 @@
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
-			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
-			<selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture>
-			<width>1.50</width>
-			<height>1.50</height>
+			<texture isfakeshadow="1">shadows_selections\shadow_consulate_64x64</texture>
+			<selectedtexture>shadows_selections\selection_consulate_64x64</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
 		</decal>
 	</component>
 	<anim>

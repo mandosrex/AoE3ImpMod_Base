@@ -64,7 +64,7 @@
 			<effecttype>default</effecttype>
 			<selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
 			<width>5.00</width>
-			<height>8.00</height>
+			<height>9.00</height>
 		</decal>
 		<attach a="bowman" frombone="hotspot" tobone="bone_bowman" syncanims="1"/>
 		<attach a="rower1" frombone="hotspot" tobone="bone_rower1" syncanims="1"/>

@@ -217,10 +217,10 @@
 		</logic>
 		<decal>
 			<effecttype>default</effecttype>
-			<texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture>
-			<selectedtexture>shadows_selections\selection_merc_32x32</selectedtexture>
-			<width>1.00</width>
-			<height>1.00</height>
+			<texture isfakeshadow="1">shadows_selections\shadow_consulate_64x64</texture>
+			<selectedtexture>shadows_selections\selection_consulate_64x64</selectedtexture>
+			<width>1.0</width>
+			<height>1.0</height>
 		</decal>
 		<attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
 		<attach a="bag" frombone="bone_bag" tobone="R THIGH" syncanims="0"/>

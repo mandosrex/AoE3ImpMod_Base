@@ -33,17 +33,17 @@
 		<transition>
 			<tactic>Bombard</tactic>
 			<action>Limber</action>
-			<anim>Bombard_unlimber</anim>
-			<length>2</length>
 			<exit>1</exit>
 			<commandautomatic>1</commandautomatic>
 			<automatic>1</automatic>
 		</transition>
+		<idleanim>Bombard_ranged_idle</idleanim>
+		<boredanim>Bombard_bored</boredanim>
 		<deathanim>Death_by_melee</deathanim>
 	</tactic>
 	<tactic>
 		Bombard
-		<speedmodifier>0.6</speedmodifier>
+		<speedmodifier>1.0</speedmodifier>
 		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
 		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
 		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
@@ -52,8 +52,6 @@
 		<transition>
 			<tactic>Limber</tactic>
 			<action>Limber</action>
-			<anim>Bombard_limber</anim>
-			<length>2</length>
 			<exit>1</exit>
 		</transition>
 		<idleanim>Bombard_ranged_idle</idleanim>

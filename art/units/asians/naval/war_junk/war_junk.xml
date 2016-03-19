@@ -274,8 +274,8 @@
 			<model>units\asians\naval\war_junk\war_junk_damge</model>
 			<damagetemplate>units\asians\naval\war_junk\war_junk_damge_0.dmg</damagetemplate>
 		</simskeleton>
-		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_03" syncanims="0"/>
-		<attach a="flag" frombone="ATTACHPOINT" tobone="bone_f_top_02" syncanims="0"/>
+		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_02" syncanims="0"/>
+		<attach a="flag" frombone="ATTACHPOINT" tobone="bone_f_top_03" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_01" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_02" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_03" syncanims="0"/>
@@ -293,8 +293,8 @@
 			<model>units\asians\naval\war_junk\war_junk_damge</model>
 			<damagetemplate>units\asians\naval\war_junk\war_junk_damge_0.dmg</damagetemplate>
 		</simskeleton>
-		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_03" syncanims="0"/>
-		<attach a="flag" frombone="ATTACHPOINT" tobone="bone_f_top_02" syncanims="0"/>
+		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_02" syncanims="0"/>
+		<attach a="flag" frombone="ATTACHPOINT" tobone="bone_f_top_03" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_01" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_02" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_03" syncanims="0"/>
@@ -314,8 +314,8 @@
 		<attach a="DeathWaterRipple" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 		<attach a="DeathWaterFade" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
 		<attach a="DeathWaterSpray" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"/>
-		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_03" syncanims="0"/>
-		<attach a="flag" frombone="ATTACHPOINT" tobone="bone_f_top_02" syncanims="0"/>
+		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_02" syncanims="0"/>
+		<attach a="flag" frombone="ATTACHPOINT" tobone="bone_f_top_03" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_01" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_02" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_03" syncanims="0"/>
@@ -331,8 +331,8 @@
 		</assetreference>
 		<component>ModelComp</component>
 		<attach a="Fishing_Net" frombone="Sphere09" tobone="ATTACHPOINT" syncanims="0"/>
-		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_03" syncanims="0"/>
-		<attach a="flag" frombone="ATTACHPOINT" tobone="bone_f_top_02" syncanims="0"/>
+		<attach a="Pirate_flag_top" frombone="ATTACHPOINT" tobone="bone_f_top_02" syncanims="0"/>
+		<attach a="flag" frombone="ATTACHPOINT" tobone="bone_f_top_03" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_01" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_02" syncanims="0"/>
 		<attach a="Pirata_flag_mid" frombone="ATTACHPOINT" tobone="bone_f_mid_03" syncanims="0"/>

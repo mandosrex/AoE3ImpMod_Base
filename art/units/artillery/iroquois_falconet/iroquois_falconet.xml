@@ -48,12 +48,16 @@
 						</assetreference>
 						<attach a="iroquois_guy2" frombone="hotspot" tobone="bone_master" syncanims="1"/>
 					</none>
-					<fieldgun>
+					<FieldCannon>
 						<assetreference type="GrannyModel">
 							<file>units\artillery\iroquois_falconet\iroquois_falconet</file>
+							<replacetexture>
+								<from>units\artillery\iroquois_falconet\falconet</from>
+								<to>units\artillery\falconet\imperialfieldgun</to>
+							</replacetexture>
 						</assetreference>
 						<attach a="iroquois_guy2" frombone="hotspot" tobone="bone_master" syncanims="1"/>
-					</fieldgun>
+					</FieldCannon>
 				</logic>
 			</normal>
 			<lowpoly>

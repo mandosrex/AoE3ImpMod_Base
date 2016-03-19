@@ -9597,6 +9597,9 @@
 		<DBID>5173</DBID>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">WarTent</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">LumberCamp</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -18263,6 +18266,9 @@
 			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ExplorerDog</Target>
 			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+				<Target type="ProtoUnit">WarDog</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCHandInfantryDamageSpanishTeam" type="Normal">
@@ -19770,6 +19776,9 @@
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Hero</Target>
 			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+				<Target type="ProtoUnit">LevyMin2</Target>
+			</Effect>
 			<Effect type="TextOutput">41829</Effect>
 		</Effects>
 	</Tech>
@@ -20503,6 +20512,9 @@
 				<Target type="ProtoUnit">PetBear</Target>
 			</Effect>
 			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">PetBear</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
 				<Target type="ProtoUnit">PetBear</Target>
 			</Effect>
 			<Effect type="TextOutput">41836</Effect>
@@ -31558,6 +31570,9 @@
 			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Petwolf</Target>
 			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+				<Target type="ProtoUnit">Petwolf</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCXPWarChiefAztec1" type="Normal">
@@ -31583,6 +31598,9 @@
 			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">PetJaguar</Target>
 			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+				<Target type="ProtoUnit">PetJaguar</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCXPWarChiefSioux1" type="Normal">
@@ -31606,6 +31624,9 @@
 				<Target type="ProtoUnit">PetCoyote</Target>
 			</Effect>
 			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">PetCoyote</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
 				<Target type="ProtoUnit">PetCoyote</Target>
 			</Effect>
 		</Effects>
@@ -42877,6 +42898,9 @@
 			</Effect>
 			<Effect type="Data" action="RoundhouseAttack" amount="0.50" subtype="Damage" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractChineseMonk</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+				<Target type="ProtoUnit">ypMonkDisciple</Target>
 			</Effect>
 			<Effect type="TextOutput">69070</Effect>
 		</Effects>

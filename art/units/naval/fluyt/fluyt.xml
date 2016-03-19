@@ -162,6 +162,11 @@
 			<xoffset>0.00</xoffset>
 			<zoffset>-1.60</zoffset>
 		</decal>
+		<watersplash>
+			<texture>units\naval\colony_ship\colony_ship_hullmask</texture>
+			<width>10.0</width>
+			<height>10.0</height>
+		</watersplash>
 	</component>
 	<component>
 		fluytDeath
@@ -185,6 +190,19 @@
 				</assetreference>
 			</HCXPAdmiralTromp>
 		</logic>
+		<decal>
+			<effecttype>default</effecttype>
+			<selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture>
+			<width>10.00</width>
+			<height>16.00</height>
+			<xoffset>0.00</xoffset>
+			<zoffset>-1.60</zoffset>
+		</decal>
+		<watersplash>
+			<texture>units\naval\colony_ship\colony_ship_hullmask</texture>
+			<width>10.0</width>
+			<height>10.0</height>
+		</watersplash>
 	</component>
 	<anim>
 		Idle

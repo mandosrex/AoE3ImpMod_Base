@@ -34,7 +34,7 @@
 			<tactic>Bombard</tactic>
 			<action>Limber</action>
 			<anim>Bombard_unlimber</anim>
-			<length>2</length>
+			<length>1</length>
 			<exit>1</exit>
 			<commandautomatic>1</commandautomatic>
 			<automatic>1</automatic>
@@ -53,7 +53,7 @@
 			<tactic>Limber</tactic>
 			<action>Limber</action>
 			<anim>Bombard_limber</anim>
-			<length>2</length>
+			<length>1</length>
 			<exit>1</exit>
 		</transition>
 		<idleanim>Bombard_ranged_idle</idleanim>

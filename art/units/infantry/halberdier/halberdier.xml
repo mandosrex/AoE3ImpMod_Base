@@ -96,6 +96,24 @@
 					</lowpoly>
 				</logic>
 			</guardhalberdiers>
+			<guardhalberdiersus>
+				<logic type="LowPoly">
+					<normal>
+						<assetreference type="GrannyModel">
+							<file>units\infantry\halberdier\halberdier_2age</file>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+						<attach a="pikes" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
+					</normal>
+					<lowpoly>
+						<assetreference type="GrannyModel">
+							<file>units\infantry\halberdier\lp_halberdier_2age</file>
+						</assetreference>
+						<attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"/>
+						<attach a="pikes" frombone="bone_pike" tobone="bip01 Prop1" syncanims="0"/>
+					</lowpoly>
+				</logic>
+			</guardhalberdiersus>
 			<imperialhalberdiers2>
 				<logic type="LowPoly">
 					<normal>

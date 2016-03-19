@@ -1353,6 +1353,19 @@
 		<component>model</component>
 	</anim>
 	</attachment>
+	<attachment>
+	model100
+	<component>
+		model
+		<assetreference type="GrannyModel">
+			<file>units\artillery\iroquois_falconet\iroquois_falconet</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>model</component>
+	</anim>
+	</attachment>
 	<component>
 		Modelfix
 		<assetreference type="GrannyModel">
@@ -1457,6 +1470,7 @@
 		<attach a="model97" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 		<attach a="model98" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 		<attach a="model99" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
+		<attach a="model100" frombone="ATTACHPOINT" syncanims="0" tobone="Attach_Bone"/>
 	</component>
 	<anim>
 		Idle
