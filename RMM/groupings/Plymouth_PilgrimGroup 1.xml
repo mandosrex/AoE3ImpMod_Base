@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>5</width>
+	<height>3</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="221" posx ="1.4459" posz ="-1.5481" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">Pilgrim</unit>
+		<unit variation ="84" posx ="0.3883" posz ="-1.6577" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">Pilgrim</unit>
+		<unit variation ="125" posx ="-0.7620" posz ="-1.7240" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">Pilgrim</unit>
+		<unit variation ="75" posx ="-1.7429" posz ="-1.8456" orientx ="0.0410" orienty ="-0.0041" orientz ="0.9991">TurkeyScout</unit>
+		<unit variation ="83" posx ="4.0000" posz ="-2.0000" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">CrateofSquash</unit>
+		<unit variation ="150" posx ="-4.0000" posz ="0.0000" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">CrateofWood</unit>
+		<unit variation ="73" posx ="-0.0922" posz ="0.1476" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsTable</unit>
+		<unit variation ="207" posx ="-2.1464" posz ="1.7304" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">Pilgrim</unit>
+		<unit variation ="130" posx ="-0.7927" posz ="1.7236" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">Pilgrim</unit>
+		<unit variation ="114" posx ="0.7636" posz ="1.7142" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">Pilgrim</unit>
+		<unit variation ="99" posx ="1.9625" posz ="1.6693" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeScout</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

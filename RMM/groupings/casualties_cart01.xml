@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>3</width>
+	<height>5</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="165" posx ="-0.0239" posz ="-3.6232" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">SPCCasualties</unit>
+		<unit variation ="39" posx ="1.4180" posz ="0.8106" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">SPCCasualtyCart</unit>
+		<unit variation ="112" posx ="-2.4638" posz ="2.6154" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCCasualties</unit>
+		<unit variation ="129" posx ="1.1008" posz ="2.9244" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCCasualties</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

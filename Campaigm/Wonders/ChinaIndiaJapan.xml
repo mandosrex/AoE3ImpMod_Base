@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Campaign>
+  <!-- DisplayName.  The non-localized name the user will see for this campaign.  -->
+  <DisplayName>Wonders of the East</DisplayName>
+  <!-- DisplayNameStringID.  The localized string ID for the name the user will see for this campaign.  Overrides DisplayName.  -->
+  <DisplayNameStringID>66402</DisplayNameStringID>
+  <!-- Rollover.  The non-localized rollover the user will see for this campaign.  -->
+  <Rollover>Experience the Wonders of the East with three campaigns set in Japan, China, and India.</Rollover>
+  <!-- RolloverStringID.  The localized string ID for the rollover the user will see for this campaign.  Overrides Rollover.  -->
+  <RolloverStringID>66403</RolloverStringID>
+  <!-- The string ID for the title to display in the HC Note Dlg the first time the user visits her homecity. -->
+  <HCNoteTitle>43313</HCNoteTitle>
+  <!-- The string ID for the text to display in the HC Note Dlg the first time the user visits her homecity -->
+  <HCNoteText>43314</HCNoteText>
+  <!-- The string ID for the title to display in the HC Note Dlg the first time the visits her homecity AND HAS HOMECITY ACCESS -->
+  <HCNote2Title>37028</HCNote2Title>
+  <!-- The string ID for the text to display in the HC Note Dlg the first time the user visits her homecity AND HAS HOMECITY ACESS -->
+  <HCNote2Text>37029</HCNote2Text>
+  <!--Act 1 - Japan-->
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc1a1</Filename>
+    <DisplayName>IGC JC1A1</DisplayName>
+    <DisplayNameStringID>62510</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>1</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_jc1a1</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>65102</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>3</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc1a2</Filename>
+    <DisplayName>IGC JC1A2</DisplayName>
+    <DisplayNameStringID>62541</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>1</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_jc1a2</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>65103</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>2</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc1</Filename>
+    <DisplayName>Siege of Osaka</DisplayName>
+    <DisplayNameStringID>64068</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>1</Act>
+    <ForceLoadHC>1</ForceLoadHC>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc2a</Filename>
+    <DisplayName>IGC JC2A</DisplayName>
+    <DisplayNameStringID>62707</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>1</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_jc2a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>65104</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>2</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc2</Filename>
+    <DisplayName>Uprising!</DisplayName>
+    <DisplayNameStringID>64069</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>1</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc3a</Filename>
+    <DisplayName>IGC JC3A</DisplayName>
+    <DisplayNameStringID>62746</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>1</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_jc3a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>65105</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>2</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc3</Filename>
+    <DisplayName>Clearing the Road</DisplayName>
+    <DisplayNameStringID>64070</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>1</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc3b</Filename>
+    <DisplayName>IGC JC3B</DisplayName>
+    <DisplayNameStringID>62826</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>1</Act>
+    <PostCinematic>1</PostCinematic>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc4a</Filename>
+    <DisplayName>IGC JC4A</DisplayName>
+    <DisplayNameStringID>62908</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>1</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_jc4a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>65106</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>2</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc4</Filename>
+    <DisplayName>Last Stand at Fushimi</DisplayName>
+    <DisplayNameStringID>64071</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>1</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc4b</Filename>
+    <DisplayName>IGC JC4B</DisplayName>
+    <DisplayNameStringID>62909</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>1</Act>
+    <PostCinematic>1</PostCinematic>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc5a</Filename>
+    <DisplayName>IGC JC5A</DisplayName>
+    <DisplayNameStringID>62910</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>1</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_jc5a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>65107</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>2</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc5</Filename>
+    <DisplayName>The Battle of Sekigahara</DisplayName>
+    <DisplayNameStringID>64072</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>1</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yjc5b</Filename>
+    <DisplayName>IGC JC5B</DisplayName>
+    <DisplayNameStringID>62911</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>1</Act>
+    <PostCinematic>1</PostCinematic>
+  </CampaignNode>
+  <!--Act 2 - China-->
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3ycc1a1</Filename>
+    <DisplayName>IGC CC1A1</DisplayName>
+    <DisplayNameStringID>63482</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>2</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_cc1a1</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>68997</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>2</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3ycc1a2</Filename>
+    <DisplayName>IGC CC1A2</DisplayName>
+    <DisplayNameStringID>63483</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>2</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_cc1a2</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>68998</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>2</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <Filename>wonders\age3ycc1</Filename>
+    <DisplayName>Saboteurs!</DisplayName>
+    <DisplayNameStringID>64073</DisplayNameStringID>
+    <Visible>1</Visible>
+    <Act>2</Act>
+    <ForceLoadHC>1</ForceLoadHC>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3ycc2a</Filename>
+    <DisplayName>IGC CC2A</DisplayName>
+    <DisplayNameStringID>63484</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>2</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_cc2a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>68999</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>2</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3ycc2</Filename>
+    <DisplayName>Ambush at Malabar</DisplayName>
+    <DisplayNameStringID>64074</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>2</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3ycc3a</Filename>
+    <DisplayName>IGC CC3A</DisplayName>
+    <DisplayNameStringID>63485</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>2</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_cc3a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>69000</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>2</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3ycc3</Filename>
+    <DisplayName>War in a New World</DisplayName>
+    <DisplayNameStringID>64075</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>2</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3ycc4a</Filename>
+    <DisplayName>IGC CC4A</DisplayName>
+    <DisplayNameStringID>63486</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>2</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_cc4a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>69001</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>4</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3ycc4</Filename>
+    <DisplayName>Jungle Rescue</DisplayName>
+    <DisplayNameStringID>64076</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>2</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3ycc5a</Filename>
+    <DisplayName>IGC CC5A</DisplayName>
+    <DisplayNameStringID>63487</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>2</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_cc5a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>69002</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>2</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3ycc5</Filename>
+    <DisplayName>Saving the Fleet</DisplayName>
+    <DisplayNameStringID>64077</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>2</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3ycc5b</Filename>
+    <DisplayName>IGC CC5B</DisplayName>
+    <DisplayNameStringID>63488</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>2</Act>
+    <PostCinematic>1</PostCinematic>
+  </CampaignNode>
+  <!--Act 3 - India-->
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic1a1</Filename>
+    <DisplayName>IGC IC1A1</DisplayName>
+    <DisplayNameStringID>63489</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>3</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_ic1a1</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>69369</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>5</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic1a2</Filename>
+    <DisplayName>IGC IC1A2</DisplayName>
+    <DisplayNameStringID>63490</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>3</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_ic1a2</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>69370</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>5</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic1</Filename>
+    <DisplayName>Into the Punjab</DisplayName>
+    <DisplayNameStringID>64078</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>3</Act>
+    <ForceLoadHC>1</ForceLoadHC>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic2a</Filename>
+    <DisplayName>IGC IC2A</DisplayName>
+    <DisplayNameStringID>63491</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>3</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_ic2a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>69371</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>5</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic2</Filename>
+    <DisplayName>Fires of Calcutta</DisplayName>
+    <DisplayNameStringID>64079</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>3</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic2b</Filename>
+    <DisplayName>IGC IC2B</DisplayName>
+    <DisplayNameStringID>63492</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>3</Act>
+    <PostCinematic>1</PostCinematic>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic3a</Filename>
+    <DisplayName>IGC IC3A</DisplayName>
+    <DisplayNameStringID>63493</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>3</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_ic3a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>69372</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>5</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic3</Filename>
+    <DisplayName>Rebellion!</DisplayName>
+    <DisplayNameStringID>64080</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>3</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic4a</Filename>
+    <DisplayName>IGC IC4A</DisplayName>
+    <DisplayNameStringID>63494</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>3</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_ic4a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>69373</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>5</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic4</Filename>
+    <DisplayName>Raid in Delhi</DisplayName>
+    <DisplayNameStringID>64081</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>3</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic4b</Filename>
+    <DisplayName>IGC IC4B</DisplayName>
+    <DisplayNameStringID>63495</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>3</Act>
+    <PostCinematic>1</PostCinematic>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic5a</Filename>
+    <DisplayName>IGC IC5A</DisplayName>
+    <DisplayNameStringID>63496</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>3</Act>
+    <!-- LoadImage = name of background image file -->
+    <LoadImage>SPCy_load_screen_ic5a</LoadImage>
+    <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+    <LoadTextID>69374</LoadTextID>
+    <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+    <LoadMode>5</LoadMode>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic5</Filename>
+    <DisplayName>Confronting the Company</DisplayName>
+    <DisplayNameStringID>64082</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Act>3</Act>
+  </CampaignNode>
+  <CampaignNode>
+    <!-- Filename.  The file (scn or IGC) of this node.  -->
+    <Filename>wonders\age3yic5b</Filename>
+    <DisplayName>IGC IC5B</DisplayName>
+    <DisplayNameStringID>63497</DisplayNameStringID>
+    <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+    <Visible>1</Visible>
+    <Cinematic>1</Cinematic>
+    <Act>3</Act>
+    <PostCinematic>1</PostCinematic>
+    <ContinueToCredits/>
+  </CampaignNode>
+</Campaign>

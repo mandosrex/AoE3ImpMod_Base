@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "34930" imagepath = "ui\random_map\new_england" displayNameID = "28567" cannotReplace = ""
+		loadDetails="35944" loadBackground="ui\random_map\new_england\new_england_map">
+   <loadss>ui\random_map\new_england\new_england_ss_01</loadss>
+   <loadss>ui\random_map\new_england\new_england_ss_02</loadss>
+   <loadss>ui\random_map\new_england\new_england_ss_03</loadss>
+</mapinfo>

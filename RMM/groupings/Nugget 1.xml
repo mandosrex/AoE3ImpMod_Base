@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>3</width>
+	<height>5</height>
+	<ignorePlacementRules>0</ignorePlacementRules>
+	<selectAsSingleUnit>1</selectAsSingleUnit>
+	<units>
+		<unit Variation ="31" posX ="0.9376" posZ ="-4.7100" orientX ="0.8341" orientY ="-0.0033" orientZ ="-0.5516">BlackBear</unit>
+		<unit Variation ="136" posX ="-0.9229" posZ ="-0.7348" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">Nugget</unit>
+		<unit Variation ="76" posX ="-1.5832" posZ ="2.5877" orientX ="-0.7824" orientY ="0.0019" orientZ ="0.6227">BlackBear</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>8</width>
+	<height>10</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="14" posx ="3.3772" posz ="-8.6652" orientx ="-0.5420" orienty ="0.0000" orientz ="-0.8404">ypSMShaolinAccessory</unit>
+		<unit variation ="41" posx ="-2.6911" posz ="-8.9044" orientx ="0.6645" orienty ="0.0000" orientz ="0.7473">ypSMShaolinAccessory</unit>
+		<unit variation ="132" posx ="-1.3957" posz ="-9.3510" orientx ="-0.0015" orienty ="0.0000" orientz ="-1.0000">ypSMShaolinAccessory</unit>
+		<unit variation ="138" posx ="3.6320" posz ="-9.2408" orientx ="0.2289" orienty ="0.0000" orientz ="0.9735">ypSMShaolinAccessory</unit>
+		<unit variation ="251" posx ="6.5989" posz ="-9.1698" orientx ="-0.7242" orienty ="0.0000" orientz ="-0.6896">ypSMShaolinAccessory</unit>
+		<unit variation ="132" posx ="2.3699" posz ="-9.4841" orientx ="0.0913" orienty ="0.0000" orientz ="-0.9958">ypSMShaolinAccessory</unit>
+		<unit variation ="41" posx ="-5.1215" posz ="-5.5644" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypSocketShaolin</unit>
+		<unit variation ="142" posx ="0.9683" posz ="-5.3410" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="84" posx ="-2.2977" posz ="-5.4183" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="40" posx ="5.0090" posz ="-6.3282" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="23" posx ="0.1998" posz ="-8.3524" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="43" posx ="3.1785" posz ="-6.9598" orientx ="0.9877" orienty ="0.0000" orientz ="0.1563">ypSMShaolinAccessory</unit>
+		<unit variation ="48" posx ="2.8306" posz ="-5.6900" orientx ="-0.0137" orienty ="0.0000" orientz ="0.9999">ypSMShaolinAccessory</unit>
+		<unit variation ="183" posx ="3.6237" posz ="-4.9954" orientx ="-0.9642" orienty ="0.0000" orientz ="-0.2653">ypSMShaolinAccessory</unit>
+		<unit variation ="43" posx ="-0.9722" posz ="-6.3461" orientx ="0.9877" orienty ="0.0000" orientz ="0.1563">ypSMShaolinAccessory</unit>
+		<unit variation ="48" posx ="-1.3144" posz ="-5.1329" orientx ="-0.9999" orienty ="0.0000" orientz ="-0.0137">ypSMShaolinAccessory</unit>
+		<unit variation ="19" posx ="-3.8266" posz ="-2.7270" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="142" posx ="0.4210" posz ="-1.3828" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="172" posx ="0.9015" posz ="-0.9814" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="253" posx ="-7.9819" posz ="-1.4224" orientx ="-0.9324" orienty ="0.0000" orientz ="0.3615">ypSMShaolinAccessory</unit>
+		<unit variation ="9" posx ="4.5620" posz ="-1.5374" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0026">ypSMShaolinGuy</unit>
+		<unit variation ="41" posx ="-4.7998" posz ="0.1529" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="48" posx ="3.0544" posz ="0.7010" orientx ="-0.0137" orienty ="0.0000" orientz ="0.9999">ypSMShaolinAccessory</unit>
+		<unit variation ="226" posx ="0.3445" posz ="0.5138" orientx ="-0.0042" orienty ="0.0000" orientz ="-1.0000">ypSMShaolinAccessory</unit>
+		<unit variation ="199" posx ="-2.3401" posz ="0.9256" orientx ="0.2126" orienty ="0.0000" orientz ="0.9771">ypSMShaolinAccessory</unit>
+		<unit variation ="48" posx ="0.4232" posz ="1.7335" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="90" posx ="-3.3266" posz ="1.4456" orientx ="-0.6489" orienty ="0.0000" orientz ="0.7609">ypSMShaolinAccessory</unit>
+		<unit variation ="171" posx ="-7.8574" posz ="2.3068" orientx ="-0.0144" orienty ="0.0000" orientz ="0.9999">ypSMShaolinAccessory</unit>
+		<unit variation ="227" posx ="-2.6175" posz ="2.2238" orientx ="-0.0246" orienty ="0.0000" orientz ="0.9997">ypSMShaolinAccessory</unit>
+		<unit variation ="137" posx ="0.7638" posz ="4.7698" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="106" posx ="5.1907" posz ="3.8375" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="84" posx ="-6.0482" posz ="5.4624" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="73" posx ="-4.0406" posz ="6.0450" orientx ="0.9897" orienty ="0.0000" orientz ="0.1429">ypSMShaolinAccessory</unit>
+		<unit variation ="84" posx ="-3.2453" posz ="8.4241" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleShaolin</unit>
+		<unit variation ="134" posx ="-2.6419" posz ="7.1231" orientx ="-0.9995" orienty ="0.0000" orientz ="0.0320">ypSMShaolinAccessory</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="PassableLand" subtype ="terrain\mongolia\ground_grass3_mongol">
+			<block startx ="-4" startz ="-5" endx ="-4" endz ="-3"></block>
+			<block startx ="-3" startz ="-5" endx ="-3" endz ="-3"></block>
+			<block startx ="-2" startz ="-5" endx ="-2" endz ="-5"></block>
+			<block startx ="-2" startz ="-3" endx ="-2" endz ="-3"></block>
+			<block startx ="-1" startz ="-5" endx ="-1" endz ="-5"></block>
+			<block startx ="-1" startz ="-3" endx ="-1" endz ="-3"></block>
+			<block startx ="-4" startz ="-2" endx ="-4" endz ="4"></block>
+			<block startx ="-3" startz ="-2" endx ="-3" endz ="4"></block>
+			<block startx ="-2" startz ="-2" endx ="-2" endz ="3"></block>
+			<block startx ="-1" startz ="-2" endx ="-1" endz ="3"></block>
+			<block startx ="0" startz ="-2" endx ="0" endz ="3"></block>
+			<block startx ="1" startz ="-2" endx ="1" endz ="3"></block>
+			<block startx ="2" startz ="-2" endx ="2" endz ="4"></block>
+			<block startx ="3" startz ="2" endx ="3" endz ="2"></block>
+			<block startx ="0" startz ="-5" endx ="0" endz ="-3"></block>
+			<block startx ="1" startz ="-5" endx ="1" endz ="-3"></block>
+			<block startx ="2" startz ="-5" endx ="2" endz ="-3"></block>
+			<block startx ="3" startz ="-5" endx ="3" endz ="-3"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\Yellow_river\grass2_yellow_riv">
+			<block startx ="-2" startz ="-4" endx ="-2" endz ="-4"></block>
+			<block startx ="-1" startz ="-4" endx ="-1" endz ="-4"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\mongolia\ground_grass6_mongol">
+			<block startx ="-2" startz ="4" endx ="-2" endz ="4"></block>
+			<block startx ="1" startz ="4" endx ="1" endz ="4"></block>
+			<block startx ="3" startz ="-2" endx ="3" endz ="-2"></block>
+			<block startx ="3" startz ="0" endx ="3" endz ="0"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\mongolia\ground_sand1_mongol">
+			<block startx ="3" startz ="-1" endx ="3" endz ="-1"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\mongolia\ground_sand2_mongol">
+			<block startx ="3" startz ="1" endx ="3" endz ="1"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\mongolia\ground_grass5_mongol">
+			<block startx ="0" startz ="4" endx ="0" endz ="4"></block>
+			<block startx ="3" startz ="3" endx ="3" endz ="3"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\mongolia\ground_grass4_mongol">
+			<block startx ="-1" startz ="4" endx ="-1" endz ="4"></block>
+			<block startx ="3" startz ="4" endx ="3" endz ="4"></block>
+		</tilegroup>
+		<heights>
+			<tiles x ="-4" z ="-5">0.195 -0.012 -0.012 -0.012 -0.012 -0.012 -0.031 -0.099 </tiles>
+			<tiles x ="-4" z ="-4">0.052 -0.012 -0.012 -0.012 -0.012 -0.012 -0.031 -0.099 </tiles>
+			<tiles x ="-4" z ="-3">0.035 0.035 0.035 0.035 0.035 -0.012 -0.031 -0.099 </tiles>
+			<tiles x ="-4" z ="-2">0.050 0.050 -0.016 -0.016 -0.016 -0.016 -0.016 -0.060 </tiles>
+			<tiles x ="-4" z ="-1">0.050 0.050 0.002 0.002 0.002 0.002 0.002 -0.060 </tiles>
+			<tiles x ="-4" z ="0">0.050 0.050 0.024 0.024 0.024 -0.003 -0.003 -0.003 </tiles>
+			<tiles x ="-4" z ="1">0.033 0.033 0.033 0.033 0.024 -0.003 -0.003 -0.003 </tiles>
+			<tiles x ="-4" z ="2">0.024 0.024 0.024 0.024 0.024 -0.003 -0.003 -0.003 </tiles>
+			<tiles x ="-4" z ="3">0.024 0.024 0.024 0.024 0.024 -0.003 -0.003 -0.003 </tiles>
+			<tiles x ="-4" z ="4">0.024 0.024 0.024 0.024 0.024 -0.003 -0.003 -0.003 </tiles>
+		</heights>
+	</tiles>
+</grouping>

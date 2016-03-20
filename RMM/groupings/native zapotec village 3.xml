@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>14</width>
+	<height>14</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="13" posx ="-0.6625" posz ="-12.4306" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="13" posx ="5.4038" posz ="-11.4669" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">PropsNative</unit>
+		<unit variation ="51" posx ="1.0508" posz ="-11.3815" orientx ="-0.7079" orienty ="0.0000" orientz ="0.7063">UnderbrushRockies</unit>
+		<unit variation ="51" posx ="6.5207" posz ="-10.9045" orientx ="-0.9243" orienty ="0.0000" orientz ="0.3816">UnderbrushRockies</unit>
+		<unit variation ="227" posx ="4.3549" posz ="-7.7109" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">NativeTownObstruction</unit>
+		<unit variation ="39" posx ="-3.2434" posz ="-7.8244" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">NativeHouseAztec</unit>
+		<unit variation ="11" posx ="8.0835" posz ="-9.1493" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">PropsNative</unit>
+		<unit variation ="70" posx ="-4.7604" posz ="-4.8506" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">NativeTownObstruction</unit>
+		<unit variation ="51" posx ="-7.4108" posz ="-7.1202" orientx ="-0.9244" orienty ="0.0000" orientz ="0.3815">UnderbrushRockies</unit>
+		<unit variation ="2" posx ="7.3489" posz ="-6.8036" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">PropsNative</unit>
+		<unit variation ="133" posx ="6.8137" posz ="-5.4145" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="166" posx ="-8.6753" posz ="-5.9297" orientx ="0.5841" orienty ="0.0000" orientz ="-0.8117">SMIncanFence</unit>
+		<unit variation ="88" posx ="-9.5444" posz ="-0.9064" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">NativeTownObstruction</unit>
+		<unit variation ="6" posx ="4.7280" posz ="-3.0950" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="242" posx ="8.9526" posz ="-3.8443" orientx ="0.2455" orienty ="0.0000" orientz ="-0.9694">SMIncanPickerSitting</unit>
+		<unit variation ="142" posx ="-0.9140" posz ="-1.9122" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="9" posx ="4.1880" posz ="-2.2169" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="51" posx ="11.7915" posz ="-2.2211" orientx ="-0.7063" orienty ="0.0000" orientz ="-0.7079">UnderbrushRockies</unit>
+		<unit variation ="186" posx ="-5.5425" posz ="-2.6772" orientx ="-0.9607" orienty ="0.0000" orientz ="0.2775">SMIncanStoryTelling</unit>
+		<unit variation ="51" posx ="-13.5573" posz ="-0.1728" orientx ="0.9234" orienty ="0.0000" orientz ="0.3838">UnderbrushRockies</unit>
+		<unit variation ="14" posx ="-6.2153" posz ="-0.1561" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="139" posx ="-11.3627" posz ="-0.8134" orientx ="0.7255" orienty ="0.0000" orientz ="0.6882">SMIncanCookpot</unit>
+		<unit variation ="130" posx ="-7.8406" posz ="3.8337" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="237" posx ="7.2123" posz ="2.8008" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SocketZapotec</unit>
+		<unit variation ="0" posx ="2.1929" posz ="1.2288" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">Campfire</unit>
+		<unit variation ="153" posx ="-0.9440" posz ="5.9090" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="8" posx ="-1.7971" posz ="4.9552" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="7" posx ="-0.9394" posz ="5.1785" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="5" posx ="-2.3180" posz ="5.8199" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="3" posx ="-4.6012" posz ="6.3339" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">PropsNative</unit>
+		<unit variation ="240" posx ="0.8651" posz ="5.7691" orientx ="-0.2699" orienty ="0.0000" orientz ="-0.9629">SMIncanMixerPoker</unit>
+		<unit variation ="80" posx ="-6.1331" posz ="9.0171" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeHouseAztec</unit>
+		<unit variation ="51" posx ="-9.7577" posz ="11.2842" orientx ="-0.7063" orienty ="0.0000" orientz ="-0.7079">UnderbrushRockies</unit>
+		<unit variation ="51" posx ="-2.1358" posz ="11.4267" orientx ="-0.7063" orienty ="0.0000" orientz ="-0.7079">UnderbrushRockies</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="PassableLand" subtype ="terrain\sonora\ground6_son">
+			<block startx ="-6" startz ="1" endx ="-6" endz ="1"></block>
+			<block startx ="-5" startz ="-2" endx ="-5" endz ="1"></block>
+			<block startx ="-4" startz ="-2" endx ="-4" endz ="1"></block>
+			<block startx ="-3" startz ="-2" endx ="-3" endz ="1"></block>
+			<block startx ="-2" startz ="-2" endx ="-2" endz ="1"></block>
+			<block startx ="-1" startz ="-3" endx ="-1" endz ="0"></block>
+			<block startx ="0" startz ="-5" endx ="0" endz ="0"></block>
+			<block startx ="1" startz ="-4" endx ="1" endz ="-2"></block>
+			<block startx ="-6" startz ="2" endx ="-6" endz ="2"></block>
+		</tilegroup>
+		<heights>
+			<tiles x ="-7" z ="-7">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="-6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

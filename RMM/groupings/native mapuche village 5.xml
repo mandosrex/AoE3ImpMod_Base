@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>14</width>
+	<height>13</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="83" posx ="3.7695" posz ="-10.2592" orientx ="0.0002" orienty ="0.0000" orientz ="1.0000">UnderbrushPampas</unit>
+		<unit variation ="113" posx ="4.5744" posz ="-10.3767" orientx ="0.7070" orienty ="0.0000" orientz ="-0.7073">UnderbrushPampas</unit>
+		<unit variation ="141" posx ="0.7975" posz ="-11.8858" orientx ="-0.3828" orienty ="0.0000" orientz ="-0.9238">UnderbrushPampas</unit>
+		<unit variation ="132" posx ="-6.2696" posz ="-8.6128" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SocketMapuche</unit>
+		<unit variation ="149" posx ="1.8235" posz ="-7.0731" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="229" posx ="2.2225" posz ="-9.1685" orientx ="-0.8857" orienty ="0.0000" orientz ="0.4643">SMTupiCookpot</unit>
+		<unit variation ="108" posx ="-10.8542" posz ="-6.5099" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">UnderbrushYucatan</unit>
+		<unit variation ="141" posx ="8.9650" posz ="-6.0445" orientx ="-0.0002" orienty ="0.0000" orientz ="-1.0000">UnderbrushPampas</unit>
+		<unit variation ="70" posx ="4.5262" posz ="-6.7893" orientx ="-0.2003" orienty ="0.0000" orientz ="-0.9797">SMTupiFence</unit>
+		<unit variation ="149" posx ="6.1137" posz ="-2.1567" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">NativeTownObstruction</unit>
+		<unit variation ="14" posx ="-0.3191" posz ="-4.6632" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="13" posx ="-10.5785" posz ="-2.8265" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">PropsNative</unit>
+		<unit variation ="5" posx ="-10.4542" posz ="-2.2415" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="141" posx ="-12.7760" posz ="-2.2371" orientx ="-0.7072" orienty ="0.0000" orientz ="-0.7070">UnderbrushPampas</unit>
+		<unit variation ="83" posx ="10.2246" posz ="-2.5582" orientx ="-0.9238" orienty ="0.0000" orientz ="0.3829">UnderbrushPampas</unit>
+		<unit variation ="178" posx ="4.1025" posz ="-2.2729" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeHouseTupi</unit>
+		<unit variation ="149" posx ="0.9738" posz ="0.3013" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="149" posx ="-6.2662" posz ="-0.5028" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="149" posx ="-9.8404" posz ="1.3744" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">NativeTownObstruction</unit>
+		<unit variation ="140" posx ="8.2527" posz ="-3.2018" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">NativeHouseTupi</unit>
+		<unit variation ="255" posx ="-2.3808" posz ="-1.3156" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushYucatan</unit>
+		<unit variation ="255" posx ="1.7176" posz ="-0.8635" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushYucatan</unit>
+		<unit variation ="11" posx ="2.9667" posz ="-0.3247" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">PropsNative</unit>
+		<unit variation ="69" posx ="-4.7940" posz ="-1.6232" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">NativeHouseTupi</unit>
+		<unit variation ="149" posx ="7.9911" posz ="1.8662" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="13" posx ="-12.3337" posz ="1.6185" orientx ="0.9238" orienty ="0.0000" orientz ="-0.3828">PropsNative</unit>
+		<unit variation ="226" posx ="-5.4713" posz ="1.9888" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">Campfire</unit>
+		<unit variation ="83" posx ="-13.1650" posz ="2.0661" orientx ="-0.7070" orienty ="0.0000" orientz ="0.7072">UnderbrushPampas</unit>
+		<unit variation ="83" posx ="12.5778" posz ="2.2494" orientx ="-0.7070" orienty ="0.0000" orientz ="0.7072">UnderbrushPampas</unit>
+		<unit variation ="6" posx ="-10.4983" posz ="0.1490" orientx ="0.9807" orienty ="0.0000" orientz ="-0.1957">SMTupiMixerPoker</unit>
+		<unit variation ="82" posx ="10.5349" posz ="1.1361" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">NativeHouseTupi</unit>
+		<unit variation ="149" posx ="-5.5525" posz ="4.8610" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">NativeTownObstruction</unit>
+		<unit variation ="149" posx ="4.2807" posz ="4.4156" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">NativeTownObstruction</unit>
+		<unit variation ="254" posx ="-8.1144" posz ="3.1359" orientx ="-0.9245" orienty ="0.0000" orientz ="0.3812">SMTupiStoryTelling</unit>
+		<unit variation ="119" posx ="9.7335" posz ="4.1761" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">NativeHouseTupi</unit>
+		<unit variation ="149" posx ="-1.9771" posz ="5.6663" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="141" posx ="-12.0056" posz ="5.5103" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0002">UnderbrushPampas</unit>
+		<unit variation ="11" posx ="5.7581" posz ="4.4747" orientx ="-0.3828" orienty ="0.0000" orientz ="-0.9238">PropsNative</unit>
+		<unit variation ="9" posx ="0.2523" posz ="4.8340" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="242" posx ="-1.4636" posz ="5.6960" orientx ="0.5658" orienty ="0.0000" orientz ="-0.8245">SMTupiPickerSitting</unit>
+		<unit variation ="13" posx ="-2.0698" posz ="7.7821" orientx ="0.3828" orienty ="0.0000" orientz ="0.9238">PropsNative</unit>
+		<unit variation ="6" posx ="-5.0223" posz ="7.2766" orientx ="-0.5562" orienty ="0.0000" orientz ="-0.8311">SMTupiMixerPoker</unit>
+		<unit variation ="175" posx ="2.9289" posz ="7.4744" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeHouseTupi</unit>
+		<unit variation ="83" posx ="-1.5278" posz ="9.5377" orientx ="-0.9240" orienty ="0.0000" orientz ="-0.3825">UnderbrushPampas</unit>
+		<unit variation ="141" posx ="-5.8638" posz ="9.7057" orientx ="-0.0002" orienty ="0.0000" orientz ="-1.0000">UnderbrushPampas</unit>
+	</units>
+	<tiles>
+			<tilegroup type ="PassableLand" subtype ="terrain\araucania\ground_dirt2_ara">
+			<block startx ="-6" startz ="1" endx ="-6" endz ="1"></block>
+			<block startx ="-5" startz ="-1" endx ="-5" endz ="2"></block>
+			<block startx ="-4" startz ="-1" endx ="-4" endz ="2"></block>
+			<block startx ="-3" startz ="-1" endx ="-3" endz ="-1"></block>
+			<block startx ="-3" startz ="1" endx ="-3" endz ="2"></block>
+			<block startx ="-2" startz ="-1" endx ="-2" endz ="-1"></block>
+			<block startx ="-2" startz ="2" endx ="-2" endz ="2"></block>
+			<block startx ="-1" startz ="-2" endx ="-1" endz ="-1"></block>
+			<block startx ="-1" startz ="2" endx ="-1" endz ="2"></block>
+			<block startx ="0" startz ="-3" endx ="0" endz ="-1"></block>
+			<block startx ="1" startz ="-2" endx ="1" endz ="-1"></block>
+			<block startx ="-5" startz ="3" endx ="-5" endz ="4"></block>
+			<block startx ="-4" startz ="3" endx ="-4" endz ="3"></block>
+			<block startx ="-3" startz ="3" endx ="-3" endz ="3"></block>
+			<block startx ="-2" startz ="3" endx ="-2" endz ="3"></block>
+			<block startx ="-1" startz ="3" endx ="-1" endz ="3"></block>
+			<block startx ="0" startz ="3" endx ="0" endz ="4"></block>
+			<block startx ="1" startz ="4" endx ="1" endz ="4"></block>
+			<block startx ="2" startz ="-2" endx ="2" endz ="-2"></block>
+			<block startx ="3" startz ="-1" endx ="3" endz ="0"></block>
+			<block startx ="3" startz ="2" endx ="3" endz ="2"></block>
+			<block startx ="4" startz ="0" endx ="4" endz ="2"></block>
+		</tilegroup>
+		<heights>
+			<tiles x ="-7" z ="-6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-7" z ="6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

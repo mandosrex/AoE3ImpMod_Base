@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<savedhomecity version="1">
+  <civ>French</civ>
+  <name>Delhi</name>
+  <heroname>Nanib Sahir</heroname>
+  <herodogname/>
+  <shipname/>
+  <level>40</level>
+  <xppercentage>0.501656</xppercentage>
+  <numpropunlocksearned>0</numpropunlocksearned>
+  <coffers>
+    <current>
+      <gold>0.000000</gold>
+      <wood>0.000000</wood>
+      <food>0.000000</food>
+      <fame>0.000000</fame>
+      <skillpoints>0.000000</skillpoints>
+      <xp>0.000000</xp>
+      <ships>0.000000</ships>
+    </current>
+    <maximum>
+      <gold>0.000000</gold>
+      <wood>0.000000</wood>
+      <food>0.000000</food>
+      <fame>0.000000</fame>
+      <skillpoints>-1.000000</skillpoints>
+      <xp>-1.000000</xp>
+      <ships>0.000000</ships>
+    </maximum>
+  </coffers>
+  <decks>
+    <deck>
+      <name>My Deck</name>
+      <gameid>1</gameid>
+      <default/>
+      <cards>
+        <card dbid="2595">HCWildernessWarfare</card>
+        <card dbid="2248">HCShipSkirmishers1</card>
+        <card dbid="2192">HCShipFalconets1</card>
+        <card dbid="2244">HCShipCrossbowmen2</card>
+        <card dbid="2243">HCShipPikemen3</card>
+        <card dbid="2676">HCShipCrossbowmen3</card>
+        <card dbid="2250">HCShipSkirmishers3</card>
+        <card dbid="2038">HCRidingSchool</card>
+        <card dbid="2037">HCFencingSchool</card>
+        <card dbid="2245">HCRangedInfantryHitpointsFrench</card>
+        <card dbid="2061">HCCavalryCombatFrench</card>
+        <card dbid="2377">HCShipDragoons3</card>
+        <card dbid="2570">HCShipCuirassiers5</card>
+        <card dbid="2572">HCShipFoodCrates1</card>
+        <card dbid="2260">HCShipCoureurs1</card>
+        <card dbid="2052">HCNativeCombat</card>
+        <card dbid="2221">HCShipCaravels2</card>
+        <card dbid="2545">HCMercsHessians</card>
+        <card dbid="2251">HCShipSkirmishers4</card>
+        <card dbid="1847">HCNativeWarriors</card>
+      </cards>
+    </deck>
+  </decks>
+  <activetechs>
+    <tech dbid="2260">HCShipCoureurs1</tech>
+    <tech dbid="2572">HCShipFoodCrates1</tech>
+    <tech dbid="2190">HCShipCoveredWagons</tech>
+    <tech dbid="2226">HCShipCrossbowmen1</tech>
+    <tech dbid="2248">HCShipSkirmishers1</tech>
+    <tech dbid="2249">HCShipSkirmishers2</tech>
+    <tech dbid="2188">HCShipHussars1</tech>
+    <tech dbid="2252">HCShipCuirassiers1</tech>
+    <tech dbid="2253">HCShipCuirassiers2</tech>
+    <tech dbid="2192">HCShipFalconets1</tech>
+    <tech dbid="2076">HCAdvancedArtillery</tech>
+    <tech dbid="2228">HCShipPikemen2</tech>
+    <tech dbid="2244">HCShipCrossbowmen2</tech>
+    <tech dbid="2243">HCShipPikemen3</tech>
+    <tech dbid="2676">HCShipCrossbowmen3</tech>
+    <tech dbid="2250">HCShipSkirmishers3</tech>
+    <tech dbid="2245">HCRangedInfantryHitpointsFrench</tech>
+    <tech dbid="2251">HCShipSkirmishers4</tech>
+    <tech dbid="2246">HCRangedInfantryDamageFrenchTeam</tech>
+    <tech dbid="2631">HCShipSkirmishers5</tech>
+    <tech dbid="2445">HCEarlySkirmishersTeam</tech>
+    <tech dbid="2257">HCShipDragoons1</tech>
+    <tech dbid="2258">HCShipDragoons2</tech>
+    <tech dbid="2376">HCShipDragoons3</tech>
+    <tech dbid="2377">HCShipDragoons4</tech>
+    <tech dbid="2232">HCShipHussars2</tech>
+    <tech dbid="2317">HCShipHussars3</tech>
+    <tech dbid="2254">HCShipCuirassiers3</tech>
+    <tech dbid="2255">HCHandCavalryDamageFrenchTeam</tech>
+    <tech dbid="2569">HCShipCuirassiers4</tech>
+    <tech dbid="2256">HCHandCavalryHitpointsFrench</tech>
+    <tech dbid="2594">HCShipRichelieuRegiment</tech>
+    <tech dbid="2570">HCShipCuirassiers5</tech>
+    <tech dbid="2061">HCCavalryCombatFrench</tech>
+    <tech dbid="2235">HCShipFalconets2</tech>
+    <tech dbid="2236">HCShipFalconets3</tech>
+    <tech dbid="2600">HCShipFalconets4</tech>
+    <tech dbid="2237">HCShipMortars1</tech>
+    <tech dbid="2238">HCShipMortars2</tech>
+    <tech dbid="2239">HCShipCannons1</tech>
+    <tech dbid="2259">HCNativeCombatTeam</tech>
+    <tech dbid="1993">HCPioneers</tech>
+    <tech dbid="814">HCUnlockFort</tech>
+    <tech dbid="2571">HCFrontierDefenses</tech>
+    <tech dbid="2568">HCNativeLore</tech>
+    <tech dbid="881">HCNativeTreaties</tech>
+    <tech dbid="1847">HCNativeWarriors</tech>
+    <tech dbid="1796">HCAdvancedTradingPost</tech>
+    <tech dbid="2052">HCNativeCombat</tech>
+    <tech dbid="2595">HCWildernessWarfare</tech>
+    <tech dbid="2363">HCEngineeringSchool</tech>
+    <tech dbid="2037">HCFencingSchool</tech>
+    <tech dbid="2038">HCRidingSchool</tech>
+    <tech dbid="1842">HCImprovedBuildings</tech>
+    <tech dbid="1992">HCColonialMilitia</tech>
+    <tech dbid="2030">HCExtensiveFortifications</tech>
+    <tech dbid="1957">HCAdvancedArsenal</tech>
+    <tech dbid="1688">HCHeavyFortifications</tech>
+    <tech dbid="2662">HCUnlockFortVauban</tech>
+    <tech dbid="2647">HCRoyalDecreeFrench</tech>
+    <tech dbid="2446">HCCheapChurchTeam</tech>
+    <tech dbid="472">HCAdvancedPlantations</tech>
+    <tech dbid="2096">HCAdvancedMill</tech>
+    <tech dbid="2104">HCAdvancedMarket</tech>
+    <tech dbid="625">HCUnlockFactory</tech>
+    <tech dbid="2031">HCRobberBarons</tech>
+    <tech dbid="2100">HCAdvancedDock</tech>
+    <tech dbid="2032">HCFurrier</tech>
+    <tech dbid="469">HCFishMarket</tech>
+    <tech dbid="2036">HCStonemasons</tech>
+    <tech dbid="2099">HCRenderingPlant</tech>
+    <tech dbid="2322">HCSawmillsTeam</tech>
+    <tech dbid="2091">HCExoticHardwoods</tech>
+    <tech dbid="2043">HCSilversmith</tech>
+    <tech dbid="2093">HCRoyalMint</tech>
+    <tech dbid="2094">HCFoodSilos</tech>
+    <tech dbid="2607">HCStockyards</tech>
+    <tech dbid="2101">HCRumDistillery</tech>
+    <tech dbid="474">HCCigarRoller</tech>
+    <tech dbid="2095">HCSustainableAgriculture</tech>
+    <tech dbid="2098">HCSpiceTrade</tech>
+    <tech dbid="2102">HCTextileMills</tech>
+    <tech dbid="2041">HCRefrigeration</tech>
+    <tech dbid="2185">HCShipCaravels1</tech>
+    <tech dbid="1081">HCAdmirality</tech>
+    <tech dbid="2547">HCMercsSwissPikemen</tech>
+    <tech dbid="2545">HCMercsHessians</tech>
+    <tech dbid="2550">HCMercsLandsknecht2</tech>
+    <tech dbid="2549">HCMercsBlackRiders</tech>
+    <tech dbid="462">HCMercsHolyRoman</tech>
+    <tech dbid="465">HCPrivateers</tech>
+    <tech dbid="2605">HCPrivateers2</tech>
+    <tech dbid="1424">HCMercsMediterranean</tech>
+    <tech dbid="463">HCMercenaryLoyalty</tech>
+    <tech dbid="2221">HCShipCaravels2</tech>
+    <tech dbid="2222">HCShipGalleons</tech>
+    <tech dbid="2223">HCShipFrigates</tech>
+    <tech dbid="2225">HCNavalCombat</tech>
+    <tech dbid="2224">HCShipMonitors</tech>
+  </activetechs>
+</savedhomecity>

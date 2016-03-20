@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>9</width>
+	<height>9</height>
+	<ignorePlacementRules>1</ignorePlacementRules>
+	<selectAsSingleUnit>1</selectAsSingleUnit>
+	<units>
+		<unit Variation ="41" posX ="1.0000" posZ ="1.0000" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">SocketMine</unit>
+	</units>
+	<tiles>
+		<tileGroup type ="PassableLand" subtype ="terrain\Texas\cliff_top_tex">
+			<block startX ="-4" startZ ="-4" endX ="-4" endZ ="-3"></block>
+			<block startX ="-3" startZ ="-4" endX ="-3" endZ ="-2"></block>
+			<block startX ="-2" startZ ="-4" endX ="-2" endZ ="-2"></block>
+			<block startX ="-4" startZ ="0" endX ="-4" endZ ="1"></block>
+			<block startX ="-3" startZ ="-1" endX ="-3" endZ ="1"></block>
+			<block startX ="-2" startZ ="-1" endX ="-2" endZ ="1"></block>
+			<block startX ="-1" startZ ="-1" endX ="-1" endZ ="1"></block>
+			<block startX ="0" startZ ="-1" endX ="0" endZ ="1"></block>
+			<block startX ="1" startZ ="-1" endX ="1" endZ ="1"></block>
+			<block startX ="-1" startZ ="-4" endX ="-1" endZ ="-2"></block>
+			<block startX ="0" startZ ="-4" endX ="0" endZ ="-2"></block>
+			<block startX ="1" startZ ="-4" endX ="1" endZ ="-2"></block>
+		</tileGroup>
+		<tileGroup type ="PassableLand" subtype ="terrain\Texas\cliff_edge_tex">
+			<block startX ="-4" startZ ="2" endX ="-4" endZ ="4"></block>
+			<block startX ="-3" startZ ="2" endX ="-3" endZ ="4"></block>
+			<block startX ="-2" startZ ="2" endX ="-2" endZ ="4"></block>
+			<block startX ="-1" startZ ="2" endX ="-1" endZ ="4"></block>
+			<block startX ="0" startZ ="2" endX ="0" endZ ="4"></block>
+			<block startX ="1" startZ ="2" endX ="1" endZ ="4"></block>
+			<block startX ="2" startZ ="-1" endX ="2" endZ ="4"></block>
+			<block startX ="3" startZ ="-1" endX ="3" endZ ="4"></block>
+			<block startX ="4" startZ ="-1" endX ="4" endZ ="4"></block>
+			<block startX ="2" startZ ="-4" endX ="2" endZ ="-2"></block>
+			<block startX ="3" startZ ="-4" endX ="3" endZ ="-2"></block>
+			<block startX ="4" startZ ="-4" endX ="4" endZ ="-2"></block>
+		</tileGroup>
+		<CliffGroup type ="Great Plains Mine">
+			<block startX ="-4" startZ ="3" endX ="-4" endZ ="3"></block>
+			<block startX ="-3" startZ ="3" endX ="-3" endZ ="3"></block>
+			<block startX ="-2" startZ ="3" endX ="-2" endZ ="3"></block>
+			<block startX ="-1" startZ ="3" endX ="-1" endZ ="3"></block>
+			<block startX ="0" startZ ="3" endX ="0" endZ ="3"></block>
+			<block startX ="1" startZ ="3" endX ="1" endZ ="3"></block>
+			<block startX ="2" startZ ="3" endX ="2" endZ ="3"></block>
+			<block startX ="3" startZ ="-1" endX ="3" endZ ="3"></block>
+			<block startX ="3" startZ ="-3" endX ="3" endZ ="-2"></block>
+		</CliffGroup>
+		<Heights>
+			<tiles x ="-4" z ="-4">-1.493 -1.697 -1.813 -1.897 -2.113 -1.766 -1.386 -0.526 0.874 </tiles>
+			<tiles x ="-4" z ="-3">-1.735 -1.822 -1.928 -2.008 -2.050 -2.113 -1.770 -1.006 1.487 </tiles>
+			<tiles x ="-4" z ="-2">-1.696 -1.864 -1.970 -2.039 -2.092 -2.113 -2.113 -2.113 1.487 </tiles>
+			<tiles x ="-4" z ="-1">-1.650 -1.878 -2.000 -2.066 -2.107 -2.113 -2.113 -2.113 1.487 </tiles>
+			<tiles x ="-4" z ="0">-1.595 -1.866 -2.014 -2.082 -2.111 -2.113 -2.113 -2.113 1.487 </tiles>
+			<tiles x ="-4" z ="1">-1.520 -1.852 -2.032 -2.096 -2.113 -2.113 -2.113 -2.113 1.564 </tiles>
+			<tiles x ="-4" z ="2">-1.384 -1.906 -2.113 -2.113 -2.113 -2.113 -2.113 -2.113 2.064 </tiles>
+			<tiles x ="-4" z ="3">-0.813 -2.113 -2.113 -2.113 -2.113 -2.113 -2.113 -2.186 1.564 </tiles>
+			<tiles x ="-4" z ="4">0.887 1.387 1.564 1.564 1.564 2.064 2.064 1.564 1.564 </tiles>
+		</Heights>
+	</tiles>
+</grouping>

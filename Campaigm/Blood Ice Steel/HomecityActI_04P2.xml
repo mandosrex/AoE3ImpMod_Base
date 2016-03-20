@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<savedhomecity version ="1">
+	<civ>Ottomans</civ>
+	<name>Istanbul</name>
+	<heroname>Jimmy</heroname>
+	<shipname>The Minnow</shipname>
+	<level>8</level>
+	<xppercentage>0.050550</xppercentage>
+	<numpropunlocksearned>2</numpropunlocksearned>
+	<coffers>
+		<current>
+			<gold>0.000000</gold>
+			<wood>0.000000</wood>
+			<food>0.000000</food>
+			<fame>0.000000</fame>
+			<skillpoints>1.000000</skillpoints>
+			<xp>46305.500000</xp>
+			<ships>0.000000</ships>
+		</current>
+		<maximum>
+			<gold>0.000000</gold>
+			<wood>0.000000</wood>
+			<food>0.000000</food>
+			<fame>0.000000</fame>
+			<skillpoints>-1.000000</skillpoints>
+			<xp>-1.000000</xp>
+			<ships>0.000000</ships>
+		</maximum>
+	</coffers>
+	<activetechs>
+		<tech>HCJanissariesBucketOttoman1</tech>
+		<tech>HCRoyalDecree</tech>
+		<tech>HCUnlockMosque</tech>
+		<tech>HCUnlockOutpost</tech>
+		<tech>HCUnlockTradingPost</tech>
+		<tech>HCWoodCrate</tech>
+		<tech>HCWoodCrate0</tech>
+		<tech>HCFoodCrate0</tech>
+		
+	</activetechs>
+</savedhomecity>

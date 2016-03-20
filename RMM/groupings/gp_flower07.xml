@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>5</width>
+	<height>5</height>
+	<ignorePlacementRules>0</ignorePlacementRules>
+	<selectAsSingleUnit>1</selectAsSingleUnit>
+	<units>
+		<unit Variation ="252" posX ="0.3070" posZ ="-2.1842" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="111" posX ="0.8438" posZ ="-2.7352" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">GroundPropsGP</unit>
+		<unit Variation ="21" posX ="0.4765" posZ ="-1.5009" orientX ="0.7071" orientY ="0.0000" orientZ ="0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="43" posX ="-0.5319" posZ ="0.0185" orientX ="0.3827" orientY ="0.0000" orientZ ="0.9239">UnderbrushGreatPlains</unit>
+		<unit Variation ="205" posX ="0.4670" posZ ="-1.9182" orientX ="0.0000" orientY ="0.0000" orientZ ="1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="111" posX ="-0.1756" posZ ="-1.6681" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="207" posX ="0.4339" posZ ="-0.6376" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">GroundPropsGP</unit>
+		<unit Variation ="118" posX ="0.7021" posZ ="-0.2991" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="207" posX ="-0.5344" posZ ="-1.1534" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="111" posX ="1.2064" posZ ="-1.7222" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">GroundPropsGP</unit>
+		<unit Variation ="142" posX ="-1.0050" posZ ="-0.8777" orientX ="-1.0000" orientY ="0.0000" orientZ ="0.0000">GroundPropsGP</unit>
+		<unit Variation ="7" posX ="-0.7292" posZ ="0.5108" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="207" posX ="-1.6207" posZ ="0.6380" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="111" posX ="-0.3188" posZ ="0.5548" orientX ="0.7071" orientY ="0.0000" orientZ ="0.7071">GroundPropsGP</unit>
+		<unit Variation ="207" posX ="-0.5242" posZ ="-0.1437" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

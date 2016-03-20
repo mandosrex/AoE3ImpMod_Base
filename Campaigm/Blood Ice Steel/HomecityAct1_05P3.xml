@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<savedhomecity version ="1">
+	<civ>Spanish</civ>
+	<name>Barcelona</name>
+	<heroname>Jimmy</heroname>
+	<shipname>The Minnow</shipname>
+	<level>3</level>
+	<xppercentage>0.681860</xppercentage>
+	<numpropunlocksearned>2</numpropunlocksearned>
+	<coffers>
+		<current>
+			<gold>0.000000</gold>
+			<wood>0.000000</wood>
+			<food>0.000000</food>
+			<fame>0.000000</fame>
+			<skillpoints>2.000000</skillpoints>
+			<xp>22818.599609</xp>
+			<ships>0.000000</ships>
+		</current>
+		<maximum>
+			<gold>0.000000</gold>
+			<wood>0.000000</wood>
+			<food>0.000000</food>
+			<fame>0.000000</fame>
+			<skillpoints>-1.000000</skillpoints>
+			<xp>-1.000000</xp>
+			<ships>0.000000</ships>
+		</maximum>
+	</coffers>
+	<activetechs>
+		<tech>HCUnlockMissionary</tech>
+		<tech>HCUnlockMissionary</tech>
+		<tech>HCUnlockOutpost</tech>
+		<tech>HCPlantationHouse</tech>
+	</activetechs>
+</savedhomecity>

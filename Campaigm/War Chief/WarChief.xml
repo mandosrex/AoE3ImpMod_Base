@@ -1,0 +1,404 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Campaign>
+   <!-- DisplayName.  The non-localized name the user will see for this campaign.  -->
+   <DisplayName>The War Chief</DisplayName>
+   <!-- DisplayNameStringID.  The localized string ID for the name the user will see for this campaign.  Overrides DisplayName.  -->
+   <DisplayNameStringID>43899</DisplayNameStringID>
+   <!-- Rollover.  The non-localized rollover the user will see for this campaign.  -->
+   <Rollover>The story of the Black family continues, as two more generations face fresh challenges in the Americas.</Rollover>
+   <!-- RolloverStringID.  The localized string ID for the rollover the user will see for this campaign.  Overrides Rollover.  -->
+   <RolloverStringID>43900</RolloverStringID>
+   <!-- The string ID for the title to display in the HC Note Dlg once player gets 20 cards. -->
+   <HCNoteTitle>46909</HCNoteTitle>
+   <!-- The string ID for the text to display in the HC Note Dlg once player gets 20 cards. -->
+   <HCNoteText>46910</HCNoteText>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x01a</Filename>
+      <DisplayName>IGC 1A</DisplayName>
+      <DisplayNameStringID>43905</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>SPCx_Load_screen_01</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>45477</LoadTextID>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x01</Filename>
+      <DisplayName>Scenario 1</DisplayName>
+      <DisplayNameStringID>43920</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x01B</Filename>
+      <DisplayName>IGC 1B</DisplayName>
+      <DisplayNameStringID>46710</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <PostCinematic>1</PostCinematic>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x02a</Filename>
+      <DisplayName>IGC 2A</DisplayName>
+      <DisplayNameStringID>43906</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPCx_Load_screen_02</LoadImage>
+      <LoadTextID>45478</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x02</Filename>
+      <DisplayName>Scenario 2</DisplayName>
+      <DisplayNameStringID>43921</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x03a</Filename>
+      <DisplayName>IGC 3A</DisplayName>
+      <DisplayNameStringID>43907</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPCx_Load_screen_03</LoadImage>
+      <LoadTextID>45479</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x03</Filename>
+      <DisplayName>Scenario 3</DisplayName>
+      <DisplayNameStringID>43922</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <NoHCAccess>1</NoHCAccess>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x04a</Filename>
+      <DisplayName>IGC 4A</DisplayName>
+      <DisplayNameStringID>43908</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPCx_Load_screen_04</LoadImage>
+      <LoadTextID>45480</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x04</Filename>
+      <DisplayName>Scenario 4</DisplayName>
+      <DisplayNameStringID>43923</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x05a</Filename>
+      <DisplayName>IGC 5A</DisplayName>
+      <DisplayNameStringID>43909</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPCx_Load_screen_05</LoadImage>
+      <LoadTextID>45481</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x05</Filename>
+      <DisplayName>Scenario 5</DisplayName>
+      <DisplayNameStringID>43924</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x06a</Filename>
+      <DisplayName>IGC 6A</DisplayName>
+      <DisplayNameStringID>43910</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPCx_Load_screen_06</LoadImage>
+      <LoadTextID>45482</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x06</Filename>
+      <DisplayName>Scenario 6</DisplayName>
+      <DisplayNameStringID>43925</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x07a</Filename>
+      <DisplayName>IGC 7A</DisplayName>
+      <DisplayNameStringID>43911</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPCx_Load_screen_07</LoadImage>
+      <LoadTextID>45483</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x07</Filename>
+      <DisplayName>Scenario 7</DisplayName>
+      <DisplayNameStringID>43926</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x08a</Filename>
+      <DisplayName>IGC 8A</DisplayName>
+      <DisplayNameStringID>43912</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <LoadImage>SPCx_Load_screen_08</LoadImage>
+      <LoadTextID>45484</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x08</Filename>
+      <DisplayName>Scenario 8</DisplayName>
+      <DisplayNameStringID>43927</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\XPackAct1FinalCine</Filename>
+      <DisplayName>Prerendered Interlude</DisplayName>
+      <DisplayNameStringID>48453</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Cinematic>1</Cinematic>
+      <Visible>1</Visible>
+      <Act>1</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x09a</Filename>
+      <DisplayName>IGC 9A</DisplayName>
+      <DisplayNameStringID>43913</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPCx_Load_screen_09</LoadImage>
+      <LoadTextID>46623</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x09</Filename>
+      <DisplayName>Scenario 9</DisplayName>
+      <DisplayNameStringID>43928</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x10a</Filename>
+      <DisplayName>IGC 10A</DisplayName>
+      <DisplayNameStringID>43914</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPCx_Load_screen_10</LoadImage>
+      <LoadTextID>46624</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x10</Filename>
+      <DisplayName>Scenario 10</DisplayName>
+      <DisplayNameStringID>43929</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x10B</Filename>
+      <DisplayName>IGC 10B</DisplayName>
+      <DisplayNameStringID>45235</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <PostCinematic>1</PostCinematic>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x11a</Filename>
+      <DisplayName>IGC 11A</DisplayName>
+      <DisplayNameStringID>43915</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPCx_Load_screen_11</LoadImage>
+      <LoadTextID>46625</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x11</Filename>
+      <DisplayName>Scenario 11</DisplayName>
+      <DisplayNameStringID>45322</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x12a</Filename>
+      <DisplayName>IGC 12A</DisplayName>
+      <DisplayNameStringID>43916</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPCx_Load_screen_12</LoadImage>
+      <LoadTextID>46626</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x12</Filename>
+      <DisplayName>Scenario 12</DisplayName>
+      <DisplayNameStringID>43931</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x13a</Filename>
+      <DisplayName>Scenario 13A</DisplayName>
+      <DisplayNameStringID>43917</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPCx_Load_screen_13</LoadImage>
+      <LoadTextID>46627</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x13</Filename>
+      <DisplayName>Scenario 13</DisplayName>
+      <DisplayNameStringID>43932</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x14a</Filename>
+      <DisplayName>IGC 14A</DisplayName>
+      <DisplayNameStringID>43918</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPCx_Load_screen_14</LoadImage>
+      <LoadTextID>46628</LoadTextID>
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x14</Filename>
+      <DisplayName>Scenario 14</DisplayName>
+      <DisplayNameStringID>43933</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x14B</Filename>
+      <DisplayName>IGC 14B</DisplayName>
+      <DisplayNameStringID>45236</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <PostCinematic>1</PostCinematic>
+   </CampaignNode>
+
+   <CampaignNode>
+      <Filename>War Chief\age3x15a</Filename>
+      <DisplayName>IGC 15A</DisplayName>
+      <DisplayNameStringID>43919</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>2</Act>
+      <LoadImage>SPCx_Load_screen_15</LoadImage>
+      <LoadTextID>46629</LoadTextID>
+      <LoadMode>1</LoadMode>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\age3x15</Filename>
+      <DisplayName>Scenario 15</DisplayName>
+      <DisplayNameStringID>43934</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <Act>2</Act>
+   </CampaignNode>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>War Chief\XPackAct2FinalCine</Filename>
+      <DisplayName>Final Prerendered</DisplayName>
+      <DisplayNameStringID>48454</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>1</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>2</Act>
+      <ContinueToCredits></ContinueToCredits>
+   </CampaignNode>
+   
+</Campaign>

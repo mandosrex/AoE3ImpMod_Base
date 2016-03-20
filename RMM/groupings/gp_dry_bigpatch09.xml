@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>13</width>
+	<height>18</height>
+	<ignorePlacementRules>0</ignorePlacementRules>
+	<selectAsSingleUnit>1</selectAsSingleUnit>
+	<units>
+		<unit Variation ="206" posX ="-6.5988" posZ ="-9.6752" orientX ="0.6219" orientY ="0.0000" orientZ ="0.7831">TreeGreatPlainsGrass</unit>
+		<unit Variation ="206" posX ="-6.5147" posZ ="-7.9253" orientX ="0.9615" orientY ="0.0000" orientZ ="-0.2750">TreeGreatPlainsGrass</unit>
+		<unit Variation ="206" posX ="-8.2692" posZ ="-9.0416" orientX ="-0.1140" orientY ="0.0000" orientZ ="0.9935">TreeGreatPlainsGrass</unit>
+		<unit Variation ="58" posX ="-3.8145" posZ ="-5.7588" orientX ="-1.0000" orientY ="0.0000" orientZ ="-0.0007">GroundPropsGP</unit>
+		<unit Variation ="206" posX ="1.8790" posZ ="-5.6110" orientX ="0.9615" orientY ="0.0000" orientZ ="-0.2750">TreeGreatPlainsGrass</unit>
+		<unit Variation ="58" posX ="-2.1997" posZ ="-6.9711" orientX ="0.7076" orientY ="0.0000" orientZ ="-0.7066">GroundPropsGP</unit>
+		<unit Variation ="224" posX ="-1.7115" posZ ="-5.8978" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">UnderbrushGreatPlains</unit>
+		<unit Variation ="3" posX ="-3.0054" posZ ="-6.1586" orientX ="0.0006" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="45" posX ="-2.7786" posZ ="-6.6323" orientX ="0.7076" orientY ="0.0000" orientZ ="-0.7066">GroundPropsGP</unit>
+		<unit Variation ="45" posX ="-3.1657" posZ ="-5.5889" orientX ="-1.0000" orientY ="0.0000" orientZ ="-0.0007">GroundPropsGP</unit>
+		<unit Variation ="206" posX ="-6.6154" posZ ="-4.6510" orientX ="-0.1140" orientY ="0.0000" orientZ ="0.9935">TreeGreatPlainsGrass</unit>
+		<unit Variation ="58" posX ="-1.0450" posZ ="-3.4981" orientX ="-0.3821" orientY ="0.0000" orientZ ="-0.9241">GroundPropsGP</unit>
+		<unit Variation ="157" posX ="0.7250" posZ ="-3.1301" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="131" posX ="-1.1391" posZ ="-2.8822" orientX ="-0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="3" posX ="0.2158" posZ ="-3.9478" orientX ="0.0006" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="3" posX ="-0.4837" posZ ="-4.3229" orientX ="0.0006" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="58" posX ="-2.3851" posZ ="-4.0536" orientX ="-0.3821" orientY ="0.0000" orientZ ="-0.9241">GroundPropsGP</unit>
+		<unit Variation ="169" posX ="-3.7990" posZ ="-2.8747" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">GroundDecalGP</unit>
+		<unit Variation ="206" posX ="-9.7092" posZ ="-2.5669" orientX ="-0.1140" orientY ="0.0000" orientZ ="0.9935">TreeGreatPlainsGrass</unit>
+		<unit Variation ="206" posX ="3.6028" posZ ="-2.9044" orientX ="0.7830" orientY ="0.0000" orientZ ="-0.6220">TreeGreatPlainsGrass</unit>
+		<unit Variation ="173" posX ="0.5337" posZ ="-1.6467" orientX ="0.9237" orientY ="0.0000" orientZ ="0.3832">UnderbrushGreatPlains</unit>
+		<unit Variation ="3" posX ="-1.8564" posZ ="-2.2368" orientX ="0.0006" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="45" posX ="-2.2937" posZ ="-3.3891" orientX ="-0.3821" orientY ="0.0000" orientZ ="-0.9241">GroundPropsGP</unit>
+		<unit Variation ="45" posX ="-0.9536" posZ ="-2.8336" orientX ="-0.3821" orientY ="0.0000" orientZ ="-0.9241">GroundPropsGP</unit>
+		<unit Variation ="58" posX ="-1.3960" posZ ="-1.9629" orientX ="0.3833" orientY ="0.0000" orientZ ="-0.9236">GroundPropsGP</unit>
+		<unit Variation ="45" posX ="2.0059" posZ ="-1.4834" orientX ="0.3833" orientY ="0.0000" orientZ ="-0.9236">GroundPropsGP</unit>
+		<unit Variation ="58" posX ="2.4111" posZ ="-2.0179" orientX ="0.3833" orientY ="0.0000" orientZ ="-0.9236">GroundPropsGP</unit>
+		<unit Variation ="206" posX ="5.5739" posZ ="-2.3113" orientX ="0.2749" orientY ="0.0000" orientZ ="0.9615">TreeGreatPlainsGrass</unit>
+		<unit Variation ="3" posX ="-4.9473" posZ ="-0.2817" orientX ="-0.7067" orientY ="0.0000" orientZ ="-0.7076">GroundPropsGP</unit>
+		<unit Variation ="134" posX ="-1.0006" posZ ="0.5092" orientX ="-0.7071" orientY ="0.0000" orientZ ="0.7071">GroundDecalGP</unit>
+		<unit Variation ="3" posX ="1.0770" posZ ="-0.2176" orientX ="-0.9236" orientY ="0.0000" orientZ ="-0.3833">GroundPropsGP</unit>
+		<unit Variation ="45" posX ="-1.8012" posZ ="-1.4283" orientX ="0.3833" orientY ="0.0000" orientZ ="-0.9236">GroundPropsGP</unit>
+		<unit Variation ="3" posX ="-2.7395" posZ ="-0.4813" orientX ="-0.9236" orientY ="0.0000" orientZ ="-0.3833">GroundPropsGP</unit>
+		<unit Variation ="45" posX ="-3.5345" posZ ="-0.0993" orientX ="0.7076" orientY ="0.0000" orientZ ="-0.7066">GroundPropsGP</unit>
+		<unit Variation ="58" posX ="-2.9555" posZ ="-0.4380" orientX ="0.7076" orientY ="0.0000" orientZ ="-0.7066">GroundPropsGP</unit>
+		<unit Variation ="206" posX ="-11.5506" posZ ="-0.1943" orientX ="0.6219" orientY ="0.0000" orientZ ="0.7831">TreeGreatPlainsGrass</unit>
+		<unit Variation ="206" posX ="-7.8525" posZ ="2.1363" orientX ="0.7830" orientY ="0.0000" orientZ ="-0.6220">TreeGreatPlainsGrass</unit>
+		<unit Variation ="206" posX ="-3.6249" posZ ="0.7729" orientX ="0.4854" orientY ="0.0000" orientZ ="-0.8743">TreeGreatPlainsGrass</unit>
+		<unit Variation ="206" posX ="-7.7936" posZ ="2.1467" orientX ="0.2749" orientY ="0.0000" orientZ ="0.9615">TreeGreatPlainsGrass</unit>
+		<unit Variation ="173" posX ="-0.8233" posZ ="2.4150" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0006">UnderbrushGreatPlains</unit>
+		<unit Variation ="11" posX ="0.9266" posZ ="1.5765" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="3" posX ="-0.7792" posZ ="1.7194" orientX ="0.0006" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="3" posX ="2.2041" posZ ="2.1785" orientX ="-0.9236" orientY ="0.0000" orientZ ="-0.3833">GroundPropsGP</unit>
+		<unit Variation ="58" posX ="2.0935" posZ ="2.3118" orientX ="0.3833" orientY ="0.0000" orientZ ="-0.9236">GroundPropsGP</unit>
+		<unit Variation ="206" posX ="5.3175" posZ ="0.9335" orientX ="0.1139" orientY ="0.0000" orientZ ="-0.9935">TreeGreatPlainsGrass</unit>
+		<unit Variation ="45" posX ="-1.8441" posZ ="3.0703" orientX ="0.7076" orientY ="0.0000" orientZ ="-0.7066">GroundPropsGP</unit>
+		<unit Variation ="58" posX ="-1.2652" posZ ="2.7316" orientX ="0.7076" orientY ="0.0000" orientZ ="-0.7066">GroundPropsGP</unit>
+		<unit Variation ="45" posX ="1.6883" posZ ="2.8463" orientX ="0.3833" orientY ="0.0000" orientZ ="-0.9236">GroundPropsGP</unit>
+		<unit Variation ="206" posX ="-3.8880" posZ ="3.8687" orientX ="0.4854" orientY ="0.0000" orientZ ="-0.8743">TreeGreatPlainsGrass</unit>
+		<unit Variation ="173" posX ="0.7365" posZ ="4.1724" orientX ="0.9241" orientY ="0.0000" orientZ ="-0.3822">UnderbrushGreatPlains</unit>
+		<unit Variation ="206" posX ="-1.4755" posZ ="6.4726" orientX ="0.7830" orientY ="0.0000" orientZ ="-0.6220">TreeGreatPlainsGrass</unit>
+		<unit Variation ="173" posX ="-3.7765" posZ ="6.8692" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0006">UnderbrushGreatPlains</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

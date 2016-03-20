@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>2</width>
+	<height>4</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="12" posx ="-1.0070" posz ="-3.7175" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsColony</unit>
+		<unit variation ="10" posx ="-1.6802" posz ="-3.3382" orientx ="0.0002" orienty ="0.0000" orientz ="1.0000">PropsColony</unit>
+		<unit variation ="11" posx ="1.1000" posz ="-3.0674" orientx ="-0.0001" orienty ="0.0000" orientz ="-1.0000">PropsColony</unit>
+		<unit variation ="12" posx ="0.9482" posz ="-2.0339" orientx ="0.3829" orienty ="0.0000" orientz ="0.9238">PropsColony</unit>
+		<unit variation ="149" posx ="-0.8470" posz ="-2.4607" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0001">BerryBush</unit>
+		<unit variation ="13" posx ="1.7660" posz ="-0.5636" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0001">PropsNative</unit>
+		<unit variation ="153" posx ="-0.8468" posz ="-0.4607" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0001">BerryBush</unit>
+		<unit variation ="149" posx ="0.7233" posz ="-0.8473" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0001">BerryBush</unit>
+		<unit variation ="13" posx ="-2.0189" posz ="1.1090" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0001">PropsNative</unit>
+		<unit variation ="11" posx ="-1.1601" posz ="2.8808" orientx ="0.7070" orienty ="0.0000" orientz ="-0.7072">PropsColony</unit>
+		<unit variation ="153" posx ="0.7236" posz ="1.1527" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0001">BerryBush</unit>
+		<unit variation ="46" posx ="-0.8466" posz ="1.5393" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0001">BerryBush</unit>
+		<unit variation ="12" posx ="-1.3477" posz ="3.6148" orientx ="0.3829" orienty ="0.0000" orientz ="0.9238">PropsColony</unit>
+		<unit variation ="46" posx ="0.7238" posz ="3.1527" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0001">BerryBush</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="Shoreline" subtype ="terrain\patagonia\ground_shoreline3_pat">
+			<block startx ="-1" startz ="-2" endx ="-1" endz ="1"></block>
+			<block startx ="0" startz ="-2" endx ="0" endz ="1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

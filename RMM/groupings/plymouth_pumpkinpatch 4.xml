@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>5</width>
+	<height>5</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="43" posx ="0.0000" posz ="-4.0000" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">CrateofSquash</unit>
+		<unit variation ="45" posx ="2.0000" posz ="-2.0000" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">CrateofSquash</unit>
+		<unit variation ="191" posx ="-4.0000" posz ="-2.0000" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">CrateofSquash</unit>
+		<unit variation ="88" posx ="-0.2876" posz ="-0.5935" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">PropsHUGEPumpkin</unit>
+		<unit variation ="21" posx ="-2.0000" posz ="2.0000" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">CrateofWheatBundle</unit>
+		<unit variation ="174" posx ="4.0000" posz ="2.0000" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">CrateofSquash</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

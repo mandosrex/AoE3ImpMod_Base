@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>10</width>
+	<height>10</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="128" posx ="1.8067" posz ="-8.2164" orientx ="0.0271" orienty ="0.0000" orientz ="-0.9996">ypSMSufiAccessory</unit>
+		<unit variation ="210" posx ="3.9764" posz ="-8.2281" orientx ="-0.5370" orienty ="0.0000" orientz ="0.8436">ypSMSufiAccessory</unit>
+		<unit variation ="113" posx ="-1.9103" posz ="-8.1800" orientx ="-0.5615" orienty ="0.0000" orientz ="0.8274">ypSMSufiAccessory</unit>
+		<unit variation ="197" posx ="-0.1041" posz ="-6.9071" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleSufi</unit>
+		<unit variation ="41" posx ="-5.8831" posz ="-5.3013" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypSocketSufi</unit>
+		<unit variation ="157" posx ="1.0784" posz ="-5.4661" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="80" posx ="5.5426" posz ="-5.0337" orientx ="-0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleSufi</unit>
+		<unit variation ="158" posx ="-0.3184" posz ="-4.8953" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleSufi</unit>
+		<unit variation ="136" posx ="-2.2085" posz ="-4.4350" orientx ="-0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleSufi</unit>
+		<unit variation ="235" posx ="-2.6293" posz ="-2.0009" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleSufi</unit>
+		<unit variation ="136" posx ="-4.9339" posz ="-1.7628" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0000">ypNativeTempleSufi</unit>
+		<unit variation ="221" posx ="-8.6953" posz ="-1.3175" orientx ="0.7557" orienty ="0.0000" orientz ="0.6550">ypSMSufiAccessory</unit>
+		<unit variation ="115" posx ="1.8602" posz ="-1.4464" orientx ="0.5622" orienty ="0.0000" orientz ="0.8270">ypSMSufiAccessory</unit>
+		<unit variation ="224" posx ="0.4868" posz ="0.6411" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleSufi</unit>
+		<unit variation ="158" posx ="-5.5309" posz ="0.6250" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleSufi</unit>
+		<unit variation ="88" posx ="-5.4649" posz ="1.3347" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="197" posx ="-7.5967" posz ="0.3756" orientx ="-0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleSufi</unit>
+		<unit variation ="21" posx ="5.6064" posz ="-0.1406" orientx ="-0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleSufi</unit>
+		<unit variation ="171" posx ="-0.0797" posz ="0.7518" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">UnderbrushMongolia</unit>
+		<unit variation ="28" posx ="0.0733" posz ="0.6213" orientx ="-0.0387" orienty ="0.0000" orientz ="-0.9992">ypSMSufiAccessory</unit>
+		<unit variation ="221" posx ="-1.8869" posz ="0.6245" orientx ="0.7900" orienty ="0.0000" orientz ="-0.6131">ypSMSufiAccessory</unit>
+		<unit variation ="54" posx ="6.9966" posz ="1.6357" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleSufi</unit>
+		<unit variation ="153" posx ="-8.9558" posz ="2.2217" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">UnderbrushMongolia</unit>
+		<unit variation ="128" posx ="-8.8493" posz ="2.1216" orientx ="-0.9996" orienty ="0.0000" orientz ="-0.0271">ypSMSufiAccessory</unit>
+		<unit variation ="127" posx ="-2.9965" posz ="4.8675" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="113" posx ="4.7735" posz ="5.9506" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="61" posx ="-8.8761" posz ="4.2152" orientx ="-0.9981" orienty ="0.0000" orientz ="-0.0609">ypSMSufiAccessory</unit>
+		<unit variation ="142" posx ="3.0027" posz ="4.2098" orientx ="-0.1391" orienty ="0.0000" orientz ="-0.9903">ypSMSufiAccessory</unit>
+		<unit variation ="120" posx ="-2.5783" posz ="3.4734" orientx ="0.6008" orienty ="0.0000" orientz ="-0.7994">ypSMSufiAccessory</unit>
+		<unit variation ="80" posx ="-5.9840" posz ="5.8105" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0000">ypNativeTempleSufi</unit>
+		<unit variation ="5" posx ="-0.8325" posz ="5.7586" orientx ="0.9998" orienty ="0.0000" orientz ="-0.0220">ypSMSufiMan</unit>
+		<unit variation ="136" posx ="4.5229" posz ="5.5183" orientx ="0.7546" orienty ="0.0000" orientz ="-0.6562">ypSMSufiGuy</unit>
+		<unit variation ="54" posx ="1.3660" posz ="8.1272" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleSufi</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="PassableLand" subtype ="terrain\mongolia\ground_sand3_mongol">
+			<block startx ="-5" startz ="-5" endx ="-5" endz ="-3"></block>
+			<block startx ="-4" startz ="-5" endx ="-4" endz ="-3"></block>
+			<block startx ="-3" startz ="-5" endx ="-3" endz ="-3"></block>
+			<block startx ="-5" startz ="-2" endx ="-5" endz ="4"></block>
+			<block startx ="-4" startz ="-2" endx ="-4" endz ="4"></block>
+			<block startx ="-3" startz ="-2" endx ="-3" endz ="4"></block>
+			<block startx ="-2" startz ="-2" endx ="-2" endz ="4"></block>
+			<block startx ="-1" startz ="-2" endx ="-1" endz ="4"></block>
+			<block startx ="0" startz ="-2" endx ="0" endz ="4"></block>
+			<block startx ="1" startz ="-2" endx ="1" endz ="4"></block>
+			<block startx ="2" startz ="-2" endx ="2" endz ="4"></block>
+			<block startx ="3" startz ="-2" endx ="3" endz ="4"></block>
+			<block startx ="4" startz ="-2" endx ="4" endz ="4"></block>
+			<block startx ="-2" startz ="-5" endx ="-2" endz ="-3"></block>
+			<block startx ="-1" startz ="-5" endx ="-1" endz ="-3"></block>
+			<block startx ="0" startz ="-5" endx ="0" endz ="-3"></block>
+			<block startx ="1" startz ="-5" endx ="1" endz ="-3"></block>
+			<block startx ="2" startz ="-5" endx ="2" endz ="-3"></block>
+			<block startx ="3" startz ="-5" endx ="3" endz ="-3"></block>
+			<block startx ="4" startz ="-5" endx ="4" endz ="-3"></block>
+		</tilegroup>
+		<heights>
+			<tiles x ="-5" z ="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

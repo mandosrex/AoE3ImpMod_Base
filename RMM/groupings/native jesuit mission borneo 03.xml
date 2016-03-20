@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>12</width>
+	<height>16</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="174" posx ="5.2223" posz ="-10.9971" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">ypNativeTempleJesuit</unit>
+		<unit variation ="9" posx ="6.2134" posz ="-11.9289" orientx ="0.6965" orienty ="0.0000" orientz ="-0.7175">ypSMJesuitAccessory</unit>
+		<unit variation ="43" posx ="2.6844" posz ="-11.6738" orientx ="-0.9941" orienty ="0.0000" orientz ="0.1082">ypSMJesuitAccessory</unit>
+		<unit variation ="163" posx ="0.8694" posz ="-9.2031" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">ypNativeTempleJesuit</unit>
+		<unit variation ="49" posx ="-4.9852" posz ="-7.0143" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushBorneo</unit>
+		<unit variation ="126" posx ="4.1882" posz ="-4.8672" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">ypNativeTempleJesuit</unit>
+		<unit variation ="41" posx ="-3.7995" posz ="-6.2452" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleJesuit</unit>
+		<unit variation ="105" posx ="-0.6877" posz ="-1.0781" orientx ="-0.9448" orienty ="0.0000" orientz ="-0.3276">NativeTownObstruction</unit>
+		<unit variation ="60" posx ="10.6212" posz ="-4.8179" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushCoastalJapan</unit>
+		<unit variation ="240" posx ="0.3391" posz ="-4.5732" orientx ="-0.8060" orienty ="0.0000" orientz ="-0.5919">ypSMJesuitAccessory</unit>
+		<unit variation ="8" posx ="10.0948" posz ="-4.3502" orientx ="0.9956" orienty ="0.0000" orientz ="-0.0933">ypSMJesuitAccessory</unit>
+		<unit variation ="199" posx ="-7.8424" posz ="-0.2034" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypSocketJesuit</unit>
+		<unit variation ="173" posx ="-1.1762" posz ="0.7336" orientx ="0.6828" orienty ="0.0000" orientz ="0.7306">ypSMJesuitPeasants</unit>
+		<unit variation ="220" posx ="5.3262" posz ="1.2428" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleJesuit</unit>
+		<unit variation ="112" posx ="3.3386" posz ="4.7044" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">NativeTownObstruction</unit>
+		<unit variation ="41" posx ="-3.6158" posz ="3.5391" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleJesuit</unit>
+		<unit variation ="151" posx ="-0.3866" posz ="4.6356" orientx ="0.1688" orienty ="0.0000" orientz ="0.9857">ypSMJesuitAccessory</unit>
+		<unit variation ="88" posx ="-7.4880" posz ="6.4571" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">ypNativeTempleJesuit</unit>
+		<unit variation ="209" posx ="-9.8459" posz ="6.8569" orientx ="-0.6146" orienty ="0.0000" orientz ="-0.7888">ypSMJesuitAccessory</unit>
+		<unit variation ="160" posx ="-9.3132" posz ="5.3532" orientx ="0.5854" orienty ="0.0000" orientz ="0.8107">ypSMJesuitAccessory</unit>
+		<unit variation ="227" posx ="3.2242" posz ="5.3063" orientx ="-0.6651" orienty ="0.0000" orientz ="-0.7468">ypSMJesuitMan</unit>
+		<unit variation ="176" posx ="0.2998" posz ="8.8408" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">ypNativeTempleJesuit</unit>
+		<unit variation ="81" posx ="-3.1237" posz ="8.5267" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">ypNativeTempleJesuit</unit>
+		<unit variation ="234" posx ="2.9620" posz ="8.6645" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushBorneo</unit>
+		<unit variation ="59" posx ="-10.3443" posz ="8.2736" orientx ="0.7540" orienty ="0.0000" orientz ="-0.6569">ypSMJesuitAccessory</unit>
+		<unit variation ="220" posx ="-2.9265" posz ="7.4148" orientx ="-0.8821" orienty ="0.0000" orientz ="0.4711">ypSMJesuitAccessory</unit>
+		<unit variation ="209" posx ="-10.4419" posz ="9.7773" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushBorneo</unit>
+		<unit variation ="160" posx ="-7.2482" posz ="11.1786" orientx ="-0.3468" orienty ="0.0000" orientz ="-0.9379">ypSMJesuitGuy</unit>
+		<unit variation ="107" posx ="-1.2781" posz ="12.9274" orientx ="0.4036" orienty ="0.0000" orientz ="0.9149">ypSMJesuitAccessory</unit>
+		<unit variation ="193" posx ="0.5954" posz ="13.5640" orientx ="-0.7695" orienty ="0.0000" orientz ="-0.6387">ypSMJesuitAccessory</unit>
+		<unit variation ="98" posx ="-5.0082" posz ="14.7634" orientx ="0.8488" orienty ="0.0000" orientz ="0.5287">ypSMJesuitAccessory</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="PassableLand" subtype ="terrain\borneo\ground_grass2_borneo">
+			<block startx ="-6" startz ="-8" endx ="-6" endz ="-8"></block>
+			<block startx ="-4" startz ="0" endx ="-4" endz ="1"></block>
+			<block startx ="-3" startz ="1" endx ="-3" endz ="1"></block>
+			<block startx ="-2" startz ="2" endx ="-2" endz ="3"></block>
+			<block startx ="-1" startz ="2" endx ="-1" endz ="3"></block>
+			<block startx ="0" startz ="1" endx ="0" endz ="2"></block>
+			<block startx ="1" startz ="1" endx ="1" endz ="1"></block>
+			<block startx ="5" startz ="5" endx ="5" endz ="7"></block>
+			<block startx ="4" startz ="-8" endx ="4" endz ="-8"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\borneo\ground_grass3_borneo">
+			<block startx ="-5" startz ="-8" endx ="-5" endz ="-8"></block>
+			<block startx ="-4" startz ="-1" endx ="-4" endz ="-1"></block>
+			<block startx ="-3" startz ="-2" endx ="-3" endz ="-2"></block>
+			<block startx ="-1" startz ="-8" endx ="-1" endz ="-7"></block>
+			<block startx ="-1" startz ="-3" endx ="-1" endz ="-3"></block>
+			<block startx ="0" startz ="-4" endx ="0" endz ="-4"></block>
+			<block startx ="1" startz ="-8" endx ="1" endz ="-8"></block>
+			<block startx ="1" startz ="-5" endx ="1" endz ="-3"></block>
+			<block startx ="2" startz ="-5" endx ="2" endz ="-2"></block>
+			<block startx ="3" startz ="-5" endx ="3" endz ="-2"></block>
+			<block startx ="-6" startz ="2" endx ="-6" endz ="2"></block>
+			<block startx ="-6" startz ="5" endx ="-6" endz ="5"></block>
+			<block startx ="-5" startz ="2" endx ="-5" endz ="4"></block>
+			<block startx ="-4" startz ="3" endx ="-4" endz ="4"></block>
+			<block startx ="-4" startz ="7" endx ="-4" endz ="7"></block>
+			<block startx ="-3" startz ="7" endx ="-3" endz ="7"></block>
+			<block startx ="-2" startz ="6" endx ="-2" endz ="7"></block>
+			<block startx ="-1" startz ="6" endx ="-1" endz ="7"></block>
+			<block startx ="0" startz ="3" endx ="0" endz ="3"></block>
+			<block startx ="1" startz ="3" endx ="1" endz ="4"></block>
+			<block startx ="2" startz ="2" endx ="2" endz ="2"></block>
+			<block startx ="2" startz ="4" endx ="2" endz ="5"></block>
+			<block startx ="3" startz ="2" endx ="3" endz ="2"></block>
+			<block startx ="3" startz ="5" endx ="3" endz ="5"></block>
+			<block startx ="4" startz ="3" endx ="4" endz ="4"></block>
+			<block startx ="4" startz ="-5" endx ="4" endz ="-1"></block>
+			<block startx ="5" startz ="-4" endx ="5" endz ="-4"></block>
+			<block startx ="5" startz ="-2" endx ="5" endz ="-2"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\borneo\ground_grass4_borneo">
+			<block startx ="-6" startz ="-7" endx ="-6" endz ="-7"></block>
+			<block startx ="-6" startz ="-5" endx ="-6" endz ="-4"></block>
+			<block startx ="-6" startz ="-2" endx ="-6" endz ="-1"></block>
+			<block startx ="-5" startz ="-7" endx ="-5" endz ="-7"></block>
+			<block startx ="-5" startz ="-5" endx ="-5" endz ="-4"></block>
+			<block startx ="-5" startz ="-1" endx ="-5" endz ="-1"></block>
+			<block startx ="-4" startz ="-8" endx ="-4" endz ="-8"></block>
+			<block startx ="-4" startz ="-5" endx ="-4" endz ="-4"></block>
+			<block startx ="-4" startz ="-2" endx ="-4" endz ="-2"></block>
+			<block startx ="-3" startz ="-6" endx ="-3" endz ="-5"></block>
+			<block startx ="-3" startz ="-3" endx ="-3" endz ="-3"></block>
+			<block startx ="-2" startz ="-8" endx ="-2" endz ="-1"></block>
+			<block startx ="-1" startz ="-6" endx ="-1" endz ="-4"></block>
+			<block startx ="-1" startz ="-1" endx ="-1" endz ="-1"></block>
+			<block startx ="0" startz ="-8" endx ="0" endz ="-5"></block>
+			<block startx ="0" startz ="-3" endx ="0" endz ="-1"></block>
+			<block startx ="1" startz ="-7" endx ="1" endz ="-7"></block>
+			<block startx ="1" startz ="-2" endx ="1" endz ="-2"></block>
+			<block startx ="2" startz ="-8" endx ="2" endz ="-6"></block>
+			<block startx ="2" startz ="-1" endx ="2" endz ="-1"></block>
+			<block startx ="3" startz ="-8" endx ="3" endz ="-8"></block>
+			<block startx ="3" startz ="-6" endx ="3" endz ="-6"></block>
+			<block startx ="3" startz ="-1" endx ="3" endz ="-1"></block>
+			<block startx ="-6" startz ="1" endx ="-6" endz ="1"></block>
+			<block startx ="-6" startz ="6" endx ="-6" endz ="7"></block>
+			<block startx ="-5" startz ="1" endx ="-5" endz ="1"></block>
+			<block startx ="-5" startz ="5" endx ="-5" endz ="5"></block>
+			<block startx ="-4" startz ="5" endx ="-4" endz ="6"></block>
+			<block startx ="-3" startz ="0" endx ="-3" endz ="0"></block>
+			<block startx ="-3" startz ="4" endx ="-3" endz ="6"></block>
+			<block startx ="-2" startz ="0" endx ="-2" endz ="1"></block>
+			<block startx ="-2" startz ="5" endx ="-2" endz ="5"></block>
+			<block startx ="-1" startz ="0" endx ="-1" endz ="1"></block>
+			<block startx ="-1" startz ="4" endx ="-1" endz ="5"></block>
+			<block startx ="0" startz ="0" endx ="0" endz ="0"></block>
+			<block startx ="0" startz ="4" endx ="0" endz ="7"></block>
+			<block startx ="1" startz ="0" endx ="1" endz ="0"></block>
+			<block startx ="1" startz ="5" endx ="1" endz ="6"></block>
+			<block startx ="2" startz ="0" endx ="2" endz ="1"></block>
+			<block startx ="2" startz ="6" endx ="2" endz ="7"></block>
+			<block startx ="3" startz ="1" endx ="3" endz ="1"></block>
+			<block startx ="3" startz ="6" endx ="3" endz ="7"></block>
+			<block startx ="4" startz ="0" endx ="4" endz ="0"></block>
+			<block startx ="4" startz ="2" endx ="4" endz ="2"></block>
+			<block startx ="4" startz ="6" endx ="4" endz ="7"></block>
+			<block startx ="5" startz ="3" endx ="5" endz ="4"></block>
+			<block startx ="4" startz ="-6" endx ="4" endz ="-6"></block>
+			<block startx ="5" startz ="-8" endx ="5" endz ="-7"></block>
+			<block startx ="5" startz ="-5" endx ="5" endz ="-5"></block>
+			<block startx ="5" startz ="-3" endx ="5" endz ="-3"></block>
+			<block startx ="5" startz ="-1" endx ="5" endz ="-1"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\borneo\ground_grass5_borneo">
+			<block startx ="-6" startz ="-6" endx ="-6" endz ="-6"></block>
+			<block startx ="-6" startz ="-3" endx ="-6" endz ="-3"></block>
+			<block startx ="-5" startz ="-6" endx ="-5" endz ="-6"></block>
+			<block startx ="-5" startz ="-3" endx ="-5" endz ="-2"></block>
+			<block startx ="-4" startz ="-7" endx ="-4" endz ="-6"></block>
+			<block startx ="-4" startz ="-3" endx ="-4" endz ="-3"></block>
+			<block startx ="-3" startz ="-8" endx ="-3" endz ="-7"></block>
+			<block startx ="-3" startz ="-4" endx ="-3" endz ="-4"></block>
+			<block startx ="-3" startz ="-1" endx ="-3" endz ="-1"></block>
+			<block startx ="-1" startz ="-2" endx ="-1" endz ="-2"></block>
+			<block startx ="1" startz ="-6" endx ="1" endz ="-6"></block>
+			<block startx ="1" startz ="-1" endx ="1" endz ="-1"></block>
+			<block startx ="3" startz ="-7" endx ="3" endz ="-7"></block>
+			<block startx ="-6" startz ="0" endx ="-6" endz ="0"></block>
+			<block startx ="-5" startz ="0" endx ="-5" endz ="0"></block>
+			<block startx ="-5" startz ="6" endx ="-5" endz ="7"></block>
+			<block startx ="-2" startz ="4" endx ="-2" endz ="4"></block>
+			<block startx ="1" startz ="7" endx ="1" endz ="7"></block>
+			<block startx ="3" startz ="0" endx ="3" endz ="0"></block>
+			<block startx ="4" startz ="1" endx ="4" endz ="1"></block>
+			<block startx ="5" startz ="0" endx ="5" endz ="2"></block>
+			<block startx ="4" startz ="-7" endx ="4" endz ="-7"></block>
+			<block startx ="5" startz ="-6" endx ="5" endz ="-6"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\borneo\ground_grass1_borneo">
+			<block startx ="-4" startz ="2" endx ="-4" endz ="2"></block>
+			<block startx ="-3" startz ="2" endx ="-3" endz ="3"></block>
+			<block startx ="1" startz ="2" endx ="1" endz ="2"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\borneo\ground_sand3_borneo">
+			<block startx ="-6" startz ="3" endx ="-6" endz ="4"></block>
+			<block startx ="2" startz ="3" endx ="2" endz ="3"></block>
+			<block startx ="3" startz ="3" endx ="3" endz ="4"></block>
+			<block startx ="4" startz ="5" endx ="4" endz ="5"></block>
+		</tilegroup>
+		<heights>
+			<tiles x ="-6" z ="-8">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-7">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-6" z ="7">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

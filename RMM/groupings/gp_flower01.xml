@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>4</width>
+	<height>5</height>
+	<ignorePlacementRules>0</ignorePlacementRules>
+	<selectAsSingleUnit>1</selectAsSingleUnit>
+	<units>
+		<unit Variation ="207" posX ="0.6139" posZ ="-1.1569" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="111" posX ="0.4082" posZ ="-1.3820" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="231" posX ="-0.2165" posZ ="-1.0762" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="21" posX ="0.6465" posZ ="0.2182" orientX ="-0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="118" posX ="0.3700" posZ ="-0.4107" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="29" posX ="0.8769" posZ ="0.4646" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="142" posX ="0.0045" posZ ="0.7050" orientX ="-0.9239" orientY ="0.0000" orientZ ="-0.3827">GroundPropsGP</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

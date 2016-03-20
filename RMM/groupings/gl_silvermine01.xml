@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>11</width>
+	<height>11</height>
+	<ignorePlacementRules>1</ignorePlacementRules>
+	<selectAsSingleUnit>0</selectAsSingleUnit>
+	<units>
+		<unit Variation ="41" posX ="-1.0000" posZ ="1.0000" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">SocketMine</unit>
+		<unit Variation ="22" posX ="7.0863" posZ ="-0.0363" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="53" posX ="-5.1465" posZ ="7.6810" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="41" posX ="2.7292" posZ ="10.0194" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+	</units>
+	<tiles>
+		<tileGroup type ="PassableLand" subtype ="terrain\great_plains\ground4_gp">
+			<block startX ="-5" startZ ="-5" endX ="-5" endZ ="-4"></block>
+			<block startX ="-4" startZ ="-5" endX ="-4" endZ ="-4"></block>
+			<block startX ="-5" startZ ="-2" endX ="-5" endZ ="-2"></block>
+			<block startX ="-4" startZ ="-3" endX ="-4" endZ ="-3"></block>
+			<block startX ="-3" startZ ="-3" endX ="-3" endZ ="-3"></block>
+			<block startX ="-3" startZ ="-5" endX ="-3" endZ ="-4"></block>
+			<block startX ="-2" startZ ="-5" endX ="-2" endZ ="-4"></block>
+			<block startX ="-1" startZ ="-5" endX ="-1" endZ ="-4"></block>
+			<block startX ="0" startZ ="-5" endX ="0" endZ ="-5"></block>
+			<block startX ="1" startZ ="-5" endX ="1" endZ ="-5"></block>
+			<block startX ="2" startZ ="-5" endX ="2" endZ ="-5"></block>
+			<block startX ="3" startZ ="-5" endX ="3" endZ ="-5"></block>
+		</tileGroup>
+		<tileGroup type ="PassableLand" subtype ="terrain\great_plains\ground6_gp">
+			<block startX ="-5" startZ ="-3" endX ="-5" endZ ="-3"></block>
+			<block startX ="-5" startZ ="4" endX ="-5" endZ ="4"></block>
+			<block startX ="4" startZ ="3" endX ="4" endZ ="4"></block>
+			<block startX ="4" startZ ="-5" endX ="4" endZ ="-5"></block>
+			<block startX ="-5" startZ ="5" endX ="-5" endZ ="5"></block>
+			<block startX ="-4" startZ ="5" endX ="-4" endZ ="5"></block>
+			<block startX ="-3" startZ ="5" endX ="-3" endZ ="5"></block>
+			<block startX ="3" startZ ="5" endX ="3" endZ ="5"></block>
+			<block startX ="4" startZ ="5" endX ="4" endZ ="5"></block>
+			<block startX ="5" startZ ="5" endX ="5" endZ ="5"></block>
+			<block startX ="5" startZ ="-5" endX ="5" endZ ="-5"></block>
+			<block startX ="5" startZ ="0" endX ="5" endZ ="4"></block>
+		</tileGroup>
+		<tileGroup type ="PassableLand" subtype ="terrain\great_plains\ground7_gp">
+			<block startX ="-5" startZ ="-1" endX ="-5" endZ ="0"></block>
+			<block startX ="-4" startZ ="-2" endX ="-4" endZ ="0"></block>
+			<block startX ="-3" startZ ="-2" endX ="-3" endZ ="0"></block>
+			<block startX ="-2" startZ ="-3" endX ="-2" endZ ="0"></block>
+			<block startX ="-1" startZ ="-3" endX ="-1" endZ ="1"></block>
+			<block startX ="0" startZ ="-3" endX ="0" endZ ="1"></block>
+			<block startX ="1" startZ ="-3" endX ="1" endZ ="-3"></block>
+			<block startX ="0" startZ ="-4" endX ="0" endZ ="-4"></block>
+			<block startX ="1" startZ ="-4" endX ="1" endZ ="-4"></block>
+			<block startX ="2" startZ ="-4" endX ="2" endZ ="-4"></block>
+		</tileGroup>
+		<tileGroup type ="PassableLand" subtype ="terrain\Texas\cliff_edge_tex">
+			<block startX ="-5" startZ ="1" endX ="-5" endZ ="3"></block>
+			<block startX ="-4" startZ ="1" endX ="-4" endZ ="4"></block>
+			<block startX ="-3" startZ ="1" endX ="-3" endZ ="4"></block>
+			<block startX ="-2" startZ ="1" endX ="-2" endZ ="4"></block>
+			<block startX ="-1" startZ ="2" endX ="-1" endZ ="4"></block>
+			<block startX ="0" startZ ="2" endX ="0" endZ ="4"></block>
+			<block startX ="1" startZ ="-2" endX ="1" endZ ="4"></block>
+			<block startX ="2" startZ ="-3" endX ="2" endZ ="4"></block>
+			<block startX ="3" startZ ="-3" endX ="3" endZ ="4"></block>
+			<block startX ="4" startZ ="-3" endX ="4" endZ ="2"></block>
+			<block startX ="3" startZ ="-4" endX ="3" endZ ="-4"></block>
+			<block startX ="4" startZ ="-4" endX ="4" endZ ="-4"></block>
+			<block startX ="-1" startZ ="5" endX ="-1" endZ ="5"></block>
+			<block startX ="0" startZ ="5" endX ="0" endZ ="5"></block>
+			<block startX ="1" startZ ="5" endX ="1" endZ ="5"></block>
+			<block startX ="2" startZ ="5" endX ="2" endZ ="5"></block>
+			<block startX ="5" startZ ="-4" endX ="5" endZ ="-4"></block>
+			<block startX ="5" startZ ="-3" endX ="5" endZ ="-1"></block>
+		</tileGroup>
+		<tileGroup type ="PassableLand" subtype ="terrain\Texas\cliff_top_tex">
+			<block startX ="-2" startZ ="5" endX ="-2" endZ ="5"></block>
+		</tileGroup>
+		<CliffGroup type ="Great Plains Mine">
+			<block startX ="-4" startZ ="2" endX ="-4" endZ ="2"></block>
+			<block startX ="-3" startZ ="2" endX ="-3" endZ ="3"></block>
+			<block startX ="-2" startZ ="3" endX ="-2" endZ ="3"></block>
+			<block startX ="-1" startZ ="3" endX ="-1" endZ ="3"></block>
+			<block startX ="0" startZ ="3" endX ="0" endZ ="4"></block>
+			<block startX ="1" startZ ="3" endX ="1" endZ ="4"></block>
+			<block startX ="2" startZ ="-1" endX ="2" endZ ="3"></block>
+			<block startX ="3" startZ ="-2" endX ="3" endZ ="1"></block>
+			<block startX ="4" startZ ="-3" endX ="4" endZ ="-2"></block>
+		</CliffGroup>
+		<Heights>
+			<tiles x ="-5" z ="-5">-0.056 -0.091 -0.175 -0.310 -0.417 -0.481 -0.454 -0.257 -0.099 -0.059 -0.047 </tiles>
+			<tiles x ="-5" z ="-4">-0.061 -0.165 -0.332 -0.589 -0.841 -1.051 -1.094 -0.747 -0.452 -0.123 -0.047 </tiles>
+			<tiles x ="-5" z ="-3">-0.068 -0.234 -0.558 -0.990 -1.490 -1.944 -2.533 -2.096 -1.793 0.150 0.150 </tiles>
+			<tiles x ="-5" z ="-2">-0.047 -0.270 -0.908 -1.655 -2.433 -3.166 -3.635 -3.441 -3.033 -2.376 0.150 </tiles>
+			<tiles x ="-5" z ="-1">-0.047 -0.047 -1.308 -2.672 -3.529 -4.354 -4.238 -4.173 -3.912 0.150 0.150 </tiles>
+			<tiles x ="-5" z ="0">-0.047 -0.047 -2.308 -3.783 -4.354 -4.354 -4.354 -4.343 0.150 0.150 0.150 </tiles>
+			<tiles x ="-5" z ="1">-0.047 0.150 -2.690 -3.928 -4.347 -4.354 -4.354 -4.354 -4.354 0.150 0.150 </tiles>
+			<tiles x ="-5" z ="2">0.150 -1.180 -2.422 -3.617 -4.285 -4.354 -4.354 -4.354 0.150 0.150 0.150 </tiles>
+			<tiles x ="-5" z ="3">0.150 0.150 0.150 -3.113 -4.185 -4.354 -4.354 -4.354 -0.047 -0.047 0.150 </tiles>
+			<tiles x ="-5" z ="4">0.150 0.150 0.150 0.150 0.150 0.150 -4.354 -0.047 -0.047 -0.047 -0.047 </tiles>
+			<tiles x ="-5" z ="5">0.150 0.150 0.150 0.150 0.150 0.150 0.150 -0.047 -0.047 -0.047 -0.047 </tiles>
+		</Heights>
+	</tiles>
+</grouping>

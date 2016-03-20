@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>13</width>
+	<height>14</height>
+	<ignorePlacementRules>1</ignorePlacementRules>
+	<selectAsSingleUnit>1</selectAsSingleUnit>
+	<units>
+		<unit Variation ="104" posX ="3.9173" posZ ="-9.8541" orientX ="-0.1576" orientY ="0.0000" orientZ ="-0.9875">UnderbrushRock</unit>
+		<unit Variation ="150" posX ="-1.8088" posZ ="-8.9581" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="29" posX ="1.4493" posZ ="-8.1211" orientX ="0.3827" orientY ="0.0000" orientZ ="0.9239">UnderbrushGreatPlains</unit>
+		<unit Variation ="27" posX ="3.4029" posZ ="-8.3204" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">Skulls</unit>
+		<unit Variation ="174" posX ="8.3047" posZ ="-6.1988" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">UnderbrushGreatPlains</unit>
+		<unit Variation ="5" posX ="4.1645" posZ ="-6.1438" orientX ="0.9239" orientY ="0.0000" orientZ ="-0.3827">PropsNative</unit>
+		<unit Variation ="6" posX ="4.9353" posZ ="-6.3609" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">PropsNative</unit>
+		<unit Variation ="235" posX ="3.1396" posZ ="-5.7085" orientX ="0.4188" orientY ="0.0000" orientZ ="-0.9081">FirewoodPile</unit>
+		<unit Variation ="8" posX ="1.0222" posZ ="-4.2225" orientX ="-0.7071" orientY ="0.0000" orientZ ="-0.7071">PropsNative</unit>
+		<unit Variation ="5" posX ="0.7641" posZ ="-3.3463" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">PropsNative</unit>
+		<unit Variation ="1" posX ="1.6209" posZ ="-3.6001" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">PropsNative</unit>
+		<unit Variation ="203" posX ="5.0714" posZ ="-4.2249" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">NativeHouseComanche</unit>
+		<unit Variation ="2" posX ="1.4780" posZ ="-5.5874" orientX ="-1.0000" orientY ="0.0000" orientZ ="0.0000">TestObject2</unit>
+		<unit Variation ="3" posX ="-0.7809" posZ ="-4.4333" orientX ="-1.0000" orientY ="0.0000" orientZ ="0.0000">TestObject2</unit>
+		<unit Variation ="41" posX ="10.0000" posZ ="-3.0000" orientX ="-0.8986" orientY ="0.0000" orientZ ="-0.4387">TreeGreatPlains</unit>
+		<unit Variation ="151" posX ="6.7583" posZ ="-1.2002" orientX ="-0.8413" orientY ="0.0000" orientZ ="0.5405">TanningRack</unit>
+		<unit Variation ="167" posX ="-5.1216" posZ ="-0.0383" orientX ="-0.7071" orientY ="0.0000" orientZ ="-0.7071">Skulls</unit>
+		<unit Variation ="73" posX ="0.3440" posZ ="0.0561" orientX ="0.0462" orientY ="0.0000" orientZ ="-0.9989">Campfire</unit>
+		<unit Variation ="5" posX ="3.1192" posZ ="-0.1553" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">PropsNative</unit>
+		<unit Variation ="6" posX ="5.2154" posZ ="1.4253" orientX ="-0.7071" orientY ="0.0000" orientZ ="-0.7071">PropsNative</unit>
+		<unit Variation ="68" posX ="-3.9101" posZ ="0.2427" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">TestObject2</unit>
+		<unit Variation ="192" posX ="-7.8297" posZ ="-1.7044" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">TestObject2</unit>
+		<unit Variation ="5" posX ="5.5966" posZ ="2.4894" orientX ="0.3827" orientY ="0.0000" orientZ ="0.9239">PropsNative</unit>
+		<unit Variation ="2" posX ="4.3877" posZ ="1.9042" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">PropsNative</unit>
+		<unit Variation ="6" posX ="-3.5872" posZ ="2.2117" orientX ="0.9239" orientY ="0.0000" orientZ ="0.3827">PropsNative</unit>
+		<unit Variation ="1" posX ="-4.2476" posZ ="2.4630" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">PropsNative</unit>
+		<unit Variation ="29" posX ="-9.6740" posZ ="3.0816" orientX ="-0.9239" orientY ="0.0000" orientZ ="0.3826">UnderbrushGreatPlains</unit>
+		<unit Variation ="174" posX ="-9.6438" posZ ="1.5576" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">TestObject2</unit>
+		<unit Variation ="29" posX ="-10.4076" posZ ="4.4596" orientX ="-0.9239" orientY ="0.0000" orientZ ="-0.3827">UnderbrushGreatPlains</unit>
+		<unit Variation ="18" posX ="-4.4354" posZ ="3.5217" orientX ="-0.1089" orientY ="0.0000" orientZ ="-0.9941">FirewoodPile</unit>
+		<unit Variation ="8" posX ="8.6181" posZ ="4.6562" orientX ="0.9239" orientY ="0.0000" orientZ ="-0.3827">PropsNative</unit>
+		<unit Variation ="5" posX ="-0.1079" posZ ="4.4531" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">PropsNative</unit>
+		<unit Variation ="6" posX ="7.3645" posZ ="4.2708" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">PropsNative</unit>
+		<unit Variation ="11" posX ="-8.8793" posZ ="4.8167" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">PropsNative</unit>
+		<unit Variation ="194" posX ="-5.4654" posZ ="3.9138" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">TestObject2</unit>
+		<unit Variation ="101" posX ="-2.6754" posZ ="3.5181" orientX ="-0.6647" orientY ="0.0000" orientZ ="-0.7471">TestObject2</unit>
+		<unit Variation ="202" posX ="0.0000" posZ ="5.0000" orientX ="0.4242" orientY ="0.0000" orientZ ="0.9056">TreeGreatPlains</unit>
+		<unit Variation ="11" posX ="-6.1161" posZ ="6.1019" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">PropsNative</unit>
+		<unit Variation ="10" posX ="8.5652" posZ ="5.7331" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">PropsNative</unit>
+		<unit Variation ="213" posX ="-4.0000" posZ ="7.0000" orientX ="0.9624" orientY ="0.0000" orientZ ="0.2717">TreeGreatPlains</unit>
+		<unit Variation ="86" posX ="1.8930" posZ ="4.3040" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">TestObject2</unit>
+		<unit Variation ="159" posX ="5.6775" posZ ="5.1870" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">TestObject2</unit>
+		<unit Variation ="29" posX ="-11.2907" posZ ="7.4056" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">UnderbrushGreatPlains</unit>
+		<unit Variation ="29" posX ="-7.4487" posZ ="8.1139" orientX ="-0.7070" orientY ="0.0000" orientZ ="-0.7072">UnderbrushGreatPlains</unit>
+		<unit Variation ="29" posX ="-9.6925" posZ ="7.8538" orientX ="-0.3826" orientY ="0.0000" orientZ ="-0.9239">UnderbrushGreatPlains</unit>
+		<unit Variation ="89" posX ="-9.6672" posZ ="6.3909" orientX ="-0.7071" orientY ="0.0000" orientZ ="-0.7071">TestObject2</unit>
+		<unit Variation ="144" posX ="-1.7862" posZ ="8.1050" orientX ="-1.0000" orientY ="0.0000" orientZ ="0.0000">TestObject2</unit>
+		<unit Variation ="145" posX ="-4.9685" posZ ="9.9370" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">TestObject2</unit>
+		<unit Variation ="15" posX ="-2.8431" posZ ="10.3667" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">TestObject2</unit>
+	</units>
+	<tiles>
+		<tileGroup type ="PassableLand" subtype ="terrain\Texas\ground5_tex">
+			<block startX ="-5" startZ ="1" endX ="-5" endZ ="1"></block>
+			<block startX ="-4" startZ ="1" endX ="-4" endZ ="1"></block>
+			<block startX ="-3" startZ ="-2" endX ="-3" endZ ="-1"></block>
+			<block startX ="-2" startZ ="-3" endX ="-2" endZ ="0"></block>
+			<block startX ="-1" startZ ="-3" endX ="-1" endZ ="1"></block>
+			<block startX ="0" startZ ="-4" endX ="0" endZ ="1"></block>
+			<block startX ="1" startZ ="-4" endX ="1" endZ ="1"></block>
+			<block startX ="2" startZ ="-1" endX ="2" endZ ="1"></block>
+			<block startX ="-5" startZ ="2" endX ="-5" endZ ="3"></block>
+			<block startX ="-4" startZ ="2" endX ="-4" endZ ="3"></block>
+			<block startX ="-3" startZ ="2" endX ="-3" endZ ="3"></block>
+			<block startX ="-2" startZ ="2" endX ="-2" endZ ="3"></block>
+			<block startX ="1" startZ ="2" endX ="1" endZ ="2"></block>
+			<block startX ="2" startZ ="2" endX ="2" endZ ="2"></block>
+			<block startX ="3" startZ ="0" endX ="3" endZ ="1"></block>
+		</tileGroup>
+		<tileGroup type ="PassableLand" subtype ="terrain\Texas\ground4_tex">
+			<block startX ="-4" startZ ="-1" endX ="-4" endZ ="0"></block>
+			<block startX ="-3" startZ ="0" endX ="-3" endZ ="1"></block>
+			<block startX ="-2" startZ ="1" endX ="-2" endZ ="1"></block>
+			<block startX ="2" startZ ="-3" endX ="2" endZ ="-2"></block>
+			<block startX ="3" startZ ="-4" endX ="3" endZ ="-1"></block>
+			<block startX ="4" startZ ="-4" endX ="4" endZ ="-1"></block>
+		</tileGroup>
+	</tiles>
+</grouping>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>8</width>
+	<height>8</height>
+	<ignorePlacementRules>0</ignorePlacementRules>
+	<selectAsSingleUnit>1</selectAsSingleUnit>
+	<units>
+		<unit Variation ="7" posX ="1.3482" posZ ="-5.2927" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="81" posX ="-1.1048" posZ ="-4.3833" orientX ="-0.7071" orientY ="0.0000" orientZ ="0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="118" posX ="0.5370" posZ ="-3.3643" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="61" posX ="4.2190" posZ ="-4.4842" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="145" posX ="-2.2832" posZ ="-2.2756" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="72" posX ="1.5175" posZ ="-0.6863" orientX ="-0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="205" posX ="-5.1759" posZ ="-1.9155" orientX ="0.9239" orientY ="0.0000" orientZ ="0.3827">UnderbrushGreatPlains</unit>
+		<unit Variation ="103" posX ="-3.1403" posZ ="1.3580" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

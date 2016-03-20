@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>6</width>
+	<height>7</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="14" posx ="-2.0451" posz ="-5.2234" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="202" posx ="-2.9771" posz ="-5.0934" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="22" posx ="-2.5116" posz ="-4.9184" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">UnderbrushForest</unit>
+		<unit variation ="222" posx ="-0.3472" posz ="-6.1052" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushForest</unit>
+		<unit variation ="251" posx ="-0.9282" posz ="-6.0156" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">UnderbrushForest</unit>
+		<unit variation ="243" posx ="-2.0345" posz ="-6.0360" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">UnderbrushForest</unit>
+		<unit variation ="103" posx ="-0.2319" posz ="-5.0532" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushForest</unit>
+		<unit variation ="210" posx ="-0.0382" posz ="-6.7423" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushForest</unit>
+		<unit variation ="193" posx ="4.7925" posz ="-3.9625" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">UnderbrushForest</unit>
+		<unit variation ="164" posx ="4.8095" posz ="-6.0433" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">UnderbrushForest</unit>
+		<unit variation ="77" posx ="5.7686" posz ="-4.7467" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">UnderbrushForest</unit>
+		<unit variation ="165" posx ="3.1630" posz ="-4.3967" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">UnderbrushForest</unit>
+		<unit variation ="33" posx ="1.4667" posz ="-5.2941" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushForest</unit>
+		<unit variation ="41" posx ="0.2549" posz ="-1.0272" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">BigPropGeyser</unit>
+		<unit variation ="4" posx ="-4.0811" posz ="-3.5902" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushForest</unit>
+		<unit variation ="243" posx ="4.5015" posz ="-3.6716" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushForest</unit>
+		<unit variation ="18" posx ="4.8784" posz ="-1.6956" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="245" posx ="-4.0179" posz ="-0.0701" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">UnderbrushForest</unit>
+		<unit variation ="80" posx ="-3.9680" posz ="-1.0631" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">UnderbrushForest</unit>
+		<unit variation ="102" posx ="-4.3108" posz ="-1.6448" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushForest</unit>
+		<unit variation ="104" posx ="5.1807" posz ="0.1535" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">UnderbrushForest</unit>
+		<unit variation ="160" posx ="4.6550" posz ="-1.0693" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushForest</unit>
+		<unit variation ="12" posx ="-5.6917" posz ="-1.1706" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushForest</unit>
+		<unit variation ="103" posx ="-5.2428" posz ="-0.3787" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">UnderbrushForest</unit>
+		<unit variation ="135" posx ="5.3895" posz ="1.4300" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">UnderbrushForest</unit>
+		<unit variation ="67" posx ="-5.1553" posz ="1.0674" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">UnderbrushForest</unit>
+		<unit variation ="41" posx ="-4.0497" posz ="3.1848" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">UnderbrushForest</unit>
+		<unit variation ="25" posx ="-2.8481" posz ="3.8700" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="139" posx ="-1.2650" posz ="3.2577" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">UnderbrushForest</unit>
+		<unit variation ="169" posx ="1.0187" posz ="3.5884" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">UnderbrushForest</unit>
+		<unit variation ="140" posx ="-2.0888" posz ="4.5740" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="127" posx ="-4.3764" posz ="5.0152" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="12" posx ="0.8423" posz ="5.3355" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">UnderbrushForest</unit>
+		<unit variation ="249" posx ="1.8227" posz ="5.4289" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">UnderbrushForest</unit>
+	</units>
+	<tiles>
+		<heights>
+			<tiles x ="-3" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-3" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-3" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-3" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-3" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-3" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-3" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

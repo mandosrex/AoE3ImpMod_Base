@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>12</width>
+	<height>11</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="73" posx ="5.5649" posz ="-9.0983" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushRockiesSnow</unit>
+		<unit variation ="83" posx ="3.1816" posz ="-5.2153" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushRockiesSnow</unit>
+		<unit variation ="229" posx ="0.0000" posz ="-1.0000" orientx ="0.0560" orienty ="0.0000" orientz ="-0.9984">Mine</unit>
+		<unit variation ="124" posx ="10.1171" posz ="-0.0133" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushRockiesSnow</unit>
+		<unit variation ="195" posx ="6.2902" posz ="7.2799" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushRockiesSnow</unit>
+		<unit variation ="129" posx ="-4.7241" posz ="8.5702" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushRockiesSnow</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="PassableLand" subtype ="terrain\great_lakes\ground_snow1_gl">
+			<block startx ="-6" startz ="-5" endx ="-6" endz ="-4"></block>
+			<block startx ="-5" startz ="-5" endx ="-5" endz ="-4"></block>
+			<block startx ="-6" startz ="-3" endx ="-6" endz ="4"></block>
+			<block startx ="-5" startz ="-3" endx ="-5" endz ="0"></block>
+			<block startx ="-5" startz ="4" endx ="-5" endz ="4"></block>
+			<block startx ="-4" startz ="-3" endx ="-4" endz ="0"></block>
+			<block startx ="-3" startz ="-3" endx ="-3" endz ="0"></block>
+			<block startx ="-2" startz ="-3" endx ="-2" endz ="0"></block>
+			<block startx ="-1" startz ="-3" endx ="-1" endz ="1"></block>
+			<block startx ="0" startz ="-3" endx ="0" endz ="1"></block>
+			<block startx ="1" startz ="-3" endx ="1" endz ="-3"></block>
+			<block startx ="-4" startz ="-5" endx ="-4" endz ="-4"></block>
+			<block startx ="-3" startz ="-5" endx ="-3" endz ="-4"></block>
+			<block startx ="-2" startz ="-5" endx ="-2" endz ="-4"></block>
+			<block startx ="-1" startz ="-5" endx ="-1" endz ="-4"></block>
+			<block startx ="0" startz ="-5" endx ="0" endz ="-4"></block>
+			<block startx ="1" startz ="-5" endx ="1" endz ="-4"></block>
+			<block startx ="2" startz ="-5" endx ="2" endz ="-4"></block>
+			<block startx ="3" startz ="-5" endx ="3" endz ="-5"></block>
+			<block startx ="-6" startz ="5" endx ="-6" endz ="5"></block>
+			<block startx ="-5" startz ="5" endx ="-5" endz ="5"></block>
+			<block startx ="-4" startz ="5" endx ="-4" endz ="5"></block>
+			<block startx ="-3" startz ="5" endx ="-3" endz ="5"></block>
+			<block startx ="-2" startz ="5" endx ="-2" endz ="5"></block>
+			<block startx ="3" startz ="5" endx ="3" endz ="5"></block>
+			<block startx ="4" startz ="5" endx ="4" endz ="5"></block>
+			<block startx ="5" startz ="5" endx ="5" endz ="5"></block>
+			<block startx ="4" startz ="-5" endx ="4" endz ="-5"></block>
+			<block startx ="5" startz ="-5" endx ="5" endz ="-5"></block>
+			<block startx ="4" startz ="3" endx ="4" endz ="4"></block>
+			<block startx ="5" startz ="0" endx ="5" endz ="4"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\california\groundsnow1_cal">
+			<block startx ="-5" startz ="1" endx ="-5" endz ="3"></block>
+			<block startx ="-4" startz ="1" endx ="-4" endz ="4"></block>
+			<block startx ="-3" startz ="1" endx ="-3" endz ="4"></block>
+			<block startx ="-2" startz ="1" endx ="-2" endz ="4"></block>
+			<block startx ="-1" startz ="2" endx ="-1" endz ="4"></block>
+			<block startx ="0" startz ="2" endx ="0" endz ="4"></block>
+			<block startx ="1" startz ="-2" endx ="1" endz ="4"></block>
+			<block startx ="2" startz ="-3" endx ="2" endz ="4"></block>
+			<block startx ="3" startz ="-3" endx ="3" endz ="4"></block>
+			<block startx ="3" startz ="-4" endx ="3" endz ="-4"></block>
+			<block startx ="-1" startz ="5" endx ="-1" endz ="5"></block>
+			<block startx ="0" startz ="5" endx ="0" endz ="5"></block>
+			<block startx ="1" startz ="5" endx ="1" endz ="5"></block>
+			<block startx ="2" startz ="5" endx ="2" endz ="5"></block>
+			<block startx ="4" startz ="-4" endx ="4" endz ="-4"></block>
+			<block startx ="5" startz ="-4" endx ="5" endz ="-4"></block>
+			<block startx ="4" startz ="-3" endx ="4" endz ="2"></block>
+			<block startx ="5" startz ="-3" endx ="5" endz ="-1"></block>
+		</tilegroup>
+		<cliffgroup type ="California Snow">
+			<block startx ="-4" startz ="2" endx ="-4" endz ="2"></block>
+			<block startx ="-3" startz ="2" endx ="-3" endz ="3"></block>
+			<block startx ="-2" startz ="3" endx ="-2" endz ="3"></block>
+			<block startx ="-1" startz ="3" endx ="-1" endz ="3"></block>
+			<block startx ="0" startz ="3" endx ="0" endz ="4"></block>
+			<block startx ="1" startz ="3" endx ="1" endz ="4"></block>
+			<block startx ="2" startz ="-1" endx ="2" endz ="3"></block>
+			<block startx ="3" startz ="-2" endx ="3" endz ="1"></block>
+			<block startx ="4" startz ="-3" endx ="4" endz ="-2"></block>
+		</cliffgroup>
+		<heights>
+			<tiles x ="-6" z ="-5">-0.198 -0.029 0.048 0.063 -0.006 -0.196 -0.471 -0.619 -0.249 -0.005 -0.005 -0.005 </tiles>
+			<tiles x ="-6" z ="-4">-0.228 -0.125 -0.159 -0.318 -0.547 -0.835 -1.106 -1.179 -0.739 -0.444 -0.115 -0.039 </tiles>
+			<tiles x ="-6" z ="-3">-0.316 -0.163 -0.295 -0.644 -1.072 -1.552 -2.021 -2.525 -2.088 -1.785 0.158 0.158 </tiles>
+			<tiles x ="-6" z ="-2">-0.252 -0.117 -0.402 -0.997 -1.707 -2.458 -3.158 -3.627 -3.433 -3.025 -2.368 0.158 </tiles>
+			<tiles x ="-6" z ="-1">0.239 -0.049 -0.452 -1.392 -2.596 -3.440 -4.346 -4.230 -4.165 -3.904 0.158 0.158 </tiles>
+			<tiles x ="-6" z ="0">0.277 -0.039 -0.039 -2.048 -3.457 -4.346 -4.346 -4.346 -4.335 0.158 0.158 0.158 </tiles>
+			<tiles x ="-6" z ="1">0.076 -0.039 0.158 -2.682 -3.920 -4.339 -4.346 -4.346 -4.346 -4.346 0.158 -0.005 </tiles>
+			<tiles x ="-6" z ="2">0.180 0.158 -1.172 -2.414 -3.609 -4.277 -4.346 -4.346 -4.346 0.158 0.158 -0.005 </tiles>
+			<tiles x ="-6" z ="3">0.245 0.158 0.158 0.158 -3.105 -4.177 -4.346 -4.346 -4.346 -0.039 -0.005 -0.005 </tiles>
+			<tiles x ="-6" z ="4">0.208 0.158 0.158 0.158 0.158 0.158 0.158 -4.346 -0.039 -0.005 -0.005 -0.005 </tiles>
+			<tiles x ="-6" z ="5">0.208 0.158 0.158 0.158 0.158 0.158 0.158 0.158 -0.005 -0.005 -0.005 -0.005 </tiles>
+		</heights>
+	</tiles>
+</grouping>

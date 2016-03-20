@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>10</width>
+	<height>12</height>
+	<ignorePlacementRules>0</ignorePlacementRules>
+	<selectAsSingleUnit>0</selectAsSingleUnit>
+	<units>
+		<unit Variation ="64" posX ="-2.1414" posZ ="-5.5034" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushTexas</unit>
+		<unit Variation ="209" posX ="-0.5789" posZ ="-5.6379" orientX ="0.3833" orientY ="0.0000" orientZ ="-0.9236">UnderbrushTexas</unit>
+		<unit Variation ="209" posX ="1.6657" posZ ="-5.0215" orientX ="0.7074" orientY ="0.0000" orientZ ="-0.7068">UnderbrushTexas</unit>
+		<unit Variation ="209" posX ="2.6205" posZ ="-5.2701" orientX ="0.9237" orientY ="0.0000" orientZ ="0.3831">UnderbrushTexas</unit>
+		<unit Variation ="209" posX ="2.0842" posZ ="-6.2115" orientX ="0.7067" orientY ="0.0000" orientZ ="0.7075">UnderbrushTexas</unit>
+		<unit Variation ="98" posX ="-3.1526" posZ ="-5.1246" orientX ="-0.3835" orientY ="0.0000" orientZ ="0.9236">GroundPropsGP</unit>
+		<unit Variation ="209" posX ="-2.5819" posZ ="-4.2852" orientX ="-0.3832" orientY ="0.0000" orientZ ="0.9237">UnderbrushTexas</unit>
+		<unit Variation ="209" posX ="-1.4358" posZ ="-4.4887" orientX ="-0.9237" orientY ="0.0000" orientZ ="-0.3832">UnderbrushTexas</unit>
+		<unit Variation ="241" posX ="-3.2924" posZ ="-3.5271" orientX ="0.9239" orientY ="0.0000" orientZ ="0.3827">UnderbrushRock</unit>
+		<unit Variation ="124" posX ="1.5276" posZ ="-5.4726" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="64" posX ="3.6877" posZ ="-3.9819" orientX ="-0.3835" orientY ="0.0000" orientZ ="0.9236">UnderbrushTexas</unit>
+		<unit Variation ="85" posX ="2.5848" posZ ="-3.4590" orientX ="0.9235" orientY ="0.0000" orientZ ="0.3836">GroundPropsGP</unit>
+		<unit Variation ="189" posX ="2.7345" posZ ="-3.2782" orientX ="-0.9242" orientY ="0.0000" orientZ ="0.3819">GroundPropsGP</unit>
+		<unit Variation ="85" posX ="3.2070" posZ ="-3.4178" orientX ="0.9235" orientY ="0.0000" orientZ ="0.3836">GroundPropsGP</unit>
+		<unit Variation ="247" posX ="-3.6191" posZ ="-2.2320" orientX ="0.9899" orientY ="0.0000" orientZ ="0.1420">TreeGreatPlainsGrass</unit>
+		<unit Variation ="203" posX ="-4.7214" posZ ="-1.7658" orientX ="0.9239" orientY ="0.0000" orientZ ="0.3827">UnderbrushRock</unit>
+		<unit Variation ="247" posX ="1.6256" posZ ="-3.1276" orientX ="-0.9688" orientY ="0.0000" orientZ ="0.2479">TreeGreatPlainsGrass</unit>
+		<unit Variation ="209" posX ="2.9380" posZ ="-0.6594" orientX ="0.7067" orientY ="0.0000" orientZ ="0.7075">UnderbrushTexas</unit>
+		<unit Variation ="78" posX ="2.8294" posZ ="-1.4325" orientX ="0.9239" orientY ="0.0000" orientZ ="0.3827">UnderbrushRock</unit>
+		<unit Variation ="115" posX ="-2.4524" posZ ="0.8030" orientX ="0.9239" orientY ="0.0000" orientZ ="-0.3827">UnderbrushShrub</unit>
+		<unit Variation ="209" posX ="-3.9285" posZ ="0.4442" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushTexas</unit>
+		<unit Variation ="189" posX ="-4.1381" posZ ="-0.0655" orientX ="-0.9242" orientY ="0.0000" orientZ ="0.3819">GroundPropsGP</unit>
+		<unit Variation ="85" posX ="-4.1412" posZ ="-0.3533" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="85" posX ="-4.2602" posZ ="0.2094" orientX ="0.9235" orientY ="0.0000" orientZ ="0.3836">GroundPropsGP</unit>
+		<unit Variation ="20" posX ="3.2913" posZ ="-0.0795" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">GroundPropsGP</unit>
+		<unit Variation ="209" posX ="-4.7897" posZ ="0.5098" orientX ="-0.7068" orientY ="0.0000" orientZ ="-0.7074">UnderbrushTexas</unit>
+		<unit Variation ="39" posX ="2.0978" posZ ="-0.2628" orientX ="0.9239" orientY ="0.0000" orientZ ="0.3827">UnderbrushRock</unit>
+		<unit Variation ="220" posX ="-0.0680" posZ ="-1.0526" orientX ="-0.2416" orientY ="0.0000" orientZ ="-0.9704">BuzzardFlock</unit>
+		<unit Variation ="232" posX ="0.3325" posZ ="1.1168" orientX ="0.8456" orientY ="0.0000" orientZ ="-0.5338">TreeGreatPlainsGrass</unit>
+		<unit Variation ="209" posX ="-3.8223" posZ ="1.3312" orientX ="-0.9237" orientY ="0.0000" orientZ ="-0.3830">UnderbrushTexas</unit>
+		<unit Variation ="14" posX ="-0.7961" posZ ="3.3825" orientX ="-0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushRock</unit>
+		<unit Variation ="98" posX ="-3.2714" posZ ="2.3199" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="120" posX ="-1.9176" posZ ="1.4050" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="104" posX ="3.1687" posZ ="0.4300" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="209" posX ="-4.7580" posZ ="1.7931" orientX ="0.7074" orientY ="0.0000" orientZ ="-0.7068">UnderbrushTexas</unit>
+		<unit Variation ="98" posX ="-0.7939" posZ ="3.8732" orientX ="0.9242" orientY ="0.0000" orientZ ="-0.3820">GroundPropsGP</unit>
+		<unit Variation ="209" posX ="-0.2989" posZ ="3.6481" orientX ="0.3833" orientY ="0.0000" orientZ ="-0.9236">UnderbrushTexas</unit>
+		<unit Variation ="189" posX ="-2.0033" posZ ="3.5123" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="85" posX ="-1.9044" posZ ="3.0503" orientX ="0.9235" orientY ="0.0000" orientZ ="0.3836">GroundPropsGP</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

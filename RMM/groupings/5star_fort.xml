@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>35</width>
+	<height>43</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="117" posx ="-0.2858" posz ="-13.0352" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">TownCenter</unit>
+		<unit variation ="99" posx ="-18.9197" posz ="-33.1776" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SPCFortWallMedium</unit>
+		<unit variation ="117" posx ="13.6114" posz ="-33.5063" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SPCFortWallMedium</unit>
+		<unit variation ="231" posx ="8.0336" posz ="-34.2341" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">GroundPropsGP</unit>
+		<unit variation ="41" posx ="-12.7632" posz ="-30.2269" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortWallMedium</unit>
+		<unit variation ="180" posx ="7.1724" posz ="-30.4763" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortWallMedium</unit>
+		<unit variation ="99" posx ="16.9495" posz ="-29.5756" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortWallMedium</unit>
+		<unit variation ="117" posx ="-22.8505" posz ="-29.8395" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">SPCFortWallMedium</unit>
+		<unit variation ="111" posx ="-22.9190" posz ="-28.6574" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">GroundPropsGP</unit>
+		<unit variation ="231" posx ="-26.8548" posz ="-28.6225" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">GroundPropsGP</unit>
+		<unit variation ="111" posx ="8.0686" posz ="-30.2983" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">GroundPropsGP</unit>
+		<unit variation ="207" posx ="6.7449" posz ="-29.9057" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">GroundPropsGP</unit>
+		<unit variation ="157" posx ="-9.0000" posz ="-27.0000" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SPCFortWallSmall</unit>
+		<unit variation ="170" posx ="3.0000" posz ="-27.0000" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SPCFortWallSmall</unit>
+		<unit variation ="111" posx ="5.1933" posz ="-28.0963" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">GroundPropsGP</unit>
+		<unit variation ="207" posx ="-22.5264" posz ="-27.3337" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">GroundPropsGP</unit>
+		<unit variation ="111" posx ="3.6579" posz ="-27.0007" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">GroundPropsGP</unit>
+		<unit variation ="207" posx ="5.5185" posz ="-27.1412" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">GroundPropsGP</unit>
+		<unit variation ="159" posx ="-3.2948" posz ="-26.8022" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SPCFortGate</unit>
+		<unit variation ="207" posx ="-19.7619" posz ="-26.1072" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">GroundPropsGP</unit>
+		<unit variation ="142" posx ="-18.9618" posz ="-25.3707" orientx ="-0.0000" orienty ="0.0000" orientz ="1.0000">GroundPropsGP</unit>
+		<unit variation ="142" posx ="4.7820" posz ="-26.3410" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">GroundPropsGP</unit>
+		<unit variation ="111" posx ="-20.7170" posz ="-25.7821" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">GroundPropsGP</unit>
+		<unit variation ="180" posx ="-19.8207" posz ="-23.4005" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallMedium</unit>
+		<unit variation ="41" posx ="13.9990" posz ="-23.4190" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallMedium</unit>
+		<unit variation ="111" posx ="-19.6215" posz ="-24.2466" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">GroundPropsGP</unit>
+		<unit variation ="43" posx ="-17.0000" posz ="-19.0000" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="157" posx ="11.3955" posz ="-18.8764" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="50" posx ="-18.0869" posz ="-13.0025" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallBarracks</unit>
+		<unit variation ="234" posx ="12.5190" posz ="-12.8997" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallStable</unit>
+		<unit variation ="170" posx ="15.9881" posz ="-7.7900" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="236" posx ="-5.4848" posz ="-3.4837" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">Market</unit>
+		<unit variation ="236" posx ="-21.4893" posz ="-7.9361" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallSmall</unit>
+		<unit variation ="111" posx ="16.2406" posz ="-7.1824" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">GroundPropsGP</unit>
+		<unit variation ="41" posx ="-24.9634" posz ="-5.1850" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortWallMedium</unit>
+		<unit variation ="180" posx ="20.8135" posz ="-5.0293" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortWallMedium</unit>
+		<unit variation ="111" posx ="17.8404" posz ="-6.1832" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">GroundPropsGP</unit>
+		<unit variation ="207" posx ="17.0825" posz ="-5.5173" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">GroundPropsGP</unit>
+		<unit variation ="142" posx ="16.0613" posz ="-5.8914" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">GroundPropsGP</unit>
+		<unit variation ="231" posx ="24.5979" posz ="-5.9082" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">GroundPropsGP</unit>
+		<unit variation ="207" posx ="20.1059" posz ="-5.4423" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">GroundPropsGP</unit>
+		<unit variation ="207" posx ="20.1228" posz ="-5.2059" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">GroundPropsGP</unit>
+		<unit variation ="231" posx ="24.6148" posz ="-5.6717" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">GroundPropsGP</unit>
+		<unit variation ="111" posx ="20.9752" posz ="-4.3696" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">GroundPropsGP</unit>
+		<unit variation ="111" posx ="20.9920" posz ="-4.1332" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">GroundPropsGP</unit>
+		<unit variation ="111" posx ="25.0050" posz ="-3.5039" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">GroundPropsGP</unit>
+		<unit variation ="111" posx ="26.6048" posz ="-2.5046" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">GroundPropsGP</unit>
+		<unit variation ="99" posx ="-30.0455" posz ="-0.6263" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallMedium</unit>
+		<unit variation ="117" posx ="26.0770" posz ="-0.2400" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">SPCFortWallMedium</unit>
+		<unit variation ="207" posx ="25.8468" posz ="-1.8387" orientx ="0.9239" orienty ="0.0000" orientz ="-0.3827">GroundPropsGP</unit>
+		<unit variation ="142" posx ="24.8257" posz ="-2.2129" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">GroundPropsGP</unit>
+		<unit variation ="43" posx ="-16.2747" posz ="3.3821" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallSmall</unit>
+		<unit variation ="41" posx ="16.9058" posz ="3.9783" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallMedium</unit>
+		<unit variation ="180" posx ="-21.3574" posz ="3.9476" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallMedium</unit>
+		<unit variation ="157" posx ="12.1207" posz ="3.5038" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallSmall</unit>
+		<unit variation ="111" posx ="-22.1173" posz ="3.4401" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">GroundPropsGP</unit>
+		<unit variation ="117" posx ="-28.4657" posz ="4.2827" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallMedium</unit>
+		<unit variation ="50" posx ="-11.2092" posz ="6.7642" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallBarracks</unit>
+		<unit variation ="99" posx ="23.7228" posz ="4.3483" orientx ="0.3827" orienty ="0.0000" orientz ="0.9239">SPCFortWallMedium</unit>
+		<unit variation ="234" posx ="7.0967" posz ="6.8837" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallStable</unit>
+		<unit variation ="207" posx ="-23.6613" posz ="4.0574" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">GroundPropsGP</unit>
+		<unit variation ="142" posx ="-22.6746" posz ="3.5999" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">GroundPropsGP</unit>
+		<unit variation ="111" posx ="-23.7264" posz ="5.0642" orientx ="-0.0000" orienty ="0.0000" orientz ="1.0000">GroundPropsGP</unit>
+		<unit variation ="111" posx ="-21.8886" posz ="4.6396" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">GroundPropsGP</unit>
+		<unit variation ="207" posx ="-25.8523" posz ="6.1421" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">GroundPropsGP</unit>
+		<unit variation ="231" posx ="-28.6994" posz ="9.6478" orientx ="-0.3827" orienty ="0.0000" orientz ="0.9239">GroundPropsGP</unit>
+		<unit variation ="170" posx ="3.6357" posz ="11.9893" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallSmall</unit>
+		<unit variation ="236" posx ="-7.8666" posz ="11.9043" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallSmall</unit>
+		<unit variation ="111" posx ="3.1709" posz ="12.4550" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">GroundPropsGP</unit>
+		<unit variation ="142" posx ="1.9096" posz ="12.7834" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">GroundPropsGP</unit>
+		<unit variation ="207" posx ="1.9547" posz ="13.8701" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">GroundPropsGP</unit>
+		<unit variation ="111" posx ="2.8600" posz ="14.3154" orientx ="0.9239" orienty ="0.0000" orientz ="0.3826">GroundPropsGP</unit>
+		<unit variation ="180" posx ="2.9739" posz ="17.5435" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortWallMedium</unit>
+		<unit variation ="41" posx ="-6.8435" posz ="17.3802" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">SPCFortWallMedium</unit>
+		<unit variation ="111" posx ="1.7639" posz ="16.9920" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">GroundPropsGP</unit>
+		<unit variation ="142" posx ="0.5026" posz ="17.3204" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">GroundPropsGP</unit>
+		<unit variation ="207" posx ="3.0424" posz ="16.6920" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">GroundPropsGP</unit>
+		<unit variation ="111" posx ="2.3840" posz ="17.9056" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">GroundPropsGP</unit>
+		<unit variation ="111" posx ="1.4529" posz ="18.8524" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">GroundPropsGP</unit>
+		<unit variation ="207" posx ="0.5477" posz ="18.4070" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">GroundPropsGP</unit>
+		<unit variation ="231" posx ="5.1919" posz ="20.6638" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">GroundPropsGP</unit>
+		<unit variation ="207" posx ="1.6352" posz ="21.2290" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">GroundPropsGP</unit>
+		<unit variation ="117" posx ="0.5634" posz ="24.2390" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallMedium</unit>
+		<unit variation ="99" posx ="-4.5337" posz ="23.7642" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortWallMedium</unit>
+		<unit variation ="111" posx ="0.9768" posz ="22.4426" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">GroundPropsGP</unit>
+		<unit variation ="231" posx ="3.7846" posz ="25.2009" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">GroundPropsGP</unit>
+		<unit variation ="201" posx ="-15.7338" posz ="-32.9205" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortCorner</unit>
+		<unit variation ="45" posx ="16.7743" posz ="-33.2744" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortCorner</unit>
+		<unit variation ="132" posx ="-22.7439" posz ="-32.8637" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortCorner</unit>
+		<unit variation ="32" posx ="9.9345" posz ="-32.6697" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortCorner</unit>
+		<unit variation ="205" posx ="-17.7242" posz ="-28.1460" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortTower</unit>
+		<unit variation ="35" posx ="12.4393" posz ="-28.4403" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortTower</unit>
+		<unit variation ="160" posx ="-10.9766" posz ="-27.6520" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortCorner</unit>
+		<unit variation ="87" posx ="4.9034" posz ="-27.7724" orientx ="-0.5207" orienty ="0.0000" orientz ="-0.8537">SPCFortCorner</unit>
+		<unit variation ="209" posx ="-22.4552" posz ="-26.3946" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="59" posx ="16.6732" posz ="-25.9370" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">SPCFortCorner</unit>
+		<unit variation ="115" posx ="-16.6721" posz ="-20.9464" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="34" posx ="11.2444" posz ="-21.3190" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="44" posx ="17.1311" posz ="-6.1436" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">SPCFortCorner</unit>
+		<unit variation ="84" posx ="-22.5469" posz ="-5.3613" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortCorner</unit>
+		<unit variation ="85" posx ="-28.9653" posz ="-3.6296" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortCorner</unit>
+		<unit variation ="194" posx ="24.1331" posz ="-3.4547" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFortCorner</unit>
+		<unit variation ="92" posx ="21.0561" posz ="0.3871" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortTower</unit>
+		<unit variation ="123" posx ="-24.2705" posz ="-0.0732" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortTower</unit>
+		<unit variation ="166" posx ="-18.2771" posz ="1.9571" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">SPCFortCorner</unit>
+		<unit variation ="226" posx ="13.8645" posz ="2.6595" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">SPCFortCorner</unit>
+		<unit variation ="119" posx ="-31.4138" posz ="2.8990" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="109" posx ="27.5921" posz ="3.1664" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="13" posx ="-24.6723" posz ="5.9532" orientx ="-0.0000" orienty ="0.0000" orientz ="1.0000">SPCFortCorner</unit>
+		<unit variation ="219" posx ="20.4715" posz ="5.1381" orientx ="-0.0000" orienty ="0.0000" orientz ="1.0000">SPCFortCorner</unit>
+		<unit variation ="178" posx ="-6.5675" posz ="13.9958" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">SPCFortCorner</unit>
+		<unit variation ="233" posx ="2.4309" posz ="13.8066" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0000">SPCFortCorner</unit>
+		<unit variation ="146" posx ="-1.8919" posz ="18.4624" orientx ="-0.0000" orienty ="0.0000" orientz ="1.0000">SPCFortTower</unit>
+		<unit variation ="104" posx ="3.1401" posz ="21.0972" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="117" posx ="-6.7484" posz ="21.2381" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">SPCFortCorner</unit>
+		<unit variation ="181" posx ="-1.5068" posz ="26.4395" orientx ="-0.0000" orienty ="0.0000" orientz ="1.0000">SPCFortCorner</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="PassableLand" subtype ="terrain\great_plains\ground1_gp">
+			<block startx ="-17" startz ="-21" endx ="-17" endz ="-20"></block>
+			<block startx ="-16" startz ="-21" endx ="-16" endz ="-20"></block>
+			<block startx ="-15" startz ="-21" endx ="-15" endz ="-20"></block>
+			<block startx ="-14" startz ="-21" endx ="-14" endz ="-20"></block>
+			<block startx ="-13" startz ="-21" endx ="-13" endz ="-20"></block>
+			<block startx ="-12" startz ="-21" endx ="-12" endz ="-20"></block>
+			<block startx ="-17" startz ="-19" endx ="-17" endz ="-12"></block>
+			<block startx ="-16" startz ="-19" endx ="-16" endz ="-12"></block>
+			<block startx ="-15" startz ="-19" endx ="-15" endz ="-12"></block>
+			<block startx ="-14" startz ="-19" endx ="-14" endz ="-12"></block>
+			<block startx ="-13" startz ="-19" endx ="-13" endz ="-12"></block>
+			<block startx ="-12" startz ="-19" endx ="-12" endz ="-12"></block>
+			<block startx ="-11" startz ="-19" endx ="-4" endz ="-12"></block>
+			<block startx ="-11" startz ="-21" endx ="-11" endz ="-20"></block>
+			<block startx ="-10" startz ="-21" endx ="-10" endz ="-20"></block>
+			<block startx ="-9" startz ="-21" endx ="-9" endz ="-20"></block>
+			<block startx ="-8" startz ="-21" endx ="-8" endz ="-20"></block>
+			<block startx ="-7" startz ="-21" endx ="-7" endz ="-20"></block>
+			<block startx ="-6" startz ="-21" endx ="-6" endz ="-20"></block>
+			<block startx ="-5" startz ="-21" endx ="-5" endz ="-20"></block>
+			<block startx ="-4" startz ="-21" endx ="-4" endz ="-20"></block>
+			<block startx ="-17" startz ="5" endx ="-17" endz ="12"></block>
+			<block startx ="-16" startz ="5" endx ="-16" endz ="12"></block>
+			<block startx ="-15" startz ="5" endx ="-15" endz ="12"></block>
+			<block startx ="-14" startz ="5" endx ="-14" endz ="12"></block>
+			<block startx ="-13" startz ="5" endx ="-13" endz ="12"></block>
+			<block startx ="-12" startz ="5" endx ="-12" endz ="12"></block>
+			<block startx ="-17" startz ="13" endx ="-17" endz ="20"></block>
+			<block startx ="-16" startz ="13" endx ="-16" endz ="20"></block>
+			<block startx ="-15" startz ="13" endx ="-15" endz ="20"></block>
+			<block startx ="-14" startz ="13" endx ="-14" endz ="20"></block>
+			<block startx ="-13" startz ="13" endx ="-13" endz ="20"></block>
+			<block startx ="-12" startz ="13" endx ="-12" endz ="20"></block>
+			<block startx ="-11" startz ="13" endx ="-4" endz ="20"></block>
+			<block startx ="-11" startz ="5" endx ="-4" endz ="12"></block>
+			<block startx ="-17" startz ="-11" endx ="-17" endz ="-4"></block>
+			<block startx ="-16" startz ="-11" endx ="-16" endz ="-4"></block>
+			<block startx ="-15" startz ="-11" endx ="-15" endz ="-4"></block>
+			<block startx ="-14" startz ="-11" endx ="-14" endz ="-4"></block>
+			<block startx ="-13" startz ="-11" endx ="-13" endz ="-4"></block>
+			<block startx ="-12" startz ="-11" endx ="-12" endz ="-4"></block>
+			<block startx ="-17" startz ="-3" endx ="-17" endz ="4"></block>
+			<block startx ="-16" startz ="-3" endx ="-16" endz ="4"></block>
+			<block startx ="-15" startz ="-3" endx ="-15" endz ="4"></block>
+			<block startx ="-14" startz ="-3" endx ="-14" endz ="4"></block>
+			<block startx ="-13" startz ="-3" endx ="-13" endz ="4"></block>
+			<block startx ="-12" startz ="-3" endx ="-12" endz ="4"></block>
+			<block startx ="-11" startz ="-3" endx ="-4" endz ="4"></block>
+			<block startx ="-11" startz ="-11" endx ="-4" endz ="-4"></block>
+			<block startx ="-3" startz ="-11" endx ="12" endz ="4"></block>
+			<block startx ="-3" startz ="5" endx ="12" endz ="20"></block>
+			<block startx ="13" startz ="5" endx ="13" endz ="12"></block>
+			<block startx ="14" startz ="5" endx ="14" endz ="12"></block>
+			<block startx ="15" startz ="5" endx ="15" endz ="12"></block>
+			<block startx ="16" startz ="5" endx ="16" endz ="12"></block>
+			<block startx ="17" startz ="5" endx ="17" endz ="12"></block>
+			<block startx ="13" startz ="13" endx ="13" endz ="20"></block>
+			<block startx ="14" startz ="13" endx ="14" endz ="20"></block>
+			<block startx ="15" startz ="13" endx ="15" endz ="20"></block>
+			<block startx ="16" startz ="13" endx ="16" endz ="20"></block>
+			<block startx ="17" startz ="13" endx ="17" endz ="20"></block>
+			<block startx ="13" startz ="-11" endx ="13" endz ="-4"></block>
+			<block startx ="14" startz ="-11" endx ="14" endz ="-4"></block>
+			<block startx ="15" startz ="-11" endx ="15" endz ="-4"></block>
+			<block startx ="16" startz ="-11" endx ="16" endz ="-4"></block>
+			<block startx ="17" startz ="-11" endx ="17" endz ="-4"></block>
+			<block startx ="13" startz ="-3" endx ="13" endz ="4"></block>
+			<block startx ="14" startz ="-3" endx ="14" endz ="4"></block>
+			<block startx ="15" startz ="-3" endx ="15" endz ="4"></block>
+			<block startx ="16" startz ="-3" endx ="16" endz ="4"></block>
+			<block startx ="17" startz ="-3" endx ="17" endz ="4"></block>
+			<block startx ="-3" startz ="-21" endx ="-3" endz ="-20"></block>
+			<block startx ="-2" startz ="-21" endx ="-2" endz ="-20"></block>
+			<block startx ="-1" startz ="-21" endx ="-1" endz ="-20"></block>
+			<block startx ="0" startz ="-21" endx ="0" endz ="-20"></block>
+			<block startx ="1" startz ="-21" endx ="1" endz ="-20"></block>
+			<block startx ="2" startz ="-21" endx ="2" endz ="-20"></block>
+			<block startx ="3" startz ="-21" endx ="3" endz ="-20"></block>
+			<block startx ="4" startz ="-21" endx ="4" endz ="-20"></block>
+			<block startx ="-3" startz ="-19" endx ="4" endz ="-12"></block>
+			<block startx ="5" startz ="-19" endx ="12" endz ="-12"></block>
+			<block startx ="5" startz ="-21" endx ="5" endz ="-20"></block>
+			<block startx ="6" startz ="-21" endx ="6" endz ="-20"></block>
+			<block startx ="7" startz ="-21" endx ="7" endz ="-20"></block>
+			<block startx ="8" startz ="-21" endx ="8" endz ="-20"></block>
+			<block startx ="9" startz ="-21" endx ="9" endz ="-20"></block>
+			<block startx ="10" startz ="-21" endx ="10" endz ="-20"></block>
+			<block startx ="11" startz ="-21" endx ="11" endz ="-20"></block>
+			<block startx ="12" startz ="-21" endx ="12" endz ="-20"></block>
+			<block startx ="13" startz ="-21" endx ="13" endz ="-20"></block>
+			<block startx ="14" startz ="-21" endx ="14" endz ="-20"></block>
+			<block startx ="15" startz ="-21" endx ="15" endz ="-20"></block>
+			<block startx ="16" startz ="-21" endx ="16" endz ="-20"></block>
+			<block startx ="17" startz ="-21" endx ="17" endz ="-20"></block>
+			<block startx ="13" startz ="-19" endx ="13" endz ="-12"></block>
+			<block startx ="14" startz ="-19" endx ="14" endz ="-12"></block>
+			<block startx ="15" startz ="-19" endx ="15" endz ="-12"></block>
+			<block startx ="16" startz ="-19" endx ="16" endz ="-12"></block>
+			<block startx ="17" startz ="-19" endx ="17" endz ="-12"></block>
+			<block startx ="-17" startz ="21" endx ="-17" endz ="21"></block>
+			<block startx ="-16" startz ="21" endx ="-16" endz ="21"></block>
+			<block startx ="-15" startz ="21" endx ="-15" endz ="21"></block>
+			<block startx ="-14" startz ="21" endx ="-14" endz ="21"></block>
+			<block startx ="-13" startz ="21" endx ="-13" endz ="21"></block>
+			<block startx ="-12" startz ="21" endx ="-12" endz ="21"></block>
+			<block startx ="-11" startz ="21" endx ="-11" endz ="21"></block>
+			<block startx ="-10" startz ="21" endx ="-10" endz ="21"></block>
+			<block startx ="-9" startz ="21" endx ="-9" endz ="21"></block>
+			<block startx ="-8" startz ="21" endx ="-8" endz ="21"></block>
+			<block startx ="-7" startz ="21" endx ="-7" endz ="21"></block>
+			<block startx ="-6" startz ="21" endx ="-6" endz ="21"></block>
+			<block startx ="-5" startz ="21" endx ="-5" endz ="21"></block>
+			<block startx ="-4" startz ="21" endx ="-4" endz ="21"></block>
+			<block startx ="-3" startz ="21" endx ="-3" endz ="21"></block>
+			<block startx ="-2" startz ="21" endx ="-2" endz ="21"></block>
+			<block startx ="-1" startz ="21" endx ="-1" endz ="21"></block>
+			<block startx ="0" startz ="21" endx ="0" endz ="21"></block>
+			<block startx ="1" startz ="21" endx ="1" endz ="21"></block>
+			<block startx ="2" startz ="21" endx ="2" endz ="21"></block>
+			<block startx ="3" startz ="21" endx ="3" endz ="21"></block>
+			<block startx ="4" startz ="21" endx ="4" endz ="21"></block>
+			<block startx ="5" startz ="21" endx ="5" endz ="21"></block>
+			<block startx ="6" startz ="21" endx ="6" endz ="21"></block>
+			<block startx ="7" startz ="21" endx ="7" endz ="21"></block>
+			<block startx ="8" startz ="21" endx ="8" endz ="21"></block>
+			<block startx ="9" startz ="21" endx ="9" endz ="21"></block>
+			<block startx ="10" startz ="21" endx ="10" endz ="21"></block>
+			<block startx ="11" startz ="21" endx ="11" endz ="21"></block>
+			<block startx ="12" startz ="21" endx ="12" endz ="21"></block>
+			<block startx ="13" startz ="21" endx ="13" endz ="21"></block>
+			<block startx ="14" startz ="21" endx ="14" endz ="21"></block>
+			<block startx ="15" startz ="21" endx ="15" endz ="21"></block>
+			<block startx ="16" startz ="21" endx ="16" endz ="21"></block>
+			<block startx ="17" startz ="21" endx ="17" endz ="21"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

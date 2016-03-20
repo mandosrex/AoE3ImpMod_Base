@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130019" imagepath = "patch\plymouth\plymouth" displayNameID = "130018" cannotReplace = ""
+         loadDetails="130020" loadBackground="patch\plymouth\plymouth_map">
+   <loadss>patch\plymouth\plymouth_ss_01</loadss>
+   <loadss>patch\plymouth\plymouth_ss_02</loadss>
+   <loadss>patch\plymouth\plymouth_ss_03</loadss>
+</mapinfo>

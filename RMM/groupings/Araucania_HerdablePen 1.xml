@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>4</width>
+	<height>4</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="185" posx ="-3.9162" posz ="-2.7371" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">FenceRock</unit>
+		<unit variation ="170" posx ="-3.2472" posz ="-2.8219" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsColony</unit>
+		<unit variation ="185" posx ="-2.7089" posz ="-3.9478" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">FenceRock</unit>
+		<unit variation ="89" posx ="-1.8292" posz ="-2.4190" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">UnderbrushForest</unit>
+		<unit variation ="68" posx ="2.3767" posz ="-2.5829" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">UnderbrushForest</unit>
+		<unit variation ="52" posx ="3.7949" posz ="-2.6024" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">FenceRock</unit>
+		<unit variation ="158" posx ="2.3502" posz ="-3.7152" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">FenceRock</unit>
+		<unit variation ="170" posx ="0.9157" posz ="-3.2902" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsColony</unit>
+		<unit variation ="110" posx ="-1.2356" posz ="-1.7957" orientx ="0.9271" orienty ="-0.0256" orientz ="-0.3739">Llama</unit>
+		<unit variation ="110" posx ="1.3618" posz ="-2.2906" orientx ="-0.9999" orienty ="0.0097" orientz ="-0.0075">Llama</unit>
+		<unit variation ="89" posx ="3.1631" posz ="0.6034" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">UnderbrushForest</unit>
+		<unit variation ="110" posx ="2.0307" posz ="-0.4071" orientx ="0.3824" orienty ="-0.0426" orientz ="-0.9230">Llama</unit>
+		<unit variation ="110" posx ="-2.4965" posz ="0.6563" orientx ="0.9268" orienty ="-0.0119" orientz ="-0.3753">Llama</unit>
+		<unit variation ="175" posx ="-3.8182" posz ="2.6049" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">FenceRock</unit>
+		<unit variation ="68" posx ="-2.2760" posz ="2.3622" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">UnderbrushForest</unit>
+		<unit variation ="89" posx ="-1.0061" posz ="1.5025" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">UnderbrushForest</unit>
+		<unit variation ="68" posx ="2.5468" posz ="2.5467" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">UnderbrushForest</unit>
+		<unit variation ="90" posx ="3.7120" posz ="2.7893" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">FenceRock</unit>
+		<unit variation ="110" posx ="1.4640" posz ="2.2505" orientx ="-0.9999" orienty ="0.0105" orientz ="-0.0075">Llama</unit>
+		<unit variation ="110" posx ="-0.7399" posz ="1.7917" orientx ="-0.9210" orienty ="0.0050" orientz ="-0.3896">Llama</unit>
+		<unit variation ="240" posx ="-2.5411" posz ="3.8547" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">FenceRock</unit>
+		<unit variation ="170" posx ="-1.3586" posz ="3.1939" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsColony</unit>
+		<unit variation ="212" posx ="2.3868" posz ="3.7916" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">FenceRock</unit>
+		<unit variation ="171" posx ="-0.5057" posz ="3.8725" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">PropsColony</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Campaign>
+   <!-- DisplayName.  The non-localized name the user will see for this campaign.  -->
+   <DisplayName>Master the Basics</DisplayName>
+   <!-- DisplayNameStringID.  The localized string ID for the name the user will see for this campaign.  Overrides DisplayName.  -->
+   <DisplayNameStringID>42362</DisplayNameStringID>
+
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>age 3 tutorial\age3tutorial1</Filename>
+      <DisplayName>Master the Basics</DisplayName>
+      <DisplayNameStringID>42362</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>42362</LoadTextID>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+   
+</Campaign>
