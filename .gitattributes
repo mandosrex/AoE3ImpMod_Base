@@ -1,2 +1,0 @@
-*.bar filter=lfs diff=lfs merge=lfs -text
-DataPM.bar filter=lfs diff=lfs merge=lfs -text
