@@ -1,0 +1,1328 @@
+<!--sample XML fragment-->
+<ChatSets>
+	<Chatset name="HomeCity">
+		<Tag type="HCChat" name="PeasantMale" priority="Background">
+			<Sentence>
+				<String>Help, I'm being oppressed!</String>
+				<StringID>37946</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Off to the cheese shop again.</String>
+				<StringID>37947</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Think I'll go for a walk.</String>
+				<StringID>37948</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'm not dead yet.</String>
+				<StringID>37949</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Maybe I'll duck into the pub for a pint.</String>
+				<StringID>37950</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Look at all them rats!</String>
+				<StringID>37951</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Cough, cough. Stinking pollution.</String>
+				<StringID>37952</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Now that's a sour wind.</String>
+				<StringID>37953</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Let's go.</String>
+				<StringID>37954</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mutton today. Mutton yesterday.</String>
+				<StringID>37955</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Think I'll drink a boot.</String>
+				<StringID>37956</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="MiddleClassMale" priority="Background">
+			<Sentence>
+				<String>It's good to be bourgeois.</String>
+				<StringID>37957</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I wonder what they're wearing in Paris this year?</String>
+				<StringID>37958</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I must get these pants mended.</String>
+				<StringID>37959</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I need a good cigar.</String>
+				<StringID>37960</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Coffee or tea?</String>
+				<StringID>37961</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="PeasantChildFemale" priority="Background">
+			<Sentence>
+				<String>Mommy, I like beans.</String>
+				<StringID>37962</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, that dog took my toy bunny.</String>
+				<StringID>37963</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, what is that man doing?</String>
+				<StringID>37964</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, does that dog have rabies?</String>
+				<StringID>37965</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, why is he standing in the alley?</String>
+				<StringID>37966</StringID>
+			</Sentence>
+			<Sentence>
+				<String>But that's not daddy!</String>
+				<StringID>37967</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, that cat isn't moving.</String>
+				<StringID>37968</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, that dog is chasing that cat.</String>
+				<StringID>37969</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, that butcher is chasing that dog.</String>
+				<StringID>37970</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, that policeman is chasing that butcher.</String>
+				<StringID>37971</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, that policeman is beating that man.</String>
+				<StringID>37972</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, that man is still floating in the harbor.</String>
+				<StringID>37973</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, that man's not wearing many clothes.</String>
+				<StringID>37974</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, why do you buy so much gin?</String>
+				<StringID>37975</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mommy, where do babies come from?</String>
+				<StringID>41729</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="PeasantChildMale" priority="Background">
+			<Sentence>
+				<String>Blimey!</String>
+				<StringID>37976</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Covered in filth, I am.</String>
+				<StringID>37977</StringID>
+			</Sentence>
+			<Sentence>
+				<String>This is my pet rat, Plaguey.</String>
+				<StringID>37978</StringID>
+			</Sentence>
+			<Sentence>
+				<String>This is my pet pigeon, Droppy.</String>
+				<StringID>37979</StringID>
+			</Sentence>
+			<Sentence>
+				<String>This is my pet squirrel, Bitey.</String>
+				<StringID>37980</StringID>
+			</Sentence>
+			<Sentence>
+				<String>This is my pet bat, Foamy.</String>
+				<StringID>37981</StringID>
+			</Sentence>
+			<Sentence>
+				<String>This is my pet worm, Smeary.</String>
+				<StringID>37982</StringID>
+			</Sentence>
+			<Sentence>
+				<String>This is my pet louse, Itchy.</String>
+				<StringID>37983</StringID>
+			</Sentence>
+			<Sentence>
+				<String>This is my pet weevil, Crunchy.</String>
+				<StringID>37984</StringID>
+			</Sentence>
+			<Sentence>
+				<String>This is my pet frog, Squeezy.</String>
+				<StringID>37985</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Where's my mummy?</String>
+				<StringID>37986</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I didn't take it! Just borrowd it for a bit.</String>
+				<StringID>37987</StringID>
+			</Sentence>
+			<Sentence>
+				<String>How can I be an urchin if I ain't got no spines?</String>
+				<StringID>37988</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="PeasantFisherman" priority="Background">
+			<Sentence>
+				<String>Once caught a fish with four eyes.</String>
+				<StringID>37989</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I guess I could always eat the worms.</String>
+				<StringID>37990</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Aye, this fish hasn't been dead too long.</String>
+				<StringID>37991</StringID>
+			</Sentence>
+			<Sentence>
+				<String>That fish smells a bit.</String>
+				<StringID>37992</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Once caught a fish with two tails.</String>
+				<StringID>37993</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Once caught a fish wearing spectacles.</String>
+				<StringID>37994</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Once caught a fish in a top hat. Ran for mayor he did.</String>
+				<StringID>37995</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I fish a bit, then I sleeps under the docks.</String>
+				<StringID>37996</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Don't eat them green fish. Not ripe yet.</String>
+				<StringID>37997</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="PeasantSweeper" priority="Background">
+			<Sentence>
+				<String>Sweeps em off der feet I do.</String>
+				<StringID>37998</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Good luck will rub off if I shake hands with you.</String>
+				<StringID>37999</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Is that dried paint or blood?</String>
+				<StringID>38000</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Street sweeping is just my day job. I'm really an actor.</String>
+				<StringID>38001</StringID>
+			</Sentence>
+			<Sentence>
+				<String>What exactly is a chamber pot?</String>
+				<StringID>38002</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="UpperClassMale" priority="Background">
+			<Sentence>
+				<String>Are those peasants revolting again?</String>
+				<StringID>38003</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I say, good chap.</String>
+				<StringID>38004</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Tally ho!</String>
+				<StringID>38005</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Chauncy, where's my wig?</String>
+				<StringID>38006</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Chauncy, powder my wig.</String>
+				<StringID>38007</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Spit. Spot.</String>
+				<StringID>38008</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Chauncy, are you wearing my wig?</String>
+				<StringID>38009</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Chauncy, this is NOT my wig.</String>
+				<StringID>38010</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Chauncy, my wig smells of elderberries.</String>
+				<StringID>38011</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Chauncy, my wig is wet.</String>
+				<StringID>38012</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I can see how you think that might be better.</String>
+				<StringID>41727</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I have heard your feedback and ignored it.</String>
+				<StringID>41728</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="MiddleClassFemale" priority="Background">
+			<Sentence>
+				<String>I'm off to churn the butter.</String>
+				<StringID>38013</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'm off to milk the cows.</String>
+				<StringID>38014</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'm off to buy a bit o' gin.</String>
+				<StringID>38015</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'm off to burn some books.</String>
+				<StringID>38016</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'm off to see the stoning.</String>
+				<StringID>38017</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'm off to see the hanging.</String>
+				<StringID>38018</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'm off to see the guillotine.</String>
+				<StringID>38019</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'm off to buy some fish for Friday.</String>
+				<StringID>38020</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Yes, it's real fur. No, it's beagle.</String>
+				<StringID>38021</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="UpperClassFemale" priority="Background">
+			<Sentence>
+				<String>Let them eat cake!</String>
+				<StringID>38022</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Is it tea time yet?</String>
+				<StringID>38023</StringID>
+			</Sentence>
+			<Sentence>
+				<String>That dress is so last month.</String>
+				<StringID>38024</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I wouldn't be caught dead in that getup.</String>
+				<StringID>38025</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I have a dress just like that. But nicer.</String>
+				<StringID>38026</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Yes, it's real fur. No, it's mink.</String>
+				<StringID>38027</StringID>
+			</Sentence>
+			<Sentence>
+				<String>This street smells like peasants.</String>
+				<StringID>38028</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="PeasantFemale" priority="Background">
+			<Sentence>
+				<String>Feed the birds? Tupence a bag.</String>
+				<StringID>38029</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Yes, it's real fur. No, it's rat.</String>
+				<StringID>38030</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Is there a problem ociffer er officer?</String>
+				<StringID>38031</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Are you going to finish that, guvna? Can I?</String>
+				<StringID>38032</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'm so hungry, guvna.</String>
+				<StringID>38033</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Mornin' guvna.</String>
+				<StringID>38034</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Out with the mistress again, guvna? No, I didn't see you.</String>
+				<StringID>38035</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Clean your chamber pots, guvna?</String>
+				<StringID>38036</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Feel a spot of plague I do.</String>
+				<StringID>38037</StringID>
+			</Sentence>
+			<Sentence>
+				<String>No, I've already had the plague. You can't catch it twice.</String>
+				<StringID>38038</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Cough. Hack. Bleedin' smog.</String>
+				<StringID>38039</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="MiddleClassButcher" priority="Background">
+			<Sentence>
+				<String>Want a side of beef?</String>
+				<StringID>38040</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Maybe a side of cat?</String>
+				<StringID>38041</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Fillin' up me sausages with this and that.</String>
+				<StringID>38042</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I gots a nine inch kielbasa.</String>
+				<StringID>38043</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Looks like a downer cow.</String>
+				<StringID>38044</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Steal me sausages, mutt, and you'll end up in 'em.</String>
+				<StringID>38045</StringID>
+			</Sentence>
+			<Sentence>
+				<String>No, the meat's supposed to be that colour.</String>
+				<StringID>38046</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Butcher: They call me Schwettie. Care for a famous Schwettie sausage?</String>
+				<StringID>41732</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="MiddleClassMusician" priority="Background">
+			<Sentence>
+				<String>Want to hear a song?</String>
+				<StringID>38047</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Sings: Envoy! Envoy!</String>
+				<StringID>38048</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Sings: Black Riders! Stay away from my girlfriend!</String>
+				<StringID>38049</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Sings: God, save the gracious queen.</String>
+				<StringID>38050</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Sings: Oh I wish I were a nine-inch kielbasa.</String>
+				<StringID>38051</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Sings: Me supa happy.</String>
+				<StringID>38052</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="MiddleClassPoliceman" priority="Background">
+			<Sentence>
+				<String>I'll run you into the station.</String>
+				<StringID>38053</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Stop assembling here!</String>
+				<StringID>38054</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'll show you police brutality!</String>
+				<StringID>38055</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'll show you sedition!</String>
+				<StringID>38056</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'll show you extortion!</String>
+				<StringID>38057</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'll show you police corruption!</String>
+				<StringID>38058</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'll show you police brutality!</String>
+				<StringID>38059</StringID>
+			</Sentence>
+			<Sentence>
+				<String>You'll need to bribe me for that.</String>
+				<StringID>38060</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'll whop you with my billy club.</String>
+				<StringID>38061</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'll show you a crooked cop!</String>
+				<StringID>38062</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'll show you drinking on the job!</String>
+				<StringID>38063</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Policeman: Let me introduce you to Billy. Billy club!</String>
+				<StringID>41736</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="MiddleClassPreacher" priority="Background">
+			<Sentence>
+				<String>I'm preachy.</String>
+				<StringID>38064</StringID>
+			</Sentence>
+			<Sentence>
+				<String>The end is near.</String>
+				<StringID>38065</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Blessed are the cheesemakers.</String>
+				<StringID>38066</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Lord, you are so very big.</String>
+				<StringID>38067</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Praise Him for His mighty axe, er might acts.</String>
+				<StringID>38068</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Wololo...</String>
+				<StringID>38069</StringID>
+			</Sentence>
+			<Sentence>
+				<String>What's this about adamantium gates?</String>
+				<StringID>38070</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="PeasantPainter" priority="Background">
+			<Sentence>
+				<String>I paint things.</String>
+				<StringID>38071</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Don't restrict my artistic vision!</String>
+				<StringID>38072</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Blast it. Out of red again.</String>
+				<StringID>38073</StringID>
+			</Sentence>
+			<Sentence>
+				<String>It's not graffiti. It's art.</String>
+				<StringID>38074</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I always paints unicorns.</String>
+				<StringID>38075</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Unicorns in glades are my favorite thing to paint.</String>
+				<StringID>38076</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Gots me paints, me easel, and me gin.</String>
+				<StringID>38077</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Streaks are the new blooms.</String>
+				<StringID>38078</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I heart spec maps</String>
+				<StringID>38079</StringID>
+			</Sentence>
+			<Sentence>
+				<String>This piece? I call it man with no job.</String>
+				<StringID>41730</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="Juggler" priority="Background">
+			<Sentence>
+				<String>Watch me juggle six eggs.</String>
+				<StringID>38080</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Watch me juggle two fish and a cat.</String>
+				<StringID>38081</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Watch me juggle this axe... ouch!.</String>
+				<StringID>38082</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Watch me juggle a brick, two hens and a serving wench.</String>
+				<StringID>38083</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Watch me juggle a frog, a ham and a three-legged cat.</String>
+				<StringID>38084</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Watch me juggle these two street urchins.</String>
+				<StringID>38085</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Watch me juggle these here plague rats... Ow!</String>
+				<StringID>38086</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Watch me juggle fifteen cents, a nail and a grandfather snail.</String>
+				<StringID>38087</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Watch me juggle a flaming torch, a coconut and a herring.</String>
+				<StringID>38088</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="Torchy" priority="Background">
+			<Sentence>
+				<String>Watch this!</String>
+				<StringID>38089</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Ouch! Burnt me tonsil.</String>
+				<StringID>38090</StringID>
+			</Sentence>
+			<Sentence>
+				<String>That was some potent rum.</String>
+				<StringID>38091</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Look at me!</String>
+				<StringID>38092</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Do I smell something burning?</String>
+				<StringID>38093</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Don't throw things! I'm just warming up! Ba dum bum.</String>
+				<StringID>38094</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Don't try this at home, kids.</String>
+				<StringID>38095</StringID>
+			</Sentence>
+			<Sentence>
+				<String>I'm a trained professional.</String>
+				<StringID>38096</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hey, those are the kids what beat me up Tuesday.</String>
+				<StringID>38097</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Doh!</String>
+				<StringID>38098</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Torchy: I might look good, but I have burns on two-thirds of my body.</String>
+				<StringID>41731</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="PeasantVendor" priority="Background">
+			<Sentence>
+				<String>Vendor: Act now and receive this special offer.</String>
+				<StringID>38106</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Vendor: Now how much would you pay?</String>
+				<StringID>38107</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Vendor: Goat cheese! Goat cheese for sale!</String>
+				<StringID>41740</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Vendor: Bling! Bling for sale.</String>
+				<StringID>41741</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Vendor: Come and get your cookies. Cheap. Slightly used.</String>
+				<StringID>41741</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Vendor: Caveat emptor.</String>
+				<StringID>41742</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Vendor: You break it, I break you.</String>
+				<StringID>41743</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Vendor: Turnips! Fresh turnips! Old ones too.</String>
+				<StringID>41744</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Vendor: Eel! Get your fresh eel right here!</String>
+				<StringID>41745</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="Drunk" priority="Background">
+			<Sentence>
+				<String>Hic!</String>
+				<StringID>38108</StringID>
+			</Sentence>
+			<Sentence>
+				<String>A hundred bottles of rum on the wall...</String>
+				<StringID>38109</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Brains....</String>
+				<StringID>41954</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Braaaiiiins....</String>
+				<StringID>41956</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Brains... brains....</String>
+				<StringID>41955</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="Thug" priority="Background">
+			<Sentence>
+				<String>Thug: I'm gonna make you an offer you can't refuse.</String>
+				<StringID>38110</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Thug: Pay up or else!</String>
+				<StringID>38111</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Thug: What we got is a failure to communicate, see?</String>
+				<StringID>38112</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Thug: Gimmee your lunch money!</String>
+				<StringID>38113</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="Prostitute" priority="Background">
+			<Sentence>
+				<String>Lady: Hey, sailor.</String>
+				<StringID>38114</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Lady: Is it evening yet?</String>
+				<StringID>38115</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Lady: Hey, it pays the rent.</String>
+				<StringID>38116</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Lady: You new in town?</String>
+				<StringID>38117</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Nice Lady: And now the money just rolls in.</String>
+				<StringID>41733</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="MiddleClassBeefeater" priority="Background">
+			<Sentence>
+				<String>Beefeater: It's what's for dinner.</String>
+				<StringID>41688</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Beefeater: No, the gin was named after us, you see.</String>
+				<StringID>41689</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Beefeater: Had to work 22 years to earn the right to weat this hat.</String>
+				<StringID>41690</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Beefeater: We're granted an extra ration of beef, see?</String>
+				<StringID>41691</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Beefeater: No, I will not pose with tourists.</String>
+				<StringID>41692</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Beefeater: Don't feed the ravens.</String>
+				<StringID>41693</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Beefeater: No, no, I'm a vegetarian.</String>
+				<StringID>41734</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="JackTheRipper" priority="Background">
+			<Sentence>
+				<String>Jack: I've never even been to Whitechapel.</String>
+				<StringID>41694</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Jack: No, you've got the wrong guy.</String>
+				<StringID>41695</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Jack: Nobody goes to the East End.</String>
+				<StringID>41696</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Jack: There are those who call me... Graeme.</String>
+				<StringID>41697</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Jack: Dear Boss....</String>
+				<StringID>41698</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Jack: That's not a razor. This is a razor!</String>
+				<StringID>41735</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="RussianPoliceman1" priority="Background">
+			<Sentence>
+				<String>Strelet: Greetings, comrade.</String>
+				<StringID>41699</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: Where were you last Tuesday night?</String>
+				<StringID>41700</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: We have ways of making you talk.</String>
+				<StringID>41701</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: The Czar is watching you.</String>
+				<StringID>41702</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: Nyet, I've not seen Anastasia.</String>
+				<StringID>41703</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: We don't call him The Terrible for nothing.</String>
+				<StringID>41704</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: You are going to be disappeared.</String>
+				<StringID>41705</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: No, I'm Boris. He's Ivan.</String>
+				<StringID>41706</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: I come from a family of seventy. We're all strelets.</String>
+				<StringID>41739</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: My five brothers were all strelets too.</String>
+				<StringID>41738</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: The health plan's not good, but I do get to beat people up.</String>
+				<StringID>41737</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="RussianPoliceman2" priority="Background">
+			<Sentence>
+				<String>Strelet: Greetings, comrade.</String>
+				<StringID>41699</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: Where were you last Tuesday night?</String>
+				<StringID>41700</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: We have ways of making you talk.</String>
+				<StringID>41701</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: The Czar is watching you.</String>
+				<StringID>41702</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: Nyet, I've not seen Anastasia.</String>
+				<StringID>41703</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: We don't call him The Terrible for nothing.</String>
+				<StringID>41704</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: You are going to be disappeared.</String>
+				<StringID>41705</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: No, I'm Boris. He's Ivan.</String>
+				<StringID>41706</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: I come from a family of seventy. We're all strelets.</String>
+				<StringID>41739</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: My five brothers were all strelets too.</String>
+				<StringID>41738</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Strelet: The health plan's not good, but I do get to beat people up.</String>
+				<StringID>41737</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="Hunchback" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>41707</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>41708</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>41709</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>41710</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: They had to cut my benefits.</String>
+				<StringID>41711</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: Wait, this isn't Notre Dame.</String>
+				<StringID>41712</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: Hump? What hump?</String>
+				<StringID>41713</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="JapanesePeasantMale" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70096</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70097</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70098</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70099</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="JapanesePeasantFemale" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70104</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70105</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70106</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70107</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="JapaneseLady" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70127</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70128</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70129</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70130</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="JapaneseSamurai" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70113</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70114</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70115</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70116</StringID>
+			</Sentence>
+			<Sentence>
+				<StringID>70117</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="JapaneseMonk" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70118</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70119</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70120</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70121</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="JapaneseGeisha" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70100</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70101</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70102</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70103</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="JapaneseRonin" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70108</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70109</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70110</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70111</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="JapaneseStreetPerformer" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70122</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70123</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70124</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70125</StringID>
+			</Sentence>
+			<Sentence>
+				<StringID>70126</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="ChineseMan" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70131</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70132</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70133</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70134</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="ChineseWoman" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70137</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70138</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70139</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70140</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="ChineseNoblewoman" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70145</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70146</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70147</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70148</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="ChineseNobleman" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70141</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70142</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70143</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70144</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="ChineseMonk" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70149</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70150</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70151</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70152</StringID>
+			</Sentence>
+			<Sentence>
+				<StringID>70153</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="ChineseStreetPerformer" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70154</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70155</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70156</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70157</StringID>
+			</Sentence>
+			<Sentence>
+				<StringID>70158</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="IndianGirl" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70159</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70160</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70161</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="IndianWoman" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70166</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70167</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70168</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70169</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="IndianGentleman" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70162</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70163</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70164</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70165</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="IndianMan" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70170</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70171</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70172</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70173</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="IndianMonk" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70174</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70175</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70176</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70177</StringID>
+			</Sentence>
+		</Tag>
+		<Tag type="HCChat" name="IndianSnakecharmer" priority="Background">
+			<Sentence>
+				<String>Hunchback: Rats! Rats for sale.</String>
+				<StringID>70178</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I gets to ring the bell.</String>
+				<StringID>70179</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: I like to say hi to the pretty ladies.</String>
+				<StringID>70180</StringID>
+			</Sentence>
+			<Sentence>
+				<String>Hunchback: My friends call be Quasi.</String>
+				<StringID>70181</StringID>
+			</Sentence>
+			<Sentence>
+				<StringID>70182</StringID>
+			</Sentence>
+		</Tag>
+	</Chatset>
+</ChatSets>

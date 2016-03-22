@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>12</width>
+	<height>15</height>
+	<ignorePlacementRules>0</ignorePlacementRules>
+	<selectAsSingleUnit>1</selectAsSingleUnit>
+	<units>
+		<unit Variation ="248" posX ="-4.9930" posZ ="-7.1526" orientX ="-0.7071" orientY ="0.0000" orientZ ="0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="13" posX ="-0.9635" posZ ="-7.1126" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">UnderbrushGreatPlains</unit>
+		<unit Variation ="198" posX ="-0.9968" posZ ="-4.3298" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="33" posX ="4.7368" posZ ="-4.3087" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="252" posX ="1.3458" posZ ="-4.8723" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="207" posX ="2.4482" posZ ="-4.8562" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="111" posX ="-5.6217" posZ ="-4.5394" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">GroundPropsGP</unit>
+		<unit Variation ="143" posX ="-5.0177" posZ ="-2.8966" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="207" posX ="2.8320" posZ ="-3.5545" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="170" posX ="-2.5093" posZ ="-0.7559" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">GroundDecalGP</unit>
+		<unit Variation ="252" posX ="-1.8515" posZ ="-1.5445" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="111" posX ="-1.5540" posZ ="-2.0874" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">GroundPropsGP</unit>
+		<unit Variation ="111" posX ="-2.6624" posZ ="-1.4235" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">GroundPropsGP</unit>
+		<unit Variation ="111" posX ="-6.9046" posZ ="-2.2038" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="201" posX ="1.6416" posZ ="-1.4314" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="111" posX ="1.8212" posZ ="0.7439" orientX ="0.7071" orientY ="0.0000" orientZ ="0.7071">GroundPropsGP</unit>
+		<unit Variation ="21" posX ="0.9613" posZ ="1.0971" orientX ="0.7071" orientY ="0.0000" orientZ ="0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="192" posX ="-7.4374" posZ ="2.2858" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">UnderbrushGreatPlains</unit>
+		<unit Variation ="207" posX ="-5.3954" posZ ="2.5303" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="145" posX ="-1.6984" posZ ="4.1973" orientX ="0.9239" orientY ="0.0000" orientZ ="-0.3827">UnderbrushGreatPlains</unit>
+		<unit Variation ="176" posX ="1.6782" posZ ="2.7930" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="48" posX ="-3.4974" posZ ="2.3859" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="207" posX ="-0.0192" posZ ="1.7944" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="187" posX ="-3.9674" posZ ="4.7848" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="29" posX ="3.6571" posZ ="3.4947" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="111" posX ="-0.3069" posZ ="3.7210" orientX ="0.7071" orientY ="0.0000" orientZ ="0.7071">GroundPropsGP</unit>
+		<unit Variation ="231" posX ="11.1712" posZ ="14.6978" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

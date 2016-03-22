@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>12</width>
+	<height>13</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="97" posx ="2.4874" posz ="-10.2563" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0000">UnderbrushForest</unit>
+		<unit variation ="85" posx ="-2.6369" posz ="-10.3399" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">UnderbrushForest</unit>
+		<unit variation ="244" posx ="9.9831" posz ="-10.4846" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="134" posx ="6.8819" posz ="-11.8846" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">UnderbrushForest</unit>
+		<unit variation ="35" posx ="4.2580" posz ="-10.4946" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushForest</unit>
+		<unit variation ="231" posx ="-4.6620" posz ="-10.4888" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushForest</unit>
+		<unit variation ="183" posx ="-7.1343" posz ="-9.1978" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">RuinWallSmall</unit>
+		<unit variation ="149" posx ="-0.9726" posz ="-8.2175" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="205" posx ="6.0193" posz ="-9.4250" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">RuinWallSmall</unit>
+		<unit variation ="78" posx ="8.8365" posz ="-9.4596" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">RuinWallSmall</unit>
+		<unit variation ="41" posx ="-7.1156" posz ="-5.0054" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">RuinWallLarge</unit>
+		<unit variation ="214" posx ="3.3829" posz ="-9.2959" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">RuinWallSmall</unit>
+		<unit variation ="228" posx ="-2.6124" posz ="-9.2387" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">RuinWallLarge</unit>
+		<unit variation ="67" posx ="-4.2993" posz ="-6.2084" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="112" posx ="-9.1230" posz ="-1.0120" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0000">UnderbrushForest</unit>
+		<unit variation ="146" posx ="-7.1765" posz ="1.1340" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">RuinWallSmall</unit>
+		<unit variation ="157" posx ="-7.1455" posz ="3.9406" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">RuinWallSmall</unit>
+		<unit variation ="22" posx ="-8.4095" posz ="6.1910" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="147" posx ="-7.2648" posz ="7.3274" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">RuinWallMedium</unit>
+		<unit variation ="237" posx ="-6.5219" posz ="10.0440" orientx ="-0.9239" orienty ="0.0000" orientz ="0.3827">UnderbrushForest</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE layout SYSTEM "uilayout.dtd"[]>
+
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Karen Swanson (Ensemble Studios) -->
+<layout>  
+	<gadget name="MapPicker" type="gadget" size1024="0 0 1024 768" background="" windowZStyle="">    
+		<gadget name="MapPicker-Background" type="gadget" size1024="6 16 1019 755" background="ui\file_system\file_system_background" tileBackground="" Z="8">      
+			<!--Borders-->
+			      
+			<gadget tileBackgroundHoriz="" name="MapPicker-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="1 1 1025 17" Z="5" />      
+			<gadget tileBackgroundHoriz="" name="MapPicker-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="1 753 1025 769" Z="5" />      
+			<gadget tileBackgroundVert="" name="MapPicker-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="1 1 9 769" Z="5" />      
+			<gadget tileBackgroundVert="" name="MapPicker-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="1017 1 1025 769" Z="5" />      
+			<gadget name="MapPicker-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="1 1 33 33" clampBackground="" Z="10" />      
+			<gadget name="MapPicker-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="1 737 33 769" clampBackground="" Z="10" />      
+			<gadget name="MapPicker-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="993 737 1025 769" clampBackground="" Z="10" />      
+			<gadget name="MapPicker-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="993 1 1025 33" clampBackground="" Z="10" />      
+		</gadget>    
+		<!--Header-->
+		    
+		<gadget name="MapPicker-Label" textCenterVert="" textColor="3 0 88" textFontSize="22" textFont="PregameHeaders" type="formatText" size1024="52 23 345 48" Z="11">$$19881$$Map Picker</gadget>    
+		<gadget name="MapPicker-Page" textCenterVert="" textColor="3 0 88" textFontSize="22" textFont="PregameHeaders" type="formatText" textCenterHoriz="" size1024="837 23 918 48" Z="11">$$19922$$Page</gadget>    
+		<gadget name="MapPicker-ScreenSeparator" type="gadget" size1024="32 52 992 54" background="missing" Z="11" />    
+		<!--buttons-->
+		    
+		<gadget name="MapPicker-PrevSelect" type="stateButton" size1024="790 23 837 48" bevelButton="" Z="50" stateButtonUseInternalStates="" textureCoords="0 0 1 1" mouseoverText="$$19921$$View previous page of maps">      
+			<stateEntry background="ui\core_ui\arrow_left" />      
+			<!-- Normal State -->
+			      
+			<stateEntry background="ui\core_ui\arrow_left_clicked" />      
+			<!-- Depressed State -->
+			      
+			<stateEntry background="ui\core_ui\arrow_left_rollover" />      
+			<!-- Highlight State -->
+			      
+			<stateEntry background="ui\core_ui\arrow_left_disabled" />      
+			<!-- Disabled State -->
+			    
+		</gadget>    
+		<gadget name="MapPicker-NextSelect" type="stateButton" size1024="918 23 965 48" bevelButton="" Z="50" stateButtonUseInternalStates="" textureCoords="0 0 1 1" mouseoverText="$$19920$$View next page of maps">      
+			<stateEntry background="ui\core_ui\arrow_right" />      
+			<!-- Normal State -->
+			      
+			<stateEntry background="ui\core_ui\arrow_right_clicked" />      
+			<!-- Depressed State -->
+			      
+			<stateEntry background="ui\core_ui\arrow_right_rollover" />      
+			<!-- Highlight State -->
+			      
+			<stateEntry background="ui\core_ui\arrow_right_disabled" />      
+			<!-- Disabled State -->
+			    
+		</gadget>    		
+		<!--
+		<gadget name="MapPicker-OKButton" type="stateButton" size1024="374 716 502 748" bevelButton="" Z="50" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="3 0 88" mouseoverText="$$18427$$Accept selection and close this screen.">$$18465$$OK<stateEntry background="ui\core_ui\button_128x32_normal" hidden="" />
+			<stateEntry background="ui\core_ui\button_128x32_clicked" />
+			<stateEntry background="ui\core_ui\button_128x32_rollover" />
+			<stateEntry background="" />
+		</gadget>    
+		-->
+		<gadget name="MapPicker-CancelButton" type="stateButton" size1024="432 716 560 748" bevelButton="" Z="50" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="3 0 88" mouseoverText="$$18428$$Ignore changes and close this screen.">$$18466$$Cancel <stateEntry background="ui\core_ui\button_128x32_normal" />
+			<!-- Normal State -->
+			<stateEntry background="ui\core_ui\button_128x32_clicked" />
+			<!-- Depressed State -->
+			<stateEntry background="ui\core_ui\button_128x32_rollover" />
+			<!-- Highlight State -->
+			<stateEntry background="" />
+		</gadget>    
+		<!--Map Selection-->
+		    
+		<gadget name="MapPicker-Maps" type="gadget" size1024="43 56 961 711" background="" Z="9">      
+			<!--Row 1-->			      
+	      <gadget name="MapPicker-R1C1-Button" type="stateButton" size1024="65 57 215 207" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R1C2-Button" type="stateButton" size1024="245 57 395 207" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R1C3-Button" type="stateButton" size1024="423 57 573 207" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R1C4-Button" type="stateButton" size1024="603 57 753 207" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R1C5-Button" type="stateButton" size1024="782 57 932 207" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      
+			<!--Row 2-->			      
+	      <gadget name="MapPicker-R2C1-Button" type="stateButton" size1024="65 223 215 373" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R2C2-Button" type="stateButton" size1024="245 223 395 373" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R2C3-Button" type="stateButton" size1024="422 223 572 373" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R2C4-Button" type="stateButton" size1024="604 223 754 373" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R2C5-Button" type="stateButton" size1024="782 223 932 373" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+			<!--Row 3-->			      
+	      <gadget name="MapPicker-R3C1-Button" type="stateButton" size1024="65 389 215 539" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R3C2-Button" type="stateButton" size1024="245 391 395 541" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R3C3-Button" type="stateButton" size1024="421 392 571 542" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R3C4-Button" type="stateButton" size1024="605 392 755 542" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R3C5-Button" type="stateButton" size1024="782 388 932 538" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>   
+	       
+			<!--Row 4-->			      
+	      <gadget name="MapPicker-R4C1-Button" type="stateButton" size1024="65 554 215 704" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R4C2-Button" type="stateButton" size1024="245 556 395 706" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R4C3-Button" type="stateButton" size1024="421 557 571 707" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R4C4-Button" type="stateButton" size1024="604 557 754 707" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    
+	      <gadget name="MapPicker-R4C5-Button" type="stateButton" size1024="783 557 933 707" bevelButton="" Z="11" stateButtonUseInternalStates="" textFont="PregameButtons" textFontSize="18" textColor="255 255 255" textCenterHoriz="" textCenterVert="" textureCoords="0 0 1 1">
+		      <!-- Normal State -->
+		      <stateEntry background="ui\core_ui\button_med_normal" />
+		      <!-- Depressed State -->
+		      <stateEntry background="ui\core_ui\button_med_clicked" />
+		      <!-- Highlight State -->
+		      <stateEntry background="ui\core_ui\button_med_high" />
+		      <!-- Inactive State -->
+		      <stateEntry background="ui\core_ui\button_med_disable" />
+	      </gadget>    	          
+		</gadget>    
+		<!--Rollover Help-->
+		    
+		<!-- <gadget name = "Rollover-Background" type = "gadget" size1024 = "48 688 627 742" background = "ui\file_system\file_system_background_dark" outlineColor = "75 55 30" Z = "20" tileBackground = ""/>    
+		<gadget name = "Rollover-HelpDisplay" textMarkUp = "" textWrapOn = "" textColor = "3 0 88" type = "formatText" textFont = "PregameRollover" textFontSize = "14" size1024 = "50 691 625 742" Z = "25"/>  -->
+	</gadget>
+</layout>

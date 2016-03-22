@@ -1,0 +1,98 @@
+<?xml version="1.0"?> 
+
+<savedhomecity version ="1">
+	<civ>Russians</civ>
+	<name>St. Petersburg</name>
+	<heroname></heroname>
+	<herodogname></herodogname>
+	<shipname></shipname>
+	<level>10</level>
+	<xppercentage>0.100837</xppercentage>
+	<numpropunlocksearned>20</numpropunlocksearned>
+	<coffers>
+		<current>
+			<gold>0.000000</gold>
+			<wood>0.000000</wood>
+			<food>0.000000</food>
+			<fame>0.000000</fame>
+			<skillpoints>0.000000</skillpoints>
+			<xp>77016.742188</xp>
+			<ships>0.000000</ships>
+		</current>
+		<maximum>
+			<gold>0.000000</gold>
+			<wood>0.000000</wood>
+			<food>0.000000</food>
+			<fame>0.000000</fame>
+			<skillpoints>-1.000000</skillpoints>
+			<xp>-1.000000</xp>
+			<ships>0.000000</ships>
+		</maximum>
+	</coffers>
+	<decks>
+		<deck>
+			<name>Default</name>
+			<cards>
+				<card>HCShipFoodCrates1</card>
+				<card>HCShipCoveredWagons</card>
+				<card>HCShipStrelets1</card>
+				<card>HCShipMusketeers1</card>
+				<card>HCShipCossacks1</card>
+				<card>HCShipCavArchers1</card>
+				<card>HCShipGrenadiers1</card>
+				<card>HCShipFalconets1</card>
+				<card>HCExplorerRussian</card>
+				<card>HCFurrierTeam</card>
+				<card>HCShipWoodCrates1</card>
+				<card>HCShipCoinCrates1</card>
+				<card>HCShipHalberdiers1</card>
+				<card>HCAdvancedArtilleryRussian</card>
+				<card>HCNativeLore</card>
+				<card>HCColonialMilitia</card>
+				<card>HCHeavyFortifications</card>
+				<card>HCAdvancedMarket</card>
+				<card>HCRoyalDecree</card>
+				<card>HCShipCaravels1</card>
+			</cards>
+		</deck>
+	</decks>
+	<activetechs>
+		<tech>HCShipFoodCrates1</tech>
+		<tech>HCShipCoveredWagons</tech>
+		<tech>HCExplorerRussian</tech>
+		<tech>HCShipWoodCrates1</tech>
+		<tech>HCShipCoinCrates1</tech>
+		<tech>HCShipStrelets1</tech>
+		<tech>HCShipMusketeers1</tech>
+		<tech>HCShipCossacks1</tech>
+		<tech>HCShipCavArchers1</tech>
+		<tech>HCShipGrenadiers1</tech>
+		<tech>HCShipFalconets1</tech>
+		<tech>HCShipHalberdiers1</tech>
+		<tech>HCAdvancedArtilleryRussian</tech>
+		<tech>HCNativeLore</tech>
+		<tech>HCColonialMilitia</tech>
+		<tech>HCHeavyFortifications</tech>
+		<tech>HCAdvancedMarket</tech>
+		<tech>HCRoyalDecree</tech>
+		<tech>HCFurrierTeam</tech>
+		<tech>HCShipCaravels1</tech>
+	</activetechs>
+	<activeprops>
+		<prop enabled ="0">Russian_NWTCTexture0</prop>
+		<prop enabled ="0">Russian_AcademyTexture0</prop>
+		<prop enabled ="0">Russian_ManuPlantTexture0</prop>
+		<prop enabled ="0">Russian_CathedralTexture0</prop>
+		<prop enabled ="1">Russian_DockTexture0</prop>
+		<prop enabled ="0">Russian_NWTCTexture0</prop>
+		<prop enabled ="0">Russian_AcademyTexture0</prop>
+		<prop enabled ="0">Russian_ManuPlantTexture0</prop>
+		<prop enabled ="0">Russian_CathedralTexture0</prop>
+		<prop enabled ="1">Russian_DockTexture0</prop>
+		<prop enabled ="0">Russian_NWTCTexture0</prop>
+		<prop enabled ="0">Russian_AcademyTexture0</prop>
+		<prop enabled ="0">Russian_ManuPlantTexture0</prop>
+		<prop enabled ="0">Russian_CathedralTexture0</prop>
+		<prop enabled ="1">Russian_DockTexture0</prop>
+	</activeprops>
+</savedhomecity>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>11</width>
+	<height>10</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="157" posx ="4.5883" posz ="-8.1558" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushDeccan</unit>
+		<unit variation ="171" posx ="-1.6947" posz ="-5.2984" orientx ="-0.0310" orienty ="0.0000" orientz ="-0.9995">ypSocketBhakti</unit>
+		<unit variation ="29" posx ="-7.1542" posz ="-5.0720" orientx ="0.8792" orienty ="0.0000" orientz ="0.4764">ypSMDeccanAccessory</unit>
+		<unit variation ="157" posx ="6.1060" posz ="-5.7135" orientx ="0.0103" orienty ="0.0000" orientz ="-0.9999">ypSMBhaktiLady</unit>
+		<unit variation ="38" posx ="6.8956" posz ="-3.9009" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="222" posx ="-10.5410" posz ="-1.3135" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushDeccan</unit>
+		<unit variation ="105" posx ="-8.8671" posz ="-1.9534" orientx ="0.1483" orienty ="0.0000" orientz ="0.9889">ypSMDeccanAccessory</unit>
+		<unit variation ="24" posx ="-6.4340" posz ="-1.9204" orientx ="-0.9441" orienty ="0.0000" orientz ="-0.3298">ypSMDeccanAccessory</unit>
+		<unit variation ="53" posx ="6.7153" posz ="0.3492" orientx ="0.8060" orienty ="0.0000" orientz ="-0.5920">ypSMDeccanAccessory</unit>
+		<unit variation ="38" posx ="3.5397" posz ="-0.0184" orientx ="0.5265" orienty ="0.0000" orientz ="-0.8502">ypSMDeccanAccessory</unit>
+		<unit variation ="180" posx ="4.3576" posz ="2.9488" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="210" posx ="0.2631" posz ="3.0674" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="173" posx ="-7.2479" posz ="2.5092" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="23" posx ="-8.1337" posz ="1.6482" orientx ="-0.9996" orienty ="0.0000" orientz ="0.0299">ypSMBhaktiGuy</unit>
+		<unit variation ="207" posx ="5.9769" posz ="2.7145" orientx ="0.9997" orienty ="0.0000" orientz ="0.0249">ypSMBhaktiGuy</unit>
+		<unit variation ="62" posx ="4.9760" posz ="5.0415" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="96" posx ="-2.6859" posz ="3.7158" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleBhakti</unit>
+		<unit variation ="173" posx ="-1.6837" posz ="6.2708" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="135" posx ="5.2963" posz ="6.5123" orientx ="0.9824" orienty ="0.0000" orientz ="0.1870">ypSMDeccanAccessory</unit>
+		<unit variation ="176" posx ="-5.5997" posz ="7.4429" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushDeccan</unit>
+		<unit variation ="87" posx ="-1.8106" posz ="8.3774" orientx ="0.0403" orienty ="0.0000" orientz ="-0.9992">ypSMDeccanAccessory</unit>
+		<unit variation ="72" posx ="-0.6324" posz ="8.5743" orientx ="-0.7731" orienty ="0.0000" orientz ="-0.6343">ypSMDeccanAccessory</unit>
+		<unit variation ="135" posx ="-3.5878" posz ="7.3039" orientx ="-0.8360" orienty ="0.0000" orientz ="-0.5487">ypSMDeccanAccessory</unit>
+		<unit variation ="29" posx ="1.5211" posz ="7.1270" orientx ="0.4764" orienty ="0.0000" orientz ="-0.8792">ypSMDeccanAccessory</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="PassableLand" subtype ="terrain\deccan\ground_dirt2_deccan">
+			<block startx ="-5" startz ="-5" endx ="-5" endz ="-3"></block>
+			<block startx ="-4" startz ="-5" endx ="-4" endz ="-3"></block>
+			<block startx ="-5" startz ="-2" endx ="-5" endz ="4"></block>
+			<block startx ="-4" startz ="-2" endx ="-4" endz ="4"></block>
+			<block startx ="-3" startz ="-2" endx ="-3" endz ="4"></block>
+			<block startx ="-2" startz ="-2" endx ="-2" endz ="4"></block>
+			<block startx ="-1" startz ="-2" endx ="-1" endz ="4"></block>
+			<block startx ="0" startz ="-2" endx ="0" endz ="4"></block>
+			<block startx ="1" startz ="-2" endx ="1" endz ="4"></block>
+			<block startx ="2" startz ="-2" endx ="2" endz ="4"></block>
+			<block startx ="3" startz ="-2" endx ="3" endz ="4"></block>
+			<block startx ="4" startz ="-2" endx ="4" endz ="4"></block>
+			<block startx ="-3" startz ="-5" endx ="-3" endz ="-3"></block>
+			<block startx ="-2" startz ="-5" endx ="-2" endz ="-3"></block>
+			<block startx ="-1" startz ="-5" endx ="-1" endz ="-3"></block>
+			<block startx ="0" startz ="-5" endx ="0" endz ="-3"></block>
+			<block startx ="1" startz ="-5" endx ="1" endz ="-3"></block>
+			<block startx ="2" startz ="-5" endx ="2" endz ="-3"></block>
+			<block startx ="3" startz ="-5" endx ="3" endz ="-3"></block>
+			<block startx ="4" startz ="-5" endx ="4" endz ="-3"></block>
+			<block startx ="5" startz ="-5" endx ="5" endz ="-3"></block>
+			<block startx ="5" startz ="-2" endx ="5" endz ="4"></block>
+		</tilegroup>
+		<heights>
+			<tiles x ="-5" z ="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

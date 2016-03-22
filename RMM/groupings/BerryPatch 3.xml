@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>6</width>
+	<height>1</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="13" posx ="-3.6995" posz ="-1.0201" orientx ="-0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="13" posx ="2.0079" posz ="-1.1003" orientx ="-0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="12" posx ="0.0472" posz ="-0.5111" orientx ="-0.0001" orienty ="0.0000" orientz ="-1.0000">PropsColony</unit>
+		<unit variation ="13" posx ="3.7046" posz ="0.8704" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">PropsNative</unit>
+		<unit variation ="13" posx ="-4.0360" posz ="0.6543" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="2" posx ="5.5339" posz ="0.0867" orientx ="0.7071" orienty ="0.0000" orientz ="-0.7071">SPCFlag</unit>
+		<unit variation ="149" posx ="-5.2538" posz ="0.0889" orientx ="-0.0001" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+		<unit variation ="153" posx ="-3.2538" posz ="0.0886" orientx ="-0.0001" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+		<unit variation ="46" posx ="-1.2538" posz ="0.0884" orientx ="-0.0001" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+		<unit variation ="149" posx ="1.1325" posz ="0.0438" orientx ="-0.0001" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+		<unit variation ="153" posx ="3.1325" posz ="0.0436" orientx ="-0.0001" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+		<unit variation ="46" posx ="5.1325" posz ="0.0433" orientx ="-0.0001" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="Shoreline" subtype ="terrain\patagonia\ground_shoreline3_pat">
+			<block startx ="-3" startz ="0" endx ="-3" endz ="0"></block>
+			<block startx ="-2" startz ="0" endx ="-2" endz ="0"></block>
+			<block startx ="-1" startz ="0" endx ="-1" endz ="0"></block>
+			<block startx ="0" startz ="0" endx ="0" endz ="0"></block>
+			<block startx ="1" startz ="0" endx ="1" endz ="0"></block>
+			<block startx ="2" startz ="0" endx ="2" endz ="0"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

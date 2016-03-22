@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>3</width>
+	<height>3</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="13" posx ="-0.9504" posz ="-3.1172" orientx ="-0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="13" posx ="-2.4427" posz ="-1.1630" orientx ="1.0000" orienty ="0.0000" orientz ="-0.0000">PropsNative</unit>
+		<unit variation ="12" posx ="-1.9203" posz ="-2.8649" orientx ="-0.0001" orienty ="0.0000" orientz ="-1.0000">PropsColony</unit>
+		<unit variation ="3" posx ="-0.7249" posz ="-0.5398" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0002">PropsColony</unit>
+		<unit variation ="59" posx ="-2.0000" posz ="-2.0000" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+		<unit variation ="207" posx ="0.0000" posz ="-2.0000" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+		<unit variation ="134" posx ="2.0000" posz ="-2.0000" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+		<unit variation ="13" posx ="2.5111" posz ="0.8221" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">PropsNative</unit>
+		<unit variation ="12" posx ="2.4182" posz ="0.7610" orientx ="-0.0001" orienty ="0.0000" orientz ="-1.0000">PropsColony</unit>
+		<unit variation ="3" posx ="0.9054" posz ="0.5295" orientx ="-0.3828" orienty ="0.0000" orientz ="-0.9238">PropsColony</unit>
+		<unit variation ="12" posx ="-2.0053" posz ="0.9547" orientx ="0.3829" orienty ="0.0000" orientz ="0.9238">PropsColony</unit>
+		<unit variation ="2" posx ="-0.5575" posz ="0.5173" orientx ="-0.9238" orienty ="0.0000" orientz ="0.3828">PropsColony</unit>
+		<unit variation ="13" posx ="-0.8746" posz ="2.2785" orientx ="-0.0000" orienty ="0.0000" orientz ="-1.0000">PropsNative</unit>
+		<unit variation ="153" posx ="0.0000" posz ="2.0000" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+		<unit variation ="46" posx ="2.0000" posz ="2.0000" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+		<unit variation ="149" posx ="-2.0000" posz ="2.0000" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">BerryBush</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="Shoreline" subtype ="terrain\patagonia\ground_shoreline3_pat">
+			<block startx ="-1" startz ="-1" endx ="-1" endz ="1"></block>
+			<block startx ="0" startz ="-1" endx ="0" endz ="1"></block>
+			<block startx ="1" startz ="-1" endx ="1" endz ="1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

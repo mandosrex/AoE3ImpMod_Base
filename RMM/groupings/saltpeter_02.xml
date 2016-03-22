@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>10</width>
+	<height>11</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="4" posx ="-0.7787" posz ="-9.4665" orientx ="-0.6307" orienty ="0.0000" orientz ="-0.7760">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="155" posx ="0.8806" posz ="-8.4388" orientx ="-0.7371" orienty ="0.0000" orientz ="-0.6758">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="221" posx ="-1.6289" posz ="-9.0500" orientx ="-0.7366" orienty ="0.0000" orientz ="-0.6764">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="102" posx ="-1.2389" posz ="-8.4887" orientx ="0.7937" orienty ="0.0000" orientz ="0.6084">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="241" posx ="-5.2874" posz ="-6.6995" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="59" posx ="2.3376" posz ="-6.5112" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="99" posx ="-3.6304" posz ="-7.2841" orientx ="-0.5400" orienty ="0.0000" orientz ="0.8417">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="231" posx ="0.4152" posz ="-7.2424" orientx ="0.0408" orienty ="0.0000" orientz ="-0.9992">ypSMJesuitAccessory</unit>
+		<unit variation ="62" posx ="2.4149" posz ="-7.1823" orientx ="0.4722" orienty ="0.0000" orientz ="0.8815">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="231" posx ="5.8118" posz ="-6.0317" orientx ="0.4201" orienty ="0.0000" orientz ="-0.9075">ypSMJesuitAccessory</unit>
+		<unit variation ="245" posx ="3.8427" posz ="-3.5098" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3826">ypSPCSaltpeterSite</unit>
+		<unit variation ="231" posx ="-7.8870" posz ="-4.5898" orientx ="0.3505" orienty ="0.0000" orientz ="0.9366">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="43" posx ="-3.5439" posz ="-4.1067" orientx ="0.1748" orienty ="0.0000" orientz ="-0.9846">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="201" posx ="4.3807" posz ="-4.6006" orientx ="-0.9914" orienty ="0.0000" orientz ="-0.1306">ypSMSaltpeterElephant</unit>
+		<unit variation ="62" posx ="2.7051" posz ="-4.9659" orientx ="0.4722" orienty ="0.0000" orientz ="0.8815">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="63" posx ="-1.5865" posz ="-4.2877" orientx ="0.8287" orienty ="0.0000" orientz ="-0.5597">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="65" posx ="-7.4983" posz ="-3.5815" orientx ="0.1131" orienty ="0.0000" orientz ="-0.9936">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="31" posx ="0.7645" posz ="-3.4179" orientx ="0.9403" orienty ="0.0000" orientz ="0.3404">ypSMSaltpeterMan</unit>
+		<unit variation ="41" posx ="-5.5366" posz ="0.8835" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">ypSPCSaltpeterSocket</unit>
+		<unit variation ="136" posx ="1.4696" posz ="-0.6065" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">ypSPCSaltpeterSite</unit>
+		<unit variation ="231" posx ="-0.6661" posz ="-1.5232" orientx ="-0.9992" orienty ="0.0000" orientz ="-0.0408">ypSMJesuitAccessory</unit>
+		<unit variation ="62" posx ="0.9169" posz ="-1.3621" orientx ="0.4722" orienty ="0.0000" orientz ="0.8815">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="231" posx ="8.3711" posz ="-1.3406" orientx ="0.9992" orienty ="0.0000" orientz ="0.0408">ypSMJesuitAccessory</unit>
+		<unit variation ="201" posx ="5.8466" posz ="-0.3191" orientx ="-0.9914" orienty ="0.0000" orientz ="-0.1306">ypSMSaltpeterElephant</unit>
+		<unit variation ="245" posx ="6.3513" posz ="0.5741" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypSPCSaltpeterSite</unit>
+		<unit variation ="117" posx ="2.0596" posz ="1.0437" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="102" posx ="0.8334" posz ="1.0186" orientx ="0.1310" orienty ="0.0000" orientz ="0.9914">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="136" posx ="3.3535" posz ="4.6803" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">ypSPCSaltpeterSite</unit>
+		<unit variation ="31" posx ="0.5479" posz ="2.2058" orientx ="-0.9403" orienty ="0.0000" orientz ="-0.3403">ypSMSaltpeterMan</unit>
+		<unit variation ="62" posx ="5.4190" posz ="2.5585" orientx ="0.4722" orienty ="0.0000" orientz ="0.8815">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="31" posx ="5.9952" posz ="3.2519" orientx ="-0.6743" orienty ="0.0000" orientz ="0.7385">ypSMSaltpeterMan</unit>
+		<unit variation ="231" posx ="-0.1614" posz ="4.0778" orientx ="-0.9387" orienty ="0.0000" orientz ="0.3446">ypSMJesuitAccessory</unit>
+		<unit variation ="213" posx ="0.5846" posz ="4.8948" orientx ="0.1770" orienty ="0.0000" orientz ="-0.9842">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="189" posx ="-8.5342" posz ="5.9646" orientx ="0.3169" orienty ="0.0000" orientz ="0.9485">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="201" posx ="4.3647" posz ="5.5791" orientx ="-0.6087" orienty ="0.0000" orientz ="-0.7934">ypSMSaltpeterElephant</unit>
+		<unit variation ="62" posx ="2.0565" posz ="4.2113" orientx ="0.4722" orienty ="0.0000" orientz ="0.8815">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="231" posx ="7.9761" posz ="4.3340" orientx ="0.9992" orienty ="0.0000" orientz ="0.0408">ypSMJesuitAccessory</unit>
+		<unit variation ="98" posx ="-1.5313" posz ="7.7964" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">ypSPCSaltpeterSite</unit>
+		<unit variation ="109" posx ="-5.4464" posz ="6.7050" orientx ="0.8627" orienty ="0.0000" orientz ="0.5058">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="231" posx ="4.4241" posz ="7.6053" orientx ="-0.0408" orienty ="0.0000" orientz ="0.9992">ypSMJesuitAccessory</unit>
+		<unit variation ="62" posx ="1.3640" posz ="6.8747" orientx ="0.4722" orienty ="0.0000" orientz ="0.8815">ypSPCSaltpeterAccessory</unit>
+		<unit variation ="47" posx ="-5.6166" posz ="8.1830" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypSPCSaltpeterSite</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="PassableLand" subtype ="terrain\deccan\ground_dirt2_deccan">
+			<block startx ="-5" startz ="-5" endx ="-5" endz ="-4"></block>
+			<block startx ="-4" startz ="-4" endx ="-4" endz ="-4"></block>
+			<block startx ="-5" startz ="-3" endx ="-5" endz ="-1"></block>
+			<block startx ="-4" startz ="-3" endx ="-4" endz ="-3"></block>
+			<block startx ="-4" startz ="3" endx ="-4" endz ="3"></block>
+			<block startx ="-3" startz ="4" endx ="-3" endz ="4"></block>
+			<block startx ="-2" startz ="-1" endx ="-2" endz ="0"></block>
+			<block startx ="-2" startz ="4" endx ="-2" endz ="4"></block>
+			<block startx ="-1" startz ="-1" endx ="-1" endz ="0"></block>
+			<block startx ="0" startz ="-2" endx ="0" endz ="-2"></block>
+			<block startx ="0" startz ="0" endx ="0" endz ="0"></block>
+			<block startx ="1" startz ="1" endx ="1" endz ="1"></block>
+			<block startx ="2" startz ="2" endx ="2" endz ="2"></block>
+			<block startx ="3" startz ="2" endx ="3" endz ="4"></block>
+			<block startx ="4" startz ="2" endx ="4" endz ="4"></block>
+			<block startx ="-1" startz ="-5" endx ="-1" endz ="-4"></block>
+			<block startx ="0" startz ="-5" endx ="0" endz ="-4"></block>
+			<block startx ="1" startz ="-5" endx ="1" endz ="-5"></block>
+			<block startx ="3" startz ="-5" endx ="3" endz ="-4"></block>
+			<block startx ="4" startz ="-5" endx ="4" endz ="-5"></block>
+			<block startx ="-2" startz ="5" endx ="-2" endz ="5"></block>
+			<block startx ="3" startz ="5" endx ="3" endz ="5"></block>
+			<block startx ="4" startz ="5" endx ="4" endz ="5"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\deccan\ground_dirt4_deccan">
+			<block startx ="-4" startz ="-5" endx ="-4" endz ="-5"></block>
+			<block startx ="-3" startz ="-5" endx ="-3" endz ="-4"></block>
+			<block startx ="-5" startz ="0" endx ="-5" endz ="1"></block>
+			<block startx ="-5" startz ="4" endx ="-5" endz ="4"></block>
+			<block startx ="-4" startz ="-2" endx ="-4" endz ="1"></block>
+			<block startx ="-4" startz ="4" endx ="-4" endz ="4"></block>
+			<block startx ="-3" startz ="-3" endx ="-3" endz ="3"></block>
+			<block startx ="-2" startz ="-3" endx ="-2" endz ="-2"></block>
+			<block startx ="-2" startz ="1" endx ="-2" endz ="3"></block>
+			<block startx ="-1" startz ="-3" endx ="-1" endz ="-2"></block>
+			<block startx ="-1" startz ="1" endx ="-1" endz ="4"></block>
+			<block startx ="0" startz ="-3" endx ="0" endz ="-3"></block>
+			<block startx ="0" startz ="-1" endx ="0" endz ="-1"></block>
+			<block startx ="0" startz ="1" endx ="0" endz ="2"></block>
+			<block startx ="1" startz ="-3" endx ="1" endz ="0"></block>
+			<block startx ="1" startz ="2" endx ="1" endz ="4"></block>
+			<block startx ="2" startz ="-3" endx ="2" endz ="1"></block>
+			<block startx ="2" startz ="3" endx ="2" endz ="4"></block>
+			<block startx ="3" startz ="-3" endx ="3" endz ="-2"></block>
+			<block startx ="3" startz ="0" endx ="3" endz ="1"></block>
+			<block startx ="4" startz ="-3" endx ="4" endz ="-2"></block>
+			<block startx ="4" startz ="1" endx ="4" endz ="1"></block>
+			<block startx ="-2" startz ="-5" endx ="-2" endz ="-4"></block>
+			<block startx ="1" startz ="-4" endx ="1" endz ="-4"></block>
+			<block startx ="2" startz ="-5" endx ="2" endz ="-4"></block>
+			<block startx ="4" startz ="-4" endx ="4" endz ="-4"></block>
+			<block startx ="-5" startz ="5" endx ="-5" endz ="5"></block>
+			<block startx ="-4" startz ="5" endx ="-4" endz ="5"></block>
+			<block startx ="-3" startz ="5" endx ="-3" endz ="5"></block>
+			<block startx ="-1" startz ="5" endx ="-1" endz ="5"></block>
+			<block startx ="0" startz ="5" endx ="0" endz ="5"></block>
+			<block startx ="2" startz ="5" endx ="2" endz ="5"></block>
+		</tilegroup>
+		<tilegroup type ="PassableLand" subtype ="terrain\deccan\ground_dirt5_deccan">
+			<block startx ="-5" startz ="2" endx ="-5" endz ="3"></block>
+			<block startx ="-4" startz ="2" endx ="-4" endz ="2"></block>
+			<block startx ="0" startz ="3" endx ="0" endz ="4"></block>
+			<block startx ="3" startz ="-1" endx ="3" endz ="-1"></block>
+			<block startx ="4" startz ="-1" endx ="4" endz ="0"></block>
+			<block startx ="1" startz ="5" endx ="1" endz ="5"></block>
+		</tilegroup>
+		<heights>
+			<tiles x ="-5" z ="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

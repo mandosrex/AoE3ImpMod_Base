@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>4</width>
+	<height>4</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<units>
+		<unit variation ="175" posx ="-2.5006" posz ="-3.7011" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">FenceRock</unit>
+		<unit variation ="25" posx ="-2.4185" posz ="-2.3926" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="240" posx ="-3.7400" posz ="-2.4233" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">FenceRock</unit>
+		<unit variation ="185" posx ="3.7362" posz ="-2.4803" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">FenceRock</unit>
+		<unit variation ="185" posx ="2.5051" posz ="-3.7083" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">FenceRock</unit>
+		<unit variation ="68" posx ="2.0926" posz ="-2.4865" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">UnderbrushForest</unit>
+		<unit variation ="15" posx ="2.8250" posz ="-2.7368" orientx ="-0.7071" orienty ="0.0000" orientz ="0.7071">SPCFlag</unit>
+		<unit variation ="26" posx ="-1.8048" posz ="-0.8209" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="110" posx ="1.0333" posz ="-2.1251" orientx ="-0.9241" orienty ="-0.0667" orientz ="0.3764">Llama</unit>
+		<unit variation ="110" posx ="-2.7393" posz ="-3.0872" orientx ="-0.7039" orienty ="0.0083" orientz ="-0.7102">Llama</unit>
+		<unit variation ="26" posx ="-0.3256" posz ="0.2733" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">UnderbrushForest</unit>
+		<unit variation ="110" posx ="1.3751" posz ="-0.1528" orientx ="0.9990" orienty ="0.0439" orientz ="0.0003">Llama</unit>
+		<unit variation ="110" posx ="-1.6829" posz ="-0.7207" orientx ="-0.9247" orienty ="0.0463" orientz ="0.3779">Llama</unit>
+		<unit variation ="68" posx ="-2.0680" posz ="2.1097" orientx ="-0.3827" orienty ="0.0000" orientz ="-0.9239">UnderbrushForest</unit>
+		<unit variation ="212" posx ="-3.7312" posz ="2.3545" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">FenceRock</unit>
+		<unit variation ="158" posx ="3.6907" posz ="2.3084" orientx ="-1.0000" orienty ="0.0000" orientz ="0.0000">FenceRock</unit>
+		<unit variation ="68" posx ="2.4714" posz ="2.0819" orientx ="0.3827" orienty ="0.0000" orientz ="-0.9239">UnderbrushForest</unit>
+		<unit variation ="110" posx ="-1.8610" posz ="1.6987" orientx ="0.7085" orienty ="-0.0310" orientz ="-0.7050">Llama</unit>
+		<unit variation ="110" posx ="2.2175" posz ="2.1313" orientx ="0.7039" orienty ="0.0305" orientz ="0.7096">Llama</unit>
+		<unit variation ="90" posx ="-2.5696" posz ="3.7856" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">FenceRock</unit>
+		<unit variation ="52" posx ="2.4324" posz ="3.7738" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">FenceRock</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

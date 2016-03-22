@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "47259" imagepath = "ui\random_map\auraucania" displayNameID = "45207" cannotReplace = ""
+	loadDetails="47258" loadBackground="ui\random_map\auraucania\auraucania_map">
+	<loadss>ui\random_map\auraucania\auraucania_ss_01</loadss>
+    <loadss>ui\random_map\auraucania\auraucania_ss_02</loadss>
+    <loadss>ui\random_map\auraucania\auraucania_ss_03</loadss>
+</mapinfo>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>10</width>
+	<height>11</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="206" posx ="-5.7922" posz ="-10.4673" orientx ="0.9058" orienty ="0.0000" orientz ="0.4238">ypSMDeccanAccessory</unit>
+		<unit variation ="238" posx ="2.2877" posz ="-6.2792" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypSocketBhakti</unit>
+		<unit variation ="75" posx ="-5.8368" posz ="-5.5901" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="95" posx ="-7.8531" posz ="-4.0671" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushDeccan</unit>
+		<unit variation ="18" posx ="-5.8937" posz ="-5.7354" orientx ="-0.9997" orienty ="0.0000" orientz ="-0.0241">ypSMBhaktiWoman</unit>
+		<unit variation ="29" posx ="-8.5518" posz ="-3.5526" orientx ="0.6300" orienty ="0.0000" orientz ="0.7766">ypSMDeccanAccessory</unit>
+		<unit variation ="153" posx ="2.6806" posz ="-1.1714" orientx ="-0.0188" orienty ="0.0000" orientz ="0.9998">ypSMDeccanAccessory</unit>
+		<unit variation ="81" posx ="8.3873" posz ="-0.7230" orientx ="0.1478" orienty ="0.0000" orientz ="0.9890">ypSMDeccanAccessory</unit>
+		<unit variation ="101" posx ="-6.5371" posz ="1.3380" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleBhakti</unit>
+		<unit variation ="242" posx ="4.6920" posz ="0.8764" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleBhakti</unit>
+		<unit variation ="202" posx ="0.5438" posz ="1.8143" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="126" posx ="2.6052" posz ="1.6545" orientx ="0.5521" orienty ="0.0000" orientz ="-0.8338">ypSMDeccanAccessory</unit>
+		<unit variation ="68" posx ="-3.3762" posz ="0.9427" orientx ="0.0374" orienty ="0.0000" orientz ="-0.9993">ypSMDeccanAccessory</unit>
+		<unit variation ="166" posx ="1.2246" posz ="3.7594" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushDeccan</unit>
+		<unit variation ="167" posx ="-0.5283" posz ="6.2853" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="28" posx ="-0.9299" posz ="4.9013" orientx ="-0.0012" orienty ="0.0000" orientz ="-1.0000">ypSMBhaktiGuy</unit>
+		<unit variation ="27" posx ="6.0576" posz ="7.4200" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">ypNativeTempleBhakti</unit>
+		<unit variation ="27" posx ="-6.0518" posz ="7.1925" orientx ="0.0000" orienty ="0.0000" orientz ="1.0000">ypNativeTempleBhakti</unit>
+		<unit variation ="72" posx ="-4.5458" posz ="10.1533" orientx ="0.8819" orienty ="0.0000" orientz ="-0.4715">ypSMDeccanAccessory</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="PassableLand" subtype ="terrain\himalayas\ground_dirt1_himal">
+			<block startx ="-5" startz ="-5" endx ="-5" endz ="-4"></block>
+			<block startx ="-4" startz ="-5" endx ="-4" endz ="-4"></block>
+			<block startx ="-3" startz ="-5" endx ="-3" endz ="-4"></block>
+			<block startx ="-5" startz ="-3" endx ="-5" endz ="4"></block>
+			<block startx ="-4" startz ="-3" endx ="-4" endz ="4"></block>
+			<block startx ="-3" startz ="-3" endx ="-3" endz ="4"></block>
+			<block startx ="-2" startz ="-3" endx ="-2" endz ="4"></block>
+			<block startx ="-1" startz ="-3" endx ="-1" endz ="4"></block>
+			<block startx ="0" startz ="-3" endx ="0" endz ="4"></block>
+			<block startx ="1" startz ="-3" endx ="1" endz ="4"></block>
+			<block startx ="2" startz ="-3" endx ="2" endz ="4"></block>
+			<block startx ="3" startz ="-3" endx ="3" endz ="4"></block>
+			<block startx ="4" startz ="-3" endx ="4" endz ="4"></block>
+			<block startx ="-2" startz ="-5" endx ="-2" endz ="-4"></block>
+			<block startx ="-1" startz ="-5" endx ="-1" endz ="-4"></block>
+			<block startx ="0" startz ="-5" endx ="0" endz ="-4"></block>
+			<block startx ="1" startz ="-5" endx ="1" endz ="-4"></block>
+			<block startx ="2" startz ="-5" endx ="2" endz ="-4"></block>
+			<block startx ="3" startz ="-5" endx ="3" endz ="-4"></block>
+			<block startx ="4" startz ="-5" endx ="4" endz ="-4"></block>
+			<block startx ="-5" startz ="5" endx ="-5" endz ="5"></block>
+			<block startx ="-4" startz ="5" endx ="-4" endz ="5"></block>
+			<block startx ="-3" startz ="5" endx ="-3" endz ="5"></block>
+			<block startx ="-2" startz ="5" endx ="-2" endz ="5"></block>
+			<block startx ="-1" startz ="5" endx ="-1" endz ="5"></block>
+			<block startx ="0" startz ="5" endx ="0" endz ="5"></block>
+			<block startx ="1" startz ="5" endx ="1" endz ="5"></block>
+			<block startx ="2" startz ="5" endx ="2" endz ="5"></block>
+			<block startx ="3" startz ="5" endx ="3" endz ="5"></block>
+			<block startx ="4" startz ="5" endx ="4" endz ="5"></block>
+		</tilegroup>
+		<heights>
+			<tiles x ="-5" z ="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x ="-5" z ="5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

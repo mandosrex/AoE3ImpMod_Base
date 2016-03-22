@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>13</width>
+	<height>11</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="58" posx ="10.2415" posz ="-8.2140" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushYellowRiver</unit>
+		<unit variation ="235" posx ="8.6784" posz ="-8.1761" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushYellowRiver</unit>
+		<unit variation ="41" posx ="-5.4178" posz ="-5.0673" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypSocketZen</unit>
+		<unit variation ="126" posx ="1.5198" posz ="-6.9105" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleZen</unit>
+		<unit variation ="217" posx ="2.6107" posz ="-5.0154" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="167" posx ="7.0614" posz ="-4.7420" orientx ="0.9976" orienty ="0.0000" orientz ="-0.0697">NativeTownObstruction</unit>
+		<unit variation ="159" posx ="4.5968" posz ="-6.9430" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushYellowRiver</unit>
+		<unit variation ="104" posx ="5.1839" posz ="-7.9236" orientx ="-0.9999" orienty ="0.0000" orientz ="-0.0171">ypSMZenMan</unit>
+		<unit variation ="178" posx ="10.4617" posz ="-5.7901" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">ypNativeTempleZen</unit>
+		<unit variation ="183" posx ="9.8750" posz ="-3.0700" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushYellowRiver</unit>
+		<unit variation ="205" posx ="9.4871" posz ="-2.1311" orientx ="0.9791" orienty ="0.0000" orientz ="-0.2033">ypSMZenAccessory</unit>
+		<unit variation ="15" posx ="11.4129" posz ="-1.7343" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleZen</unit>
+		<unit variation ="151" posx ="-10.1223" posz ="-0.4494" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushYellowRiver</unit>
+		<unit variation ="94" posx ="-5.4626" posz ="-0.1116" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushYellowRiver</unit>
+		<unit variation ="243" posx ="-1.1719" posz ="-0.5312" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushYellowRiver</unit>
+		<unit variation ="41" posx ="-8.5674" posz ="-0.3632" orientx ="-0.0134" orienty ="0.0000" orientz ="-0.9999">ypSMZenAccessory</unit>
+		<unit variation ="228" posx ="3.9274" posz ="-1.6449" orientx ="-0.0275" orienty ="0.0000" orientz ="-0.9996">ypSMZenLady</unit>
+		<unit variation ="41" posx ="-3.2634" posz ="-0.3799" orientx ="-0.0134" orienty ="0.0000" orientz ="-0.9999">ypSMZenAccessory</unit>
+		<unit variation ="198" posx ="12.5660" posz ="-1.1085" orientx ="-0.5905" orienty ="0.0000" orientz ="0.8070">ypSMZenAccessory</unit>
+		<unit variation ="4" posx ="2.6347" posz ="1.7152" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="124" posx ="-5.3496" posz ="2.7734" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">NativeTownObstruction</unit>
+		<unit variation ="100" posx ="9.1413" posz ="2.5088" orientx ="0.7071" orienty ="0.0000" orientz ="0.7071">ypNativeTempleZen</unit>
+		<unit variation ="197" posx ="-10.3713" posz ="2.3886" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleZen</unit>
+		<unit variation ="15" posx ="11.3308" posz ="3.1123" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleZen</unit>
+		<unit variation ="197" posx ="-10.2837" posz ="5.6860" orientx ="-1.0000" orienty ="0.0000" orientz ="-0.0000">ypNativeTempleZen</unit>
+		<unit variation ="88" posx ="0.2184" posz ="4.4801" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleZen</unit>
+		<unit variation ="171" posx ="-5.9250" posz ="4.3455" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleZen</unit>
+		<unit variation ="228" posx ="6.0770" posz ="5.3202" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">UnderbrushYellowRiver</unit>
+		<unit variation ="41" posx ="-12.0859" posz ="4.2172" orientx ="-0.9999" orienty ="0.0000" orientz ="0.0134">ypSMZenAccessory</unit>
+		<unit variation ="205" posx ="-3.4570" posz ="5.1988" orientx ="0.8594" orienty ="0.0000" orientz ="0.5112">ypSMZenAccessory</unit>
+		<unit variation ="15" posx ="-1.5218" posz ="7.1482" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">ypNativeTempleZen</unit>
+		<unit variation ="15" posx ="-6.9336" posz ="7.0990" orientx ="-0.0000" orienty ="0.0000" orientz ="1.0000">ypNativeTempleZen</unit>
+		<unit variation ="157" posx ="5.3482" posz ="6.6380" orientx ="1.0000" orienty ="0.0000" orientz ="0.0000">ypNativeTempleZen</unit>
+		<unit variation ="15" posx ="9.0005" posz ="6.6012" orientx ="-0.0000" orienty ="0.0000" orientz ="1.0000">ypNativeTempleZen</unit>
+		<unit variation ="198" posx ="-5.5098" posz ="9.6665" orientx ="0.9882" orienty ="0.0000" orientz ="-0.1531">ypSMZenAccessory</unit>
+		<unit variation ="142" posx ="2.9045" posz ="8.5181" orientx ="0.5673" orienty ="0.0000" orientz ="-0.8235">ypSMZenAccessory</unit>
+	</units>
+	<tiles>
+		<tilegroup type ="PassableLand" subtype ="terrain\ceylon\ground_sand3_ceylon">
+			<block startx ="-6" startz ="-5" endx ="-6" endz ="-4"></block>
+			<block startx ="-6" startz ="-3" endx ="-6" endz ="4"></block>
+			<block startx ="-5" startz ="-3" endx ="2" endz ="4"></block>
+			<block startx ="-5" startz ="-5" endx ="-5" endz ="-4"></block>
+			<block startx ="-4" startz ="-5" endx ="-4" endz ="-4"></block>
+			<block startx ="-3" startz ="-5" endx ="-3" endz ="-4"></block>
+			<block startx ="-2" startz ="-5" endx ="-2" endz ="-4"></block>
+			<block startx ="-1" startz ="-5" endx ="-1" endz ="-4"></block>
+			<block startx ="0" startz ="-5" endx ="0" endz ="-4"></block>
+			<block startx ="1" startz ="-5" endx ="1" endz ="-4"></block>
+			<block startx ="2" startz ="-5" endx ="2" endz ="-4"></block>
+			<block startx ="-6" startz ="5" endx ="-6" endz ="5"></block>
+			<block startx ="-5" startz ="5" endx ="-5" endz ="5"></block>
+			<block startx ="-4" startz ="5" endx ="-4" endz ="5"></block>
+			<block startx ="-3" startz ="5" endx ="-3" endz ="5"></block>
+			<block startx ="-2" startz ="5" endx ="-2" endz ="5"></block>
+			<block startx ="-1" startz ="5" endx ="-1" endz ="5"></block>
+			<block startx ="0" startz ="5" endx ="0" endz ="5"></block>
+			<block startx ="1" startz ="5" endx ="1" endz ="5"></block>
+			<block startx ="2" startz ="5" endx ="2" endz ="5"></block>
+			<block startx ="3" startz ="5" endx ="3" endz ="5"></block>
+			<block startx ="4" startz ="5" endx ="4" endz ="5"></block>
+			<block startx ="5" startz ="5" endx ="5" endz ="5"></block>
+			<block startx ="6" startz ="5" endx ="6" endz ="5"></block>
+			<block startx ="3" startz ="-5" endx ="3" endz ="-4"></block>
+			<block startx ="4" startz ="-5" endx ="4" endz ="-4"></block>
+			<block startx ="5" startz ="-5" endx ="5" endz ="-4"></block>
+			<block startx ="6" startz ="-5" endx ="6" endz ="-4"></block>
+			<block startx ="3" startz ="-3" endx ="3" endz ="4"></block>
+			<block startx ="4" startz ="-3" endx ="4" endz ="4"></block>
+			<block startx ="5" startz ="-3" endx ="5" endz ="4"></block>
+			<block startx ="6" startz ="-3" endx ="6" endz ="4"></block>
+		</tilegroup>
+		<heights>
+			<tiles x ="-6" z ="-5">-0.119 -0.119 -0.133 -0.133 -0.052 -0.052 -0.052 -0.052 -0.052 0.123 0.123 0.123 -0.121 </tiles>
+			<tiles x ="-6" z ="-4">-0.143 -0.133 -0.133 -0.133 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 </tiles>
+			<tiles x ="-6" z ="-3">-0.143 -0.133 -0.133 -0.133 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 </tiles>
+			<tiles x ="-6" z ="-2">-0.143 -0.133 -0.133 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 </tiles>
+			<tiles x ="-6" z ="-1">-0.143 -0.133 -0.133 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 </tiles>
+			<tiles x ="-6" z ="0">-0.143 -0.177 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 </tiles>
+			<tiles x ="-6" z ="1">-0.177 -0.177 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 </tiles>
+			<tiles x ="-6" z ="2">-0.121 -0.121 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 </tiles>
+			<tiles x ="-6" z ="3">-0.121 -0.121 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 </tiles>
+			<tiles x ="-6" z ="4">-0.121 -0.121 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 </tiles>
+			<tiles x ="-6" z ="5">-0.121 -0.121 -0.085 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 0.123 </tiles>
+		</heights>
+	</tiles>
+</grouping>

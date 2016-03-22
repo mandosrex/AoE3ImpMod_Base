@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>12</width>
+	<height>12</height>
+	<ignorePlacementRules>0</ignorePlacementRules>
+	<selectAsSingleUnit>1</selectAsSingleUnit>
+	<units>
+		<unit Variation ="130" posX ="7.2126" posZ ="-8.7851" orientX ="-0.9239" orientY ="0.0000" orientZ ="0.3826">PropsNative</unit>
+		<unit Variation ="16" posX ="-1.0794" posZ ="-7.1339" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">RiverPlantsAm</unit>
+		<unit Variation ="96" posX ="-0.4942" posZ ="-7.4175" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushNewEngland</unit>
+		<unit Variation ="231" posX ="-2.2172" posZ ="-7.8465" orientX ="-0.9239" orientY ="0.0000" orientZ ="-0.3827">RiverPlantsAm</unit>
+		<unit Variation ="47" posX ="7.0950" posZ ="-7.9379" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">LeanTo</unit>
+		<unit Variation ="130" posX ="6.4498" posZ ="-7.8192" orientX ="0.7071" orientY ="0.0000" orientZ ="0.7071">PropsNative</unit>
+		<unit Variation ="232" posX ="5.7567" posZ ="-8.7060" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">FirewoodPile</unit>
+		<unit Variation ="162" posX ="9.0000" posZ ="-7.0000" orientX ="-0.0787" orientY ="0.0000" orientZ ="-0.9969">TreeGreatPlains</unit>
+		<unit Variation ="231" posX ="5.0788" posZ ="-6.9005" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">RiverPlantsAm</unit>
+		<unit Variation ="114" posX ="-5.5484" posZ ="-4.9696" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">UnderbrushGreatPlains</unit>
+		<unit Variation ="173" posX ="2.1122" posZ ="-5.6941" orientX ="0.9239" orientY ="0.0000" orientZ ="0.3827">TanningRack</unit>
+		<unit Variation ="16" posX ="2.0283" posZ ="-6.3449" orientX ="-0.7071" orientY ="0.0000" orientZ ="0.7071">RiverPlantsAm</unit>
+		<unit Variation ="104" posX ="-3.0515" posZ ="-5.7725" orientX ="-0.7071" orientY ="0.0000" orientZ ="0.7071">NativeHouseLakota</unit>
+		<unit Variation ="192" posX ="0.1376" posZ ="-5.1430" orientX ="-0.9239" orientY ="0.0000" orientZ ="-0.3827">NativeHouseLakota</unit>
+		<unit Variation ="9" posX ="-7.1693" posZ ="-4.6296" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="63" posX ="-5.3651" posZ ="-4.8455" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="245" posX ="6.5286" posZ ="-4.9321" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="76" posX ="-4.3255" posZ ="-4.1435" orientX ="-0.7071" orientY ="0.0000" orientZ ="-0.7071">DuneGrass</unit>
+		<unit Variation ="161" posX ="-7.8894" posZ ="-3.7752" orientX ="0.7071" orientY ="0.0000" orientZ ="0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="132" posX ="7.7418" posZ ="-3.7875" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">NativeHouseLakota</unit>
+		<unit Variation ="246" posX ="-4.9983" posZ ="-2.5141" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">GroundPropsGP</unit>
+		<unit Variation ="231" posX ="3.1834" posZ ="-2.8200" orientX ="-1.0000" orientY ="0.0000" orientZ ="-0.0001">RiverPlantsAm</unit>
+		<unit Variation ="8" posX ="5.9220" posZ ="-2.7090" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">PropsNative</unit>
+		<unit Variation ="34" posX ="8.4918" posZ ="-1.5948" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">DuneGrass</unit>
+		<unit Variation ="231" posX ="7.7730" posZ ="-1.6124" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">RiverPlantsAm</unit>
+		<unit Variation ="161" posX ="-5.3615" posZ ="-1.6922" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="99" posX ="-6.1734" posZ ="-2.7715" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="16" posX ="-6.4993" posZ ="-1.2432" orientX ="-0.7071" orientY ="0.0000" orientZ ="0.7071">RiverPlantsAm</unit>
+		<unit Variation ="8" posX ="1.8320" posZ ="-2.1069" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">PropsNative</unit>
+		<unit Variation ="231" posX ="2.5293" posZ ="-2.1100" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">RiverPlantsAm</unit>
+		<unit Variation ="121" posX ="1.5228" posZ ="-1.2894" orientX ="0.0000" orientY ="0.0000" orientZ ="1.0000">PropsNative</unit>
+		<unit Variation ="7" posX ="-3.1040" posZ ="-2.5864" orientX ="-0.9239" orientY ="0.0000" orientZ ="-0.3827">NativeHouseLakota</unit>
+		<unit Variation ="123" posX ="5.0000" posZ ="-1.0000" orientX ="0.3667" orientY ="0.0000" orientZ ="-0.9303">TreeGreatPlains</unit>
+		<unit Variation ="124" posX ="9.0000" posZ ="-1.0000" orientX ="-0.7306" orientY ="0.0000" orientZ ="0.6828">TreeGreatPlains</unit>
+		<unit Variation ="81" posX ="-2.8650" posZ ="-0.1519" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">PropsNative</unit>
+		<unit Variation ="6" posX ="6.3657" posZ ="0.9243" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">TanningRack</unit>
+		<unit Variation ="231" posX ="-6.2947" posZ ="0.9538" orientX ="-1.0000" orientY ="0.0000" orientZ ="-0.0001">RiverPlantsAm</unit>
+		<unit Variation ="81" posX ="1.5699" posZ ="-0.3809" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">PropsNative</unit>
+		<unit Variation ="226" posX ="3.3256" posZ ="-0.3315" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">NativeHouseLakota</unit>
+		<unit Variation ="54" posX ="-7.2044" posZ ="1.5071" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">GroundPropsGP</unit>
+		<unit Variation ="231" posX ="-7.2591" posZ ="2.5237" orientX ="-0.9239" orientY ="0.0000" orientZ ="-0.3827">RiverPlantsAm</unit>
+		<unit Variation ="57" posX ="-0.7957" posZ ="1.7267" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">Campfire</unit>
+		<unit Variation ="180" posX ="3.6855" posZ ="1.8003" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">FirewoodPile</unit>
+		<unit Variation ="8" posX ="4.4418" posZ ="2.1447" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">PropsNative</unit>
+		<unit Variation ="246" posX ="-6.3236" posZ ="1.8140" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">GroundPropsGP</unit>
+		<unit Variation ="8" posX ="-5.2771" posZ ="2.3539" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">PropsNative</unit>
+		<unit Variation ="231" posX ="-6.9374" posZ ="1.6607" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">RiverPlantsAm</unit>
+		<unit Variation ="231" posX ="-7.2422" posZ ="4.7689" orientX ="-0.9239" orientY ="0.0000" orientZ ="0.3826">RiverPlantsAm</unit>
+		<unit Variation ="81" posX ="-1.8385" posZ ="4.7928" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">PropsNative</unit>
+		<unit Variation ="58" posX ="-6.0377" posZ ="4.1304" orientX ="-0.0000" orientY ="0.0000" orientZ ="1.0000">NativeHouseLakota</unit>
+		<unit Variation ="75" posX ="9.7553" posZ ="4.6020" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">NativeHouseLakota</unit>
+		<unit Variation ="221" posX ="-2.2167" posZ ="7.3027" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">FirewoodPile</unit>
+		<unit Variation ="1" posX ="-4.0704" posZ ="5.9323" orientX ="0.0000" orientY ="0.0000" orientZ ="1.0000">PropsNative</unit>
+		<unit Variation ="231" posX ="-1.1574" posZ ="5.3350" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">RiverPlantsAm</unit>
+		<unit Variation ="73" posX ="3.5560" posZ ="6.7538" orientX ="0.7071" orientY ="0.0000" orientZ ="0.7071">UnderbrushRock</unit>
+		<unit Variation ="43" posX ="2.4874" posZ ="5.3088" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="231" posX ="-6.5591" posZ ="5.4419" orientX ="-0.0000" orientY ="0.0000" orientZ ="1.0000">RiverPlantsAm</unit>
+		<unit Variation ="44" posX ="-6.7669" posZ ="6.6778" orientX ="0.7071" orientY ="0.0000" orientZ ="0.7071">UnderbrushRock</unit>
+		<unit Variation ="118" posX ="2.4014" posZ ="5.6247" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">UnderbrushGreatPlains</unit>
+		<unit Variation ="62" posX ="0.4349" posZ ="6.6022" orientX ="1.0000" orientY ="0.0000" orientZ ="0.0000">NativeHouseLakota</unit>
+		<unit Variation ="54" posX ="-0.3473" posZ ="7.8876" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">GroundPropsGP</unit>
+		<unit Variation ="161" posX ="-1.4069" posZ ="7.8526" orientX ="-0.9239" orientY ="0.0000" orientZ ="0.3827">UnderbrushGreatPlains</unit>
+		<unit Variation ="121" posX ="5.4978" posZ ="8.5496" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="231" posX ="-6.9114" posZ ="7.1999" orientX ="-0.0000" orientY ="0.0000" orientZ ="1.0000">RiverPlantsAm</unit>
+		<unit Variation ="252" posX ="-5.4388" posZ ="8.0087" orientX ="-0.0000" orientY ="0.0000" orientZ ="-1.0000">PropsNative</unit>
+		<unit Variation ="143" posX ="1.7567" posZ ="8.3692" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">UnderbrushGreatPlains</unit>
+		<unit Variation ="118" posX ="2.8015" posZ ="8.7599" orientX ="0.0000" orientY ="0.0000" orientZ ="1.0000">PropsNative</unit>
+		<unit Variation ="202" posX ="8.1088" posZ ="7.7103" orientX ="0.9239" orientY ="0.0000" orientZ ="-0.3827">NativeHouseLakota</unit>
+		<unit Variation ="32" posX ="5.0000" posZ ="9.0000" orientX ="0.7424" orientY ="0.0000" orientZ ="0.6699">TreeGreatPlains</unit>
+	</units>
+	<tiles>
+		<tileGroup type ="PassableLand" subtype ="terrain\Texas\ground5_tex">
+			<block startX ="-6" startZ ="1" endX ="-6" endZ ="1"></block>
+			<block startX ="-5" startZ ="0" endX ="-5" endZ ="1"></block>
+			<block startX ="-4" startZ ="-1" endX ="-4" endZ ="0"></block>
+			<block startX ="-3" startZ ="-1" endX ="-3" endZ ="3"></block>
+			<block startX ="-2" startZ ="-2" endX ="-2" endZ ="3"></block>
+			<block startX ="-1" startZ ="-3" endX ="-1" endZ ="-1"></block>
+			<block startX ="-1" startZ ="1" endX ="-1" endZ ="2"></block>
+			<block startX ="0" startZ ="-3" endX ="0" endZ ="2"></block>
+			<block startX ="1" startZ ="-4" endX ="1" endZ ="2"></block>
+			<block startX ="2" startZ ="-4" endX ="2" endZ ="-2"></block>
+			<block startX ="2" startZ ="1" endX ="2" endZ ="3"></block>
+			<block startX ="3" startZ ="-3" endX ="3" endZ ="-2"></block>
+			<block startX ="3" startZ ="1" endX ="3" endZ ="3"></block>
+			<block startX ="1" startZ ="-5" endX ="1" endZ ="-5"></block>
+			<block startX ="2" startZ ="-5" endX ="2" endZ ="-5"></block>
+			<block startX ="4" startZ ="1" endX ="4" endZ ="3"></block>
+		</tileGroup>
+		<tileGroup type ="PassableLand" subtype ="terrain\Yukon\ground10_yuk">
+			<block startX ="-1" startZ ="0" endX ="-1" endZ ="0"></block>
+		</tileGroup>
+	</tiles>
+</grouping>

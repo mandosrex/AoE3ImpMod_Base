@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<savedhomecity version ="1">
+	<civ>British</civ>
+	<name>London</name>
+	<heroname>Jimmy</heroname>
+	<shipname>The Minnow</shipname>
+	<level>4</level>
+	<xppercentage>0.806660</xppercentage>
+	<numpropunlocksearned>2</numpropunlocksearned>
+	<coffers>
+		<current>
+			<gold>0.000000</gold>
+			<wood>0.000000</wood>
+			<food>0.000000</food>
+			<fame>0.000000</fame>
+			<skillpoints>0.000000</skillpoints>
+			<xp>27366.599609</xp>
+			<ships>0.000000</ships>
+		</current>
+		<maximum>
+			<gold>0.000000</gold>
+			<wood>0.000000</wood>
+			<food>0.000000</food>
+			<fame>0.000000</fame>
+			<skillpoints>-1.000000</skillpoints>
+			<xp>-1.000000</xp>
+			<ships>0.000000</ships>
+		</maximum>
+	</coffers>
+	<activetechs>
+		<tech>HCUnlockTradingPost</tech>
+		<tech>HCNativeDiplomacy1</tech>
+		<tech>HCFoodCrate0</tech>
+		<tech>HCWoodCrate</tech>
+		<tech>HCWoodCrate0</tech>
+		<tech>HCCoinCrate</tech>
+		<tech>HCCoinCrate0</tech>
+		<tech>HCUnlockLongbowmen</tech>
+		<tech>HCUnlockGrenadiersBritish</tech>
+		<tech>HCMusketeersBucketBritish1</tech>
+		<tech>HCMusketeersCombatBritish1</tech>
+		<tech>HCUnlockMortarsBritish</tech>
+		<tech>HCSheep</tech>
+		<tech>HCUnlockOutPost</tech>
+	</activetechs>
+</savedhomecity>

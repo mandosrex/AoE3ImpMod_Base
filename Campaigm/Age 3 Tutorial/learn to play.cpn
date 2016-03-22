@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<campaign name = "$$20622$$LearN 2 Play Loz0r" version = "1" nextcampaign = "Main Campaign">
+	<BackgroundSet name = "Atlantis">
+		<Image pos = "1">ui\campmap_atlantis1</Image>
+		<Image pos = "2">ui\campmap_atlantis2</Image>
+		<Image pos = "3">ui\campmap_atlantis3</Image>
+		<Image pos = "4">ui\campmap_atlantis4</Image>
+		<Image pos = "5">ui\campmap_atlantis5</Image>
+		<Image pos = "6" textureReplace="">ui\campmap_atlantis6</Image>
+		<Image pos = "7" textureReplace="">ui\campmap_atlantis7</Image>
+		<Image pos = "8">ui\campmap_atlantis8</Image>
+		<Image pos = "9">ui\campmap_atlantis9</Image>
+		<Image pos = "10">ui\campmap_atlantis10</Image>
+		<Image pos = "11">ui\campmap_atlantis11</Image>
+		<Image pos = "12">ui\campmap_atlantis12</Image>
+	</BackgroundSet>
+	<Scenario dispName = "$$11726$$Age of Mythology" filename = "spc\cinematics\cineintr" BackgroundSet = "Greece">$$20622$$Brief introduction cinematic with narration.</Scenario>
+	<Scenario dispName = "$$20622$$Hunt for a Killer" filename = "spc\aomsp01" BackgroundSet = "Atlantis">$$20622$$Learn to select units and issue commands.
+	<Overlay offset = "464 399" size = "32 32">ui\overlay_red_09</Overlay>
+	</Scenario>   
+	<Scenario dispName = "$$20622$$Pleasing the Gods" filename = "spc\aomsp02" BackgroundSet = "Atlantis">$$20622$$Learn to gather resources of all four types and build a Temple.
+	<Overlay offset = "464 399" size = "32 32">ui\overlay_blue_09</Overlay>
+	<Overlay offset = "518 443" size = "32 32">ui\overlay_red_09</Overlay>
+	<Overlay offset = "487 421" size = "32 32">ui\overlay_arrow_31</Overlay>
+	</Scenario>   
+	<Scenario dispName = "$$20622$$Uninvited Guests" filename = "spc\aomsp03" BackgroundSet = "Atlantis">$$20622$$Learn to advance through the ages and build your army to defeat a small pirate force.
+	<Overlay offset = "464 399" size = "32 32">ui\overlay_blue_09</Overlay>
+	<Overlay offset = "518 443" size = "32 32">ui\overlay_blue_09</Overlay>
+	<Overlay offset = "524 391" size = "32 32">ui\overlay_red_09</Overlay>
+	<Overlay offset = "487 421" size = "32 32">ui\overlay_arrow_31</Overlay>
+	<Overlay offset = "520 418" size = "32 32">ui\overlay_arrow_32</Overlay>
+	</Scenario>     
+</campaign>

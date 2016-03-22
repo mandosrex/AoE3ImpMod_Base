@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>8</width>
+	<height>7</height>
+	<ignorePlacementRules>0</ignorePlacementRules>
+	<selectAsSingleUnit>1</selectAsSingleUnit>
+	<units>
+		<unit Variation ="118" posX ="4.3626" posZ ="-4.1019" orientX ="0.9239" orientY ="0.0000" orientZ ="-0.3827">UnderbrushGreatPlains</unit>
+		<unit Variation ="205" posX ="5.4575" posZ ="-4.6803" orientX ="-0.9239" orientY ="0.0000" orientZ ="-0.3827">UnderbrushGreatPlains</unit>
+		<unit Variation ="52" posX ="-1.3122" posZ ="-2.0967" orientX ="0.3827" orientY ="0.0000" orientZ ="0.9239">PropsNative</unit>
+		<unit Variation ="210" posX ="-0.1980" posZ ="-1.6749" orientX ="0.7071" orientY ="0.0000" orientZ ="-0.7071">OpenbrushAmazon</unit>
+		<unit Variation ="129" posX ="1.6162" posZ ="-2.5882" orientX ="-0.3827" orientY ="0.0000" orientZ ="0.9239">UnderbrushGreatPlains</unit>
+		<unit Variation ="111" posX ="4.6075" posZ ="-3.9143" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">GroundPropsGP</unit>
+		<unit Variation ="166" posX ="-3.5095" posZ ="-2.1775" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="211" posX ="3.6319" posZ ="-3.1417" orientX ="0.9239" orientY ="0.0000" orientZ ="0.3827">OpenbrushAmazon</unit>
+		<unit Variation ="138" posX ="4.2133" posZ ="-2.7748" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushRock</unit>
+		<unit Variation ="111" posX ="-0.4448" posZ ="-1.9192" orientX ="0.7071" orientY ="0.0000" orientZ ="0.7071">GroundPropsGP</unit>
+		<unit Variation ="43" posX ="-0.3230" posZ ="-1.1368" orientX ="0.9239" orientY ="0.0000" orientZ ="0.3827">UnderbrushGreatPlains</unit>
+		<unit Variation ="207" posX ="0.0161" posZ ="-2.2497" orientX ="-0.3827" orientY ="0.0000" orientZ ="-0.9239">GroundPropsGP</unit>
+		<unit Variation ="207" posX ="-0.3483" posZ ="-1.2085" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">GroundPropsGP</unit>
+		<unit Variation ="107" posX ="1.1206" posZ ="-0.5921" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="61" posX ="3.2565" posZ ="-0.9015" orientX ="0.0000" orientY ="0.0000" orientZ ="-1.0000">UnderbrushGreatPlains</unit>
+		<unit Variation ="103" posX ="-1.6265" posZ ="1.3346" orientX ="0.3827" orientY ="0.0000" orientZ ="-0.9239">UnderbrushGreatPlains</unit>
+	</units>
+	<tiles></tiles>
+</grouping>

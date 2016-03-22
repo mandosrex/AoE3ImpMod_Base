@@ -1,0 +1,92 @@
+<?xml version="1.0"?> 
+
+<savedhomecity version ="1">
+	<civ>Germans</civ>
+	<name>Berlin</name>
+	<heroname></heroname>
+	<herodogname></herodogname>
+	<shipname></shipname>
+	<level>3</level>
+	<xppercentage>0.217209</xppercentage>
+	<numpropunlocksearned>16</numpropunlocksearned>
+	<coffers>
+		<current>
+			<gold>0.000000</gold>
+			<wood>0.000000</wood>
+			<food>0.000000</food>
+			<fame>0.000000</fame>
+			<skillpoints>0.000000</skillpoints>
+			<xp>16086.044922</xp>
+			<ships>0.000000</ships>
+		</current>
+		<maximum>
+			<gold>0.000000</gold>
+			<wood>0.000000</wood>
+			<food>0.000000</food>
+			<fame>0.000000</fame>
+			<skillpoints>-1.000000</skillpoints>
+			<xp>-1.000000</xp>
+			<ships>0.000000</ships>
+		</maximum>
+	</coffers>
+	<decks>
+		<deck>
+			<name>Default</name>
+			<cards>
+				<card>HCShipSettlers1</card>
+				<card>HCShipFoodCrates1</card>
+				<card>HCShipCoveredWagons</card>
+				<card>HCShipDopplesoldners1</card>
+				<card>HCShipDopplesoldners2</card>
+				<card>HCShipDopplesoldners3</card>
+				<card>HCShipSkirmishers1</card>
+				<card>HCShipUhlans1</card>
+				<card>HCHeavyInfantryDamageGerman</card>
+				<card>HCShipWarWagons1</card>
+				<card>HCShipFalconets1</card>
+				<card>HCShipMortars1</card>
+				<card>HCFoodSilosTeam</card>
+				<card>HCShipCaravels1</card>
+				<card>HCHeavyFortifications</card>
+				<card>HCFurrier</card>
+				<card>HCRumDistillery</card>
+			</cards>
+		</deck>
+	</decks>
+	<activetechs>
+		<tech>HCShipSettlers1</tech>
+		<tech>HCShipFoodCrates1</tech>
+		<tech>HCShipCoveredWagons</tech>
+		<tech>HCShipDopplesoldners1</tech>
+		<tech>HCShipDopplesoldners2</tech>
+		<tech>HCShipDopplesoldners3</tech>
+		<tech>HCShipSkirmishers1</tech>
+		<tech>HCHeavyInfantryDamageGerman</tech>
+		<tech>HCShipUhlans1</tech>
+		<tech>HCShipWarWagons1</tech>
+		<tech>HCShipFalconets1</tech>
+		<tech>HCShipMortars1</tech>
+		<tech>HCHeavyFortifications</tech>
+		<tech>HCFoodSilosTeam</tech>
+		<tech>HCFurrier</tech>
+		<tech>HCRumDistillery</tech>
+		<tech>HCShipCaravels1</tech>
+	</activetechs>
+	<activeprops>
+		<prop enabled ="0">German_NWTCTexture0</prop>
+		<prop enabled ="0">German_AcademyTexture0</prop>
+		<prop enabled ="0">German_ManuPlantTexture0</prop>
+		<prop enabled ="0">German_CathedralTexture0</prop>
+		<prop enabled ="1">German_DockTexture0</prop>
+		<prop enabled ="0">German_NWTCTexture0</prop>
+		<prop enabled ="0">German_AcademyTexture0</prop>
+		<prop enabled ="0">German_ManuPlantTexture0</prop>
+		<prop enabled ="0">German_CathedralTexture0</prop>
+		<prop enabled ="1">German_DockTexture0</prop>
+		<prop enabled ="0">German_NWTCTexture0</prop>
+		<prop enabled ="0">German_AcademyTexture0</prop>
+		<prop enabled ="0">German_ManuPlantTexture0</prop>
+		<prop enabled ="0">German_CathedralTexture0</prop>
+		<prop enabled ="1">German_DockTexture0</prop>
+	</activeprops>
+</savedhomecity>

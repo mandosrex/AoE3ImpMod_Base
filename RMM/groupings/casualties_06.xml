@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>4</width>
+	<height>5</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<units>
+		<unit variation ="41" posx ="0.0420" posz ="-3.6168" orientx ="0.0000" orienty ="0.0000" orientz ="-1.0000">SPCCasualties</unit>
+		<unit variation ="177" posx ="1.7490" posz ="-1.2842" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCCasualties</unit>
+		<unit variation ="144" posx ="0.5981" posz ="-0.4382" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCCasualties</unit>
+		<unit variation ="30" posx ="-1.3756" posz ="0.3446" orientx ="-0.9239" orienty ="0.0000" orientz ="-0.3827">SPCCasualties</unit>
+		<unit variation ="191" posx ="-1.9483" posz ="2.2097" orientx ="0.9239" orienty ="0.0000" orientz ="0.3827">SPCCasualties</unit>
+		<unit variation ="218" posx ="-2.9287" posz ="3.8835" orientx ="-0.7071" orienty ="0.0000" orientz ="-0.7071">SPCCasualties</unit>
+	</units>
+	<tiles></tiles>
+</grouping>
