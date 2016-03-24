@@ -17045,23 +17045,23 @@
 	</Tech>
 	<Tech name="PoliticianPresidente" type="Normal">
 		<DBID>1697</DBID>
-		<DisplayNameID>34157</DisplayNameID>
+		<DisplayNameID>781056</DisplayNameID>
 		<Cost resourcetype="Food">4000.0000</Cost>
 		<Cost resourcetype="Gold">4000.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
-		<RolloverTextID>78034</RolloverTextID>
+		<RolloverTextID>781059</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="SetAge">Age4</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">GoldMiner</Target>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FortWagon" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="GoldMiner" relativity="Absolute">
-				<Target type="ProtoUnit">TownCenter</Target>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">FortFrontier</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -64339,7 +64339,7 @@
 			<TechStatus status="Active">Age0USA</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGun" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="USGatlingGun" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
@@ -64595,7 +64595,7 @@
 				<Target type="ProtoUnit">USGatlingGun</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypSPCNanib</Target>
+				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
@@ -64649,9 +64649,11 @@
 			<Effect type="TechStatus" status="obtainable">PoliticianPresidente</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianMarksmanUSA</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianNaturalist</Effect>
-			<Effect type="TechStatus" status="obtainable">PoliticianWarMinisterAct3</Effect>
-			<Effect type="TechStatus" status="obtainable">PoliticianTycoonAct3</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianGovernor</Effect>
+			<Effect type="TechStatus" status="obtainable">PoliticianTycoon</Effect>
+			<Effect type="TechStatus" status="obtainable">PoliticianEngineer</Effect>
+			<Effect type="TechStatus" status="obtainable">PoliticianViceroyBritish</Effect>
+			<Effect type="TechStatus" status="obtainable">PoliticianCavalierUSA</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Plantation</Target>
 			</Effect>
@@ -65614,22 +65616,22 @@
 	</Tech>
 	<Tech name="PoliticianGeneralUSA" type="Normal">
 		<DBID>6661</DBID>
-		<DisplayNameID>34156</DisplayNameID>
+		<DisplayNameID>781057</DisplayNameID>
 		<Cost resourcetype="Food">4000.0000</Cost>
 		<Cost resourcetype="Gold">4000.0000</Cost>
 		<ResearchPoints>100.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
-		<RolloverTextID>78033</RolloverTextID>
+		<RolloverTextID>781058</RolloverTextID>
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">USColonialMilitia</Target>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FactoryWagon" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">USColonialMilitia</Target>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
 			<Effect type="SetAge">Age4</Effect>
 		</Effects>
@@ -68626,15 +68628,17 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">ypSPCNanib</Target>
+				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">ypSPCNanib</Target>
+				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WarCamp</Target>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Militia" relativity="Absolute">
+				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
-			<Effect type="SetName" proto="ypSPCNanib" culture="none" newName="780730"/>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ExplorerDog" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="TextOutput">42752</Effect>
 		</Effects>
 	</Tech>
@@ -68987,7 +68991,7 @@
 		<Icon>units\trade\fort_wagon_icon_black</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="BlackPowderWagon" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="BlackPowderWagon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -69001,7 +69005,7 @@
 		<Icon>units\trade\fort_wagon_icon_black</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="BlackPowderWagon" relativity="Absolute">
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="BlackPowderWagon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -69510,7 +69514,7 @@
 		<Icon>units\artillery\gatling_gun\infinite_gatlinggun</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="XPGatlingGun" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="XPGatlingGun" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -70670,6 +70674,81 @@
 				<Target type="ProtoUnit">Halberdier</Target>
 			</Effect>
 			<Effect type="SetName" proto="Halberdier" culture="none" newName="780998"/>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipVillagersInf" type="Normal">
+		<DBID>2796</DBID>
+		<DisplayNameID>35710</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\villager_icon_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PoliticianCavalierUSA" type="Normal">
+		<DBID>1740</DBID>
+		<DisplayNameID>34152</DisplayNameID>
+		<Cost resourcetype="Food">2000.0000</Cost>
+		<Cost resourcetype="Gold">1400.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>781060</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="SetAge">Age3</Effect>
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Saber" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ImperialSchutzens" type="Normal">
+		<DBID>1313</DBID>
+		<DisplayNameID>77914</DisplayNameID>
+		<Cost resourcetype="Wood">1500.0000</Cost>
+		<Cost resourcetype="Gold">1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_infantry\imperial_infantry</Icon>
+		<RolloverTextID>77915</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status="Active">GuardSchutzens</TechStatus>
+			<TechStatus status="Active">Imperialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="SetName" proto="Schutze" culture="none" newName="77912"/>
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Schutze</Target>
+			</Effect>
+			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Schutze</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCArtilleryDamageUSA" type="Normal">
+		<DBID>2355</DBID>
+		<DisplayNameID>781061</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\hc_artillary_damage_team</Icon>
+		<RolloverTextID>36038</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractArtillery</Target>
+			</Effect>
+			<Effect type="TextOutput">781062</Effect>
 		</Effects>
 	</Tech>
 </TechTree>

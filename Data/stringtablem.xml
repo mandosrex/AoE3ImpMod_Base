@@ -2498,7 +2498,7 @@
 		<String _locID="26059" symbol="cStringCivRolloverFrench">Home City gives support and bonuses through Decree cards. Villagers are Coureurs - expensive, but gather and fight better than Settlers. Walls are cheaper and can be upgraded to Fortified Walls. Best units: Skirmisher, Cuirassier.</String>
 		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built. Gets a free General in the Enlightenment Age and extra early Docks. Best units: Musketeer, Hussar.</String>
 		<String _locID="26061" symbol="cStringCivRolloverSpanish">Home City gives support and bonuses through Decree cards. Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Enlightenment Age. Best units: Rodelero, Lancer.</String>
-		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Covered Wagon with every Age and increased Town Center limit. Home City Shipments arrive faster. Best units: Musketeer, Dragoon.</String>
+		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Town Wagon with every Age and increased Town Center limit. Home City Shipments arrive faster. Best units: Musketeer, Dragoon.</String>
 		<String _locID="26063" symbol="cStringCivRolloverDutch">Home City gives support and bonuses through Decree cards. Small Settler population, but can build Banks to produce Coin. Settlers cost Coin and train faster. Gets extra Envoys and early Plantations. Best units: Halberdier, Ruyter.</String>
 		<String _locID="26065" symbol="cStringCivRolloverGermans">Home City gives support and bonuses through Decree cards. Free Uhlans with most Home City Shipments. Gets extra Fame at the start and with each Age. Best units: Skirmisher, Uhlan.</String>
 		<String _locID="26066" symbol="cStringCivRolloverRussians">Home City gives support and bonuses through Decree cards. Trains Settlers and infantry in batches - infantry is weaker and cheaper. Blockhouse combines an Outpost and Barracks. Gets free Settlers with every Age. Best units: Grenadier, Cavalry Archer.</String>
@@ -3057,8 +3057,8 @@
 		<String _locID="27326" gamecharacter="Kanyenke" soundfilename="KANY5025">The British white men will pay at the hands of those Iroquois warriors.</String>
 		<String _locID="27327" gamecharacter="John" soundfilename="JOHN5065">Captain, once we are through the walls, help the Iroquois destroy the entire British camp.</String>
 		<String _locID="27328">Transforms into a Town Center</String>
-		<String _locID="27329">Starts a new colony by transforming into a Town Center.</String>
-		<String _locID="27330">Covered Wagon</String>
+		<String _locID="27329">Starts a new settlement by transforming into a Town Center.</String>
+		<String _locID="27330">Town Wagon</String>
 		<String _locID="27332" gamecharacter="Kanyenke" soundfilename="KANY5030">For what the British have done to my sister's village, every building must be destroyed.</String>
 		<String _locID="27333" gamecharacter="John" soundfilename="JOHN5070">It looks like the French could use our help.</String>
 		<String _locID="27334" gamecharacter="John" soundfilename="JOHN5075">Take the men and help push the British back across the river.</String>
@@ -4127,8 +4127,8 @@
 		<String _locID="30901">PROP Shallow Flow</String>
 		<String _locID="30908">Eagle's Nest</String>
 		<String _locID="30910">PROP Eagle's Nest</String>
-		<String _locID="30919">Transform your Covered Wagon into a Town Center.</String>
-		<String _locID="30920">Move to an unobstructed area to transform your Covered Wagon into a Town Center.</String>
+		<String _locID="30919">Transform your Town Wagon into a Town Center.</String>
+		<String _locID="30920">Move to an unobstructed area to transform your Town Wagon into a Town Center.</String>
 		<String _locID="30921">Monitor. Mortar ship</String>
 		<String _locID="30922">Monitor. Mortar ship good at bombarding buildings at great range.</String>
 		<String _locID="30923">Monitor</String>
@@ -4683,7 +4683,7 @@
 		<String _locID="32649">Establish a new colony and defeat the British.</String>
 		<String _locID="32650">Use your army and the Mercenaries you have to destroy the special Cherokee War Huts. War Huts are different from the Cherokee villages.</String>
 		<String _locID="32651">Select John and Kanyenke and have them move to the only Cherokee village. The flare indicates where this village is. If John or Kanyenke are down you will need to revive them first.</String>
-		<String _locID="32652">Use the Covered Wagon to build a Town Center. You will need to start training a pretty good size force because the British are going to push back with a force of their own.</String>
+		<String _locID="32652">Use the Town Wagon to build a Town Center. You will need to start training a pretty good size force because the British are going to push back with a force of their own.</String>
 		<String _locID="32653">Defeat the Cherokee war parties and negotiate peace.</String>
 		<String _locID="32654">Uncle Stuart</String>
 		<String _locID="32655">Cherokee War Party</String>
@@ -4746,7 +4746,7 @@
 		<String _locID="32743" symbol="cStringMapSizeInfo">Enter adjustment values for each side of the map (in meters).</String>
 		<String _locID="32744">Underbrush Carolinas Marsh</String>
 		<String _locID="32745">Underbrush Carolinas Forest</String>
-		<String _locID="32758">Click this button to build a new Covered Wagon in the New World.</String>
+		<String _locID="32758">Click this button to build a new Town Wagon in the New World.</String>
 		<String _locID="32759" symbol="cStringNuggetCibola1" comment="1 - amount, 2 - resource">A ruin of the First Lost City of Cibola. It contains preserved food worth %1d %2s.</String>
 		<String _locID="32760" symbol="cStringESOStatsUploadComplete">Successfully Uploaded Stats File.</String>
 		<String _locID="32761" symbol="cStringNuggetCibola1Activate" comment="1 - player, 2 - amount, 3 - resource">%1s has uncovered a ruin of the First Lost City of Cibola. It contains preserved food worth %2d %3s.</String>
@@ -5127,7 +5127,7 @@
 		<String _locID="33405">Build a Town Center.</String>
 		<String _locID="33406">Find and collect three Navigation Charts.</String>
 		<String _locID="33409">Use your ships to attack the pirate ships discovered near your starting location. Try to destroy the pirate's Fireships before they can ram your ships.</String>
-		<String _locID="33411">Your Covered Wagon can be used to build a Town Center. Find a place to build your Town Center that has plenty of Food, Wood and Coin nearby.</String>
+		<String _locID="33411">Your Town Wagon can be used to build a Town Center. Find a place to build your Town Center that has plenty of Food, Wood and Coin nearby.</String>
 		<String _locID="33413">The Navigation Charts are guarded. Make sure you have an army when scouting for them. The Navigation Charts are just like Treasures, so Heroes and Settlers can pick them up.</String>
 		<String _locID="33414">Sail to the New World.</String>
 		<String _locID="33415" gamecharacter="Morgan" soundfilename="MORG5206">The Spanish dogs have imprisoned some Aztecs to mine gold for them.</String>
@@ -5154,7 +5154,7 @@
 		<String _locID="33437">Find and destroy the Spanish Town Center.</String>
 		<String _locID="33438">The prisoners may help you if you free them from the Spanish.</String>
 		<String _locID="33439">The only place to put a Trading Post is at the south end of the Aztec village.</String>
-		<String _locID="33440">A ship has dropped off a Covered Wagon in the village. Use the Covered Wagon to build your Town Center.</String>
+		<String _locID="33440">A ship has dropped off a Town Wagon in the village. Use the Town Wagon to build your Town Center.</String>
 		<String _locID="33441">In 15 minutes an Aztec army will arrive to help. You will need a strong army to protect the Temples. Freeing some more prisoners working outside the village would help your chances.</String>
 		<String _locID="33442">The Aztec army can help you eliminate the Spanish Town Center. The Spanish attacks have been coming from the northeast. You may need Mortars to help destroy the Spanish buildings.</String>
 		<String _locID="33443">Protect the Aztec Temples.</String>
@@ -5365,8 +5365,8 @@
 		<String _locID="33828">Move the Explorer and the Musketeers to the next flag.</String>
 		<String _locID="33829">Scroll the view until you see the next flag.</String>
 		<String _locID="33830">Move everyone to the next flag.</String>
-		<String _locID="33831">Select the Covered Wagon.</String>
-		<String _locID="33832">Move the Covered Wagon to the flag.</String>
+		<String _locID="33831">Select the Town Wagon.</String>
+		<String _locID="33832">Move the Town Wagon to the flag.</String>
 		<String _locID="33833">Build a Town Center.</String>
 		<String _locID="33834">Gather Wood from trees.</String>
 		<String _locID="33835">Send a Settler from the Home City.</String>
@@ -5379,7 +5379,7 @@
 		<String _locID="33842">To select multiple units, left-click and hold, then drag a box around them.</String>
 		<String _locID="33843">To move units, select them, then right-click the location where you want them to go.</String>
 		<String _locID="33844">To scroll the view in the main game window, move the pointer to the edge of the screen.</String>
-		<String _locID="33845">Select the Covered Wagon, then click the "Build Town Center" button, then left-click to place the Town Center.</String>
+		<String _locID="33845">Select the Town Wagon, then click the "Build Town Center" button, then left-click to place the Town Center.</String>
 		<String _locID="33846">Select your Settlers, then right-click on a tree.</String>
 		<String _locID="33847">If you are still in the main game view, left-click the Home City button. Then left-click the Settler icon to send Settlers to the New World.</String>
 		<String _locID="33848">Select the Explorer and the Musketeers, and move then into unexplored areas.</String>
@@ -5602,7 +5602,7 @@
 		<String _locID="34118" symbol="cStringHomeCityWaterGatherPointMustBeOnWater">Your Home City Water Gather Point must be set on the water.</String>
 		<String _locID="34132">VIL Settler</String>
 		<String _locID="34133">VIL Settler Wagon</String>
-		<String _locID="34134">VIL Covered Wagon</String>
+		<String _locID="34134">VIL Town Wagon</String>
 		<String _locID="34135">Swashbuckler Attack</String>
 		<String _locID="34136">A sweeping hand attack that damages all units in the area.</String>
 		<String _locID="34137">Long-range Bombardment Attack</String>
@@ -5652,8 +5652,8 @@
 		<String _locID="34181">10 Rodeleros</String>
 		<String _locID="34182">1 Caravel and Cords of 400 Wood</String>
 		<String _locID="34183">The Admiral of the Ocean Sea</String>
-		<String _locID="34184">Immigrants is researched for free, population is better supported.</String>
-		<String _locID="34185">Mythical Natives is researched for free, natives are greatly improved.</String>
+		<String _locID="34184">Immigrants is researched for free, population is better supported</String>
+		<String _locID="34185">Mythical Natives is researched for free, natives are greatly improved</String>
 		<String _locID="34186">Aztec leader</String>
 		<String _locID="34187">A leader among the Aztec.</String>
 		<String _locID="34188">Aztec Chief</String>
@@ -5664,7 +5664,7 @@
 		<String _locID="34196">Distance Away From Camera</String>
 		<String _locID="34197">Capture the Spanish Treasure Fleet.</String>
 		<String _locID="34198">Place a Town Center to establish your base.</String>
-		<String _locID="34199">Find a spot to take your Covered Wagon and place your Town Center. Where you place it may determine your strategy to defeat the Spanish.</String>
+		<String _locID="34199">Find a spot to take your Town Wagon and place your Town Center. Where you place it may determine your strategy to defeat the Spanish.</String>
 		<String _locID="34200">Capture six total Treasure ships.</String>
 		<String _locID="34201">There isn't much Coin in the area. Each Treasure Ship captured will provide a trickle of Coin.</String>
 		<String _locID="34202">Free Inca prisoners.</String>
@@ -6055,7 +6055,7 @@
 		<String _locID="34982">SPC Fixed Gun Base Ruins</String>
 		<String _locID="34986" symbol="cStringGatherersLabel">Gatherers:</String>
 		<String _locID="34999">Colonial Militia</String>
-		<String _locID="35000">Town Center attack increased, and you can call out Minutemen from Houses.</String>
+		<String _locID="35000">Town Center attack increased, and you can call out a Minutemen army from Houses.</String>
 		<String _locID="35002">Pioneers</String>
 		<String _locID="35003">Villager hitpoints greatly increased.</String>
 		<String _locID="35028" gamecharacter="Kanyenke" soundfilename="KANY2015">Hopefully I can get some help from some of the tribes nearby.</String>
@@ -6407,7 +6407,7 @@
 		<String _locID="35658">6 Musketeers</String>
 		<String _locID="35659">3 Hussars</String>
 		<String _locID="35660">5 Rodeleros</String>
-		<String _locID="35661">1 Covered Wagon</String>
+		<String _locID="35661">1 Town Wagon</String>
 		<String _locID="35662">3 Lancers</String>
 		<String _locID="35663">1 Falconet</String>
 		<String _locID="35665">Rubble 2x2</String>
@@ -6729,7 +6729,7 @@
 		<String _locID="36053">All artillery train faster.</String>
 		<String _locID="36054">Engineering School</String>
 		<String _locID="36055">Spent on Units</String>
-		<String _locID="36056">2 Covered Wagons</String>
+		<String _locID="36056">2 Town Wagons</String>
 		<String _locID="36059" symbol="cStringResources">Resources</String>
 		<String _locID="36060">View detail on the resources gathered.</String>
 		<String _locID="36061">TEAM Boats gather Food from Fish and Coin from Whales faster.</String>
@@ -6975,7 +6975,7 @@
 		<String _locID="36371" gamecharacter="Seminole Chief" soundfilename="GENR2060">I have not seen this young warrior since he was very small. Since you have helped my people, I will help yours.</String>
 		<String _locID="36372" gamecharacter="Seminole Chief" soundfilename="GENR2065">South of here, men with large guns have taken a sacred artifact. Retrieve it and the Caribs will not attack your village again.</String>
 		<String _locID="36373" gamecharacter="Seminole Chief" soundfilename="GENR2070">These warriors will help you fight.</String>
-		<String _locID="36374">TEAM A Covered Wagon Shipment for the whole team.</String>
+		<String _locID="36374">TEAM A Town Wagon Shipment for the whole team.</String>
 		<String _locID="36375">TEAM Conestoga Wagons</String>
 		<String _locID="36377">TEAM Town Center attack and hitpoints increased.</String>
 		<String _locID="36378">TEAM Teutonic Town Center</String>
@@ -7010,7 +7010,7 @@
 		<String _locID="36415">7 Sheep +2 Uhlans</String>
 		<String _locID="36416">15 Sheep +3 Uhlans</String>
 		<String _locID="36417">7 Cows +2 Uhlans</String>
-		<String _locID="36418">1 Covered Wagon +3 Uhlans</String>
+		<String _locID="36418">1 Town Wagon +3 Uhlans</String>
 		<String _locID="36421">Hot Air Balloons</String>
 		<String _locID="36422">10 Crossbowmen +3 Uhlans</String>
 		<String _locID="36423">8 Crossbowmen +2 Uhlans</String>
@@ -7083,7 +7083,7 @@
 		<String _locID="36492" gamecharacter="Morgan" soundfilename="MORG2025">The Turks are on the run. Excellent work men.</String>
 		<String _locID="36493">Improves John Black and Kanyenke's attack and hitpoints. Allows Kanyenke to train Pet Wolves.</String>
 		<String _locID="36494">Mercenary Drills</String>
-		<String _locID="36497">Promotes your Commander, increasing his attack and hitpoints and enables him to build War Camps.</String>
+		<String _locID="36497">Improves your American Explorer in combat, enables him to train Militia and gives him a powerful canine companion.</String>
 		<String _locID="36498">Military Promotion</String>
 		<String _locID="36499">Colonel Cooper</String>
 		<String _locID="36500">Improves Amelia Black's attack and hitpoints.</String>
@@ -7178,7 +7178,7 @@
 		<String _locID="36601">Elite War Chief</String>
 		<String _locID="36602">Initiated Sharktooth Bowman</String>
 		<String _locID="36603">Initiated Blackwood Archer</String>
-		<String _locID="36607">4 Covered Wagons</String>
+		<String _locID="36607">4 Town Wagons</String>
 		<String _locID="36608">Settler Wagons gather from all resources faster, +4 Uhlans.</String>
 		<String _locID="36609">Guild Artisans</String>
 		<String _locID="36611">Imperial Espada</String>
@@ -7762,7 +7762,7 @@
 		<String _locID="37283">Find and control the only Trade Route.</String>
 		<String _locID="37284">The only Trade Route is on the British held side of the river. It is short and they are getting trade drops very fast. You will need to destroy their Trade Post and build your own to control it.</String>
 		<String _locID="37287">TEAM Ottomans send their allies 10 Chests of Coin.</String>
-		<String _locID="37288">Ships 6 Grenadiers +1 Great Bombard.</String>
+		<String _locID="37288">Ships 6 Grenadiers and 1 Great Bombard.</String>
 		<String _locID="37289">Ottoman Artillery Division</String>
 		<String _locID="37290">3 Falconets</String>
 		<String _locID="37291">TEAM 2 Outpost Wagons that can transform into Outposts or Blockhouses (War Huts for Natives and Castles for Asians).</String>
@@ -7981,7 +7981,7 @@
 		<String _locID="37514" symbol="cStringChannelName">Channel Name</String>
 		<String _locID="37515" symbol="cStringStaticChannel">Created By</String>
 		<String _locID="37516" symbol="cStringUsers">Users</String>
-		<String _locID="37517">TEAM Germans send allies Covered Wagons.</String>
+		<String _locID="37517">TEAM Germans send allies Town Wagons.</String>
 		<String _locID="37518">All cavalry are faster, +4 Uhlans.</String>
 		<String _locID="37519">Polish Riding School</String>
 		<String _locID="37520">Polish Winged Knights</String>
@@ -12058,7 +12058,7 @@
 		<String _locID="41640">Selects the team of this player.</String>
 		<String _locID="41641">Selects the color of this player.</String>
 		<String _locID="41642">Selects the map for this game.</String>
-		<String _locID="41643">You can start a game in a later Age. Nomad starts a game in the Discovery Age with a Covered Wagon instead of a Town Center. Post-Industrial starts a game in the Industrial Age and all improvements researched. Post-Imperial starts a game in the Imperial Age with all improvements researched.</String>
+		<String _locID="41643">You can start a game in a later Age. Nomad starts a game in the Discovery Age with a Town Wagon instead of a Town Center. Post-Industrial starts a game in the Industrial Age and all improvements researched. Post-Imperial starts a game in the Imperial Age with all improvements researched.</String>
 		<String _locID="41644">At higher difficulty settings, the computer players attack earlier, more often and with larger armies. On easier difficulty settings, the computer players have a weaker economy and advance in Age more slowly.</String>
 		<String _locID="41645" symbol="cStringCardFailedAlreadySent">You have already sent this Card.</String>
 		<String _locID="41646">Selects the number of players for this game.</String>
@@ -15825,7 +15825,7 @@
 		<String _locID="45411">Build a Town Center</String>
 		<String _locID="45412">Drive the British from Yorktown.</String>
 		<String _locID="45413">Protect your cannons to take down the two enemy fortifications.</String>
-		<String _locID="45414">Use the Covered Wagon to construct a Town Center.</String>
+		<String _locID="45414">Use the Town Wagon to construct a Town Center.</String>
 		<String _locID="45415">Build up your town and train an army to take out the Yorktown Town Center.</String>
 		<String _locID="45416">Sophisticated Mapuche legal system strengthens your social structure and lowers the Coin cost of your units.</String>
 		<String _locID="45417">Mapuche Ad-mapu</String>
@@ -16607,14 +16607,14 @@
 		<String _locID="46202">IGC Holme</String>
 		<String _locID="46203">Find a Trading Post site.</String>
 		<String _locID="46204">Build a Trading Post.</String>
-		<String _locID="46205">Escort the Covered Wagon from Fort Laramie to the Trading Post.</String>
+		<String _locID="46205">Escort the Town Wagon from Fort Laramie to the Trading Post.</String>
 		<String _locID="46206">Build a second Trading Post</String>
 		<String _locID="46207">Destroy both Sioux Town Centers.</String>
 		<String _locID="46208">Good sites for Trading Posts can be found further up the trail. Watch out for Sioux attacks.</String>
 		<String _locID="46209">Chayton Black can build Trading Posts. Keep him safe.</String>
-		<String _locID="46210">A Covered Wagon is on the way from Fort Laramie to your new trading post. Keep it safe.</String>
+		<String _locID="46210">A Town Wagon is on the way from Fort Laramie to your new trading post. Keep it safe.</String>
 		<String _locID="46211">Another good site for a Trading Post can be found further up the Bozeman Trail.</String>
-		<String _locID="46212">A second Covered Wagon is on the way. Keep it safe, but watch your new Town Center too. You will be able to advance to the next age and train military units once the second Wagon reaches its destination safely.</String>
+		<String _locID="46212">A second Town Wagon is on the way. Keep it safe, but watch your new Town Center too. You will be able to advance to the next age and train military units once the second Wagon reaches its destination safely.</String>
 		<String _locID="46213">Own two Trading Posts when the scenario ends.</String>
 		<String _locID="46214">There are only two free Trading Post sites on the map. Fort Laramie's Trading Post does not count.</String>
 		<String _locID="46215">Onikare Shipment has arrived.</String>
@@ -17160,8 +17160,8 @@
 		<String _locID="46758" symbol="cStringUniqueDefaultDeckName">My Deck (%d)</String>
 		<String _locID="46759">Champion Coyote Man</String>
 		<String _locID="46760" symbol="cStringMapControlDisplay">Trade Monopoly Victory</String>
-		<String _locID="46761">Covered Wagon</String>
-		<String _locID="46762">IGC Covered Wagon</String>
+		<String _locID="46761">Town Wagon</String>
+		<String _locID="46762">IGC Town Wagon</String>
 		<String _locID="46763" gamecharacter="Chayton" soundfilename="XCHAY9540">The war council has spoken - prepare for battle!</String>
 		<String _locID="46764" gamecharacter="Chayton" soundfilename="XCHAY9545">Crazy Horse, I could not convene the war council in time. I have failed you and the Sioux.</String>
 		<String _locID="46765" gamecharacter="Chayton" soundfilename="XCHAY9550">The Sioux are defeated...</String>
@@ -19394,7 +19394,7 @@
 		<String _locID="48996">Find War Hut</String>
 		<String _locID="48997">Build War Hut</String>
 		<String _locID="48998">TEAM Cheyenne warriors are sent to everyone's aid.</String>
-		<String _locID="48999">TEAM Everyone gets a Covered Wagon!</String>
+		<String _locID="48999">TEAM Everyone gets a Town Wagon!</String>
 		<String _locID="49000">TEAM Tame coyotes show up for everyone.</String>
 		<String _locID="49001">TEAM Birchbark Shipment has arrived.</String>
 		<String _locID="49002">TEAM 3 Dog Soldiers has been shipped.</String>
@@ -19814,7 +19814,7 @@
 		<String _locID="60366">4 Villagers + 8 Pigs</String>
 		<String _locID="60367">TEAM Chinese send the team 1 Nomad and 1 Cow.</String>
 		<String _locID="60368">Emperor's Settlement</String>
-		<String _locID="60369">Ships 1 Covered Wagon and 5 Villagers</String>
+		<String _locID="60369">Ships 1 Town Wagon and 5 Villagers</String>
 		<String _locID="60370">Center of a colony</String>
 		<String _locID="60371">Most important building and center of a colony. Supports 10 population.</String>
 		<String _locID="60372">Janaros Town Hall</String>
@@ -19840,10 +19840,10 @@
 		<String _locID="60392">Watch Tower</String>
 		<String _locID="60393">Watch Tower</String>
 		<String _locID="60394">Transforms into a Town Center</String>
-		<String _locID="60395">Starts a new colony by transforming into a Town Center.</String>
-		<String _locID="60396">Covered Wagon</String>
-		<String _locID="60397">VIL Covered Wagon Asian</String>
-		<String _locID="60398">Ships 1 Covered Wagon</String>
+		<String _locID="60395">Starts a new settlement by transforming into a Town Center.</String>
+		<String _locID="60396">Town Wagon</String>
+		<String _locID="60397">VIL Town Wagon Asian</String>
+		<String _locID="60398">Ships 1 Town Wagon</String>
 		<String _locID="60399">Town Rickshaw</String>
 		<String _locID="60400">Transforms into a Village</String>
 		<String _locID="60401">Transforms into a Village for supporting population and livestock-fattening.</String>
@@ -20039,7 +20039,7 @@
 		<String _locID="60591">Honored Yabusame</String>
 		<String _locID="60592">Honored Naginata Rider</String>
 		<String _locID="60593">Honored Samurai</String>
-		<String _locID="60594">Ships 1 Covered Wagon and 3 Villagers</String>
+		<String _locID="60594">Ships 1 Town Wagon and 3 Villagers</String>
 		<String _locID="60595">Emperor's Settlement</String>
 		<String _locID="60596">Transforms into a Livestock Pen</String>
 		<String _locID="60597">Transforms into a Livestock Pen.</String>
@@ -20201,8 +20201,8 @@
 		<String _locID="60753">Randy the Pet Rhino</String>
 		<String _locID="60754">Pet Rhino</String>
 		<String _locID="60755">2 Pet Tigers +1 Villager</String>
-		<String _locID="60756">4 Pet Tigers + 1 Villager</String>
-		<String _locID="60757">2 Pet Rhino + 1 Villager</String>
+		<String _locID="60756">4 Pet Tigers +1 Villager</String>
+		<String _locID="60757">2 Pet Rhino +1 Villager</String>
 		<String _locID="60758">TEAM 2 Pet Rhinos</String>
 		<String _locID="60759">Increases the amount monks can heal +1 Villager. Allows you to train Lions.</String>
 		<String _locID="60760">Master Healing</String>
@@ -21659,9 +21659,9 @@
 		<String _locID="62211">Cords of 500 Wood</String>
 		<String _locID="62212">Ships Villagers and Pigs.</String>
 		<String _locID="62213">2 Villager + 2 Pigs</String>
-		<String _locID="62214">Ships 1 Covered Wagon</String>
+		<String _locID="62214">Ships 1 Town Wagon</String>
 		<String _locID="62215">Town Rickshaw +5 Villagers</String>
-		<String _locID="62216">Ships 1 Covered Wagon and 5 Villagers</String>
+		<String _locID="62216">Ships 1 Town Wagon and 5 Villagers</String>
 		<String _locID="62217">Emperor's Settlement</String>
 		<String _locID="62218">Monk attack and hitpoints increased. Monks increases attack and hitpoints of nearby disciples.</String>
 		<String _locID="62219">Chinese Monk Combat</String>
@@ -21824,11 +21824,11 @@
 		<String _locID="62376">Crates of 200 Food +2 Villager</String>
 		<String _locID="62377">Food source.</String>
 		<String _locID="62378">Crates of 300 Food +1 Villager</String>
-		<String _locID="62379">1 Villager + 4 Sheep</String>
-		<String _locID="62380">3 Villagers + 11 Sheep</String>
-		<String _locID="62381">2 Villagers + 7 Sheep</String>
-		<String _locID="62382">Ships 1 Covered Wagon</String>
-		<String _locID="62383">Covered Wagon + 1 Villager</String>
+		<String _locID="62379">1 Villager +4 Sheep</String>
+		<String _locID="62380">3 Villagers +11 Sheep</String>
+		<String _locID="62381">2 Villagers +7 Sheep</String>
+		<String _locID="62382">Ships 1 Town Wagon</String>
+		<String _locID="62383">Town Wagon +1 Villager</String>
 		<String _locID="62384">Ships 4 Villagers and 1 Monk</String>
 		<String _locID="62385">8 Villagers</String>
 		<String _locID="62386">Livestock Pen +3 Sheep</String>
@@ -28586,7 +28586,7 @@
 		<String _locID="69305" symbol="cStringHotkeyFindFishingBoats">Find All Idle Fishing Boats</String>
 		<String _locID="69306">4 Flaming Arrows</String>
 		<String _locID="69307">Build a Town Center.</String>
-		<String _locID="69308">Use your Covered Wagon to build a Town Center. Find a suitable location with plenty of accessible resources.</String>
+		<String _locID="69308">Use your Town Wagon to build a Town Center. Find a suitable location with plenty of accessible resources.</String>
 		<String _locID="69309">Build Trading Posts on the Trade Route.</String>
 		<String _locID="69310">Build Trading Posts on the natives' Trade Route and claim the region for the British East India Company.</String>
 		<String _locID="69311">Build Trading Posts on the saltpeter sites.</String>
@@ -29484,9 +29484,9 @@
 		<String _locID="70205">Build near Native settlements or Trade Routes. Provides experience points and other benefits.</String>
 		<String _locID="70206">Trading Post</String>
 		<String _locID="70207">Transforms into a Town Center</String>
-		<String _locID="70208">Starts a new colony by transforming into a Town Center.</String>
-		<String _locID="70209">Covered Wagon</String>
-		<String _locID="70210">VIL Covered Wagon Asian</String>
+		<String _locID="70208">Starts a new settlement by transforming into a Town Center.</String>
+		<String _locID="70209">Town Wagon</String>
+		<String _locID="70210">VIL Town Wagon Asian</String>
 		<String _locID="70211">Coin source.</String>
 		<String _locID="70212">Chests of 600 Coin</String>
 		<String _locID="70213">Coin source.</String>
@@ -29858,10 +29858,10 @@
 		<String _locID="77840">1 Wood Supply Wagon</String>
 		<String _locID="77841">This wagon is carrying all resources.</String>
 		<String _locID="77842">TEAM 1 Supply Wagon</String>
-		<String _locID="77843">Delivers a supply of 999 Food + 1 Villager.</String>
-		<String _locID="77844">Delivers a supply of 999 Wood + 1 Villager.</String>
-		<String _locID="77845">Delivers a supply of 999 Coin + 1 Villager.</String>
-		<String _locID="77846">Provides any type of resources + 1 Villager.</String>
+		<String _locID="77843">Delivers a supply of 999 Food.</String>
+		<String _locID="77844">Delivers a supply of 999 Wood.</String>
+		<String _locID="77845">Delivers a supply of 999 Coin.</String>
+		<String _locID="77846">Provides any type of resource.</String>
 		<String _locID="77847">4 Pilgrims</String>
 		<String _locID="77848">Military Might</String>
 		<String _locID="77849">Ships a General that can boost the hitpoints and attack of nearby units. Also enables the General at the Command Post.</String>
@@ -30461,5 +30461,12 @@
 		<String _locID="781053">Distinguished upgrade for Basilisk Cannons.</String>
 		<String _locID="781054">Distinguished Horse Artillery</String>
 		<String _locID="781055">Distinguished upgrade for Horse Artillery.</String>
+		<String _locID="781056">Confederacy</String>
+		<String _locID="781057">Union</String>
+		<String _locID="781058">1 Factory Wagon and Factory build limit increased</String>
+		<String _locID="781059">1 Fort Wagon and Fort build limit increased</String>
+		<String _locID="781060">6 Sabers</String>
+		<String _locID="781061">TEAM Artillery Attack</String>
+		<String _locID="781062">TEAM Artillery Damage Shipment has arrived.</String>
 	</Language>
 </StringTable>
