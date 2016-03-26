@@ -69035,7 +69035,7 @@
 		<Icon>ui\Units\gatling_gun_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGun" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGun" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
