@@ -5323,7 +5323,7 @@
 		<String _locID="33755">SPC Graves</String>
 		<String _locID="33756" symbol="cStringESOLeaveConv">Leave Conversation</String>
 		<String _locID="33757">Mine Silver</String>
-		<String _locID="33758">Banks cost less, have more hitpoints and build faster. Also moves Banks to the Discovery Age.</String>
+		<String _locID="33758">Banks cost less and are moved to the Discovery Age.</String>
 		<String _locID="33759">Dutch East India Company</String>
 		<String _locID="33760">Interchangeable Parts</String>
 		<String _locID="33761">Factory build limit increased by +1.</String>
@@ -6908,8 +6908,8 @@
 		<String _locID="36285">TEAM Coehorn Mortars</String>
 		<String _locID="36287">TEAM improved Mortar damage.</String>
 		<String _locID="36288">Bank of Amsterdam</String>
-		<String _locID="36289">Bank build limit increased by 1. Also ships a Bank Wagon.</String>
-		<String _locID="36290">Bank build limit increased by 1. Also ships a Bank Wagon.</String>
+		<String _locID="36289">Banks have more hitpoints and also ships a Bank Wagon.</String>
+		<String _locID="36290">Banks build faster and also ships a Bank Wagon.</String>
 		<String _locID="36291">Bank of Rotterdam</String>
 		<String _locID="36292">Nassau Halberdier</String>
 		<String _locID="36293">TEAM Villagers gather Food from hunted animals, berries, and Cherry Orchards faster.</String>
@@ -12680,7 +12680,7 @@
 		<String _locID="42262">Game Type:</String>
 		<String _locID="42263">HC Filter:</String>
 		<String _locID="42264" symbol="cStringAppTitle">Age of Empires III: The WarChiefs</String>
-		<String _locID="42265" symbol="cStringLuaFolder">My Games\Age of Empires 3\Improvement Mod\</String>
+		<String _locID="42265" symbol="cStringLuaFolder">My Games\AoE3 Improvement Mod\</String>
 		<String _locID="42266"/>
 		<String _locID="42267">Imperial Man-of-War</String>
 		<String _locID="42268">Try to match with my mutual friends.</String>
@@ -30468,5 +30468,6 @@
 		<String _locID="781060">6 Sabers</String>
 		<String _locID="781061">TEAM Artillery Attack</String>
 		<String _locID="781062">TEAM Artillery Damage Shipment has arrived.</String>
+		<String _locID="781063">TEAM 1 Bank Wagon</String>
 	</Language>
 </StringTable>

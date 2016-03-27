@@ -14925,6 +14925,9 @@
 			<Effect type="TextOutput">780790</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionBonifacio</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionWashington</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Bank</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ChurchGardeImperial2" type="Normal">
@@ -18092,16 +18095,10 @@
 		<RolloverTextID>33758</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Bank</Target>
-			</Effect>
 			<Effect type="Data" amount="0.85" subtype="Cost" resource="Food" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="Data" amount="0.85" subtype="Cost" resource="Wood" relativity="BasePercent">
-				<Target type="ProtoUnit">Bank</Target>
-			</Effect>
-			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
@@ -18527,6 +18524,9 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="TextOutput">780790</Effect>
 		</Effects>
@@ -23944,7 +23944,7 @@
 		<RolloverTextID>36289</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
@@ -23963,7 +23963,7 @@
 		<RolloverTextID>36290</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
@@ -40264,19 +40264,20 @@
 	</Tech>
 	<Tech name="HCXPBankWagon" type="Normal">
 		<DBID>3394</DBID>
-		<DisplayNameID>46890</DisplayNameID>
+		<DisplayNameID>781063</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>buildings\bank\bank_icon</Icon>
+		<Icon>ui\bank_team</Icon>
 		<RolloverTextID>46889</RolloverTextID>
 		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
 		<Effects>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="Plantation" relativity="Absolute">
-				<Target type="ProtoUnit">BankWagon</Target>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">ypBankAsian</Target>
 			</Effect>
 		</Effects>
 	</Tech>
