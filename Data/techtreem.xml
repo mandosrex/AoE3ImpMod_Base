@@ -14911,7 +14911,7 @@
 			<Effect type="TechStatus" status="active">Crackshot</Effect>
 			<Effect type="TextOutput">780790</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionLouverture</Effect>
-			<Effect type="TechStatus" status="obtainable">XPRevolutionWashington</Effect>
+			<Effect type="TechStatus" status="obtainable">XPRevolutionBlackbeard</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="IndustrializeDutch" type="Normal">
@@ -14924,7 +14924,7 @@
 			<Effect type="TechStatus" status="active">Crackshot</Effect>
 			<Effect type="TextOutput">780790</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionBonifacio</Effect>
-			<Effect type="TechStatus" status="obtainable">XPRevolutionWashington</Effect>
+			<Effect type="TechStatus" status="obtainable">XPRevolutionBlackbeard</Effect>
 			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
@@ -16199,7 +16199,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionWashington</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionBlackbeard</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionLouverture</Effect>
 			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypSPCNanib</Target>
@@ -16218,7 +16218,7 @@
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionBonifacio</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionWashington</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionBlackbeard</Effect>
 			<Effect type="TextOutput">780790</Effect>
 		</Effects>
 	</Tech>
@@ -23941,7 +23941,7 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_bank_of_amsterdam\hc_bank_of_amsterdam</Icon>
-		<RolloverTextID>36289</RolloverTextID>
+		<RolloverTextID>36290</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
@@ -23960,7 +23960,7 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_bank_of_rotterdam\hc_bank_of_rotterdam</Icon>
-		<RolloverTextID>36290</RolloverTextID>
+		<RolloverTextID>36289</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
@@ -38143,6 +38143,9 @@
 			</Effect>
 			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="xpIronclad" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
+				<Target type="ProtoUnit">xpIronclad</Target>
 			</Effect>
 			<Effect type="TechStatus" status="active">XPRevolution</Effect>
 			<Effect type="TechStatus" status="active">CalltoArmsR</Effect>
@@ -57521,7 +57524,7 @@
 			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="ypConsulateHorseArtillery" relativity="Absolute">
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="ypConsulateCulverin" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="11.00" subtype="FreeHomeCityUnit" unittype="ypConsulateJinete" relativity="Absolute">
@@ -69275,23 +69278,44 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="XPRevolutionXPirate" type="Normal">
-		<DBID>3277</DBID>
-		<DisplayNameID>780811</DisplayNameID>
+	<Tech name="XPRevolutionBlackbeard" type="Normal">
+		<DBID>3272</DBID>
+		<DisplayNameID>781064</DisplayNameID>
 		<Cost resourcetype="Food">1000.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\revolution</Icon>
-		<RolloverTextID>780812</RolloverTextID>
+		<RolloverTextID>781065</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>RevoltTech</Flag>
 		<Prereqs>
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BlackBeardShip" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Privateer" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Privateer" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Privateer" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">AbstractWarShip</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Surgeon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">WarCamp</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="GeneralBr" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Resource" resource="Ships" relativity="Absolute">
 				<Target type="Player"/>
@@ -69305,13 +69329,13 @@
 			<Effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
+			<Effect type="TechStatus" status="obtainable">Piracy</Effect>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Outpost</Target>
 			</Effect>
 			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Blockhouse</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">Piracy</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">AsianFireship</Target>
 			</Effect>
@@ -69324,20 +69348,15 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpColonialMilitia</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">SaloonPirate</Target>
-			</Effect>
+			<Effect type="SetName" proto="xpColonialMilitia" culture="none" newName="34999"/>
 			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
 			<Effect type="InitiateRevolution"/>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">xpGatlingGun</Target>
+			</Effect>
 			<Effect type="Data" amount="200.00" subtype="PopulationCap" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BlackBeardShip" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Privateer" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="TechStatus" status="active">XPRevolution</Effect>
@@ -69347,9 +69366,6 @@
 			</Effect>
 			<Effect type="Data" amount="0.00" subtype="UnitRegenRate" unittype="Minuteman" relativity="Assign">
 				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">xpGatlingGun</Target>
 			</Effect>
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">Settler</Target>
@@ -69363,9 +69379,6 @@
 			<Effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Assign">
 				<Target type="ProtoUnit">FishingBoat</Target>
 			</Effect>
-			<Effect type="TechStatus" status="unobtainable">ChurchGalataTowerDistrict</Effect>
-			<Effect type="TechStatus" status="unobtainable">ChurchTopkapi</Effect>
-			<Effect type="TechStatus" status="unobtainable">ChurchTanzimat</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
 				<Target type="ProtoUnit">AbstractVillager</Target>
 			</Effect>

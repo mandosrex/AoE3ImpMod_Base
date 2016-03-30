@@ -16361,9 +16361,9 @@
 		<String _locID="45954">Grand Canyon</String>
 		<String _locID="45955">Grand Canyon: deep chasm flanked by starting areas.</String>
 		<String _locID="45956">Grand Canyon: description goes here.</String>
-		<String _locID="45957">Colonial Militia have more hitpoints.</String>
+		<String _locID="45957">Grants 10 Militia and increases their hitpoints.</String>
 		<String _locID="45958">Louverture</String>
-		<String _locID="45959">Grants 2 Gatling Guns and increases their hitpoints.</String>
+		<String _locID="45959">Grants 4 Gatling Guns and increases their hitpoints.</String>
 		<String _locID="45960">Washington</String>
 		<String _locID="45961">Grants 20 Outlaws. Wild West is researched for free.</String>
 		<String _locID="45962">Hidalgo</String>
@@ -16373,7 +16373,7 @@
 		<String _locID="45966">Bolivar</String>
 		<String _locID="45967">Grants 4 Mortars and increases their range.</String>
 		<String _locID="45968">San Martin</String>
-		<String _locID="45969">Grants 3 Ironclads.</String>
+		<String _locID="45969">Grants 3 Ironclads and increases their speed.</String>
 		<String _locID="45970">Santander</String>
 		<String _locID="45971">Grants 10 Hussars and increases their hitpoints.</String>
 		<String _locID="45972">OHiggins</String>
@@ -17288,7 +17288,7 @@
 		<String _locID="46886">Rangefinding</String>
 		<String _locID="46887">Mortars get increased range and line of sight.</String>
 		<String _locID="46888">Rangefinding Shipment has arrived.</String>
-		<String _locID="46889">Ships 2 Bank Wagons that can build Banks. Alternatively, if you are at your Bank limit they can also build Plantations.</String>
+		<String _locID="46889">Ships 1 Bank Wagon for the entire team.</String>
 		<String _locID="46890">Bank Wagon</String>
 		<String _locID="46891">TEAM Crossbows, Longbows and Pikemen train faster.</String>
 		<String _locID="46892">Doppelsoldner attack and hitpoints increase greatly, but speed drops drastically.</String>
@@ -25896,7 +25896,7 @@
 		<String _locID="66609">Dutch Brigade</String>
 		<String _locID="66610">Ships a large number of Garrochistas (Lancers) and Espadachins (Rodeleros).</String>
 		<String _locID="66611">Spanish Brigade</String>
-		<String _locID="66612">Ships a large number of Jinetes (Dragoons) and Horse Artillery.</String>
+		<String _locID="66612">Ships a large number of Jinetes (Dragoons) and Culverins.</String>
 		<String _locID="66613">Portuguese Brigade</String>
 		<String _locID="66614">Ships a large number of Tufanci Corps (Janissaries) and Great Bombards.</String>
 		<String _locID="66615">Ottoman Brigade</String>
@@ -30469,5 +30469,7 @@
 		<String _locID="781061">TEAM Artillery Attack</String>
 		<String _locID="781062">TEAM Artillery Damage Shipment has arrived.</String>
 		<String _locID="781063">TEAM 1 Bank Wagon</String>
+		<String _locID="781064">Thatch</String>
+		<String _locID="781065">Grants a pirate fleet and increases warship limits.</String>
 	</Language>
 </StringTable>
