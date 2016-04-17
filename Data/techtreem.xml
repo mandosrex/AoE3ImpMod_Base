@@ -70793,6 +70793,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Architect</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranCraneqShadow</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">MountedCrossbowman</Target>
