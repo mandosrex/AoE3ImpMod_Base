@@ -6,13 +6,18 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Dragoon</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">GuardDragoons</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialDragoons</Effect>
+			<Effect type="TechStatus" status="obtainable">VeteranDragoonsShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranFlatbowman</Effect>
 			<Effect type="TechStatus" status="obtainable">GuardFlatbowman</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialFlatbowman</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Flatbowman</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">VeteranCraneqShadow</Effect>
 			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
 				<Target type="ProtoUnit">AbstractWall</Target>
 			</Effect>
@@ -68,11 +73,6 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Envoy</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">MountedCrossbowman</Target>
-			</Effect>
-			<Effect type="TechStatus" status="obtainable">GuardMountedCrossbowman</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialMountedCrossbowman</Effect>
 			<Effect type="TechStatus" status="obtainable">GuardHalberdiers</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialHalberdiers</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -3636,7 +3636,7 @@
 			<Effect type="TechStatus" status="active">Flintlock</Effect>
 			<Effect type="TechStatus" status="active">Pillage</Effect>
 			<Effect type="TechStatus" status="active">FactoryMassProduction</Effect>
-			<Effect type="TechStatus" status="active">GuardMountedCrossbowman</Effect>
+			<Effect type="TechStatus" status="active">GuardDragoons</Effect>
 			<Effect type="TechStatus" status="active">RGVoltigeur</Effect>
 			<Effect type="TechStatus" status="active">GuardMusketeers</Effect>
 			<Effect type="TechStatus" status="active">GuardHussarsF</Effect>
@@ -4123,13 +4123,13 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="active">PostIndustrialBritish</Effect>
 			<Effect type="TechStatus" status="active">ImpLargeScaleAgriculture</Effect>
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">PostIndustrialBritish</Effect>
 			<Effect type="TechStatus" status="active">ImperialHalberdiers</Effect>
 			<Effect type="TechStatus" status="active">ImperialDragoons</Effect>
 			<Effect type="TechStatus" status="active">ImperialRedcoat</Effect>
@@ -4155,13 +4155,13 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="active">PostIndustrialDutch</Effect>
 			<Effect type="TechStatus" status="active">ImpLargeScaleAgriculture</Effect>
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">PostIndustrialDutch</Effect>
 			<Effect type="TechStatus" status="active">ImperialSchutzens</Effect>
 			<Effect type="TechStatus" status="active">ImperialSkirmishers</Effect>
 			<Effect type="TechStatus" status="active">ImperialCarabineer</Effect>
@@ -4187,15 +4187,15 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="active">PostIndustrialFrench</Effect>
 			<Effect type="TechStatus" status="active">ImpLargeScaleAgriculture</Effect>
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">PostIndustrialFrench</Effect>
 			<Effect type="TechStatus" status="active">ImperialGendarme</Effect>
-			<Effect type="TechStatus" status="active">ImperialMountedCrossbowman</Effect>
+			<Effect type="TechStatus" status="active">ImperialDragoons</Effect>
 			<Effect type="TechStatus" status="active">ImperialVoltigeur</Effect>
 			<Effect type="TechStatus" status="active">ImperialMusketeers</Effect>
 			<Effect type="TechStatus" status="active">ImperialHussarsF</Effect>
@@ -4220,13 +4220,13 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="active">PostIndustrialGerman</Effect>
 			<Effect type="TechStatus" status="active">ImpLargeScaleAgriculture</Effect>
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">PostIndustrialGerman</Effect>
 			<Effect type="TechStatus" status="active">ImperialWarWagons</Effect>
 			<Effect type="TechStatus" status="active">ImperialCzapkaUhlans</Effect>
 			<Effect type="TechStatus" status="active">ImperialNeedleGun</Effect>
@@ -4251,13 +4251,13 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="active">PostIndustrialOttoman</Effect>
 			<Effect type="TechStatus" status="active">ImpLargeScaleAgriculture</Effect>
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">PostIndustrialOttoman</Effect>
 			<Effect type="TechStatus" status="active">ImperialAzaps</Effect>
 			<Effect type="TechStatus" status="active">ImperialSpahi</Effect>
 			<Effect type="TechStatus" status="active">ImperialAbusGun</Effect>
@@ -4282,13 +4282,13 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="active">PostIndustrialPortuguese</Effect>
 			<Effect type="TechStatus" status="active">ImpLargeScaleAgriculture</Effect>
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">PostIndustrialPortuguese</Effect>
 			<Effect type="TechStatus" status="active">ImperialCacadores</Effect>
 			<Effect type="TechStatus" status="active">ImperialJinetes</Effect>
 			<Effect type="TechStatus" status="active">ImperialGuerreiros</Effect>
@@ -4313,13 +4313,13 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="active">PostIndustrialRussian</Effect>
 			<Effect type="TechStatus" status="active">ImpLargeScaleAgriculture</Effect>
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">PostIndustrialRussian</Effect>
 			<Effect type="TechStatus" status="active">ImperialTartarLoyalist</Effect>
 			<Effect type="TechStatus" status="active">ImperialCossack</Effect>
 			<Effect type="TechStatus" status="active">ImperialHalberdiers</Effect>
@@ -4344,13 +4344,13 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="active">PostIndustrialSpanish</Effect>
 			<Effect type="TechStatus" status="active">ImpLargeScaleAgriculture</Effect>
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">PostIndustrialSpanish</Effect>
 			<Effect type="TechStatus" status="active">ImperialCavalryArchers</Effect>
 			<Effect type="TechStatus" status="active">ImperialSkirmishers</Effect>
 			<Effect type="TechStatus" status="active">ImperialEspada</Effect>
@@ -64839,13 +64839,13 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="active">PostIndustrialUSA</Effect>
 			<Effect type="TechStatus" status="active">ImpLargeScaleAgriculture</Effect>
 			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
 			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">PostIndustrialUSA</Effect>
 			<Effect type="TechStatus" status="active">ImperialRiflemenUS</Effect>
 			<Effect type="TechStatus" status="active">AdvancedGatlingGun</Effect>
 			<Effect type="TechStatus" status="active">ImperialSkirmishersUS</Effect>
@@ -70793,6 +70793,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="TechStatus" status="obtainable">VeteranCraneqShadow</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">MountedCrossbowman</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">GuardMountedCrossbowman</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialMountedCrossbowman</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">GoldMiner</Target>
 			</Effect>
@@ -70894,8 +70900,6 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">CapitolD</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">GuardDragoons</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialDragoons</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Barracks</Target>
 			</Effect>
@@ -70996,9 +71000,6 @@
 				<Target type="ProtoUnit">Lancer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Dragoon</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Rodelero</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -71015,7 +71016,6 @@
 			<Effect type="TechStatus" status="obtainable">ImperialCannon</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialFieldGunNew</Effect>
 			<Effect type="TechStatus" status="obtainable">FieldGunNew</Effect>
-			<Effect type="TechStatus" status="obtainable">VeteranDragoonsShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranSkirmishersShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialManOWar</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialMonitorsNew</Effect>
