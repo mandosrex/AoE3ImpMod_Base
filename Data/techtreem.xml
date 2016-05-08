@@ -18,10 +18,6 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Flatbowman</Target>
 			</Effect>
-			<Effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
-				<Target type="ProtoUnit">AbstractWall</Target>
-			</Effect>
-			<Effect type="TechStatus" status="obtainable">StoneFortifiedWalls</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
@@ -260,6 +256,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseAztec</Target>
 			</Effect>
@@ -284,6 +283,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseComanche</Target>
 			</Effect>
@@ -305,6 +307,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseSeminole</Target>
 			</Effect>
@@ -325,6 +330,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">FortFrontier</Target>
 			</Effect>
@@ -2133,6 +2141,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseCherokee</Target>
 			</Effect>
@@ -2154,6 +2165,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseInca</Target>
 			</Effect>
@@ -2175,6 +2189,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseCarib</Target>
 			</Effect>
@@ -2197,6 +2214,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseLakota</Target>
 			</Effect>
@@ -2218,6 +2238,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseNootka</Target>
 			</Effect>
@@ -2239,6 +2262,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseCree</Target>
 			</Effect>
@@ -2393,6 +2419,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseMaya</Target>
 			</Effect>
@@ -2414,6 +2443,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseTupi</Target>
 			</Effect>
@@ -4669,6 +4701,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseAztec</Target>
 			</Effect>
@@ -4690,6 +4725,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseLakota</Target>
 			</Effect>
@@ -4711,6 +4749,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseIroquois</Target>
 			</Effect>
@@ -5952,6 +5993,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseAztec</Target>
 			</Effect>
@@ -5973,6 +6017,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseAztec</Target>
 			</Effect>
@@ -5994,6 +6041,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseAztec</Target>
 			</Effect>
@@ -6015,6 +6065,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">NativeHouseMaya</Target>
 			</Effect>
@@ -7104,6 +7157,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypNativeTempleJesuit</Target>
 			</Effect>
@@ -7130,6 +7186,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypNativeTempleZen</Target>
 			</Effect>
@@ -7153,6 +7212,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypNativeTempleShaolin</Target>
 			</Effect>
@@ -7176,6 +7238,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypNativeTempleBhakti</Target>
 			</Effect>
@@ -7202,6 +7267,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypNativeTempleSufi</Target>
 			</Effect>
@@ -7225,6 +7293,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect tech="Age0French" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="CrateofWood" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ypNativeTempleUdasi</Target>
 			</Effect>
@@ -46403,10 +46474,10 @@
 			<Effect type="Data" amount="1.50" subtype="Cost" resource="Wood" relativity="BasePercent">
 				<Target type="ProtoUnit">ypChuKoNu</Target>
 			</Effect>
-			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.75" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypChuKoNu</Target>
 			</Effect>
-			<Effect type="Data" amount="2.00" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.75" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">ypChuKoNu</Target>
 			</Effect>
 			<Effect type="Data" amount="1.50" subtype="Cost" resource="Wood" relativity="BasePercent">
@@ -46415,10 +46486,10 @@
 			<Effect type="Data" amount="1.50" subtype="Cost" resource="Food" relativity="BasePercent">
 				<Target type="ProtoUnit">ypStandardArmy</Target>
 			</Effect>
-			<Effect type="Data" amount="2.00" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.75" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">ypQiangPikeman</Target>
 			</Effect>
-			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+			<Effect type="Data" amount="1.75" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypQiangPikeman</Target>
 			</Effect>
 			<Effect type="Data" amount="1.50" subtype="Cost" resource="Food" relativity="BasePercent">
@@ -67680,8 +67751,8 @@
 	<Tech name="ImpExcessiveTaxationD" type="Normal">
 		<DBID>1674</DBID>
 		<DisplayNameID>780899</DisplayNameID>
-		<Cost resourcetype="Food">500.0000</Cost>
-		<Cost resourcetype="Wood">500.0000</Cost>
+		<Cost resourcetype="Food">350.0000</Cost>
+		<Cost resourcetype="Wood">350.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_trade_route_coin\hc_trade_route_coin</Icon>
@@ -68648,7 +68719,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>buildings\spc\promotion</Icon>
+		<Icon>ui\cooper</Icon>
 		<RolloverTextID>36497</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -70794,6 +70865,12 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Pilgrim</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Inquisitor</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Architect</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranCraneqShadow</Effect>
@@ -70829,9 +70906,6 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Capitol</Target>
 			</Effect>
-			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="ExplorerDog" relativity="Absolute">
-				<Target type="ProtoUnit">TownCenter</Target>
-			</Effect>
 			<Effect type="Data" amount="100.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -70855,7 +70929,7 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Envoy</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">GuardCrossbowmen</Effect>
+			<Effect type="TechStatus" status="obtainable">GuardCrossbowmenIt</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCTent</Target>
 			</Effect>
@@ -70865,9 +70939,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Hussar</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">WarDog</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
@@ -70891,14 +70962,11 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Mill</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialEspada</Effect>
-			<Effect type="TechStatus" status="obtainable">VeteranRodeleros</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialMusketeers</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialTercio</Effect>
-			<Effect type="TechStatus" status="obtainable">RGTercio</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialPikemen</Effect>
+			<Effect type="TechStatus" status="obtainable">GuardPikemen</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranPikemen</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranCrossbowmen</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialGarrochistas</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialHussars</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">CapitolD</Target>
@@ -70978,18 +71046,13 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">WallConnector</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialCrossbowmen</Effect>
-			<Effect type="TechStatus" status="obtainable">RGEspadachins</Effect>
-			<Effect type="TechStatus" status="obtainable">RGGarrochista</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialCrossbowmenIt</Effect>
 			<Effect type="TechStatus" status="obtainable">UnlockPoliticianWarMinisterSpanish</Effect>
 			<Effect type="TechStatus" status="obtainable">UnlockPoliticianEngineerSpanish</Effect>
 			<Effect type="TechStatus" status="obtainable">UnlockPoliticianScoutSpanish</Effect>
 			<Effect type="TechStatus" status="obtainable">UnlockPoliticianAdmiralSpanish</Effect>
 			<Effect type="TechStatus" status="obtainable">UnlockPoliticianPhilosopherPrinceSpanish</Effect>
 			<Effect type="TechStatus" status="obtainable">UnlockPoliticianNaturalistSpanish</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Missionary</Target>
-			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Frigate</Target>
 			</Effect>
@@ -70998,12 +71061,6 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Culverin</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Lancer</Target>
-			</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Rodelero</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Caravel</Target>
@@ -71016,12 +71073,12 @@
 			<Effect type="Data" action="SpawnCannon" amount="1.00" subtype="ActionEnable" relativity="Absolute">
 				<Target type="ProtoUnit">Factory</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialCannon</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialFieldGunNew</Effect>
-			<Effect type="TechStatus" status="obtainable">FieldGunNew</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialCannonIt</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialFieldGun</Effect>
+			<Effect type="TechStatus" status="obtainable">FieldGun</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranSkirmishersShadow</Effect>
 			<Effect type="TechStatus" status="obtainable">ImperialManOWar</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialMonitorsNew</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialMonitors</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">SPCFortCenter</Target>
 			</Effect>
@@ -71032,6 +71089,9 @@
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpSpy</Target>
+			</Effect>
+			<Effect type="Data" amount="0.10" subtype="ResourceTrickleRate" resource="Fame" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -71113,6 +71173,324 @@
 				<Target type="ProtoUnit">Flatbowman</Target>
 			</Effect>
 			<Effect type="SetName" proto="Flatbowman" culture="none" newName="781142"/>
+		</Effects>
+	</Tech>
+	<Tech name="ImperialCannonIt" type="Normal">
+		<DBID>1956</DBID>
+		<DisplayNameID>781154</DisplayNameID>
+		<Cost resourcetype="Wood">1500.0000</Cost>
+		<Cost resourcetype="Gold">1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_artillery\imperial_artillery</Icon>
+		<RolloverTextID>34572</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Imperialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Cannon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Cannon</Target>
+			</Effect>
+			<Effect type="SetName" proto="Cannon" culture="none" newName="781154"/>
+		</Effects>
+	</Tech>
+	<Tech name="GuardCrossbowmenIt" type="Normal">
+		<DBID>115</DBID>
+		<DisplayNameID>781156</DisplayNameID>
+		<Cost resourcetype="Wood">1000.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\guard_archer_infantry\guard_archer_infantry</Icon>
+		<RolloverTextID>781159</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status="Active">VeteranCrossbowmen</TechStatus>
+			<TechStatus status="Active">Industrialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Crossbowman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Crossbowman</Target>
+			</Effect>
+			<Effect type="SetName" proto="Crossbowman" culture="none" newName="781155"/>
+			<Effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Crossbowman" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ImperialCrossbowmenIt" type="Normal">
+		<DBID>1322</DBID>
+		<DisplayNameID>781158</DisplayNameID>
+		<Cost resourcetype="Wood">1500.0000</Cost>
+		<Cost resourcetype="Gold">1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_archer_infantry\imperial_archer_infantry</Icon>
+		<RolloverTextID>78056</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status="Active">GuardCrossbowmenIt</TechStatus>
+			<TechStatus status="Active">Imperialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Crossbowman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Crossbowman</Target>
+			</Effect>
+			<Effect type="SetName" proto="Crossbowman" culture="none" newName="781157"/>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipFlatbowmen1" type="Normal">
+		<DBID>2226</DBID>
+		<DisplayNameID>781161</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\flatbowman\flatbowman_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Flatbowman" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipFlatbowmen2" type="Normal">
+		<DBID>2244</DBID>
+		<DisplayNameID>781162</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\flatbowman\flatbowman_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Flatbowman" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipFlatbowmen3" type="Normal">
+		<DBID>2676</DBID>
+		<DisplayNameID>781163</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\flatbowman\flatbowman_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="24.00" subtype="FreeHomeCityUnit" unittype="Flatbowman" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCMercsMaghrabi" type="Normal">
+		<DBID>2545</DBID>
+		<DisplayNameID>781167</DisplayNameID>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\coutelier\coutelier_icon</Icon>
+		<RolloverTextID>781166</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="Maghrabi" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="SaloonMaghrabi" type="Normal">
+		<DBID>3295</DBID>
+		<DisplayNameID>781164</DisplayNameID>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\coutelier\coutelier_icon</Icon>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Colonialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Maghrabi</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PostIndustrialItalians" type="Normal">
+		<DBID>2408</DBID>
+		<DisplayNameID>36246</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="TechStatus" status="active">Gangsaw</Effect>
+			<Effect type="TechStatus" status="active">CavalryCuirass</Effect>
+			<Effect type="TechStatus" status="active">Bayonet</Effect>
+			<Effect type="TechStatus" status="active">Rifling</Effect>
+			<Effect type="TechStatus" status="active">GunnersQuadrant</Effect>
+			<Effect type="TechStatus" status="active">HeatedShot</Effect>
+			<Effect type="TechStatus" status="active">InfantryBreastplate</Effect>
+			<Effect type="TechStatus" status="active">SeedDrill</Effect>
+			<Effect type="TechStatus" status="active">SelectiveBreeding</Effect>
+			<Effect type="TechStatus" status="active">HuntingDogs</Effect>
+			<Effect type="Data" amount="0.00" subtype="EnableTradeRouteLOS" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="TechStatus" status="active">Revetment</Effect>
+			<Effect type="TechStatus" status="active">Bastion</Effect>
+			<Effect type="TechStatus" status="active">PlacerMines</Effect>
+			<Effect type="TechStatus" status="active">Caracole</Effect>
+			<Effect type="TechStatus" status="active">OreRefining</Effect>
+			<Effect type="TechStatus" status="active">ArmorPlating</Effect>
+			<Effect type="TechStatus" status="active">Carronade</Effect>
+			<Effect type="TechStatus" status="active">PercussionLocks</Effect>
+			<Effect type="TechStatus" status="active">ChurchStandingArmy</Effect>
+			<Effect type="TechStatus" status="active">ChurchGasLighting</Effect>
+			<Effect type="TechStatus" status="active">FrontierTraining</Effect>
+			<Effect type="TechStatus" status="active">LogFlume</Effect>
+			<Effect type="TechStatus" status="active">Bookkeeping</Effect>
+			<Effect type="TechStatus" status="active">ArtificialFertilizer</Effect>
+			<Effect type="TechStatus" status="active">CircularSaw</Effect>
+			<Effect type="TechStatus" status="active">Amalgamation</Effect>
+			<Effect type="TechStatus" status="active">Levy</Effect>
+			<Effect type="TechStatus" status="active">Homesteading</Effect>
+			<Effect type="TechStatus" status="active">LongLines</Effect>
+			<Effect type="TechStatus" status="active">GillNets</Effect>
+			<Effect type="TechStatus" status="active">FrontierOutpost</Effect>
+			<Effect type="TechStatus" status="active">SteelTraps</Effect>
+			<Effect type="TechStatus" status="active">FactoryWaterPower</Effect>
+			<Effect type="TechStatus" status="active">FactorySteamPower</Effect>
+			<Effect type="TechStatus" status="active">FactoryCannery</Effect>
+			<Effect type="TechStatus" status="active">StarFort</Effect>
+			<Effect type="TechStatus" status="active">FortifiedOutpost</Effect>
+			<Effect type="TechStatus" status="active">ChurchMassCavalry</Effect>
+			<Effect type="TechStatus" status="active">VeteranCrossbowmen</Effect>
+			<Effect type="TechStatus" status="active">RGGarrochista</Effect>
+			<Effect type="TechStatus" status="active">VeteranHussars</Effect>
+			<Effect type="TechStatus" status="active">VeteranRodeleros</Effect>
+			<Effect type="TechStatus" status="active">VeteranPikemen</Effect>
+			<Effect type="TechStatus" status="active">VeteranMusketeers</Effect>
+			<Effect type="TechStatus" status="active">GrapeShot</Effect>
+			<Effect type="TechStatus" status="active">Howitzer</Effect>
+			<Effect type="TechStatus" status="active">FieldGun</Effect>
+			<Effect type="TechStatus" status="active">Trunion</Effect>
+			<Effect type="TechStatus" status="active">ProfessionalGunners</Effect>
+			<Effect type="TechStatus" status="active">PaperCartridge</Effect>
+			<Effect type="TechStatus" status="active">MilitaryDrummers</Effect>
+			<Effect type="TechStatus" status="active">Flintlock</Effect>
+			<Effect type="TechStatus" status="active">Pillage</Effect>
+			<Effect type="TechStatus" status="active">FactoryMassProduction</Effect>
+			<Effect type="TechStatus" status="active">GuardCavalryArchers</Effect>
+			<Effect type="TechStatus" status="active">RGTercio</Effect>
+			<Effect type="TechStatus" status="active">RGEspadachins</Effect>
+			<Effect type="TechStatus" status="active">GuardMusketeers</Effect>
+			<Effect type="TechStatus" status="active">GuardHussars</Effect>
+			<Effect type="TechStatus" status="active">GuardSkirmishers</Effect>
+			<Effect type="TechStatus" status="active">NativeUpgrades</Effect>
+			<Effect type="TechStatus" status="active">NativeUpgrades2</Effect>
+			<Effect type="TechStatus" status="active">AAStandardNativeTechsPI</Effect>
+			<Effect type="TechStatus" status="active">HeavyHorseArtillery</Effect>
+			<Effect type="TechStatus" status="active">GuardPikemen</Effect>
+			<Effect type="TechStatus" status="active">GuardCrossbowmen</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PostImperialItalians" type="Normal">
+		<DBID>2439</DBID>
+		<DisplayNameID>36325</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="TechStatus" status="active">PostIndustrialSpanish</Effect>
+			<Effect type="TechStatus" status="active">ImpLargeScaleAgriculture</Effect>
+			<Effect type="TechStatus" status="active">ImpImmigrants</Effect>
+			<Effect type="TechStatus" status="active">ImpDeforestation</Effect>
+			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
+			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
+			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
+			<Effect type="TechStatus" status="active">ImperialCavalryArchers</Effect>
+			<Effect type="TechStatus" status="active">ImperialSkirmishers</Effect>
+			<Effect type="TechStatus" status="active">ImperialEspada</Effect>
+			<Effect type="TechStatus" status="active">ImperialTercio</Effect>
+			<Effect type="TechStatus" status="active">ImperialMusketeers</Effect>
+			<Effect type="TechStatus" status="active">ImperialGarrochistas</Effect>
+			<Effect type="TechStatus" status="active">ImperialHussars</Effect>
+			<Effect type="TechStatus" status="active">ImperialCulverin</Effect>
+			<Effect type="TechStatus" status="active">ImperialCannon</Effect>
+			<Effect type="TechStatus" status="active">ImperialHowitzer</Effect>
+			<Effect type="TechStatus" status="active">ImperialFieldGun</Effect>
+			<Effect type="TechStatus" status="active">ImperialMonitorsNew</Effect>
+			<Effect type="TechStatus" status="active">ImperialManOWar</Effect>
+			<Effect type="TechStatus" status="active">ImpLegendaryNatives</Effect>
+			<Effect type="TechStatus" status="active">ImperialHorseArtillery</Effect>
+			<Effect type="TechStatus" status="active">ImperialPikemen</Effect>
+			<Effect type="TechStatus" status="active">ImperialCrossbowmen</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ColonializeItalians" type="Normal">
+		<DBID>1174</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_2</Icon>
+		<Effects>
+			<Effect type="TechStatus" status="active">Colonialize</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">WarDog</Target>
+			</Effect>
+			<Effect type="TextOutput">780790</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="FortressizeItalians" type="Normal">
+		<DBID>1893</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_3</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="TechStatus" status="active">Fortressize</Effect>
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">WarDog</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">TownCenter</Target>
+			</Effect>
+			<Effect type="TextOutput">780790</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="IndustrializeItalians" type="Normal">
+		<DBID>1176</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_4</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="TechStatus" status="active">Industrialize</Effect>
+			<Effect type="TechStatus" status="active">Crackshot</Effect>
+			<Effect type="TextOutput">780790</Effect>
+			<Effect type="TechStatus" status="obtainable">XPRevolutionOHiggins</Effect>
+			<Effect type="TechStatus" status="obtainable">XPRevolutionHidalgo</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ImperializeItalians" type="Normal">
+		<DBID>1344</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_5</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="TechStatus" status="active">Imperialize</Effect>
+			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">WarDog</Target>
+			</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionBolivar</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionOHiggins</Effect>
+			<Effect type="TextOutput">780790</Effect>
 		</Effects>
 	</Tech>
 </TechTree>

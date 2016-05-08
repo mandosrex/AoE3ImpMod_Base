@@ -2495,7 +2495,7 @@
 		<String _locID="26053">Capybara</String>
 		<String _locID="26057">River Props Amazon</String>
 		<String _locID="26058">PROP River Amazon River</String>
-		<String _locID="26059" symbol="cStringCivRolloverFrench">Home City gives support and bonuses through Decree cards. Villagers are Coureurs - expensive, but gather and fight better than Settlers. Walls are cheaper and can be upgraded to Fortified Walls. Best units: Skirmisher, Cuirassier.</String>
+		<String _locID="26059" symbol="cStringCivRolloverFrench">Home City gives support and bonuses through Decree cards. Villagers are Coureurs - expensive, but gather and fight better than Settlers. Receives a free wood shipment when allying with natives. Best units: Skirmisher, Cuirassier.</String>
 		<String _locID="26060" symbol="cStringCivRolloverBritish">Home City gives support and bonuses through Decree cards. Manor Houses spawn Settlers when built. Gets a free General in the Enlightenment Age and extra early Docks. Best units: Musketeer, Hussar.</String>
 		<String _locID="26061" symbol="cStringCivRolloverSpanish">Home City gives support and bonuses through Decree cards. Earns Home City Shipments faster. All archaic Veteran upgrades are researched for free upon reaching the Enlightenment Age. Best units: Rodelero, Lancer.</String>
 		<String _locID="26062" symbol="cStringCivRolloverPortuguese">Home City gives support and bonuses through Decree cards. Gets a free Town Wagon with every Age and increased Town Center limit. Home City Shipments arrive faster. Best units: Musketeer, Dragoon.</String>
@@ -17431,7 +17431,7 @@
 		<String _locID="47029">Tercio Tactics</String>
 		<String _locID="47030">Unction Shipment has arrived.</String>
 		<String _locID="47031">Tercio Tactics Shipment has arrived.</String>
-		<String _locID="47032">All your Crossbowmen transform into Skirmishers.</String>
+		<String _locID="47032">All your Flatbowmen transform into Skirmishers.</String>
 		<String _locID="47033">Tirailleurs</String>
 		<String _locID="47034">Tercio Tactics Shipment has arrived.</String>
 		<String _locID="47035">Decreases Cuirassier cost and train time.</String>
@@ -19467,7 +19467,7 @@
 		<String _locID="60019">Show games where WarChiefs civilizations allowed</String>
 		<String _locID="60020" symbol="cStringLANNeedYPackHomeCityType">You must first create an Asian Dynasties %s Home City before you can enter the game.</String>
 		<String _locID="60021">Settler</String>
-		<String _locID="60022">Fithful pilgrim that works faster than normal villagers and doesn't take up population.</String>
+		<String _locID="60022">Faithful pilgrim that works faster than normal villagers and doesn't take up population.</String>
 		<String _locID="60023">Pilgrim</String>
 		<String _locID="60024">VIL Pilgrim</String>
 		<String _locID="60025">Food source</String>
@@ -29867,8 +29867,8 @@
 		<String _locID="77849">Ships a General that can boost the hitpoints and attack of nearby units. Also enables the General at the Command Post.</String>
 		<String _locID="77850">General</String>
 		<String _locID="77851">Ships a General that can boost the hitpoints and attack of nearby units. Also enables the General at the Command Post.</String>
-		<String _locID="77852">War Leader who can train all Sioux infantry and boost the attack and hitpoints of nearby units.</String>
-		<String _locID="77854">War Leader</String>
+		<String _locID="77852">Chieftain who can train all Sioux infantry and boost the attack and hitpoints of nearby units.</String>
+		<String _locID="77854">Chieftain</String>
 		<String _locID="77855">Ranger</String>
 		<String _locID="77856">Guard Rangers</String>
 		<String _locID="77857">Ranger attack and hitpoints increased.</String>
@@ -30354,9 +30354,9 @@
 		<String _locID="780946">Imperial Mortars</String>
 		<String _locID="780947">Imperial Mortar</String>
 		<String _locID="780948">5 Sheep</String>
-		<String _locID="780949">War Leader</String>
-		<String _locID="780950">Ships the powerful War Leader and enables him in the Embassy. Also your War Chief can now heal units.</String>
-		<String _locID="780951">War Leader Shipment has arrived.</String>
+		<String _locID="780949">Chieftain</String>
+		<String _locID="780950">Ships the powerful Chieftain and enables him in the Embassy. Also your War Chief can now heal units.</String>
+		<String _locID="780951">Chieftain Shipment has arrived.</String>
 		<String _locID="780952">The Economic Agreement</String>
 		<String _locID="780953">The Military Alliance</String>
 		<String _locID="780954">Joining the Economic Agreement grants the following benefits:\nSettler limit increased by 10;\nShips 10 free Settlers;\nEnables training of Supply Wagons.</String>
@@ -30474,7 +30474,7 @@
 		<String _locID="781067">Pope Pius IX</String>
 		<String _locID="781068">Celebrated as a "friend of light" and a reformer of Europe towards freedom and progress, Pope Pius IX is progressive, intellectual, decent, friendly, and open to everybody.</String>
 		<String _locID="781069">Italians</String>
-		<String _locID="781070">Home City gives support and bonuses through Decree cards. Basilica trains powerful religious units. Architects can build Forts and Factories. Best units: Cranequinier, Basilisk Cannon.</String>
+		<String _locID="781070">Home City gives support and bonuses through Decree cards. Basilica trains powerful religious units. Fame generates faster over time. Best units: Cranequinier, Basilisk Cannon.</String>
 		<String _locID="781071">Original version of the Italian Military Academy.</String>
 		<String _locID="781072">Gold and brown version of Italian Military Academy.</String>
 		<String _locID="781073">Peregrine Institute of Rome</String>
@@ -30558,5 +30558,23 @@
 		<String _locID="781151">Architect</String>
 		<String _locID="781152">Italian architect that builds Forts and Factories.</String>
 		<String _locID="781153">Builder</String>
+		<String _locID="781154">Imperial Cannoniere</String>
+		<String _locID="781155">Guard Arbalist</String>
+		<String _locID="781156">Guard Arbalists</String>
+		<String _locID="781157">Imperial Arbalist</String>
+		<String _locID="781158">Imperial Arbalists</String>
+		<String _locID="781159">Italian Crossbowman attack and hitpoints greatly increased.</String>
+		<String _locID="781160">Inquisitor</String>
+		<String _locID="781161">8 Flatbowmen</String>
+		<String _locID="781162">10 Flatbowmen</String>
+		<String _locID="781163">24 Flatbowmen</String>
+		<String _locID="781164">Maghrabi Blade</String>
+		<String _locID="781165">Arabian unit that throws knives. Good against infantry.</String>
+		<String _locID="781166">Ships a number of Arabian Maghrabi mercenaries.</String>
+		<String _locID="781167">Hire Arabian Maghrabi</String>
+		<String _locID="781168">Marauder</String>
+		<String _locID="781169">Warden</String>
+		<String _locID="781170">Boneguard of the Circle of Ossus.</String>
+		<String _locID="781171">Mercato Centrale</String>
 	</Language>
 </StringTable>
