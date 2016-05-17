@@ -6,6 +6,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">MercSwissPikeman</Target>
+			</Effect>
+			<Effect type="Data" amount="55.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">MercSwissPikeman</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Dragoon</Target>
 			</Effect>
@@ -360,6 +366,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">MercStradiot</Target>
+			</Effect>
+			<Effect type="Data" amount="100.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">MercStradiot</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">PetBear</Target>
 			</Effect>
@@ -667,6 +679,12 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">MercHighlander</Target>
+			</Effect>
+			<Effect type="Data" amount="65.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">MercHighlander</Target>
+			</Effect>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
 			<Effect type="Data" amount="100.00" subtype="Cost" resource="Fame" relativity="Absolute">
@@ -916,6 +934,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">MercLandsknecht</Target>
+			</Effect>
+			<Effect type="Data" amount="85.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">MercLandsknecht</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">GoldMiner</Target>
 			</Effect>
@@ -1176,6 +1200,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">WingedK</Target>
+			</Effect>
+			<Effect type="Data" amount="95.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">WingedK</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">GoldMiner</Target>
 			</Effect>
@@ -1406,6 +1436,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">MercBlackRider</Target>
+			</Effect>
+			<Effect type="Data" amount="105.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">MercBlackRider</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">GoldMiner</Target>
 			</Effect>
@@ -1642,6 +1678,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">MercMameluke</Target>
+			</Effect>
+			<Effect type="Data" amount="130.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">MercMameluke</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">GoldMiner</Target>
 			</Effect>
@@ -1897,6 +1939,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">MercHackapell</Target>
+			</Effect>
+			<Effect type="Data" amount="85.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">MercHackapell</Target>
+			</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranCavalryArchersShadow</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">CavalryArcher</Target>
@@ -14019,7 +14067,7 @@
 	</Tech>
 	<Tech name="HCRoyalDecreeSpanish" type="Normal">
 		<DBID>773</DBID>
-		<DisplayNameID>27221</DisplayNameID>
+		<DisplayNameID>781180</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -16380,7 +16428,7 @@
 			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">WarDog</Target>
 			</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionBolivar</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionHidalgo</Effect>
 			<Effect type="TechStatus" status="unobtainable">XPRevolutionOHiggins</Effect>
 			<Effect type="TextOutput">780790</Effect>
 		</Effects>
@@ -28256,8 +28304,11 @@
 		<RolloverTextID>41553</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Explorer" relativity="Absolute">
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Explorer" relativity="Absolute">
 				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Explorer</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -41489,17 +41540,16 @@
 	<Tech name="HCXPUnction" type="Normal">
 		<DBID>3441</DBID>
 		<DisplayNameID>47025</DisplayNameID>
-		<Cost resourcetype="Ships">1.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\conpilgrims</Icon>
-		<RolloverTextID>780985</RolloverTextID>
+		<Icon>ui\bishop</Icon>
+		<RolloverTextID>47024</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="TextOutput">47027</Effect>
-			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">Pilgrim</Target>
-			</Effect>
+			<Effect type ='TextOutput'>47027</Effect>
+			<Effect type ='Data' action ='ExtraDamage' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Inquisitor</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name="HCXPTercioTactics" type="Normal">
@@ -56247,7 +56297,7 @@
 			<Effect type="Data" amount="1.25" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="TextOutput">69877</Effect>
+			<Effect type="TextOutput">66076</Effect>
 			<Effect tech="ypFreeIndianVillager" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypSettlerIndian" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -57995,7 +58045,7 @@
 		<Cost resourcetype="Trade">100.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\eso\flag_usa_icon</Icon>
+		<Icon>ui\americans</Icon>
 		<RolloverTextID>68230</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>NativeDance</Flag>
@@ -62546,7 +62596,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="IndiaNanib" type="Normal">
-		<DBID>8</DBID>
+		<DBID>73311</DBID>
 		<DisplayNameID>22849</DisplayNameID>
 		<Cost resourcetype="Wood">0.0000</Cost>
 		<ResearchPoints>1.0000</ResearchPoints>
@@ -62567,7 +62617,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="MapRevealer" type="Normal">
-		<DBID>340</DBID>
+		<DBID>73312</DBID>
 		<DisplayNameID>780675</DisplayNameID>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -62586,7 +62636,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SpyglassE" type="Normal">
-		<DBID>340</DBID>
+		<DBID>73313</DBID>
 		<DisplayNameID>25568</DisplayNameID>
 		<Cost resourcetype="Fame">500.0000</Cost>
 		<ResearchPoints>20.0000</ResearchPoints>
@@ -62597,7 +62647,7 @@
 		<Flag>CheckLandHCGatherPoint</Flag>
 	</Tech>
 	<Tech name="WhalePirate" type="Normal">
-		<DBID>4941</DBID>
+		<DBID>73314</DBID>
 		<DisplayNameID>68289</DisplayNameID>
 		<ResearchPoints>1.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -62616,7 +62666,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="FrontierTraining" type="Normal">
-		<DBID>3040</DBID>
+		<DBID>73315</DBID>
 		<DisplayNameID>780774</DisplayNameID>
 		<Cost resourcetype="Food">150.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -62642,7 +62692,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SpawnHeroes2" type="Normal">
-		<DBID>2601</DBID>
+		<DBID>73316</DBID>
 		<DisplayNameID>37292</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
@@ -62692,7 +62742,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SpawnHeroes" type="Normal">
-		<DBID>2601</DBID>
+		<DBID>73317</DBID>
 		<DisplayNameID>37292</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
@@ -62718,7 +62768,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="MercArmy2" type="Normal">
-		<DBID>3554</DBID>
+		<DBID>73318</DBID>
 		<DisplayNameID>780785</DisplayNameID>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -62802,7 +62852,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="NativeUpgrades" type="Normal">
-		<DBID>90900</DBID>
+		<DBID>73319</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -62833,7 +62883,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="NativeUpgrades2" type="Normal">
-		<DBID>90901</DBID>
+		<DBID>733110</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -62864,7 +62914,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Prayer2" type="Normal">
-		<DBID>151</DBID>
+		<DBID>733111</DBID>
 		<DisplayNameID>780795</DisplayNameID>
 		<Cost resourcetype="Gold">200.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -62885,7 +62935,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="TradingDock2" type="Normal">
-		<DBID>1343</DBID>
+		<DBID>733112</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -62896,7 +62946,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="NativeUpgrades3" type="Normal">
-		<DBID>1343</DBID>
+		<DBID>733113</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -62917,7 +62967,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="NativeUpgrades4" type="Normal">
-		<DBID>1343</DBID>
+		<DBID>733114</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -62945,7 +62995,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Piracy" type="Normal">
-		<DBID>684765</DBID>
+		<DBID>733115</DBID>
 		<DisplayNameID>780815</DisplayNameID>
 		<Cost resourcetype="Gold">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -62976,7 +63026,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCHeavyFortificationsSx" type="Normal">
-		<DBID>1688</DBID>
+		<DBID>733116</DBID>
 		<DisplayNameID>32721</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -62998,7 +63048,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImprovedWallsNativeSx" type="Normal">
-		<DBID>5274</DBID>
+		<DBID>733117</DBID>
 		<DisplayNameID>77794</DisplayNameID>
 		<Cost resourcetype="Wood">400.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -63021,7 +63071,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="WarGathering" type="Normal">
-		<DBID>5274</DBID>
+		<DBID>733118</DBID>
 		<DisplayNameID>780816</DisplayNameID>
 		<Cost resourcetype="Food">500.0000</Cost>
 		<Cost resourcetype="Wood">500.0000</Cost>
@@ -63042,7 +63092,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Labor" type="Normal">
-		<DBID>6</DBID>
+		<DBID>733119</DBID>
 		<DisplayNameID>780820</DisplayNameID>
 		<Cost resourcetype="Food">100.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -63060,7 +63110,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="FreeScouts" type="Normal">
-		<DBID>1343</DBID>
+		<DBID>733120</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Flag>TeamTech</Flag>
@@ -63072,7 +63122,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="MansabdarUpgrade" type="Normal">
-		<DBID>8888</DBID>
+		<DBID>733121</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -63082,7 +63132,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Crackshot" type="Normal">
-		<DBID>8888</DBID>
+		<DBID>733122</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -63092,7 +63142,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCXPDanceHallFr" type="Normal">
-		<DBID>3361</DBID>
+		<DBID>733123</DBID>
 		<DisplayNameID>46788</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -63146,7 +63196,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCXPDanceHallDu" type="Normal">
-		<DBID>3361</DBID>
+		<DBID>733124</DBID>
 		<DisplayNameID>46788</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -63200,7 +63250,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCXPDanceHallBr" type="Normal">
-		<DBID>3361</DBID>
+		<DBID>733125</DBID>
 		<DisplayNameID>46788</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -63254,7 +63304,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCXPDanceHallRu" type="Normal">
-		<DBID>3361</DBID>
+		<DBID>733126</DBID>
 		<DisplayNameID>46788</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -63308,7 +63358,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCXPDanceHallPo" type="Normal">
-		<DBID>3361</DBID>
+		<DBID>733127</DBID>
 		<DisplayNameID>46788</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -63362,7 +63412,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCXPDanceHallOt" type="Normal">
-		<DBID>3361</DBID>
+		<DBID>733128</DBID>
 		<DisplayNameID>46788</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -63416,7 +63466,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCXPDanceHallSp" type="Normal">
-		<DBID>3361</DBID>
+		<DBID>733129</DBID>
 		<DisplayNameID>46788</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -63469,8 +63519,62 @@
 			<Effect type="TechStatus" status="active">SaloonHackapell</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="HCXPDanceHallIt" type="Normal">
+		<DBID>733130</DBID>
+		<DisplayNameID>46788</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
+		<RolloverTextID>781172</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">SPCFortCenter</Target>
+			</Effect>
+			<Effect type="Data" action="RangedAttack" amount="1.30" subtype="Damage" relativity="BasePercent">
+				<Target type="ProtoUnit">SPCFortCenter</Target>
+			</Effect>
+			<Effect type="Data" action="AntiShipAttack" amount="1.30" subtype="Damage" relativity="BasePercent">
+				<Target type="ProtoUnit">SPCFortCenter</Target>
+			</Effect>
+			<Effect type="SetName" proto="SPCFortCenter" culture="none" newName="46789"/>
+			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawPistol</Target>
+			</Effect>
+			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRider</Target>
+			</Effect>
+			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonPirate</Target>
+			</Effect>
+			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">SaloonOutlawRifleman</Target>
+			</Effect>
+			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">MercBarbaryCorsair</Target>
+			</Effect>
+			<Effect type="TextOutput">46860</Effect>
+			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">ypDacoit</Target>
+			</Effect>
+			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">ypThuggee</Target>
+			</Effect>
+			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">ypWokouWanderingHorseman</Target>
+			</Effect>
+			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">ypWokouWaywardRonin</Target>
+			</Effect>
+			<Effect type="Data" amount="-2.00" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">ypWokouPirate</Target>
+			</Effect>
+			<Effect type="TechStatus" status="active">SaloonElmeti</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="BigDockCipactli2" type="Normal">
-		<DBID>3319</DBID>
+		<DBID>733131</DBID>
 		<DisplayNameID>46182</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
@@ -63491,7 +63595,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="MercArmyNat" type="Normal">
-		<DBID>3554</DBID>
+		<DBID>733132</DBID>
 		<DisplayNameID>780785</DisplayNameID>
 		<Cost resourcetype="Gold">500.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -63518,7 +63622,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="TreeRefresh" type="Normal">
-		<DBID>97000</DBID>
+		<DBID>733133</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
@@ -63531,7 +63635,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="TreasurySup" type="Normal">
-		<DBID>2216</DBID>
+		<DBID>733134</DBID>
 		<DisplayNameID>780754</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<Cost resourcetype="Fame">2000.0000</Cost>
@@ -63555,7 +63659,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCAgeUp" type="Normal">
-		<DBID>97000</DBID>
+		<DBID>733135</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>AgeUpgrade</Flag>
 		<Effects>
@@ -63564,7 +63668,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="TradeRouteTeam1" type="Normal">
-		<DBID>970060</DBID>
+		<DBID>733136</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
@@ -63576,7 +63680,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="TradeRouteTeam2" type="Normal">
-		<DBID>970060</DBID>
+		<DBID>733137</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
@@ -63588,7 +63692,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="MercArmy" type="Normal">
-		<DBID>3554</DBID>
+		<DBID>733138</DBID>
 		<DisplayNameID>780785</DisplayNameID>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -63632,7 +63736,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="FieldGunUS" type="Normal">
-		<DBID>136</DBID>
+		<DBID>733139</DBID>
 		<DisplayNameID>780929</DisplayNameID>
 		<Cost resourcetype="Food">300.0000</Cost>
 		<Cost resourcetype="Wood">300.0000</Cost>
@@ -63656,7 +63760,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialFieldGunUS" type="Normal">
-		<DBID>1328</DBID>
+		<DBID>733140</DBID>
 		<DisplayNameID>781042</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -63681,7 +63785,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateBritishBrigadeUS" type="Normal">
-		<DBID>4903</DBID>
+		<DBID>733141</DBID>
 		<DisplayNameID>66600</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<Cost resourcetype="Fame">1000.0000</Cost>
@@ -63706,7 +63810,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateDutchBrigadeUS" type="Normal">
-		<DBID>4907</DBID>
+		<DBID>733142</DBID>
 		<DisplayNameID>66609</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<Cost resourcetype="Fame">1000.0000</Cost>
@@ -63728,7 +63832,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateFrenchBrigadeUS" type="Normal">
-		<DBID>4906</DBID>
+		<DBID>733143</DBID>
 		<DisplayNameID>66607</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<Cost resourcetype="Fame">1000.0000</Cost>
@@ -63747,7 +63851,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AgeUpSpeed2" type="Normal">
-		<DBID>970069</DBID>
+		<DBID>733144</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
@@ -63762,7 +63866,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AgeUpSpeed3" type="Normal">
-		<DBID>970070</DBID>
+		<DBID>733145</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
@@ -63777,7 +63881,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AgeUpSpeed4" type="Normal">
-		<DBID>970071</DBID>
+		<DBID>733146</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
@@ -63792,7 +63896,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AgeUpSpeed5" type="Normal">
-		<DBID>970072</DBID>
+		<DBID>733147</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
@@ -63807,7 +63911,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="MilitiaGatling" type="Normal">
-		<DBID>970072</DBID>
+		<DBID>733148</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -63820,7 +63924,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="CannonPop" type="Normal">
-		<DBID>1081</DBID>
+		<DBID>733149</DBID>
 		<DisplayNameID>780903</DisplayNameID>
 		<Cost resourcetype="Wood">500.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
@@ -63839,7 +63943,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Slavery" type="Normal">
-		<DBID>1081</DBID>
+		<DBID>733150</DBID>
 		<DisplayNameID>780905</DisplayNameID>
 		<Cost resourcetype="Food">500.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
@@ -63858,7 +63962,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCSlavery" type="Normal">
-		<DBID>1081</DBID>
+		<DBID>733151</DBID>
 		<DisplayNameID>780905</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -63876,7 +63980,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranCraneqShadow" type="Normal">
-		<DBID>2664</DBID>
+		<DBID>733152</DBID>
 		<ResearchPoints>0.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
@@ -63890,7 +63994,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateUSABrigade" type="Normal">
-		<DBID>4903</DBID>
+		<DBID>733153</DBID>
 		<DisplayNameID>780910</DisplayNameID>
 		<Cost resourcetype="Trade">2600.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -63918,7 +64022,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ConsulateItaliansInquisition" type="Normal">
-		<DBID>4941</DBID>
+		<DBID>733154</DBID>
 		<DisplayNameID>780912</DisplayNameID>
 		<Cost resourcetype="Trade">200.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -63940,7 +64044,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ConsulateFortifiedWalls" type="Normal">
-		<DBID>5274</DBID>
+		<DBID>733155</DBID>
 		<DisplayNameID>77793</DisplayNameID>
 		<Cost resourcetype="Trade">800.0000</Cost>
 		<ResearchPoints>80.0000</ResearchPoints>
@@ -63959,7 +64063,7 @@
 		</Effects>
 	</Tech>
 	<Tech name ='ConsulateItaliansAge' type ='Normal'>
-		<DBID>4942</DBID>
+		<DBID>733156</DBID>
 		<DisplayNameID>780914</DisplayNameID>
 		<Cost resourcetype ='Trade'>4000.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -63985,7 +64089,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ConsulateRomanMercs" type="Normal">
-		<DBID>462</DBID>
+		<DBID>733157</DBID>
 		<DisplayNameID>24635</DisplayNameID>
 		<Cost resourcetype="Trade">2600.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -64019,7 +64123,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ChurchTies" type="Normal">
-		<DBID>172</DBID>
+		<DBID>733158</DBID>
 		<DisplayNameID>780921</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
@@ -64038,7 +64142,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="EconomicAlliance" type="Normal">
-		<DBID>172</DBID>
+		<DBID>733159</DBID>
 		<DisplayNameID>780952</DisplayNameID>
 		<Cost resourcetype="Fame">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -64091,7 +64195,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="MilitaryAlliance" type="Normal">
-		<DBID>172</DBID>
+		<DBID>733160</DBID>
 		<DisplayNameID>780953</DisplayNameID>
 		<Cost resourcetype="Fame">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -64189,7 +64293,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateBritishBrigadeFame" type="Normal">
-		<DBID>4903</DBID>
+		<DBID>733161</DBID>
 		<DisplayNameID>66600</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -64218,7 +64322,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateGermansBrigadeFame" type="Normal">
-		<DBID>4904</DBID>
+		<DBID>733162</DBID>
 		<DisplayNameID>66603</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -64247,7 +64351,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateRussianBrigadeFame" type="Normal">
-		<DBID>4905</DBID>
+		<DBID>733163</DBID>
 		<DisplayNameID>66605</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -64276,7 +64380,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateFrenchBrigadeFame" type="Normal">
-		<DBID>4906</DBID>
+		<DBID>733164</DBID>
 		<DisplayNameID>66607</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -64302,7 +64406,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateDutchBrigadeFame" type="Normal">
-		<DBID>4907</DBID>
+		<DBID>733165</DBID>
 		<DisplayNameID>66609</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -64331,7 +64435,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateSpanishBrigadeFame" type="Normal">
-		<DBID>4908</DBID>
+		<DBID>733166</DBID>
 		<DisplayNameID>66611</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -64360,7 +64464,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulatePortugueseBrigadeFame" type="Normal">
-		<DBID>4909</DBID>
+		<DBID>733167</DBID>
 		<DisplayNameID>66613</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -64389,7 +64493,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateOttomansBrigadeFame" type="Normal">
-		<DBID>4910</DBID>
+		<DBID>733168</DBID>
 		<DisplayNameID>66615</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -64418,7 +64522,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateUSABrigadeFame" type="Normal">
-		<DBID>4903</DBID>
+		<DBID>733169</DBID>
 		<DisplayNameID>780910</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -64447,7 +64551,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCREVShipPrivateers" type="Normal">
-		<DBID>3459</DBID>
+		<DBID>733170</DBID>
 		<DisplayNameID>47078</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>50.0000</ResearchPoints>
@@ -64461,7 +64565,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImpExcessiveTaxationD2" type="Normal">
-		<DBID>1674</DBID>
+		<DBID>733171</DBID>
 		<DisplayNameID>780975</DisplayNameID>
 		<Cost resourcetype="Fame">500.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
@@ -64480,7 +64584,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ConsulatePilgrims" type="Normal">
-		<DBID>462</DBID>
+		<DBID>733172</DBID>
 		<DisplayNameID>780978</DisplayNameID>
 		<Cost resourcetype="Trade">600.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -64504,7 +64608,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ConsulateLumberWagon" type="Normal">
-		<DBID>44999</DBID>
+		<DBID>733173</DBID>
 		<DisplayNameID>780986</DisplayNameID>
 		<Cost resourcetype="Trade">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -64531,7 +64635,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateSwedishBrigade" type="Normal">
-		<DBID>4903</DBID>
+		<DBID>733174</DBID>
 		<DisplayNameID>780989</DisplayNameID>
 		<Cost resourcetype="Trade">2600.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -64562,7 +64666,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Age0USA" type="Normal">
-		<DBID>300</DBID>
+		<DBID>733175</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -64823,7 +64927,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="PostIndustrialUSA" type="Normal">
-		<DBID>2398</DBID>
+		<DBID>733176</DBID>
 		<DisplayNameID>36216</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
@@ -64904,7 +65008,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="PostImperialUSA" type="Normal">
-		<DBID>2432</DBID>
+		<DBID>733177</DBID>
 		<DisplayNameID>36304</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
@@ -64936,7 +65040,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCBlockadeRev" type="Normal">
-		<DBID>3516</DBID>
+		<DBID>733178</DBID>
 		<ResearchPoints>1.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
@@ -64956,7 +65060,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AAStandardStartingTechsAct" type="Normal">
-		<DBID>821</DBID>
+		<DBID>733179</DBID>
 		<DisplayNameID>27845</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
@@ -65083,7 +65187,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AAStandardStartingTechsUS" type="Normal">
-		<DBID>821</DBID>
+		<DBID>733180</DBID>
 		<DisplayNameID>27845</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
@@ -65212,7 +65316,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AAStandardStartingTechsO" type="Normal">
-		<DBID>821</DBID>
+		<DBID>733181</DBID>
 		<DisplayNameID>27845</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
@@ -65338,7 +65442,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AAStandardStartingTechsM" type="Normal">
-		<DBID>821</DBID>
+		<DBID>733182</DBID>
 		<DisplayNameID>27845</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
@@ -65468,7 +65572,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AAStandardStartingTechsD" type="Normal">
-		<DBID>821</DBID>
+		<DBID>733183</DBID>
 		<DisplayNameID>27846</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
@@ -65599,7 +65703,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="XPTrickleS" type="Normal">
-		<DBID>1973</DBID>
+		<DBID>733184</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -65615,7 +65719,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Age0XPSPC2" type="Normal">
-		<DBID>2873</DBID>
+		<DBID>733185</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -65694,7 +65798,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianPresidenteEU" type="Normal">
-		<DBID>6662</DBID>
+		<DBID>733186</DBID>
 		<DisplayNameID>34157</DisplayNameID>
 		<Cost resourcetype="Food">4000.0000</Cost>
 		<Cost resourcetype="Gold">4000.0000</Cost>
@@ -65711,7 +65815,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianGeneralUSA" type="Normal">
-		<DBID>6661</DBID>
+		<DBID>733187</DBID>
 		<DisplayNameID>781057</DisplayNameID>
 		<Cost resourcetype="Food">4000.0000</Cost>
 		<Cost resourcetype="Gold">4000.0000</Cost>
@@ -65733,7 +65837,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Milice" type="Normal">
-		<DBID>2374</DBID>
+		<DBID>733188</DBID>
 		<DisplayNameID>28469</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -65753,7 +65857,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SouthAmerica" type="Normal">
-		<DBID>5146</DBID>
+		<DBID>733189</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -65763,7 +65867,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="USAConsulate" type="Normal">
-		<DBID>5174</DBID>
+		<DBID>733190</DBID>
 		<Effects>
 			<Effect type="TechStatus" status="obtainable">ypBigConsulateBritish</Effect>
 			<Effect type="TechStatus" status="obtainable">ypBigConsulateSpanish</Effect>
@@ -65773,7 +65877,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ActConsulate" type="Normal">
-		<DBID>5174</DBID>
+		<DBID>733191</DBID>
 		<Effects>
 			<Effect type="TechStatus" status="obtainable">ypBigConsulateSpanish</Effect>
 			<Effect type="TechStatus" status="obtainable">ypBigConsulateFrench</Effect>
@@ -65781,7 +65885,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranSchutze" type="Normal">
-		<DBID>8</DBID>
+		<DBID>733192</DBID>
 		<DisplayNameID>78065</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -65808,7 +65912,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialMusketeersDutch" type="Normal">
-		<DBID>1311</DBID>
+		<DBID>733193</DBID>
 		<DisplayNameID>31000</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -65833,7 +65937,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranMusketeersUS" type="Normal">
-		<DBID>8</DBID>
+		<DBID>733194</DBID>
 		<DisplayNameID>781002</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -65860,7 +65964,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardMusketeersUS" type="Normal">
-		<DBID>21</DBID>
+		<DBID>733195</DBID>
 		<DisplayNameID>781004</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -65888,7 +65992,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardCoutelier" type="Normal">
-		<DBID>92</DBID>
+		<DBID>733196</DBID>
 		<DisplayNameID>78005</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -65915,7 +66019,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardAzaps" type="Normal">
-		<DBID>7270</DBID>
+		<DBID>733197</DBID>
 		<DisplayNameID>77869</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -65942,7 +66046,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialAzaps" type="Normal">
-		<DBID>7271</DBID>
+		<DBID>733198</DBID>
 		<DisplayNameID>77872</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -65970,7 +66074,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranSabers" type="Normal">
-		<DBID>93</DBID>
+		<DBID>733199</DBID>
 		<DisplayNameID>781015</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -65997,7 +66101,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranDrabants" type="Normal">
-		<DBID>93</DBID>
+		<DBID>73321</DBID>
 		<DisplayNameID>77944</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -66024,7 +66128,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranSpahi" type="Normal">
-		<DBID>93</DBID>
+		<DBID>73322</DBID>
 		<DisplayNameID>77880</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -66052,7 +66156,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardHussarsF" type="Normal">
-		<DBID>94</DBID>
+		<DBID>73323</DBID>
 		<DisplayNameID>23479</DisplayNameID>
 		<Cost resourcetype="Wood">1000.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
@@ -66078,7 +66182,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardSabers" type="Normal">
-		<DBID>94</DBID>
+		<DBID>73324</DBID>
 		<DisplayNameID>781017</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66106,7 +66210,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardDrabants" type="Normal">
-		<DBID>94</DBID>
+		<DBID>73325</DBID>
 		<DisplayNameID>77942</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66134,7 +66238,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardSpahi" type="Normal">
-		<DBID>94</DBID>
+		<DBID>73326</DBID>
 		<DisplayNameID>77881</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66164,7 +66268,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardSaker" type="Normal">
-		<DBID>97</DBID>
+		<DBID>73327</DBID>
 		<DisplayNameID>780710</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66192,7 +66296,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HonoredSaker" type="Normal">
-		<DBID>97</DBID>
+		<DBID>73328</DBID>
 		<DisplayNameID>780719</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66220,7 +66324,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardGrenadiersUS" type="Normal">
-		<DBID>97</DBID>
+		<DBID>73329</DBID>
 		<DisplayNameID>781037</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66249,7 +66353,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardSkirmishersUS" type="Normal">
-		<DBID>98</DBID>
+		<DBID>733210</DBID>
 		<DisplayNameID>781010</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66276,7 +66380,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardSchutzens" type="Normal">
-		<DBID>98</DBID>
+		<DBID>733211</DBID>
 		<DisplayNameID>77910</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66304,7 +66408,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardMountedCrossbowman" type="Normal">
-		<DBID>100</DBID>
+		<DBID>733212</DBID>
 		<DisplayNameID>780684</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66331,7 +66435,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialMountedCrossbowman" type="Normal">
-		<DBID>1307</DBID>
+		<DBID>733213</DBID>
 		<DisplayNameID>780685</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -66356,7 +66460,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardMountedRiflemen" type="Normal">
-		<DBID>100</DBID>
+		<DBID>733214</DBID>
 		<DisplayNameID>781024</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66383,7 +66487,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardCrossbowmen" type="Normal">
-		<DBID>115</DBID>
+		<DBID>733215</DBID>
 		<DisplayNameID>77820</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66411,7 +66515,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialPikemen" type="Normal">
-		<DBID>1322</DBID>
+		<DBID>733216</DBID>
 		<DisplayNameID>780838</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -66436,7 +66540,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialCrossbowmen" type="Normal">
-		<DBID>1322</DBID>
+		<DBID>733217</DBID>
 		<DisplayNameID>780840</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -66461,7 +66565,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImprovedBows" type="Normal">
-		<DBID>120</DBID>
+		<DBID>733218</DBID>
 		<DisplayNameID>78066</DisplayNameID>
 		<Cost resourcetype="Wood">300.0000</Cost>
 		<Cost resourcetype="Gold">300.0000</Cost>
@@ -66480,7 +66584,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GrapeShotNew" type="Normal">
-		<DBID>135</DBID>
+		<DBID>733219</DBID>
 		<DisplayNameID>23364</DisplayNameID>
 		<Cost resourcetype="Food">400.0000</Cost>
 		<Cost resourcetype="Wood">400.0000</Cost>
@@ -66505,7 +66609,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GrapeShotUS" type="Normal">
-		<DBID>135</DBID>
+		<DBID>733220</DBID>
 		<DisplayNameID>780927</DisplayNameID>
 		<Cost resourcetype="Food">300.0000</Cost>
 		<Cost resourcetype="Wood">300.0000</Cost>
@@ -66530,7 +66634,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="FieldGunNew" type="Normal">
-		<DBID>136</DBID>
+		<DBID>733221</DBID>
 		<DisplayNameID>23367</DisplayNameID>
 		<Cost resourcetype="Food">400.0000</Cost>
 		<Cost resourcetype="Wood">400.0000</Cost>
@@ -66555,7 +66659,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HowitzerNew" type="Normal">
-		<DBID>137</DBID>
+		<DBID>733222</DBID>
 		<DisplayNameID>23370</DisplayNameID>
 		<Cost resourcetype="Food">400.0000</Cost>
 		<Cost resourcetype="Wood">400.0000</Cost>
@@ -66580,7 +66684,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HowitzerUS" type="Normal">
-		<DBID>137</DBID>
+		<DBID>733223</DBID>
 		<DisplayNameID>23370</DisplayNameID>
 		<Cost resourcetype="Food">300.0000</Cost>
 		<Cost resourcetype="Wood">400.0000</Cost>
@@ -66605,7 +66709,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Prayer" type="Normal">
-		<DBID>151</DBID>
+		<DBID>733224</DBID>
 		<DisplayNameID>78062</DisplayNameID>
 		<Cost resourcetype="Fame">350.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -66626,7 +66730,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="StoneFortifiedWalls" type="Normal">
-		<DBID>5274</DBID>
+		<DBID>733225</DBID>
 		<DisplayNameID>77793</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66651,7 +66755,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AsianFortifiedWalls" type="Normal">
-		<DBID>5274</DBID>
+		<DBID>733226</DBID>
 		<DisplayNameID>77793</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66676,7 +66780,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImprovedWallsNative" type="Normal">
-		<DBID>5274</DBID>
+		<DBID>733227</DBID>
 		<DisplayNameID>77794</DisplayNameID>
 		<Cost resourcetype="Wood">400.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -66701,7 +66805,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ChurchBashkirPonies2" type="Normal">
-		<DBID>223</DBID>
+		<DBID>733228</DBID>
 		<DisplayNameID>23675</DisplayNameID>
 		<Cost resourcetype="Gold">2000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
@@ -66729,7 +66833,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ChurchWesternization2" type="Normal">
-		<DBID>224</DBID>
+		<DBID>733229</DBID>
 		<DisplayNameID>23678</DisplayNameID>
 		<Cost resourcetype="Wood">1000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
@@ -66750,7 +66854,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ChurchPetrineReforms2" type="Normal">
-		<DBID>225</DBID>
+		<DBID>733230</DBID>
 		<DisplayNameID>23680</DisplayNameID>
 		<Cost resourcetype="Gold">2500.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
@@ -66775,7 +66879,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ChurchHussars" type="Normal">
-		<DBID>223</DBID>
+		<DBID>733231</DBID>
 		<DisplayNameID>780835</DisplayNameID>
 		<Cost resourcetype="Gold">2000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
@@ -66800,7 +66904,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranPoleaxemen" type="Normal">
-		<DBID>317</DBID>
+		<DBID>733232</DBID>
 		<DisplayNameID>78012</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -66827,7 +66931,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardRiflemenUS" type="Normal">
-		<DBID>5667</DBID>
+		<DBID>733233</DBID>
 		<DisplayNameID>781010</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66854,7 +66958,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipIronclad1" type="Normal">
-		<DBID>8989</DBID>
+		<DBID>733234</DBID>
 		<DisplayNameID>77814</DisplayNameID>
 		<Cost resourcetype="Gold">2000.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -66873,7 +66977,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipIronclad2" type="Normal">
-		<DBID>8899</DBID>
+		<DBID>733235</DBID>
 		<DisplayNameID>77815</DisplayNameID>
 		<Cost resourcetype="Gold">3000.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -66892,7 +66996,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipIronclad3" type="Normal">
-		<DBID>9988</DBID>
+		<DBID>733236</DBID>
 		<DisplayNameID>77816</DisplayNameID>
 		<Cost resourcetype="Gold">3000.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -66911,7 +67015,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ChurchMercantilismJ" type="Normal">
-		<DBID>648</DBID>
+		<DBID>733237</DBID>
 		<DisplayNameID>26137</DisplayNameID>
 		<Cost resourcetype="Gold">1500.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
@@ -66930,7 +67034,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardPoleaxemen" type="Normal">
-		<DBID>770</DBID>
+		<DBID>733238</DBID>
 		<DisplayNameID>78016</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -66958,7 +67062,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCLumberCamp" type="Normal">
-		<DBID>814</DBID>
+		<DBID>733239</DBID>
 		<DisplayNameID>78068</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -66973,7 +67077,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranSaker" type="Normal">
-		<DBID>901</DBID>
+		<DBID>733240</DBID>
 		<DisplayNameID>780709</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -67000,7 +67104,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="DisciplinedSaker" type="Normal">
-		<DBID>901</DBID>
+		<DBID>733241</DBID>
 		<DisplayNameID>780716</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -67027,7 +67131,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranGrenadiersUS" type="Normal">
-		<DBID>901</DBID>
+		<DBID>733242</DBID>
 		<DisplayNameID>781035</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -67054,7 +67158,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="TownGuard" type="Normal">
-		<DBID>7788</DBID>
+		<DBID>733243</DBID>
 		<DisplayNameID>23389</DisplayNameID>
 		<Cost resourcetype="Wood">400.0000</Cost>
 		<Cost resourcetype="Gold">250.0000</Cost>
@@ -67089,7 +67193,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialMountedRiflemen" type="Normal">
-		<DBID>1307</DBID>
+		<DBID>733244</DBID>
 		<DisplayNameID>781026</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67114,7 +67218,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranRangersShadow" type="Normal">
-		<DBID>2664</DBID>
+		<DBID>733245</DBID>
 		<ResearchPoints>0.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
@@ -67135,7 +67239,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialSaker" type="Normal">
-		<DBID>1308</DBID>
+		<DBID>733246</DBID>
 		<DisplayNameID>780711</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67160,7 +67264,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ExaltedSaker" type="Normal">
-		<DBID>1308</DBID>
+		<DBID>733247</DBID>
 		<DisplayNameID>780720</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67185,7 +67289,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialGrenadiersUS" type="Normal">
-		<DBID>1308</DBID>
+		<DBID>733248</DBID>
 		<DisplayNameID>781039</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67210,7 +67314,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialCoutelier" type="Normal">
-		<DBID>1309</DBID>
+		<DBID>733249</DBID>
 		<DisplayNameID>78003</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67235,7 +67339,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialHussarsF" type="Normal">
-		<DBID>1310</DBID>
+		<DBID>733250</DBID>
 		<DisplayNameID>30962</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67255,7 +67359,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialSabers" type="Normal">
-		<DBID>1310</DBID>
+		<DBID>733251</DBID>
 		<DisplayNameID>781019</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67280,7 +67384,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialDrabants" type="Normal">
-		<DBID>1310</DBID>
+		<DBID>733252</DBID>
 		<DisplayNameID>77943</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67305,7 +67409,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialSpahi" type="Normal">
-		<DBID>1310</DBID>
+		<DBID>733253</DBID>
 		<DisplayNameID>77882</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67330,7 +67434,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialMusketeersUS" type="Normal">
-		<DBID>1311</DBID>
+		<DBID>733254</DBID>
 		<DisplayNameID>781006</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67355,7 +67459,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="RGRoyalHussar" type="Normal">
-		<DBID>306</DBID>
+		<DBID>733255</DBID>
 		<DisplayNameID>780882</DisplayNameID>
 		<Cost resourcetype="Wood">1000.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
@@ -67380,7 +67484,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialRoyalHussar" type="Normal">
-		<DBID>1315</DBID>
+		<DBID>733256</DBID>
 		<DisplayNameID>780884</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67405,7 +67509,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialRiflemenUS" type="Normal">
-		<DBID>5666</DBID>
+		<DBID>733257</DBID>
 		<DisplayNameID>781012</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67430,7 +67534,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranRiflemenShadow" type="Normal">
-		<DBID>2663</DBID>
+		<DBID>733258</DBID>
 		<ResearchPoints>0.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
@@ -67451,7 +67555,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialFieldGunNew" type="Normal">
-		<DBID>1328</DBID>
+		<DBID>733259</DBID>
 		<DisplayNameID>31070</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67477,7 +67581,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialCulverinNew" type="Normal">
-		<DBID>1329</DBID>
+		<DBID>733260</DBID>
 		<DisplayNameID>31074</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67503,7 +67607,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialHowitzerNew" type="Normal">
-		<DBID>1330</DBID>
+		<DBID>733261</DBID>
 		<DisplayNameID>31078</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67529,7 +67633,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialCulverinUS" type="Normal">
-		<DBID>1329</DBID>
+		<DBID>733262</DBID>
 		<DisplayNameID>781045</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67555,7 +67659,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialHowitzerUS" type="Normal">
-		<DBID>1330</DBID>
+		<DBID>733263</DBID>
 		<DisplayNameID>781048</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67581,7 +67685,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialManOWarNew" type="Normal">
-		<DBID>1336</DBID>
+		<DBID>733264</DBID>
 		<DisplayNameID>31112</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67615,7 +67719,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialManOWarUS" type="Normal">
-		<DBID>1336</DBID>
+		<DBID>733265</DBID>
 		<DisplayNameID>781029</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67640,7 +67744,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialCannonUS" type="Normal">
-		<DBID>1956</DBID>
+		<DBID>733266</DBID>
 		<DisplayNameID>781051</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67664,7 +67768,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialGreatCannon" type="Normal">
-		<DBID>1347</DBID>
+		<DBID>733267</DBID>
 		<DisplayNameID>77891</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67689,7 +67793,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialMonitorsNew" type="Normal">
-		<DBID>1354</DBID>
+		<DBID>733268</DBID>
 		<DisplayNameID>780938</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67724,7 +67828,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialMonitorsUS" type="Normal">
-		<DBID>1354</DBID>
+		<DBID>733269</DBID>
 		<DisplayNameID>781032</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -67749,7 +67853,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImpExcessiveTaxationD" type="Normal">
-		<DBID>1674</DBID>
+		<DBID>733270</DBID>
 		<DisplayNameID>780899</DisplayNameID>
 		<Cost resourcetype="Food">350.0000</Cost>
 		<Cost resourcetype="Wood">350.0000</Cost>
@@ -67768,7 +67872,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ChurchBlackWatchXP" type="Normal">
-		<DBID>1717</DBID>
+		<DBID>733271</DBID>
 		<DisplayNameID>32917</DisplayNameID>
 		<Cost resourcetype="Food">1000.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
@@ -67790,7 +67894,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SATradeRouteUpgrade1" type="Normal">
-		<DBID>1790</DBID>
+		<DBID>733272</DBID>
 		<DisplayNameID>780736</DisplayNameID>
 		<Cost resourcetype="Food">200.0000</Cost>
 		<Cost resourcetype="Wood">200.0000</Cost>
@@ -67814,7 +67918,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SATradeRouteUpgrade2" type="Normal">
-		<DBID>1791</DBID>
+		<DBID>733273</DBID>
 		<DisplayNameID>33296</DisplayNameID>
 		<Cost resourcetype="Wood">300.0000</Cost>
 		<Cost resourcetype="Gold">400.0000</Cost>
@@ -67839,7 +67943,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianMarksmanUSA" type="Normal">
-		<DBID>1916</DBID>
+		<DBID>733274</DBID>
 		<DisplayNameID>34405</DisplayNameID>
 		<Cost resourcetype="Food">1400.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
@@ -67858,7 +67962,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="UniqueUSTradingPosts" type="Normal">
-		<DBID>3460</DBID>
+		<DBID>733275</DBID>
 		<DisplayNameID>77901</DisplayNameID>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Cost resourcetype="Gold">500.0000</Cost>
@@ -67913,7 +68017,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCAdvancedArtilleryUS" type="Normal">
-		<DBID>2076</DBID>
+		<DBID>733276</DBID>
 		<DisplayNameID>35299</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -67928,7 +68032,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCCrossbowCombat" type="Normal">
-		<DBID>2061</DBID>
+		<DBID>733277</DBID>
 		<DisplayNameID>780691</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -67953,7 +68057,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCCavalryHitpointsUSA" type="Normal">
-		<DBID>2084</DBID>
+		<DBID>733278</DBID>
 		<DisplayNameID>35320</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -67972,7 +68076,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCCavalryDamageUSA" type="Normal">
-		<DBID>2085</DBID>
+		<DBID>733279</DBID>
 		<DisplayNameID>35322</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -67991,7 +68095,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCCavalryCombatUSA" type="Normal">
-		<DBID>2086</DBID>
+		<DBID>733280</DBID>
 		<DisplayNameID>35324</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68016,7 +68120,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialPoleaxemen" type="Normal">
-		<DBID>2103</DBID>
+		<DBID>733281</DBID>
 		<DisplayNameID>78018</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -68041,7 +68145,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCPilgrimRepeat" type="Normal">
-		<DBID>2183</DBID>
+		<DBID>733282</DBID>
 		<DisplayNameID>77825</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68055,7 +68159,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCPilgrims" type="Normal">
-		<DBID>2183</DBID>
+		<DBID>733283</DBID>
 		<DisplayNameID>77847</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68070,7 +68174,7 @@
 	</Tech>
 
 	<Tech name="HCShipMarines1" type="Normal">
-		<DBID>2187</DBID>
+		<DBID>733284</DBID>
 		<DisplayNameID>78029</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68084,7 +68188,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipCavalaria1" type="Normal">
-		<DBID>2188</DBID>
+		<DBID>733285</DBID>
 		<DisplayNameID>77977</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68098,7 +68202,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipSaker" type="Normal">
-		<DBID>2192</DBID>
+		<DBID>733286</DBID>
 		<DisplayNameID>780715</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68112,7 +68216,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipSheep1Inf" type="Normal">
-		<DBID>2218</DBID>
+		<DBID>733287</DBID>
 		<DisplayNameID>780948</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68126,7 +68230,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipCoutelier" type="Normal">
-		<DBID>2228</DBID>
+		<DBID>733288</DBID>
 		<DisplayNameID>78008</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68140,7 +68244,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipCavalaria2" type="Normal">
-		<DBID>2232</DBID>
+		<DBID>733289</DBID>
 		<DisplayNameID>77978</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68154,7 +68258,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipSabers2" type="Normal">
-		<DBID>2232</DBID>
+		<DBID>733290</DBID>
 		<DisplayNameID>77965</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68168,7 +68272,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipCannons3" type="Normal">
-		<DBID>2239</DBID>
+		<DBID>733291</DBID>
 		<DisplayNameID>35744</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68182,7 +68286,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipGreatCannons1" type="Normal">
-		<DBID>7737</DBID>
+		<DBID>733292</DBID>
 		<DisplayNameID>77895</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68196,7 +68300,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipGreatCannons2" type="Normal">
-		<DBID>7707</DBID>
+		<DBID>733293</DBID>
 		<DisplayNameID>77895</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68210,7 +68314,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipCoutelier2" type="Normal">
-		<DBID>2243</DBID>
+		<DBID>733294</DBID>
 		<DisplayNameID>78009</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68224,7 +68328,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipMarines2" type="Normal">
-		<DBID>2247</DBID>
+		<DBID>733295</DBID>
 		<DisplayNameID>78030</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68238,7 +68342,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipSchutzens1" type="Normal">
-		<DBID>2248</DBID>
+		<DBID>733296</DBID>
 		<DisplayNameID>77924</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68252,7 +68356,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipSchutzens2" type="Normal">
-		<DBID>2249</DBID>
+		<DBID>733297</DBID>
 		<DisplayNameID>77925</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68266,7 +68370,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipSchutzens3" type="Normal">
-		<DBID>2250</DBID>
+		<DBID>733298</DBID>
 		<DisplayNameID>77926</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68280,7 +68384,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCMountedRiflemen1" type="Normal">
-		<DBID>2257</DBID>
+		<DBID>733299</DBID>
 		<DisplayNameID>77862</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68294,7 +68398,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCMountedRiflemen2" type="Normal">
-		<DBID>2257</DBID>
+		<DBID>73331</DBID>
 		<DisplayNameID>77863</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68308,7 +68412,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCMountedRiflemen3" type="Normal">
-		<DBID>2257</DBID>
+		<DBID>73332</DBID>
 		<DisplayNameID>77864</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68322,7 +68426,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCMountedRiflemen4" type="Normal">
-		<DBID>2257</DBID>
+		<DBID>73333</DBID>
 		<DisplayNameID>77865</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68336,7 +68440,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipCrossbow1" type="Normal">
-		<DBID>2257</DBID>
+		<DBID>73334</DBID>
 		<DisplayNameID>780688</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68350,7 +68454,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipCrossbow3" type="Normal">
-		<DBID>2258</DBID>
+		<DBID>73335</DBID>
 		<DisplayNameID>780690</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68364,7 +68468,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipCrossbow2" type="Normal">
-		<DBID>2258</DBID>
+		<DBID>73336</DBID>
 		<DisplayNameID>780689</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68378,7 +68482,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCSupplyWagon" type="Normal">
-		<DBID>2263</DBID>
+		<DBID>73337</DBID>
 		<DisplayNameID>77842</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68394,7 +68498,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCSupplyWagonInf" type="Normal">
-		<DBID>2263</DBID>
+		<DBID>73338</DBID>
 		<DisplayNameID>77970</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68409,7 +68513,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCWoodWagon" type="Normal">
-		<DBID>2263</DBID>
+		<DBID>73339</DBID>
 		<DisplayNameID>77842</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68424,7 +68528,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCFoodWagon" type="Normal">
-		<DBID>2263</DBID>
+		<DBID>733310</DBID>
 		<DisplayNameID>77842</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68439,7 +68543,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCCoinWagon" type="Normal">
-		<DBID>2263</DBID>
+		<DBID>733311</DBID>
 		<DisplayNameID>77842</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68454,7 +68558,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipAxemen" type="Normal">
-		<DBID>2273</DBID>
+		<DBID>733312</DBID>
 		<DisplayNameID>78020</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68471,7 +68575,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipAxemen2" type="Normal">
-		<DBID>2274</DBID>
+		<DBID>733313</DBID>
 		<DisplayNameID>78021</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68488,7 +68592,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipAxemenR" type="Normal">
-		<DBID>2273</DBID>
+		<DBID>733314</DBID>
 		<DisplayNameID>780672</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68502,7 +68606,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipAxemenR2" type="Normal">
-		<DBID>2274</DBID>
+		<DBID>733315</DBID>
 		<DisplayNameID>780673</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68516,7 +68620,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipMarines3" type="Normal">
-		<DBID>2313</DBID>
+		<DBID>733316</DBID>
 		<DisplayNameID>78031</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68530,7 +68634,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipMarines4" type="Normal">
-		<DBID>2314</DBID>
+		<DBID>733317</DBID>
 		<DisplayNameID>78032</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68544,7 +68648,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipSabers3" type="Normal">
-		<DBID>2317</DBID>
+		<DBID>733318</DBID>
 		<DisplayNameID>77966</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68558,7 +68662,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipSabers4" type="Normal">
-		<DBID>2318</DBID>
+		<DBID>733319</DBID>
 		<DisplayNameID>77967</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68572,7 +68676,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipAzaps1" type="Normal">
-		<DBID>2342</DBID>
+		<DBID>733320</DBID>
 		<DisplayNameID>77877</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68586,7 +68690,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipAzaps2" type="Normal">
-		<DBID>2342</DBID>
+		<DBID>733321</DBID>
 		<DisplayNameID>77878</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68600,7 +68704,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipAzaps3" type="Normal">
-		<DBID>2342</DBID>
+		<DBID>733322</DBID>
 		<DisplayNameID>77879</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68614,7 +68718,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipRiflemen1" type="Normal">
-		<DBID>2369</DBID>
+		<DBID>733323</DBID>
 		<DisplayNameID>77993</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68628,7 +68732,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipRiflemen2" type="Normal">
-		<DBID>2370</DBID>
+		<DBID>733324</DBID>
 		<DisplayNameID>77994</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68642,7 +68746,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipRiflemen3" type="Normal">
-		<DBID>2371</DBID>
+		<DBID>733325</DBID>
 		<DisplayNameID>77995</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68656,7 +68760,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipRiflemen4" type="Normal">
-		<DBID>2372</DBID>
+		<DBID>733326</DBID>
 		<DisplayNameID>77996</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68670,7 +68774,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCRangedInfantryDamageUS" type="Normal">
-		<DBID>2374</DBID>
+		<DBID>733327</DBID>
 		<DisplayNameID>36078</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68689,7 +68793,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCRangedInfantryCombatUS" type="Normal">
-		<DBID>2375</DBID>
+		<DBID>733328</DBID>
 		<DisplayNameID>36080</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68714,8 +68818,8 @@
 		</Effects>
 	</Tech>
 	<Tech name="PromotionCooper" type="Normal">
-		<DBID>6667</DBID>
-		<DisplayNameID>36498</DisplayNameID>
+		<DBID>733329</DBID>
+		<DisplayNameID>42290</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -68735,11 +68839,11 @@
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ExplorerDog" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="TextOutput">42752</Effect>
+			<Effect type="TextOutput">781190</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="SPCHeroes" type="Normal">
-		<DBID>2506</DBID>
+		<DBID>733330</DBID>
 		<DisplayNameID>68288</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68760,7 +68864,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="UniqueSPCCustomizedMercWeaponsUS" type="Normal">
-		<DBID>1955</DBID>
+		<DBID>733331</DBID>
 		<DisplayNameID>34567</DisplayNameID>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -68788,7 +68892,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCRoyalDecreeUS" type="Normal">
-		<DBID>2541</DBID>
+		<DBID>733332</DBID>
 		<DisplayNameID>77897</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68805,7 +68909,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCRoyalDecreeXP" type="Normal">
-		<DBID>2541</DBID>
+		<DBID>733333</DBID>
 		<DisplayNameID>77897</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68822,7 +68926,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCMercsHighlandersIndia" type="Normal">
-		<DBID>2544</DBID>
+		<DBID>733334</DBID>
 		<DisplayNameID>36702</DisplayNameID>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -68844,7 +68948,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipSabers5" type="Normal">
-		<DBID>2565</DBID>
+		<DBID>733335</DBID>
 		<DisplayNameID>77968</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68858,7 +68962,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipSchutzens5" type="Normal">
-		<DBID>2631</DBID>
+		<DBID>733336</DBID>
 		<DisplayNameID>77927</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68872,7 +68976,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCPortugueseHero" type="Normal">
-		<DBID>2657</DBID>
+		<DBID>733337</DBID>
 		<DisplayNameID>77848</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68890,7 +68994,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCGermanHero" type="Normal">
-		<DBID>2657</DBID>
+		<DBID>733338</DBID>
 		<DisplayNameID>77848</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68905,7 +69009,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCBritishHero" type="Normal">
-		<DBID>2657</DBID>
+		<DBID>733339</DBID>
 		<DisplayNameID>77848</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68923,7 +69027,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCBattlefieldConstructionUS" type="Normal">
-		<DBID>2697</DBID>
+		<DBID>733340</DBID>
 		<DisplayNameID>42880</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -68945,7 +69049,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ConSupport" type="Normal">
-		<DBID>2720</DBID>
+		<DBID>733341</DBID>
 		<DisplayNameID>780740</DisplayNameID>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -68973,7 +69077,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCConquistador" type="Normal">
-		<DBID>9079</DBID>
+		<DBID>733342</DBID>
 		<DisplayNameID>77833</DisplayNameID>
 		<Cost resourcetype="Gold">300.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -68989,7 +69093,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCConquistador2" type="Normal">
-		<DBID>9078</DBID>
+		<DBID>733343</DBID>
 		<DisplayNameID>77834</DisplayNameID>
 		<Cost resourcetype="Gold">500.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -69006,7 +69110,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCConquistador3" type="Normal">
-		<DBID>9077</DBID>
+		<DBID>733344</DBID>
 		<DisplayNameID>77835</DisplayNameID>
 		<Cost resourcetype="Gold">600.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -69023,7 +69127,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ShipColonialMilitia1" type="Normal">
-		<DBID>3182</DBID>
+		<DBID>733345</DBID>
 		<DisplayNameID>77948</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69037,7 +69141,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ShipColonialMilitia2" type="Normal">
-		<DBID>3182</DBID>
+		<DBID>733346</DBID>
 		<DisplayNameID>77949</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69051,7 +69155,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ShipColonialMilitia3" type="Normal">
-		<DBID>3182</DBID>
+		<DBID>733347</DBID>
 		<DisplayNameID>77983</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69065,7 +69169,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipGatlingGuns2" type="Normal">
-		<DBID>3183</DBID>
+		<DBID>733348</DBID>
 		<DisplayNameID>45223</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69079,7 +69183,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCGunpowderWagon1" type="Normal">
-		<DBID>3183</DBID>
+		<DBID>733349</DBID>
 		<DisplayNameID>77826</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69093,7 +69197,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCGunpowderWagon2" type="Normal">
-		<DBID>3183</DBID>
+		<DBID>733350</DBID>
 		<DisplayNameID>77827</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69107,7 +69211,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipMiners" type="Normal">
-		<DBID>3183</DBID>
+		<DBID>733351</DBID>
 		<DisplayNameID>77819</DisplayNameID>
 		<Cost resourcetype="Food">200.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -69123,7 +69227,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipGatlingGuns1" type="Normal">
-		<DBID>5656</DBID>
+		<DBID>733352</DBID>
 		<DisplayNameID>77804</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69137,7 +69241,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCREVShipFactory" type="Normal">
-		<DBID>3184</DBID>
+		<DBID>733353</DBID>
 		<DisplayNameID>42330</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69151,7 +69255,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Ranching" type="Normal">
-		<DBID>3367</DBID>
+		<DBID>733354</DBID>
 		<DisplayNameID>780756</DisplayNameID>
 		<Cost resourcetype="Wood">100.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
@@ -69191,7 +69295,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="RanchingE" type="Normal">
-		<DBID>3367</DBID>
+		<DBID>733355</DBID>
 		<DisplayNameID>780756</DisplayNameID>
 		<Cost resourcetype="Wood">100.0000</Cost>
 		<ResearchPoints>5.0000</ResearchPoints>
@@ -69210,7 +69314,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="RanchingM" type="Normal">
-		<DBID>3367</DBID>
+		<DBID>733356</DBID>
 		<DisplayNameID>780756</DisplayNameID>
 		<Cost resourcetype="Wood">100.0000</Cost>
 		<ResearchPoints>5.0000</ResearchPoints>
@@ -69229,7 +69333,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="BigDockRawhideCovers2" type="Normal">
-		<DBID>3248</DBID>
+		<DBID>733357</DBID>
 		<DisplayNameID>45709</DisplayNameID>
 		<Cost resourcetype="Food">400.0000</Cost>
 		<Cost resourcetype="Wood">400.0000</Cost>
@@ -69250,7 +69354,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="BigDockFlamingArrows2" type="Normal">
-		<DBID>3249</DBID>
+		<DBID>733358</DBID>
 		<DisplayNameID>45711</DisplayNameID>
 		<Cost resourcetype="Food">400.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -69271,7 +69375,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SaloonSurgeon" type="Normal">
-		<DBID>3292</DBID>
+		<DBID>733359</DBID>
 		<DisplayNameID>46109</DisplayNameID>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -69287,7 +69391,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SaloonMiner" type="Normal">
-		<DBID>3292</DBID>
+		<DBID>733360</DBID>
 		<DisplayNameID>31145</DisplayNameID>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -69306,7 +69410,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SaloonAxeman" type="Normal">
-		<DBID>3295</DBID>
+		<DBID>733361</DBID>
 		<DisplayNameID>78010</DisplayNameID>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -69322,7 +69426,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SaloonHoopThrowers" type="Normal">
-		<DBID>3296</DBID>
+		<DBID>733362</DBID>
 		<DisplayNameID>77823</DisplayNameID>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -69341,7 +69445,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="BoneguardSwordsman" type="Normal">
-		<DBID>3296</DBID>
+		<DBID>733363</DBID>
 		<DisplayNameID>28478</DisplayNameID>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -69356,7 +69460,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="BoneguardRifleman" type="Normal">
-		<DBID>3296</DBID>
+		<DBID>733364</DBID>
 		<DisplayNameID>33700</DisplayNameID>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -69371,7 +69475,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="XPRevolutionBlackbeard" type="Normal">
-		<DBID>3272</DBID>
+		<DBID>733365</DBID>
 		<DisplayNameID>781064</DisplayNameID>
 		<Cost resourcetype="Food">1000.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
@@ -69486,7 +69590,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SaloonCorsairO" type="Normal">
-		<DBID>3305</DBID>
+		<DBID>733366</DBID>
 		<DisplayNameID>27311</DisplayNameID>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -69505,7 +69609,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SaloonDove" type="Normal">
-		<DBID>3305</DBID>
+		<DBID>733367</DBID>
 		<DisplayNameID>780700</DisplayNameID>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -69524,7 +69628,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCXPDanceHallSPC" type="Normal">
-		<DBID>3361</DBID>
+		<DBID>733368</DBID>
 		<DisplayNameID>46788</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69580,7 +69684,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCXPBankWagon2" type="Normal">
-		<DBID>3394</DBID>
+		<DBID>733369</DBID>
 		<DisplayNameID>46890</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69598,7 +69702,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCPatriots" type="Normal">
-		<DBID>3463</DBID>
+		<DBID>733370</DBID>
 		<DisplayNameID>780732</DisplayNameID>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -69614,7 +69718,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCGatlingGunsRepeat" type="Normal">
-		<DBID>3465</DBID>
+		<DBID>733371</DBID>
 		<DisplayNameID>77804</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69628,7 +69732,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCWarLeader" type="Normal">
-		<DBID>3499</DBID>
+		<DBID>733372</DBID>
 		<DisplayNameID>780949</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69647,7 +69751,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialHorseArtilleryNew" type="Normal">
-		<DBID>3519</DBID>
+		<DBID>733373</DBID>
 		<DisplayNameID>780936</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -69673,7 +69777,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HeavyHorseArtilleryNew" type="Normal">
-		<DBID>3520</DBID>
+		<DBID>733374</DBID>
 		<DisplayNameID>780933</DisplayNameID>
 		<Cost resourcetype="Food">400.0000</Cost>
 		<Cost resourcetype="Wood">400.0000</Cost>
@@ -69698,7 +69802,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialHorseArtilleryUS" type="Normal">
-		<DBID>3519</DBID>
+		<DBID>733375</DBID>
 		<DisplayNameID>781054</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -69724,7 +69828,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HeavyHorseArtilleryUS" type="Normal">
-		<DBID>3520</DBID>
+		<DBID>733376</DBID>
 		<DisplayNameID>48898</DisplayNameID>
 		<Cost resourcetype="Food">300.0000</Cost>
 		<Cost resourcetype="Wood">300.0000</Cost>
@@ -69749,7 +69853,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HeavyGatlingGun" type="Normal">
-		<DBID>6767</DBID>
+		<DBID>733377</DBID>
 		<DisplayNameID>77797</DisplayNameID>
 		<Cost resourcetype="Food">300.0000</Cost>
 		<Cost resourcetype="Wood">300.0000</Cost>
@@ -69774,7 +69878,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AdvancedGatlingGun" type="Normal">
-		<DBID>3532</DBID>
+		<DBID>733378</DBID>
 		<DisplayNameID>77800</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -69800,7 +69904,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="VeteranCamel" type="Normal">
-		<DBID>3577</DBID>
+		<DBID>733379</DBID>
 		<DisplayNameID>780770</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -69819,7 +69923,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardCamel" type="Normal">
-		<DBID>3587</DBID>
+		<DBID>733380</DBID>
 		<DisplayNameID>780771</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -69839,7 +69943,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialCamel" type="Normal">
-		<DBID>3592</DBID>
+		<DBID>733381</DBID>
 		<DisplayNameID>780773</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -69859,7 +69963,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="YPHonoredSohei" type="Normal">
-		<DBID>3608</DBID>
+		<DBID>733382</DBID>
 		<DisplayNameID>60575</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -69883,7 +69987,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="YPExaltedSohei" type="Normal">
-		<DBID>3615</DBID>
+		<DBID>733383</DBID>
 		<DisplayNameID>60604</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -69908,7 +70012,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="YPHCShinobi2" type="Normal">
-		<DBID>3868</DBID>
+		<DBID>733384</DBID>
 		<DisplayNameID>78042</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69922,7 +70026,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="YPHCShinobi" type="Normal">
-		<DBID>3869</DBID>
+		<DBID>733385</DBID>
 		<DisplayNameID>78043</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69936,7 +70040,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="YPHCShipDhow1" type="Normal">
-		<DBID>4008</DBID>
+		<DBID>733386</DBID>
 		<DisplayNameID>780943</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69957,7 +70061,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="YPHCMercsJatLancer1Ot" type="Normal">
-		<DBID>4013</DBID>
+		<DBID>733387</DBID>
 		<DisplayNameID>61838</DisplayNameID>
 		<Cost resourcetype="Gold">1500.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -69974,7 +70078,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCSohei" type="Normal">
-		<DBID>4080</DBID>
+		<DBID>733388</DBID>
 		<DisplayNameID>77984</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -69988,7 +70092,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="YPHCShipDhow2" type="Normal">
-		<DBID>4170</DBID>
+		<DBID>733389</DBID>
 		<DisplayNameID>780944</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70009,7 +70113,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ExportShips" type="Normal">
-		<DBID>7777</DBID>
+		<DBID>733390</DBID>
 		<DisplayNameID>780696</DisplayNameID>
 		<Cost resourcetype="Fame">1000.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -70028,7 +70132,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ExportShips2" type="Normal">
-		<DBID>7777</DBID>
+		<DBID>733391</DBID>
 		<DisplayNameID>780696</DisplayNameID>
 		<Cost resourcetype="Fame">1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -70048,7 +70152,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ExportShips3" type="Normal">
-		<DBID>7777</DBID>
+		<DBID>733392</DBID>
 		<DisplayNameID>780696</DisplayNameID>
 		<Cost resourcetype="Fame">2000.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -70069,7 +70173,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="IndependentG" type="Normal">
-		<DBID>7790</DBID>
+		<DBID>733393</DBID>
 		<DisplayNameID>780698</DisplayNameID>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70102,7 +70206,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Civilization2" type="Normal">
-		<DBID>7777</DBID>
+		<DBID>733394</DBID>
 		<DisplayNameID>77788</DisplayNameID>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70123,7 +70227,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="Civilization" type="Normal">
-		<DBID>7777</DBID>
+		<DBID>733395</DBID>
 		<DisplayNameID>77788</DisplayNameID>
 		<Cost resourcetype="Gold">1500.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70168,7 +70272,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="CivilizationC" type="Normal">
-		<DBID>7777</DBID>
+		<DBID>733396</DBID>
 		<DisplayNameID>77788</DisplayNameID>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70216,7 +70320,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCCurrier" type="Normal">
-		<DBID>3962</DBID>
+		<DBID>733397</DBID>
 		<DisplayNameID>77980</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70233,7 +70337,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypPopulationCapBonus2" type="Normal">
-		<DBID>4303</DBID>
+		<DBID>733398</DBID>
 		<ResearchPoints>50.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
@@ -70244,7 +70348,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="CalltoArmsR" type="Normal">
-		<DBID>4351</DBID>
+		<DBID>733399</DBID>
 		<DisplayNameID>63249</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70258,7 +70362,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="YPHCShipDhow3Double" type="Normal">
-		<DBID>4379</DBID>
+		<DBID>73341</DBID>
 		<DisplayNameID>780945</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70279,7 +70383,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SpawnMilitia" type="Normal">
-		<DBID>4427</DBID>
+		<DBID>73342</DBID>
 		<ResearchPoints>0.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>YPInfiniteTech</Flag>
@@ -70292,7 +70396,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateLumberWagon" type="Normal">
-		<DBID>4499</DBID>
+		<DBID>73343</DBID>
 		<DisplayNameID>32645</DisplayNameID>
 		<Cost resourcetype="Trade">400.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -70314,7 +70418,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="AsianAdvancedBalloon" type="Normal">
-		<DBID>3382</DBID>
+		<DBID>73344</DBID>
 		<DisplayNameID>46846</DisplayNameID>
 		<Cost resourcetype="Trade">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70336,7 +70440,7 @@
 		</Effect>
 	</Tech>
 	<Tech name="ypConsulateBritishBrigadeN" type="Normal">
-		<DBID>4903</DBID>
+		<DBID>73345</DBID>
 		<DisplayNameID>780822</DisplayNameID>
 		<Cost resourcetype="Gold">2000.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -70367,7 +70471,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateFrenchBrigadeN" type="Normal">
-		<DBID>4906</DBID>
+		<DBID>73346</DBID>
 		<DisplayNameID>780823</DisplayNameID>
 		<Cost resourcetype="Gold">2000.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -70398,7 +70502,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypConsulateSpanishBrigadeN" type="Normal">
-		<DBID>4908</DBID>
+		<DBID>73347</DBID>
 		<DisplayNameID>780821</DisplayNameID>
 		<Cost resourcetype="Gold">2000.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -70429,7 +70533,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="YPHCMercsArsonist1Br" type="Normal">
-		<DBID>4934</DBID>
+		<DBID>73348</DBID>
 		<DisplayNameID>67702</DisplayNameID>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -70446,7 +70550,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypBigConsulateJapaneseOLD" type="Normal">
-		<DBID>4937</DBID>
+		<DBID>73349</DBID>
 		<DisplayNameID>68231</DisplayNameID>
 		<Cost resourcetype="Trade">100.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
@@ -70499,7 +70603,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypBigSequesterJapaneseOLD" type="Normal">
-		<DBID>4938</DBID>
+		<DBID>733410</DBID>
 		<DisplayNameID>68233</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Cost resourcetype="Trade">50.0000</Cost>
@@ -70548,7 +70652,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="USATraining" type="Normal">
-		<DBID>4940</DBID>
+		<DBID>733411</DBID>
 		<DisplayNameID>68288</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -70563,7 +70667,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="MilitaryPromotionUS" type="Normal">
-		<DBID>8</DBID>
+		<DBID>733412</DBID>
 		<DisplayNameID>78040</DisplayNameID>
 		<Cost resourcetype="Trade">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70581,7 +70685,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="MilitaryPromotion" type="Normal">
-		<DBID>8</DBID>
+		<DBID>733413</DBID>
 		<DisplayNameID>78040</DisplayNameID>
 		<Cost resourcetype="Trade">1000.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70602,7 +70706,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCPostOffice" type="Normal">
-		<DBID>4949</DBID>
+		<DBID>733414</DBID>
 		<DisplayNameID>77953</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70621,7 +70725,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypSaloonShinobi" type="Normal">
-		<DBID>4986</DBID>
+		<DBID>733415</DBID>
 		<DisplayNameID>68388</DisplayNameID>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -70640,7 +70744,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ypBigSequesterSPCIndia2" type="Normal">
-		<DBID>5016</DBID>
+		<DBID>733416</DBID>
 		<DisplayNameID>68631</DisplayNameID>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Cost resourcetype="Trade">50.0000</Cost>
@@ -70674,7 +70778,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCXPDanceHallUS" type="Normal">
-		<DBID>3361</DBID>
+		<DBID>733417</DBID>
 		<DisplayNameID>46788</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70733,7 +70837,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardHalberdiersUS" type="Normal">
-		<DBID>92</DBID>
+		<DBID>733418</DBID>
 		<DisplayNameID>780997</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -70760,7 +70864,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialHalberdiersUS" type="Normal">
-		<DBID>1309</DBID>
+		<DBID>733419</DBID>
 		<DisplayNameID>780999</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -70785,7 +70889,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipVillagersInf" type="Normal">
-		<DBID>2796</DBID>
+		<DBID>733420</DBID>
 		<DisplayNameID>35710</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70799,7 +70903,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="PoliticianCavalierUSA" type="Normal">
-		<DBID>1740</DBID>
+		<DBID>733421</DBID>
 		<DisplayNameID>34152</DisplayNameID>
 		<Cost resourcetype="Food">2000.0000</Cost>
 		<Cost resourcetype="Gold">1400.0000</Cost>
@@ -70818,7 +70922,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialSchutzens" type="Normal">
-		<DBID>1313</DBID>
+		<DBID>733422</DBID>
 		<DisplayNameID>77914</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -70843,7 +70947,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCArtilleryDamageUSA" type="Normal">
-		<DBID>2355</DBID>
+		<DBID>733423</DBID>
 		<DisplayNameID>781061</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -70860,10 +70964,16 @@
 		</Effects>
 	</Tech>
 	<Tech name="Age0Italians" type="Normal">
-		<DBID>309</DBID>
+		<DBID>733424</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
+			<Effect type="Data" amount="130.00" subtype="Cost" resource="Fame" relativity="Absolute">
+				<Target type="ProtoUnit">MercElmeti</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Pilgrim</Target>
 			</Effect>
@@ -70899,7 +71009,7 @@
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">EconomicAlliance</Effect>
 			<Effect type="TechStatus" status="obtainable">MilitaryAlliance</Effect>
-			<Effect type="TechStatus" status="obtainable">ypConsulateSpanishBrigadeFame</Effect>
+			<Effect type="TechStatus" status="obtainable">ypConsulateItaliansBrigadeFame</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">CoveredWagonPlus</Target>
 			</Effect>
@@ -70918,13 +71028,13 @@
 				<Target type="ProtoUnit">MercArmyS</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmySpanish11</Target>
+				<Target type="ProtoUnit">ypConsulateArmyItalians11</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmySpanish33</Target>
+				<Target type="ProtoUnit">ypConsulateArmyItalians33</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmySpanish22</Target>
+				<Target type="ProtoUnit">ypConsulateArmyItalians22</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">Envoy</Target>
@@ -70946,8 +71056,6 @@
 			<Effect type="TechStatus" status="active">AAStandardStartingTechsM</Effect>
 			<Effect type="TechStatus" status="obtainable">GuardHussars</Effect>
 			<Effect type="TechStatus" status="obtainable">VeteranHussars</Effect>
-			<Effect type="TechStatus" status="obtainable">ChurchQuatrefage</Effect>
-			<Effect type="TechStatus" status="obtainable">ChurchCorsolet</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">HouseMed</Target>
 			</Effect>
@@ -70983,7 +71091,9 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">ArtilleryDepot</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">ChurchWildGeeseSpanish</Effect>
+			<Effect type="TechStatus" status="obtainable">VenetianGothic</Effect>
+			<Effect type="TechStatus" status="obtainable">FameArmies</Effect>
+			<Effect type="TechStatus" status="obtainable">SacredDecree</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianAdventurerSpanish</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianPresidenteEU</Effect>
 			<Effect type="TechStatus" status="obtainable">PoliticianGeneral</Effect>
@@ -71090,13 +71200,13 @@
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">xpSpy</Target>
 			</Effect>
-			<Effect type="Data" amount="0.10" subtype="ResourceTrickleRate" resource="Fame" relativity="Absolute">
+			<Effect type="Data" amount="0.05" subtype="ResourceTrickleRate" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="VeteranFlatbowman" type="Normal">
-		<DBID>111</DBID>
+		<DBID>733425</DBID>
 		<DisplayNameID>781143</DisplayNameID>
 		<Cost resourcetype="Wood">200.0000</Cost>
 		<Cost resourcetype="Gold">200.0000</Cost>
@@ -71123,7 +71233,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardFlatbowman" type="Normal">
-		<DBID>115</DBID>
+		<DBID>733426</DBID>
 		<DisplayNameID>781144</DisplayNameID>
 		<Cost resourcetype="Wood">600.0000</Cost>
 		<Cost resourcetype="Gold">600.0000</Cost>
@@ -71151,7 +71261,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialFlatbowman" type="Normal">
-		<DBID>1322</DBID>
+		<DBID>733427</DBID>
 		<DisplayNameID>781145</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -71176,7 +71286,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialCannonIt" type="Normal">
-		<DBID>1956</DBID>
+		<DBID>733428</DBID>
 		<DisplayNameID>781154</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -71200,7 +71310,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="GuardCrossbowmenIt" type="Normal">
-		<DBID>115</DBID>
+		<DBID>733429</DBID>
 		<DisplayNameID>781156</DisplayNameID>
 		<Cost resourcetype="Wood">1000.0000</Cost>
 		<Cost resourcetype="Gold">1000.0000</Cost>
@@ -71228,7 +71338,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="ImperialCrossbowmenIt" type="Normal">
-		<DBID>1322</DBID>
+		<DBID>733430</DBID>
 		<DisplayNameID>781158</DisplayNameID>
 		<Cost resourcetype="Wood">1500.0000</Cost>
 		<Cost resourcetype="Gold">1500.0000</Cost>
@@ -71253,7 +71363,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipFlatbowmen1" type="Normal">
-		<DBID>2226</DBID>
+		<DBID>733431</DBID>
 		<DisplayNameID>781161</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -71267,7 +71377,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipFlatbowmen2" type="Normal">
-		<DBID>2244</DBID>
+		<DBID>733432</DBID>
 		<DisplayNameID>781162</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -71281,7 +71391,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCShipFlatbowmen3" type="Normal">
-		<DBID>2676</DBID>
+		<DBID>733433</DBID>
 		<DisplayNameID>781163</DisplayNameID>
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
@@ -71295,7 +71405,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="HCMercsMaghrabi" type="Normal">
-		<DBID>2545</DBID>
+		<DBID>733434</DBID>
 		<DisplayNameID>781167</DisplayNameID>
 		<Cost resourcetype="Gold">1000.0000</Cost>
 		<Cost resourcetype="Ships">1.0000</Cost>
@@ -71311,7 +71421,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="SaloonMaghrabi" type="Normal">
-		<DBID>3295</DBID>
+		<DBID>733435</DBID>
 		<DisplayNameID>781164</DisplayNameID>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -71327,7 +71437,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="PostIndustrialItalians" type="Normal">
-		<DBID>2408</DBID>
+		<DBID>733436</DBID>
 		<DisplayNameID>36246</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
@@ -71375,9 +71485,7 @@
 			<Effect type="TechStatus" status="active">FortifiedOutpost</Effect>
 			<Effect type="TechStatus" status="active">ChurchMassCavalry</Effect>
 			<Effect type="TechStatus" status="active">VeteranCrossbowmen</Effect>
-			<Effect type="TechStatus" status="active">RGGarrochista</Effect>
 			<Effect type="TechStatus" status="active">VeteranHussars</Effect>
-			<Effect type="TechStatus" status="active">VeteranRodeleros</Effect>
 			<Effect type="TechStatus" status="active">VeteranPikemen</Effect>
 			<Effect type="TechStatus" status="active">VeteranMusketeers</Effect>
 			<Effect type="TechStatus" status="active">GrapeShot</Effect>
@@ -71391,8 +71499,6 @@
 			<Effect type="TechStatus" status="active">Pillage</Effect>
 			<Effect type="TechStatus" status="active">FactoryMassProduction</Effect>
 			<Effect type="TechStatus" status="active">GuardCavalryArchers</Effect>
-			<Effect type="TechStatus" status="active">RGTercio</Effect>
-			<Effect type="TechStatus" status="active">RGEspadachins</Effect>
 			<Effect type="TechStatus" status="active">GuardMusketeers</Effect>
 			<Effect type="TechStatus" status="active">GuardHussars</Effect>
 			<Effect type="TechStatus" status="active">GuardSkirmishers</Effect>
@@ -71405,7 +71511,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="PostImperialItalians" type="Normal">
-		<DBID>2439</DBID>
+		<DBID>733437</DBID>
 		<DisplayNameID>36325</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
@@ -71418,47 +71524,38 @@
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">ImperialCavalryArchers</Effect>
 			<Effect type="TechStatus" status="active">ImperialSkirmishers</Effect>
-			<Effect type="TechStatus" status="active">ImperialEspada</Effect>
-			<Effect type="TechStatus" status="active">ImperialTercio</Effect>
 			<Effect type="TechStatus" status="active">ImperialMusketeers</Effect>
-			<Effect type="TechStatus" status="active">ImperialGarrochistas</Effect>
 			<Effect type="TechStatus" status="active">ImperialHussars</Effect>
 			<Effect type="TechStatus" status="active">ImperialCulverin</Effect>
 			<Effect type="TechStatus" status="active">ImperialCannon</Effect>
 			<Effect type="TechStatus" status="active">ImperialHowitzer</Effect>
 			<Effect type="TechStatus" status="active">ImperialFieldGun</Effect>
-			<Effect type="TechStatus" status="active">ImperialMonitorsNew</Effect>
+			<Effect type="TechStatus" status="active">ImperialMonitors</Effect>
 			<Effect type="TechStatus" status="active">ImperialManOWar</Effect>
 			<Effect type="TechStatus" status="active">ImpLegendaryNatives</Effect>
 			<Effect type="TechStatus" status="active">ImperialHorseArtillery</Effect>
 			<Effect type="TechStatus" status="active">ImperialPikemen</Effect>
 			<Effect type="TechStatus" status="active">ImperialCrossbowmen</Effect>
+			<Effect type="TechStatus" status="active">ImperialMountedCrossbowman</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ColonializeItalians" type="Normal">
-		<DBID>1174</DBID>
+		<DBID>733438</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
 			<Effect type="TechStatus" status="active">Colonialize</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">WarDog</Target>
-			</Effect>
 			<Effect type="TextOutput">780790</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="FortressizeItalians" type="Normal">
-		<DBID>1893</DBID>
+		<DBID>733439</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\post_game\time_line_age_3</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Fortressize</Effect>
-			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">WarDog</Target>
-			</Effect>
 			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">TownCenter</Target>
 			</Effect>
@@ -71466,7 +71563,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="IndustrializeItalians" type="Normal">
-		<DBID>1176</DBID>
+		<DBID>733440</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\post_game\time_line_age_4</Icon>
 		<Flag>Shadow</Flag>
@@ -71474,23 +71571,150 @@
 			<Effect type="TechStatus" status="active">Industrialize</Effect>
 			<Effect type="TechStatus" status="active">Crackshot</Effect>
 			<Effect type="TextOutput">780790</Effect>
-			<Effect type="TechStatus" status="obtainable">XPRevolutionOHiggins</Effect>
+			<Effect type="TechStatus" status="obtainable">XPRevolutionSantander</Effect>
 			<Effect type="TechStatus" status="obtainable">XPRevolutionHidalgo</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ImperializeItalians" type="Normal">
-		<DBID>1344</DBID>
+		<DBID>733441</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\post_game\time_line_age_5</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="TechStatus" status="active">Imperialize</Effect>
-			<Effect type="Data" amount="2.00" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">WarDog</Target>
-			</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionBolivar</Effect>
-			<Effect type="TechStatus" status="unobtainable">XPRevolutionOHiggins</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionSantander</Effect>
+			<Effect type="TechStatus" status="unobtainable">XPRevolutionHidalgo</Effect>
 			<Effect type="TextOutput">780790</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ypConsulateItaliansBrigadeFame" type="Normal">
+		<DBID>733442</DBID>
+		<DisplayNameID>781174</DisplayNameID>
+		<Cost resourcetype="Fame">1200.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\papalguard</Icon>
+		<RolloverTextID>781175</RolloverTextID>
+		<Flag>CheckLandHCGatherPoint</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>YPNeverObtainableAfterUse</Flag>
+		<Flag>YPCheckPopCap</Flag>
+		<Prereqs>
+			<TechStatus status="Active">Imperialize</TechStatus>
+			<TechStatus status="Active">MilitaryAlliance</TechStatus>
+			<TechStatus status="Active">Age0Italians</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="ypRepentantElmeti" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCRoyalDecreeItalians" type="Normal">
+		<DBID>733443</DBID>
+		<DisplayNameID>781173</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_royal_decree\hc_royal_decree</Icon>
+		<RolloverTextID>781179</RolloverTextID>
+		<Flag>OrPrereqs</Flag>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="TextOutput">781181</Effect>
+			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+				<Target type="ProtoUnit">Capitol</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="VenetianGothic" type="Normal">
+		<DBID>733444</DBID>
+		<DisplayNameID>781183</DisplayNameID>
+		<Cost resourcetype="Gold">200.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\architecture</Icon>
+		<RolloverTextID>781184</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>UniqueTech</Flag>
+		<Prereqs>
+			<TechStatus status="Active">HCRoyalDecreeItalians</TechStatus>
+			<TechStatus status="Active">Industrialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" action="Build" amount="2.00" subtype="WorkRate" unittype="Building" relativity="BasePercent">
+				<Target type="ProtoUnit">Architect</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="TownCenter" relativity="Absolute">
+				<Target type="ProtoUnit">Architect</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="TradingPost" relativity="Absolute">
+				<Target type="ProtoUnit">Architect</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="FameArmies" type="Normal">
+		<DBID>733445</DBID>
+		<DisplayNameID>781185</DisplayNameID>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\grand_encampment\grand_encampment_icon_64x64</Icon>
+		<RolloverTextID>781186</RolloverTextID>
+		<Flag>UniqueTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status="Active">HCRoyalDecreeItalians</TechStatus>
+			<TechStatus status="Active">Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="0.85" subtype="Cost" resource="Fame" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractBannerArmy</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="TrainPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractBannerArmy</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="SacredDecree" type="Normal">
+		<DBID>733446</DBID>
+		<DisplayNameID>781182</DisplayNameID>
+		<Cost resourcetype="Gold">200.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\sacred</Icon>
+		<RolloverTextID>781191</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>UniqueTech</Flag>
+		<Prereqs>
+			<TechStatus status="Active">HCRoyalDecreeItalians</TechStatus>
+			<TechStatus status="Active">Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
+				<Target type="ProtoUnit">Pilgrim</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCExplorerItalians" type="Normal">
+		<DBID>733447</DBID>
+		<DisplayNameID>781187</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\hc_explorer_italian</Icon>
+		<RolloverTextID>781188</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ExplorerDog" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Hero</Target>
+			</Effect>
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Hero</Target>
+			</Effect>
+			<Effect type="TextOutput">781189</Effect>
 		</Effects>
 	</Tech>
 </TechTree>

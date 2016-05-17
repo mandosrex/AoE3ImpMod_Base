@@ -291,17 +291,10 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
-			<name>HCExplorerSpanish</name>
+			<name>HCExplorerItalians</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
-			<age>0</age>
-		</card>
-		<card>
-			<name>HCExplorerCombatTeam</name>
-			<maxcount>1</maxcount>
-			<level>0</level>
-			<prereqtech>HCExplorerSpanish</prereqtech>
 			<age>0</age>
 		</card>
 		<card>
@@ -779,17 +772,10 @@
 			<age>1</age>
 		</card>
 		<card>
-			<name>HCRoyalDecreeSpanish</name>
+			<name>HCRoyalDecreeItalians</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
 			<prereqtech>-1</prereqtech>
-			<age>1</age>
-		</card>
-		<card>
-			<name>HCInquisition</name>
-			<maxcount>1</maxcount>
-			<level>10</level>
-			<prereqtech>HCRoyalDecreeSpanish</prereqtech>
 			<age>1</age>
 		</card>
 		<card>
@@ -1203,7 +1189,7 @@
 			<name>HCMercenaryLoyalty</name>
 			<maxcount>1</maxcount>
 			<level>25</level>
-			<prereqtech>HCXPDanceHallSp</prereqtech>
+			<prereqtech>HCXPDanceHallIt</prereqtech>
 			<age>2</age>
 		</card>
 		<card>
@@ -1252,7 +1238,7 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
-			<name>HCXPDanceHallSp</name>
+			<name>HCXPDanceHallIt</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
 			<prereqtech>-1</prereqtech>
@@ -1314,7 +1300,7 @@
 				<card>HCAdvancedArtillery</card>
 				<card>HCUnlockFort</card>
 				<card>HCRumDistillery</card>
-				<card>HCRoyalDecreeSpanish</card>
+				<card>HCRoyalDecreeItalians</card>
 			</cards>
 		</deck>
 		<deck>
@@ -1336,7 +1322,7 @@
 				<card>HCAdvancedArtillery</card>
 				<card>HCUnlockFort</card>
 				<card>HCRumDistillery</card>
-				<card>HCRoyalDecreeSpanish</card>
+				<card>HCRoyalDecreeItalians</card>
 			</cards>
 		</deck>
 		<revoltdeck>
@@ -1409,8 +1395,7 @@
 			<tech x="6.0" y="1.0">HCShipCoveredWagons</tech>
 			<tech x="6.0" y="3.0">HCShipSurgeons</tech>
 			<tech x="6.0" y="4.0">HCXPShipSurgeons2</tech>
-			<tech x="7.0" y="1.0">HCExplorerSpanish</tech>
-			<tech x="7.0" y="2.0">HCExplorerCombatTeam</tech>
+			<tech x="7.0" y="1.0">HCExplorerItalians</tech>
 			<tech x="7.0" y="3.0">HCShipBalloons</tech>
 			<tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
 			<tech x="3.4" y="7.0">TreasurySup</tech>
@@ -1530,8 +1515,7 @@
 			<tech x="4.6" y="3.0">HCXPShipSpies2</tech>
 			<tech x="4.6" y="7.0">HCXPShipSpies3</tech>
 			<tech x="5.3" y="1.0">HCXPRanching</tech>
-			<tech x="5.3" y="3.0">HCRoyalDecreeSpanish</tech>
-			<tech x="5.3" y="4.0">HCInquisition</tech>
+			<tech x="5.3" y="3.0">HCRoyalDecreeItalians</tech>
 			<tech x="6.0" y="1.0">HCAdvancedMill</tech>
 			<tech x="6.7" y="1.0">HCAdvancedMarket</tech>
 			<tech x="6.0" y="5.0">HCAdvancedPlantations</tech>
@@ -1544,7 +1528,7 @@
 			<tech>HCCheapBarracksTeam</tech>
 			<tech>HCFrontierDefenses</tech>
 			<tech>HCUnlockFort</tech>
-			<tech>HCRoyalDecreeSpanish</tech>
+			<tech>HCRoyalDecreeItalians</tech>
 		</activetechs>
 		<validunits/>
 		<units/>
@@ -1633,7 +1617,7 @@
 			<tech x="7.2" y="1.0">HCXPMayanAllies1</tech>
 			<tech x="7.2" y="3.0">HCXPMayanAllies2</tech>
 			<tech x="7.2" y="7.0">HCXPMayanAlliesRepeat</tech>
-			<tech x="3.6" y="1.0">HCXPDanceHallSp</tech>
+			<tech x="3.6" y="1.0">HCXPDanceHallIt</tech>
 			<tech x="3.6" y="6.0">HCMercenaryLoyalty</tech>
 		</obtainabletechs>
 		<activetechs/>

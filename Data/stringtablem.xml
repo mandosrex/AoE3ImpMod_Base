@@ -11969,7 +11969,7 @@
 		<String _locID="41550" symbol="cStringLANJoinButtonTT">Join Selected LAN Game.</String>
 		<String _locID="41551" symbol="cStringLANJoinIPButtonTT">Connect to specified IP address.</String>
 		<String _locID="41552" gamecharacter="Lizzie" soundfilename="LIZZ5040">Morgan Black ... get your men aboard. I will take you to Florida.</String>
-		<String _locID="41553">Ships 2 additional Explorers to your colony.</String>
+		<String _locID="41553">Ships an additional Explorer to your colony.</String>
 		<String _locID="41554">Bandeirantes</String>
 		<String _locID="41555">Now you can train Settler Wagons from Town Centers, +3 Uhlans.</String>
 		<String _locID="41556">Germantown Farmers</String>
@@ -12320,14 +12320,14 @@
 		<String _locID="41902">Riding School Shipment has arrived.</String>
 		<String _locID="41903">Spanish Riding School Shipment has arrived.</String>
 		<String _locID="41904">Robber Barons Shipment has arrived.</String>
-		<String _locID="41905">The Glorious Revolution Shipment has arrived.</String>
-		<String _locID="41906">Religious Freedom Shipment has arrived.</String>
-		<String _locID="41907">Edict of Nantes Shipment has arrived.</String>
-		<String _locID="41908">Treaty of Westphalia Shipment has arrived.</String>
-		<String _locID="41909">Palace Intrigue Shipment has arrived.</String>
+		<String _locID="41905">Royal Decree "The Glorious Revolution" Shipment has arrived.</String>
+		<String _locID="41906">Royal Decree "Religious Freedom" Shipment has arrived.</String>
+		<String _locID="41907">Royal Decree "Edict of Nantes" Shipment has arrived.</String>
+		<String _locID="41908">Royal Decree "Treaty of Westphalia" Shipment has arrived.</String>
+		<String _locID="41909">Royal Decree "Palace Intrigue" Shipment has arrived.</String>
 		<String _locID="41910">Royal Decree to Claim the New World Shipment has arrived.</String>
-		<String _locID="41911">Reformist Tsar Shipment has arrived.</String>
-		<String _locID="41912">Royal Decree to Claim the New World Shipment has arrived.</String>
+		<String _locID="41911">Royal Decree "Reformist Tsar" Shipment has arrived.</String>
+		<String _locID="41912">Royal Decree "New World Conquest" Shipment has arrived.</String>
 		<String _locID="41913">Royal Decree to Claim the New World Shipment has arrived.</String>
 		<String _locID="41914">Royal Mint Shipment has arrived.</String>
 		<String _locID="41915">Royal Mint Shipment has arrived.</String>
@@ -14774,11 +14774,11 @@
 		<String _locID="44358">9 Deer</String>
 		<String _locID="44359">Villagers gather from Farms, Mills, Plantations, and Rice Paddies faster.</String>
 		<String _locID="44360">Chinampa</String>
-		<String _locID="44361">Grain Market Shipment has arrived.</String>
+		<String _locID="44361">Chinampa Shipment has arrived.</String>
 		<String _locID="44362">Timeout</String>
 		<String _locID="44363">Villagers gather from Farms, Mills, Plantations, and Rice Paddies faster.</String>
 		<String _locID="44364">Great Chinampa</String>
-		<String _locID="44365">Grain Market Shipment has arrived.</String>
+		<String _locID="44365">Great Chinampa Shipment has arrived.</String>
 		<String _locID="44366">Ranged infantry mercenary</String>
 		<String _locID="44367">Powerful Swedish ranged infantry mercenary.</String>
 		<String _locID="44368">Fusilier</String>
@@ -17032,7 +17032,7 @@
 		<String _locID="46630" gamecharacter="Chayton" soundfilename="XCHAY9026">With two trading posts to protect, we'll have Fort Laramie's support. We can age up and train soldiers now.</String>
 		<String _locID="46631" gamecharacter="Holme" soundfilename="XHOLM9026">Yeah, but we won't be able to age up or train soldiers until we get a second trading post built. Let's move.</String>
 		<String _locID="46632">Game Rules:</String>
-		<String _locID="46633">Treaty of Tordesillas Shipment has arrived.</String>
+		<String _locID="46633">Royal Decree "Treaty of Tordesillas" Shipment has arrived.</String>
 		<String _locID="46634" symbol="cStringMPFaildToConnectToHost">An error occurred connecting to host.</String>
 		<String _locID="46635" symbol="cStringChatSortByClans">Group chat names by clan.</String>
 		<String _locID="46636" symbol="cStringChatSortByClansTT">This sorts people in clans together in the chat player list.</String>
@@ -17423,7 +17423,7 @@
 		<String _locID="47021" gamecharacter="Railroad Worker" soundfilename="XGENR9292">Save us!</String>
 		<String _locID="47022" gamecharacter="Railroad Worker" soundfilename="XGENR9293">Make a run for the town!</String>
 		<String _locID="47023" gamecharacter="Railroad Worker" soundfilename="XGENR9294">Help!</String>
-		<String _locID="47024">Sends 5 Missionaries which can now also heal faster.</String>
+		<String _locID="47024">Inquisitors can now boost the attack of nearby soldiers.</String>
 		<String _locID="47025">Unction</String>
 		<String _locID="47026">Admiralty Shipment has arrived.</String>
 		<String _locID="47027">Unction Shipment has arrived.</String>
@@ -17634,7 +17634,7 @@
 		<String _locID="47232">Cavalry Combat Shipment has arrived.</String>
 		<String _locID="47233">All infantry speed increased.</String>
 		<String _locID="47234">Wind Runner</String>
-		<String _locID="47235">Mustangs Shipment has arrived.</String>
+		<String _locID="47235">Wind Runner Shipment has arrived.</String>
 		<String _locID="47236">TEAM 8 Cheyenne Allies</String>
 		<String _locID="47237">Your War Chief's aura now also boosts your units' attack.</String>
 		<String _locID="47238">Command Skill</String>
@@ -21036,7 +21036,7 @@
 		<String _locID="61588">Improvements research instantly, and Shipments arrive very quickly.</String>
 		<String _locID="61589">Confucius' Gift</String>
 		<String _locID="61590">Great Wall Shipment has arrived.</String>
-		<String _locID="61591">Confuscious' Gift Shipment has arrived.</String>
+		<String _locID="61591">Confucious' Gift Shipment has arrived.</String>
 		<String _locID="61592">Monastery improvements are cheaper and ships a Monastery Rickshaw.</String>
 		<String _locID="61593">Holy Refuge</String>
 		<String _locID="61594">Advanced Dock</String>
@@ -22185,7 +22185,7 @@
 		<String _locID="62792">TEAM Pioneers Shipment has arrived.</String>
 		<String _locID="62793">Ships 2 Castle Wagons that can transform into Castles.</String>
 		<String _locID="62794">Expanded Frontier Defenses</String>
-		<String _locID="62795">Confuscious' Gift Shipment has arrived.</String>
+		<String _locID="62795">Confucious' Gift Shipment has arrived.</String>
 		<String _locID="62796">Trade gather improvements are free.</String>
 		<String _locID="62797">Free Trade Improvements</String>
 		<String _locID="62798">TEAM Discovery Age Market improvements are cheaper.</String>
@@ -22491,15 +22491,15 @@
 		<String _locID="63136">Confucian Attack</String>
 		<String _locID="63137">Artillery hitpoints increased.</String>
 		<String _locID="63138">Hwaseong Artillery Hitpoints</String>
-		<String _locID="63139">Confuscious' Gift Shipment has arrived.</String>
-		<String _locID="63140">Confuscious' Gift Shipment has arrived.</String>
-		<String _locID="63141">Confuscious' Gift Shipment has arrived.</String>
-		<String _locID="63142">Confuscious' Gift Shipment has arrived.</String>
+		<String _locID="63139">Confucious' Gift Shipment has arrived.</String>
+		<String _locID="63140">Confucious' Gift Shipment has arrived.</String>
+		<String _locID="63141">Confucious' Gift Shipment has arrived.</String>
+		<String _locID="63142">Confucious' Gift Shipment has arrived.</String>
 		<String _locID="63143">Villager</String>
 		<String _locID="63144">An Indian villager that does not eat livestock. Gathers all other resources.</String>
 		<String _locID="63145">Villager</String>
 		<String _locID="63146">VIL Indian Villager</String>
-		<String _locID="63147">Confuscious' Gift Shipment has arrived.</String>
+		<String _locID="63147">Confucious' Gift Shipment has arrived.</String>
 		<String _locID="63148">Hwaseong Fortress hitpoints, attack, and range increased.</String>
 		<String _locID="63149">Hwaseong Fortress Fortifications</String>
 		<String _locID="63150">Food source.</String>
@@ -22561,7 +22561,7 @@
 		<String _locID="63206" symbol="cStringChangeBuildBountyEffect">%1s: Changes Build Bounty by %2.2f%%</String>
 		<String _locID="63207" symbol="cStringAddBuildBountyEffect">%1s: Adds %2.2f to Build Bounty</String>
 		<String _locID="63208" symbol="cStringSetBuildBountyEffect">%1s: Sets Build Bounty to %2.2f</String>
-		<String _locID="63209">Confuscious' Gift Shipment has arrived.</String>
+		<String _locID="63209">Confucious' Gift Shipment has arrived.</String>
 		<String _locID="63211">All Native lore improvements at Trading Posts cost no Coin, +1 Villager.</String>
 		<String _locID="63212">Native Lore</String>
 		<String _locID="63213">You get a Shipment of Native Warriors from each different allied tribe, +1 Villager.</String>
@@ -24811,8 +24811,8 @@
 		<String _locID="65524">Honored Flail Elephant</String>
 		<String _locID="65525">Honored Zamburak</String>
 		<String _locID="65526">Honored Flailiphant</String>
-		<String _locID="65527">Confuscious' Gift Shipment has arrived.</String>
-		<String _locID="65528">Confuscious' Gift Shipment has arrived.</String>
+		<String _locID="65527">Confucious' Gift Shipment has arrived.</String>
+		<String _locID="65528">Confucious' Gift Shipment has arrived.</String>
 		<String _locID="65529">Officer of the British East India Company</String>
 		<String _locID="65530">Officer of the British East India Company.</String>
 		<String _locID="65531">British colonel</String>
@@ -25074,8 +25074,8 @@
 		<String _locID="65787">CON Gendarmes</String>
 		<String _locID="65788">Light cavalry</String>
 		<String _locID="65789">Light cavalry that sacrifices hitpoints for attack.</String>
-		<String _locID="65790">Czapaka Uhlan</String>
-		<String _locID="65791">CON Czapaka Uhlan</String>
+		<String _locID="65790">Czapka Uhlan</String>
+		<String _locID="65791">CON Czapka Uhlan</String>
 		<String _locID="65792">Hand infantry good against cavalry</String>
 		<String _locID="65793">Heavy swordsman with a sweep attack.</String>
 		<String _locID="65794">Zweihander</String>
@@ -28350,7 +28350,7 @@
 		<String _locID="69069">Chinese Imperial Navy Shipment has arrived.</String>
 		<String _locID="69070">Snatch the Pebble Shipment has arrived.</String>
 		<String _locID="69071">Kung Fu Shipment has arrived.</String>
-		<String _locID="69072">Confuscious' Gift Shipment has arrived.</String>
+		<String _locID="69072">Confucious' Gift Shipment has arrived.</String>
 		<String _locID="69073">Conscript Sepoys Shipment has arrived.</String>
 		<String _locID="69074">Howdah Discipline Shipment has arrived.</String>
 		<String _locID="69075">Enlist Gurkhas Shipment has arrived.</String>
@@ -29159,7 +29159,7 @@
 		<String _locID="69879">Expanded Monastery Shipment has arrived.</String>
 		<String _locID="69880">Expanded Monastery Shipment has arrived.</String>
 		<String _locID="69881">Commodities Market Shipment has arrived.</String>
-		<String _locID="69882">Confuscious' Gift Shipment has arrived.</String>
+		<String _locID="69882">Confucious' Gift Shipment has arrived.</String>
 		<String _locID="69883">Intervention Shipment has arrived.</String>
 		<String _locID="69884">Hostage System Shipment has arrived.</String>
 		<String _locID="69885">Dowager Empress Shipment has arrived.</String>
@@ -29538,7 +29538,7 @@
 		<String _locID="70259">Blossom Fall</String>
 		<String _locID="70260">PROP YP Blossom Fall</String>
 		<String _locID="70261" symbol="cStringchancetoevade">Chance To Evade: %.1f%%</String>
-		<String _locID="70262">Confuscious' Gift Shipment has arrived.</String>
+		<String _locID="70262">Confucious' Gift Shipment has arrived.</String>
 		<String _locID="70263">Shrines generate more Food, Wood, and Coin.</String>
 		<String _locID="70264">Tempo Reforms</String>
 		<String _locID="70265">Shrines generate even more Food, Wood, and Coin.</String>
@@ -29771,7 +29771,7 @@
 		<String _locID="70492">Siege Attack Shipment has arrived.</String>
 		<String _locID="70493" symbol="cStringHotkeyWonderGoldenPavillionSpeed">Speed Bonus</String>
 		<String _locID="70494" symbol="cStringHotkeyWonderGoldenPavillionHitpoints">Hitpoint Bonus</String>
-		<String _locID="70495">Confuscious' Gift Shipment has arrived.</String>
+		<String _locID="70495">Confucious' Gift Shipment has arrived.</String>
 		<String _locID="70496">TEAM 4 Hand Mortars</String>
 		<String _locID="70497">TEAM Hand Mortars Shipment Received.</String>
 		<String _locID="70498">TEAM 5 Hand Mortars has been received.</String>
@@ -29910,7 +29910,7 @@
 		<String _locID="77893">Imperial Tsar Cannon</String>
 		<String _locID="77894">Imperial upgrade for Tsar Cannons.</String>
 		<String _locID="77895">2 Tsar Cannons</String>
-		<String _locID="77896">Declaration of Independence Shipment has arrived.</String>
+		<String _locID="77896">Continental Decree "Declaration of Independence" Shipment has arrived.</String>
 		<String _locID="77897">Declaration of Independence</String>
 		<String _locID="77898">Provides your Church with unique American improvements. Also moves the Capitol to the Enlightenment Age.</String>
 		<String _locID="77899">American infantry hitpoints increased, but march more slowly.</String>
@@ -30318,7 +30318,7 @@
 		<String _locID="780910">American Brigade</String>
 		<String _locID="780911">Ships a large number of Gatling Guns and Patriot Militia.</String>
 		<String _locID="780912">Inquisition</String>
-		<String _locID="780913">A Missionary gathers at every Town Center.</String>
+		<String _locID="780913">A Inquisitor gathers at every Town Center.</String>
 		<String _locID="780914">Papal Decree</String>
 		<String _locID="780915">Hire Elmeti Mercenaries</String>
 		<String _locID="780916">An army of Swiss Pikemen Guards.\n4 Swiss Guards: elite mercenary armed with a pike. Good against cavalry.</String>
@@ -30576,5 +30576,25 @@
 		<String _locID="781169">Warden</String>
 		<String _locID="781170">Boneguard of the Circle of Ossus.</String>
 		<String _locID="781171">Mercato Centrale</String>
+		<String _locID="781172">Upgrades Command Posts to Command Centers which can train Elmeti, have increased attack and hitpoints and outlaw-type units cost less population.</String>
+		<String _locID="781173">Sacred Congregation</String>
+		<String _locID="781174">Papal Brigade</String>
+		<String _locID="781175">Ships a large number of Repentant Elmeti.</String>
+		<String _locID="781176">An army of Repentant Swiss Guards.\n4 Swiss Guards: elite mercenary armed with a pike, good against cavalry.</String>
+		<String _locID="781177">An army of Repentant Landsknecht.\n5 Landsknecht: flamboyant heavy infantry mercenary.</String>
+		<String _locID="781178">An army of Repentant Black Riders.\n10 Black Riders: heavily armed mercenary cavalry.</String>
+		<String _locID="781179">Provides your Church with unique Italian improvements. Also moves the Capitol to the Enlightenment Age.</String>
+		<String _locID="781180">New World Conquest</String>
+		<String _locID="781181">Royal Decree "Sacred Congregation" Shipment has arrived.</String>
+		<String _locID="781182">Sacraments</String>
+		<String _locID="781183">Venetian Gothic</String>
+		<String _locID="781184">Architects build much faster and can now also build Town Centers and Trading Posts.</String>
+		<String _locID="781185">Royal Training</String>
+		<String _locID="781186">Fame armies cost less but train slower.</String>
+		<String _locID="781187">Entrepreneur</String>
+		<String _locID="781188">Improves your Italian Explorer in combat and gives him a powerful canine companion.</String>
+		<String _locID="781189">Entrepreneur Shipment has arrived.</String>
+		<String _locID="781190">Colonel Shipment has arrived.</String>
+		<String _locID="781191">Pilgrims are faster.</String>
 	</Language>
 </StringTable>
