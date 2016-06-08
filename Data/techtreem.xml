@@ -1200,6 +1200,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Church</Target>
+			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">WingedK</Target>
 			</Effect>
@@ -1945,12 +1948,12 @@
 			<Effect type="Data" amount="85.00" subtype="Cost" resource="Fame" relativity="Absolute">
 				<Target type="ProtoUnit">MercHackapell</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">VeteranCavalryArchersShadow</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">CavalryArcher</Target>
+				<Target type="ProtoUnit">Dragoon</Target>
 			</Effect>
-			<Effect type="TechStatus" status="obtainable">GuardCavalryArchers</Effect>
-			<Effect type="TechStatus" status="obtainable">ImperialCavalryArchers</Effect>
+			<Effect type="TechStatus" status="obtainable">GuardDragoons</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialDragoons</Effect>
+			<Effect type="TechStatus" status="obtainable">VeteranDragoonsShadow</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">GoldMiner</Target>
 			</Effect>
@@ -3870,7 +3873,6 @@
 			<Effect type="TechStatus" status="active">Flintlock</Effect>
 			<Effect type="TechStatus" status="active">Pillage</Effect>
 			<Effect type="TechStatus" status="active">FactoryMassProduction</Effect>
-			<Effect type="TechStatus" status="active">GuardCavalryArchers</Effect>
 			<Effect type="TechStatus" status="active">RGTercio</Effect>
 			<Effect type="TechStatus" status="active">RGEspadachins</Effect>
 			<Effect type="TechStatus" status="active">GuardMusketeers</Effect>
@@ -3882,6 +3884,7 @@
 			<Effect type="TechStatus" status="active">HeavyHorseArtillery</Effect>
 			<Effect type="TechStatus" status="active">GuardPikemen</Effect>
 			<Effect type="TechStatus" status="active">GuardCrossbowmen</Effect>
+			<Effect type="TechStatus" status="active">GuardDragoons</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostIndustrialGerman" type="Normal">
@@ -4431,7 +4434,6 @@
 			<Effect type="TechStatus" status="active">ImpKnighthood</Effect>
 			<Effect type="TechStatus" status="active">ImpPeerage</Effect>
 			<Effect type="TechStatus" status="active">ImpExcessiveTaxation</Effect>
-			<Effect type="TechStatus" status="active">ImperialCavalryArchers</Effect>
 			<Effect type="TechStatus" status="active">ImperialSkirmishers</Effect>
 			<Effect type="TechStatus" status="active">ImperialEspada</Effect>
 			<Effect type="TechStatus" status="active">ImperialTercio</Effect>
@@ -4448,6 +4450,7 @@
 			<Effect type="TechStatus" status="active">ImperialHorseArtillery</Effect>
 			<Effect type="TechStatus" status="active">ImperialPikemen</Effect>
 			<Effect type="TechStatus" status="active">ImperialCrossbowmen</Effect>
+			<Effect type="TechStatus" status="active">ImperialDragoons</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="SPCLizzieShipNoGarrison" type="Normal">
@@ -11012,6 +11015,9 @@
 				<Target type="ProtoUnit">Cacadore</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="Absolute">
+				<Target type="ProtoUnit">SharpshooterS</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="Absolute">
 				<Target type="ProtoUnit">NatRifleman</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="Absolute">
@@ -11405,7 +11411,7 @@
 		<DBID>161</DBID>
 		<DisplayNameID>36107</DisplayNameID>
 		<Cost resourcetype="Food">400.0000</Cost>
-		<Cost resourcetype="Gold">400.0000</Cost>
+		<Cost resourcetype="Gold">200.0000</Cost>
 		<ResearchPoints>5.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\conscription\conscription</Icon>
@@ -11939,7 +11945,7 @@
 	<Tech name="ChurchWesternization" type="Normal">
 		<DBID>224</DBID>
 		<DisplayNameID>23678</DisplayNameID>
-		<Cost resourcetype="Wood">1500.0000</Cost>
+		<Cost resourcetype="Wood">500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\westernization\westernization_64x64</Icon>
@@ -11955,18 +11961,18 @@
 				<Target type="ProtoUnit">Musketeer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
-				<Target type="ProtoUnit">Strelet</Target>
-			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Strelet</Target>
-			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Halberdier</Target>
-			</Effect>
-			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Musketeer</Target>
 			</Effect>
 			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Strelet</Target>
+			</Effect>
+			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Strelet</Target>
+			</Effect>
+			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Halberdier</Target>
+			</Effect>
+			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Halberdier</Target>
 			</Effect>
 			<Effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
@@ -11974,6 +11980,15 @@
 			</Effect>
 			<Effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Pikeman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="TrainPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Musketeer</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="TrainPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Pikeman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="TrainPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Halberdier</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -19156,7 +19171,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_cavalry_damage\hc_cavalry_damage</Icon>
+		<Icon>ui\techs\hc_hand_cavalry_damage\hc_hand_cavalry_damage</Icon>
 		<RolloverTextID>35130</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -19506,7 +19521,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_cavalry_combat\hc_cavalry_combat</Icon>
+		<Icon>ui\techs\hc_hand_cavalry_combat\hc_hand_cavalry_combat</Icon>
 		<RolloverTextID>35160</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -21650,7 +21665,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
-				<Target type="ProtoUnit">Crossbowman</Target>
+				<Target type="ProtoUnit">Flatbowman</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Skirmisher</Target>
@@ -21672,6 +21687,9 @@
 			<Effect type="TextOutput">36358</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractGunpowderTrooper</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractArcher</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -23078,6 +23096,12 @@
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Janissary</Target>
 			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Azap</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Azap</Target>
+			</Effect>
 			<Effect type="TextOutput">41866</Effect>
 		</Effects>
 	</Tech>
@@ -24061,6 +24085,9 @@
 			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
 			</Effect>
+			<Effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
+				<Target type="ProtoUnit">ypBankAsian</Target>
+			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
@@ -24079,6 +24106,9 @@
 		<Effects>
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
+			</Effect>
+			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">ypBankAsian</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="BankWagon" relativity="Absolute">
 				<Target type="Player"/>
@@ -24365,28 +24395,28 @@
 		<Flag>TeamTech</Flag>
 		<Effects>
 			<Effect type="TextOutput">36349</Effect>
-			<Effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractInfantry</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">xpSkullKnight</Target>
 			</Effect>
-			<Effect type="Data" amount="0.88" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypBlackFlagArmy</Target>
 			</Effect>
-			<Effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypOldHanArmy</Target>
 			</Effect>
-			<Effect type="Data" amount="0.88" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypStandardArmy</Target>
 			</Effect>
-			<Effect type="Data" amount="0.88" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypMingArmy</Target>
 			</Effect>
-			<Effect type="Data" amount="0.88" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypImperialArmy</Target>
 			</Effect>
-			<Effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypTerritorialArmy</Target>
 			</Effect>
 		</Effects>
@@ -24431,6 +24461,9 @@
 			</Effect>
 			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Assign">
 				<Target type="ProtoUnit">RiflemanUS</Target>
+			</Effect>
+			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Assign">
+				<Target type="ProtoUnit">SharpshooterS</Target>
 			</Effect>
 			<Effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Assign">
 				<Target type="ProtoUnit">ypNatMercGurkha</Target>
@@ -27424,12 +27457,18 @@
 		<RolloverTextID>37299</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="0.80" subtype="Cost" resource="Food" relativity="BasePercent">
+			<Effect type="Data" amount="0.85" subtype="Cost" resource="Food" relativity="BasePercent">
 				<Target type="ProtoUnit">Janissary</Target>
 			</Effect>
 			<Effect type="TextOutput">41867</Effect>
-			<Effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="BasePercent">
+			<Effect type="Data" amount="0.85" subtype="Cost" resource="Gold" relativity="BasePercent">
 				<Target type="ProtoUnit">Janissary</Target>
+			</Effect>
+			<Effect type="Data" amount="0.85" subtype="Cost" resource="Food" relativity="BasePercent">
+				<Target type="ProtoUnit">Azap</Target>
+			</Effect>
+			<Effect type="Data" amount="0.85" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">Azap</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -27556,6 +27595,9 @@
 		<Effects>
 			<Effect type="Data" action="AutoGather" amount="1.25" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
 				<Target type="ProtoUnit">Bank</Target>
+			</Effect>
+			<Effect type="Data" action="AutoGather" amount="1.25" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<Target type="ProtoUnit">ypBankAsian</Target>
 			</Effect>
 			<Effect type="TextOutput">41802</Effect>
 		</Effects>
@@ -28055,7 +28097,7 @@
 		<RolloverTextID>37518</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+			<Effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractCavalry</Target>
 			</Effect>
 			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
@@ -36458,25 +36500,25 @@
 		<Flag>YPNativeImprovement</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.70" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">AbstractCavalry</Target>
 			</Effect>
 			<Effect type="Data" amount="1.40" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">xpDogSoldier</Target>
 			</Effect>
-			<Effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.70" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypForbiddenArmy</Target>
 			</Effect>
-			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypStandardArmy</Target>
 			</Effect>
-			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypMongolianArmy</Target>
 			</Effect>
-			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypMingArmy</Target>
 			</Effect>
-			<Effect type="Data" amount="0.80" subtype="TrainPoints" relativity="BasePercent">
+			<Effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
 				<Target type="ProtoUnit">ypImperialArmy</Target>
 			</Effect>
 		</Effects>
@@ -58058,7 +58100,7 @@
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">ypImperialMonitors</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">USRiflemenRegiment</Target>
+				<Target type="ProtoUnit">USGatlingGuns</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">USSaberSquad</Target>
@@ -58110,7 +58152,7 @@
 		<Effects>
 			<Effect type="TechStatus" status="unobtainable">ypConsulateUSABrigade</Effect>
 			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">USRiflemenRegiment</Target>
+				<Target type="ProtoUnit">USGatlingGuns</Target>
 			</Effect>
 			<Effect type="Data" amount="-1.00" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">USSaberSquad</Target>
@@ -63999,7 +64041,7 @@
 		<Cost resourcetype="Trade">2600.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\Units\gatling_gun_icon</Icon>
+		<Icon>ui\armies\american_militia_guns</Icon>
 		<RolloverTextID>780911</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -64013,7 +64055,7 @@
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGunJ" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia2" relativity="Absolute">
+			<Effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="MarineJ" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerUS" relativity="Absolute">
@@ -64090,12 +64132,12 @@
 	</Tech>
 	<Tech name="ConsulateRomanMercs" type="Normal">
 		<DBID>733157</DBID>
-		<DisplayNameID>24635</DisplayNameID>
+		<DisplayNameID>781199</DisplayNameID>
 		<Cost resourcetype="Trade">2600.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_hire_holy_roman_merc_army\hc_hire_holy_roman_merc_army</Icon>
-		<RolloverTextID>780919</RolloverTextID>
+		<Icon>ui\armies\italian_elmetis</Icon>
+		<RolloverTextID>781175</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
@@ -64105,13 +64147,7 @@
 			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="ypRepentantJaeger" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="ypRepentantBlackRider" relativity="Absolute">
-				<Target type="Player"/>
-			</Effect>
-			<Effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="ypRepentantLandsknecht" relativity="Absolute">
+			<Effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="ypRepentantElmeti" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerIt" relativity="Absolute">
@@ -64284,10 +64320,16 @@
 			<Effect tech="Age0USA" type="Data" amount="6.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="xpGatlingGun" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect tech="Age0USA" type="Data" amount="16.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="USColonialMilitia" relativity="Absolute">
+			<Effect tech="Age0USA" type="Data" amount="14.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="MarineJ" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect tech="Age0USA" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="FlagBearerUS" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="Age0Italians" type="Data" amount="14.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="ypRepentantElmeti" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect tech="Age0Italians" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="FlagBearerIt" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -64523,11 +64565,11 @@
 	</Tech>
 	<Tech name="ypConsulateUSABrigadeFame" type="Normal">
 		<DBID>733169</DBID>
-		<DisplayNameID>780910</DisplayNameID>
+		<DisplayNameID>781216</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\Units\gatling_gun_icon</Icon>
+		<Icon>ui\armies\american_militia_guns</Icon>
 		<RolloverTextID>780911</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -64542,7 +64584,7 @@
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="USGatlingGun" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia" relativity="Absolute">
+			<Effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="Marine" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerUS" relativity="Absolute">
@@ -64640,7 +64682,7 @@
 		<Cost resourcetype="Trade">2600.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\spc\general_icon</Icon>
+		<Icon>ui\armies\swedish_horse_sakers</Icon>
 		<RolloverTextID>780988</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -64651,10 +64693,10 @@
 			<TechStatus status="Active">Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Brig" relativity="Absolute">
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="ypConsulateHorseArtillery" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
-			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia2" relativity="Absolute">
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="SakerC" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="GeneralBr" relativity="Absolute">
@@ -64721,13 +64763,13 @@
 				<Target type="ProtoUnit">BlackPowderWagon</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmyBritish1US</Target>
+				<Target type="ProtoUnit">USGatlingGuns2</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmyFrench3US</Target>
+				<Target type="ProtoUnit">USSaberSquad2</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">ypConsulateArmyDutch2US</Target>
+				<Target type="ProtoUnit">USColonialMarines2</Target>
 			</Effect>
 			<Effect type="Data" amount="150.00" subtype="Resource" resource="Fame" relativity="Absolute">
 				<Target type="Player"/>
@@ -68210,7 +68252,7 @@
 		<Icon>units\artillery\saker\icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Saker" relativity="Absolute">
+			<Effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Saker" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -68877,16 +68919,16 @@
 			<TechStatus status="Active">Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
 				<Target type="ProtoUnit">Mercenary</Target>
 			</Effect>
-			<Effect type="Data" amount="1.30" subtype="Cost" resource="Gold" relativity="BasePercent">
+			<Effect type="Data" amount="1.25" subtype="Cost" resource="Gold" relativity="BasePercent">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
-			<Effect type="Data" amount="1.30" subtype="Cost" resource="Wood" relativity="BasePercent">
+			<Effect type="Data" amount="1.15" subtype="Cost" resource="Wood" relativity="BasePercent">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
-			<Effect type="Data" amount="1.30" subtype="Cost" resource="Food" relativity="BasePercent">
+			<Effect type="Data" amount="1.15" subtype="Cost" resource="Food" relativity="BasePercent">
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
 		</Effects>
@@ -70459,7 +70501,7 @@
 			<TechStatus status="Active">ConSupport</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="USColonialMilitia2" relativity="Absolute">
+			<Effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="MarineJ" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="xpGatlingGunJ" relativity="Absolute">
@@ -70952,7 +70994,7 @@
 		<Cost resourcetype="Ships">1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\hc_artillary_damage_team</Icon>
+		<Icon>ui\team_artillery_damage</Icon>
 		<RolloverTextID>36038</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
@@ -70968,6 +71010,15 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Saker</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">VeteranSaker</Effect>
+			<Effect type="TechStatus" status="obtainable">GuardSaker</Effect>
+			<Effect type="TechStatus" status="obtainable">ImperialSaker</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">SPCFortCenter</Target>
+			</Effect>
 			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
 				<Target type="ProtoUnit">MercElmeti</Target>
 			</Effect>
@@ -71508,6 +71559,8 @@
 			<Effect type="TechStatus" status="active">HeavyHorseArtillery</Effect>
 			<Effect type="TechStatus" status="active">GuardPikemen</Effect>
 			<Effect type="TechStatus" status="active">GuardCrossbowmen</Effect>
+			<Effect type="TechStatus" status="active">VeteranSaker</Effect>
+			<Effect type="TechStatus" status="active">GuardSaker</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PostImperialItalians" type="Normal">
@@ -71538,6 +71591,7 @@
 			<Effect type="TechStatus" status="active">ImperialPikemen</Effect>
 			<Effect type="TechStatus" status="active">ImperialCrossbowmen</Effect>
 			<Effect type="TechStatus" status="active">ImperialMountedCrossbowman</Effect>
+			<Effect type="TechStatus" status="active">ImperialSaker</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ColonializeItalians" type="Normal">
@@ -71589,11 +71643,11 @@
 	</Tech>
 	<Tech name="ypConsulateItaliansBrigadeFame" type="Normal">
 		<DBID>733442</DBID>
-		<DisplayNameID>781174</DisplayNameID>
+		<DisplayNameID>781223</DisplayNameID>
 		<Cost resourcetype="Fame">1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\papalguard</Icon>
+		<Icon>ui\armies\italian_elmetis</Icon>
 		<RolloverTextID>781175</RolloverTextID>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
@@ -71606,6 +71660,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="ypRepentantElmeti" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerIt" relativity="Absolute">
 				<Target type="Player"/>
 			</Effect>
 		</Effects>
@@ -71630,7 +71687,7 @@
 	<Tech name="VenetianGothic" type="Normal">
 		<DBID>733444</DBID>
 		<DisplayNameID>781183</DisplayNameID>
-		<Cost resourcetype="Gold">200.0000</Cost>
+		<Cost resourcetype="Gold">250.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\architecture</Icon>
@@ -71642,7 +71699,10 @@
 			<TechStatus status="Active">Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" action="Build" amount="2.00" subtype="WorkRate" unittype="Building" relativity="BasePercent">
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Architect</Target>
+			</Effect>
+			<Effect type="Data" action="Build" amount="4.00" subtype="WorkRate" unittype="Building" relativity="BasePercent">
 				<Target type="ProtoUnit">Architect</Target>
 			</Effect>
 			<Effect type="Data" amount="1.00" subtype="AddTrain" unittype="TownCenter" relativity="Absolute">
@@ -71678,7 +71738,7 @@
 	<Tech name="SacredDecree" type="Normal">
 		<DBID>733446</DBID>
 		<DisplayNameID>781182</DisplayNameID>
-		<Cost resourcetype="Gold">200.0000</Cost>
+		<Cost resourcetype="Wood">200.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\sacred</Icon>
@@ -71687,11 +71747,17 @@
 		<Flag>UniqueTech</Flag>
 		<Prereqs>
 			<TechStatus status="Active">HCRoyalDecreeItalians</TechStatus>
-			<TechStatus status="Active">Fortressize</TechStatus>
+			<TechStatus status="Active">Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" action="Heal" amount="14.00" subtype="MaximumRange" relativity="Assign">
+				<Target type="ProtoUnit">Inquisitor</Target>
+			</Effect>
 			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
 				<Target type="ProtoUnit">Pilgrim</Target>
+			</Effect>
+			<Effect type="Data" action="SpawnMissionary" amount="1.00" subtype="ActionAdd" unittype="TownCenter" relativity="Absolute">
+				<Target type="Player"/>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -71714,7 +71780,371 @@
 			<Effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
 				<Target type="ProtoUnit">Hero</Target>
 			</Effect>
+			<Effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+				<Target type="ProtoUnit">Explorer</Target>
+			</Effect>
 			<Effect type="TextOutput">781189</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PaviseShield" type="Normal">
+		<DBID>733448</DBID>
+		<DisplayNameID>781192</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\pavise</Icon>
+		<RolloverTextID>781193</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.35" subtype="Armor" relativity="BasePercent">
+				<Target type="ProtoUnit">Crossbowman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35" subtype="Armor" relativity="BasePercent">
+				<Target type="ProtoUnit">Crossbowman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">MountedCrossbowman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">MountedCrossbowman</Target>
+			</Effect>
+			<Effect type="TextOutput">781195</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="MoreDogs" type="Normal">
+		<DBID>733449</DBID>
+		<DisplayNameID>781205</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\wardogs\war_dog_icon_64x64</Icon>
+		<RolloverTextID>781204</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ExplorerDog" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Wardog</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ExplorerDog</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="TeamOutpost" type="Normal">
+		<DBID>733450</DBID>
+		<DisplayNameID>781206</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\teamoutpost</Icon>
+		<RolloverTextID>781207</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Effects>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Blockhouse</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Outpost</Target>
+			</Effect>
+			<Effect type="TextOutput">781208</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">WarHut</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypCastle</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Lookout</Target>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">ypOutpostAsian</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="CheaperAgeUp" type="Normal">
+		<DBID>733451</DBID>
+		<DisplayNameID>781227</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\team_cheap_ageups</Icon>
+		<RolloverTextID>781228</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Effects>
+			<Effect type="TextOutput">781229</Effect>
+			<Effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="Percent">
+				<Target type="techWithFlag">AgeUpgrade</Target>
+			</Effect>
+			<Effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+				<Target type="techWithFlag">AgeUpgrade</Target>
+			</Effect>
+			<Effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="Percent">
+				<Target type="ProtoUnit">AbstractWonder</Target>
+			</Effect>
+			<Effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+				<Target type="ProtoUnit">AbstractWonder</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="TeamPilgrims" type="Normal">
+		<DBID>733452</DBID>
+		<DisplayNameID>781230</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\villager\team_pilgrim</Icon>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Effects>
+			<Effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Pilgrim" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCXPMercsElmetiInf" type="Normal">
+		<DBID>733453</DBID>
+		<DisplayNameID>781232</DisplayNameID>
+		<Cost resourcetype="Gold">1200.0000</Cost>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\elmeti_inf</Icon>
+		<RolloverTextID>781231</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="MercElmeti" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipCrossbowInf" type="Normal">
+		<DBID>733454</DBID>
+		<DisplayNameID>781233</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\crossbow_inf</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="MountedCrossbowman" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ArtilleryCombat" type="Normal">
+		<DBID>733455</DBID>
+		<DisplayNameID>781234</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\team_artillery_combat</Icon>
+		<RolloverTextID>781235</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractArtillery</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractArtillery</Target>
+			</Effect>
+			<Effect type="TextOutput">781236</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ArchaicInfantryAttack" type="Normal">
+		<DBID>733456</DBID>
+		<DisplayNameID>781238</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\hc_team_hand_infantry_damage</Icon>
+		<RolloverTextID>781239</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractHandInfantry</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractArcher</Target>
+			</Effect>
+			<Effect type="TextOutput">781240</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ArchaicInfantryHitpoints" type="Normal">
+		<DBID>733456</DBID>
+		<DisplayNameID>781243</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_hand_infantry_hitpoints\hc_hand_infantry_hitpoints</Icon>
+		<RolloverTextID>781244</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractHandInfantry</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractArcher</Target>
+			</Effect>
+			<Effect type="TextOutput">781245</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ArchaicInfantryCombat" type="Normal">
+		<DBID>733456</DBID>
+		<DisplayNameID>781246</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\hc_hand_infantry_combat</Icon>
+		<RolloverTextID>781247</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractHandInfantry</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractArcher</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractHandInfantry</Target>
+			</Effect>
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractArcher</Target>
+			</Effect>
+			<Effect type="TextOutput">781248</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipPikemenIt" type="Normal">
+		<DBID>733457</DBID>
+		<DisplayNameID>781242</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry\pikeman\pikeman_buckets_icon</Icon>
+		<RolloverTextID>781241</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="25.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+			<Effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FlagBearerIt" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipSaker2" type="Normal">
+		<DBID>733458</DBID>
+		<DisplayNameID>781249</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\artillery\saker\icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="Saker" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCShipSaker3" type="Normal">
+		<DBID>733459</DBID>
+		<DisplayNameID>781250</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\artillery\saker\icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Saker" relativity="Absolute">
+				<Target type="Player"/>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCHandCavalryCombatIt" type="Normal">
+		<DBID>733460</DBID>
+		<DisplayNameID>35225</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_cavalry_combat\hc_cavalry_combat</Icon>
+		<RolloverTextID>35224</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractHandCavalry</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">AbstractHandCavalry</Target>
+			</Effect>
+			<Effect type="TextOutput">41805</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCHandCavalryHitpointsIt" type="Normal">
+		<DBID>733461</DBID>
+		<DisplayNameID>35320</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_cavalry_hitpoints\hc_cavalry_hitpoints</Icon>
+		<RolloverTextID>35122</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">Hussar</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<Target type="ProtoUnit">MountedCrossbowman</Target>
+			</Effect>
+			<Effect type="TextOutput">781251</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="HCHandCavalryDamageIt" type="Normal">
+		<DBID>733462</DBID>
+		<DisplayNameID>35322</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_cavalry_damage\hc_cavalry_damage</Icon>
+		<RolloverTextID>781252</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">MountedCrossbowman</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+				<Target type="ProtoUnit">Hussar</Target>
+			</Effect>
+			<Effect type="TextOutput">41813</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="MarineRange" type="Normal">
+		<DBID>733463</DBID>
+		<DisplayNameID>23680</DisplayNameID>
+		<Cost resourcetype="Ships">1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\petrine_reforms\petrine_reform_64x64</Icon>
+		<RolloverTextID>781253</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">Marine</Target>
+			</Effect>
+			<Effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">Marine</Target>
+			</Effect>
+			<Effect type="Data" action="VolleyRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<Target type="ProtoUnit">Marine</Target>
+			</Effect>
+			<Effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+				<Target type="ProtoUnit">Marine</Target>
+			</Effect>
+			<Effect type="TextOutput">781254</Effect>
 		</Effects>
 	</Tech>
 </TechTree>

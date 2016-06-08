@@ -1802,7 +1802,7 @@
 		<String _locID="23843">Corselet</String>
 		<String _locID="23845">Lancer attack and hitpoints greatly increased.</String>
 		<String _locID="23846">Garrochistas</String>
-		<String _locID="23848">Ships an army of 14 Espadachins and Tercio from the homeland.</String>
+		<String _locID="23848">Ships an army of 16 Espadachins and Tercio from the homeland.</String>
 		<String _locID="23849">Quatrefage</String>
 		<String _locID="23857">Rodelero attack and hitpoints increased.</String>
 		<String _locID="23858">Veteran Rodeleros</String>
@@ -2003,7 +2003,7 @@
 		<String _locID="24819">Flamboyant German heavy infantry mercenary.</String>
 		<String _locID="24820">Landsknecht</String>
 		<String _locID="24823">Elite Swiss mercenary armed with a pike. Good against cavalry.</String>
-		<String _locID="24824">Swiss Guard</String>
+		<String _locID="24824">Reislaufer</String>
 		<String _locID="24829" symbol="cStringUIStateCreateRiver">Left-click to place river waypoints. Right-click to remove waypoints. ESC to cancel.</String>
 		<String _locID="24832">Wood Wall</String>
 		<String _locID="24833">PROP Wood Wall</String>
@@ -4327,7 +4327,7 @@
 		<String _locID="31512" symbol="cStringSpiesYou">Your spies have been sent out to watch enemy positions.</String>
 		<String _locID="31513" symbol="cStringSpiesEnemy">%s has infiltrated your ranks with spies and now knows all that you do.</String>
 		<String _locID="31514" symbol="cStringSpiesTeammate">%s has sent out spies.</String>
-		<String _locID="31518" symbol="cStringExplorerKnockoutTooltipText">Every moment I live... is agony.</String>
+		<String _locID="31518" symbol="cStringExplorerKnockoutTooltipText">Unconscious, approach to revive.</String>
 		<String _locID="31522">Explorer attack and hitpoints are greatly increased.</String>
 		<String _locID="31523">Knighthood</String>
 		<String _locID="31527">Allows you to support 100 population without the need for Houses or Town Centers (maximum population is not increased).</String>
@@ -4358,7 +4358,7 @@
 		<String _locID="31655">Move Down</String>
 		<String _locID="31656">Initially Visible</String>
 		<String _locID="31657">Is Primary Objective</String>
-		<String _locID="31658">Ships an army of Highland mercenaries: Highlanders, Swiss Pikemen and Hackapells.</String>
+		<String _locID="31658">Ships an army of Highland mercenaries: Highlanders, Reislaufer and Hackapells.</String>
 		<String _locID="31659">Hire Highland Mercenary Army</String>
 		<String _locID="31660">Mercenaries are elite troops that can be sent from the Home City for a Coin cost. Once a group of Mercenaries is hired, by any player in the game, those Mercenaries are unavailable for the rest of the game.</String>
 		<String _locID="31662">Ships a number of Mediterranean mercenaries: Stradiots, Mamelukes and Corsairs.</String>
@@ -5717,7 +5717,7 @@
 		<String _locID="34258" gamecharacter="Lizzie" soundfilename="LIZZ0041" portraitfilename="units\spc\elizabeth_ramsey\elizabeth_ramsey_igc_icon">He's been using you.</String>
 		<String _locID="34259" symbol="cStringESOOptionsButtonTT">View/Modify Options.</String>
 		<String _locID="34260" symbol="cStringESOOptionsButton">Options</String>
-		<String _locID="34264" symbol="cStringExplorerDogKnockoutTooltipText">Horatio, I am dead; thou livest; report me and my cause aright to the unsatisfied.</String>
+		<String _locID="34264" symbol="cStringExplorerDogKnockoutTooltipText">Unconscious, approach to revive.</String>
 		<String _locID="34265">Town Centers cannot be placed near enemy colonies or Trading Posts.</String>
 		<String _locID="34266">The Noble Explorers</String>
 		<String _locID="34267">The Evil Enemy</String>
@@ -5842,7 +5842,7 @@
 		<String _locID="34562">Native warrior hitpoints increased.</String>
 		<String _locID="34563">Indian Friendship</String>
 		<String _locID="34564">Map Objective Icon</String>
-		<String _locID="34566">All Mercenaries gain custom weapons. Mercenary attack increased. But, all your buildings now cost significantly more to construct.</String>
+		<String _locID="34566">Mercenary attack increased, but all your buildings now cost more to construct.</String>
 		<String _locID="34567">Customized Merc Weapons</String>
 		<String _locID="34569" gamecharacter="Kanyenke" soundfilename="KANY5038">Now we must lead the great white buffalo to the Lakota village near where we first arrived.</String>
 		<String _locID="34572">Imperial upgrade for Basilisk Cannon.</String>
@@ -6500,7 +6500,7 @@
 		<String _locID="35761">Siege</String>
 		<String _locID="35762">24 Pikemen</String>
 		<String _locID="35763">10 Crossbowmen</String>
-		<String _locID="35764">Crossbowman and Skirmisher hitpoints increased.</String>
+		<String _locID="35764">Flatbowman and Skirmisher hitpoints increased.</String>
 		<String _locID="35765">Long-range Infantry Hitpoints</String>
 		<String _locID="35766">TEAM Ranged gunpowder infantry attack increased.</String>
 		<String _locID="35767">TEAM Ranged Infantry Attack</String>
@@ -6703,7 +6703,7 @@
 		<String _locID="36021">Cycle the Mini Map from showing all units, to just military units, to just economic units.</String>
 		<String _locID="36022">Mini Map Economy Filter</String>
 		<String _locID="36023">Mini Map Military Filter</String>
-		<String _locID="36024">Janissary attack and hitpoints increased.</String>
+		<String _locID="36024">Janissary and Azap attack and hitpoints increased.</String>
 		<String _locID="36025">Janissary Combat</String>
 		<String _locID="36026">TEAM All cavalry hitpoints increased.</String>
 		<String _locID="36027">TEAM Cavalry Hitpoints</String>
@@ -6945,7 +6945,7 @@
 		<String _locID="36333">SPC Native Boy</String>
 		<String _locID="36334">TEAM Dragoons can be trained in the Colonial Age. (Also works on Ruyters, Rangers, Cavalry Archers, Rifle Riders, Musket Riders, and Yabusame. For Indian and Chinese allies, it makes Zamburak and the Ming Army train slightly faster.)</String>
 		<String _locID="36335">TEAM Early Dragoons</String>
-		<String _locID="36337">TEAM allows Dragoons in Colonial Age.</String>
+		<String _locID="36337">TEAM Allows Dragoons in Colonial Age.</String>
 		<String _locID="36338">TEAM The Wood cost for Docks and Dock improvements is lower.</String>
 		<String _locID="36339">TEAM Cheap Docks</String>
 		<String _locID="36341">TEAM Docks cheaper.</String>
@@ -6954,14 +6954,14 @@
 		<String _locID="36345">TEAM Priests, Missionaries and Imams cheaper and train faster.</String>
 		<String _locID="36346">TEAM All infantry train faster.</String>
 		<String _locID="36347">TEAM Dueling School</String>
-		<String _locID="36349">TEAM infantry train faster.</String>
+		<String _locID="36349">TEAM Infantry train faster.</String>
 		<String _locID="36350">TEAM Warships are cheaper.</String>
 		<String _locID="36351">TEAM Cold Water Port</String>
 		<String _locID="36353">TEAM Warships cheaper.</String>
 		<String _locID="36354">TEAM Skirmishers, Gurkhas, Riflemen, Wakina Rifles, Forest Prowlers, and the Black Flag Army can be trained in the Colonial Age. (Strelets, Longbowmen, Macehualtins, and Yumi Archers train slightly faster.)</String>
 		<String _locID="36355">TEAM Early Skirmishers</String>
-		<String _locID="36357">TEAM allows Skirmishers in Colonial Age.</String>
-		<String _locID="36358">TEAM ranged infantry damage increased.</String>
+		<String _locID="36357">TEAM Allows Skirmishers in Colonial Age.</String>
+		<String _locID="36358">TEAM Ranged infantry damage increased.</String>
 		<String _locID="36359">TEAM Churches, Mosques, and Field Hospitals are much cheaper and their non-advanced improvements are also cheaper. Monastaries are somewhat cheaper and Native Fire Pits become free.</String>
 		<String _locID="36360">TEAM Cheap Church</String>
 		<String _locID="36361">TEAM Churches and Mosques are cheaper and build faster.</String>
@@ -6980,8 +6980,8 @@
 		<String _locID="36377">TEAM Town Center attack and hitpoints increased.</String>
 		<String _locID="36378">TEAM Teutonic Town Center</String>
 		<String _locID="36379">TEAM Town Centers have more hitpoints and attack.</String>
-		<String _locID="36380">TEAM: 1 Hot Air Balloon</String>
-		<String _locID="36381">TEAM: Germans send all allies a Hot Air Balloon.</String>
+		<String _locID="36380">TEAM 1 Hot Air Balloon</String>
+		<String _locID="36381">TEAM Germans send all allies a Hot Air Balloon.</String>
 		<String _locID="36382">TEAM Cavalry hitpoints increased 10%.</String>
 		<String _locID="36383">TEAM Chests of 600 Coin</String>
 		<String _locID="36385">Wood source</String>
@@ -7266,8 +7266,8 @@
 		<String _locID="36705">Hire Hessian Jaegers</String>
 		<String _locID="36707">Ships a number of Balkan Stradiot mercenaries.</String>
 		<String _locID="36708">Hire Balkan Stradiots</String>
-		<String _locID="36710">Ships a number of Swiss Guards mercenaries.</String>
-		<String _locID="36711">Hire Swiss Guards</String>
+		<String _locID="36710">Ships a number of Reislaufer mercenaries.</String>
+		<String _locID="36711">Hire Swiss Reislaufer</String>
 		<String _locID="36712">Ships a number of Ronin Samurai mercenaries.</String>
 		<String _locID="36713">Passage to Nippon</String>
 		<String _locID="36714">Ships a number of German Black Rider mercenaries.</String>
@@ -7763,7 +7763,7 @@
 		<String _locID="37284">The only Trade Route is on the British held side of the river. It is short and they are getting trade drops very fast. You will need to destroy their Trade Post and build your own to control it.</String>
 		<String _locID="37287">TEAM Ottomans send their allies 10 Chests of Coin.</String>
 		<String _locID="37288">Ships 6 Grenadiers and 1 Great Bombard.</String>
-		<String _locID="37289">Ottoman Artillery Division</String>
+		<String _locID="37289">Dardanelles Operation</String>
 		<String _locID="37290">3 Falconets</String>
 		<String _locID="37291">TEAM 2 Outpost Wagons that can transform into Outposts or Blockhouses (War Huts for Natives and Castles for Asians).</String>
 		<String _locID="37292">TEAM Team Defenses</String>
@@ -7772,7 +7772,7 @@
 		<String _locID="37296">Ottoman Assault Fleet</String>
 		<String _locID="37297">Ships 2 Galleys and 1 Monitor.</String>
 		<String _locID="37298">Acemi OIglan School</String>
-		<String _locID="37299">Janissaries cost less to train.</String>
+		<String _locID="37299">Janissaries and Azaps cost less to train.</String>
 		<String _locID="37300">Ships 4 Privateer ships to your colony.</String>
 		<String _locID="37301">Recruit Privateer Fleet</String>
 		<String _locID="37302">From: The Grand Master</String>
@@ -7883,8 +7883,8 @@
 		<String _locID="37414">TEAM Portuguese send their allies Cords of 1000 Brazilwood.</String>
 		<String _locID="37415">TEAM Ottomans send their allies Chests of 600 Coin.</String>
 		<String _locID="37416">TEAM Ottomans send their allies Chests of 1000 Coin.</String>
-		<String _locID="37417">Ships 6 Riflemen and 6 Dragoons.</String>
-		<String _locID="37418">Portuguese Expeditionary Force</String>
+		<String _locID="37417">Ships 6 Cassadores and 6 Dragoons.</String>
+		<String _locID="37418">Portuguese Regiment</String>
 		<String _locID="37419">Each Dock will create 4 Fishing Boats.</String>
 		<String _locID="37420">Portuguese White Fleet</String>
 		<String _locID="37421">Upgrades Available</String>
@@ -12630,7 +12630,7 @@
 		<String _locID="42212">Hire Finnish Hackapells</String>
 		<String _locID="42213">Ships an army of Holy Roman mercenaries: Landsknecht, Black Riders and Jaegers. Instead of Uhlans, you get extra mercenaries.</String>
 		<String _locID="42214">Hire Holy Roman Army</String>
-		<String _locID="42215">Ships an army of Highland mercenaries: Highlanders, Swiss Pikemen and Hackapells. Instead of Uhlans you get extra mercenaries.</String>
+		<String _locID="42215">Ships an army of Highland mercenaries: Highlanders, Reislaufer and Hackapells. Instead of Uhlans you get extra mercenaries.</String>
 		<String _locID="42216">Hire Highland Mercenary Army</String>
 		<String _locID="42217">Ships a number of Mediterranean mercenaries: Stradiots, Mamelukes and Corsairs. Instead of Uhlans, you get extra mercenaries.</String>
 		<String _locID="42218">Hire Mediterranean Mercenary Army</String>
@@ -13689,13 +13689,13 @@
 		<String _locID="43272">Morning Lighting</String>
 		<String _locID="43273">Early morning in the Empire of Spain.</String>
 		<String _locID="43274">Sunrise Lighting</String>
-		<String _locID="43275">The sun rises above the empire's capitol city.</String>
+		<String _locID="43275">The sun rises above the Empire's capitol city.</String>
 		<String _locID="43276">Daytime Lighting</String>
 		<String _locID="43277">The city with the sun shining brightly.</String>
 		<String _locID="43278">Daytime Lighting</String>
 		<String _locID="43279">The city with the sun shining brightly.</String>
 		<String _locID="43280">Stormy Skies</String>
-		<String _locID="43281">A storm has descended upon the Portuguese capitol.</String>
+		<String _locID="43281">A storm has descended upon the capitol.</String>
 		<String _locID="43282">Daytime Lighting</String>
 		<String _locID="43283">The city with the sun shining brightly.</String>
 		<String _locID="43284">Evening Light</String>
@@ -14455,7 +14455,7 @@
 		<String _locID="44039">TEAM Docks cheaper.</String>
 		<String _locID="44040">TEAM Houses cheaper.</String>
 		<String _locID="44041">War Hut and Lookout build limit and hitpoints increased.</String>
-		<String _locID="44042">Extensive Fortifications 2</String>
+		<String _locID="44042">Advanced Fortifications</String>
 		<String _locID="44043">Extensive Fortifications Shipment has arrived.</String>
 		<String _locID="44044">Extensive Fortifications II Shipment has arrived.</String>
 		<String _locID="44045">Strong canoe built for combat.</String>
@@ -15870,7 +15870,7 @@
 		<String _locID="45456">Increases Warchief's pets' hitpoint and sends 1 pet bear</String>
 		<String _locID="45457">SHADOW Great Heart</String>
 		<String _locID="45458">Great Heart</String>
-		<String _locID="45459">Great Heart: all nearby troops have their hitpoints boosted. Passive ability.</String>
+		<String _locID="45459">Great Heart: all nearby units have their hitpoints boosted. Passive ability.</String>
 		<String _locID="45460">Champion Musket Runner</String>
 		<String _locID="45461">Legendary Musket Runner</String>
 		<String _locID="45462">Eagle Eye</String>
@@ -16541,7 +16541,7 @@
 		<String _locID="46136">Horsemanship</String>
 		<String _locID="46137">Firearm-equipped warriors (Wakina Rifles and Rifle Riders) have a higher attack.</String>
 		<String _locID="46138">Gun Trade</String>
-		<String _locID="46139">Saloon Swiss Guard</String>
+		<String _locID="46139">Saloon Reislaufer</String>
 		<String _locID="46140">Saloon Elmeti</String>
 		<String _locID="46141">Saloon Barbary Corsair</String>
 		<String _locID="46142">Saloon Black Rider</String>
@@ -19560,7 +19560,7 @@
 		<String _locID="60112">Daimyo</String>
 		<String _locID="60113">CAV Daimyo</String>
 		<String _locID="60114">Shogun. Trains troops, receives Shipments, and has hitpoints aura.</String>
-		<String _locID="60115">Ruler of Japan. Can train troops and receive Shipments. Also gives nearby troops extra hitpoints.</String>
+		<String _locID="60115">Ruler of Japan. Can train troops and receive Shipments. Also gives nearby units extra hitpoints.</String>
 		<String _locID="60116">Sei-i-tai Shogun</String>
 		<String _locID="60117">CAV Shogun Tokugawa</String>
 		<String _locID="60118">Hand cavalry, good against archers, skirmishers, and artillery</String>
@@ -27514,7 +27514,7 @@
 		<String _locID="68227">Imperial Monitor</String>
 		<String _locID="68228">Imperial Monitor</String>
 		<String _locID="68229">Imperial Monitor</String>
-		<String _locID="68230">Trains:\nMarines\nRiflemen\nSabers\nGatling Guns\n \nShipments:\nMilitary enhancements</String>
+		<String _locID="68230">Trains:\nMarines\nSabers\nGatling Guns\n \nShipments:\nMilitary enhancements</String>
 		<String _locID="68231">American Allies\n+5% Land Unit Attack</String>
 		<String _locID="68232">Come out of your isolation so that you can choose a new ally.</String>
 		<String _locID="68233">End Isolation</String>
@@ -28827,7 +28827,7 @@
 		<String _locID="69546">REP Stradiot</String>
 		<String _locID="69547">Hand infantry mercenary</String>
 		<String _locID="69548">Elite Swiss mercenary armed with a pike. Good against cavalry.</String>
-		<String _locID="69549">Repentant Swiss Guard</String>
+		<String _locID="69549">Repentant Reislaufer</String>
 		<String _locID="69550">REP Swiss Guard</String>
 		<String _locID="69551">Mercenary light artillery, good against infantry and buildings</String>
 		<String _locID="69552">Mercenary light artillery that throws fire bombs to destroy buildings. Also good against infantry.</String>
@@ -29202,7 +29202,7 @@
 		<String _locID="69922" symbol="cStringypUnitScareAuraName">Stream of Enlightenment</String>
 		<String _locID="69923" symbol="cStringypUnitScareAura">Passive Ability: Your Monk decreases the attack of nearby enemy units.</String>
 		<String _locID="69924" symbol="cStringypUnitShogunAura2Name">Advanced Troop Hitpoints Aura</String>
-		<String _locID="69925" symbol="cStringypUnitShogunAura2">Your Shogun enhances the hitpoints of nearby troops even more.</String>
+		<String _locID="69925" symbol="cStringypUnitShogunAura2">Your Shogun enhances the hitpoints of nearby units even more.</String>
 		<String _locID="69926">Reclaimed Land Shipment has arrived.</String>
 		<String _locID="69927">Terraced Hillsides Shipment has arrived.</String>
 		<String _locID="69928">Walk the Rice Paper Shipment has arrived.</String>
@@ -29614,10 +29614,10 @@
 		<String _locID="70335" symbol="cStringSPCNanibKnockoutTooltipText">For king, for country... for glory...</String>
 		<String _locID="70336" symbol="cStringSPCEdwardsonKnockoutTooltipText">Never! I will not perish on this forsaken soil...</String>
 		<String _locID="70337" symbol="cStringSPCPravarKnockoutTooltipText">My blood nourishes the land for which I have fought...</String>
-		<String _locID="70338" symbol="cStringMonkDiscipleKnockoutTooltipText">Dang... I never asked for that promotion...</String>
-		<String _locID="70339" symbol="cStringJapaneseMonkKnockoutTooltipText">My last thoughts are of compassion... and unbearable pain...</String>
-		<String _locID="70340" symbol="cStringChineseMonkKnockoutTooltipText">So much for enlightenment...</String>
-		<String _locID="70341" symbol="cStringIndianMonkKnockoutTooltipText">I will live again, if only as a butterfly...</String>
+		<String _locID="70338" symbol="cStringMonkDiscipleKnockoutTooltipText">Unconscious, approach to revive.</String>
+		<String _locID="70339" symbol="cStringJapaneseMonkKnockoutTooltipText">Unconscious, approach to revive.</String>
+		<String _locID="70340" symbol="cStringChineseMonkKnockoutTooltipText">Unconscious, approach to revive.</String>
+		<String _locID="70341" symbol="cStringIndianMonkKnockoutTooltipText">Unconscious, approach to revive.</String>
 		<String _locID="70342">Artillery and siege unit attack increased.</String>
 		<String _locID="70343">Siege Attack</String>
 		<String _locID="70344">Siege Combat Shipment has arrived.</String>
@@ -29954,7 +29954,7 @@
 		<String _locID="77937">Improvement building</String>
 		<String _locID="77938">Support unit</String>
 		<String _locID="77939">More expensive than a normal House, trains Minuteman. Supports 10 population.</String>
-		<String _locID="77940">Can train Doppelsoldners and build War Tents. Also gives nearby troops extra hitpoints.</String>
+		<String _locID="77940">Can train Doppelsoldners and build War Tents. Also gives nearby units extra hitpoints.</String>
 		<String _locID="77941">Ships a General that can fight, build War Tents, and train Doppelsoldners.</String>
 		<String _locID="77942">Guard Paladinos</String>
 		<String _locID="77943">Imperial Paladinos</String>
@@ -30106,7 +30106,7 @@
 		<String _locID="780689">6 Cranequinier</String>
 		<String _locID="780690">8 Cranequinier</String>
 		<String _locID="780691">Crossbow Combat</String>
-		<String _locID="780692">All crossbows attack and hitpoints increased.</String>
+		<String _locID="780692">Crossbowman and Cranequinier attack and hitpoints increased.</String>
 		<String _locID="780693">Crossbow Combat Shipment has arrived.</String>
 		<String _locID="780694">Mount Horse. Increased moving speed.</String>
 		<String _locID="780695">Repentant Shinobi-No-Mono</String>
@@ -30129,7 +30129,7 @@
 		<String _locID="780712">Saker attack and hitpoints increased.</String>
 		<String _locID="780713">Imperial upgrade for Sakers.</String>
 		<String _locID="780714">Classic light artillery. Good against infantry and artillery.</String>
-		<String _locID="780715">2 Sakers</String>
+		<String _locID="780715">3 Sakers</String>
 		<String _locID="780716">Disciplined Sakers</String>
 		<String _locID="780717">Disciplined Saker</String>
 		<String _locID="780718">Honored Saker</String>
@@ -30175,9 +30175,9 @@
 		<String _locID="780758">Renegade Spanish Brigade</String>
 		<String _locID="780759">Renegade French Brigade</String>
 		<String _locID="780760">Renegade British Brigade</String>
-		<String _locID="780761">Royal Force</String>
-		<String _locID="780762">Royal Company</String>
-		<String _locID="780763">Royal Army</String>
+		<String _locID="780761">Expeditionary Force</String>
+		<String _locID="780762">Expeditionary Company</String>
+		<String _locID="780763">Expeditionary Army</String>
 		<String _locID="780764">Enables the Explorer to peer into the blackmap to temporarily see what is there.</String>
 		<String _locID="780765">Paladino attack and hitpoints increased.</String>
 		<String _locID="780766">Imperial Lancers</String>
@@ -30196,7 +30196,7 @@
 		<String _locID="780779">An army of Egyptian Mameluke and Indian Jat Lancers.\n2 Mameluke: bold heavy cavalry mercenary.\n2 Jat Lancers: elite mercenary armed with a lance, good against light infantry and artillery.</String>
 		<String _locID="780780">An army of British Doves and Scotish Highlanders.\n2 Doves: skilled assassin with dual pistols.\n5 Highlanders: powerful ranged infantry mercenary.</String>
 		<String _locID="780781">An army of Japanese Ninja and German Black Riders.\n3 Ninja: assassin highly effective vs. mercs, explorers, and war chiefs.\n3 Black Riders: heavily armed mercenary cavalry.</String>
-		<String _locID="780782">An army of Swiss Guards and Swedish Fusiliers.\n3 Swiss Guards: elite mercenary armed with a pike, good against cavalry.\n4 Fusiliers: powerful ranged infantry mercenary.</String>
+		<String _locID="780782">An army of Swiss Reislaufer and Swedish Fusiliers.\n3 Reislaufer: elite mercenary armed with a pike, good against cavalry.\n4 Fusiliers: powerful ranged infantry mercenary.</String>
 		<String _locID="780783">An army of Chinese Manchu and Balkan Stradiots.\n3 Manchu: powerful cavalry archer mercenary.\n3 Stradiots: light cavalry mercenary, good against infantry.</String>
 		<String _locID="780784">An army of Polish Winged Knights and Hessian Jaegers.\n2 Winged Knights: powerful heavy cavalry with a trample attack.\n4 Jaegers: skirmisher mercenary, good against infantry.</String>
 		<String _locID="780785">Hired Guns</String>
@@ -30234,18 +30234,18 @@
 		<String _locID="780817">All your Villagers transform into Warriors and they no longer lose hitpoints.</String>
 		<String _locID="780818">Your villagers took up arms and gathered for war!</String>
 		<String _locID="35605">Heal</String>
-		<String _locID="780819">Veteran General who can build War Camps, and boost hitpoints and attack of nearby troops.</String>
+		<String _locID="780819">Veteran General who can build War Camps, and boost hitpoints and attack of nearby units.</String>
 		<String _locID="780820">Indentured Labor</String>
 		<String _locID="780821">Spanish Support</String>
 		<String _locID="780822">American Support</String>
 		<String _locID="780823">French Support</String>
 		<String _locID="780824">Ships a large number of Gendarmes (Cuirassiers) and Culverins.</String>
 		<String _locID="780825">Ships a large number of Garrochistas (Lancers) and Espadachins (Rodeleros).</String>
-		<String _locID="780826">Ships a large number of Gatling Guns and Patriot Militia.</String>
+		<String _locID="780826">Ships a large number of Gatling Guns and Marines.</String>
 		<String _locID="780827">Total Villagers: {numUnits(AbstractVillager)}\nTotal Fishing Boats: {numUnits(AbstractFishingBoat)}\nTotal Town Centers: {numUnits(TownCenter)}</String>
 		<String _locID="780828">Send collected resources as Tribute</String>
-		<String _locID="780829" symbol="cStringxpIroquoisWarChiefKnockoutTooltipText">I will join the spirits... soon.</String>
-		<String _locID="780830">Portuguese general who can train Cassadores and boost hitpoints of nearby troops.</String>
+		<String _locID="780829" symbol="cStringxpIroquoisWarChiefKnockoutTooltipText">Unconscious, approach to revive.</String>
+		<String _locID="780830">Portuguese general who can train Cassadores and boost hitpoints of nearby units.</String>
 		<String _locID="780831">Ships 20 Pavlov Grenadiers from the motherland.</String>
 		<String _locID="780832">Large New England</String>
 		<String _locID="780833">Land Maps</String>
@@ -30257,7 +30257,7 @@
 		<String _locID="780839">Imperial Crossbowman</String>
 		<String _locID="780840">Imperial Crossbowmen</String>
 		<String _locID="780841">Upgrades Command Posts to Command Centers which can train Highlanders, have increased attack and hitpoints and outlaw-type units cost less population.</String>
-		<String _locID="780842">Upgrades Command Posts to Command Centers which can train Swiss Pikemen, have increased attack and hitpoints and outlaw-type units cost less population.</String>
+		<String _locID="780842">Upgrades Command Posts to Command Centers which can train Reislaufer, have increased attack and hitpoints and outlaw-type units cost less population.</String>
 		<String _locID="780843">Upgrades Command Posts to Command Centers which can train Stradiots, have increased attack and hitpoints and outlaw-type units cost less population.</String>
 		<String _locID="780844">Upgrades Command Posts to Command Centers which can train Black Riders, have increased attack and hitpoints and outlaw-type units cost less population.</String>
 		<String _locID="780845">Upgrades Command Posts to Command Centers which can train Hackapells, have increased attack and hitpoints and outlaw-type units cost less population.</String>
@@ -30314,17 +30314,17 @@
 		<String _locID="780906">Settler cost changed from Coin to Food.</String>
 		<String _locID="780907">An army of Russian Tartar Loyalists (Cavalry Archers) and Culverins.\n7 Tartar Loyalists: ranged cavalry, good against cavalry.\n3 Culverins: light artillery that is good against other artillery and ships.</String>
 		<String _locID="780908">Italian Allies\n+0.5 Export Trickle Rate</String>
-		<String _locID="780909">Trains:\nSwiss Guards\nLandsknecht\nElmeti\nBlack Riders\n \nShipments:\nReligious units</String>
+		<String _locID="780909">Trains:\nReislaufer\nLandsknecht\nBlack Riders\nElmeti\n \nShipments:\nReligious units</String>
 		<String _locID="780910">American Brigade</String>
-		<String _locID="780911">Ships a large number of Gatling Guns and Patriot Militia.</String>
+		<String _locID="780911">Ships a large number of Gatling Guns and Marines.</String>
 		<String _locID="780912">Inquisition</String>
-		<String _locID="780913">A Inquisitor gathers at every Town Center.</String>
+		<String _locID="780913">An Inquisitor gathers at every Town Center.</String>
 		<String _locID="780914">Papal Decree</String>
 		<String _locID="780915">Hire Elmeti Mercenaries</String>
-		<String _locID="780916">An army of Swiss Pikemen Guards.\n4 Swiss Guards: elite mercenary armed with a pike. Good against cavalry.</String>
+		<String _locID="780916">An army of Swiss Reislaufer mercenaries.\n4 Reislaufer: elite mercenary armed with a pike. Good against cavalry.</String>
 		<String _locID="780917">An army of Italian Elmeti mercenaries.\n2 Elmeti: heavy cavalry armed with a lance. Good against infantry.</String>
 		<String _locID="780918">An army of German Landsknecht mercenaries.\n6 Landsknecht: flamboyant heavy infantry mercenary.</String>
-		<String _locID="780919">Ships an army of repentant Holy Roman mercenaries: Landsknecht, Black Riders and Jaegers.</String>
+		<String _locID="780919">Ships an army of German Black Rider mercenaries.</String>
 		<String _locID="780920">Bonds between you and minor Native tribes allow your Explorer to build a Native Embassy.</String>
 		<String _locID="780921">Native Ties</String>
 		<String _locID="780922">Indian Allies\n</String>
@@ -30386,14 +30386,14 @@
 		<String _locID="780978">Pilgrimage</String>
 		<String _locID="780979">Ships 10 Pilgrims that work faster than normal villagers and don't take up population.</String>
 		<String _locID="780980">Swedish Allies\n+10% Building Hitpoints</String>
-		<String _locID="780981">Trains:\nGrenadiers\nSakers\nHorse Artillery\nBrigs\n \nShipments:\nTown improvements</String>
+		<String _locID="780981">Trains:\nSakers\nSkarpskytt\nHorse Artillery\n \nShipments:\nTown improvements</String>
 		<String _locID="780982">Loyalist Militia</String>
 		<String _locID="780983">Bakery Wagon</String>
 		<String _locID="780984">Transforms into a Bakery.</String>
 		<String _locID="780985">Allows Pilgrims to be trained from Churches.</String>
 		<String _locID="780986">Northern Logging</String>
 		<String _locID="780987">Villagers gather Wood faster and ships a Lumber Camp Wagon.</String>
-		<String _locID="780988">Ships a large number of Brigs and Loyalist Militia led by a General.</String>
+		<String _locID="780988">Ships a large number of Svealand Sakers (Sakers) and Horse Artillery led by a General.</String>
 		<String _locID="780989">Swedish Brigade</String>
 		<String _locID="780990">Indelta Grenadier</String>
 		<String _locID="780991">Geshwinda Artillery</String>
@@ -30579,22 +30579,85 @@
 		<String _locID="781172">Upgrades Command Posts to Command Centers which can train Elmeti, have increased attack and hitpoints and outlaw-type units cost less population.</String>
 		<String _locID="781173">Sacred Congregation</String>
 		<String _locID="781174">Papal Brigade</String>
-		<String _locID="781175">Ships a large number of Repentant Elmeti.</String>
-		<String _locID="781176">An army of Repentant Swiss Guards.\n4 Swiss Guards: elite mercenary armed with a pike, good against cavalry.</String>
-		<String _locID="781177">An army of Repentant Landsknecht.\n5 Landsknecht: flamboyant heavy infantry mercenary.</String>
-		<String _locID="781178">An army of Repentant Black Riders.\n10 Black Riders: heavily armed mercenary cavalry.</String>
+		<String _locID="781175">Ships a large number of Italian Elmeti mercenaries.</String>
+		<String _locID="781176">An army of Swiss Reislaufer mercenaries.\n4 Reislaufer: elite mercenary armed with a pike, good against cavalry.</String>
+		<String _locID="781177">An army of German Landsknecht mercenaries.\n5 Landsknecht: flamboyant heavy infantry mercenary.</String>
+		<String _locID="781178">An army of German Black Riders mercenaries.\n10 Black Riders: heavily armed mercenary cavalry.</String>
 		<String _locID="781179">Provides your Church with unique Italian improvements. Also moves the Capitol to the Enlightenment Age.</String>
 		<String _locID="781180">New World Conquest</String>
 		<String _locID="781181">Royal Decree "Sacred Congregation" Shipment has arrived.</String>
 		<String _locID="781182">Sacraments</String>
 		<String _locID="781183">Venetian Gothic</String>
-		<String _locID="781184">Architects build much faster and can now also build Town Centers and Trading Posts.</String>
+		<String _locID="781184">Architect train limit is increased and Architects can build much faster. Also, they can build Town Centers and Trading Posts extremely fast.</String>
 		<String _locID="781185">Royal Training</String>
 		<String _locID="781186">Fame armies cost less but train slower.</String>
 		<String _locID="781187">Entrepreneur</String>
-		<String _locID="781188">Improves your Italian Explorer in combat and gives him a powerful canine companion.</String>
+		<String _locID="781188">Improves your Italian Explorer in combat, makes him free to train (ransom) and gives him a powerful canine companion.</String>
 		<String _locID="781189">Entrepreneur Shipment has arrived.</String>
 		<String _locID="781190">Colonel Shipment has arrived.</String>
-		<String _locID="781191">Pilgrims are faster.</String>
+		<String _locID="781191">An Inquisitor gathers at every Town Center and Inquisitor healing range is increased. Also, Pilgrims are faster.</String>
+		<String _locID="781192">Pavise Shield</String>
+		<String _locID="781193">Crossbowman and Cranequinier armor and hitpoints increased.</String>
+		<String _locID="781194">Cranequinier</String>
+		<String _locID="781195">Pavise Shield Shipment has arrived.</String>
+		<String _locID="781196">Repentant Mercenary Company</String>
+		<String _locID="781197">Repentant Mercenary Army</String>
+		<String _locID="781198">Repentant Mercenary Force</String>
+		<String _locID="781199">Repentant Mercenary Brigade</String>
+		<String _locID="781200">Swedish Expeditionary Company</String>
+		<String _locID="781201">Swedish Expeditionary Force</String>
+		<String _locID="781202">Swedish Expeditionary Army</String>
+		<String _locID="781203">An army of Swedish Svealand Sakers (Sakers).\n3 Svealand Sakers: light artillery, good against infantry and artillery.</String>
+		<String _locID="781204">Ships an additional Explorer's Dog to your colony and increases Wardog limit.</String>
+		<String _locID="781205">Hounds</String>
+		<String _locID="781206">TEAM Westward Expansion</String>
+		<String _locID="781207">TEAM Outpost, Blockhouse, War Hut, Castle, Tower and Lookout limit increased.</String>
+		<String _locID="781208">TEAM Westward Expansion Shipment has arrived.</String>
+		<String _locID="781209">American Continental Company</String>
+		<String _locID="781210">American Continental Force</String>
+		<String _locID="781211">American Continental Army</String>
+		<String _locID="781212">Continental Company</String>
+		<String _locID="781213">Continental Force</String>
+		<String _locID="781214">Continental Army</String>
+		<String _locID="781215">American Brigade</String>
+		<String _locID="781216">Continental Brigade</String>
+		<String _locID="781217">An army of American Marines.\n6 Marines: heavy ranged infantry, good against cavalry and light infantry.</String>
+		<String _locID="781218">An army of American Marines and Gatling Guns.\n7 Marines: heavy ranged infantry, good against cavalry and light infantry.\n2 Gatling Guns: early automatic-fire weapon, better against infantry than buildings.</String>
+		<String _locID="781219">An army of American Sabers and Gatling Guns.\n6 Sabers: light cavalry armed with cold steel, good against artillery.\n3 Gatling Guns: early automatic-fire weapon, better against infantry than buildings.</String>
+		<String _locID="781220">Mercenary Company</String>
+		<String _locID="781221">Mercenary Army</String>
+		<String _locID="781222">Mercenary Force</String>
+		<String _locID="781223">Mercenary Brigade</String>
+		<String _locID="781224">Skarpskytt</String>
+		<String _locID="781225">An army of Swedish Svealand Sakers (Sakers) and Skarpskytt.\n2 Svealand Sakers: light artillery, good against infantry and artillery.\n6 Skarpskytt: long-ranged skirmisher, good against infantry.</String>
+		<String _locID="781226">An army of Swedish Skarpskytt and Horse Artillery.\n8 Skarpskytt: long-ranged skirmisher, good against infantry.\n2 Horse Artillery: quick-moving artillery that is strong versus infantry.</String>
+		<String _locID="781227">TEAM Cheap Age Up</String>
+		<String _locID="781228">TEAM All Age Up politicians, copuncil members and wonders become cheaper.</String>
+		<String _locID="781229">TEAM Cheap Age Up Shipment has arrived.</String>
+		<String _locID="781230">TEAM 4 Pilgrims</String>
+		<String _locID="781231">Ships a number of Italian Elmeti mercenaries.</String>
+		<String _locID="781232">Hire Genoese Elmeti</String>
+		<String _locID="781233">9 Cranequinier</String>
+		<String _locID="781234">TEAM Artillery Combat</String>
+		<String _locID="781235">TEAM All artillery attack and hitpoints increased.</String>
+		<String _locID="781236">TEAM Artillery Combat Shipment has arrived.</String>
+		<String _locID="781237">Heals injured units. Boosts hitpoints of nearby units.</String>
+		<String _locID="781238">TEAM Archaic Infantry Attack</String>
+		<String _locID="781239">TEAM Archaic Infantry attack increased.</String>
+		<String _locID="781240">TEAM Archaic Infantry Attack Shipment has arrived.</String>
+		<String _locID="781241">Ships 25 Pikemen and 1 Flag Bearer.</String>
+		<String _locID="781242">Retinues</String>
+		<String _locID="781243">Archaic Infantry Hitpoints</String>
+		<String _locID="781244">Archaic Infantry hitpoints increased.</String>
+		<String _locID="781245">Archaic Infantry Hitpoints Shipment has arrived.</String>
+		<String _locID="781246">Archaic Infantry Combat</String>
+		<String _locID="781247">Archaic Infantry attack and hitpoints increased.</String>
+		<String _locID="781248">Archaic Infantry Combat Shipment has arrived.</String>
+		<String _locID="781249">6 Sakers</String>
+		<String _locID="781250">8 Sakers</String>
+		<String _locID="781251">Hussar and Cranequinier hitpoints increased.</String>
+		<String _locID="781252">Hussar and Cranequinier attack increased.</String>
+		<String _locID="781253">Marine range and line of sight increased.</String>
+		<String _locID="781254">Petrine Reforms Shipment has arrived.</String>
 	</Language>
 </StringTable>

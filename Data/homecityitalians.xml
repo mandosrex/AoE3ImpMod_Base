@@ -42,6 +42,197 @@
 	</coffers>
 	<cards>
 		<card>
+			<name>HCShipMusketeers1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCXPShipHorseArtillery2</name>
+			<maxcount>1</maxcount>
+			<level>40</level>
+			<prereqtech>HCShipCannons1</prereqtech>
+			<age>3</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipSaker</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>3</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipSaker2</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipSaker</prereqtech>
+			<age>1</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipSaker3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipSaker2</prereqtech>
+			<age>2</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCrossbow1</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCrossbow2</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipCrossbow1</prereqtech>
+			<age>2</age>
+			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCrossbow3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipCrossbow2</prereqtech>
+			<age>3</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCrossbowInf</name>
+			<maxcount>-1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipCrossbow3</prereqtech>
+			<age>3</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>ArchaicInfantryCombat</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>ArchaicInfantryHitpoints</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>ArchaicInfantryHitpoints</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>ArchaicInfantryAttack</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCShipPikemenIt</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipPikemen4</prereqtech>
+			<age>3</age>
+			<displayunitcount>25</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>ArchaicInfantryAttack</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipPikemen4</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>ArtilleryCombat</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipSaker3</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCCrossbowCombat</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCShipCrossbowmen3</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>PaviseShield</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCCrossbowCombat</prereqtech>
+			<age>2</age>
+		</card>
+		<card>
+			<name>HCShipCrossbowmen1</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+			<displayunitcount>8</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCrossbowmen2</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipCrossbowmen1</prereqtech>
+			<age>2</age>
+			<displayunitcount>10</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipCrossbowmen3</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipCrossbowmen2</prereqtech>
+			<age>3</age>
+			<displayunitcount>24</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCMercsMaghrabi</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>-1</prereqtech>
+			<age>2</age>
+			<displayunitcount>9</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCMercsHolyRoman</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>HCMercsLandsknecht2German</prereqtech>
+			<age>3</age>
+			<displayunitcount>19</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCEngineeringSchool</name>
+			<maxcount>1</maxcount>
+			<level>25</level>
+			<prereqtech>-1</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
+			<name>HCXPMasterSurgeons</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCXPShipSurgeons2</prereqtech>
+			<age>1</age>
+		</card>
+		<card>
 			<name>HCXPMayanAllies1</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
@@ -72,7 +263,7 @@
 			<name>HCXPMercsGreatCannon</name>
 			<maxcount>1</maxcount>
 			<level>25</level>
-			<prereqtech>-1</prereqtech>
+			<prereqtech>HCMercsMaghrabi</prereqtech>
 			<age>3</age>
 			<displayunitcount>10</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
@@ -127,6 +318,15 @@
 			<prereqtech>HCShipSettlers3</prereqtech>
 			<age>1</age>
 			<displayunitcount>5</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>TeamPilgrims</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipSettlers4</prereqtech>
+			<age>0</age>
+			<displayunitcount>2</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
@@ -238,6 +438,15 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
+			<name>HCShipCoinCrates4</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCShipCoinCrates3</prereqtech>
+			<age>2</age>
+			<displayunitcount>1000</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
 			<name>HCShipSheep1</name>
 			<maxcount>1</maxcount>
 			<level>0</level>
@@ -253,6 +462,15 @@
 			<prereqtech>HCShipSheep1</prereqtech>
 			<age>2</age>
 			<displayunitcount>15</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCShipSheep3</name>
+			<maxcount>1</maxcount>
+			<level>0</level>
+			<prereqtech>HCShipSheep2</prereqtech>
+			<age>2</age>
+			<displayunitcount>20</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
@@ -326,15 +544,6 @@
 			<age>0</age>
 		</card>
 		<card>
-			<name>HCShipCrossbowmen3</name>
-			<maxcount>1</maxcount>
-			<level>10</level>
-			<prereqtech>HCArchaicTrainingTeam</prereqtech>
-			<age>3</age>
-			<displayunitcount>24</displayunitcount>
-			<infiniteinlastage>1</infiniteinlastage>
-		</card>
-		<card>
 			<name>HCArchaicTrainingTeam</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
@@ -360,7 +569,7 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
-			<name>HCShipPikemen3Spanish</name>
+			<name>HCShipPikemen3</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
 			<prereqtech>HCShipPikemen2</prereqtech>
@@ -372,7 +581,7 @@
 			<name>HCShipPikemen4</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
-			<prereqtech>HCShipPikemen3Spanish</prereqtech>
+			<prereqtech>HCShipPikemen3</prereqtech>
 			<age>2</age>
 			<displayunitcount>12</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
@@ -504,24 +713,24 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
-			<name>HCHandCavalryDamageSpanish</name>
+			<name>HCHandCavalryDamageIt</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
-			<prereqtech>HCHandCavalryHitpointsSpanish</prereqtech>
+			<prereqtech>HCHandCavalryHitpointsIt</prereqtech>
 			<age>1</age>
 		</card>
 		<card>
-			<name>HCHandCavalryHitpointsSpanish</name>
+			<name>HCHandCavalryHitpointsIt</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
 			<prereqtech>HCShipHussars2</prereqtech>
 			<age>1</age>
 		</card>
 		<card>
-			<name>HCHandCavalryCombatSpanish</name>
+			<name>HCHandCavalryCombatIt</name>
 			<maxcount>1</maxcount>
 			<level>25</level>
-			<prereqtech>HCHandCavalryDamageSpanish</prereqtech>
+			<prereqtech>HCHandCavalryDamageIt</prereqtech>
 			<age>2</age>
 		</card>
 		<card>
@@ -816,7 +1025,7 @@
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
-			<name>HCXPIndustrialRevolution</name>
+			<name>HCRobberBarons</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
 			<prereqtech>HCUnlockFactory</prereqtech>
@@ -824,11 +1033,11 @@
 			<displayunitcount>1</displayunitcount>
 		</card>
 		<card>
-			<name>HCColonialEstancias</name>
+			<name>CheaperAgeUp</name>
 			<maxcount>1</maxcount>
 			<level>25</level>
 			<prereqtech>-1</prereqtech>
-			<age>2</age>
+			<age>1</age>
 		</card>
 		<card>
 			<name>HCXPRanching</name>
@@ -1078,7 +1287,7 @@
 			<name>HCShipFrigates</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
-			<prereqtech>-1</prereqtech>
+			<prereqtech>HCShipGalleons</prereqtech>
 			<age>2</age>
 			<displayunitcount>1</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
@@ -1135,9 +1344,18 @@
 			<name>HCXPMercsElmeti</name>
 			<maxcount>1</maxcount>
 			<level>10</level>
-			<prereqtech>HCMercsStradiots</prereqtech>
+			<prereqtech>-1</prereqtech>
 			<age>3</age>
 			<displayunitcount>6</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCXPMercsElmetiInf</name>
+			<maxcount>-1</maxcount>
+			<level>10</level>
+			<prereqtech>HCXPMercsElmeti</prereqtech>
+			<age>3</age>
+			<displayunitcount>7</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
@@ -1199,6 +1417,15 @@
 			<prereqtech>-1</prereqtech>
 			<age>1</age>
 			<displayunitcount>2</displayunitcount>
+			<infiniteinlastage>1</infiniteinlastage>
+		</card>
+		<card>
+			<name>HCPrivateers2</name>
+			<maxcount>1</maxcount>
+			<level>10</level>
+			<prereqtech>HCPrivateers</prereqtech>
+			<age>2</age>
+			<displayunitcount>4</displayunitcount>
 			<infiniteinlastage>1</infiniteinlastage>
 		</card>
 		<card>
@@ -1288,19 +1515,19 @@
 				<card>HCShipSettlers1</card>
 				<card>HCShipFoodCrates1</card>
 				<card>HCShipCoveredWagons</card>
-				<card>HCFrontierDefenses</card>
 				<card>HCShipPikemen1</card>
-				<card>HCShipRodeleros1</card>
-				<card>HCShipRodeleros2</card>
-				<card>HCCheapBarracksTeam</card>
-				<card>HCShipLancers1</card>
-				<card>HCShipLancers2</card>
+				<card>HCShipCrossbowmen1</card>
+				<card>HCShipCrossbowmen2</card>
+				<card>HCShipCrossbow1</card>
+				<card>HCShipCrossbow2</card>
 				<card>HCShipFalconets1</card>
 				<card>HCShipMortars1</card>
 				<card>HCAdvancedArtillery</card>
+				<card>CheaperAgeUp</card>
+				<card>HCFrontierDefenses</card>
 				<card>HCUnlockFort</card>
-				<card>HCRumDistillery</card>
 				<card>HCRoyalDecreeItalians</card>
+				<card>HCMercsMaghrabi</card>
 			</cards>
 		</deck>
 		<deck>
@@ -1310,19 +1537,19 @@
 				<card>HCShipSettlers1</card>
 				<card>HCShipFoodCrates1</card>
 				<card>HCShipCoveredWagons</card>
-				<card>HCFrontierDefenses</card>
 				<card>HCShipPikemen1</card>
-				<card>HCShipRodeleros1</card>
-				<card>HCShipRodeleros2</card>
-				<card>HCCheapBarracksTeam</card>
-				<card>HCShipLancers1</card>
-				<card>HCShipLancers2</card>
+				<card>HCShipCrossbowmen1</card>
+				<card>HCShipCrossbowmen2</card>
+				<card>HCShipCrossbow1</card>
+				<card>HCShipCrossbow2</card>
 				<card>HCShipFalconets1</card>
 				<card>HCShipMortars1</card>
 				<card>HCAdvancedArtillery</card>
+				<card>CheaperAgeUp</card>
+				<card>HCFrontierDefenses</card>
 				<card>HCUnlockFort</card>
-				<card>HCRumDistillery</card>
 				<card>HCRoyalDecreeItalians</card>
+				<card>HCMercsMaghrabi</card>
 			</cards>
 		</deck>
 		<revoltdeck>
@@ -1376,6 +1603,7 @@
 			<tech x="0.7" y="2.0">HCShipSettlers2</tech>
 			<tech x="0.7" y="3.0">HCShipSettlers3</tech>
 			<tech x="0.7" y="4.0">HCShipSettlers4</tech>
+			<tech x="0.7" y="7.0">TeamPilgrims</tech>
 			<tech x="2.0" y="1.0">HCShipFoodCrates1</tech>
 			<tech x="2.7" y="1.0">HCShipWoodCrates1</tech>
 			<tech x="3.4" y="1.0">HCShipCoinCrates1</tech>
@@ -1385,16 +1613,17 @@
 			<tech x="2.0" y="3.0">HCShipFoodCrates3</tech>
 			<tech x="2.7" y="3.0">HCShipWoodCrates3</tech>
 			<tech x="3.4" y="3.0">HCShipCoinCrates3</tech>
+			<tech x="3.4" y="4.0">HCShipCoinCrates4</tech>
 			<tech x="2.0" y="4.0">HCShipFoodCrates4</tech>
 			<tech x="2.7" y="4.0">HCShipWoodCrates4</tech>
-			<tech x="2.0" y="5.0">HCShipFoodCrates5</tech>
-			<tech x="0.7" y="7.0">HCXPUnction</tech>
 			<tech x="4.7" y="1.0">HCShipSheep1</tech>
 			<tech x="4.4" y="2.0">HCShipSheep2</tech>
+			<tech x="4.4" y="3.0">HCShipSheep3</tech>
 			<tech x="5.1" y="2.0">HCShipCows</tech>
 			<tech x="6.0" y="1.0">HCShipCoveredWagons</tech>
 			<tech x="6.0" y="3.0">HCShipSurgeons</tech>
 			<tech x="6.0" y="4.0">HCXPShipSurgeons2</tech>
+			<tech x="6.0" y="5.0">HCXPMasterSurgeons</tech>
 			<tech x="7.0" y="1.0">HCExplorerItalians</tech>
 			<tech x="7.0" y="3.0">HCShipBalloons</tech>
 			<tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
@@ -1424,36 +1653,34 @@
 		<displaynamestringid>24965</displaynamestringid>
 		<rolloverstringid>29002</rolloverstringid>
 		<obtainabletechs>
-			<tech x="0.0" y="3.0">HCArchaicTrainingTeam</tech>
-			<tech x="0.0" y="4.0">HCShipCrossbowmen3</tech>
-			<tech x="0.7" y="1.0">HCShipPikemen1</tech>
-			<tech x="0.7" y="2.0">HCShipPikemen2</tech>
-			<tech x="0.7" y="3.0">HCShipPikemen3Spanish</tech>
-			<tech x="0.7" y="4.0">HCShipPikemen4</tech>
-			<tech x="0.3" y="5.0">HCShipPikemen5</tech>
-			<tech x="1.0" y="5.0">HCShipSpanishSquare</tech>
-			<tech x="1.0" y="7.0">HCXPTercioTactics</tech>
-			<tech x="2.5" y="1.0">HCShipRodeleros1</tech>
-			<tech x="2.5" y="2.0">HCShipRodeleros2</tech>
-			<tech x="2.5" y="3.0">HCShipRodeleros3</tech>
-			<tech x="2.5" y="4.0">HCShipRodeleros4</tech>
-			<tech x="2.5" y="5.0">HCShipRodeleros5</tech>
-			<tech x="1.8" y="3.0">HCHandInfantryDamageSpanishTeam</tech>
-			<tech x="1.8" y="4.0">HCHandInfantryHitpointsSpanish</tech>
-			<tech x="1.8" y="5.0">HCHandInfantryCombatSpanish</tech>
-			<tech x="3.2" y="3.0">HCXPShipRedolerosRepeat</tech>
-			<tech x="3.9" y="1.0">HCShipHussars2</tech>
-			<tech x="3.9" y="3.0">HCShipHussars3</tech>
-			<tech x="3.9" y="4.0">HCShipHussars4</tech>
-			<tech x="4.6" y="3.0">HCHandCavalryHitpointsSpanish</tech>
-			<tech x="4.6" y="4.0">HCHandCavalryDamageSpanish</tech>
-			<tech x="4.6" y="5.0">HCHandCavalryCombatSpanish</tech>
-			<tech x="5.7" y="1.0">HCShipLancers1</tech>
-			<tech x="5.7" y="2.0">HCShipLancers2</tech>
-			<tech x="5.7" y="3.0">HCShipLancers3</tech>
-			<tech x="6.0" y="4.0">HCCaballeros</tech>
-			<tech x="5.3" y="4.0">HCShipLancers4</tech>
-			<tech x="5.3" y="5.0">HCShipLancers5</tech>
+			<tech x="0.3" y="1.0">HCShipPikemen1</tech>
+			<tech x="0.3" y="2.0">HCShipPikemen2</tech>
+			<tech x="0.3" y="3.0">HCShipPikemen3</tech>
+			<tech x="0.3" y="4.0">HCShipPikemen4</tech>
+			<tech x="0.3" y="5.0">HCShipPikemenIt</tech>
+			<tech x="1.0" y="4.0">ArchaicInfantryAttack</tech>
+			<tech x="1.0" y="5.0">ArchaicInfantryHitpoints</tech>
+			<tech x="1.0" y="6.0">ArchaicInfantryCombat</tech>
+			<tech x="1.4" y="1.0">HCShipCrossbowmen1</tech>
+			<tech x="1.4" y="2.0">HCShipCrossbowmen2</tech>
+			<tech x="1.4" y="3.0">HCShipCrossbowmen3</tech>
+			<tech x="2.1" y="4.0">HCCrossbowCombat</tech>
+			<tech x="2.1" y="5.0">PaviseShield</tech>
+			<tech x="2.4" y="1.0">HCShipMusketeers1</tech>
+			<tech x="3.3" y="1.0">HCShipCrossbow1</tech>
+			<tech x="3.3" y="2.0">HCShipCrossbow2</tech>
+			<tech x="3.3" y="3.0">HCShipCrossbow3</tech>
+			<tech x="3.3" y="7.0">HCShipCrossbowInf</tech>
+			<tech x="4.0" y="1.0">HCShipHussars2</tech>
+			<tech x="4.0" y="3.0">HCShipHussars3</tech>
+			<tech x="4.0" y="4.0">HCShipHussars4</tech>
+			<tech x="4.7" y="3.0">HCHandCavalryHitpointsIt</tech>
+			<tech x="4.7" y="4.0">HCHandCavalryDamageIt</tech>
+			<tech x="4.7" y="5.0">HCHandCavalryCombatIt</tech>
+			<tech x="5.7" y="6.0">ArtilleryCombat</tech>
+			<tech x="5.7" y="1.0">HCShipSaker</tech>
+			<tech x="5.7" y="2.0">HCShipSaker2</tech>
+			<tech x="5.7" y="4.0">HCShipSaker3</tech>
 			<tech x="6.7" y="1.0">HCShipFalconets1</tech>
 			<tech x="6.7" y="2.0">HCShipFalconets2</tech>
 			<tech x="6.7" y="3.0">HCShipFalconets3</tech>
@@ -1462,14 +1689,14 @@
 			<tech x="7.4" y="2.0">HCShipMortars1</tech>
 			<tech x="7.4" y="3.0">HCShipMortars2</tech>
 			<tech x="7.4" y="4.0">HCShipCannons1</tech>
-			<tech x="7.4" y="7.0">HCXPShipMortarsTeam</tech>
+			<tech x="7.4" y="7.0">HCXPShipHorseArtillery2</tech>
 		</obtainabletechs>
 		<activetechs>
 			<tech>HCShipPikemen1</tech>
-			<tech>HCShipRodeleros1</tech>
-			<tech>HCShipRodeleros2</tech>
-			<tech>HCShipLancers1</tech>
-			<tech>HCShipLancers2</tech>
+			<tech>HCShipCrossbowmen1</tech>
+			<tech>HCShipCrossbowmen2</tech>
+			<tech>HCShipCrossbow1</tech>
+			<tech>HCShipCrossbow2</tech>
 			<tech>HCShipFalconets1</tech>
 			<tech>HCShipMortars1</tech>
 			<tech>HCAdvancedArtillery</tech>
@@ -1498,9 +1725,9 @@
 			<tech x="0.0" y="3.0">HCNativeWarriors</tech>
 			<tech x="0.9" y="5.0">HCXPBloodBrothers</tech>
 			<tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
-			<tech x="0.9" y="1.0">HCCheapBarracksTeam</tech>
-			<tech x="0.9" y="3.0">HCFencingSchool</tech>
-			<tech x="1.6" y="3.0">HCRidingSchool</tech>
+			<tech x="0.9" y="2.0">HCFencingSchool</tech>
+			<tech x="1.6" y="2.0">HCRidingSchool</tech>
+			<tech x="1.6" y="3.0">HCEngineeringSchool</tech>
 			<tech x="2.8" y="1.0">HCFrontierDefenses</tech>
 			<tech x="3.2" y="2.0">HCColonialMilitia</tech>
 			<tech x="2.5" y="2.0">HCPioneers</tech>
@@ -1511,21 +1738,20 @@
 			<tech x="3.9" y="1.0">HCUnlockFort</tech>
 			<tech x="3.9" y="2.0">HCExtensiveFortifications</tech>
 			<tech x="3.9" y="7.0">HCXPAssassins</tech>
-			<tech x="4.6" y="1.0">HCXPShipSpies1</tech>
-			<tech x="4.6" y="3.0">HCXPShipSpies2</tech>
-			<tech x="4.6" y="7.0">HCXPShipSpies3</tech>
+			<tech x="4.6" y="7.0">HCXPShipSpies1</tech>
 			<tech x="5.3" y="1.0">HCXPRanching</tech>
-			<tech x="5.3" y="3.0">HCRoyalDecreeItalians</tech>
+			<tech x="4.6" y="3.0">HCRoyalDecreeItalians</tech>
 			<tech x="6.0" y="1.0">HCAdvancedMill</tech>
 			<tech x="6.7" y="1.0">HCAdvancedMarket</tech>
 			<tech x="6.0" y="5.0">HCAdvancedPlantations</tech>
 			<tech x="6.7" y="3.0">HCAdvancedDock</tech>
 			<tech x="7.4" y="1.0">HCUnlockFactory</tech>
-			<tech x="7.4" y="3.0">HCXPIndustrialRevolution</tech>
-			<tech x="7.4" y="5.0">HCColonialEstancias</tech>
+			<tech x="7.4" y="3.0">HCRobberBarons</tech>
+			<tech x="7.4" y="5.0">CheaperAgeUp</tech>
+			<tech x="5.3" y="3.0">HCXPUnction</tech>
 		</obtainabletechs>
 		<activetechs>
-			<tech>HCCheapBarracksTeam</tech>
+			<tech>CheaperAgeUp</tech>
 			<tech>HCFrontierDefenses</tech>
 			<tech>HCUnlockFort</tech>
 			<tech>HCRoyalDecreeItalians</tech>
@@ -1571,9 +1797,7 @@
 			<tech x="7.0" y="3.0">HCTextileMills</tech>
 			<tech x="7.0" y="5.0">HCXPCapitalism</tech>
 		</obtainabletechs>
-		<activetechs>
-			<tech>HCRumDistillery</tech>
-		</activetechs>
+		<activetechs/>
 		<validunits/>
 		<trainbuilding>1</trainbuilding>
 	</building>
@@ -1594,33 +1818,30 @@
 		<obtainabletechs>
 			<tech x="0.3" y="1.0">HCShipCaravels1</tech>
 			<tech x="0.0" y="2.0">HCShipCaravels2</tech>
-			<tech x="0.0" y="3.0">HCCoastalDefensesTeam</tech>
+			<tech x="1.7" y="7.0">HCCoastalDefensesTeam</tech>
 			<tech x="0.7" y="2.0">HCShipGalleons</tech>
-			<tech x="0.7" y="3.0">HCSpanishGalleons</tech>
-			<tech x="0.7" y="4.0">HCArmada</tech>
-			<tech x="0.7" y="5.0">HCSpanishTreasureFleet</tech>
-			<tech x="0.7" y="7.0">HCXPSpanishGold</tech>
-			<tech x="1.8" y="3.0">HCShipFrigates</tech>
-			<tech x="1.4" y="4.0">HCNavalCombat</tech>
-			<tech x="2.1" y="4.0">HCShipMonitors</tech>
-			<tech x="2.1" y="7.0">HCXPShipMonitorsTeam</tech>
-			<tech x="2.8" y="1.0">HCAdmirality</tech>
-			<tech x="4.4" y="3.0">HCMercsSwissPikemen</tech>
-			<tech x="4.4" y="4.0">HCMercsHighlanders</tech>
-			<tech x="4.4" y="5.0">HCMercsHighland</tech>
-			<tech x="5.1" y="3.0">HCMercsStradiots</tech>
-			<tech x="5.1" y="5.0">HCMercsMediterranean</tech>
-			<tech x="5.8" y="4.0">HCXPMercsElmeti</tech>
-			<tech x="5.8" y="5.0">HCMercsAsian</tech>
-			<tech x="5.8" y="6.0">HCXPMercsGreatCannon</tech>
-			<tech x="6.5" y="1.0">HCPrivateers</tech>
-			<tech x="7.2" y="1.0">HCXPMayanAllies1</tech>
-			<tech x="7.2" y="3.0">HCXPMayanAllies2</tech>
-			<tech x="7.2" y="7.0">HCXPMayanAlliesRepeat</tech>
-			<tech x="3.6" y="1.0">HCXPDanceHallIt</tech>
-			<tech x="3.6" y="6.0">HCMercenaryLoyalty</tech>
+			<tech x="0.7" y="3.0">HCShipFrigates</tech>
+			<tech x="1.7" y="4.0">HCNavalCombat</tech>
+			<tech x="0.7" y="4.0">HCShipMonitors</tech>
+			<tech x="0.7" y="7.0">HCXPShipMonitorsTeam</tech>
+			<tech x="1.7" y="1.0">HCAdmirality</tech>
+			<tech x="4.2" y="3.0">HCMercsSwissPikemen</tech>
+			<tech x="4.2" y="4.0">HCMercsHighlanders</tech>
+			<tech x="4.2" y="5.0">HCMercsHighland</tech>
+			<tech x="4.9" y="6.0">HCMercsMediterranean</tech>
+			<tech x="5.6" y="3.0">HCXPMercsElmeti</tech>
+			<tech x="5.6" y="4.0">HCXPMercsElmetiInf</tech>
+			<tech x="4.9" y="5.0">HCXPMercsGreatCannon</tech>
+			<tech x="6.9" y="2.0">HCPrivateers</tech>
+			<tech x="6.9" y="5.0">HCPrivateers2</tech>
+			<tech x="2.8" y="1.0">HCXPDanceHallIt</tech>
+			<tech x="2.8" y="6.0">HCMercenaryLoyalty</tech>
+			<tech x="5.6" y="5.0">HCMercsHolyRoman</tech>
+			<tech x="4.9" y="3.0">HCMercsMaghrabi</tech>
 		</obtainabletechs>
-		<activetechs/>
+		<activetechs>
+			<tech>HCMercsMaghrabi</tech>
+		</activetechs>
 		<validunits/>
 		<units/>
 		<trainbuilding>1</trainbuilding>

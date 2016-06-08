@@ -170,6 +170,15 @@
 			<title>Mayflower</title>
 			<title>Swan</title>
 		</civ>
+		<civ>
+			Italians
+			<title>Eridano</title>
+			<title>Daino</title>
+			<title>Fortuna</title>
+			<title>Staffetta</title>
+			<title>Garibaldi</title>
+			<title>Marchesa</title>
+		</civ>
 	</protounit>
 	<protounit>
 		ypWokouJunkI
@@ -333,6 +342,14 @@
 			<title>Shannon</title>
 			<title>Unicorn</title>
 			<title>Mary Rose</title>
+		</civ>
+		<civ>
+			Italians
+			<title>San Giovanni</title>
+			<title>Aquila</title>
+			<title>Aurora</title>
+			<title>Padrona</title>
+			<title>Pynele</title>
 		</civ>
 	</protounit>
 	<protounit>
@@ -713,6 +730,16 @@
 			<title>Union</title>
 			<title>Victory</title>
 		</civ>
+		<civ>
+			Italians
+			<title>Vivande</title>
+			<title>Galeas Negre</title>
+			<title>Sancta Brigida</title>
+			<title>Temperanza</title>
+			<title>Vittoria</title>
+			<title>Euridice</title>
+			<title>Des Geneys</title>
+		</civ>
 	</protounit>
 	<protounit>
 		Monitor
@@ -843,6 +870,13 @@
 			<title>Sovereign of the Seas</title>
 			<title>Terror</title>
 			<title>William</title>
+		</civ>
+		<civ>
+			Italians
+			<title>Beroldo</title>
+			<title>Bastarda</title>
+			<title>Baccana</title>
+			<title>Minerva</title>
 		</civ>
 	</protounit>
 	<protounit>
@@ -1085,11 +1119,6 @@
 			<lastname>Jones</lastname>
 			<lastname>Franklin</lastname>
 			<lastname>Reynor</lastname>
-		</civ>
-		<civ>
-			Italians
-			<firstname>Ezio </firstname>
-			<lastname>Auditore</lastname>
 		</civ>
 		<civ>
 			Dutch
@@ -1610,6 +1639,39 @@
 			<title>Ramakrishna</title>
 			<title>Swami Virjananda</title>
 			<title>Adi Shankara</title>
+		</civ>
+		<civ>
+			Italians
+			<firstname>Giovanni </firstname>
+			<firstname>Luigi </firstname>
+			<firstname>Mario </firstname>
+			<firstname>Pietro </firstname>
+			<firstname>Giuseppe </firstname>
+			<firstname>Francesco </firstname>
+			<firstname>Teodoro </firstname>
+			<firstname>Pompeo </firstname>
+			<firstname>Vito </firstname>
+			<firstname>Filippo </firstname>
+			<firstname>Ruggero </firstname>
+			<firstname>Florestano </firstname>
+			<firstname>Achille </firstname>
+			<firstname>Ezio </firstname>
+			<firstname>Cristoforo </firstname>
+			<lastname>Lechi</lastname>
+			<lastname>Zucchi</lastname>
+			<lastname>Pepe</lastname>
+			<lastname>Balabio</lastname>
+			<lastname>Colletta</lastname>
+			<lastname>Nunziante</lastname>
+			<lastname>Maceroni</lastname>
+			<lastname>Sivori</lastname>
+			<lastname>Auditore</lastname>
+			<lastname>Colombo</lastname>
+			<lastname>Paulucci</lastname>
+			<lastname>Caracciolo</lastname>
+			<lastname>Bertoletti</lastname>
+			<lastname>Fontanelli</lastname>
+			<lastname>Codazzi</lastname>
 		</civ>
 	</protounit>
 	<protounit>
@@ -2141,6 +2203,15 @@
 			<title>Fort Kolmakov</title>
 			<title>Fort Derabin</title>
 		</civ>
+		<civ>
+			Italians
+			<title>Fort Diamante</title>
+			<title>Fort di Gaeta</title>
+			<title>Fort di Bard</title>
+			<title>Fort di Fenestrelle</title>
+			<title>Fort Belvedere</title>
+			<title>Fort Palmanova</title>
+		</civ>
 	</protounit>
 	<protounit>
 		FortFrontierR
@@ -2234,6 +2305,15 @@
 			<title>Fort Mikhailovski</title>
 			<title>Fort Kolmakov</title>
 			<title>Fort Derabin</title>
+		</civ>
+		<civ>
+			Italians
+			<title>Fort Diamante</title>
+			<title>Fort di Gaeta</title>
+			<title>Fort di Bard</title>
+			<title>Fort di Fenestrelle</title>
+			<title>Fort Belvedere</title>
+			<title>Fort Palmanova</title>
 		</civ>
 	</protounit>
 	<protounit>
@@ -2893,6 +2973,20 @@
 			<title>Canienga</title>
 			<title>Tonawanda</title>
 		</civ>
+		<civ>
+			Italians
+			<title>Eritrea</title>
+			<title>Rodi</title>
+			<title>Tripoli</title>
+			<title>Cirenaica</title>
+			<title>Modena</title>
+			<title>Ferrara</title>
+			<title>Castro</title>
+			<title>Montferrat</title>
+			<title>Mirandola</title>
+			<title>Cospaia</title>
+			<title>Monteriggioni</title>
+		</civ>
 	</protounit>
 	<protounit>
 		WarLeader
@@ -3053,6 +3147,17 @@
 			<title>Carl Carlsson Morner</title>
 			<title>Gustav Wachtmeister</title>
 		</civ>
+		<civ>
+			Italians
+			<title>Giuseppe Lahoz Ortiz</title>
+			<title>Philip Osipovich Paulucci</title>
+			<title>Ettore Perrone di San Martino</title>
+			<title>Luigi Gaspare Peyri</title>
+			<title>Alberto della Marmora</title>
+			<title>Gennaro Spinelli</title>
+			<title>Achille Fontanelli</title>
+			<title>Guglielmo Pepe</title>
+		</civ>
 	</protounit>
 	<protounit>
 		Church
@@ -3128,6 +3233,14 @@
 			<title>Mosque Yeni Cami</title>
 			<title>Mosque Eyup</title>
 			<title>Mosque Sehzade</title>
+		</civ>
+		<civ>
+			Italians
+			<title>Basilica Santi Cosma e Damiano</title>
+			<title>Basilica Santa Pudenziana</title>
+			<title>Basilica di San Lorenzo</title>
+			<title>Basilica San Nazaro in Brolo</title>
+			<title>Basilica Santi Giovanni e Paolo</title>
 		</civ>
 	</protounit>
 	<protounit>
