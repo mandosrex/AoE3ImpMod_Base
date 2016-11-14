@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<randomMaps displayNameID="33470" imagepath="ui\random_map\standard_maps" helpTextID="18882" cannotReplace="">
+<randomMaps displayNameID="33470" imagepath="ui\random_map\africa\americanmaps" helpTextID="18882" cannotReplace="">
   <map>Amazonia</map>
   <map>Bayou</map>
   <map>Caribbean</map>
@@ -23,6 +23,6 @@
   <map>Northwest Territory</map>
   <map>Hispaniola</map>
   <map>Araucania</map>
-  <map>Unknown</map>
   <map>Painted Desert</map>
+  <map>RockiesLower</map>
 </randomMaps>

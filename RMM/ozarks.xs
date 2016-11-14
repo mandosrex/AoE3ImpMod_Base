@@ -145,6 +145,9 @@ void main(void)
 	rmSetStatusText("",0.10);
 
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
+	rmSetObjectDefMinDistance(startingUnits, 8.0);
+	rmSetObjectDefMaxDistance(startingUnits, 12.0);
+	rmAddObjectDefConstraint(startingUnits, avoidAll);
 
 		// ****************************** PLACE PLAYERS ******************************
 
@@ -426,6 +429,28 @@ void main(void)
    rmAddObjectDefConstraint(playerTreeID, avoidAll);
    rmAddObjectDefConstraint(playerTreeID, avoidImpassableLand);
 
+  int playerSaloonID=rmCreateObjectDef("player saloon");
+  rmAddObjectDefItem(playerSaloonID, "Mill", 1, 0.0);
+  rmSetObjectDefMinDistance(playerSaloonID, 12.0);
+  rmSetObjectDefMaxDistance(playerSaloonID, 16.0);
+	rmAddObjectDefConstraint(playerSaloonID, avoidAll);
+	rmAddObjectDefConstraint(playerSaloonID, avoidImpassableLand);
+  
+  int playerFirepitID=rmCreateObjectDef("player firepit");
+  rmAddObjectDefItem(playerFirepitID, "Farm", 1, 0.0);
+  rmSetObjectDefMinDistance(playerFirepitID, 12.0);
+  rmSetObjectDefMaxDistance(playerFirepitID, 16.0);
+	rmAddObjectDefConstraint(playerFirepitID, avoidAll);
+	rmAddObjectDefConstraint(playerFirepitID, avoidImpassableLand);
+  
+  int playerMonID=rmCreateObjectDef("player monastery");
+  rmAddObjectDefItem(playerMonID, "ypRicePaddy", 1, 0.0);
+  rmSetObjectDefMinDistance(playerMonID, 12.0);
+  rmSetObjectDefMaxDistance(playerMonID, 16.0);
+	rmAddObjectDefConstraint(playerMonID, avoidAll);
+	rmAddObjectDefConstraint(playerMonID, avoidImpassableLand);
+
+
 	for(i = 1; < cNumberPlayers)
    {
 	rmPlaceObjectDefAtLoc(TCID, i, rmPlayerLocXFraction(i), rmPlayerLocZFraction(i));
@@ -436,10 +461,25 @@ void main(void)
 	rmPlaceObjectDefAtLoc(playerturkeyID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
 	rmPlaceObjectDefAtLoc(playerNuggetID, 0, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
      
-    if(ypIsAsian(i) && rmGetNomadStart() == false)
-      rmPlaceObjectDefAtLoc(ypMonasteryBuilder(i, 1), i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
-   rmClearClosestPointConstraints();
-   }
+    if (rmGetNomadStart() == false) {
+      
+      if (rmGetPlayerCiv(i) == rmGetCivID("Chinese") || rmGetPlayerCiv(i) == rmGetCivID("Japanese") || rmGetPlayerCiv(i) == rmGetCivID("Indians")) {
+        rmPlaceObjectDefAtLoc(playerMonID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
+      }
+
+			else if ( rmGetPlayerCiv(i) ==  rmGetCivID("XPIroquois") ||
+						rmGetPlayerCiv(i) ==  rmGetCivID("XPSioux") ||
+						rmGetPlayerCiv(i) ==  rmGetCivID("XPAztec"))
+			{
+				rmPlaceObjectDefAtLoc(playerFirepitID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
+			}
+
+			else
+			{
+				rmPlaceObjectDefAtLoc(playerSaloonID, i, rmXMetersToFraction(xsVectorGetX(TCLoc)), rmZMetersToFraction(xsVectorGetZ(TCLoc)));
+			}
+		}
+	}
 
 	// Text
 	rmSetStatusText("",0.60);
@@ -465,7 +505,7 @@ void main(void)
 			rmSetAreaSize(smallMesaID, rmAreaTilesToFraction(1600), rmAreaTilesToFraction(1600));  //First # is minimum square meters of material it will use to build.  Second # is maximum.  Currently I have them both set to the same because I want a certain size mountain every time.
 		}
 
-  		rmSetAreaCliffType(smallMesaID, "araucania central");
+  		rmSetAreaCliffType(smallMesaID, "Ozarks");
 		//rmAddAreaToClass(centerCliffs, rmClassID("canyon"));	// Attempt to keep cliffs away from each other.
 		rmSetAreaCliffEdge(smallMesaID, 1, 1.0, 0.1, 1.0, 0);
 		rmSetAreaCliffHeight(smallMesaID, rmRandInt(4, 6), 1.0, 1.0);  //was rmRandInt(6, 8)
@@ -494,7 +534,7 @@ void main(void)
 			rmSetAreaSize(smallMesaID2, rmAreaTilesToFraction(1600), rmAreaTilesToFraction(1600));  //First # is minimum square meters of material it will use to build.  Second # is maximum.  Currently I have them both set to the same because I want a certain size mountain every time.
 		}
 
-  		rmSetAreaCliffType(smallMesaID2, "araucania central");
+  		rmSetAreaCliffType(smallMesaID2, "Ozarks");
 		//rmAddAreaToClass(centerCliffs, rmClassID("canyon"));	// Attempt to keep cliffs away from each other.
 		rmSetAreaCliffEdge(smallMesaID2, 1, 1.0, 0.1, 1.0, 0);
 		rmSetAreaCliffHeight(smallMesaID2, rmRandInt(4, 6), 1.0, 1.0);  //was rmRandInt(6, 8)
@@ -526,7 +566,7 @@ void main(void)
 			rmSetAreaSize(smallMesaID3, rmAreaTilesToFraction(1600), rmAreaTilesToFraction(1600));  //First # is minimum square meters of material it will use to build.  Second # is maximum.  Currently I have them both set to the same because I want a certain size mountain every time.
 		}
 
-  		rmSetAreaCliffType(smallMesaID3, "araucania central");
+  		rmSetAreaCliffType(smallMesaID3, "Ozarks");
 		//rmAddAreaToClass(centerCliffs, rmClassID("canyon"));	// Attempt to keep cliffs away from each other.
 		rmSetAreaCliffEdge(smallMesaID3, 1, 1.0, 0.1, 1.0, 0);
 		rmSetAreaCliffHeight(smallMesaID3, rmRandInt(4, 6), 1.0, 1.0);  //was rmRandInt(6, 8)
@@ -847,17 +887,6 @@ void main(void)
 
 	// Text
 	
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
-
   // check for KOTH game mode
   if(rmGetIsKOTH()) {
     

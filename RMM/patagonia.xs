@@ -97,7 +97,7 @@ void main(void)
    int whaleLand = rmCreateTerrainDistanceConstraint("whale v. land", "land", true, 20.0);
 	int avoidFastCoin=rmCreateTypeDistanceConstraint("fast coin avoids coin", "gold", 60.0);
 	int avoidFastCoinForest=rmCreateTypeDistanceConstraint("forests avoid fast coin", "gold", 10.0);
-   int avoidNuggetWater=rmCreateTypeDistanceConstraint("nugget vs. nugget water", "AbstractNugget", 80.0);
+   int avoidNuggetWater=rmCreateTypeDistanceConstraint("nugget vs. nugget water", "AbstractNugget", 60.0);
    int avoidLand = rmCreateTerrainDistanceConstraint("ship avoid land", "land", true, 15.0);
 
    // Avoid impassable land
@@ -428,7 +428,7 @@ void main(void)
 
       // Starting Unit placement
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
-	rmSetObjectDefMinDistance(startingUnits, 5.0);
+	rmSetObjectDefMinDistance(startingUnits, 6.0);
 	rmSetObjectDefMaxDistance(startingUnits, 10.0);
 	rmAddObjectDefToClass(startingUnits, rmClassID("startingUnit"));
 	rmAddObjectDefConstraint(startingUnits, avoidAll);
@@ -780,16 +780,6 @@ void main(void)
 	rmClearClosestPointConstraints();
    */
 
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH()) {

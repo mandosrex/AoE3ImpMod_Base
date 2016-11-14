@@ -282,16 +282,6 @@ int sfBuildBigIsland (string bigIslandName = "", float x_loc = 0.0, float y_loc 
     vector socketLoc = rmGetTradeRouteWayPoint(tradeRouteID, 0.5);
     rmPlaceObjectDefAtPoint(socketID, 0, socketLoc);  
     
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
       // check for KOTH game mode
     if(rmGetIsKOTH()) {
@@ -835,8 +825,8 @@ void main(void)
     	
 	//Prepare to place Explorers, Explorer's dog, Explorer's Taun Taun, etc.
 	int startingUnits = rmCreateStartingUnitsObjectDef(4.0);
-	rmSetObjectDefMinDistance(startingUnits, 5.0);
-	rmSetObjectDefMaxDistance(startingUnits, 8.0);
+	rmSetObjectDefMinDistance(startingUnits, 6.0);
+	rmSetObjectDefMaxDistance(startingUnits, 10.0);
 	rmAddObjectDefConstraint(startingUnits, avoidAll);
 	rmAddObjectDefConstraint(startingUnits, avoidImpassableLand);
 

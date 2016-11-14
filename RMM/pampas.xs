@@ -38,18 +38,18 @@ void main(void)
 	}
 
 // *************************** MAP PARAMETERS **************************
-   //int playerTiles=11000;		// OLD SIZE
-	int playerTiles = 10000;
+   //int playerTiles=13000;		// OLD SIZE
+	int playerTiles = 12000;
 	if (cNumberNonGaiaPlayers >4)
-		playerTiles = 8000;
+		playerTiles = 10000;
 	if (cNumberNonGaiaPlayers >6)
-		playerTiles = 6000;		
+		playerTiles = 8000;		
 	if(cMapSize == 1)
 	{
 		playerTiles = 15000;			// DAL modified from 18K
 		rmEchoInfo("Large map");
 	}
-	int size=1.7*sqrt(cNumberNonGaiaPlayers*playerTiles);
+	int size=1.9*sqrt(cNumberNonGaiaPlayers*playerTiles);
 	int longSide=1.4*size;      // 'Longside' is used to make the map rectangular
 	rmEchoInfo("Map size="+size+"m x "+longSide+"m");
 	rmSetMapSize(longSide, size);
@@ -530,8 +530,8 @@ void main(void)
 	//rmPlaceObjectDefPerPlayer(startSilverID, true);
 
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
-	rmSetObjectDefMinDistance(startingUnits, 5.0);
-    rmSetObjectDefMaxDistance(startingUnits, 10.0);
+	rmSetObjectDefMinDistance(startingUnits, 8.0);
+	rmSetObjectDefMaxDistance(startingUnits, 12.0);
 	rmAddObjectDefConstraint(startingUnits, avoidAll);
 	//rmAddObjectDefConstraint(startingUnits, avoidResource);
 	rmAddObjectDefConstraint(startingUnits, avoidImpassableLand);
@@ -1112,16 +1112,6 @@ numTries=8*cNumberNonGaiaPlayers;  // DAL - 3 here, three above.
 	}
 */
 
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH()) {

@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+imagepath = "ui\random_map\africa\australia" 
+displayNameID = "130111"
+details = "130112" 
+loadDetails = "130113" 
+loadBackground="ui\random_map\africa\australia\australia_map">
+   <loadss>ui\random_map\africa\australia\australia_ss_01</loadss>
+   <loadss>ui\random_map\africa\australia\australia_ss_02</loadss>
+   <loadss>ui\random_map\africa\australia\australia_ss_03</loadss>
+</mapinfo>

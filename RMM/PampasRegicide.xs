@@ -15,11 +15,11 @@ void main(void)
 
 // ********************** MAP PARAMETERS *********************
    // Map size
-   int playerTiles = 10000;
+   int playerTiles = 12000;
    if (cNumberNonGaiaPlayers >4)
-	playerTiles = 8000;
+	playerTiles = 10000;
    if (cNumberNonGaiaPlayers >6)
-	playerTiles = 6000;
+	playerTiles = 8000;
 // size reset for Regicide		
    int size=2.1*sqrt(cNumberNonGaiaPlayers*playerTiles);
    int longSide=1.4*size;      // 'Longside' is used to make the map rectangular
@@ -531,7 +531,7 @@ void main(void)
       rmAddObjectDefConstraint(startSilver2ID, centerConstraint);
    
    int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
-   rmSetObjectDefMinDistance(startingUnits, 5.0);
+   rmSetObjectDefMinDistance(startingUnits, 6.0);
    rmSetObjectDefMaxDistance(startingUnits, 10.0);
    rmAddObjectDefConstraint(startingUnits, avoidAll);
    //rmAddObjectDefConstraint(startingUnits, avoidResource);
@@ -749,16 +749,6 @@ void main(void)
 // Text
 	rmSetStatusText("",0.35);
 
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
 // ********** KOTH game mode **********
    if(rmGetIsKOTH())
@@ -902,7 +892,7 @@ void main(void)
 	rmSetStatusText("",0.60);
 
 // Forests
-   int numTries=10*cNumberNonGaiaPlayers;  
+   int numTries=11*cNumberNonGaiaPlayers;  
    int failCount=0;
    for (i=0; <numTries)
    {   

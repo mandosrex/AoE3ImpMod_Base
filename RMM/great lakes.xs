@@ -364,16 +364,6 @@ if (seasonPicker < 0.5)
 
    //mineType = rmRandInt(1,10);
   
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH()) {
@@ -537,8 +527,9 @@ if (seasonPicker < 0.5)
 	//rmPlaceObjectDefPerPlayer(startingTCID, true);
 
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
-	rmSetObjectDefMinDistance(startingUnits, 10.0);
+	rmSetObjectDefMinDistance(startingUnits, 8.0);
 	rmSetObjectDefMaxDistance(startingUnits, 12.0);
+	rmAddObjectDefConstraint(startingUnits, avoidAll);
 	rmAddObjectDefToClass(startingUnits, rmClassID("startingUnit"));
 
 	int StartAreaTreeID=rmCreateObjectDef("starting trees");

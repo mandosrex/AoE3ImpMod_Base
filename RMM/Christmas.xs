@@ -3,6 +3,10 @@
 // Main entry point for random map script I MADE A CHANGE
 //
 
+include "mercenaries.xs";
+include "ypAsianInclude.xs";
+include "ypKOTHInclude.xs";
+
 void main(void)
 {
    // Text
@@ -55,6 +59,8 @@ void main(void)
 			}
 	 
 	}
+
+	chooseMercs();
 
    // Picks the map size
    //int playerTiles=12000;	// old settings
@@ -415,8 +421,9 @@ if (seasonPicker < 0.5)
 	//rmPlaceObjectDefPerPlayer(startingTCID, true);
 
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
-	rmSetObjectDefMinDistance(startingUnits, 10.0);
+	rmSetObjectDefMinDistance(startingUnits, 8.0);
 	rmSetObjectDefMaxDistance(startingUnits, 12.0);
+	rmAddObjectDefConstraint(startingUnits, avoidAll);
 	rmAddObjectDefToClass(startingUnits, rmClassID("startingUnit"));
 
 	int StartAreaTreeID=rmCreateObjectDef("starting trees");
@@ -1045,6 +1052,19 @@ if (seasonPicker < 0.5)
 	rmAddObjectDefConstraint(sheepID, avoidImpassableLand);
 	rmPlaceObjectDefAtLoc(sheepID, 0, 0.5, 0.5, cNumberNonGaiaPlayers*3);
 
+
+  // check for KOTH game mode
+  if(rmGetIsKOTH()) {
+    
+    int randLoc = rmRandInt(1,2);
+    float xLoc = 0.5;
+    float yLoc = 0.8;
+    float walk = 0.03;
+    
+    ypKingsHillPlacer(xLoc, yLoc, walk, 0);
+    rmEchoInfo("XLOC = "+xLoc);
+    rmEchoInfo("XLOC = "+yLoc);
+  }
 
 	// Text
 	rmSetStatusText("",1.0);

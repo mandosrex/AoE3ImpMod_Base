@@ -1424,9 +1424,9 @@ extern int  gMostRecentTriggerOpportunityID = -1;  // Which opportunity (if any)
 extern int  gLastClaimMissionTime = -1;
 extern int  gLastAttackMissionTime = -1;
 extern int  gLastDefendMissionTime = -1;
-extern int  gClaimMissionInterval = 600000;  // 10 minutes.  This variable indicates how long it takes for claim opportunities to score their maximum.  Typically, a new one will launch before this time.
+extern int  gClaimMissionInterval = 300000;  // 10 minutes.  This variable indicates how long it takes for claim opportunities to score their maximum.  Typically, a new one will launch before this time.
 extern int  gAttackMissionInterval = 180000; // 3 minutes.  Suppresses attack scores (linearly) for 3 minutes after one launches.  Attacks will usually happen before this period is over.
-extern int  gDefendMissionInterval = 300000;  // 5 minutes.   Makes the AI less likely to do another defend right after doing one.
+extern int  gDefendMissionInterval = 180000;  // 5 minutes.   Makes the AI less likely to do another defend right after doing one.
 extern bool gDelayAttacks = false;     // Can be used on low difficulty levels to prevent attacks before the AI is attacked.  (AI is defend-only until this variable is
                                        // set false.
 
@@ -1591,7 +1591,7 @@ void initArrays(void)
    gTargetSettlerCounts = xsArrayCreateInt(cAge5+1, 0, "Target Settler Counts");
       xsArraySetInt(gTargetSettlerCounts, cAge1, 25);
       xsArraySetInt(gTargetSettlerCounts, cAge2, 50);
-      xsArraySetInt(gTargetSettlerCounts, cAge3, 70);
+      xsArraySetInt(gTargetSettlerCounts, cAge3, 75);
       xsArraySetInt(gTargetSettlerCounts, cAge4, 90);
       xsArraySetInt(gTargetSettlerCounts, cAge5, 100);
 
@@ -2984,11 +2984,96 @@ void setConsulateArmyPreference() {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman2, 0.6);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman3, 0.6);
   }
+
   if (kbTechGetStatus(cTechypBigConsulateJapanese) == cTechStatusActive) {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSColonialMarines, 0.6);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSRiflemenRegiment, 0.6);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSSaberSquad, 0.6);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSGatlingGuns, 0.6);
+  }
+
+  if (kbTechGetStatus(cTechypBigConsulateSPCChina) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyItalians1, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyItalians2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyItalians3, 0.6);
+  }
+
+  if (kbTechGetStatus(cTechypBigConsulateSPCIndia) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSwedishArmy1, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSwedishArmy2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSwedishArmy3, 0.6);
+  }
+  
+}
+
+
+void setCapitolArmyPreference() {
+  if (kbUnitCount(cMyID, cUnitTypeCapitol, cUnitStateAlive) < 1) {
+    return;
+  }
+  if (kbTechGetStatus(cTechAge0Portuguese) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese11, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese22, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyPortuguese33, 0.6);
+  }
+  
+  if (kbTechGetStatus(cTechAge0Dutch) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch11, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch22, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyDutch33, 0.6);
+  }
+  
+  if (kbTechGetStatus(cTechAge0Russian) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian11, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian22, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyRussian33, 0.6);
+  }
+  
+  if (kbTechGetStatus(cTechAge0Spanish) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish11, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish22, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmySpanish33, 0.6);
+  }
+  
+  if (kbTechGetStatus(cTechAge0British) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish11, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish22, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyBritish33, 0.6);      
+  }
+  
+  if (kbTechGetStatus(cTechAge0French) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench11, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench22, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyFrench33, 0.6); 
+  }
+  
+  if (kbTechGetStatus(cTechAge0German) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman11, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman22, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyGerman33, 0.6); 
+  }
+  
+  if (kbTechGetStatus(cTechAge0Ottoman) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman11, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman22, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyOttoman33, 0.6);
+  }
+
+  if (kbTechGetStatus(cTechAge0USA) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSColonialMarines2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSSaberSquad2, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeUSGatlingGuns2, 0.6);
+  }
+
+  if (kbTechGetStatus(cTechAge0Italians) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyItalians11, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyItalians22, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateArmyItalians33, 0.6);
+  }
+
+  if (kbTechGetStatus(cTechAge0Swedish) == cTechStatusActive) {
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSwedishArmy11, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSwedishArmy22, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeSwedishArmy33, 0.6);
   }
   
 }
@@ -3309,7 +3394,7 @@ int createMainBase(vector mainVec=cInvalidVector)
       kbUnitQuerySetUnitType(unitQueryID, cUnitTypeBuilding);
       kbUnitQuerySetState(unitQueryID, cUnitStateABQ);
       kbUnitQuerySetPosition(unitQueryID, mainVec);      // Checking new base vector
-      kbUnitQuerySetMaximumDistance(unitQueryID, 50.0);
+      kbUnitQuerySetMaximumDistance(unitQueryID, 55.0);
 	}
    
    kbUnitQueryResetResults(unitQueryID);
@@ -5615,7 +5700,7 @@ minInterval 10
    
    int attempt = 0;
    vector testVec = cInvalidVector;
-   float spacingDistance = 22.0; // Mid- and corner-spots on a square with 'radius' spacingDistance, i.e. each side is 2 * spacingDistance.
+   float spacingDistance = 25.0; // Mid- and corner-spots on a square with 'radius' spacingDistance, i.e. each side is 2 * spacingDistance.
    float exclusionRadius = spacingDistance / 2.0;
    float dx = spacingDistance;
    float dz = spacingDistance;
@@ -5731,7 +5816,7 @@ minInterval 10
    if (success == true)
       aiPlanSetVariableFloat(buildPlan, cBuildPlanCenterPositionDistance, 0, exclusionRadius);
    else
-      aiPlanSetVariableFloat(buildPlan, cBuildPlanCenterPositionDistance, 0, 50.0);
+      aiPlanSetVariableFloat(buildPlan, cBuildPlanCenterPositionDistance, 0, 55.0);
 
    // Add position influence for nearby towers
    aiPlanSetVariableInt(buildPlan, cBuildPlanInfluenceUnitTypeID, 0, gTowerUnit);   // Russian's won't notice ally towers and vice versa...oh well.
@@ -6009,8 +6094,8 @@ void deathMatchSetup(void)
 
 rule moreDMHouses
 inactive
-minInterval 90
-{  // After 90 seconds, make 10 more houses
+minInterval 60
+{  // After 60 seconds, make 10 more houses
    if (cMyCiv != cCivXPSioux)
       createSimpleBuildPlan(gHouseUnit, 10, 99, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
    // 1 each of the main military buildings, ASAP.
@@ -6053,7 +6138,7 @@ minInterval 90
 
 rule finalDMHouses
 inactive
-minInterval 120
+minInterval 100
 {
    int count = kbUnitCount(cMyID, gHouseUnit, cUnitStateAlive);
    int max = kbGetBuildLimit(cMyID, gHouseUnit);
@@ -6715,6 +6800,14 @@ minInterval 5
       xsEnableRule("stageCoachMonitor");
       xsEnableRule("healerMonitor");
 
+      //Enable Mill Upgrades
+      xsEnableRule("MillUpgradeMonitor");
+      xsEnableRule("MarketUpgradeMonitor");
+
+      //Enable Hanami Upgrade for japanese to improve gathering strawberries
+      xsEnableRule("MarketBerryDogsUpgradeMonitor");
+      xsEnableRule("MarketBerryTrapsUpgradeMonitor");
+
       // Enable settler hitpoint and attack upgrades (research to be started about 3 minutes later)
       xsEnableRule("settlerUpgradeMonitor");
 
@@ -6749,7 +6842,7 @@ minInterval 5
       setUnitPickerPreference(gLandUnitPicker);
      
       gLastAttackMissionTime = xsGetTime() - 180000;     // Pretend they all fired 3 minutes ago, even if that's a negative number.
-      gLastDefendMissionTime = xsGetTime() - 300000;     // Actually, start defense ratings at 100% charge, i.e. 5 minutes since last one.
+      gLastDefendMissionTime = xsGetTime() - 180000;     // Actually, start defense ratings at 100% charge, i.e. 5 minutes since last one.
       gLastClaimMissionTime = xsGetTime() - 180000;
 
       aiEcho("*** We're in age 2.");
@@ -6801,6 +6894,11 @@ minInterval 10
          createSimpleBuildPlan(cUnitTypeTownCenter, 1, 90, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
          aiEcho("Starting build plan for an additional Ottoman town center");
       }
+
+      //Enable Rice Paddy and Farm Upgrades  
+      xsEnableRule("RicePaddyUpgradeMonitor");
+
+      xsEnableRule("FarmUpgradeMonitor");
 
       // Enable basic church upgrades
       xsEnableRule("churchUpgradeMonitor");
@@ -6871,6 +6969,8 @@ minInterval 10
       xsEnableRule("ironHorseMonitor");
 
       xsEnableRule("balloonMonitor");
+
+      xsEnableRule("morebanks");
 
       // Enable advanced arsenal upgrades
       xsEnableRule("advancedArsenalUpgradeMonitor");
@@ -7016,15 +7116,15 @@ mininterval 15
          return;  // Don't burn wood before we have a mosque.
    }
    
-   gNumFishBoats = ((btRushBoom * -1.0) + 0.7) * 5.0; // At max boom, that's 8.  At balance, it's 3.  
+   gNumFishBoats = ((btRushBoom * -1.0) + 0.7) * 7.0; // At max boom, that's 8.  At balance, it's 3.  
    if (gNumFishBoats < 2)
    {
       gNumFishBoats = 0;   // Rushers generally shouldn't fish.
    }
    if ( (cRandomMapName == "amazonia") || (cRandomMapName == "caribbean") || (cRandomMapName == "Ceylon") || (cRandomMapName == "Borneo") || (cRandomMapName == "Honshu") )
    {
-      if (gNumFishBoats < 3)
-         gNumFishBoats = 3;   // Always fish on those maps.
+      if (gNumFishBoats < 4)
+         gNumFishBoats = 4;   // Always fish on those maps.
    }
    if ( (givenFishingBoats == false) && (gNumFishBoats <= 0) )
       return;  //We weren't given any, and don't plan on making any, so quit.
@@ -7519,15 +7619,15 @@ void initEcon(void)
       gHouseUnit = cUnitTypeManor;
       gLivestockPenUnit = cUnitTypeManor;
    
-   if ( (kbGetCiv() == cCivFrench) || (kbGetCiv() == cCivDutch) )
+   if ( (kbGetCiv() == cCivFrench) || (kbGetCiv() == cCivUSA) || (kbGetCiv() == cCivDutch) )
       gHouseUnit = cUnitTypeHouse;
       gLivestockPenUnit = cUnitTypeHouse;
    
-   if ( (kbGetCiv() == cCivGermans) || (kbGetCiv() == cCivTheCircle) || (kbGetCiv() == cCivRussians) )
+   if ( (kbGetCiv() == cCivGermans) || (kbGetCiv() == cCivTheCircle) || (kbGetCiv() == cCivSwedish) || (kbGetCiv() == cCivRussians) )
       gHouseUnit = cUnitTypeHouseEast;
       gLivestockPenUnit = cUnitTypeHouseEast;
    
-   if ( (kbGetCiv() == cCivSpanish) || (kbGetCiv() == cCivPortuguese) || (kbGetCiv() == cCivOttomans) )
+   if ( (kbGetCiv() == cCivSpanish) || (kbGetCiv() == cCivPortuguese) || (kbGetCiv() == cCivItalians) || (kbGetCiv() == cCivOttomans) )
       gHouseUnit = cUnitTypeHouseMed;
       gLivestockPenUnit = cUnitTypeHouseMed;
    
@@ -8118,6 +8218,10 @@ void updateForecasts()
             if (kbTechGetStatus(cTechChurchTopkapi) == cTechStatusObtainable)
             {
                addTechToForecasts(cTechChurchTopkapi);
+            }
+            if (kbTechGetStatus(cTechChurchTanzimat) == cTechStatusObtainable)
+            {
+               addTechToForecasts(cTechChurchTanzimat);
             }
          }
          else if ((civIsNative() == false) && (civIsAsian() == false))  // Other non-native/non-Asian civs - just the church
@@ -9264,7 +9368,7 @@ rule delayWalls
 inactive
 minInterval 10
 {
-   if ( (kbGetPopCap()-kbGetPop()) < 60 )
+   if ( (kbGetPopCap()-kbGetPop()) < 70 )
       return;  // Don't start walls until we have pop room
    int wallPlanID=aiPlanCreate("WallInBase", cPlanBuildWall);
    if (wallPlanID != -1)
@@ -9272,8 +9376,8 @@ minInterval 10
       aiPlanSetVariableInt(wallPlanID, cBuildWallPlanWallType, 0, cBuildWallPlanWallTypeRing);
       aiPlanAddUnitType(wallPlanID, gEconUnit, 0, 1, 1);
       aiPlanSetVariableVector(wallPlanID, cBuildWallPlanWallRingCenterPoint, 0, kbBaseGetLocation(cMyID, kbBaseGetMainID(cMyID)));
-      aiPlanSetVariableFloat(wallPlanID, cBuildWallPlanWallRingRadius, 0, 50.0);
-      aiPlanSetVariableInt(wallPlanID, cBuildWallPlanNumberOfGates, 0, 6);
+      aiPlanSetVariableFloat(wallPlanID, cBuildWallPlanWallRingRadius, 0, 55.0);
+      aiPlanSetVariableInt(wallPlanID, cBuildWallPlanNumberOfGates, 0, 8);
       aiPlanSetBaseID(wallPlanID, kbBaseGetMainID(cMyID));
       aiPlanSetEscrowID(wallPlanID, cEconomyEscrowID);
       aiPlanSetDesiredPriority(wallPlanID, 40);
@@ -9305,9 +9409,10 @@ minInterval 10
    int needToRoll = 100.0 * odds;  // Range -50 to +150
    if ( (aiRandInt(100) < needToRoll) && (cvOkToBuildWalls == true) )
    {
-      //aiEcho("Decided to do walls.");
-      //gBuildWalls = true;
-      //xsEnableRule("delayWalls");   // Start walls once we have housing room
+      aiEcho("Decided to do walls.");
+      gBuildWalls = true;
+      xsEnableRule("delayWalls");   // Start walls once we have housing room
+      xsEnableRule("BastionUpgradeMonitor");
    }
    
    if (gNumTowers < 0)
@@ -9371,13 +9476,13 @@ void setUnitPickerPreference(int upID = -1)
          return;     // This should never happen, it should be set when the unitPickSource is set.
       
       kbUnitPickResetAll(gLandUnitPicker);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractInfantry, 0.4);   // Range 0.0 to 1.0
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractArtillery, 0.4 );
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.4);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractInfantry, 0.5);   // Range 0.0 to 1.0
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractArtillery, 0.5 );
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.5);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractNativeWarrior, 0.2);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);    // Avoid coureurs, they mess up econ/mil calcs.
       if (cMyCiv == cCivXPAztec)
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.4);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.5);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpWarrior, 0.0);    // Never pick xpWarrior or xpDogSoldier, available via dance only
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpMedicineManAztec, 0.0);
@@ -9387,10 +9492,9 @@ void setUnitPickerPreference(int upID = -1)
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.1);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeEnvoy, 0.1);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMongolScout, 0.1);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
       if ( (kbGetCiv() == cCivIndians) || (kbGetCiv() == cCivSPCIndians) )    // Avoid mansabdar units
@@ -9418,12 +9522,12 @@ void setUnitPickerPreference(int upID = -1)
       // See if 1, 2, or 3 lines set.  If 1, score 0.8 vs. 0.2.  If 2, score 1.0, 0.5 and 0.0.  If 3, score 0.8, 0.4 and 0.2.
       if (cvSecondaryArmyUnit < 0)  // Only one line selected
       {
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractInfantry, 0.4);   // Range 0.0 to 1.0
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractArtillery, 0.4 );
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.4);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractInfantry, 0.5);   // Range 0.0 to 1.0
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractArtillery, 0.5 );
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.5);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractNativeWarrior, 0.2);
          if (cMyCiv == cCivXPAztec)
-            kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.4);
+            kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.5);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);    // Avoid coureurs, they mess up econ/mil calcs.
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpWarrior, 0.0);    // Never pick xpWarrior or xpDogSoldier, available via dance only
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
@@ -9434,10 +9538,9 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.1);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeEnvoy, 0.1);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMongolScout, 0.1);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
          if ( (kbGetCiv() == cCivIndians) || (kbGetCiv() == cCivSPCIndians) )    // Avoid mansabdar units
@@ -9457,12 +9560,12 @@ void setUnitPickerPreference(int upID = -1)
       }
       else if (cvTertiaryArmyUnit < 0)  // Two lines selected
       {
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractInfantry, 0.4);   // Range 0.0 to 1.0
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractArtillery, 0.4 );
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.4);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractInfantry, 0.5);   // Range 0.0 to 1.0
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractArtillery, 0.5 );
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.5);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractNativeWarrior, 0.2);
          if (cMyCiv == cCivXPAztec)
-            kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.4);
+            kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.5);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);    // Avoid coureurs, they mess up econ/mil calcs.  
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpWarrior, 0.0);    // Never pick xpWarrior or xpDogSoldier, available via dance only
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
@@ -9473,10 +9576,9 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.1);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeEnvoy, 0.1);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMongolScout, 0.1);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
          if ( (kbGetCiv() == cCivIndians) || (kbGetCiv() == cCivSPCIndians) )    // Avoid mansabdar units
@@ -9497,12 +9599,12 @@ void setUnitPickerPreference(int upID = -1)
       }
       else  // Three lines selected
       {
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractInfantry, 0.4);   // Range 0.0 to 1.0
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractArtillery, 0.4 );
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.4);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractInfantry, 0.5);   // Range 0.0 to 1.0
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractArtillery, 0.5 );
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractCavalry, 0.5);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractNativeWarrior, 0.2);
          if (cMyCiv == cCivXPAztec)
-            kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.4);
+            kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractLightInfantry, 0.5);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);    // Avoid coureurs, they mess up econ/mil calcs.  
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpWarrior, 0.0);    // Never pick xpWarrior or xpDogSoldier, available via dance only
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpDogSoldier, 0.0);
@@ -9513,10 +9615,9 @@ void setUnitPickerPreference(int upID = -1)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.0);
-         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.1);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeEnvoy, 0.1);
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMongolScout, 0.1);
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
          if ( (kbGetCiv() == cCivIndians) || (kbGetCiv() == cCivSPCIndians) )    // Avoid mansabdar units
@@ -9584,6 +9685,9 @@ void setUnitPickerPreference(int upID = -1)
       if (cMyCiv == cCivBritish)
          kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeHalberdier, 0.1);
 
+      if (cMyCiv == cCivFrench)
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeFlatbowman, 0.1);
+
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeAbstractNativeWarrior, 0.5 + (btBiasNative / 2.0));
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeCoureur, 0.0);    // Avoid coureurs, they mess up econ/mil calcs.   
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpWarrior, 0.0);    // Never pick xpWarrior or xpDogSoldier, available via dance only
@@ -9593,13 +9697,12 @@ void setUnitPickerPreference(int upID = -1)
 
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpRam, 0.0);   // Avoid units the AI cannot handle properly
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpPetard, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMortar, 0.2);
       kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypexpSpy, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.0);
-      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.0);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeNativeScout, 0.1);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeEnvoy, 0.1);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypMongolScout, 0.1);
+      kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeMercenary, 0.2);
 
       if ( (kbGetCiv() == cCivChinese) || (kbGetCiv() == cCivSPCChinese) ) 
       {
@@ -9637,6 +9740,12 @@ void setUnitPickerPreference(int upID = -1)
       { 
          // Set preferences for consulate units
          setConsulateArmyPreference();
+      }
+
+      if (civIsAsian() == false)
+      { 
+         // Set preferences for capitol units
+         setCapitolArmyPreference();
       }
 
       if (civIsNative() == true)
@@ -9970,7 +10079,7 @@ active
 //==============================================================================
 void initMil(void)
 {
-   aiSetAttackResponseDistance(65.0);
+   aiSetAttackResponseDistance(70.0);
 
    // Choose a most-hated player
    xsEnableRule("mostHatedEnemy");
@@ -11078,6 +11187,17 @@ minInterval 3
       {     // Start a new one
          createSimpleBuildPlan(cUnitTypeChurch, 1, 60, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
          aiEcho("Starting a new church build plan.");
+      }
+   }
+
+   // At least one basilica for Italians
+   if (cMyCiv == cCivItalians)
+   {
+      planID = aiPlanGetIDByTypeAndVariableType(cPlanBuild, cBuildPlanBuildingTypeID, cUnitTypeBasilicaIt);
+      if ( (planID < 0) && (kbUnitCount(cMyID, cUnitTypeBasilicaIt, cUnitStateAlive) < 1) )
+      {     // Start a new one
+         createSimpleBuildPlan(cUnitTypeBasilicaIt, 1, 60, true, cEconomyEscrowID, kbBaseGetMainID(cMyID), 1);
+         aiEcho("Starting a new basilica build plan.");
       }
    }
 
@@ -13022,7 +13142,8 @@ minInterval 1
          {  // First, set maximum priority for the "best" cards 
             // 'Advanced Trading Post', 'Royal Decree', 'Advanced Arsenal', 'New Ways' & 'Advanced Balloon',
             // plus '2 Grove Rickshaws' & 'Shogun Tokugawa'
-            if ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCAdvancedTradingPost") ||
+            if ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCImprovedBuildings") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCImprovedBuildingsGerman") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRoyalDecreeBritish") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRoyalDecreeDutch") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRoyalDecreeFrench") ||
@@ -13031,12 +13152,152 @@ minInterval 1
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRoyalDecreePortuguese") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRoyalDecreeRussian") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRoyalDecreeSpanish") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRoyalDecreeSwedish") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRoyalDecreeItalians") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCAdvancedArsenal") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCAdvancedArsenalGerman") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPNewWaysIroquois") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPNewWaysSioux") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPAdvancedBalloon") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipGroveWagonIndians2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCUnlockFactory") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRobberBarons") ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCUnlockFactoryGerman") && (kbGetCiv() != cCivGermans)) ||				
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRobberBaronsGerman") && (kbGetCiv() != cCivGermans)) ||								
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIndustrialRevolution") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCExoticHardwoods") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCGrainMarket") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRefrigeration") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRoyalMint") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCTextileMills") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRoyalMintGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRefrigerationGerman") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCRoyalMintIndians") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCFencingSchoolIndians") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCRidingSchoolIndians") ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCGermanTownFarmers") && (kbGetCiv() != cCivGermans)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCGuildArtisans") && (kbGetCiv() != cCivGermans)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCTeamTeutonTownCenter") && (kbGetCiv() != cCivGermans)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCUhlanCombatGerman") && (kbGetCiv() != cCivGermans)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCDutchEastIndiaCompany") && (kbGetCiv() != cCivDutch)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCBetterBanks") && (kbGetCiv() != cCivDutch)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCBanks1") && (kbGetCiv() != cCivDutch)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCBanks2") && (kbGetCiv() != cCivDutch)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRansack") && (kbGetCiv() != cCivRussians)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCGurkhaAid") && (kbGetCiv() != cCivIndians)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCSustainableAgricultureIndians") && (kbGetCiv() != cCivIndians)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCIncreasedTribute") && (kbGetCiv() != cCivJapanese)) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCMughalArchitecture") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCEastIndiaCompany") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCCamelDamageIndians") ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRumDistillery") && (kbGetCiv() != cCivXPIroquois)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCSustainableAgriculture") && (kbGetCiv() != cCivXPIroquois)) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCFencingSchool") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCFencingSchoolGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRidingSchool") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRidingSchoolGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCJanissaryCombatOttoman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCJanissaryCost") ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipGroveWagonIndians2") && (kbGetCiv() != cCivIndians)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCElephantTrampling") && (kbGetCiv() != cCivIndians)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCElephantCombatIndians") && (kbGetCiv() != cCivIndians)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCElephantLimit") && (kbGetCiv() != cCivIndians)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCCamelFrightening") && (kbGetCiv() != cCivIndians)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipWoodCratesInf4Indians") && (kbGetCiv() != cCivIndians)) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCoyoteCombat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPKnightDamage") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPKnightHitpoints") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPKnightCombat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPInfantryCombatIroquois") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiegeCombat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPConservativeTactics") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPInfantryHitpointsIroquois") ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCommandSkill") && (kbGetCiv() != cCivXPSioux)) ||				
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPMustangs") && (kbGetCiv() != cCivXPSioux)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCSpiceTrade") && (kbGetCiv() != cCivBritish)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCPioneers") && (kbGetCiv() != cCivFrench)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCLightArtilleryHitpointsOttoman") && (kbGetCiv() != cCivOttomans)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCArtilleryDamageOttoman") && (kbGetCiv() != cCivOttomans)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCArtilleryHitpointsOttomanTeam") && (kbGetCiv() != cCivOttomans)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCNativeCombat") && (kbGetCiv() != cCivFrench)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCNativeWarriors") && (kbGetCiv() != cCivFrench)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandCavalryHitpointsFrench") && (kbGetCiv() != cCivFrench)) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPAdoption") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPBuffalo4") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCavalryDamageSioux") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCavalryHitpointsSioux") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCavalryCombatSioux") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPMedicineTeam") ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCFoodSilos") && (kbGetCiv() != cCivXPSioux)) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPEarthBounty") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPWindRunner") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPNomadicExpansion") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCavalryCombatFrench") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRangedInfantryDamageFrenchTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCavalryDamageGermanTeam") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCDragoonCombatPortuguese") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCavalryCombatRussian") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCStreletsCombatRussian") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCavalryCombatGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxTwoKettleSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxSanteeSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxYanktonSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandInfantryCombatGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandCavalryCombatSpanish") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCMusketeerGrenadierCombatBritish") ||								
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCHanAntiCavalryBonus") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCAccupuncture") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCBannerSchool") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCSamuraiDamage") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCNobleCombat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCNaginataHitpoints") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCNaginataAntiInfantryDamage") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCYumiDamage") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCYumiRange") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCAshigaruDamage") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCSamuraiSpeed") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCaballeros") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandInfantryHitpointsSpanish") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandInfantryCombatSpanish") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCInfantryCombatDutch") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCavalryCombatDutch") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCavalryCombatOttoman") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPExoticHardwoodsTeam") ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCPioneers") && (kbGetCiv() != cCivRussians)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCSpiceTrade") && (kbGetCiv() != cCivRussians)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCMedicine") && (kbGetCiv() != cCivRussians)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCPioneers") && (kbGetCiv() != cCivXPSioux)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCSpiceTrade") && (kbGetCiv() != cCivXPSioux)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCPioneers") && (kbGetCiv() != cCivPortuguese)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRangedInfantryCombatPortuguese") && (kbGetCiv() != cCivPortuguese)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRangedInfantryHitpointsPortugueseTeam") && (kbGetCiv() != cCivPortuguese)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCPioneers") && (kbGetCiv() != cCivXPAztec)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPChinampa1") && (kbGetCiv() != cCivXPAztec)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPChinampa2") && (kbGetCiv() != cCivXPAztec)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleCenteotl") && (kbGetCiv() != cCivXPAztec)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleXipeTotec") && (kbGetCiv() != cCivXPAztec)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleXolotl") && (kbGetCiv() != cCivXPAztec)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleCoatlicue") && (kbGetCiv() != cCivXPAztec)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleTlaloc") && (kbGetCiv() != cCivXPAztec)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPGreatTempleQuetzalcoatl") && (kbGetCiv() != cCivXPAztec)) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCMusketeerGrenadierHitpointsBritishTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCImprovedBuildingsTeam") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCWildernessWarfare") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCInfantryHitpointsDutchTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandCavalryDamageFrenchTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCavalryCombatBritish") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCForbiddenArmyArmor") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCTerritorialArmyCombat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCMongolianScourge") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCStandardArmyHitpoints") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCArtilleryCombatChinese") ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipWoodCrates4") && (kbGetCiv() != cCivXPSioux)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCImprovedLongbows") && (kbGetCiv() != cCivBritish)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCFrontierDefenses2") && (kbGetCiv() != cCivDutch)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipWoodCrates3") && (kbGetCiv() != cCivDutch)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPWarHutTraining") && (kbGetCiv() != cCivXPAztec)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTownDance") && (kbGetCiv() != cCivXPAztec)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTownDance") && (kbGetCiv() != cCivXPIroquois)) ||
+                ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTownDance") && (kbGetCiv() != cCivXPSioux)) ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipShogunate"))
                     xsArraySetInt(gCardPriorities, i, 10);  // "Best" cards, pri 10
 
@@ -13057,9 +13318,38 @@ minInterval 1
             }
             if (kbResourceGet(cResourceSkillPoints) >= 15)
             {  // Prerequisites for 'Royal Decree', 'Advanced Arsenal', 'New Ways' and 'Shogun Tokugawa', only for HC level >= 15.
-               if (((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCColonialMilitia") && (kbGetCiv() != cCivPortuguese)) ||
+               if ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCColonialMilitia") ||
                    (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCMosqueConstruction") ||
-                   ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTownDance") && (kbGetCiv() != cCivXPAztec)) ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCFoodSilos") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCFoodSilosTeam") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRumDistillery") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCExtensiveFortifications") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTownDance") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipCoyoteMen3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCStreletsCombatRussian") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCJanissaryCombatOttoman") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCAdvancedConsulateIndians") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCGurkhaAid") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCPioneers") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCImprovedWallsTeam") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCAdvancedIrregulars") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCCheapWarAcademyTeam") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCNativeLearningIndians") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCNativeIncorporationIndians") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCNativeTradeTaxIndians") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCheapStablesTeam") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCavalryHitpointsGerman") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPWarchiefSioux1") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipAxeRiders2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipAxeRiders3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipRifleRiders2") ||				   
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxDakotaSupport") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxSanteeSupport") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxYanktonSupport") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipIndianHandCavalry3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipSamurai2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipShrineWagon2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCIncreasedTribute") ||
                    (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipDaimyoAizu") ||
                    (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipDaimyoSatsuma"))
                        xsArraySetInt(gCardPriorities, i, 10);  // Prerequisite cards, pri 10
@@ -13073,12 +13363,110 @@ minInterval 1
                    (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCNativeWarriors") ||
                    (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCNativeWarriorsGerman") ||
                    (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCNativeChampionsDutchTeam") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRangedInfantryHitpointsFrench") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCuirassiers3") ||				   
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandCavalryHitpointsFrench") ||				   
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCavalryArchers2") ||				   
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCavalryArchers3") ||				   
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCSawmills") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCSawmillsTeam") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCSustainableAgriculture") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipHowdahs1") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCIronmongerIndians") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCFoodSilosIndians") ||  
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCSustainableAgricultureIndians") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCIronmonger") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCSilversmith") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRumDistillery") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCigarRoller") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCAdvancedMillGerman") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCSustainableAgricultureGerman") ||				   
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCIronmongerGerman") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCSilversmithGerman") || 
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCRumDistilleryGerman") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCigarRollerGerman") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCIronmongerTeam") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPChinampa1") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipJaguarKnights2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipJaguarKnights3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPKnightDamage") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPKnightHitpoints") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPWarchiefSioux2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPWarchiefSioux3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCavalryDamageSioux") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCavalryHitpointsSioux") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipWarRifles1") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipWarRifles2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCMedicine") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCSpiceTrade") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPGreatHunter") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPBuffalo2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPBuffalo3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCImprovedBuildings") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHeavyFortifications") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipTomahawk3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPInfantryDamageIroquois") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPInfantryHitpointsIroquois") ||
+                   ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipYumi2") && (kbGetCiv() != cCivJapanese)) ||
+                   ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCYumiDamage") && (kbGetCiv() != cCivJapanese)) ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipShogunate") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCBakufu") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandCavalryHitpointsSpanish") ||	
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandCavalryDamageSpanish") ||				   
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCMusketeerGrenadierDamageBritish") ||	   
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCMusketeerGrenadierHitpointsBritishTeam") || 
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipHussars1") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandInfantryDamageSpanishTeam") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandInfantryHitpointsSpanish") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipSkirmishers2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipRuyters2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCInfantryDamageDutch") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCInfantryHitpointsDutchTeam") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipDopplesoldners2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandInfantryDamageGerman") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCHandInfantryHitpointsGerman") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCavalryDamageBritish") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCCavalryHitpointsBritish") ||	
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCavArchers1") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCavArchers2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCavArchers3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipIronFlail1") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipIronFlail2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipSteppeRider2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipSteppeRider3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipChangdao2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipChoKoNu2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipFlyingCrows1") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCArtilleryHitpointsChinese") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCArtilleryDamageChinese") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipIndianRangedCavalry2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipIndianRangedCavalry3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCPioneersIndians") ||
                    (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCSawmillsIndians"))
                        xsArraySetInt(gCardPriorities, i, 10);  // Prerequisite cards, pri 10
             }
             if (kbResourceGet(cResourceSkillPoints) >= 40)
             {  // Prerequisites for 'Advanced Balloon', only for HC level >= 40.
-               if (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipBalloons")
+               if ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipBalloons") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCuirassiers4") ||				   
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCuirassiers5") ||				   
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPUnlockFort2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipMantlets2") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipMantlets3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiegeHitpoints") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiegeDamage") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCEnlistIrregularsIndians") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCPioneersIndians") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCTheRaj") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCImprovedBuildingsTeam") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCMughalArchitecture") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipMusketeers3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipDragoons3") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipDragoons4") ||
+                   (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPGenitours") ||
+                   ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipWoodCratesInf1Indians") && (kbGetCiv() != cCivIndians)) ||
+                   ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipWoodCratesInf3Indians") && (kbGetCiv() != cCivIndians)) ||
+                   ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipWoodCratesInf2Indians") && (kbGetCiv() != cCivIndians)))
                        xsArraySetInt(gCardPriorities, i, 10);  // Prerequisite card, pri 10
             }
 
@@ -13087,16 +13475,16 @@ minInterval 1
             int unit = aiHCCardsGetCardUnitType(i);
             int tech = aiHCCardsGetCardTechID(i);
             if ( (unit == cUnitTypeSettler) || (unit == cUnitTypeCoureur) || (unit == cUnitTypeSettlerWagon) || (unit == cUnitTypeSettlerNative) || (unit == cUnitTypeypSettlerAsian) || (unit == cUnitTypeypSettlerJapanese) )
-               xsArraySetInt(gCardPriorities, i, 9);  // Settler card, pri 9
+               xsArraySetInt(gCardPriorities, i, 7);  // Settler card, pri 9
             if ( (xsArrayGetInt(gCardPriorities, i) == 0) && (aiHCCardsGetCardCount(i) > 2) )
-               xsArraySetInt(gCardPriorities, i, 8);  // Infinite cards, pri 8
+               xsArraySetInt(gCardPriorities, i, 6);  // Infinite cards, pri 8
             if (xsArrayGetInt(gCardPriorities, i) == 0)
             {
                if ( (unit == cUnitTypeFortWagon) ||
                     (unit == cUnitTypeFactoryWagon) ||
                     (unit == cUnitTypeCoveredWagon) ||
                     (unit == cUnitTypeYPDojoWagon) )
-                        xsArraySetInt(gCardPriorities, i, 7);  // Fort, Factory, Dojo and Covered Wagons, pri 7
+                        xsArraySetInt(gCardPriorities, i, 8);  // Fort, Factory, Dojo and Covered Wagons, pri 7
                if ( (unit == cUnitTypeOutpostWagon) || (unit == cUnitTypeYPCastleWagon) )
                {
                   if (btRushBoom <= 0)  // Outpost and castle wagon, pri 0 for rushers, pri 7 otherwise
@@ -13128,13 +13516,59 @@ minInterval 1
 
             // Set priority to 0 for cards to be avoided if possible
             if ((kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCFrontierDefenses2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCoveredWagons2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCFrontierDefenses1") ||
+		(kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCoveredWagons2") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCConestogaWagonsTeam") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCBastionsTeam") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCUnlockFortVauban") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPUnlockFort2") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPUnlockFort2German") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipFalconets1German") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCAdvancedMarket") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCAdvancedMarketGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCAdvancedDock") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCAdvancedDockGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCAdvancedPlantations") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCAdvancedPlantationsGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipSettlers1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCoureurs1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipSettlersNative1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipSettlerWagons1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipFoodCrates1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipWoodCrates1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipCoinCrates1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipMixedCrates1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipFoodCrates1Indians") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipWoodCrates1Indians") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipCoinCrates1Indians") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipWoodCratesInf1Indians") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipCastleWagons1Indians") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipCastleWagons2Indians") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipTigers1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipLions1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipMonitorLizard1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipMonitorLizard2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipCastleWagons1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipCastleWagons2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipCastleWagons3") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipRajputs2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipRajputs3") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipIndianRangedCavalry2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipIndianRangedCavalry3") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipMongolScoutTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipEnvoyTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipMercsTigerClaw1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCPioneersTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCMercsNinja2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCEnlistIrregulars") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCCallToArms1") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCDojoGenbukan") ||		
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipGroveWagonIndians1") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipFalconets2German") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipHorseArtillery1German") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipMortars1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipMortars2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipMortars1German") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipMortars2German") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCShipMortarsTeam") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipPetards1") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipDemolitionSquadGerman") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipRams1") ||
@@ -13157,93 +13591,48 @@ minInterval 1
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipJaguars3") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipJaguarsTeam") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipWolves") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCoinCratesAztec4") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCoinCratesAztec5") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipMixedCrates4") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipCoupRiders1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipCoupRiders2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipCoupRiders3") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipCoupRiders4") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipDogsoldiersTeam1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPShipDogsoldiersTeam2") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPRanching") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPRanchingLlama") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCFishMarket") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCFishMarketGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCFishMarket") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipWoodCratesInf1Indians") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipWoodCratesInf2Indians") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipWoodCratesInf3Indians") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipWoodCratesInf4Indians") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCExpandedTradingPost") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCExpandedTradingPostIndians") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCAdvancedDockIndians") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCAdvancedRicePaddyIndians") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCAdvancedWondersIndians") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCAdvancedConsulate") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCFishMarketIndians") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCSchoonersIndians") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCSchoonersJapanese") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipRicePaddyWagon1") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCArmedFishermenIndians") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipDisciple1") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCIndianMonkCombat") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipShrineWagon1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipCoveredWagonsAsian") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipCoveredWagonsChina") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipCoveredWagonsIndians") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipCoveredWagons2Indians") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCIndianMonkFrighten") ||				
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCSacredFieldHealing") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCBazaar") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCGoraksha") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCExpandedMarket") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCCommoditiesMarket") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCAdvancedMonastery") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCAdvancedMonasteryIndians") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipBerryWagon1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipBerryWagon2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipMonitorLizard1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipMonitorLizard2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipTigers1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipLions1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipRhino1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPZapotecAllies1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPZapotecAllies2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPZapotecAlliesRepeat") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPMayanAllies1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPMayanAllies2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPMayanAlliesRepeat") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSpanishAllies1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSpanishAllies2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleCenteotl") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleCoatlicue") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPGreatTempleHuitzilopochtli") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleXipeTotec") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleXolotl") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPGreatTempleQuetzalcoatl") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleXochipilli") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPTempleTlaloc") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPGreatTempleTezcatlipoca") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisMohawkSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisOnondagaSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisOneidaSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisTuscaroraSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisSenecaSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPIroquoisCayugaSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCherokeeAllies1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCherokeeAllies2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCherokeeAlliesRepeat") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAllies1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAllies2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAlliesTeam") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPHuronAllies1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPHuronAllies2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPHuronAlliesRepeat") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPFrenchAllies1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPFrenchAllies2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPDutchAllies1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPDutchAllies2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPComancheAllies1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPComancheAllies2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxNakotaSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCheyenneAllies1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCheyenneAllies2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCheyenneAlliesTeam") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAllies1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAllies2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPCreeAlliesTeam") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxSansArcSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxHunkpapaSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxLakotaSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxBurntThighSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxOglalaSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxDakotaSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxSanteeSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxYanktonSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPSiouxTwoKettleSupport") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPRenegadoAllies") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPPistoleroAllies") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPComancheroAllies") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPBanditGang") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "HCXPBanditGangRepeat") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipRicePaddyWagon1") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipRicePaddyWagon2") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipRicePaddyWagon3"))
-
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipMorutaru1") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(i)) == "YPHCShipMorutaru2"))
                     xsArraySetInt(gCardPriorities, i, 0);  // Cards to be avoided, pri 0
 
             // Set priority to 0 for castle wagon cards to be specifically avoided for Japanese,
@@ -13298,6 +13687,7 @@ minInterval 1
                    (aiHCCardsGetCardUnitType(i) == cUnitTypeLongbowman) ||
                    (aiHCCardsGetCardUnitType(i) == cUnitTypeStrelet) ||
                    (aiHCCardsGetCardUnitType(i) == cUnitTypeypYumi) ||
+                   (aiHCCardsGetCardUnitType(i) == cUnitTypeFlatbowman) ||
                    (aiHCCardsGetCardUnitType(i) == cUnitTypeypQiangPikeman) ||
                    (aiHCCardsGetCardUnitType(i) == cUnitTypeypChuKoNu))
                        xsArraySetInt(gCardPriorities, i, 0);  // Units to be to be avoided, pri 0
@@ -13398,7 +13788,7 @@ minInterval 1
                   result = aiHCCardsBuyCard(cardIndex);
                   aiEcho("Buying econ card "+xsArrayGetString(gCardNames, cardIndex));
                   boughtCardIndex = index;
-                  xsArraySetInt(gCardPriorities, cardIndex, 3);   // Pri 3, econ card
+                  xsArraySetInt(gCardPriorities, cardIndex, 4);   // Pri 4, econ card
                   break;
                }           
                cardIndex = aiHCCardsFindBestCard(cHCCardTypeMilitary, myLevel);
@@ -13470,12 +13860,13 @@ minInterval 1
          
          aiEcho("Building Deck");
          int cardsRemaining = 25;
-         int toPick = 2;
+         int toPick = 5;
         
          // First, "best" cards (if available).
          for (card=0; < maxCards)
          {
-            if ((kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCAdvancedTradingPost") ||
+            if ((kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCImprovedBuildings") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCImprovedBuildingsGerman") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRoyalDecreeBritish") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRoyalDecreeDutch") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRoyalDecreeFrench") ||
@@ -13486,10 +13877,150 @@ minInterval 1
                 (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRoyalDecreeSpanish") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCAdvancedArsenal") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCAdvancedArsenalGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCAdvancedArsenalGerman") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPNewWaysIroquois") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPNewWaysSioux") ||
-                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCShipGroveWagonIndians2") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCUnlockFactory") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRobberBarons") ||
+		((kbGetCiv() == cCivGermans) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCUnlockFactoryGerman")) ||												
+		((kbGetCiv() == cCivGermans) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRobberBaronsGerman")) ||								
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPIndustrialRevolution") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCExoticHardwoods") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCGrainMarket") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRefrigeration") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRoyalMint") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCTextileMills") ||
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRoyalMintGerman") ||								
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRefrigerationGerman") ||								
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCRoyalMintIndians") ||	
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCFencingSchoolIndians") ||
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCRidingSchoolIndians") ||
+		((kbGetCiv() == cCivGermans) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCGermanTownFarmers")) ||
+		((kbGetCiv() == cCivGermans) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCGuildArtisans")) ||
+		((kbGetCiv() == cCivGermans) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCTeamTeutonTownCenter")) ||
+		((kbGetCiv() == cCivGermans) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCUhlanCombatGerman")) ||
+		((kbGetCiv() == cCivDutch) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCDutchEastIndiaCompany")) ||
+		((kbGetCiv() == cCivDutch) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCBetterBanks")) ||
+		((kbGetCiv() == cCivDutch) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCBanks1")) ||
+		((kbGetCiv() == cCivDutch) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCBanks2")) ||
+		((kbGetCiv() == cCivRussians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRansack")) ||
+		((kbGetCiv() == cCivIndians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCGurkhaAid")) ||
+		((kbGetCiv() == cCivIndians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCSustainableAgricultureIndians")) ||
+		((kbGetCiv() == cCivJapanese) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCIncreasedTribute")) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCMughalArchitecture") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCEastIndiaCompany") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCCamelDamageIndians") ||
+		((kbGetCiv() == cCivXPIroquois) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRumDistillery")) ||
+		((kbGetCiv() == cCivXPIroquois) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCSustainableAgriculture")) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCFencingSchool") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCFencingSchoolGerman") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRidingSchool") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRidingSchoolGerman") ||				
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCJanissaryCombatOttoman") ||
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCJanissaryCost") ||
                 (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCShipShogunate") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPCoyoteCombat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPKnightDamage") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPKnightHitpoints") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPKnightCombat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPInfantryCombatIroquois") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPSiegeCombat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPConservativeTactics") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPInfantryHitpointsIroquois") ||
+		((kbGetCiv() == cCivXPSioux) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPCommandSkill")) ||
+		((kbGetCiv() == cCivXPSioux) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPMustangs")) ||
+		((kbGetCiv() == cCivBritish) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCSpiceTrade")) ||
+		((kbGetCiv() == cCivFrench) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCPioneers")) ||
+		((kbGetCiv() == cCivOttomans) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCLightArtilleryHitpointsOttoman")) ||
+		((kbGetCiv() == cCivOttomans) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCArtilleryDamageOttoman")) ||
+		((kbGetCiv() == cCivOttomans) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCArtilleryHitpointsOttomanTeam")) ||
+		((kbGetCiv() == cCivFrench) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCNativeCombat")) ||
+		((kbGetCiv() == cCivFrench) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCNativeWarriors")) ||
+		((kbGetCiv() == cCivFrench) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCHandCavalryHitpointsFrench")) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPAdoption") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPBuffalo4") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPCavalryDamageSioux") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPCavalryHitpointsSioux") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPCavalryCombatSioux") ||
+		((kbGetCiv() == cCivXPSioux) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCFoodSilos")) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPMedicineTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPEarthBounty") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPWindRunner") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPNomadicExpansion") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCCavalryCombatFrench") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRangedInfantryDamageFrenchTeam") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCCavalryDamageGermanTeam") ||								
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCDragoonCombatPortuguese") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCCavalryCombatRussian") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCStreletsCombatRussian") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCCavalryCombatGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPSiouxTwoKettleSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPSiouxSanteeSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPSiouxYanktonSupport") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCHandInfantryCombatGerman") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCHandCavalryCombatSpanish") ||								
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCMusketeerGrenadierCombatBritish") ||				
+		((kbGetCiv() == cCivIndians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCShipGroveWagonIndians2")) ||
+		((kbGetCiv() == cCivIndians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCElephantTrampling")) ||
+		((kbGetCiv() == cCivIndians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCElephantCombatIndians")) ||
+		((kbGetCiv() == cCivIndians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCElephantLimit")) ||
+		((kbGetCiv() == cCivIndians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCShipWoodCratesInf4Indians")) ||
+		((kbGetCiv() == cCivIndians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCCamelFrightening")) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCHanAntiCavalryBonus") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCAccupuncture") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCBannerSchool") ||				
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCSamuraiDamage") ||
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCNobleCombat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCNaginataHitpoints") ||	
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCNaginataAntiInfantryDamage") ||
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCYumiDamage") ||
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCYumiRange") ||
+		(kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCAshigaruDamage") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCSamuraiSpeed") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCCaballeros") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCHandInfantryHitpointsSpanish") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCHandInfantryCombatSpanish") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCInfantryCombatDutch") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCCavalryCombatDutch") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCCavalryCombatOttoman") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPExoticHardwoodsTeam") ||
+		((kbGetCiv() == cCivRussians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCPioneers")) ||
+		((kbGetCiv() == cCivRussians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCSpiceTrade")) ||
+		((kbGetCiv() == cCivRussians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCMedicine")) ||
+		((kbGetCiv() == cCivXPSioux) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCPioneers")) ||
+		((kbGetCiv() == cCivXPSioux) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCSpiceTrade")) ||
+		((kbGetCiv() == cCivPortuguese) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCPioneers")) ||
+		((kbGetCiv() == cCivPortuguese) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRangedInfantryCombatPortuguese")) ||
+		((kbGetCiv() == cCivPortuguese) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRangedInfantryHitpointsPortugueseTeam")) ||
+		((kbGetCiv() == cCivPortuguese) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCRangedInfantryDamagePortuguese")) ||
+		((kbGetCiv() == cCivXPAztec) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCPioneers")) ||
+		((kbGetCiv() == cCivXPAztec) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPChinampa1")) ||
+		((kbGetCiv() == cCivXPAztec) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPChinampa2")) ||
+		((kbGetCiv() == cCivXPAztec) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPTempleCenteotl")) ||
+		((kbGetCiv() == cCivXPAztec) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPTempleXipeTotec")) ||
+		((kbGetCiv() == cCivXPAztec) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPTempleXolotl")) ||
+		((kbGetCiv() == cCivXPAztec) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPTempleCoatlicue")) ||
+		((kbGetCiv() == cCivXPAztec) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPTempleTlaloc")) ||
+		((kbGetCiv() == cCivXPAztec) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPGreatTempleQuetzalcoatl")) ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCMusketeerGrenadierHitpointsBritishTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCImprovedBuildingsTeam") ||				
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCWildernessWarfare") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCInfantryHitpointsDutchTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCHandCavalryDamageFrenchTeam") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCCavalryCombatBritish") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCForbiddenArmyArmor") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCTerritorialArmyCombat") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCMongolianScourge") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCStandardArmyHitpoints") ||
+                (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCArtilleryCombatChinese") ||
+		((kbGetCiv() == cCivXPSioux) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCShipWoodCrates4")) ||
+		((kbGetCiv() == cCivBritish) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCImprovedLongbows")) ||
+		((kbGetCiv() == cCivDutch) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCFrontierDefenses2")) ||
+		((kbGetCiv() == cCivDutch) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCShipWoodCrates3")) ||
+		((kbGetCiv() == cCivXPAztec) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPWarHutTraining")) ||
+		((kbGetCiv() == cCivXPAztec) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPTownDance")) ||
+		((kbGetCiv() == cCivXPIroquois) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPTownDance")) ||				
+		((kbGetCiv() == cCivXPSioux) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "HCXPTownDance")) ||				
                 ((kbGetCiv() == cCivIndians) && (kbGetTechName(aiHCCardsGetCardTechID(card)) == "YPHCAgrarianism") ))
             {
                aiHCDeckAddCardToDeck(gDefaultDeck, card);
@@ -13610,8 +14141,6 @@ minInterval 1
                   continue;   // Ignore everything except military cards
                if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercenary) == true)
                   continue;   // Ignore any mercenary cards
-               if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeypMercArsonist) == true)
-                  continue;   // Ignore any arsonist cards (wrongly not classified as mercenary)
                if (((civIsNative() == true) || (civIsAsian() == true)) && (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercType1) == true))
                   continue;   // For natives and Asians, ignore any native allies cards (to be added later)
                if ((civIsNative() == true) && ((kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeRodelero) == true) ||
@@ -13662,8 +14191,6 @@ minInterval 1
                   continue;
                if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercenary) == true)
                   continue;   // Ignore any mercenary cards
-               if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeypMercArsonist) == true)
-                  continue;   // Ignore any arsonist cards (wrongly not classified as mercenary)
                if (((civIsNative() == true) || (civIsAsian() == true)) && (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercType1) == true))
                   continue;   // For natives and Asians, ignore any native allies cards (to be added later)
                if ((civIsNative() == true) && ((kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeRodelero) == true) ||
@@ -13714,8 +14241,6 @@ minInterval 1
                   continue;
                if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercenary) == true)
                   continue;   // Ignore any mercenary cards
-               if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeypMercArsonist) == true)
-                  continue;   // Ignore any arsonist cards (wrongly not classified as mercenary)
                if (((civIsNative() == true) || (civIsAsian() == true)) && (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercType1) == true))
                   continue;   // For natives and Asians, ignore any native allies cards (to be added later)
                if ((civIsNative() == true) && ((kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeRodelero) == true) ||
@@ -13777,8 +14302,6 @@ minInterval 1
                   continue;   // Ignore resource cards
                if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercenary) == true)
                   continue;   // Ignore any mercenary cards
-               if (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeypMercArsonist) == true)
-                  continue;   // Ignore any arsonist cards (wrongly not classified as mercenary)
                if (((civIsNative() == true) || (civIsAsian() == true)) && (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypeMercType1) == true) &&
                   (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypexpSkullKnight) == false) &&
                   (kbProtoUnitIsType(cMyID, aiHCCardsGetCardUnitType(card), cUnitTypexpDogSoldier) == false))
@@ -14327,7 +14850,8 @@ minInterval 30
        (kbTechGetStatus(cTechChurchKopruluViziers) == cTechStatusActive) &&
        (kbTechGetStatus(cTechChurchAbbassidMarket) == cTechStatusActive) &&
        (kbTechGetStatus(cTechChurchGalataTowerDistrict) == cTechStatusActive) &&
-       (kbTechGetStatus(cTechChurchTopkapi) == cTechStatusActive))
+       (kbTechGetStatus(cTechChurchTopkapi) == cTechStatusActive) &&
+       (kbTechGetStatus(cTechChurchTanzimat) == cTechStatusActive))
    {
       xsDisableSelf();
    }
@@ -14385,6 +14909,13 @@ minInterval 30
       if (capPlanID < 0)
          createSimpleResearchPlan(cTechChurchTopkapi, getUnit(cUnitTypeChurch),cEconomyEscrowID, 91);
   }  
+
+   if ((kbTechGetStatus(cTechChurchTanzimat) == cTechStatusObtainable) && (kbUnitCount(cMyID, gEconUnit, cUnitStateAlive) >= 33))
+   {
+      capPlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechChurchTopkapi);
+      if (capPlanID < 0)
+         createSimpleResearchPlan(cTechChurchTanzimat, getUnit(cUnitTypeChurch),cEconomyEscrowID, 91);
+  }
 }
 
 
@@ -15309,14 +15840,6 @@ void shipGrantedHandler(int parm=-1) // Event handler
       if ( (age == cAge3) && (kbProtoUnitIsType(cMyID, unitType, cUnitTypeMercenary) == true) && (kbResourceGet(cResourceGold) < 1500) )
          totalValue = 1.0;   // No Age 3 mercenaries if less than 1500 coin is available.
       if ( (age == cAge4) && (kbProtoUnitIsType(cMyID, unitType, cUnitTypeMercenary) == true) && (kbResourceGet(cResourceGold) < 2500) )
-         totalValue = 1.0;   // No Age 4 mercenaries if less than 2500 coin is available.
-
-      // Adjust score for arsonists (wrongly not classified as mercenaries) if not enough coin is available.
-      if ( (age == cAge2) && (kbProtoUnitIsType(cMyID, unitType, cUnitTypeypMercArsonist) == true) && (kbResourceGet(cResourceGold) < 500) )
-         totalValue = 1.0;   // No Age 2 mercenaries if less than 500 coin is available.
-      if ( (age == cAge3) && (kbProtoUnitIsType(cMyID, unitType, cUnitTypeypMercArsonist) == true) && (kbResourceGet(cResourceGold) < 1500) )
-         totalValue = 1.0;   // No Age 3 mercenaries if less than 1500 coin is available.
-      if ( (age == cAge4) && (kbProtoUnitIsType(cMyID, unitType, cUnitTypeypMercArsonist) == true) && (kbResourceGet(cResourceGold) < 2500) )
          totalValue = 1.0;   // No Age 4 mercenaries if less than 2500 coin is available.
 
 	aiEcho("    "+i+" "+kbGetProtoUnitName(unitType)+": "+qtyAvail+" total value: "+totalValue);
@@ -17397,7 +17920,7 @@ float getBaseEnemyStrength(int baseID = -1)
    {  // Ally base, we're considering defending.  Count enemy units present
       kbUnitQuerySetUnitType(allyBaseQuery, cUnitTypeLogicalTypeLandMilitary);
       kbUnitQuerySetPosition(allyBaseQuery, kbBaseGetLocation(owner, baseID));
-      kbUnitQuerySetMaximumDistance(allyBaseQuery, 50.0);
+      kbUnitQuerySetMaximumDistance(allyBaseQuery, 55.0);
       kbUnitQueryResetResults(allyBaseQuery);
       retVal = kbUnitQueryExecute(allyBaseQuery);
    }
@@ -18141,6 +18664,35 @@ void scoreOpportunity(int oppID = -1)
 //   aiEcho("    Class "+classRating+", Instance "+instance+", affordable "+affordable);
 //   aiEcho("    Final Score: "+score);
    
+   switch(oppType)
+   {
+      case cOpportunityTypeDestroy:  // Aggressive AIs attack more often
+      {
+         score = score + (0.2 * btOffenseDefense); // If -0.5 -> score - 0.1. If -1.0 -> score - 0.2. If 0.5 -> score + 0.1. If 1.0 -> score + 0.2
+      }
+   }
+   switch(oppType)
+   {
+      case cOpportunityTypeDefend:  // Defensive AIs defend ally bases
+      {
+         score = score + (0.2 * btOffenseDefense); // If -0.5 -> score + 0.1. If -1.0 -> score + 0.2. If 0.5 -> score - 0.1. If 1.0 -> score - 0.2
+      }
+   }
+   switch(oppType)
+   {
+      case cOpportunityTypeClaim:  // Claiming AIs build more Trading Posts
+      {
+         if (kbVPSiteGetType(target) == cVPTrade) 
+         {
+            score = score + (0.2 * btBiasTrade); // If -0.5 -> score - 0.1. If -1.0 -> score - 0.2. If 0.5 -> score + 0.1. If 1.0 -> score + 0.2
+         }
+         if (kbVPSiteGetType(target) == cVPNative) 
+         {
+            score = score + (0.2 * btBiasNative); // If -0.5 -> score - 0.1. If -1.0 -> score - 0.2. If 0.5 -> score + 0.1. If 1.0 -> score + 0.2
+         }
+      }
+   }
+
    if (score > 1.0)
       score = 1.0;
    if (score < 0.0)
@@ -19046,7 +19598,7 @@ void main(void)
 		}
 		case cDifficultyHard: // Hard
 		{
-			kbSetPlayerHandicap( cMyID, startingHandicap * baselineHandicap * 1.0 );    // 1.0 handicap at hard, i.e. no bonus
+			kbSetPlayerHandicap( cMyID, startingHandicap * baselineHandicap * 1.15 );    // 15% bonus
 			break;
 		}
 		case cDifficultyExpert: // Expert
@@ -19202,8 +19754,8 @@ rule fillInWallGaps
          aiPlanSetVariableInt(wallPlanID, cBuildWallPlanWallType, 0, cBuildWallPlanWallTypeRing);
          aiPlanAddUnitType(wallPlanID, gEconUnit, 1, 1, 1);
          aiPlanSetVariableVector(wallPlanID, cBuildWallPlanWallRingCenterPoint, 0, kbBaseGetLocation(cMyID, kbBaseGetMainID(cMyID)));
-         aiPlanSetVariableFloat(wallPlanID, cBuildWallPlanWallRingRadius, 0, 50.0);
-         aiPlanSetVariableInt(wallPlanID, cBuildWallPlanNumberOfGates, 0, 6);
+         aiPlanSetVariableFloat(wallPlanID, cBuildWallPlanWallRingRadius, 0, 55.0);
+         aiPlanSetVariableInt(wallPlanID, cBuildWallPlanNumberOfGates, 0, 8);
          aiPlanSetBaseID(wallPlanID, kbBaseGetMainID(cMyID));
          aiPlanSetEscrowID(wallPlanID, cEconomyEscrowID);
          aiPlanSetDesiredPriority(wallPlanID,40);
@@ -19659,7 +20211,7 @@ minInterval 45
             decreePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechChurchCodeNapoleon);
             if (decreePlanID >= 0)
                aiPlanDestroy(decreePlanID);
-            createSimpleResearchPlan(cTechChurchCodeNapoleon, getUnit(cUnitTypeChurch), cMilitaryEscrowID, 50);
+            createSimpleResearchPlan(cTechChurchCodeNapoleon, getUnit(cUnitTypeChurch), cEconomyEscrowID, 50);
          }
          if (kbTechGetStatus(cTechChurchGardeImperial1) == cTechStatusObtainable)
          {
@@ -19973,6 +20525,10 @@ minInterval 60
    static int baseDefendPlan = -1;
    int baseDefensePop = 0;
    int ownMilitaryCount = 0;
+
+      xsEnableRule("useLevyMin");
+      xsEnableRule("useLevyIre");
+      xsEnableRule("useLevyAsi");
 
    // Number of units for base defend plan, 25% of army
    ownMilitaryCount = kbUnitCount(cMyID, cUnitTypeLogicalTypeLandMilitary, cUnitStateAlive);
@@ -24148,6 +24704,106 @@ minInterval 30
 }
 
 
+rule useLevyMin
+inactive
+minInterval 10
+{
+   // Check to see if town is being overrun. If so, generate a plan
+   // to call levy. 
+
+   int levyPlan = -1;
+   vector mainBaseVec = cInvalidVector;
+   
+   mainBaseVec =  kbBaseGetLocation(cMyID, kbBaseGetMainID(cMyID));
+   int enemyCount = getUnitCountByLocation(cUnitTypeLogicalTypeLandMilitary, cPlayerRelationEnemyNotGaia, cUnitStateAlive, mainBaseVec, 40.0);
+   int allyCount = getUnitCountByLocation(cUnitTypeLogicalTypeLandMilitary, cPlayerRelationAlly, cUnitStateAlive, mainBaseVec, 40.0);
+
+   if (enemyCount >= (allyCount+6)) // We're behind by 6 or more
+   {
+      aiEcho("***** Starting levy plan, there are "+enemyCount+" enemy units in my base against "+allyCount+" friendlies.");
+      if (civIsAsian() == false)
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyMin, 0.2);
+   }
+
+   // Disable rule
+   xsDisableSelf();  
+
+}
+
+
+rule useLevyIre
+inactive
+minInterval 10
+{
+   // Check to see if town is being overrun. If so, generate a plan
+   // to call levy. 
+
+   int levyPlan = -1;
+   vector mainBaseVec = cInvalidVector;
+   
+   mainBaseVec =  kbBaseGetLocation(cMyID, kbBaseGetMainID(cMyID));
+   int enemyCount = getUnitCountByLocation(cUnitTypeLogicalTypeLandMilitary, cPlayerRelationEnemyNotGaia, cUnitStateAlive, mainBaseVec, 40.0);
+   int allyCount = getUnitCountByLocation(cUnitTypeLogicalTypeLandMilitary, cPlayerRelationAlly, cUnitStateAlive, mainBaseVec, 40.0);
+
+   if (enemyCount >= (allyCount+6)) // We're behind by 6 or more
+   {
+      aiEcho("***** Starting levy plan, there are "+enemyCount+" enemy units in my base against "+allyCount+" friendlies.");
+      if (cMyCiv == cCivIndians)
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyIre, 0.2);
+   }
+
+   // Disable rule
+   xsDisableSelf();  
+
+}
+
+
+rule useLevyAsi
+inactive
+minInterval 10
+{
+   // Check to see if town is being overrun. If so, generate a plan
+   // to call levy. 
+
+   int levyPlan = -1;
+   vector mainBaseVec = cInvalidVector;
+   
+   mainBaseVec =  kbBaseGetLocation(cMyID, kbBaseGetMainID(cMyID));
+   int enemyCount = getUnitCountByLocation(cUnitTypeLogicalTypeLandMilitary, cPlayerRelationEnemyNotGaia, cUnitStateAlive, mainBaseVec, 40.0);
+   int allyCount = getUnitCountByLocation(cUnitTypeLogicalTypeLandMilitary, cPlayerRelationAlly, cUnitStateAlive, mainBaseVec, 40.0);
+
+   if (enemyCount >= (allyCount+6)) // We're behind by 6 or more
+   {
+      aiEcho("***** Starting levy plan, there are "+enemyCount+" enemy units in my base against "+allyCount+" friendlies.");
+      if (civIsAsian() == true)
+         kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeLevyAsi, 0.2);
+   }
+
+   // Disable rule
+   xsDisableSelf();  
+
+}
+
+
+rule morebanks
+inactive
+minInterval 30
+{
+   if (kbTechGetStatus(cTechImpExcessiveTaxationD) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+   int Bank = getUnit(cUnitTypeBank, cMyID, cUnitStateAlive);
+   if (Bank >= 0)
+   {
+      createSimpleResearchPlan(cTechImpExcessiveTaxationD,Bank,cEconomyEscrowID, 80);
+      xsDisableSelf();
+	
+   }
+}
+
+
 rule brigadeMonitor
 inactive
 minInterval 120
@@ -24727,5 +25383,293 @@ minInterval 10
       {
          aiPlanSetVariableInt(mansabdarZamburakPlan , cTrainPlanNumberToMaintain, 0, 0);
       }
+   }
+}
+
+
+rule MercantilismMonitor
+inactive
+minInterval 10
+{
+   if (kbTechGetStatus(cTechChurchMercantilism) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+   int Church = getUnit(cUnitTypeChurch, cMyID, cUnitStateAlive);
+   if (Church >= 0)
+   {
+      createSimpleResearchPlan(cTechChurchMercantilism,Church,cEconomyEscrowID, 99);
+      xsDisableSelf();	
+   }
+}
+
+rule MarketUpgradeMonitor
+inactive
+minInterval 15 
+{
+   int upgradePlanID = -1;
+
+   if ((kbTechGetStatus(cTechHuntingDogs) == cTechStatusActive) &&
+       (kbTechGetStatus(cTechSteelTraps) == cTechStatusActive) &&       
+       (kbTechGetStatus(cTechGangsaw) == cTechStatusActive) &&
+       (kbTechGetStatus(cTechLogFlume) == cTechStatusActive) &&
+       (kbTechGetStatus(cTechPlacerMines) == cTechStatusActive) &&
+       (kbTechGetStatus(cTechAmalgamation) == cTechStatusActive) &&
+       (kbTechGetStatus(cTechCircularSaw) == cTechStatusActive))
+   {
+       xsDisableSelf();
+       return;
+   }
+  
+
+   // Get upgrades one at a time
+   if (kbTechGetStatus(cTechHuntingDogs) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechHuntingDogs);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechHuntingDogs, getUnit(cUnitTypeMarket), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechSteelTraps) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechSteelTraps);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechSteelTraps, getUnit(cUnitTypeMarket), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechGangsaw) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechGangsaw);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechGangsaw, getUnit(cUnitTypeMarket), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechLogFlume) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechLogFlume);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechLogFlume, getUnit(cUnitTypeMarket), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechPlacerMines) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechPlacerMines);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechPlacerMines, getUnit(cUnitTypeMarket), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechAmalgamation) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechAmalgamation);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechAmalgamation, getUnit(cUnitTypeMarket), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechCircularSaw) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechCircularSaw);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechCircularSaw, getUnit(cUnitTypeMarket), cEconomyEscrowID, 50);
+      return;
+   }
+}
+
+
+rule MillUpgradeMonitor
+inactive
+minInterval 5 
+{
+   int upgradePlanID = -1;
+
+   if ((kbTechGetStatus(cTechSeedDrill) == cTechStatusActive) && 
+       (kbTechGetStatus(cTechHomesteading) == cTechStatusActive))    
+   {
+       xsDisableSelf();
+       return;
+   }
+
+   // Get upgrades one at a time
+   if (kbTechGetStatus(cTechSeedDrill) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechSeedDrill);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechSeedDrill, getUnit(cUnitTypeMill), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechArtificialFertilizer) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechArtificialFertilizer);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechArtificialFertilizer, getUnit(cUnitTypeMill), cEconomyEscrowID, 50);
+      return;
+   }
+}
+
+rule FarmUpgradeMonitor
+inactive
+minInterval 5 
+{
+   int upgradePlanID = -1;
+
+    
+   if ((kbTechGetStatus(cTechGreatFeast) == cTechStatusActive) && 
+       (kbTechGetStatus(cTechHarvestCeremony) == cTechStatusActive) &&
+       (kbTechGetStatus(cTechGreenCornCeremony) == cTechStatusActive)) 
+   {
+       xsDisableSelf();
+       return;
+   }
+
+   // Get upgrades one at a time
+   if (kbTechGetStatus(cTechGreatFeast) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechGreatFeast);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechGreatFeast, getUnit(cUnitTypeFarm), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechHarvestCeremony) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechHarvestCeremony);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechHarvestCeremony, getUnit(cUnitTypeFarm), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechGreenCornCeremony) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechGreenCornCeremony);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechGreenCornCeremony, getUnit(cUnitTypeFarm), cEconomyEscrowID, 50);
+      return;
+   }
+}
+
+rule RicePaddyUpgradeMonitor
+inactive
+minInterval 5 
+{
+   int upgradePlanID = -1;
+
+    
+   if ((kbTechGetStatus(cTechypCropMarket) == cTechStatusActive) && 
+       (kbTechGetStatus(cTechypSharecropping) == cTechStatusActive) &&
+       (kbTechGetStatus(cTechypCultivateWasteland) == cTechStatusActive) &&
+       (kbTechGetStatus(cTechypWaterConservancy) == cTechStatusActive)) 
+   {
+       xsDisableSelf();
+       return;
+   }
+
+   // Get upgrades one at a time
+   if (kbTechGetStatus(cTechypCropMarket) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechypCropMarket);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechypCropMarket, getUnit(cUnitTypeypRicePaddy), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechypSharecropping) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechypSharecropping);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechypSharecropping, getUnit(cUnitTypeypRicePaddy), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechypCultivateWasteland) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechypCultivateWasteland);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechypCultivateWasteland, getUnit(cUnitTypeypRicePaddy), cEconomyEscrowID, 50);
+      return;
+   }
+   if (kbTechGetStatus(cTechypWaterConservancy) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechypWaterConservancy);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechypWaterConservancy, getUnit(cUnitTypeypRicePaddy), cEconomyEscrowID, 50);
+      return;
+   }
+}
+
+rule MarketBerryDogsUpgradeMonitor
+inactive
+minInterval 10
+{
+   int upgradePlanID = -1;    
+       
+   // Disable rule once upgrade are available
+   if (kbTechGetStatus(cTechypMarketBerryDogs) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+
+   // Get upgrades one at a time as they become available
+   if (kbTechGetStatus(cTechypMarketBerryDogs) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechypMarketBerryDogs);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechypMarketBerryDogs, getUnit(cUnitTypeypTradeMarketAsian), cMilitaryEscrowID, 50);
+      return;
+   }
+}
+
+
+rule MarketBerryTrapsUpgradeMonitor
+inactive
+minInterval 10
+{
+   int upgradePlanID = -1;    
+       
+   // Disable rule once upgrade are available
+   if (kbTechGetStatus(cTechypMarketBerryTraps) == cTechStatusActive)
+   {
+      xsDisableSelf();
+      return;
+   }
+
+   // Get upgrades one at a time as they become available
+   if (kbTechGetStatus(cTechypMarketBerryTraps) == cTechStatusObtainable)
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechypMarketBerryTraps);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechypMarketBerryTraps, getUnit(cUnitTypeypTradeMarketAsian), cMilitaryEscrowID, 50);
+      return;
+   }
+}
+
+
+rule BastionUpgradeMonitor
+inactive
+minInterval 90
+{
+   int upgradePlanID = -1;
+
+   if ((kbTechGetStatus(cTechBastion) == cTechStatusObtainable) && (kbUnitCount(cMyID, cUnitTypeAbstractWall, cUnitStateAlive) >= 20))
+   {
+      upgradePlanID = aiPlanGetIDByTypeAndVariableType(cPlanResearch, cResearchPlanTechID, cTechBastion);
+      if (upgradePlanID >= 0)
+         aiPlanDestroy(upgradePlanID);
+      createSimpleResearchPlan(cTechBastion, getUnit(cUnitTypeWallConnector), cMilitaryEscrowID, 50);
+      return;
    }
 }

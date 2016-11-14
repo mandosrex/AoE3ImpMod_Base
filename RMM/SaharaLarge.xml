@@ -1,0 +1,11 @@
+﻿<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+imagepath = "ui\random_map\africa\sahara"
+displayNameID = "130104"
+details = "130105"
+loadDetails = "130089"
+loadBackground="ui\random_map\africa\sahara\sahara_map">
+   <loadss>ui\random_map\africa\sahara\sahara_ss_01</loadss>
+   <loadss>ui\random_map\africa\sahara\sahara_ss_02</loadss>
+   <loadss>ui\random_map\africa\sahara\sahara_ss_03</loadss>
+</mapinfo>

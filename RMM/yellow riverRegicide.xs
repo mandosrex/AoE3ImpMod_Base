@@ -1086,7 +1086,7 @@ void main(void)
   rmAddObjectDefConstraint(startSilverID, avoidNatives);
 
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
-	rmSetObjectDefMinDistance(startingUnits, 5.0);
+	rmSetObjectDefMinDistance(startingUnits, 6.0);
   rmSetObjectDefMaxDistance(startingUnits, 10.0);
 	rmAddObjectDefConstraint(startingUnits, avoidAll);
 	rmAddObjectDefConstraint(startingUnits, avoidResource);
@@ -1109,17 +1109,6 @@ void main(void)
 
 	int waterSpawnPointID = 0;
 	rmClearClosestPointConstraints();
-
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <14 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH()) {

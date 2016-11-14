@@ -163,6 +163,9 @@ void main(void)
    int playerSide = rmRandInt(1,2);
 
    int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
+   rmSetObjectDefMinDistance(startingUnits, 8.0);
+   rmSetObjectDefMaxDistance(startingUnits, 12.0);
+   rmAddObjectDefConstraint(startingUnits, avoidAll);
    if (cNumberTeams > 2)   // ffa
    {
 	if (cNumberNonGaiaPlayers < 4)
@@ -374,16 +377,6 @@ void main(void)
 	// Text
 	rmSetStatusText("",0.45);
 
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH())

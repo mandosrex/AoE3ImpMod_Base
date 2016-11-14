@@ -188,6 +188,7 @@ void main(void)
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
 	rmSetObjectDefMinDistance(startingUnits, 8.0);
 	rmSetObjectDefMaxDistance(startingUnits, 12.0);
+	rmAddObjectDefConstraint(startingUnits, avoidAll);
 	rmAddObjectDefToClass(startingUnits, rmClassID("startingUnit"));
 	rmAddObjectDefConstraint(startingUnits, avoidStartingUnits);
 
@@ -781,16 +782,6 @@ rmSetStatusText("",0.4);
 		rmAddObjectDefConstraint(nugget4, shortAvoidImportantItem);			// Added New
 		rmPlaceObjectDefAtLoc(nugget4, 0, 0.5, 0.5, rmRandInt(0,3));
 
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH()) {

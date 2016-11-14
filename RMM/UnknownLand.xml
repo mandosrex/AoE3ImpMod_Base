@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+imagepath = "ui\random_map\africa\unknown" 
+displayNameID = "130075" 
+details = "130076" 
+loadDetails = "130077" 
+loadBackground="ui\random_map\africa\unknown\unknown_map">
+   <loadss>ui\random_map\unknown\unknown_ss_01</loadss>
+   <loadss>ui\random_map\unknown\unknown_ss_02</loadss>
+   <loadss>ui\random_map\unknown\unknown_ss_03</loadss>
+</mapinfo>
+
+ 

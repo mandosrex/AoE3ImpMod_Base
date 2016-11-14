@@ -417,8 +417,9 @@ void main(void)
 	// Set up player starting locations. These are just used to place Caravels away from each other.
 
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
-	rmSetObjectDefMinDistance(startingUnits, 2.0);
-	rmSetObjectDefMaxDistance(startingUnits, 4.0);
+	rmSetObjectDefMinDistance(startingUnits, 6.0);
+	rmSetObjectDefMaxDistance(startingUnits, 10.0);
+	rmAddObjectDefConstraint(startingUnits, avoidAll);
 	rmAddObjectDefToClass(startingUnits, rmClassID("startingUnit"));
 	rmAddObjectDefToClass(startingUnits, rmClassID("player"));
 
@@ -575,16 +576,6 @@ if ( cNumberTeams == 2 )
 
 // *********************************** TREASURES *******************************
     
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH()) {

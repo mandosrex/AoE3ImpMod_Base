@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<randomMaps displayNameID="780833" imagepath="ui\random_map\randomland" helpTextID="780834" cannotReplace="">
+<randomMaps displayNameID="780833" imagepath="ui\random_map\africa\landmaps" helpTextID="780834" cannotReplace="">
   <map>Great Plains</map>
   <map>Rockies</map>
   <map>Sonora</map>
@@ -7,10 +7,20 @@
   <map>Yukon</map>
   <map>Andes</map>
   <map>Ozarks</map>
+  <map>Pampas</map>
   <map>Painted Desert</map>
   <map>Mongolia</map>
   <map>Deccan</map>
   <map>Himalayas</map>
+  <map>himalayasUpper</map>
   <map>siberia</map>
   <map>silkRoad</map>
+  <map>Nile River</map>
+  <map>Savanna Grass</map>
+  <map>Sahara</map>
+  <map>Congo</map>
+  <map>Kilimanjaro</map>
+  <map>indochina</map>
+  <map>UnknownLand</map>
+  <map>australia</map>
 </randomMaps>

@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+imagepath = "ui\random_map\rockies" 
+displayNameID = "130078" 
+details = "130079" 
+loadDetails = "130080" 
+loadBackground="ui\random_map\rockies\rockies_map">
+   <loadss>ui\random_map\africa\rockies\rockies_ss_01</loadss>
+   <loadss>ui\random_map\africa\rockies\rockies_ss_03</loadss>
+   <loadss>ui\random_map\africa\rockies\rockies_ss_03</loadss>
+</mapinfo>
+
+ 

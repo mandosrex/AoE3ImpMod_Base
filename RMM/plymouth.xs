@@ -40,9 +40,9 @@ void main(void)
    rmSetSubCiv(3, "Huron", true);
 
    // Picks the map size
-	int playerTiles = 12500;
+	int playerTiles = 11500;
    if (cNumberNonGaiaPlayers >4)
-		playerTiles = 11500;
+		playerTiles = 10500;
 
    // Picks default terrain and water
    rmSetSeaType("new england coast");
@@ -62,7 +62,7 @@ void main(void)
 	rmSetMapType("water");
 	rmSetWorldCircleConstraint(true);
 	rmSetWindMagnitude(2.0);
-	rmSetLightingSet("new england");
+	rmSetLightingSet("yellow_river_dry");
 	rmSetMapType("grass");
 
 	// Choose mercs.
@@ -370,7 +370,7 @@ void main(void)
 
    // Starting Unit placement
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
-	rmSetObjectDefMinDistance(startingUnits, 5.0);
+	rmSetObjectDefMinDistance(startingUnits, 6.0);
 	rmSetObjectDefMaxDistance(startingUnits, 10.0);
 	rmAddObjectDefToClass(startingUnits, rmClassID("startingUnit"));
 	rmAddObjectDefConstraint(startingUnits, avoidAll);
@@ -590,7 +590,7 @@ void main(void)
 
 	// FORESTS
    int forestTreeID = 0;
-   numTries = 6*cNumberNonGaiaPlayers;
+   numTries = 7*cNumberNonGaiaPlayers;
    failCount = 0;
 
    for (i = 0; <numTries)
@@ -598,7 +598,7 @@ void main(void)
       int forest = rmCreateArea("forest "+i, rmAreaID("big continent"));
       rmSetAreaWarnFailure(forest, false);
       rmSetAreaSize(forest, rmAreaTilesToFraction(200), rmAreaTilesToFraction(250));
-      rmSetAreaForestType(forest, "new england forest");
+      rmSetAreaForestType(forest, "Plymouth Forest");
       rmSetAreaForestDensity(forest, 1.0);
       rmSetAreaForestClumpiness(forest, 0.9);
       rmSetAreaForestUnderbrush(forest, 0.0);

@@ -424,8 +424,9 @@ void main(void)
   rmSetObjectDefMaxDistance(startingTCID, 8.0);
 
   int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
-  rmSetObjectDefMinDistance(startingUnits, 4.0);
-  rmSetObjectDefMaxDistance(startingUnits, 8.0);
+  rmSetObjectDefMinDistance(startingUnits, 6.0);
+  rmSetObjectDefMaxDistance(startingUnits, 10.0);
+  rmAddObjectDefConstraint(startingUnits, avoidAll);
   rmAddObjectDefConstraint(startingUnits, avoidStartingUnitsSmall);
   
   int StartFoodID=rmCreateObjectDef("starting food");
@@ -698,16 +699,6 @@ void main(void)
   rmSetNuggetDifficulty(4, 4);
   rmPlaceObjectDefPerPlayer(nuggetID3, false, 1);
   
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
     // check for KOTH game mode
   if(rmGetIsKOTH()) {

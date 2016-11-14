@@ -359,6 +359,7 @@ void main(void)
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
 	rmSetObjectDefMinDistance(startingUnits, 7.0);
 	rmSetObjectDefMaxDistance(startingUnits, 12.0);
+	rmAddObjectDefConstraint(startingUnits, avoidAll);
 
 	int startingTCID = rmCreateObjectDef("startingTC");
 	if ( rmGetNomadStart())
@@ -864,16 +865,6 @@ void main(void)
 			failCount=0; 
    }
    
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <16 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH()) {

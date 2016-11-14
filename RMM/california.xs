@@ -93,6 +93,9 @@ void main(void)
    rmSetLightingSet("california");
 	chooseMercs();
 
+   // Decoration avoidance
+   int avoidAll=rmCreateTypeDistanceConstraint("avoid all", "all", 6.9);
+
 	// Define some classes. These are used later for constraints.
 	int classPlayer=rmDefineClass("player");
 	rmDefineClass("classCliff");
@@ -110,6 +113,9 @@ void main(void)
 	int randomClass = rmDefineClass("randomAreaClass");
 	// Player placement
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
+	rmSetObjectDefMinDistance(startingUnits, 8.0);
+	rmSetObjectDefMaxDistance(startingUnits, 12.0);
+	rmAddObjectDefConstraint(startingUnits, avoidAll);
 
    // -------------Define constraints
    // These are used to have objects and areas avoid each other
@@ -172,9 +178,6 @@ void main(void)
 
    // Unit avoidance
    int avoidStartingUnits=rmCreateClassDistanceConstraint("objects avoid starting units", rmClassID("startingUnit"), 10.0);
-
-   // Decoration avoidance
-   int avoidAll=rmCreateTypeDistanceConstraint("avoid all", "all", 6.9);
 
    // VP avoidance
    int avoidTradeRoute = rmCreateTradeRouteDistanceConstraint("trade route", 12.0);
@@ -716,16 +719,6 @@ void main(void)
 
    // Define and place Nuggets
     
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH()) {

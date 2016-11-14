@@ -378,8 +378,8 @@ void main(void)
 	// DAL OLD - player setup/starting units for non-colony-ship guys
 	/*
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
-	rmSetObjectDefMinDistance(startingUnits, 2.0);
-	rmSetObjectDefMaxDistance(startingUnits, 4.0);
+	rmSetObjectDefMinDistance(startingUnits, 6.0);
+	rmSetObjectDefMaxDistance(startingUnits, 10.0);
 	rmAddObjectDefConstraint(startingUnits, avoidAll);
 
 	// Extra crates for the starting guys.
@@ -1049,16 +1049,6 @@ void main(void)
 	   	rmPlaceObjectDefAtLoc(colonyShipID, i, 1.0, 1.0, 1);
 	}   
 
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <16 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH()) {

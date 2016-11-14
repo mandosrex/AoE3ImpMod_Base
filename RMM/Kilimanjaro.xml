@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+imagepath = "ui\random_map\africa\kilimanjaro" 
+displayNameID = "130084"
+details = "130085" 
+loadDetails = "130086" 
+loadBackground="ui\random_map\africa\kilimanjaro\kilimanjaro_map">
+   <loadss>ui\random_map\africa\kilimanjaro\kilimanjaro_ss_01</loadss>
+   <loadss>ui\random_map\africa\kilimanjaro\kilimanjaro_ss_02</loadss>
+   <loadss>ui\random_map\africa\kilimanjaro\kilimanjaro_ss_03</loadss>
+</mapinfo>

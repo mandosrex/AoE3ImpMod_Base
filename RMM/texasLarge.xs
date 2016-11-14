@@ -217,14 +217,6 @@ void main(void)
    rmSetObjectDefMinDistance(bisonID, 0.0);
    rmSetObjectDefMaxDistance(bisonID, 5.0);
 
-   // wood resources
-   int randomTreeID=rmCreateObjectDef("random tree");
-   rmAddObjectDefItem(randomTreeID, "TreeTexasDirt", 1, 0.0);
-   rmSetObjectDefMinDistance(randomTreeID, 0.0);
-   rmSetObjectDefMaxDistance(randomTreeID, rmXFractionToMeters(0.5));
-   rmAddObjectDefConstraint(randomTreeID, avoidResource);
-   rmAddObjectDefConstraint(randomTreeID, avoidImpassableLand);
-
    // starting resources
 	int StartAreaTreeID=rmCreateObjectDef("starting trees");
 	rmAddObjectDefItem(StartAreaTreeID, "TreeTexasDirt", 1, 0.0);
@@ -421,7 +413,7 @@ void main(void)
    */
 	
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
-   rmSetObjectDefMinDistance(startingUnits, 5.0);
+   rmSetObjectDefMinDistance(startingUnits, 6.0);
    rmSetObjectDefMaxDistance(startingUnits, 10.0);
 	rmAddObjectDefConstraint(startingUnits, avoidAll);
 
@@ -910,7 +902,7 @@ void main(void)
 		rmAddAreaToClass(cliffEastID, rmClassID("classCliff"));	// Attempt to keep cliffs away from each other.
 		rmSetAreaCliffEdge(cliffEastID, 2, 0.4, 0.1, 1.0, 0);
 		rmSetAreaCliffPainting(cliffEastID, true, true, true, 1.5, true);
-		rmSetAreaCliffHeight(cliffEastID, 7, 1.0, 1.0);
+		rmSetAreaCliffHeight(cliffEastID, 5, 1.0, 1.0);
 		rmSetAreaHeightBlend(cliffEastID, 1);
 		rmAddAreaTerrainLayer(cliffEastID, "texas\ground2_tex", 0, 2);
 
@@ -951,7 +943,7 @@ void main(void)
 		rmAddAreaToClass(cliffWestID, rmClassID("classCliff"));	// Attempt to keep cliffs away from each other.
 		rmSetAreaCliffEdge(cliffWestID, 2, 0.4, 0.1, 1.0, 0);
 		rmSetAreaCliffPainting(cliffWestID, true, true, true, 1.5, true);
-		rmSetAreaCliffHeight(cliffWestID, 7, 1.0, 1.0);
+		rmSetAreaCliffHeight(cliffWestID, 5, 1.0, 1.0);
 		rmSetAreaHeightBlend(cliffWestID, 1);
 		rmAddAreaTerrainLayer(cliffWestID, "texas\ground2_tex", 0, 2);
 
@@ -1132,16 +1124,6 @@ void main(void)
 
 	// */
   
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <16 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH()) {
@@ -1201,9 +1183,17 @@ void main(void)
 	// Text
 	rmSetStatusText("",0.80);
 
-	/*
-	rmPlaceObjectDefAtLoc(randomTreeID, 0, 0.5, 0.5, 8*cNumberNonGaiaPlayers);
-	*/
+   // wood resources
+   int randomTreeID=rmCreateObjectDef("random tree");
+   rmAddObjectDefItem(randomTreeID, "TreeTexasDirt", 2, 4.0);
+   rmSetObjectDefMinDistance(randomTreeID, 0.0);
+   rmSetObjectDefMaxDistance(randomTreeID, rmXFractionToMeters(0.5));
+   rmAddObjectDefConstraint(randomTreeID, avoidAll);
+   rmAddObjectDefConstraint(randomTreeID, avoidResource);
+   rmAddObjectDefConstraint(randomTreeID, avoidImpassableLand);
+   rmAddObjectDefConstraint(randomTreeID, avoidCliffs);
+   rmAddObjectDefConstraint(randomTreeID, avoidTradeRoute);
+   rmPlaceObjectDefAtLoc(randomTreeID, 0, 0.5, 0.5, 8*cNumberNonGaiaPlayers);
 
 	// Text
 	rmSetStatusText("",0.90);

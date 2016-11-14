@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+imagepath = "ui\random_map\africa\newzealand" 
+displayNameID = "130114"
+details = "130115" 
+loadDetails = "130116" 
+loadBackground="ui\random_map\africa\newzealand\newzealand_map">
+   <loadss>ui\random_map\africa\newzealand\newzealand_ss_01</loadss>
+   <loadss>ui\random_map\africa\newzealand\newzealand_ss_02</loadss>
+   <loadss>ui\random_map\africa\newzealand\newzealand_ss_03</loadss>
+</mapinfo>

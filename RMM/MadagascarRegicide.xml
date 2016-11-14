@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+imagepath = "ui\random_map\africa\madagascar" 
+displayNameID = "130099"
+details = "130100" 
+loadDetails = "130101" 
+loadBackground="ui\random_map\africa\madagascar\madagascar_map">
+   <loadss>ui\random_map\africa\madagascar\madagascar_ss_01</loadss>
+   <loadss>ui\random_map\africa\madagascar\madagascar_ss_02</loadss>
+   <loadss>ui\random_map\africa\madagascar\madagascar_ss_03</loadss>
+</mapinfo>
+ 

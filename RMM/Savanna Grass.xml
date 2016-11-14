@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+imagepath = "ui\random_map\africa\savannah"
+displayNameID = "130090"
+details = "130091"
+loadDetails = "130092"
+loadBackground="ui\random_map\africa\savannah\savannah_map">
+   <loadss>ui\random_map\africa\savannah\savannah_ss_01</loadss>
+   <loadss>ui\random_map\africa\savannah\savannah_ss_02</loadss>
+   <loadss>ui\random_map\africa\savannah\savannah_ss_03</loadss>
+</mapinfo>

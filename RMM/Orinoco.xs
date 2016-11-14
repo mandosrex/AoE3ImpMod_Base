@@ -269,11 +269,17 @@ void main(void)
 	float topOrBottom = rmRandFloat(0.0, 1.0);
 
 	int startingUnits = rmCreateStartingUnitsObjectDef(5.0);
+	rmSetObjectDefMinDistance(startingUnits, 8.0);
+	rmSetObjectDefMaxDistance(startingUnits, 12.0);
+	rmAddObjectDefConstraint(startingUnits, avoidAll);
 	if(cNumberTeams > 2) //ffa
 	{
 		rmSetPlacementSection(0.10, 0.90);
 		rmSetTeamSpacingModifier(0.75);
 		rmPlacePlayersCircular(0.4, 0.4, 0);
+		rmAddObjectDefConstraint(startingUnits, avoidAll);
+		rmSetObjectDefMinDistance(startingUnits, 8.0);
+		rmSetObjectDefMaxDistance(startingUnits, 12.0);
 	}
 	else
 	{
@@ -284,6 +290,9 @@ void main(void)
 			rmSetPlacementSection(0.95, 0.25);
 			rmSetTeamSpacingModifier(.40);
 			rmPlacePlayersCircular(0.4, 0.4, rmDegreesToRadians(5.0));
+			rmAddObjectDefConstraint(startingUnits, avoidAll);
+			rmSetObjectDefMinDistance(startingUnits, 8.0);
+			rmSetObjectDefMaxDistance(startingUnits, 12.0);
 		}
 		else
 		{
@@ -291,6 +300,9 @@ void main(void)
 			rmSetPlacementSection(0.5, 0.75);
 			rmSetTeamSpacingModifier(0.40);
 			rmPlacePlayersCircular(0.4, 0.4, rmDegreesToRadians(5.0));
+			rmAddObjectDefConstraint(startingUnits, avoidAll);
+			rmSetObjectDefMinDistance(startingUnits, 8.0);
+			rmSetObjectDefMaxDistance(startingUnits, 12.0);
 
 		}
 	}
@@ -776,9 +788,9 @@ void main(void)
 	// Forest areas
 
 	if (cNumberNonGaiaPlayers > 4)
-		numTries=2*cNumberNonGaiaPlayers;
-	else
 		numTries=3*cNumberNonGaiaPlayers;
+	else
+		numTries=4*cNumberNonGaiaPlayers;
 	failCount=0;
 	for (i=0; <numTries)
 		{   
@@ -814,9 +826,9 @@ void main(void)
 		}
 
 	if (cNumberNonGaiaPlayers > 4)
-		numTries=2*cNumberNonGaiaPlayers;
+		numTries=3*cNumberNonGaiaPlayers;
 	else
-		numTries=3*cNumberNonGaiaPlayers; 
+		numTries=4*cNumberNonGaiaPlayers; 
 	failCount=0;
 	for (i=0; <numTries)
 		{   
@@ -851,7 +863,7 @@ void main(void)
 				failCount=0; 
 		}
 
-	numTries=4*cNumberNonGaiaPlayers;  
+	numTries=5*cNumberNonGaiaPlayers;  
 	failCount=0;
 	for (i=0; <numTries)
 		{   
@@ -869,7 +881,7 @@ void main(void)
 			rmSetAreaCoherence(forestRandomID, 0.4);
 			rmSetAreaSmoothDistance(forestRandomID, 10);
 			rmAddAreaToClass(forestRandomID, rmClassID("classForest"));
-			rmAddAreaConstraint(forestRandomID, avoidForestFar); 
+			rmAddAreaConstraint(forestRandomID, avoidForest); 
 			rmAddAreaConstraint(forestRandomID, shortAvoidImportantItem);
 			rmAddAreaConstraint(forestRandomID, playerConstraint);
 			rmAddAreaConstraint(forestRandomID, avoidRiver);
@@ -890,16 +902,6 @@ void main(void)
 	
 	// Resources that can be placed after forests
 
-    // Place random flags
-    int avoidFlags = rmCreateTypeDistanceConstraint("flags avoid flags", "ControlFlag", 70);
-    for ( i =1; <11 ) {
-    int flagID = rmCreateObjectDef("random flag"+i);
-    rmAddObjectDefItem(flagID, "ControlFlag", 1, 0.0);
-    rmSetObjectDefMinDistance(flagID, 0.0);
-    rmSetObjectDefMaxDistance(flagID, rmXFractionToMeters(0.40));
-    rmAddObjectDefConstraint(flagID, avoidFlags);
-    rmPlaceObjectDefAtLoc(flagID, 0, 0.5, 0.5);
-    }
 
   // check for KOTH game mode
   if(rmGetIsKOTH()) {

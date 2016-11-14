@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+imagepath = "ui\random_map\africa\indonesia" 
+displayNameID = "130117"
+details = "130118" 
+loadDetails = "130119" 
+loadBackground="ui\random_map\africa\indonesia\indonesia_map">
+   <loadss>ui\random_map\africa\indonesia\indonesia_ss_01</loadss>
+   <loadss>ui\random_map\africa\indonesia\indonesia_ss_02</loadss>
+   <loadss>ui\random_map\africa\indonesia\indonesia_ss_03</loadss>
+</mapinfo>
